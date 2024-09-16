@@ -1,8 +1,9 @@
 import './Header.css'
+import atomico from '../assets/Atomico.png'
 
 export const Header = () => {
   return (
-    <header>
+    <header className='flex'>
       <div className='w-1/2  flex items-center justify-center  h-screen'>
 
         <div className="pl-14 mb-20 ">
@@ -21,8 +22,8 @@ export const Header = () => {
         </div>
 
       </div>
-      <div className='w-1/2 bg-lime-200  flex items-center justify-center'>
-
+      <div className='w-1/2  flex items-center justify-center'>
+        <img src={atomico} alt="" className='mb-20 w-2/3'/>
       </div>
     </header>
   )

@@ -1,4 +1,4 @@
-import './Header.css'
+
 import atomico from '../assets/Atomico.png'
 
 export const Header = () => {

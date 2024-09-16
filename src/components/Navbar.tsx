@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { useState } from 'react';
-import './Navbar.css'
+
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = useState(null);
@@ -48,15 +48,15 @@ export default function ButtonAppBar() {
             component="div" 
             sx={{ flexGrow: 1, display: { xs: 'none', md: 'block' } }} // Oculto en pantallas pequeñas
           >
-            News
+            Atómico3
           </Typography>
 
           {/* Botones: ocultos en pantallas pequeñas, visibles en medianas y grandes */}
           <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-            <Button color="inherit" className='login'>Login</Button>
-            <Button color="inherit" className='sign'>Sign Up</Button>
+            <Button color="inherit" className='login'>Home</Button>
+            <Button color="inherit" className='sign'>About</Button>
             {/* Añadir más botones aquí */}
-            <Button color="inherit">About</Button>
+            <Button color="inherit">Referral</Button>
             <Button color="inherit">Contact</Button>
           </Box>
         </Toolbar>

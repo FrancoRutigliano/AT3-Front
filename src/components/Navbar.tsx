@@ -53,10 +53,10 @@ export default function ButtonAppBar() {
 
           {/* Botones: ocultos en pantallas pequeñas, visibles en medianas y grandes */}
           <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-            <Button color="inherit" className='login'>Home</Button>
+            <a color="inherit" href='/'>Home</a>
             <Button color="inherit" className='sign'>About</Button>
             {/* Añadir más botones aquí */}
-            <Button color="inherit">Referral</Button>
+            <a color="inherit" href='/terms '>Terms</a>
             <Button color="inherit">Contact</Button>
           </Box>
         </Toolbar>

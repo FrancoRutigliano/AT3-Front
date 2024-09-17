@@ -20,7 +20,7 @@ export const Footer = () => {
               <img src={atomicLogo} alt="" className='w-60' />
             </div>
 
-            <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
+            {/* <ul className="mt-8 flex justify-start gap-6 sm:mt-0 sm:justify-end">
               <li>
                 <a
                   href="#"
@@ -113,7 +113,7 @@ export const Footer = () => {
                   </svg>
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div
@@ -177,7 +177,7 @@ export const Footer = () => {
                 <li className='flex items-center'>
                 <img src={location} alt="location" className='lg:w-5 ml-2 mr-4' />
 
-                  <span className="text-white transition hover:opacity-75">Av. Santa Teresa y Coronel Escurra - Ycua Sati. Asunción Paraguay </span>
+                  <span className="text-white transition ">Av. Santa Teresa y Coronel Escurra - Ycua Sati. Asunción Paraguay </span>
                 </li>
               </ul>
             </div>
@@ -187,15 +187,15 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Contact </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> Buy Atomic3 </a>
+                </li>
+
+                <li>
+                  <a href="#" className="text-white transition hover:opacity-75"> Staking </a>
                 </li>
 
                 <li>
                   <a href="#" className="text-white transition hover:opacity-75"> FAQs </a>
-                </li>
-
-                <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Live Chat </a>
                 </li>
               </ul>
             </div>
@@ -205,25 +205,25 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Accessibility </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> Terms and Conditions </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Returns Policy </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> Privacy Policy </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a href="#" className="text-white transition hover:opacity-75"> Refund Policy </a>
                 </li>
 
                 <li>
                   <a href="#" className="text-white transition hover:opacity-75"> Hiring Statistics </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
 
-          <p className="text-xs text-white">&copy; 2022. Company Name. All rights reserved.</p>
+          <p className="text-xs text-white">&copy; 2024. Atómico3. All rights reserved.</p>
         </div>
       </footer>
     </>

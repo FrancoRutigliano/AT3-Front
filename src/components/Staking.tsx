@@ -3,45 +3,35 @@ import at3 from '../assets/at3.jpeg'
 import { Link } from 'react-router-dom'
 export const Staking = () => {
   return (
-    <>
-      {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
-
-      <section className="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
-        <div className="p-8 md:p-12 lg:px-16 lg:py-24 bg-dark-light">
-          <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-white md:text-3xl">
-              Staking
-            </h2>
-
-            <p className="hidden text-white md:mt-4 md:block ">
-              Do you want to know what it is?
-              How does it work? <br />
-              Click the link below to learn more!
-            </p>
-
-            <div className="mt-4 md:mt-8">
-              <Link
-                to="/staking"
-                target='_blanck'
-                className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
-              >
-               Learn more
-              </Link>
-            </div>
-          </div>
+    <section>
+    <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+        <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+          <img
+            alt=""
+            src={at3}
+            className="absolute inset-0 h-full w-full object-cover"
+          />
         </div>
-
-        <img
-          alt=""
-          src={at3}
-          className="h-32 w-full object-cover sm:h-2/3"
-        />
-      </section>
-
-    </>
+  
+        <div className="lg:py-24 lg:pl-12">
+          <h2 className="text-3xl font-medium sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">Staking</h2>
+  
+          <p className="mt-4 text-white py-2">
+          Do you want to know what it is? How does it work? <br />
+          Click the link below!
+          </p>
+  
+          <Link
+            to="/staking"
+            target='_blanck'
+            className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          >
+            Learn More
+          </Link>
+        </div>
+      </div>
+    </div>
+  </section>
   )
 }

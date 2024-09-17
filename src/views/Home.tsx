@@ -1,4 +1,5 @@
 import { AtomicInfo } from "../components/AtomicInfo"
+import { Faq } from "../components/Faq"
 import { Header } from "../components/Header"
 import { Invest } from "../components/Invest"
 import MenuAppBar from "../components/Navbar"
@@ -14,7 +15,8 @@ export const Home = () => {
     <VideoSection/>
     <Invest/>
     {/* <Staking/> */}
-    
+    <Faq/>
+
 </>
 
 )

@@ -1,9 +1,10 @@
 import { AtomicInfo } from "../components/AtomicInfo"
 import { Faq } from "../components/Faq"
+import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
 import { Invest } from "../components/Invest"
 import MenuAppBar from "../components/Navbar"
-import { Staking } from "../components/Staking"
+// import { Staking } from "../components/Staking"
 import { VideoSection } from "../components/VideoSection"
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
     <Invest/>
     {/* <Staking/> */}
     <Faq/>
+    <Footer/>
 
 </>
 

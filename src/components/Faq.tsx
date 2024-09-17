@@ -5,7 +5,7 @@ export const Faq = () => {
     <h1 className="lg:text-6xl font-medium sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center my-20">Faq</h1>
     <div className="space-y-4 lg:w-2/3 lg:mx-auto">
   <details
-    className="group rounded-lg bg-gray-50 p-6 bg-dark-light [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg  p-6 bg-dark-light [&_summary::-webkit-details-marker]:hidden"
     open
   >
     <summary

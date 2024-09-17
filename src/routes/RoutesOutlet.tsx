@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import { MainLayout } from "../views/MainLayout"
 import { Home } from "../views/Home"
 import { Terms } from "../views/Terms"
+import { StakingView } from "../views/StakingView"
 
 export const RoutesOutlet = () => {
     return (
@@ -11,6 +12,7 @@ export const RoutesOutlet = () => {
 
                 <Route index element={<Home/>} />
                 <Route path="terms" element={<Terms/>}/>
+                <Route path="staking" element={<StakingView/>}/>
                 
                 </Route>
 

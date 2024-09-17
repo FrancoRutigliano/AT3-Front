@@ -3,19 +3,19 @@ import { Faq } from "../components/Faq"
 import { Footer } from "../components/Footer"
 import { Header } from "../components/Header"
 import { Invest } from "../components/Invest"
-import MenuAppBar from "../components/Navbar"
-// import { Staking } from "../components/Staking"
+// import MenuAppBar from "../components/Navbar"
+import { Staking } from "../components/Staking"
 import { VideoSection } from "../components/VideoSection"
 
 export const Home = () => {
   return (
 <>
-    <MenuAppBar/>
+    {/* <MenuAppBar/> */}
     <Header/>
     <AtomicInfo/>
     <VideoSection/>
     <Invest/>
-    {/* <Staking/> */}
+    <Staking/>
     <Faq/>
     <Footer/>
 

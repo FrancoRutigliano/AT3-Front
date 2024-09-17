@@ -1,14 +1,17 @@
 // import { Button } from '@mui/material'
 
-import { Home } from "./views/Home"
+import { RoutesOutlet } from "./routes/routesOutlet";
+
+// import { MainLayout } from "./views/MainLayout"
+
+// import { Home } from "./views/Home"
 
 
 function App() {
 
   return (
     <>
-    <Home/>
-   
+  <RoutesOutlet/>
 
     </>
   )

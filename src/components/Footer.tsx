@@ -120,7 +120,7 @@ export const Footer = () => {
             className="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
           >
             <div>
-              <p className="font-medium text-white">Social Links</p>
+              <p className="font-medium text-celeste">Social Links</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li className='flex items-center '>
@@ -159,7 +159,7 @@ export const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-white">Contact</p>
+              <p className="font-medium text-celeste">Contact</p>
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className='flex items-center'>
@@ -183,7 +183,7 @@ export const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-white">Helpful Links</p>
+              <p className="font-medium text-celeste">Helpful Links</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -201,7 +201,7 @@ export const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-white">Legal</p>
+              <p className="font-medium text-celeste">Legal</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>

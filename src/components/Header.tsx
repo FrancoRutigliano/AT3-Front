@@ -34,10 +34,10 @@ export const Header = () => {
   return (
     <header className='flex flex-col-reverse md:flex-row '>
       {/* Sección de texto */}
-      <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4 md:p-8 md:p-0'>
-        <div className="md:pl-14 mb-10 md:mb-20 text-center md:text-left">
-          <h1 className=' font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-8xl '>Welcome to Atómico3</h1>
-          <p className='my-5 text-sm md:text-base lg:text-lg'>
+      <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  lg:mt-10'>
+        <div className=" mb-10 lg:mb-0  text-center md:text-left  lg:pl-8">
+          <h1 className=' font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl '>Welcome to Atómico3</h1>
+          <p className='my-5 text-sm md:text-base lg:text-lg lg:pr-20'>
             A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.
           </p>
           <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3'>
@@ -55,7 +55,7 @@ export const Header = () => {
 
       {/* Sección de imagen */}
       <div className=' w-full md:w-1/2 flex items-center justify-center'>
-        <img src={atomico} alt="Atomico Logo" className='max-w-[205px] w-1/3 md:w-2/3 md:w-full lg:mb-10 md:mb-20 mt-20 md:mt-0' />
+        <img src={atomico} alt="Atomico Logo" className='max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full md:mb-20 lg:mb-0 md:mt-0 ' />
       </div>
     </header>
   )

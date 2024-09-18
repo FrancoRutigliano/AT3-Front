@@ -1,6 +1,6 @@
 // import { Button } from '@mui/material'
 
-import { RoutesOutlet } from "./routes/routesOutlet";
+import { RoutesOutlet } from "./routes/RoutesOutlet";
 
 // import { MainLayout } from "./views/MainLayout"
 

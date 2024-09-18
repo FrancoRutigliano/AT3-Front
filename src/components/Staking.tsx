@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import at3 from '../assets/at3.jpeg'
 // import staking2 from '../assets/staking2.jpeg'
 import { Link } from 'react-router-dom'

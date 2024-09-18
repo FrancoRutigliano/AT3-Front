@@ -1,4 +1,4 @@
-import * as React from 'react';
+// import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,9 +15,9 @@ export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = useState(null);
 
   // Abre el menú al hacer clic en el icono del menú
-  const handleMenuClick = (event) => {
-    setAnchorEl(event.currentTarget);
-  };
+  // const handleMenuClick = (event) => {
+  //   setAnchorEl(event.currentTarget);
+  // };
 
   // Cierra el menú
   const handleCloseMenu = () => {
@@ -34,7 +34,7 @@ export default function ButtonAppBar() {
             edge="start"
             color="inherit"
             aria-label="menu"
-            onClick={handleMenuClick}
+            // onClick={handleMenuClick}
             sx={{ 
               mr: 2, 
               display: { xs: 'block', md: 'none' }  // Visible solo en pantallas pequeñas

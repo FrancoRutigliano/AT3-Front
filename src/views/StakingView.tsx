@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import staking2 from '../assets/staking2.jpeg'
 import staking   from '../assets/staking.png'
 

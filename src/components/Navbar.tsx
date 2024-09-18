@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom'
 import atomicLogo from '../assets/atomicLogo.png'
+import { useState } from 'react';
 
 export const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false); // Estado para controlar si el menú está abierto o cerrado
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen); // Cambia el estado al hacer clic en el botón del menú hamburguesa
+  };
   return (
     <header className="bg-dark-light text-white">
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -41,6 +47,14 @@ export const Navbar = () => {
               >
                 Terms and Conditions
               </Link>
+            </li>
+            <li>
+              <a
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                href='#faq-id'
+              >
+                Faqs
+              </a>
             </li>
             <li>
               <Link

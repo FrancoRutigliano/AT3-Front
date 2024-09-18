@@ -9,6 +9,11 @@ export const Navbar = () => {
     setIsOpen(!isOpen); // Cambia el estado al hacer clic en el botón del menú hamburguesa
   };
 
+  const closeMenu = () => {
+    console.log('hola')
+    setIsOpen(false)
+  }
+
   return (
     <header className="fixed top-0 left-0 w-full bg-dark-light text-white z-50">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
@@ -24,7 +29,7 @@ export const Navbar = () => {
             {/* Menú en pantallas grandes */}
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-sm">
-                <li>
+                <li >
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     to={'/'}
@@ -102,6 +107,7 @@ export const Navbar = () => {
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                   to={'/'}
+                  onClick={closeMenu}
                 >
                   Home
                 </Link>
@@ -110,6 +116,7 @@ export const Navbar = () => {
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                   to={'/staking'}
+                  onClick={closeMenu}
                 >
                   Staking
                 </Link>
@@ -118,6 +125,7 @@ export const Navbar = () => {
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                   to={'/terms'}
+                  onClick={closeMenu}
                 >
                   Terms and Conditions
                 </Link>
@@ -126,6 +134,7 @@ export const Navbar = () => {
                 <a
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                   href="/#faq-id"
+                  onClick={closeMenu}
                 >
                   Faqs
                 </a>
@@ -134,6 +143,7 @@ export const Navbar = () => {
                 <a
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                   href="#contact"
+                  onClick={closeMenu}
                 >
                   Contact
                 </a>

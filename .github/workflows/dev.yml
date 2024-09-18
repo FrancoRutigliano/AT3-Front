@@ -24,4 +24,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ghcr.io/FrancoRutigliano/AT3-Front:prod
+          tags: ghcr.io/francorutigliano/at3-front:prod

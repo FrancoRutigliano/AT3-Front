@@ -1,79 +1,116 @@
-// import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import { useState } from 'react';
+import { Link } from 'react-router-dom'
+import atomicLogo from '../assets/atomicLogo.png'
 
-
-export default function ButtonAppBar() {
-  const [anchorEl, setAnchorEl] = useState(null);
-
-  // Abre el menú al hacer clic en el icono del menú
-  // const handleMenuClick = (event) => {
-  //   setAnchorEl(event.currentTarget);
-  // };
-
-  // Cierra el menú
-  const handleCloseMenu = () => {
-    setAnchorEl(null);
-  };
-
+export const Navbar = () => {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static" color='transparent'  >
-        <Toolbar>
-          {/* Menú hamburguesa: solo visible en pantallas pequeñas */}
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            // onClick={handleMenuClick}
-            sx={{ 
-              mr: 2, 
-              display: { xs: 'block', md: 'none' }  // Visible solo en pantallas pequeñas
-            }}
-          >
-            <MenuIcon />
-          </IconButton>
+    <header className="bg-dark-light text-white">
+  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+    <div className="flex h-16 items-center justify-between">
+      <div className="flex-1 md:flex md:items-center md:gap-12">
+        <a className="block text-teal-600 dark:text-teal-300" href="#">
+          <span className="sr-only">Home</span>
+          <img src={atomicLogo} alt="logo" className='w-28 lg:w-40' />
+        </a>
+      </div>
 
-          <Typography 
-            variant="h6" 
-            component="div" 
-            sx={{ flexGrow: 1, display: { xs: 'none', md: 'block' } }} // Oculto en pantallas pequeñas
-          >
-            Atómico3
-          </Typography>
+      <div className="md:flex md:items-center md:gap-12">
+        <nav aria-label="Global" className="hidden md:block">
+          <ul className="flex items-center gap-6 text-sm">
+            <li>
+              <Link
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                to={'/'}
+              >
+                Home
+              </Link>
+            </li>
 
-          {/* Botones: ocultos en pantallas pequeñas, visibles en medianas y grandes */}
-          <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-            <a color="inherit" href='/'>Home</a>
-            <Button color="inherit" className='sign'>About</Button>
-            {/* Añadir más botones aquí */}
-            <a color="inherit" href='/terms '>Terms</a>
-            <Button color="inherit">Contact</Button>
-          </Box>
-        </Toolbar>
-      </AppBar>
+            <li>
+              <Link
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+              to={'/staking'}
+              >
+                Staking
+              </Link>
+            </li>
 
-      {/* Menú desplegable para pantallas pequeñas */}
-      <Menu
-        anchorEl={anchorEl}
-        open={Boolean(anchorEl)}
-        onClose={handleCloseMenu}
-      >
-        <MenuItem onClick={handleCloseMenu}>Login</MenuItem>
-        <MenuItem onClick={handleCloseMenu}>Sign Up</MenuItem>
-        {/* Añadir más elementos del menú aquí */}
-        <MenuItem onClick={handleCloseMenu}>About</MenuItem>
-        <MenuItem onClick={handleCloseMenu}>Contact</MenuItem>
-      </Menu>
-    </Box>
-  );
+            <li>
+              <Link
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                to={'/terms'}
+              >
+                Terms and Conditions
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                to={'/contact'}
+              >
+                Contact
+              </Link>
+            </li>
+
+
+            {/* <li>
+              <a
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                href="#"
+              >
+                Projects
+              </a>
+            </li> */}
+
+            {/* <li>
+              <a
+                className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                href="#"
+              >
+                Blog
+              </a>
+            </li> */}
+          </ul>
+        </nav>
+
+        <div className="flex items-center gap-4 bg-red-200">
+          {/* <div className="sm:flex sm:gap-4">
+            <a
+              className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow dark:hover:bg-teal-500"
+              href="#"
+            >
+              Login
+            </a>
+
+            <div className="hidden sm:flex">
+              <a
+                className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                href="#"
+              >
+                Register
+              </a>
+            </div>
+          </div> */}
+
+          <div className="block md:hidden">
+            <button
+              className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="size-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+  )
 }

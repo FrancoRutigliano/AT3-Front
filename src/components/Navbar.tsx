@@ -9,7 +9,8 @@ export const Navbar = () => {
     setIsOpen(!isOpen); // Cambia el estado al hacer clic en el botón del menú hamburguesa
   };
   return (
-    <header className="bg-dark-light text-white">
+    <header className="fixed top-0 left-0 w-full bg-dark-light text-white z-50">
+
   <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="flex h-16 items-center justify-between">
       <div className="flex-1 md:flex md:items-center md:gap-12">
@@ -51,18 +52,18 @@ export const Navbar = () => {
             <li>
               <a
                 className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                href='#faq-id'
+                href='/#faq-id'
               >
                 Faqs
               </a>
             </li>
             <li>
-              <Link
+              <a
                 className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                to={'/contact'}
+                href='#contact'
               >
                 Contact
-              </Link>
+              </a>
             </li>
 
 

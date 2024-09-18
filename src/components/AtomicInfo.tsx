@@ -9,7 +9,7 @@ export const AtomicInfo = () => {
         <section className=" text-white">
   <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
     <div className="mx-auto w-full text-center  ">
-      <h2 className="lg:text-7xl font-medium sm:text-4xl bg-custom-gradient bg-clip-text text-transparent ">What is Atómico3?</h2>
+      <h2 className=" text-4xl lg:text-7xl font-bold sm:text-5xl bg-custom-gradient bg-clip-text text-transparent ">What is Atómico3?</h2>
 
       <p className="mt-10 text-gray-300 w-full mx-auto lg:text-lg">
       Atómico3 is a token that represents the tokenization of mining assets, backed by lithium reserves certified under ni 43-101 standards. This process digitizes lithium reserves, allowing their commercialization on blockchain platforms. <br /> Atómico3 democratizes access to investment in natural resources, offering transparency, security and liquidity. With its innovative approach, Atómico3 facilitates sustainable investment and economic development in lithium-rich regions, positioning it as a high-value digital asset in the global market.

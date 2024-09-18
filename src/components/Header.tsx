@@ -32,7 +32,7 @@ import atomico from '../assets/Atomico.png'
 
 export const Header = () => {
   return (
-    <header className='flex flex-col md:flex-row bg-red-200'>
+    <header className='flex flex-col-reverse md:flex-row bg-red-200'>
       {/* Sección de texto */}
       <div className='bg-lime-200 w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-8 md:p-0'>
         <div className="md:pl-14 mb-10 md:mb-20 text-center md:text-left">
@@ -55,7 +55,7 @@ export const Header = () => {
 
       {/* Sección de imagen */}
       <div className='bg-sky-200 w-full md:w-1/2 flex items-center justify-center'>
-        <img src={atomico} alt="Atomico Logo" className='w-2/3 md:w-full mb-10 md:mb-20' />
+        <img src={atomico} alt="Atomico Logo" className='max-w-[205px] w-2/3 md:w-full lg:mb-10 md:mb-20 mt-20 md:mt-0' />
       </div>
     </header>
   )

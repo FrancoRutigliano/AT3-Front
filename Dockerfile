@@ -21,7 +21,7 @@ RUN npm run build
 FROM nginx:alpine AS production
 
 # Copia los archivos estáticos de la etapa de construcción al contenedor final
-COPY --from=builder /app/build /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Exponer el puerto 3000
 EXPOSE 3000

@@ -163,19 +163,19 @@ export const Footer = () => {
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className='flex items-center'>
-                  <img src={phone} alt="phone" className='w-6 lg:w-8 mr-2' />
+                  <img src={phone} alt="phone" className='w-6 lg:w-8 lg:mr-2 mr-1' />
                   <a href="#" className="text-white transition hover:cursor-default">+595 992 544500 </a>
                 </li>
 
                 <li className='flex items-center'>
-                  <img src={mail} alt="mail" className='w-4 lg:w-5 ml-2 mr-4' />
+                  <img src={mail} alt="mail" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
                   <a href="mailto:info@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
                     Info@atomico3.io
                   </a>
                 </li>
 
                 <li className='flex items-center'>
-                <img src={location} alt="location" className='w-4 lg:w-5 ml-2 mr-4' />
+                <img src={location} alt="location" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
 
                   <span className="text-white transition ">Av. Santa Teresa y Coronel Escurra - Ycua Sati. Asunción Paraguay </span>
                 </li>

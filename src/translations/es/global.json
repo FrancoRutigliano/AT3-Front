@@ -1,17 +1,21 @@
 {
-    "navbar": {
-      "inicio": "Inicio",
-      "staking": "Staking",
-      "legal": "Legal",
-      "preguntas frecuentes": "Preguntas Frecuentes",
-      "contacto": "Contacto"
-    },
-    "header":{
-      "bienvenido": "Bienvenido a Atómico3",
-      "criptoactivo": "Un criptoactivo respaldado por litio, que fomenta la sostenibilidad, mediante la reducción de emisiones de carbono, a través de incentivos tokenizados.",
-      "whitepaper": "Descargar Whitepaper",
-      "comprar token": "Comprar Token",
-      "staking": "staking"
-    }
+  "navbar": {
+    "inicio": "Inicio",
+    "staking": "Staking",
+    "legal": "Legal",
+    "preguntas frecuentes": "Preguntas Frecuentes",
+    "contacto": "Contacto"
+  },
+  "header": {
+    "bienvenido": "Bienvenido a Atómico3",
+    "criptoactivo": "Un criptoactivo respaldado por litio, que fomenta la sostenibilidad, mediante la reducción de emisiones de carbono, a través de incentivos tokenizados.",
+    "whitepaper": "Descargar Whitepaper",
+    "comprar token": "Comprar Token",
+    "staking": "staking"
+  },
+  "atomicInfo": {
+    "que es atomico": "¿Qué es Atómico3?",
+    "descripcion atomico p1":" Atómico3 es un token que representa la tokenización de activos mineros, respaldados por reservas de litio certificadas bajo normas ni 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain.", 
+    "descripcion atomico p2": "Atómico3 democratiza el acceso a la inversión en recursos naturales, ofreciendo transparencia, seguridad y liquidez. Con su enfoque innovador, Atómico3 facilita la inversión sostenible y el desarrollo económico en regiones ricas en litio, posicionándolo como un activo digital de alto valor en el mercado global."
   }
-  
+}

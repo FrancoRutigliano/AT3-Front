@@ -231,7 +231,7 @@ export const Faq = () => {
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
     El contrato de token es el siguiente en la red Polygon: 0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76 <br />
-Proyecciones para Atomico3: 800.000.000 Tokens At03 ||| 18 rondas: usd 1,56 ||| 34 rondas: usd 2,89 ||| 56 rondas: usd 4,6
+
     </p>
   </details>
   <details

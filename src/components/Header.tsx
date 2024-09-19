@@ -41,17 +41,17 @@ export const Header = () => {
             A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.
           </p>
 
-          
+
           <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3 lg:mt-3'>
-            <a href="/public/Wallpaper.pdf " download='Wallpaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 lg:py-3 rounded-md w-full  px-6 text-center'>
+            <a href="/public/Wallpaper.pdf " download='Wallpaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full  px-6 text-center'>
               <button className='text-sm '>Download Wallpaper</button>
             </a>
-            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient lg:py-3 rounded-md w-full px-6 text-center'>
+            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient py-2 lg:py-3 rounded-md w-full px-6 text-center'>
 
               <button className='text-sm'>Buy Token</button>
             </a>
 
-            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient lg:py-3 rounded-md w-full px-6 text-center'>
+            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient py-2 lg:py-3 rounded-md w-full px-6 text-center'>
 
               <button className='text-sm' >Staking</button>
             </a>

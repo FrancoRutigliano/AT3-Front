@@ -37,10 +37,10 @@ export const AtomicInfo = () => {
             >
               <img src={energy} alt="" className='w-12' />
 
-              <h2 className="mt-4 text-xl font-bold text-white">Criptoactivo Responsable</h2>
+              <h2 className="mt-4 text-xl font-bold text-white">{t("atomicInfo.criptoactivo responsable")}</h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Nuestro token está respaldado por litio real, con un valor que crece junto con la demanda de energía limpia.
+               {t("atomicInfo.criptoactivo responsable descripcion")}
               </p>
             </a>
 
@@ -50,10 +50,10 @@ export const AtomicInfo = () => {
             >
               <img src={investors} alt="investors" className='w-12' />
 
-              <h2 className="mt-4 text-xl font-bold text-white">Mercado Objetivo</h2>
+              <h2 className="mt-4 text-xl font-bold text-white">{t("atomicInfo.mercado objetivo")}</h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Inversores globales con visión. Ciudadanos comprometidos con la sostenibilidad.
+              {t("atomicInfo.mercado objetivo descripcion")}
               </p>
             </a>
 
@@ -63,10 +63,10 @@ export const AtomicInfo = () => {
             >
               <img src={platform} alt="platforms" className='w-12' />
 
-              <h2 className="mt-4 text-xl font-bold text-white">Plataformas Utilizadas</h2>
+              <h2 className="mt-4 text-xl font-bold text-white">{t("atomicInfo.plataformas utilizadas")}</h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                Blockchain, redes sociales oficiales y comunidades apasionadas, holders y entusiastas de la tecnología.
+              {t("atomicInfo.plataformas utilizadas descripcion")}
               </p>
             </a>
 

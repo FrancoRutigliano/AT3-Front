@@ -42,12 +42,16 @@ export const Header = () => {
           </p>
           <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3'>
             <button className='max-w-[270px] md:max-w-[298px] bg-custom-gradient py-2 rounded-md w-full px-6'>Staking</button>
-            <button className='max-w-[270px] md:max-w-[298px] relative py-[1px] rounded-md w-full '>
+            {/* <button className='max-w-[270px] md:max-w-[298px] relative py-[1px] rounded-md w-full '>
               <span className="absolute inset-0 p-px bg-gradient-to-r from-purple-600 to-cyan-400 rounded-md"></span>
               <span className="relative block bg-dark-blue text-white rounded-md px-6 py-2 text-black">
                 Download Wallpaper
               </span>
-            </button>
+            </button> */}
+            <a href="/public/Wallpaper.pdf" download='Wallpaper.pdf'>
+
+            <button >Download Wallpaper</button>
+            </a>
             <button  className='max-w-[270px] md:max-w-[298px] bg-custom-gradient py-2 rounded-md w-full  px-6'>Buy Token</button>
           </div>
         </div>

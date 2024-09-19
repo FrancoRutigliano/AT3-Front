@@ -5,10 +5,10 @@ import support from '../assets/support.png'
 export const Invest = () => {
   return (
     <>
-    <section className="text-white mt-36 ">
+    <section className="text-white ">
   <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto ">
     <div className="w-full">
-      <h2 className="text-3xl font-medium sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">Why invest in Atómico3 ?</h2>
+      <h2 className="text-3xl font-bold sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">Why invest in Atómico3 ?</h2>
 
       {/* <p className="mt-4 text-gray-300">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam

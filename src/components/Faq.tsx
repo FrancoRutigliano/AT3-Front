@@ -2,8 +2,8 @@
 export const Faq = () => {
   return (
     <>
-    <h1 id="faq-id" className="lg:text-6xl font-medium sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center my-20">Faq</h1>
-    <div className="space-y-4 lg:w-2/3 lg:mx-auto">
+    <h1 id="faq-id" className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20">Faqs</h1>
+    <div className="space-y-4 lg:w-2/3 lg:mx-auto px-4">
   <details
     className="group rounded-lg  p-6 bg-dark-light [&_summary::-webkit-details-marker]:hidden"
     open

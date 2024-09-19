@@ -11,15 +11,16 @@ export const Staking = () => {
           <img
             alt=""
             src={at3}
-            className="absolute inset-0 h-full w-full object-cover"
+            className="absolute inset-0 h-full w-full object-cover md:object-contain lg:object-cover"
           />
         </div>
   
-        <div className="lg:py-24 lg:pl-12">
-          <h2 className="text-3xl font-medium sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">Staking</h2>
+        <div className="lg:py-24 lg:pl-12 text-center lg:text-left">
+          <h2 className="text-3xl font-bold sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">Staking</h2>
   
           <p className="mt-4 text-white py-2">
-          Do you want to know what it is? How does it work? <br />
+          Do you want to know what it is? <br />
+          How does it work? <br />
           Click the link below!
           </p>
   

@@ -20,7 +20,7 @@ export const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <a className="block text-teal-600 dark:text-teal-300 " href="#">
-              <span className="sr-only ">Home</span>
+              <span className="sr-only ">Inicio</span>
               <img src={atomicLogo} alt="logo" className="w-28 lg:w-40" />
             </a>
           </div>
@@ -34,7 +34,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     to={'/'}
                   >
-                    Home
+                    Inicio
                   </Link>
                 </li>
                 <li>
@@ -50,7 +50,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     to={'/terms'}
                   >
-                    Terms and Conditions
+                    Legal
                   </Link>
                 </li>
                 <li>
@@ -58,7 +58,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     href="/#faq-id"
                   >
-                    Faqs
+                    Preguntas Frecuentes
                   </a>
                 </li>
                 <li>
@@ -66,7 +66,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     href="#contact"
                   >
-                    Contact
+                    Contacto
                   </a>
                 </li>
               </ul>

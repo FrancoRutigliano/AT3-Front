@@ -32,7 +32,8 @@ import { useTranslation } from 'react-i18next'
 import atomico from '../assets/Atomico.png'
 
 export const Header = () => {
-  const [t, i18n] = useTranslation("global")
+  // const [t, i18n] = useTranslation("global")
+  const [t ] = useTranslation("global")
   
   return (
     <header className='flex flex-col-reverse md:flex-row '>

@@ -8,7 +8,7 @@ export const Invest = () => {
     <section className="text-white ">
   <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto ">
     <div className="w-full">
-      <h2 className="text-3xl font-bold sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">Why invest in Atómico3 ?</h2>
+      <h2 className="text-3xl font-bold sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">¿Por qué invertir en Atómico3?</h2>
 
       {/* <p className="mt-4 text-gray-300">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam
@@ -24,10 +24,11 @@ export const Invest = () => {
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">Security Above All</h2>
+          <h2 className="text-lg font-bold">Seguridad
+          </h2>
 
           <p className="mt-1 text-sm text-gray-300">
-          Being backed by lithium, the currency can diversify the risks associated with traditional reserves like gold or fiat currencies. This can make it less susceptible to fluctuations in global financial markets and the monetary policies of fiat currency-issuing countries.
+          Al estar respaldada por litio, la moneda puede diversificar los riesgos asociados con las reservas tradicionales, como el oro o las divisas fiat. esto puede hacerla menos susceptible a las fluctuaciones en los mercados financieros globales y a las políticas monetarias de los países emisores de monedas fiat.
           </p>
         </div>
       </div>
@@ -38,10 +39,10 @@ export const Invest = () => {
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">Technolofy and benefits</h2>
+          <h2 className="text-lg font-bold">Tecnología y beneficios</h2>
 
           <p className="mt-1 text-sm text-gray-300">
-          The tokenization of lithium can revolutionize the way mineral resources are traded and used, providing significant benefits in terms of accessibility, liquidity, and transparency.
+          La tokenización del litio puede revolucionar la manera en que se comercian y utilizan los recursos minerales, proporcionando beneficios significativos en términos de accesibilidad, liquidez y transparencia.
           </p>
         </div>
       </div>
@@ -52,10 +53,10 @@ export const Invest = () => {
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">24/7 support</h2>
+          <h2 className="text-lg font-bold">Support</h2>
 
           <p className="mt-1 text-sm text-gray-300">
-          We are available for your inquiries 24 hours a day, 7 days a week.
+          Ofrecemos soporte para responder a cualquiera de sus consultas.
           </p>
         </div>
       </div>

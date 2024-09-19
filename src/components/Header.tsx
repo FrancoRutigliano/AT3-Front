@@ -41,18 +41,18 @@ export const Header = () => {
             A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.
           </p>
           <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3'>
-            <button className='max-w-[270px] md:max-w-[298px] bg-custom-gradient py-2 rounded-md w-full px-6'>Staking</button>
-            {/* <button className='max-w-[270px] md:max-w-[298px] relative py-[1px] rounded-md w-full '>
-              <span className="absolute inset-0 p-px bg-gradient-to-r from-purple-600 to-cyan-400 rounded-md"></span>
-              <span className="relative block bg-dark-blue text-white rounded-md px-6 py-2 text-black">
-                Download Wallpaper
-              </span>
-            </button> */}
-            <a href="/public/Wallpaper.pdf" download='Wallpaper.pdf'>
+            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient py-2 rounded-md w-full px-6 text-center'>
 
-            <button >Download Wallpaper</button>
+            <button className=''>Buy Token</button>
             </a>
-            <button  className='max-w-[270px] md:max-w-[298px] bg-custom-gradient py-2 rounded-md w-full  px-6'>Buy Token</button>
+           
+            <a href="/public/Wallpaper.pdf " download='Wallpaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 rounded-md w-full  px-6 text-center'>
+            <button className=' '>Download Wallpaper</button>
+            </a>
+            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient py-2 rounded-md w-full px-6 text-center'>
+
+            <button  >Staking</button>
+            </a>
           </div>
         </div>
       </div>

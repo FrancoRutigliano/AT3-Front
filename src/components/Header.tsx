@@ -40,16 +40,16 @@ export const Header = () => {
           <p className='my-5 text-sm md:text-base lg:text-lg lg:pr-20'>
             A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.
           </p>
-          <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3'>
-            <a href="/public/Wallpaper.pdf " download='Wallpaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-3 rounded-md w-full  px-6 text-center'>
+          <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3 lg:mt-3'>
+            <a href="/public/Wallpaper.pdf " download='Wallpaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 lg:py-3 rounded-md w-full  px-6 text-center'>
               <button className=' '>Download Wallpaper</button>
             </a>
-            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient py-3 rounded-md w-full px-6 text-center'>
+            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient lg:py-3 rounded-md w-full px-6 text-center'>
 
               <button>Buy Token</button>
             </a>
 
-            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient py-3 rounded-md w-full px-6 text-center'>
+            <a href="#" className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient lg:py-3 rounded-md w-full px-6 text-center'>
 
               <button  >Staking</button>
             </a>
@@ -58,7 +58,7 @@ export const Header = () => {
       </div>
 
       {/* Sección de imagen */}
-      <div className=' w-full md:w-1/2 flex items-center justify-center mt-20 md:mt-10 lg:mt-0'>
+      <div className=' w-full md:w-1/2 flex items-center justify-center mt-20 md:mt-10 lg:mt-20'>
         <img src={atomico} alt="Atomico Logo" className='max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full md:mb-20 lg:mb-0 md:mt-0 ' />
       </div>
     </header>

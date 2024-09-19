@@ -48,26 +48,26 @@ export const StakingView = () => {
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 --> */}
 
-<section className="overflow-hidden bg-dark-light sm:grid sm:grid-cols-2 ">
+<section className="overflow-hidden bg-dark-light sm:grid sm:grid-cols-2 pt-20 pb-10 ">
 <img
     alt=""
     src={staking}
-    className="h-56 w-full object-contain sm:h-full p-5 lg:rounded-xl  "
+    className="max-w-[200px] lg:max-w-[452px] w-2/3 mx-auto object-contain lg:object-contain sm:h-full  "
   />
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-    <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-    <h2 className="bg-custom-gradient bg-clip-text text-transparent  text-2xl font-bold md:text-6xl py-2">
+    <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
+    <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2">
         How can I do It ?
       </h2>
 
-      <p className="hidden text-white md:mt-4 md:block lg:text-xl">
+      <p className="text-sm text-white md:mt-4 md:block  lg:text-lg">
       To do this I must click on button below! Then, in the pop-up window, I will be asked to link my wallet (to be able to say from where my AT3 will come from). There will appear a form that I must fill in with my personal data and a contact email, this will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly.
       </p>
 
       <div className="mt-4 md:mt-8">
         <a
           href="#"
-          className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          className="mt-1 lg:mt-0 py-2 text-sm w-full max-w-[230px] lg:max-w-[320px] text-center inline-block rounded bg-custom-gradient px-12 lg:py-3 font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Staking
         </a>

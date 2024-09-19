@@ -11,7 +11,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 lg:text-2xl     text-white"
     >
-      <h2 className="font-medium text-celeste">What is Atómico3?</h2>
+      <h2 className="font-medium text-celeste">¿Qué es Atómico3? </h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -47,7 +47,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white lg:text-lg">
-    It is a lithium-based token.
+    Es un token con sustento en litio.
     </p>
   </details>
 
@@ -57,7 +57,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">Why don't I see the price of Atómico3 reflected in my wallet?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -93,7 +93,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    The token is currently on the waiting list to be listed on CoinMarketCap, which is why the price will be reflected soon.
+    El token se encuentra en lista de espera en CoinMarketCap para ser listado, es por ello que el precio se verá reflejado próximamente.
     </p>
   </details>
   <details
@@ -102,7 +102,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">Where can I see the valuation of Atómico3?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">¿Dónde puedo ver la valuación de Atómico3?</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -138,7 +138,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    You can see the current valuation of Atómico 3 on decentralized dexes like Quickswap
+    Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap.
     </p>
   </details>
   <details
@@ -147,7 +147,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">Why does the Atómico3 token have no liquidity?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">¿Por qué el token Atómico3 no tiene liquidez?</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -183,7 +183,9 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    The token was launched on August 12 and formal liquidity will be injected when it is listed on CoinMarketCap (for which we are working on).
+    El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando).
+
+
     </p>
   </details>
   <details
@@ -192,7 +194,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">What is the contract of Atómico3?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">¿Cuál es el contrato de Atómico3?</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -228,8 +230,8 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    The token contract is as follows on the Polygon network: 0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76 <br /> 
-     Projections for Atomico3: 800.000.000 Tokens At03 ||| 18 rounds: usd 1,56 ||| 34 rounds: usd 2,89 ||| 56 rounds: usd 4,6
+    El contrato de token es el siguiente en la red Polygon: 0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76 <br />
+Proyecciones para Atomico3: 800.000.000 Tokens At03 ||| 18 rondas: usd 1,56 ||| 34 rondas: usd 2,89 ||| 56 rondas: usd 4,6
     </p>
   </details>
   <details
@@ -238,7 +240,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">What's the price projection fot Atómico3 in the future?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">¿Proyección del precio de Atómico3 en el futuro?</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -274,9 +276,9 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    It will behave in relation to the international lithium carbonate price (li2co3).
+    Se comportará en relación al precio de carbonato de litio internacional (li2co3).
     <br />
-     Link to consult the current price: <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline">Click here!</a> 
+    Link para consultar el precio actual del carbonato de litio: <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline">Click here!</a> 
       
     </p>
   </details>
@@ -286,7 +288,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">Can I now make the staking of the AT3 I have acquired?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">¿Ya puedo hacer staking de los AT3 que adquirí?</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -322,10 +324,10 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    Yes, I can. To do this I must click on the blue button that says “staking” located at the top of the page. Then in the following window, I will be asked to link my wallet (to be able to say from where my AT3 will come from). There I will see a form that I must fill in with my personal data and a contact email, which will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly.
+    Si puedo. Para ello debo presionar en el botón azul que dice "staking" ubicado en la parte superior de la página. Luego en la ventana emergente, se me pedirá vincular mi wallet (para poder decir desde donde van a salir mis at3). Allí me aparecerá un formulario que debo completar con mis datos personales y un mail de contacto, ello me va a permitir elegir los AT3 que quiero colocar y los plazos posibles (60 días , 180 y 240 ). Finalmente aparecerá una confirmación sobre que quedó el mismo terminado correctamente.
     </p>
   </details>
-  <details
+  {/* <details
     className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
@@ -369,7 +371,7 @@ export const Faq = () => {
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
     The token is currently on the waiting list to be listed on CoinMarketCap, which is why the price will be reflected soon.
     </p>
-  </details>
+  </details> */}
 
 </div>
     </>

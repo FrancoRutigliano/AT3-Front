@@ -15,7 +15,7 @@ export const Staking = () => {
           />
         </div>
   
-        <div className="lg:py-24 lg:pl-12">
+        <div className="lg:py-24 lg:pl-12 text-center lg:text-left">
           <h2 className="text-3xl font-medium sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">Staking</h2>
   
           <p className="mt-4 text-white py-2">

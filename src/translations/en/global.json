@@ -1,10 +1,10 @@
 {
     "navbar": {
-      "home": "Home",
+      "inicio": "Home",
       "staking": "Staking",
-      "terms": "Terms and Conditions",
-      "faqs": "Faqs",
-      "contact": "Contact"
+      "legal": "Legal",
+      "preguntas frecuentes": "Faq",
+      "contacto": "Contact"
     }
   }
   

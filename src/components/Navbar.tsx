@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom';
 import atomicLogo from '../assets/atomicLogo.png';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
+  const [t, i18n] = useTranslation("global")
   const [isOpen, setIsOpen] = useState(false); // Estado para controlar si el menú está abierto o cerrado
 
   const toggleMenu = () => {
@@ -12,6 +14,10 @@ export const Navbar = () => {
   const closeMenu = () => {
     console.log('hola')
     setIsOpen(false)
+  }
+
+  const handleChangeLanguage = (lang: string) => {
+    i18n.changeLanguage(lang)
   }
 
   return (
@@ -34,7 +40,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     to={'/'}
                   >
-                    Inicio
+                    {t("navbar.inicio")}
                   </Link>
                 </li>
                 <li>
@@ -42,7 +48,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     to={'/staking'}
                   >
-                    Staking
+                    {t("navbar.staking")}
                   </Link>
                 </li>
                 <li>
@@ -50,7 +56,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     to={'/terms'}
                   >
-                    Legal
+                    {t("navbar.legal")}
                   </Link>
                 </li>
                 <li>
@@ -58,7 +64,7 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     href="/#faq-id"
                   >
-                    Preguntas Frecuentes
+                    {t("navbar.preguntas frecuentes")}
                   </a>
                 </li>
                 <li>
@@ -66,8 +72,13 @@ export const Navbar = () => {
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                     href="#contact"
                   >
-                    Contacto
+                    {t("navbar.contacto")}
                   </a>
+                </li>
+                <li>
+                  <button onClick={()=> handleChangeLanguage("en")}>EN</button>
+                  <button onClick={()=> handleChangeLanguage("es")}>ES</button>
+
                 </li>
               </ul>
             </nav>

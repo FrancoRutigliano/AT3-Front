@@ -19,9 +19,9 @@ export const Staking = () => {
           <h2 className="text-3xl font-bold sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">Staking</h2>
   
           <p className="mt-4 text-white py-2">
-          Do you want to know what it is? <br />
-          How does it work? <br />
-          Click the link below!
+          ¿Qué es? <br />
+          ¿Cómo funciona? <br />
+          ¡Clickea el enlace de abajo para saber!
           </p>
   
           <Link
@@ -29,7 +29,7 @@ export const Staking = () => {
             target='_blanck'
             className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
           >
-            Learn More
+            Saber más
           </Link>
         </div>
       </div>

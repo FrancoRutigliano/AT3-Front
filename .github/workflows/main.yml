@@ -25,3 +25,17 @@ jobs:
         with:
           push: true
           tags: ghcr.io/francorutigliano/at3-front:prod
+                    
+       - name: SSH and run command
+         uses: appleboy/ssh-action@v0.1.3
+         with:
+             host: ${{ secrets.SSH_HOST }}
+             port: ${{ secrets.SSH_PORT }}
+             username: ${{ secrets.SSH_USERNAME }}
+             password: ${{ secrets.SSH_PASSWORD }}
+             script: |
+               
+               echo "Conexión SSH exitosa"
+
+               /scriptsv2/deploy_front.sh
+               

@@ -12,14 +12,14 @@ export const StakingView = () => {
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 */}
 
-<section className="overflow-hidden bg-dark-light sm:grid sm:grid-cols-2 py-10">
+<section className="mt-20 lg:mt-0 flex flex-col-reverse overflow-hidden bg-dark-light sm:grid sm:grid-cols-2 py-10">
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h2 className="bg-custom-gradient bg-clip-text text-transparent  text-2xl font-bold md:text-6xl py-2">
         What is Staking?
       </h2>
 
-      <p className="hidden text-white md:mt-4 md:block  lg:text-lg">
+      <p className=" text-sm text-white md:mt-4 md:block  lg:text-lg">
       It consists of depositing your Atómico3 in a smart contract (0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the term you choose, benefiting from the interest according to the chosen term. They will be returned to your wallet once the term has expired (unless you choose to renew it for a new term).
       </p>
 
@@ -38,7 +38,7 @@ export const StakingView = () => {
     alt=""
     src={staking2}
     // className="rounded-lg w-2/3 object-cover sm:h-96 my-auto "
-    className='h-56 w-full object-cover sm:h-full'
+    className='h-56 w-full object-contain lg:object-cover sm:h-full'
   />
 </section>
 

@@ -48,7 +48,7 @@ export const Header = () => {
                 Download Wallpaper
               </span>
             </button>
-            <button className='max-w-[270px] md:max-w-[298px] bg-custom-gradient py-2 rounded-md w-full  px-6'>Buy Token</button>
+            <button  className='max-w-[270px] md:max-w-[298px] bg-custom-gradient py-2 rounded-md w-full  px-6'>Buy Token</button>
           </div>
         </div>
       </div>

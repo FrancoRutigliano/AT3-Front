@@ -124,35 +124,35 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li className='flex items-center '>
-                  <img src={facebook} alt="facebook" className='lg:w-5 mr-2' />
+                  <img src={facebook} alt="facebook" className='w-4 lg:w-5 mr-2' />
                   <a href="https://www.facebook.com/profile.php?id=61565306192045&mibextid=ZbWKwL" className="text-white transition hover:text-blue-500 hover:underline" target='_blanck'> Facebook</a>
                 </li>
 
                 <li className='flex items-center' >
-                  <img src={instagram} alt="insta" className='lg:w-5 mr-2' />
+                  <img src={instagram} alt="insta" className='w-4 lg:w-5 mr-2' />
                   <a href="#" className="text-white transition hover:text-blue-500 hover:underline"> Instagram </a>
                 </li>
 
                 <li className='flex items-center' >
-                  <img src={telegram} alt="telegram" className='lg:w-5 mr-2' />
+                  <img src={telegram} alt="telegram" className='w-4 lg:w-5 mr-2' />
                   <a href="#" className="text-white transition hover:text-blue-500 hover:underline"> Telegram </a>
                 </li>
 
                 <li className='flex items-center' >
-                  <img src={twitter} alt="twitter" className='lg:w-5 mr-2' />
+                  <img src={twitter} alt="twitter" className='w-4 lg:w-5 mr-2' />
                   <a href="https://x.com/Atomico3oficial?t=x7LBcGkemJSaTbmVD1q2Hw&s=09" className="text-white transition hover:text-blue-500 hover:underline"> X</a>
                 </li>
 
                 <li className='flex items-center' >
-                  <img src={tiktok} alt="tiktok" className='lg:w-5 mr-2' />
+                  <img src={tiktok} alt="tiktok" className='w-4 lg:w-5 mr-2' />
                   <a href="https://www.tiktok.com/@atomico3oficial?_t=8oPdJMeOgH0&_r=1" className="text-white transition hover:text-blue-500 hover:underline">Tiktok </a>
                 </li>
                 <li className='flex items-center' >
-                  <img src={linkedin} alt="linkedin" className='lg:w-5 mr-2' />
+                  <img src={linkedin} alt="linkedin" className='w-4 lg:w-5 mr-2' />
                   <a href="https://www.linkedin.com/company/atomico-3-sa/posts/" className="text-white transition hover:text-blue-500 hover:underline">Linkedin </a>
                 </li>
                 <li className='flex items-center' >
-                  <img src={youtube} alt="youtube" className='lg:w-5 mr-2' />
+                  <img src={youtube} alt="youtube" className='w-4 lg:w-5 mr-2' />
                   <a href="https://www.youtube.com/@atomico3oficial" className="text-white transition hover:text-blue-500 hover:underline">Youtube </a>
                 </li>
               </ul>
@@ -163,19 +163,19 @@ export const Footer = () => {
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className='flex items-center'>
-                  <img src={phone} alt="phone" className='lg:w-8 mr-2' />
+                  <img src={phone} alt="phone" className='w-6 lg:w-8 mr-2' />
                   <a href="#" className="text-white transition hover:cursor-default">+595 992 544500 </a>
                 </li>
 
                 <li className='flex items-center'>
-                  <img src={mail} alt="mail" className='lg:w-5 ml-2 mr-4' />
+                  <img src={mail} alt="mail" className='w-4 lg:w-5 ml-2 mr-4' />
                   <a href="mailto:info@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
                     Info@atomico3.io
                   </a>
                 </li>
 
                 <li className='flex items-center'>
-                <img src={location} alt="location" className='lg:w-5 ml-2 mr-4' />
+                <img src={location} alt="location" className='w-4 lg:w-5 ml-2 mr-4' />
 
                   <span className="text-white transition ">Av. Santa Teresa y Coronel Escurra - Ycua Sati. Asunción Paraguay </span>
                 </li>

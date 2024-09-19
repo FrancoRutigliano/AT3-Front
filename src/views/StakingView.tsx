@@ -12,10 +12,10 @@ export const StakingView = () => {
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 */}
 
-<section className="mt-20 lg:mt-0 flex flex-col-reverse overflow-hidden bg-dark-light sm:grid sm:grid-cols-2 py-10">
-  <div className="p-8 md:p-12 lg:px-16 lg:py-24">
-    <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-      <h2 className="bg-custom-gradient bg-clip-text text-transparent  text-2xl font-bold md:text-6xl py-2">
+<section className="pt-20 lg:mt-0 flex flex-col-reverse overflow-hidden bg-dark-light sm:grid sm:grid-cols-2 py-10">
+  <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
+    <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
+      <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2">
         What is Staking?
       </h2>
 
@@ -26,7 +26,7 @@ export const StakingView = () => {
       <div className="mt-4 md:mt-8">
         <a
           href="#"
-          className="inline-block rounded bg-emerald-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+          className="mt-1 lg:mt-0 py-2 text-sm w-full max-w-[230px] lg:max-w-[320px] text-center inline-block rounded bg-custom-gradient px-12 lg:py-3 font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Staking
         </a>
@@ -38,7 +38,7 @@ export const StakingView = () => {
     alt=""
     src={staking2}
     // className="rounded-lg w-2/3 object-cover sm:h-96 my-auto "
-    className='h-56 w-full object-contain lg:object-cover sm:h-full'
+    className='max-w-[200px] lg:max-w-[452px] w-2/3 mx-auto object-contain lg:object-contain sm:h-full'
   />
 </section>
 

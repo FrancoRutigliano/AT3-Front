@@ -5,6 +5,13 @@
       "legal": "Legal",
       "preguntas frecuentes": "Preguntas Frecuentes",
       "contacto": "Contacto"
+    },
+    "header":{
+      "bienvenido": "Bienvenido a Atómico3",
+      "criptoactivo": "Un criptoactivo respaldado por litio, que fomenta la sostenibilidad, mediante la reducción de emisiones de carbono, a través de incentivos tokenizados.",
+      "whitepaper": "Descargar Whitepaper",
+      "comprar token": "Comprar Token",
+      "staking": "staking"
     }
   }
   

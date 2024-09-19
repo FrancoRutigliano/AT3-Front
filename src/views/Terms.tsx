@@ -3,7 +3,7 @@ export const Terms = () => {
   return (
     <>
       
-      <h1 className="text-xl  font-bold lg:text-6xl text-center mt-24 mb-16 lg:my-24 bg-custom-gradient bg-clip-text text-transparent">AT3 Token Payment Terms and Conditions</h1>
+      <h1 className="text-xl  font-bold lg:text-6xl lg:px-10 text-center mt-24 mb-16 lg:mt-44 lg:mb-28 bg-custom-gradient bg-clip-text text-transparent">AT3 Token Payment Terms and Conditions</h1>
       <div className="space-y-4 lg:px-10 px-5">
         <details
           className="group border-s-4 border-celeste bg-dark-light p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden "

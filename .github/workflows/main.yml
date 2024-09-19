@@ -25,10 +25,10 @@ jobs:
         with:
           push: true
           tags: ghcr.io/francorutigliano/at3-front:prod
-                    
-       - name: SSH and run command
-         uses: appleboy/ssh-action@v0.1.3
-         with:
+          
+      - name: SSH and run command
+        uses: appleboy/ssh-action@v0.1.3
+        with:
              host: ${{ secrets.SSH_HOST }}
              port: ${{ secrets.SSH_PORT }}
              username: ${{ secrets.SSH_USERNAME }}

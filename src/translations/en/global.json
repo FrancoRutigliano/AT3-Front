@@ -42,7 +42,7 @@
     "clickea el enlace": "Click the link below to find out!",
     "saber mas": "Learn more"
   },
-  "faq":{
+  "faq": {
     "preguntas frecuentes": "FAQ",
     "que es atomico": "What is Atómico3?",
     "que es atomico descripcion": "Atomic 3 is a digital token backed by lithium reserves certified under NI 43-101. This process digitizes lithium reserves, allowing them to be traded on blockchain platforms.",
@@ -57,27 +57,49 @@
     "¿Proyección del precio de Atómico3 en el futuro?": "What's the price projection fot Atómico3 in the future?",
     "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Will behave in relation to the price of international lithium carbonate (li2co3).",
     "Link para consultar el precio actual del carbonato de litio": "Link to consult the current price of lithium carbonate:",
-    "Click aquí":"Click here!",
+    "Click aquí": "Click here!",
     "¿Ya puedo hacer staking de los AT3 que adquirí?": "Can I now do the staking of the AT3 that I purchased?",
-  "Si puedo": "Yes, I can. To do this I must click on the blue button that says 'staking' located at the top of the page. Then in the pop-up window, I will be asked to link my wallet (to be able to say from where my at3 will come from). There I will see a form that I must fill in with my personal data and a contact email, this will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly."
+    "Si puedo": "Yes, I can. To do this I must click on the blue button that says 'staking' located at the top of the page. Then in the pop-up window, I will be asked to link my wallet (to be able to say from where my at3 will come from). There I will see a form that I must fill in with my personal data and a contact email, this will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly."
   },
-  "footer":{
+  "footer": {
     "redes sociales": "Social Links",
     "contacto": "Contact",
     "links utiles": "Helpful Links",
     "Comprar Atómico3": "Buy Atómico3",
     "Preguntas Frecuentes": "FAQ",
-     "Términos y Condiciones": "Terms and Conditions",
+    "Términos y Condiciones": "Terms and Conditions",
     "Política de privacidad": "Privacy Policy",
     "todos los derechos reservados": "All rights reserved."
   },
-  "stakingView":{
-     "¿Qué es el Staking?": "What is Staking?",
+  "stakingView": {
+    "¿Qué es el Staking?": "What is Staking?",
     "¿Qué es el Staking? Descripcion": "It consists of depositing your Atómico3 in a smart contract (0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the term you choose, benefiting from the interest according to the chosen term. They will be returned to your wallet once the term has expired (unless you choose to renew it for a new term).",
     "¿Cómo lo puedo hacer?": "How can I do It?",
     "¿Cómo lo puedo hacer? descripcion": "Click on the button below! "
   },
-  "legal": {
-    "Términos y condiciones de pago del token AT3": "Términos y condiciones de pago del token AT3"
+  "terms": {
+    "Términos y condiciones de pago del token AT3": "AT3 Token Payment Terms and Conditions",
+    "General": "General",
+    "General descripcion": "These AT3 Token Payment Terms and Conditions ('AT3 Token Terms') apply to the use of the AT3 token as your selected payment method for eligible Atómico3.io products and services in certain jurisdictions. Please read these AT3 Token Terms carefully. By using AT3 Token as your payment method, you acknowledge and agree to be bound by these AT3 Token Terms. These AT3 Token Terms apply in addition to the terms and conditions contained in the Order Agreement and the Product Purchase Agreement. In the event of a conflict between these AT3 Token Terms and the Order Agreement or Product Purchase Agreement regarding transactions with the AT3 Token, these AT3 Token Terms will apply. If you do not agree with any of the terms and conditions in these AT3 Token Terms, please do not select AT3 Token as your payment method. We reserve the right to change, suspend, remove, disable or impose restrictions or limits on our acceptance of the AT3 token as a payment method for our products and services at any time and without liability to you, in our sole discretion.",
+    "El token AT3 como método de pago": "AT3 Token as a Payment Method",
+    "El token AT3 como método de pago p1": "When prompted during the purchase process, we may, at our discretion, allow you to select AT3 Token as a payment method for the purchase of eligible products and services in certain jurisdictions, as detailed in our AT3 Token Payments FAQ at www.atomic3.io/support/token-at3, which we may update from time to time. We may require you to provide us with additional information to verify your identity when selecting the AT3 token as your payment method. To make a payment in AT3 token, you need a digital wallet that supports AT3 token transfers to external digital wallets, compatible hardware, and internet access.",
+    "El token AT3 como método de pago p2": "If you decide to make an eligible purchase with AT3 token, you must select AT3 token as your payment method when prompted. We will provide you with a digital wallet address ('AT3 Token Address') in alphanumeric form and in QR code. This is the payment location where you will need to send the AT3 token from your digital wallet. You can copy and paste or manually enter the alphanumeric code we provide you into the recipient field in your digital wallet software, or if your digital wallet software supports QR codes, scan the QR code we provide using your device to auto-fill the recipient field with the alphanumeric code.",
+    "nota importante": "IMPORTANT NOTE",
+    "nota importante descripcion": "It is your responsibility to confirm and verify that the alphanumeric code provided is identical to the alphanumeric code displayed in your digital wallet software by scanning the QR code or copying and pasting the alphanumeric code. We will not be responsible for any loss of AT3 token or other digital assets as a result of sending AT3 token to an incorrect wallet address or sending a digital asset other than AT3 token.",
+    "Comisiones de la red del token AT3": "AT3 Token Network Commissions",
+    "Comisiones de la red del token AT3 descripcion": "You are responsible for paying directly all network fees associated with the transaction (“Transaction Fees”), in addition to the AT3 Token Price. If your digital wallet software does not automatically generate an amount for Transaction Fees, you will need to calculate the amount necessary for the transaction to be processed on the AT3 token network. For more details on Transaction Fees, please see the AT3 Token FAQ at www.atomic3.io/support/token-at3. The Transaction Fee covers the cost of verifying AT3 token transactions. We have no control over the Transaction Fee and do not receive any part of it.",
+    "Soporte de pago de tokens AT3": "AT3 Token Payment Support",
+    "Soporte de pago de tokens AT3 descripcion p1": "The AT3 token is the only digital asset we accept as payment for our products at this time. You cannot make purchases with us using any other digital assets, including other cryptocurrency tokens. Our digital wallet for AT3 token is not configured to detect or receive digital assets other than the AT3 token.",
+    "Soporte de pago de tokens AT3 descripcion p2": "MAKE SURE YOU DO NOT SEND DIGITAL ASSETS OTHER THAN THE AT3 TOKEN. IF YOU ATTEMPT TO SEND A DIGITAL ASSET TYPE OTHER THAN THE AT3 TOKEN, THAT DIGITAL ASSET MAY BE LOST OR IRRETRIEVABLY DESTROYED. WE WILL NOT BE RESPONSIBLE FOR ANY LOST OR DESTROYED DIGITAL ASSETS.",
+    "Transacciones completadas una vez confirmadas": "Transactions Completed once Confirmed",
+    "Transacciones completadas una vez confirmadas descripcion": "Once an AT3 token transaction is sent to the network, it will be unconfirmed for a period of time (generally less than an hour, but up to a day or more) until the network reflects such transfer in a specified number of consecutive blocks in the AT3 token network. Such number will be determined by us at our discretion. We will consider your transaction pending until the AT3 token network reflects the transaction in the required number of consecutive blocks. We will send you an email communication once we have received your payment.",
+    "Pagos insuficientes y excesivos": "Underpayments and overpayments",
+    "Pagos insuficientes y excesivos p1": "The price of the AT3 token can be volatile and subject to up and down movements. You are responsible for initiating an AT3 token payment for the exact amount indicated on the payment page within the AT3 Token Price Window. Each AT3 Token Price will expire after the AT3 Token Price Window. After the AT3 Token Price expires, you will need to request a new AT3 Token Price and AT3 Token Price Window on the payment page and you may need to restart the payment process.",
+    "Pagos insuficientes y excesivos p2": "Regarding order fees and/or deposits, if you transmit an amount other than the Price in AT3 Token, your order may fail, we may refund your order fee and/or deposit under these AT3 Token Terms, and you must resubmit payment in the correct amount in order for us to process your order.",
+    "En cuanto a los pagos finales": "Regarding final payments",
+    "i": "If you transfer less than the AT3 Token Price, we will retain your payment and apply it to the amount due, and you will be required to pay the outstanding balance.",
+    "ii": "If you transfer more than the AT3 Token Price, you will not be entitled to a refund of the excess amount."
+    
+
   }
 }

@@ -31,4 +31,4 @@ createRoot(document.getElementById('root')!).render(
   </StrictMode>,
 )
 
-/* COMENTARIO AGREGADO */
+

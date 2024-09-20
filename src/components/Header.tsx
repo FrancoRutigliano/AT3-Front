@@ -69,7 +69,7 @@ export const Header = () => {
 
       {/* Sección de imagen */}
       <div className=' w-full md:w-1/2 flex items-center justify-center mt-20 md:mt-10 lg:mt-20'>
-        <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[440px] w-1/3 md:w-2/3  md:w-full md:mb-20 lg:mb-0 md:mt-0 ' />
+        <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[440px] w-1/3 md:w-2/3  md:w-full md:mb-20 lg:mb-0 md:mt-0 animate-rotate-swing hover:cursor-pointer hover:shadow-xl shadow-[sky-500]' />
       </div>
     </header>
   )

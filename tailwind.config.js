@@ -6,6 +6,17 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'rotate-swing': 'swing 2s ease-in-out infinite', // Añade la animación
+      },
+      keyframes: {
+        swing: {
+          '0%, 100%': { transform: 'rotate(0deg)' },   // Empieza en posición normal
+          '25%': { transform: 'rotate(15deg)' },       // Gira a 15 grados en sentido horario
+          '50%': { transform: 'rotate(-15deg)' },      // Gira a -15 grados en sentido antihorario
+          '75%': { transform: 'rotate(10deg)' },       // Vuelve un poco en sentido horario
+        },
+      },
       colors:{
         'dark-blue': '#000024',
         'dark-light': '#0B1B42',

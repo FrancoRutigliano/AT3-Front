@@ -222,7 +222,7 @@ export const Terms = () => {
         >
           <summary className="flex cursor-pointer items-center justify-between gap-1.5">
             <h2 className="text-sm lg:text-2xl font-medium text-celeste">
-            Payments with AT3 Token are Final
+         {t("terms.Los pagos con el Token AT3 son definitivos")}
             </h2>
 
             <span
@@ -244,8 +244,10 @@ export const Terms = () => {
           </summary>
 
           <p className="text-[1rem} mt-4 text-gray-300">
-            Once you initiate an AT3 token transaction, the transaction cannot be reversed. This is inherent in the nature of the AT3 token network and is not a policy set by us.  <br />
-            <span className="text-celeste"> YOU ARE RESPONSIBLE FOR VERIFYING THAT YOU HAVE ENTERED THE CORRECT AT3 TOKEN ADDRESS IN THE RECIPIENT FIELD AND THE CORRECT AT3 TOKEN PRICE IN THE AMOUNT FIELD IN YOUR DIGITAL WALLET SOFTWARE.</span>
+          {t("terms.Los pagos con el Token AT3 son definitivos p1")}
+          <br />
+            <span className="text-celeste">{t("terms.Los pagos con el Token AT3 son definitivos p2")}
+            </span>
           </p>
         </details>
 
@@ -254,7 +256,7 @@ export const Terms = () => {
         >
           <summary className="flex cursor-pointer items-center justify-between gap-1.5">
             <h2 className="lg:text-2xl font-medium text-celeste">
-            AT3 Token Network Protocols
+         {t("terms.Protocolos de la red Token AT3")}
             </h2>
 
             <span
@@ -276,7 +278,7 @@ export const Terms = () => {
           </summary>
 
           <p className="text-[1rem} mt-4 text-gray-300">
-          We do not own or control the underlying software protocols that govern the operation of the AT3 token network. The AT3 token network protocols are open source and may be used, copied, modified and distributed by anyone. We are not responsible for the operation of the AT3 token network protocols. The AT3 token network protocols are subject to sudden changes in operating rules (e.g., forks), and such changes may materially affect the value, function and/or even the name of the AT3 token.
+          {t("terms.Protocolos de la red Token AT3 descripcion")}
           </p>
         </details>
 

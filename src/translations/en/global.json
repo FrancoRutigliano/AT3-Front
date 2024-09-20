@@ -98,7 +98,13 @@
     "Pagos insuficientes y excesivos p2": "Regarding order fees and/or deposits, if you transmit an amount other than the Price in AT3 Token, your order may fail, we may refund your order fee and/or deposit under these AT3 Token Terms, and you must resubmit payment in the correct amount in order for us to process your order.",
     "En cuanto a los pagos finales": "Regarding final payments",
     "i": "If you transfer less than the AT3 Token Price, we will retain your payment and apply it to the amount due, and you will be required to pay the outstanding balance.",
-    "ii": "If you transfer more than the AT3 Token Price, you will not be entitled to a refund of the excess amount."
+    "ii": "If you transfer more than the AT3 Token Price, you will not be entitled to a refund of the excess amount.",
+    "Los pagos con el Token AT3 son definitivos": "Payments with AT3 Token are Final",
+    "Los pagos con el Token AT3 son definitivos p1": "Once you initiate an AT3 token transaction, the transaction cannot be reversed. This is inherent in the nature of the AT3 token network and is not a policy set by us.",
+    "Los pagos con el Token AT3 son definitivos p2": "YOU ARE RESPONSIBLE FOR VERIFYING THAT YOU HAVE ENTERED THE CORRECT AT3 TOKEN ADDRESS IN THE RECIPIENT FIELD AND THE CORRECT AT3 TOKEN PRICE IN THE AMOUNT FIELD IN YOUR DIGITAL WALLET SOFTWARE.",
+    "Protocolos de la red Token AT3": "AT3 Token Network Protocols",
+    "Protocolos de la red Token AT3 descripcion": "We do not own or control the underlying software protocols that govern the operation of the AT3 token network. The AT3 token network protocols are open source and may be used, copied, modified and distributed by anyone. We are not responsible for the operation of the AT3 token network protocols. The AT3 token network protocols are subject to sudden changes in operating rules (e.g., forks), and such changes may materially affect the value, function and/or even the name of the AT3 token."
+
     
 
   }

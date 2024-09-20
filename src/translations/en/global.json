@@ -1,30 +1,40 @@
 {
-    "navbar": {
-      "inicio": "Home",
-      "staking": "Staking",
-      "legal": "Legal",
-      "preguntas frecuentes": "Faq",
-      "contacto": "Contact"
-    },
-    "header":{
-      "bienvenido": "Welcome to Atómico3",
-      "criptoactivo": "A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.",
-      "whitepaper": "Download Whitepaper",
-      "comprar token": "Buy Token",
-      "staking": "Staking"
-    },
-    "atomicInfo": {
-      "que es atomico": "What is Atómico3?",
-      "descripcion atomico p1":" Atomic3 is a token that represents the tokenization of mining assets, backed by lithium reserves certified under ni 43-101 standards. This process digitizes lithium reserves, allowing them to be traded on blockchain platforms.", 
-      "descripcion atomico p2": "Atómico3 democratizes access to investment in natural resources, offering transparency, security and liquidity. With its innovative approach, Atómico3 facilitates sustainable investment and economic development in lithium-rich regions, positioning it as a high-value digital asset in the global market.",
-      "criptoactivo responsable": "Responsible Cryptoasset",
-      "criptoactivo responsable descripcion": "Our token is backed by real lithium, with a value that grows alongside the demand for clean energy.",
-      "mercado objetivo": "Target Market",
-      "mercado objetivo descripcion": "Global investors with vision. Citizens committed to sustainability.",
-      "plataformas utilizadas": "Platforms Used",
-      "plataformas utilizadas descripcion": "Blockchain, official social networks and passionate communities, holders and technology enthusiasts."
+  "navbar": {
+    "inicio": "Home",
+    "staking": "Staking",
+    "legal": "Legal",
+    "preguntas frecuentes": "Faq",
+    "contacto": "Contact"
+  },
+  "header": {
+    "bienvenido": "Welcome to Atómico3",
+    "criptoactivo": "A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.",
+    "whitepaper": "Download Whitepaper",
+    "comprar token": "Buy Token",
+    "staking": "Staking"
+  },
+  "atomicInfo": {
+    "que es atomico": "What is Atómico3?",
+    "descripcion atomico p1": " Atomic3 is a token that represents the tokenization of mining assets, backed by lithium reserves certified under ni 43-101 standards. This process digitizes lithium reserves, allowing them to be traded on blockchain platforms.",
+    "descripcion atomico p2": "Atómico3 democratizes access to investment in natural resources, offering transparency, security and liquidity. With its innovative approach, Atómico3 facilitates sustainable investment and economic development in lithium-rich regions, positioning it as a high-value digital asset in the global market.",
+    "criptoactivo responsable": "Responsible Cryptoasset",
+    "criptoactivo responsable descripcion": "Our token is backed by real lithium, with a value that grows alongside the demand for clean energy.",
+    "mercado objetivo": "Target Market",
+    "mercado objetivo descripcion": "Global investors with vision. Citizens committed to sustainability.",
+    "plataformas utilizadas": "Platforms Used",
+    "plataformas utilizadas descripcion": "Blockchain, official social networks and passionate communities, holders and technology enthusiasts."
+  },
+  "videoSection": {
+    "video section title": "Watch the video to learn more!"
+  },
+  "InvestSection": {
+    "¿Por qué invertir en Atómico3?": "Why invest in Atómico3?",
+    "Seguridad": "Security",
+    "Seguridad descripcion": "By being backed by lithium, the currency can diversify the risks associated with traditional reserves, such as gold or fiat currencies. this may make it less susceptible to fluctuations in global financial markets and the monetary policies of fiat currency issuing countries.",
+    "tecnologia y beneficios": "Technology and Benefits",
+    "tecnologia y beneficios descripcion": "The tokenization of lithium can revolutionize the way mineral resources are traded and used, providing significant benefits in terms of accessibility, liquidity, and transparency.",
+    "soporte": "Support",
+    "soporte descripcion": "We offer support to answer any of your inquiries."
 
-      
-    }
   }
-  
+}

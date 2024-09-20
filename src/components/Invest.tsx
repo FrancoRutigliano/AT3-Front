@@ -1,14 +1,17 @@
 import padlock from '../assets/padlock.png'
 import technology from '../assets/technology.png'
 import support from '../assets/support.png'
+import { useTranslation } from 'react-i18next'
 
 export const Invest = () => {
+  const [t] = useTranslation("global")
+
   return (
     <>
     <section className="text-white ">
   <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto ">
     <div className="w-full">
-      <h2 className="text-3xl font-bold sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">¿Por qué invertir en Atómico3?</h2>
+      <h2 className="text-3xl font-bold sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">{t("InvestSection.¿Por qué invertir en Atómico3?")}</h2>
 
       {/* <p className="mt-4 text-gray-300">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores iure fugit totam
@@ -24,11 +27,11 @@ export const Invest = () => {
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">Seguridad
+          <h2 className="text-lg font-bold">{t("InvestSection.Seguridad")}
           </h2>
 
           <p className="mt-1 text-sm text-gray-300">
-          Al estar respaldada por litio, la moneda puede diversificar los riesgos asociados con las reservas tradicionales, como el oro o las divisas fiat. esto puede hacerla menos susceptible a las fluctuaciones en los mercados financieros globales y a las políticas monetarias de los países emisores de monedas fiat.
+          {t("InvestSection.Seguridad descripcion")}
           </p>
         </div>
       </div>
@@ -39,9 +42,10 @@ export const Invest = () => {
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">Tecnología y beneficios</h2>
+          <h2 className="text-lg font-bold">{t("InvestSection.tecnologia y beneficios")}</h2>
 
           <p className="mt-1 text-sm text-gray-300">
+          {t("InvestSection.tecnologia y beneficios descripcion")}            
           La tokenización del litio puede revolucionar la manera en que se comercian y utilizan los recursos minerales, proporcionando beneficios significativos en términos de accesibilidad, liquidez y transparencia.
           </p>
         </div>
@@ -53,10 +57,10 @@ export const Invest = () => {
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">Support</h2>
+          <h2 className="text-lg font-bold"> {t("InvestSection.soporte")}  </h2>
 
           <p className="mt-1 text-sm text-gray-300">
-          Ofrecemos soporte para responder a cualquiera de sus consultas.
+          {t("InvestSection.soporte descripcion")}
           </p>
         </div>
       </div>

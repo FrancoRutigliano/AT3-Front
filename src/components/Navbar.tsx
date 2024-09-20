@@ -27,10 +27,10 @@ export const Navbar = () => {
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
-            <a className="block text-teal-600 dark:text-teal-300 " href="#">
+            <Link className="block text-teal-600 dark:text-teal-300 hover:cursor-pointer" to={'/'}>
               <span className="sr-only ">Inicio</span>
               <img src={atomicLogo} alt="logo" className="w-28 lg:w-40" />
-            </a>
+            </Link>
           </div>
 
           <div className="md:flex md:items-center md:gap-12">
@@ -38,44 +38,44 @@ export const Navbar = () => {
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-sm">
                 <li >
-                  <a
+                  <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    href='/'
+                    to={'/'}
                   >
                     {t("navbar.inicio")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    href='/staking'
+                    to={'/staking'}
                   >
                     {t("navbar.staking")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    href='/legal'
+                    to={'/legal'}
                   >
                     {t("navbar.legal")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    href="/#faq"
+                    to={"/#faq"}
                   >
                     {t("navbar.preguntas frecuentes")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    href="#contact"
+                    to={"#contact"}
                   >
                     {t("navbar.contacto")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <button onClick={()=> handleChangeLanguage("en")}>

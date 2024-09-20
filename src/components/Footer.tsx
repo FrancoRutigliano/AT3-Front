@@ -10,6 +10,7 @@ import phone from '../assets/contact_icons/phone.png'
 import mail from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 // import { Link } from 'react-router-dom'
 
 export const Footer = () => {
@@ -115,7 +116,7 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="/legal" className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Términos y Condiciones")} </a>
+                  <Link to={"/legal"} className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Términos y Condiciones")} </Link>
                 </li>
 
                 {/* <li>

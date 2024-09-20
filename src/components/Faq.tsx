@@ -1,10 +1,9 @@
 import React from "react"
 import { useTranslation } from "react-i18next"
 
-export const Faq = React.forwardRef<HTMLDivElement>((ref: any) => {
+export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
 
   const [t] = useTranslation("global")
-
   return (
     <>
     <h1 id="faq" ref={ref} className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20 lg:py-2">{t("faq.preguntas frecuentes")}</h1>

@@ -11,7 +11,7 @@ export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (window.location.hash == '#faq') {
+    if (window.location.hash ==  '#faq') {
       faqRef.current?.scrollIntoView({ behavior: 'smooth' });
     }
   }, []);

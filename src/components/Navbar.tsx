@@ -36,36 +36,36 @@ export const Navbar = () => {
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-sm">
                 <li >
-                  <Link
+                  <a
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    to={'/'}
+                    href='/'
                   >
                     {t("navbar.inicio")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    to={'/staking'}
+                    href='/staking'
                   >
                     {t("navbar.staking")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    to={'/legal'}
+                    href='/legal'
                   >
                     {t("navbar.legal")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    to={"/#faq"}
+                    href="/#faq"
                   >
                     {t("navbar.preguntas frecuentes")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <a

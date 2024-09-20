@@ -3,7 +3,7 @@
 import { useTranslation } from "react-i18next"
 
 export const VideoSection = () => {
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
 
   return (
 

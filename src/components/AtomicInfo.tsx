@@ -4,12 +4,11 @@ import investors from '../assets/Investors.png'
 import platform from '../assets/platform.png'
 export const AtomicInfo = () => {
 
-  const [t, i18n] = useTranslation("global")
+  const [t ] = useTranslation("global")
 
   return (
 
     <>
-
       <section className=" text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
           <div className="mx-auto w-full text-center  ">

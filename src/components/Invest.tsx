@@ -56,6 +56,7 @@ export const Invest = () => {
           <img src={support} alt="support" className='w-12' />
         </span>
 
+
         <div>
           <h2 className="text-lg font-bold"> {t("InvestSection.soporte")}  </h2>
 

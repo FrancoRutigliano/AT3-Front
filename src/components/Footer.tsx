@@ -10,7 +10,7 @@ import phone from '../assets/contact_icons/phone.png'
 import mail from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   const [t] = useTranslation("global")

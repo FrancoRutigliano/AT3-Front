@@ -1,7 +1,7 @@
 import React from "react"
 import { useTranslation } from "react-i18next"
 
-export const Faq = React.forwardRef<HTMLDivElement>((props, ref) => {
+export const Faq = React.forwardRef<HTMLDivElement>((ref: any) => {
 
   const [t] = useTranslation("global")
 

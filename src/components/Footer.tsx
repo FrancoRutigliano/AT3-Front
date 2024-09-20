@@ -68,7 +68,7 @@ export const Footer = () => {
             </div>
 
             <div>
-              <p className="font-medium text-celeste">Contacto</p>
+              <p className="font-medium text-celeste">{t("footer.contacto")}</p>
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className='flex items-center'>
@@ -96,7 +96,7 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Comprar Atómico3 </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> {t("footer.Comprar Atómico3")}</a>
                 </li>
 
                 <li>
@@ -104,7 +104,7 @@ export const Footer = () => {
                 </li>
 
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Preguntas Frecuentes</a>
+                  <a href="#" className="text-white transition hover:opacity-75"> {t("footer.Preguntas Frecuentes")}</a>
                 </li>
               </ul>
             </div>
@@ -114,11 +114,11 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Términos y condiciones </a>
+                  <a href="#" className="text-white transition hover:opacity-75"> {t("footer.Términos y Condiciones")} </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Política de privacidad </a>
+                  <a href="#" className="text-white transition hover:opacity-75">{t("footer.Política de privacidad")} </a>
                 </li>
 
                 {/* <li>

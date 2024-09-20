@@ -1,8 +1,11 @@
 // import React from 'react'
+import { useTranslation } from 'react-i18next'
 import at3 from '../assets/at3.jpeg'
 // import staking2 from '../assets/staking2.jpeg'
 import { Link } from 'react-router-dom'
 export const Staking = () => {
+  const [t] = useTranslation("global")
+
   return (
     <section>
     <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
@@ -18,11 +21,9 @@ export const Staking = () => {
         <div className="lg:py-24 lg:pl-12 text-center lg:text-left">
           <h2 className="text-3xl font-bold sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">Staking</h2>
   
-          <p className="mt-4 text-white py-2">
-          ¿Qué es? <br />
-          ¿Cómo funciona? <br />
-          ¡Clickea el enlace de abajo para saber!
-          </p>
+          <p className="mt-2 lg:mt-4 text-white ">{t("staking.que es")}</p>
+          <p className=' text-white '>{t("staking.como funciona")}</p>
+          <p className=' text-white '>{t("staking.clickea el enlace")}</p>
   
           <Link
             to="/staking"

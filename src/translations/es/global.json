@@ -35,8 +35,12 @@
     "tecnologia y beneficios descripcion": "La tokenización del litio puede revolucionar la manera en que se comercian y utilizan los recursos minerales, proporcionando beneficios significativos en términos de accesibilidad, liquidez y transparencia.",
     "soporte": "Soporte",
     "soporte descripcion": "Ofrecemos soporte para responder a cualquiera de sus consultas."
-
-
+  },
+  "staking": {
+    "que es": "¿Qué es?",
+    "como funciona": "¿Cómo funciona?",
+    "clickea el enlace": "¡Clickea el enlace de abajo para saber más!",
+    "saber mas": "Saber Más"
   }
   
 }

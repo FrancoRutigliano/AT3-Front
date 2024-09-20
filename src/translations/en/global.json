@@ -35,6 +35,11 @@
     "tecnologia y beneficios descripcion": "The tokenization of lithium can revolutionize the way mineral resources are traded and used, providing significant benefits in terms of accessibility, liquidity, and transparency.",
     "soporte": "Support",
     "soporte descripcion": "We offer support to answer any of your inquiries."
-
+  },
+  "staking": {
+    "que es": "What is It?",
+    "como funciona": "How does it work?",
+    "clickea el enlace": "Click the link below to find out!",
+    "saber mas": "Learn more"
   }
 }

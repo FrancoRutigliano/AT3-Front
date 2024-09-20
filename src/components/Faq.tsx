@@ -1,11 +1,13 @@
+import React from "react"
 import { useTranslation } from "react-i18next"
 
-export const Faq = () => {
+export const Faq = React.forwardRef<HTMLDivElement>((props, ref) => {
+
   const [t] = useTranslation("global")
 
   return (
     <>
-    <h1 id="faq-id" className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20 lg:py-2">{t("faq.preguntas frecuentes")}</h1>
+    <h1 id="faq" ref={ref} className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20 lg:py-2">{t("faq.preguntas frecuentes")}</h1>
     <div className="space-y-4 lg:w-2/3 lg:mx-auto px-4">
   <details
     className="group rounded-lg  p-6 bg-dark-light [&_summary::-webkit-details-marker]:hidden"
@@ -379,4 +381,4 @@ export const Faq = () => {
 </div>
     </>
   )
-}
+})

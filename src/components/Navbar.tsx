@@ -60,12 +60,12 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
+                  <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    href="/#faq-id"
+                    to={"/#faq"}
                   >
                     {t("navbar.preguntas frecuentes")}
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a

@@ -68,12 +68,16 @@
     "Comprar Atómico3": "Comprar Atómico3",
     "Preguntas Frecuentes": "Preguntas Frecuentes",
     "Términos y Condiciones": "Términos y Condiciones",
-    "Política de privacidad": "Política de privacidad"
+    "Política de privacidad": "Política de privacidad",
+    "todos los derechos reservados": "Todos los derechos reservados."
   },
   "stakingView": {
     "¿Qué es el Staking?": "¿Qué es el Staking?",
     "¿Qué es el Staking? Descripcion": "Consiste en depositar tus Atómico3 en un contrato inteligente (0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que elijas, beneficiándote de los intereses según el plazo elegido. Serán devueltos a tu monedero una vez finalizado el plazo (salvo que elijas renovarlo por un nuevo plazo).",
     "¿Cómo lo puedo hacer?": "¿Cómo lo puedo hacer?",
-    "¿Cómo lo puedo hacer? descripcion": "Para ello, debo hacer clic en el botón de abajo. A continuación, en la ventana emergente, se me pedirá que vincule mi monedero (para poder decir de dónde saldrá mi AT3). Aparecerá un formulario que debo rellenar con mis datos personales y un email de contacto, esto me permitirá elegir el AT3 que quiero colocar y los plazos posibles (60 días, 180 y 240). Por último, aparecerá una confirmación de que se ha rellenado correctamente."
+    "¿Cómo lo puedo hacer? descripcion": "¡Haz clic en el botón de abajo!"
+  },
+  "legal": {
+    
   }
 }

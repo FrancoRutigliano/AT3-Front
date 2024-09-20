@@ -54,7 +54,7 @@ export const Navbar = () => {
                 <li>
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    to={'/terms'}
+                    to={'/legal'}
                   >
                     {t("navbar.legal")}
                   </Link>

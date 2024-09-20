@@ -10,6 +10,7 @@ import phone from '../assets/contact_icons/phone.png'
 import mail from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   const [t] = useTranslation("global")
@@ -114,25 +115,18 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> {t("footer.Términos y Condiciones")} </a>
+                  <Link to={"/legal"} className="text-white transition hover:opacity-75"> {t("footer.Términos y Condiciones")} </Link>
                 </li>
 
                 <li>
                   <a href="#" className="text-white transition hover:opacity-75">{t("footer.Política de privacidad")} </a>
                 </li>
 
-                {/* <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Refund Policy </a>
-                </li>
-
-                <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Hiring Statistics </a>
-                </li> */}
               </ul>
             </div>
           </div>
 
-          <p className="text-xs text-white">&copy; 2024. Atómico3. All rights reserved.</p>
+          <p className="text-xs text-white">&copy; 2024. Atómico3. {t("footer.todos los derechos reservados")}</p>
         </div>
       </footer>
     </>

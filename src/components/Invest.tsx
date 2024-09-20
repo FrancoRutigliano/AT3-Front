@@ -46,7 +46,6 @@ export const Invest = () => {
 
           <p className="mt-1 text-sm text-gray-300">
           {t("InvestSection.tecnologia y beneficios descripcion")}            
-          La tokenización del litio puede revolucionar la manera en que se comercian y utilizan los recursos minerales, proporcionando beneficios significativos en términos de accesibilidad, liquidez y transparencia.
           </p>
         </div>
       </div>

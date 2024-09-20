@@ -97,15 +97,15 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> {t("footer.Comprar Atómico3")}</a>
+                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Comprar Atómico3")}</a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> Staking </a>
+                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline"> Staking </a>
                 </li>
 
                 <li>
-                  <a href="#" className="text-white transition hover:opacity-75"> {t("footer.Preguntas Frecuentes")}</a>
+                  <a href="#faq" className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Preguntas Frecuentes")}</a>
                 </li>
               </ul>
             </div>
@@ -115,12 +115,12 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <Link to={"/legal"} className="text-white transition hover:opacity-75"> {t("footer.Términos y Condiciones")} </Link>
+                  <a href="/legal" className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Términos y Condiciones")} </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a href="#" className="text-white transition hover:opacity-75">{t("footer.Política de privacidad")} </a>
-                </li>
+                </li> */}
 
               </ul>
             </div>

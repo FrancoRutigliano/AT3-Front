@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import atomicLogo from '../assets/atomicLogo.png';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import eng from '../assets/lang/eng.png'
+import esp from '../assets/lang/esp.png'
 
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global")
@@ -76,10 +78,16 @@ export const Navbar = () => {
                   </a>
                 </li>
                 <li>
-                  <button onClick={()=> handleChangeLanguage("en")}>EN</button>
-                  <button onClick={()=> handleChangeLanguage("es")}>ES</button>
+                  <button onClick={()=> handleChangeLanguage("en")}>
+                    <img src={eng} className='lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
+                  </button>
+                  <button onClick={()=> handleChangeLanguage("es")}>
+                  <img src={esp} className='lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+                    
+                  </button>
 
                 </li>
+                
               </ul>
             </nav>
 

@@ -60,7 +60,12 @@
     "Click aquí":"Click here!",
     "¿Ya puedo hacer staking de los AT3 que adquirí?": "Can I now do the staking of the AT3 that I purchased?",
   "Si puedo": "Yes, I can. To do this I must click on the blue button that says 'staking' located at the top of the page. Then in the pop-up window, I will be asked to link my wallet (to be able to say from where my at3 will come from). There I will see a form that I must fill in with my personal data and a contact email, this will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly."
-
-
+  },
+  "footer":{
+    "redes sociales": "Social Links",
+    "contacto": "Contact",
+    "links utiles": "Helpful Links",
+    "Comprar Atómico3": "Buy Atómico3",
+    "Preguntas Frecuentes": "FAQ"
   }
 }

@@ -60,7 +60,12 @@
     "Click aquí":"Click aquí",
     "¿Ya puedo hacer staking de los AT3 que adquirí?": "¿Ya puedo hacer staking de los AT3 que adquirí?",
     "Si puedo": "Si puedo. Para ello debo presionar en el botón azul que dice 'staking' ubicado en la parte superior de la página. Luego en la ventana emergente, se me pedirá vincular mi wallet (para poder decir desde donde van a salir mis at3). Allí me aparecerá un formulario que debo completar con mis datos personales y un mail de contacto, ello me va a permitir elegir los AT3 que quiero colocar y los plazos posibles (60 días , 180 y 240 ). Finalmente aparecerá una confirmación sobre que quedó el mismo terminado correctamente."
-
-
+  },
+  "footer":{
+    "redes sociales": "Redes Sociales",
+    "contacto": "Contacto",
+    "links utiles": "Links útiles",
+    "Comprar Atómico3": "Comprar Atómico3",
+    "Preguntas Frecuentes": "Preguntas Frecuentes"
   }
 }

@@ -232,7 +232,7 @@ export const Faq = () => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg break-words">
    {t("faq.El contrato de token es el siguiente en la red Polygon")}
 
     </p>

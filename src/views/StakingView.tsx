@@ -1,9 +1,11 @@
-// import React from 'react'
 import staking2 from '../assets/staking2.jpeg'
 import staking   from '../assets/staking.png'
+import { useTranslation } from 'react-i18next'
 
 
 export const StakingView = () => {
+  const [t] = useTranslation("global")
+
   return (
     <section>
     {/*
@@ -15,12 +17,12 @@ export const StakingView = () => {
 <section className="pt-20 lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
   <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
-      <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2">
-        What is Staking?
+      <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2 break-words">
+      {t("stakingView.¿Qué es el Staking?")}
       </h2>
 
-      <p className=" text-sm text-white md:mt-4 md:block  lg:text-lg">
-      It consists of depositing your Atómico3 in a smart contract (0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the term you choose, benefiting from the interest according to the chosen term. They will be returned to your wallet once the term has expired (unless you choose to renew it for a new term).
+      <p className=" text-sm text-white md:mt-4 md:block  lg:text-lg break-words">
+     {t("stakingView.¿Qué es el Staking? Descripcion")}
       </p>
 
       <div className="mt-4 md:mt-8">
@@ -57,11 +59,12 @@ export const StakingView = () => {
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
     <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2">
-        How can I do It ?
+       {t("stakingView.¿Cómo lo puedo hacer?")}
       </h2>
 
       <p className="text-sm text-white md:mt-4 md:block  lg:text-lg">
-      To do this I must click on button below! Then, in the pop-up window, I will be asked to link my wallet (to be able to say from where my AT3 will come from). There will appear a form that I must fill in with my personal data and a contact email, this will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly.
+      {t("stakingView.¿Cómo lo puedo hacer? descripcion")}
+
       </p>
 
       <div className="mt-4 md:mt-8">

@@ -79,14 +79,14 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <button onClick={()=> handleChangeLanguage("en")}>
-                    <img src={eng} className='lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
+                    <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                   </button>
                   <button onClick={()=> handleChangeLanguage("es")}>
-                  <img src={esp} className='lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+                  <img src={esp} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
                     
                   </button>
-
                 </li>
+
                 
               </ul>
             </nav>
@@ -167,6 +167,15 @@ export const Navbar = () => {
                   Contact
                 </a>
               </li>
+              <li>
+                  <button onClick={()=> handleChangeLanguage("en")}>
+                    <img src={eng} className='w-[1.5rem] lg:w-[2rem]  transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
+                  </button>
+                  <button onClick={()=> handleChangeLanguage("es")}>
+                  <img src={esp} className='w-[1.5rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+                    
+                  </button>
+                </li>
             </ul>
           </nav>
         </div>

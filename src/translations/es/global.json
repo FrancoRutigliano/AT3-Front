@@ -41,6 +41,26 @@
     "como funciona": "¿Cómo funciona?",
     "clickea el enlace": "¡Clickea el enlace de abajo para saber más!",
     "saber mas": "Saber Más"
+  },
+  "faq": {
+    "preguntas frecuentes": "Preguntas Frecuentes",
+    "que es atomico": "¿Qué es Atómico3?",
+    "que es atomico descripcion": "Atómico 3 es un token digital respaldado por reservas de litio certificadas bajo la norma NI 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain.",
+    "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?": "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?",
+    "El token se encuentra en lista de espera en CoinMarketCap": "El token se encuentra en lista de espera en CoinMarketCap para ser listado, es por ello que el precio se verá reflejado próximamente.",
+    "¿Dónde puedo ver la valuación de Atómico3?": "¿Dónde puedo ver la valuación de Atómico3?",
+    "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap": "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap.",
+    "¿Por qué el token Atómico3 no tiene liquidez?": "¿Por qué el token Atómico3 no tiene liquidez?",
+    "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)": "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando).",
+    "¿Cuál es el contrato de Atómico3?": "¿Cuál es el contrato de Atómico3?",
+    "El contrato de token es el siguiente en la red Polygon": "El contrato de token es el siguiente en la red Polygon: 0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76",
+    "¿Proyección del precio de Atómico3 en el futuro?": "¿Proyección del precio de Atómico3 en el futuro?",
+    "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Se comportará en relación al precio de carbonato de litio internacional (li2co3).",
+    "Link para consultar el precio actual del carbonato de litio": "Link para consultar el precio actual del carbonato de litio:",
+    "Click aquí":"Click aquí",
+    "¿Ya puedo hacer staking de los AT3 que adquirí?": "¿Ya puedo hacer staking de los AT3 que adquirí?",
+    "Si puedo": "Si puedo. Para ello debo presionar en el botón azul que dice 'staking' ubicado en la parte superior de la página. Luego en la ventana emergente, se me pedirá vincular mi wallet (para poder decir desde donde van a salir mis at3). Allí me aparecerá un formulario que debo completar con mis datos personales y un mail de contacto, ello me va a permitir elegir los AT3 que quiero colocar y los plazos posibles (60 días , 180 y 240 ). Finalmente aparecerá una confirmación sobre que quedó el mismo terminado correctamente."
+
+
   }
-  
 }

@@ -1,8 +1,11 @@
+import { useTranslation } from "react-i18next"
 
 export const Faq = () => {
+  const [t] = useTranslation("global")
+
   return (
     <>
-    <h1 id="faq-id" className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20">Faqs</h1>
+    <h1 id="faq-id" className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20 lg:py-2">{t("faq.preguntas frecuentes")}</h1>
     <div className="space-y-4 lg:w-2/3 lg:mx-auto px-4">
   <details
     className="group rounded-lg  p-6 bg-dark-light [&_summary::-webkit-details-marker]:hidden"
@@ -11,7 +14,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 lg:text-2xl     text-white"
     >
-      <h2 className="font-medium text-celeste">¿Qué es Atómico3? </h2>
+      <h2 className="font-medium text-celeste">{t("faq.que es atomico")} </h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -47,7 +50,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white lg:text-lg">
-    Es un token con sustento en litio.
+   {t("faq.que es atomico descripcion")}
     </p>
   </details>
 
@@ -57,7 +60,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -93,7 +96,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    El token se encuentra en lista de espera en CoinMarketCap para ser listado, es por ello que el precio se verá reflejado próximamente.
+    {t("faq.El token se encuentra en lista de espera en CoinMarketCap")}
     </p>
   </details>
   <details
@@ -102,7 +105,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">¿Dónde puedo ver la valuación de Atómico3?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Dónde puedo ver la valuación de Atómico3?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -138,7 +141,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap.
+  {t("faq.Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap")}
     </p>
   </details>
   <details
@@ -147,7 +150,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">¿Por qué el token Atómico3 no tiene liquidez?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Por qué el token Atómico3 no tiene liquidez?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -183,7 +186,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando).
+    {t("faq.El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)")}
 
 
     </p>
@@ -194,7 +197,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">¿Cuál es el contrato de Atómico3?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Cuál es el contrato de Atómico3?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -230,7 +233,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    El contrato de token es el siguiente en la red Polygon: 0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76 <br />
+   {t("faq.El contrato de token es el siguiente en la red Polygon")}
 
     </p>
   </details>
@@ -240,7 +243,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">¿Proyección del precio de Atómico3 en el futuro?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Proyección del precio de Atómico3 en el futuro?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -276,9 +279,9 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    Se comportará en relación al precio de carbonato de litio internacional (li2co3).
+   {t("faq.Se comportará en relación al precio de carbonato de litio internacional (li2co3)")}
     <br />
-    Link para consultar el precio actual del carbonato de litio: <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline">Click here!</a> 
+    {t("faq.Link para consultar el precio actual del carbonato de litio")} <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline" target="_blank">{t("faq.Click aquí")}</a> 
       
     </p>
   </details>
@@ -288,7 +291,7 @@ export const Faq = () => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">¿Ya puedo hacer staking de los AT3 que adquirí?</h2>
+      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Ya puedo hacer staking de los AT3 que adquirí?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -324,7 +327,7 @@ export const Faq = () => {
     </summary>
 
     <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
-    Si puedo. Para ello debo presionar en el botón azul que dice "staking" ubicado en la parte superior de la página. Luego en la ventana emergente, se me pedirá vincular mi wallet (para poder decir desde donde van a salir mis at3). Allí me aparecerá un formulario que debo completar con mis datos personales y un mail de contacto, ello me va a permitir elegir los AT3 que quiero colocar y los plazos posibles (60 días , 180 y 240 ). Finalmente aparecerá una confirmación sobre que quedó el mismo terminado correctamente.
+    {t("faq.Si puedo")}
     </p>
   </details>
   {/* <details

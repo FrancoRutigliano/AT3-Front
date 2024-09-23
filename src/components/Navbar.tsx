@@ -71,7 +71,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <a
-                    className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                    className="text-white transition hover:text-celeste dark:text-white hover:cursor-pointer"
                     // href="#contact"
                     onClick={(e) => {
                       e.preventDefault();
@@ -170,8 +170,8 @@ export const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                  href="#contact"
+                  className="text-white transition hover:text-celeste dark:text-white hover:cursor-pointer"
+                  // href="#contact"  
                   onClick={(e) => {
                     e.preventDefault();
                     const element = document.getElementById('contact');

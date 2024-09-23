@@ -6,17 +6,24 @@ import { Invest } from "../components/Invest"
 // import MenuAppBar from "../components/Navbar"
 import { Staking } from "../components/Staking"
 import { VideoSection } from "../components/VideoSection"
+import { useLocation } from "react-router-dom"
 
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
+  const location = useLocation();
 
   useEffect(() => {
-    if (window.location.hash ==  '#faq') {
-      faqRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Desplazarse si hay un hash específico en la URL
+    if (location.pathname === '/faq') {
+      faqRef.current?.scrollIntoView({ behavior: "smooth" });
     }
-  }, []);
+  }, [location]);
 
   return (
+
+
+
+
 <>
     {/* <MenuAppBar/> */}
     <Header/>

@@ -15,7 +15,7 @@ export const RoutesOutlet = () => {
                 <Route index element={<Home/>} />
                 <Route path="legal" element={<Terms/>}/>
                 <Route path="staking" element={<StakingView/>}/>
-                
+                <Route path="faq" element={<Home />} /> 
                 </Route>
 
             </Routes>

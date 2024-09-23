@@ -6,7 +6,7 @@ import telegram from '../assets/social_networks/telegram.png'
 import tiktok from '../assets/social_networks/tiktok.png'
 import youtube from '../assets/social_networks/youtube.png'
 import twitter from '../assets/social_networks/twitter.png'
-import phone from '../assets/contact_icons/phone.png'
+import whatsapp from '../assets/contact_icons/whatsapp.png'
 import mail from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'
 import { useTranslation } from 'react-i18next'
@@ -41,30 +41,30 @@ export const Footer = () => {
 
                 <li className='flex items-center' >
                   <img src={instagram} alt="insta" className='w-4 lg:w-5 mr-2' />
-                  <a href="#" className="text-white transition hover:text-blue-500 hover:underline"> Instagram </a>
+                  <a href="https://www.instagram.com/atomico3ok?igsh=Y3cwbW9wMHZrYzlr" target='_blank' className="text-white transition hover:text-blue-500 hover:underline"> Instagram </a>
                 </li>
 
                 <li className='flex items-center' >
                   <img src={telegram} alt="telegram" className='w-4 lg:w-5 mr-2' />
-                  <a href="#" className="text-white transition hover:text-blue-500 hover:underline"> Telegram </a>
+                  <a href="https://t.me/atomico3" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> Telegram </a>
                 </li>
 
                 <li className='flex items-center' >
                   <img src={twitter} alt="twitter" className='w-4 lg:w-5 mr-2' />
-                  <a href="https://x.com/Atomico3oficial?t=x7LBcGkemJSaTbmVD1q2Hw&s=09" className="text-white transition hover:text-blue-500 hover:underline"> X</a>
+                  <a href="https://x.com/Atomico3oficial?t=x7LBcGkemJSaTbmVD1q2Hw&s=09" target='_blank' className="text-white transition hover:text-blue-500 hover:underline"> X</a>
                 </li>
 
                 <li className='flex items-center' >
                   <img src={tiktok} alt="tiktok" className='w-4 lg:w-5 mr-2' />
-                  <a href="https://www.tiktok.com/@atomico3oficial?_t=8oPdJMeOgH0&_r=1" className="text-white transition hover:text-blue-500 hover:underline">Tiktok </a>
+                  <a href="https://www.tiktok.com/@atomico3oficial?_t=8oPdJMeOgH0&_r=1" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'>Tiktok </a>
                 </li>
                 <li className='flex items-center' >
                   <img src={linkedin} alt="linkedin" className='w-4 lg:w-5 mr-2' />
-                  <a href="https://www.linkedin.com/company/atomico-3-sa/posts/" className="text-white transition hover:text-blue-500 hover:underline">Linkedin </a>
+                  <a href="https://www.linkedin.com/company/atomico-3-sa/posts/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'>Linkedin </a>
                 </li>
                 <li className='flex items-center' >
                   <img src={youtube} alt="youtube" className='w-4 lg:w-5 mr-2' />
-                  <a href="https://www.youtube.com/@atomico3oficial" className="text-white transition hover:text-blue-500 hover:underline">Youtube </a>
+                  <a href="https://www.youtube.com/@atomico3oficial" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'>Youtube </a>
                 </li>
               </ul>
             </div>
@@ -74,8 +74,8 @@ export const Footer = () => {
 
               <ul className="mt-4 space-y-4 text-sm">
                 <li className='flex items-center'>
-                  <img src={phone} alt="phone" className='w-6 lg:w-8 lg:mr-2 mr-1' />
-                  <a href="#" className="text-white transition hover:cursor-default">+595 992 544500 </a>
+                  <img src={whatsapp} alt="whatsapp" className='w-4 lg:w-5 ml-2  mr-3  ' />
+                  <a href="https://wa.me/595992544500" target='_blank' className="text-white transition hover:cursor-default hover:cursor-pointer hover:text-blue-500 hover:underline">+595 992 544500 </a>
                 </li>
 
                 <li className='flex items-center'>
@@ -98,11 +98,11 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Comprar Atómico3")}</a>
+                  <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0xB5C064F955D8e7F38fE0460C556a72987494eE17&swapIndex=0" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> {t("footer.Comprar Atómico3")}</a>
                 </li>
 
                 <li>
-                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline"> Staking </a>
+                  <a href="https://atomico3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> Staking </a>
                 </li>
 
                 <li>

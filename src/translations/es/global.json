@@ -14,6 +14,13 @@
     "comprar token": "Comprar Token",
     "staking": "staking"
   },
+  "modal": {
+    "feliz primavera descripcion": "El siguiente formulario debe ser completado únicamente por aquellos que hayan comprado AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre. ",
+      "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",
+      "continuar": "",
+      "cancelar": "",
+      "completar formulario": ""
+  },
   "atomicInfo": {
     "que es atomico": "¿Qué es Atómico3?",
     "descripcion atomico p1": " Atómico3 es un token que representa la tokenización de activos mineros, respaldados por reservas de litio certificadas bajo normas ni 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain.",

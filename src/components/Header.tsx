@@ -8,17 +8,22 @@ import { Modal } from './Modal';
 
 export const Header = () => {
   // const [t, i18n] = useTranslation("global")
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState(false)
   const [t] = useTranslation("global")
   const [animate, setAnimate] = useState(false);
+  const [isSpringBtn, setIsSpringBtn] = useState<boolean | null>(null);
 
 
-  const handleOpenModal = () => {
+
+  const handleOpenModal = (happySpringBtn: boolean) => {
     setShowModal(true);
+    setIsSpringBtn(happySpringBtn)
   };
 
   const handleCloseModal = () => {
     setShowModal(false);
+    setIsSpringBtn(null)
+
   };
 
 
@@ -38,18 +43,9 @@ export const Header = () => {
     <>
     { showModal ? 
 
-<div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-<div className="relative">
-  <Modal />
-  <button
-    className="absolute top-2 right-2 text-black"
-    onClick={handleCloseModal}
-  >
-    ✕
-  </button>
-</div>
-</div>
 
+  <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn}/>
+  
 
 
 :
@@ -73,15 +69,16 @@ export const Header = () => {
 
           <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3 lg:mt-3'>
             {/* <a href="/public/whitepaper.pdf" download='whitepaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'> */}
-            <a href="https://dapp-at-3.vercel.app/stakingplus" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px]  text-white py-2 lg:py-3 rounded-md w-full  px-6 text-center bg-custom-gradient2 font-medium hover:bg-custom-gradient   ' onClick={()=>handleOpenModal()}>
+            <a   className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px]  text-white py-2 lg:py-3 rounded-md w-full  px-6 text-center bg-custom-gradient2 font-medium hover:bg-custom-gradient hover:cursor-pointer   ' onClick={()=>handleOpenModal(true)}>
               <button className={animate ? 'animate-shake' : ''}>{t("header.feliz primavera")}</button>
             </a>
 
-            <a href="https://dapp-at-3.vercel.app/" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center'>
+            <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' onClick={()=>handleOpenModal(false)}>
 
               <button className=''>{t("header.comprar token")}</button>
             </a>
-            <a href="https://dapp-at-3.vercel.app/" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center'>
+            <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer'
+            onClick={()=>handleOpenModal(false)}>
 
               <button className='' >Staking</button>
             </a>

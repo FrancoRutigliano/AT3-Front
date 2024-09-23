@@ -82,21 +82,21 @@ export const Navbar = () => {
                       closeMenu();
                     }}
                   >
-                  
+
                     {t("navbar.contacto")}
                   </a>
                 </li>
                 <li>
-                  <button onClick={()=> handleChangeLanguage("en")}>
+                  <button onClick={() => handleChangeLanguage("en")}>
                     <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                   </button>
-                  <button onClick={()=> handleChangeLanguage("es")}>
-                  <img src={esp} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
-                    
+                  <button onClick={() => handleChangeLanguage("es")}>
+                    <img src={esp} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+
                   </button>
                 </li>
 
-                
+
               </ul>
             </nav>
 
@@ -137,7 +137,7 @@ export const Navbar = () => {
                   to={'/'}
                   onClick={closeMenu}
                 >
-                  Home
+                  {t("navbar.inicio")}
                 </Link>
               </li>
               <li>
@@ -152,10 +152,10 @@ export const Navbar = () => {
               <li>
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                  to={'/terms'}
+                  to={'/legal'}
                   onClick={closeMenu}
                 >
-                  Terms and Conditions
+                  Legal
                 </Link>
               </li>
               <li>
@@ -164,27 +164,35 @@ export const Navbar = () => {
                   href="/#faq"
                   onClick={closeMenu}
                 >
-                  Faqs
+                  {t("navbar.preguntas frecuentes")}
+
                 </a>
               </li>
               <li>
                 <a
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
                   href="#contact"
-                  onClick={closeMenu}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.getElementById('contact');
+                    if (element) { // Verificamos si el elemento no es null
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                    closeMenu();
+                  }}
                 >
-                  Contact
+                   {t("navbar.contacto")}
                 </a>
               </li>
               <li>
-                  <button onClick={()=> handleChangeLanguage("en")}>
-                    <img src={eng} className='w-[1.5rem] lg:w-[2rem]  transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
-                  </button>
-                  <button onClick={()=> handleChangeLanguage("es")}>
+                <button onClick={() => handleChangeLanguage("en")}>
+                  <img src={eng} className='w-[1.5rem] lg:w-[2rem]  transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
+                </button>
+                <button onClick={() => handleChangeLanguage("es")}>
                   <img src={esp} className='w-[1.5rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
-                    
-                  </button>
-                </li>
+
+                </button>
+              </li>
             </ul>
           </nav>
         </div>

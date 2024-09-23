@@ -66,11 +66,11 @@ export const Header = () => {
               <button  className={animate ? 'animate-shake' : ''}>{t("header.feliz primavera")}</button>
             </a>
               
-            <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0xB5C064F955D8e7F38fE0460C556a72987494eE17&swapIndex=0" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center'>
+            <a href="https://dapp-at-3.vercel.app/" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center'>
 
               <button className=''>{t("header.comprar token")}</button>
             </a>
-            <a href="https://atomico3.vercel.app/" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center'>
+            <a href="https://dapp-at-3.vercel.app/" target='_blank' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center'>
 
               <button className='' >Staking</button>
             </a>

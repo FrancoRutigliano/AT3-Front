@@ -98,11 +98,11 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a href="https://quickswap.exchange/#/swap?currency0=ETH&currency1=0xB5C064F955D8e7F38fE0460C556a72987494eE17&swapIndex=0" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> {t("footer.Comprar Atómico3")}</a>
+                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> {t("footer.Comprar Atómico3")}</a>
                 </li>
 
                 <li>
-                  <a href="https://atomico3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> Staking </a>
+                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> Staking </a>
                 </li>
 
                 <li>

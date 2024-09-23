@@ -75,10 +75,14 @@ export const Navbar = () => {
                     // href="#contact"
                     onClick={(e) => {
                       e.preventDefault();
-                      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                      const element = document.getElementById('contact');
+                      if (element) { // Verificamos si el elemento no es null
+                        element.scrollIntoView({ behavior: 'smooth' });
+                      }
                       closeMenu();
                     }}
                   >
+                  
                     {t("navbar.contacto")}
                   </a>
                 </li>

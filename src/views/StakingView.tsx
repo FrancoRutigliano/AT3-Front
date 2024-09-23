@@ -1,10 +1,17 @@
 import staking2 from '../assets/staking2.jpeg'
-import staking   from '../assets/staking.png'
+import stakingES   from '../assets/staking.png'
+import stakingEN from '../assets/stakingEN.jpeg'
 import { useTranslation } from 'react-i18next'
 
 
 export const StakingView = () => {
-  const [t] = useTranslation("global")
+  const {t, i18n} = useTranslation("global")
+
+  // const currentLang = i18n.language;
+
+  // const imgStaking2 = currentLang === 'es' ? staking2Es : staking2;
+  // const imgStaking = currentLang === 'es' ? stakingEs : staking;
+
 
   return (
     <section>
@@ -53,7 +60,7 @@ export const StakingView = () => {
 <section className="overflow-hidden  sm:grid sm:grid-cols-2 pt-16 pb-10 ">
 <img
     alt=""
-    src={staking}
+    src={i18n.language === 'es' ? stakingES : stakingEN}
     className="max-w-[200px] lg:max-w-[452px] w-2/3 mx-auto object-contain lg:object-contain sm:h-full  "
   />
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">

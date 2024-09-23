@@ -70,12 +70,17 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                    to={"#contact"}
+                    // href="#contact"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                      closeMenu();
+                    }}
                   >
                     {t("navbar.contacto")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <button onClick={()=> handleChangeLanguage("en")}>
@@ -152,7 +157,7 @@ export const Navbar = () => {
               <li>
                 <a
                   className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
-                  href="/#faq-id"
+                  href="/#faq"
                   onClick={closeMenu}
                 >
                   Faqs

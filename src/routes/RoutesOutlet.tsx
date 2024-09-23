@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { HashRouter, Route, Routes } from "react-router-dom"
 import { MainLayout } from "../views/MainLayout"
 import { Home } from "../views/Home"
 import { Terms } from "../views/Terms"
@@ -6,7 +6,7 @@ import { StakingView } from "../views/StakingView"
 
 export const RoutesOutlet = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
                 <Route path="/" element={<MainLayout/>}>
 
@@ -17,6 +17,6 @@ export const RoutesOutlet = () => {
                 </Route>
 
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
     )
 }

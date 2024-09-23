@@ -39,7 +39,7 @@ export const Navbar = () => {
               <ul className="flex items-center gap-6 text-sm">
                 <li >
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                    className="text-white transition hover:text-celeste dark:text-white "
                     to={'/'}
                   >
                     {t("navbar.inicio")}
@@ -47,7 +47,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                    className="text-white transition hover:text-celeste dark:text-white "
                     to={'/staking'}
                   >
                     {t("navbar.staking")}
@@ -55,7 +55,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                    className="text-white transition hover:text-celeste dark:text-white "
                     to={'/legal'}
                   >
                     {t("navbar.legal")}
@@ -63,7 +63,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                    className="text-white transition hover:text-celeste dark:text-white "
                     to={"/faq"}
                   >
                     {t("navbar.preguntas frecuentes")}
@@ -104,7 +104,7 @@ export const Navbar = () => {
             <div className="flex items-center gap-4">
               <div className="block md:hidden">
                 <button
-                  className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                  className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white "
                   onClick={toggleMenu} // Controlar el click en el botón
                 >
                   <svg
@@ -133,7 +133,7 @@ export const Navbar = () => {
             <ul className="flex flex-col items-start gap-4 p-4">
               <li>
                 <Link
-                  className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                  className="text-white transition hover:text-celeste dark:text-white "
                   to={'/'}
                   onClick={closeMenu}
                 >
@@ -142,7 +142,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                  className="text-white transition hover:text-celeste dark:text-white "
                   to={'/staking'}
                   onClick={closeMenu}
                 >
@@ -151,7 +151,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <Link
-                  className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                  className="text-white transition hover:text-celeste dark:text-white "
                   to={'/legal'}
                   onClick={closeMenu}
                 >
@@ -160,7 +160,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="text-white transition hover:text-celeste dark:text-white dark:hover:text-white/75"
+                  className="text-white transition hover:text-celeste dark:text-white "
                   href="/#faq"
                   onClick={closeMenu}
                 >

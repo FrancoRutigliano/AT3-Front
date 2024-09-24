@@ -21,6 +21,12 @@
       "cancelar": "Cancelar",
       "completar formulario": "Completar formulario"
   },
+  "popup":{
+    "obten un 5 adicional": "¡Obtén un 5% adicional!",
+    "p1": "Compra AT3 (nuevos) entre las 00:00hs del lunes 23 de setiembre de 2024 y hasta las 23:59 hs del día 30 de septiembre de 2024. Desde Atómico3 le vamos a regalar un 5% adicional.",
+    "p2": "Una vez realizada la compra no te olvides de llenar el formulario con tus datos cliqueando en el botón 'Feliz Primavera'",
+    "aceptar": "Aceptar"
+  },
   "atomicInfo": {
     "que es atomico": "¿Qué es Atómico3?",
     "descripcion atomico p1": " Atómico3 es un token que representa la tokenización de activos mineros, respaldados por reservas de litio certificadas bajo normas ni 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain.",

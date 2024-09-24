@@ -22,6 +22,13 @@
     "completar formulario": "Complete form"
     
   },
+  "popup":{
+    "obten un 5 adicional": "Get an extra 5%!",
+    "p1": "Buy AT3 (new) between 00:00 a.m. on Monday, September 23, 2024 and until 11:59 p.m. on September 30, 2024. From Atómico3 we are going to give you an additional 5%.",
+    "p2": "Once you have made the purchase, do not forget to fill out the form with your information by clicking on the 'Happy Spring' button.",
+    "aceptar": "Continue"
+
+  },
 
   "atomicInfo": {
     "que es atomico": "What is Atómico3?",

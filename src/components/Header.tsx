@@ -67,7 +67,7 @@ export const Header = () => {
       
       
       
-    <header className='flex flex-col-reverse md:flex-row '>
+    <header className='flex flex-col-reverse md:flex-row fondo'>
 
       {/* Sección de texto */}
       <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  lg:mt-10'>

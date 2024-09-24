@@ -18,7 +18,7 @@
     margin: -10px;
     border-radius: 0px;
     padding: 20px;
-    background-image: url('path-to-your-lines-image'), linear-gradient(45deg, #004AAD, #000024);
+    background-image: url('../assets/lineas.png'), linear-gradient(45deg, #004AAD, #000024);
     background-size: cover, 100% 200%;
     background-position: bottom, 0% 50%;
     background-repeat: no-repeat, no-repeat;

@@ -7,7 +7,7 @@ import { Invest } from "../components/Invest"
 import { Staking } from "../components/Staking"
 import { VideoSection } from "../components/VideoSection"
 import { useLocation } from "react-router-dom"
-import { Modal } from "../components/Modal"
+// import { Modal } from "../components/Modal"
 
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);

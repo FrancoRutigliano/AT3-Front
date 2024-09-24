@@ -34,7 +34,8 @@ export const StakingView = () => {
 
       <div className="mt-4 md:mt-8">
         <a
-          href="#"
+          target='_blank'
+          href="https://dapp-at-3.vercel.app/"
           className="mt-4 lg:mt-0 py-2 text-sm w-full max-w-[230px] lg:max-w-[320px] text-center inline-block rounded bg-custom-gradient px-12 lg:py-3 font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Staking
@@ -76,7 +77,8 @@ export const StakingView = () => {
 
       <div className="mt-4 md:mt-8">
         <a
-          href="#"
+          target='_blank'
+          href="https://dapp-at-3.vercel.app/"
           className="mt-5 lg:mt-0 py-2 text-sm w-full max-w-[230px] lg:max-w-[320px] text-center inline-block rounded bg-custom-gradient px-12 lg:py-3 font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
         >
           Staking

@@ -23,7 +23,7 @@ export const Navbar = () => {
   }
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
+    <header className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">

@@ -29,6 +29,10 @@ export const Header = () => {
 
   };
 
+  const handleClosePopUp = ()=>{
+    setShowPopUp(false)
+  }
+
 
   useEffect(() => {
     // Activar la animación al montar el componente
@@ -46,7 +50,7 @@ export const Header = () => {
   return (
     <>
 
-{showPopUp && <SpringPopUp/>}
+{showPopUp && <SpringPopUp handleClosePopUp={handleClosePopUp} />}
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   

@@ -41,14 +41,12 @@ export const Header = () => {
 
   return (
     <>
-    { showModal ? 
 
 
-  <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn}/>
+  <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   
 
 
-:
 
       
       
@@ -97,7 +95,6 @@ export const Header = () => {
         </a>
       </div>
     </header>
-  }
     </>
   )
 }

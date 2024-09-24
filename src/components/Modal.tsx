@@ -1,13 +1,13 @@
 import { useTranslation } from "react-i18next"
 
 
-export const Modal = ({ handleCloseModal, isSpringBtn }: any) => {
+export const Modal = ({ handleCloseModal, isSpringBtn, showModal }: any) => {
 
     const [t] = useTranslation("global")
 
     return (
         <>
-            <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-100 " >
+            <div className={!showModal ? "hidden" : "fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-1000 block"} >
                 <div className="relative ">
                     <div className="rounded-2xl  border border-celeste bg-dark-light p-4 shadow-lg sm:p-6 lg:p-8 mx-5 lg:mx-32 " role="alert">
                         <div className="flex items-center gap-4  ">

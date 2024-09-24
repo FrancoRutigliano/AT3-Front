@@ -4,11 +4,14 @@ import atomico from '../assets/Atomico.png'
 import { useEffect, useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
+import { SpringPopUp } from './SpringPopUp';
 
 
 export const Header = () => {
 
   const [showModal, setShowModal] = useState(false)
+  const [showPopUp, setShowPopUp] = useState(false)
+
   const [t] = useTranslation("global")
   const [animate, setAnimate] = useState(false);
   const [isSpringBtn, setIsSpringBtn] = useState<boolean | null>(null);
@@ -32,6 +35,7 @@ export const Header = () => {
     setAnimate(true);
     const timer = setTimeout(() => {
       setAnimate(false);
+      setShowPopUp(true)
     }, 1000); // Duración de la animación
 
     return () => clearTimeout(timer);
@@ -42,6 +46,7 @@ export const Header = () => {
   return (
     <>
 
+{showPopUp && <SpringPopUp/>}
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   

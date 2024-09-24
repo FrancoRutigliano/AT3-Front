@@ -10,3 +10,40 @@
     animation: shake 0.5s ease-in-out;
   }
   
+  .fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Para el diseño responsivo debes usar media queries */
+    margin: -10px;
+    border-radius: 0px;
+    padding: 20px;
+    background-image: url('path-to-your-lines-image'), linear-gradient(45deg, #004AAD, #000024);
+    background-size: cover, 100% 200%;
+    background-position: bottom, 0% 50%;
+    background-repeat: no-repeat, no-repeat;
+    animation: gradient 25s ease infinite;
+  }
+  
+  /* Definir la animación de gradiente */
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* Usar media queries para los ajustes responsivos */
+  @media (min-width: 768px) {
+    .fondo {
+      min-height: 80vh;
+      margin: 2px;
+      border-radius: 100px;
+    }
+  }
+  

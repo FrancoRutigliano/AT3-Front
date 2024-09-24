@@ -17,9 +17,9 @@
   "modal": {
     "feliz primavera descripcion": "El siguiente formulario debe ser completado únicamente por aquellos que hayan comprado AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre. ",
       "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",
-      "continuar": "",
-      "cancelar": "",
-      "completar formulario": ""
+      "continuar": "Continuar",
+      "cancelar": "Cancelar",
+      "completar formulario": "Completar formulario"
   },
   "atomicInfo": {
     "que es atomico": "¿Qué es Atómico3?",

@@ -7,9 +7,9 @@ export const Modal = ({ handleCloseModal, isSpringBtn }: any) => {
 
     return (
         <>
-            <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 " >
+            <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-100 " >
                 <div className="relative ">
-                    <div className="rounded-2xl  border border-celeste bg-dark-light p-4 shadow-lg sm:p-6 lg:p-8 lg:mx-32 " role="alert">
+                    <div className="rounded-2xl  border border-celeste bg-dark-light p-4 shadow-lg sm:p-6 lg:p-8 mx-5 lg:mx-32 " role="alert">
                         <div className="flex items-center gap-4  ">
                             <span className="shrink-0 rounded-full bg-celeste p-2 text-white">
                                 <svg
@@ -43,16 +43,19 @@ export const Modal = ({ handleCloseModal, isSpringBtn }: any) => {
 
                             {isSpringBtn ?
                                 <a
+                                    target="_blank"
                                     className="inline-block w-full rounded-lg bg-celeste px-5 py-3 text-center text-sm font-semibold text-white sm:w-auto"
                                     href="https://dapp-at-3.vercel.app/stakingplus"
                                 >
-                                    Completar Formulario
+                                    {t("modal.completar formulario")}
                                 </a> :
                                 <a
+                                    target="_blank"
                                     className="inline-block w-full rounded-lg bg-celeste px-5 py-3 text-center text-sm font-semibold text-white sm:w-auto"
                                     href="https://dapp-at-3.vercel.app/"
                                 >
-                                    Continuar
+                                    {t("modal.continuar")}
+
                                 </a>
                             }
 
@@ -61,7 +64,8 @@ export const Modal = ({ handleCloseModal, isSpringBtn }: any) => {
                                 // href="#"
                                 onClick={() => handleCloseModal()}
                             >
-                                Cancelar
+                                {t("modal.cancelar")}
+
                             </a>
                         </div>
                     </div>

@@ -16,7 +16,10 @@
   },
   "modal": {
     "feliz primavera descripcion": "The following form must be completed only by those who purchased AT3 between 0:00 on Monday, September 23 and 23:59 on September 30.",
-    "recordatorio descripcion": "Remember that those who purchase AT3 between 0:00 on Monday, September 23 and 23:59 on September 30, to obtain the additional 5% of Spring Week must complete the form which is accessed by clicking on the button from 'Happy Spring'" 
+    "recordatorio descripcion": "Remember that those who purchase AT3 between 0:00 on Monday, September 23 and 23:59 on September 30, to obtain the additional 5% of Spring Week must complete the form which is accessed by clicking on the button from 'Happy Spring'",
+    "continuar": "Continue",
+    "cancelar": "Cancel",
+    "completar formulario": "Complete form"
     
   },
 

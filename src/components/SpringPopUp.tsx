@@ -1,4 +1,3 @@
-import React from 'react'
 import atomico from '../assets/Atomico.png'
 import { useTranslation } from 'react-i18next'
 export const SpringPopUp = ({handleClosePopUp}: any) => {

@@ -15,11 +15,7 @@ export const StakingView = () => {
 
   return (
     <section>
-    {/*
-  Heads up! 👋
-
-  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
-*/}
+ 
 
 <section className="pt-20 lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
   <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">

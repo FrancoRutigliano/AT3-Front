@@ -29,14 +29,14 @@ export const Navbar = () => {
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <Link className="block text-teal-600 dark:text-teal-300 hover:cursor-pointer" to={'/'}>
               <span className="sr-only ">Inicio</span>
-              <img src={atomicLogo} alt="logo" className="w-28 lg:w-40" />
+              <img src={atomicLogo} alt="logo" className="w-28 lg:w-52" />
             </Link>
           </div>
 
           <div className="md:flex md:items-center md:gap-12">
             {/* Menú en pantallas grandes */}
             <nav aria-label="Global" className="hidden md:block">
-              <ul className="flex items-center gap-6 text-sm">
+              <ul className="flex items-center gap-6  lg:text-md">
                 <li >
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white "
@@ -130,7 +130,7 @@ export const Navbar = () => {
         {/* Menú desplegable en pantallas pequeñas */}
         <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
           <nav aria-label="Global">
-            <ul className="flex flex-col items-start gap-4 p-4">
+            <ul className="flex flex-col items-start gap-4 p-4 text-sm">
               <li>
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white "

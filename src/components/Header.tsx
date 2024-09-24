@@ -31,15 +31,22 @@ export const Header = () => {
 
   const handleClosePopUp = ()=>{
     setShowPopUp(false)
+    localStorage.setItem('modalShown', 'true');
   }
 
 
   useEffect(() => {
+    const modalShown = localStorage.getItem('modalShown');
+  
+    if (!modalShown) {
+      // Si no se ha mostrado, lo mostramos
+      setShowPopUp(true);
+    
+    }
     // Activar la animación al montar el componente
     setAnimate(true);
     const timer = setTimeout(() => {
       setAnimate(false);
-      setShowPopUp(true)
     }, 1000); // Duración de la animación
 
     return () => clearTimeout(timer);

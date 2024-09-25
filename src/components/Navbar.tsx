@@ -40,9 +40,9 @@ export const Navbar = () => {
                 <li >
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white "
-                    to={'/'}
+                    to={'/nosotros'}
                   >
-                    {t("navbar.inicio")}
+                    {t("navbar.nosotros")}
                   </Link>
                 </li>
                 <li>

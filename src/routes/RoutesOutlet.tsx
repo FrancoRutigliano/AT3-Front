@@ -5,6 +5,7 @@ import { Terms } from "../views/Terms"
 import { StakingView } from "../views/StakingView"
 import ScrollToTop from "../components/ScrollToTop"
 import { Press } from "../views/Press"
+import { Nosotros } from "../views/Nosotros"
 
 export const RoutesOutlet = () => {
     return (
@@ -18,6 +19,8 @@ export const RoutesOutlet = () => {
                 <Route path="staking" element={<StakingView/>}/>
                 <Route path="faq" element={<Home />} /> 
                 <Route path="press" element={<Press/>}/>
+                <Route path="nosotros" element={<Nosotros/>}/>
+
                 </Route>
 
             </Routes>

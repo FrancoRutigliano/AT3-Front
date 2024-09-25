@@ -44,10 +44,9 @@ export const Press = () => {
               Aumento del precio del litio impulsa a la criptomoneda Argentina Atómico3 como opción de inversión sólida
             </h2>
 
-            {/* <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
-        </p> */}
+            <p className="mt-1 text-sm text-gray-300 ml-2 text-left ml-2">
+              Nación Web
+        </p>
 
           </a>
 
@@ -61,11 +60,10 @@ export const Press = () => {
 
 
             <h2 className="mt-4 text-xl font-bold text-white ml-2">La valorización del litio en Latinoamérica: perspectivas, proyecciones y su impacto en el mercado global</h2>
-            {/* 
-        <p className="mt-1 text-sm text-gray-300">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-          distinctio alias voluptatum blanditiis laudantium.
-        </p> */}
+            
+        <p className="mt-1 text-sm text-gray-300 ml-2">
+              Agencia Política
+        </p>
           </a>
 
           <a
@@ -75,12 +73,11 @@ export const Press = () => {
           >
             <img src={at3img} alt="atomico" className='text-left w-full  max-h-[200px] object-cover rounded-lg' />
 
-            <h2 className="mt-4 text-xl font-bold text-white">Atómico 3, la criptomoneda argentina ligada al litio reduce su emisión para que sea sostenible en el tiempo</h2>
+            <h2 className="mt-4 text-xl font-bold text-white ml-2">Atómico 3, la criptomoneda argentina ligada al litio reduce su emisión para que sea sostenible en el tiempo</h2>
 
-            {/* <p className="mt-1 text-sm text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
-              distinctio alias voluptatum blanditiis laudantium.
-            </p> */}
+            <p className="mt-1 text-sm text-gray-300 ml-2">
+              Noticias Argentinas
+            </p>
           </a>
 
           <a

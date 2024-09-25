@@ -119,13 +119,14 @@
     "Los pagos con el Token AT3 son definitivos p2": "USTED ES RESPONSABLE DE VERIFICAR QUE HA INTRODUCIDO LA DIRECCIÓN CORRECTA DEL TOKEN AT3 EN EL CAMPO DE DESTINATARIO Y EL PRECIO CORRECTO DEL TOKEN AT3 EN EL CAMPO DE IMPORTE EN EL SOFTWARE DE SU MONEDERO DIGITAL.",
     "Protocolos de la red Token AT3": "Protocolos de la red Token AT3",
     "Protocolos de la red Token AT3 descripcion": "No poseemos ni controlamos los protocolos de software subyacentes que rigen el funcionamiento de la red de fichas AT3. Los protocolos de la red de fichas AT3 son de código abierto y cualquiera puede utilizarlos, copiarlos, modificarlos y distribuirlos. No somos responsables del funcionamiento de los protocolos de la red de fichas AT3. Los protocolos de la red de fichas AT3 están sujetos a cambios repentinos en las normas de funcionamiento (por ejemplo, bifurcaciones), y dichos cambios pueden afectar materialmente al valor, la función y/o incluso el nombre de la ficha AT3."
-
-
-
-
-
   },
-  "privacidad":{
+  "noticias":{
+    "noticias": "Noticias",
+    "n1": "Aumento del precio del litio impulsa a la criptomoneda Argentina Atómico3 como opción de inversión sólida",
+    "n2": "La valorización del litio en Latinoamérica: perspectivas, proyecciones y su impacto en el mercado global",
+    "n3": "Atómico3, la criptomoneda argentina ligada al litio reduce su emisión para que sea sostenible en el tiempo"
+
+
     
   }
 }

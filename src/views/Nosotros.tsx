@@ -1,6 +1,7 @@
 import at3 from '../assets/lineas.png'
 // import at3 from '../assets/Atomico.png'
 import atomico3 from '../assets/atomicLogo.png'
+import { Valores } from '../components/Valores'
 export const Nosotros = () => {
   return (
     <>
@@ -28,7 +29,7 @@ export const Nosotros = () => {
 </section>
 
 <section className='h-screen' style={{ backgroundColor: '#000024' }}>
-  <h1 className='mt-20'>Hola como estas</h1>
+  <Valores/>
 </section>
 
     </>

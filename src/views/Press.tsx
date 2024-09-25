@@ -1,7 +1,7 @@
 import React from 'react'
 import litio from '../assets/news/Litio.jpeg'
 import at3 from '../assets/news/at3-image.jpeg'
-
+import at3img from '../assets/news/at3-image2.jpeg'
 export const Press = () => {
   return (
     <section className=" text-white">
@@ -70,33 +70,17 @@ export const Press = () => {
 
           <a
             className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
-            href="#"
+            href="https://noticiasargentinas.com/economia/atomico-3--la-criptomoneda-argentina-ligada-al-litio-reduce-su-emision-para-que-sea-sostenible-en-el-tiempo_a669c39acd066f26ecefe0568?fbclid=IwZXh0bgNhZW0CMTAAAR2t5kt4DbjXVmaGOKH-lOZuFmAcLYq2iKPRhkVG9j5xc9LjCc5X0gpPaIg_aem_b1TPAFvZgRThufzAXn8i3Q"
+            target='_blank'
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="size-10 text-pink-500"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path d="M12 14l9-5-9-5-9 5 9 5z" />
-              <path
-                d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
-              />
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
-              />
-            </svg>
+            <img src={at3img} alt="atomico" className='text-left w-full  max-h-[200px] object-cover rounded-lg' />
 
-            <h2 className="mt-4 text-xl font-bold text-white">Digital campaigns</h2>
+            <h2 className="mt-4 text-xl font-bold text-white">Atómico 3, la criptomoneda argentina ligada al litio reduce su emisión para que sea sostenible en el tiempo</h2>
 
-            <p className="mt-1 text-sm text-gray-300">
+            {/* <p className="mt-1 text-sm text-gray-300">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ut quo possimus adipisci
               distinctio alias voluptatum blanditiis laudantium.
-            </p>
+            </p> */}
           </a>
 
           <a

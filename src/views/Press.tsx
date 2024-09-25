@@ -1,4 +1,3 @@
-import React from 'react'
 import litio from '../assets/news/Litio.jpeg'
 import at3 from '../assets/news/at3-image.jpeg'
 import at3img from '../assets/news/at3-image2.jpeg'

@@ -2,12 +2,15 @@ import React from 'react'
 import litio from '../assets/news/Litio.jpeg'
 import at3 from '../assets/news/at3-image.jpeg'
 import at3img from '../assets/news/at3-image2.jpeg'
+import { useTranslation } from 'react-i18next'
 export const Press = () => {
+  const [t] = useTranslation("global")
+
   return (
     <section className=" text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="text-center w-full">
-          <h2 className="font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl">Noticias</h2>
+          <h2 className="font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl">{t("noticias.noticias")}</h2>
 
           <p className="mt-4 text-gray-300 ">
             Explora las tendencias más recientes en el mundo del litio, el mineral que impulsa la innovación tecnológica. Conoce cómo su creciente demanda está transformando las industrias globales y descubre cómo Atómico3, nuestra criptomoneda, está revolucionando el mercado al estar vinculada a este recurso clave. ¡No te pierdas las noticias que podrían definir el futuro de la energía y la economía digital!

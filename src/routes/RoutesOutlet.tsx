@@ -4,6 +4,7 @@ import { Home } from "../views/Home"
 import { Terms } from "../views/Terms"
 import { StakingView } from "../views/StakingView"
 import ScrollToTop from "../components/ScrollToTop"
+import { Press } from "../views/Press"
 
 export const RoutesOutlet = () => {
     return (
@@ -16,6 +17,7 @@ export const RoutesOutlet = () => {
                 <Route path="legal" element={<Terms/>}/>
                 <Route path="staking" element={<StakingView/>}/>
                 <Route path="faq" element={<Home />} /> 
+                <Route path="press" element={<Press/>}/>
                 </Route>
 
             </Routes>

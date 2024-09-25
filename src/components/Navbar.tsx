@@ -69,6 +69,15 @@ export const Navbar = () => {
                     {t("navbar.preguntas frecuentes")}
                   </Link>
                 </li>
+                
+                <li>
+                  <Link
+                    className="text-white transition hover:text-celeste dark:text-white "
+                    to={"/press"}
+                  >
+                    {t("navbar.noticias")}
+                  </Link>
+                </li>
                 <li>
                   <a
                     className="text-white transition hover:text-celeste dark:text-white hover:cursor-pointer"

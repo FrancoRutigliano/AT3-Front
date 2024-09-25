@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Para el diseño responsivo debes usar media queries */
+    min-height: 100vh; 
     margin: -10px;
     border-radius: 0px;
     padding: 20px;
@@ -25,7 +25,6 @@
     animation: gradient 25s ease infinite;
   }
   
-  /* Definir la animación de gradiente */
   @keyframes gradient {
     0% {
       background-position: 0% 50%;
@@ -38,7 +37,6 @@
     }
   }
   
-  /* Usar media queries para los ajustes responsivos */
   @media (min-width: 768px) {
     .fondo {
       min-height: 80vh;
@@ -47,3 +45,5 @@
     }
   }
   
+
+   

@@ -51,35 +51,82 @@ export const Navbar = () => {
                   </Link>
                 </li>
                 {/* DROPDWON */}
-                <li className="relative">
-                  <button
-                    className="text-white transition hover:text-celeste dark:text-white"
-                    onClick={toggleDropdown}
-                  >
-                    {t("navbar.staking")}
-                  </button>
-                  {isOpenDropdown && (
-                    <ul className="absolute left-0 mt-2 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-md">
-                      <li>
-                        <Link
-                          className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
-                          to={'/staking-option1'}
-                        >
-                          {t("navbar.stakingOption1")}
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
-                          to={'/staking-option2'}
-                        >
-                          {t("navbar.stakingOption2")}
-                        </Link>
-                      </li>
-                      {/* Agrega más opciones según sea necesario */}
-                    </ul>
-                  )}
-                </li>
+                <div className="relative">
+  <div
+    className="inline-flex items-center overflow-hidden rounded-md  text-white"
+  >
+
+    <button
+      className="h-full flex items-center p-2 text-white  dark:text-gray-300 hover:text-blue-500 "
+      onClick={()=>toggleDropdown()}
+
+      >
+    <a
+      href="#"
+      className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+    >
+      Como Invertir
+    </a>
+      <span className="sr-only">Menu</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="size-4 "
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fillRule="evenodd"
+          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+          clipRule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+
+  {
+    isOpenDropdown &&
+  <div
+    className="absolute end-0 z-10 mt-2 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+    role="menu"
+  >
+      <div className="p-2">
+      <a
+        href="#"
+        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+        role="menuitem"
+      >
+        Staking
+      </a>
+
+      <a
+        href="#"
+        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+        role="menuitem"
+      >
+        Feliz Primavera
+      </a>
+
+      {/* <a
+        href="#"
+        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+        role="menuitem"
+      >
+        Como hacer P2P
+      </a> */}
+
+      {/* <a
+        href="#"
+        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+        role="menuitem"
+      >
+        Done estamos tokenizando
+      </a> */}
+
+      
+    </div>
+  </div>
+}
+</div>
                 {/* FIN DROPDWON */}
 
                 <li>

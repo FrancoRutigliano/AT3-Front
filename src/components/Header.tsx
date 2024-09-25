@@ -70,8 +70,8 @@ export const Header = () => {
     <header className='flex flex-col-reverse md:flex-row '>
 
       {/* Sección de texto */}
-      <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  lg:mt-10'>
-        <div className=" mb-10 lg:mb-0  text-center md:text-left  md:pl-8 lg:pl-20">
+      <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  '>
+        <div className=" mb-14   text-center md:text-left  md:pl-8 lg:pl-28">
           <h1 className=' font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl '>{t("header.bienvenido")}</h1>
           {/* <p className='my-5 text-sm md:text-base lg:text-md lg:pr-20'>
             A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.
@@ -104,9 +104,9 @@ export const Header = () => {
       </div>
 
       {/* Sección de imagen */}
-      <div className=' w-full md:w-1/2 flex flex-col items-center justify-center mt-20 md:mt-10 lg:mt-0'>
+      <div className=' w-full md:w-1/2 flex flex-col items-center justify-center mt-20 md:mt-10 lg:mt-0 lg:pb-24'>
         <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full md:mb-20 lg:mb-0 md:mt-0  ' />
-        <a href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV" className='hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'>
+        <a href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV" className='hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'>
           <button className='text-sm '>{t("header.whitepaper")}</button>
         </a>
       </div>

@@ -8,9 +8,10 @@ import esp from '../assets/lang/esp.png'
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global")
   const [isOpen, setIsOpen] = useState(false); // Estado para controlar si el menú está abierto o cerrado
+  const [isOpenDropdown, setIsOpenDropdown] = useState(false); // Estado para controlar si el menú está abierto o cerrado
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Cambia el estado al hacer clic en el botón del menú hamburguesa
+    setIsOpen(!isOpen);
   };
 
   const closeMenu = () => {
@@ -21,6 +22,10 @@ export const Navbar = () => {
   const handleChangeLanguage = (lang: string) => {
     i18n.changeLanguage(lang)
   }
+
+  const toggleDropdown = () => {
+    setIsOpenDropdown(prev => !prev);
+  };
 
   return (
     <header className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
@@ -45,14 +50,38 @@ export const Navbar = () => {
                     {t("navbar.nosotros")}
                   </Link>
                 </li>
-                <li>
-                  <Link
-                    className="text-white transition hover:text-celeste dark:text-white "
-                    to={'/staking'}
+                {/* DROPDWON */}
+                <li className="relative">
+                  <button
+                    className="text-white transition hover:text-celeste dark:text-white"
+                    onClick={toggleDropdown}
                   >
                     {t("navbar.staking")}
-                  </Link>
+                  </button>
+                  {isOpenDropdown && (
+                    <ul className="absolute left-0 mt-2 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-md">
+                      <li>
+                        <Link
+                          className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+                          to={'/staking-option1'}
+                        >
+                          {t("navbar.stakingOption1")}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+                          to={'/staking-option2'}
+                        >
+                          {t("navbar.stakingOption2")}
+                        </Link>
+                      </li>
+                      {/* Agrega más opciones según sea necesario */}
+                    </ul>
+                  )}
                 </li>
+                {/* FIN DROPDWON */}
+
                 <li>
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white "
@@ -69,7 +98,7 @@ export const Navbar = () => {
                     {t("navbar.preguntas frecuentes")}
                   </Link>
                 </li>
-                
+
                 <li>
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white "
@@ -149,15 +178,37 @@ export const Navbar = () => {
                   {t("navbar.inicio")}
                 </Link>
               </li>
-              <li>
-                <Link
-                  className="text-white transition hover:text-celeste dark:text-white "
-                  to={'/staking'}
-                  onClick={closeMenu}
-                >
-                  Staking
-                </Link>
-              </li>
+                {/* DROPDWON */}
+                <li className="relative">
+                  <button
+                    className="text-white transition hover:text-celeste dark:text-white"
+                    onClick={toggleDropdown}
+                  >
+                    {t("navbar.staking")}
+                  </button>
+                  {isOpenDropdown && (
+                    <ul className="absolute left-0 mt-2 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-md">
+                      <li>
+                        <Link
+                          className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+                          to={'/staking-option1'}
+                        >
+                          {t("navbar.stakingOption1")}
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
+                          to={'/staking-option2'}
+                        >
+                          {t("navbar.stakingOption2")}
+                        </Link>
+                      </li>
+                      {/* Agrega más opciones según sea necesario */}
+                    </ul>
+                  )}
+                </li>
+                {/* FIN DROPDWON */}
               <li>
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white "
@@ -190,7 +241,7 @@ export const Navbar = () => {
                     closeMenu();
                   }}
                 >
-                   {t("navbar.contacto")}
+                  {t("navbar.contacto")}
                 </a>
               </li>
               <li>

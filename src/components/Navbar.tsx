@@ -34,7 +34,7 @@ export const Navbar = () => {
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <Link className="block text-teal-600 dark:text-teal-300 hover:cursor-pointer" to={'/'}>
               <span className="sr-only ">Inicio</span>
-              <img src={atomicLogo} alt="logo" className="w-28 lg:w-52" />
+              <img src={atomicLogo} alt="logo" className="w-28 lg:w-64" />
             </Link>
           </div>
 

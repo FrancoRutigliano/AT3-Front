@@ -221,10 +221,10 @@ export const Navbar = () => {
               <li>
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white "
-                  to={'/'}
+                  to={'/nosotros'}
                   onClick={closeMenu}
                 >
-                  {t("navbar.inicio")}
+                  {t("navbar.nosotros")}
                 </Link>
               </li>
               {/* DROPDWON */}

@@ -10,6 +10,16 @@
     "como invertir": "Cómo invertir",
     "feliz primavera": "¡Feliz Primavera!"
   },
+  "nosotros": {
+    "title": "Somos una compañía legalmente constituida en Paraguay, dedicada al desarrollo y optimización de actividades mineras con un enfoque orientado a una herramienta de tokenización para las empresas mineras y relacionadas en toda la cadena de electromovilidad.",
+    "Nuestros Valores": "Nuestros Valores",
+    "Propósito": "Propósito",
+    "Propósito descripcion": "Compromiso con el crecimiento sostenible y el desarrollo económico global. Trabajar para crear un futuro donde los recursos se gestionen de manera responsable y con visión de largo plazo, en beneficio tanto de los inversores como de las comunidades.",
+    "Visión": "Visión",
+    "Visión descripcion": "Queremos revolucionar la manera en que se gestionan y se invierte en recursos naturales mediante la aplicación de tecnologías avanzadas de tokenización y blockchain.",
+    "Misión": "Misión",
+    "Misión descripcion": "Mejorar la eficiencia y la transparencia del mercado de litio, abrir nuevas oportunidades para inversores y contribuir al desarrollo económico global."
+  },
   "header": {
     "bienvenido": "Bienvenido a Atómico3",
     "criptoactivo": "Un criptoactivo respaldado por litio, que fomenta la sostenibilidad, mediante la reducción de emisiones de carbono, a través de incentivos tokenizados.",
@@ -20,12 +30,12 @@
   },
   "modal": {
     "feliz primavera descripcion": "El siguiente formulario debe ser completado únicamente por aquellos que hayan comprado AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre. ",
-      "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",
-      "continuar": "Continuar",
-      "cancelar": "Cancelar",
-      "completar formulario": "Completar formulario"
+    "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",
+    "continuar": "Continuar",
+    "cancelar": "Cancelar",
+    "completar formulario": "Completar formulario"
   },
-  "popup":{
+  "popup": {
     "obten un 5 adicional": "¡Obtén un 5% adicional!",
     "p1": "Compra AT3 (nuevos) entre las 00:00hs del lunes 23 de setiembre de 2024 y hasta las 23:59 hs del día 30 de septiembre de 2024. Desde Atómico3 le vamos a regalar un 5% adicional.",
     "p2": "Una vez realizada la compra no te olvides de llenar el formulario con tus datos cliqueando en el botón 'Feliz Primavera'",
@@ -123,13 +133,10 @@
     "Protocolos de la red Token AT3": "Protocolos de la red Token AT3",
     "Protocolos de la red Token AT3 descripcion": "No poseemos ni controlamos los protocolos de software subyacentes que rigen el funcionamiento de la red de fichas AT3. Los protocolos de la red de fichas AT3 son de código abierto y cualquiera puede utilizarlos, copiarlos, modificarlos y distribuirlos. No somos responsables del funcionamiento de los protocolos de la red de fichas AT3. Los protocolos de la red de fichas AT3 están sujetos a cambios repentinos en las normas de funcionamiento (por ejemplo, bifurcaciones), y dichos cambios pueden afectar materialmente al valor, la función y/o incluso el nombre de la ficha AT3."
   },
-  "noticias":{
+  "noticias": {
     "noticias": "Noticias",
     "n1": "Aumento del precio del litio impulsa a la criptomoneda Argentina Atómico3 como opción de inversión sólida",
     "n2": "La valorización del litio en Latinoamérica: perspectivas, proyecciones y su impacto en el mercado global",
     "n3": "Atómico3, la criptomoneda argentina ligada al litio reduce su emisión para que sea sostenible en el tiempo"
-
-
-    
   }
 }

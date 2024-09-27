@@ -1,8 +1,8 @@
 
 import { useTranslation } from 'react-i18next'
-import manos from '../assets/valores/manos.png'
-import mision from '../assets/valores/mision.png'
-import objetivo from '../assets/valores/objetivo.png'
+import riesgo from '../assets/valores/riesgo.png'
+import mountain from '../assets/valores/mountain.png'
+import target from '../assets/valores/target.png'
 
 export const Valores = () => {
   const [t] = useTranslation("global")
@@ -22,9 +22,9 @@ export const Valores = () => {
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-black hover:shadow-purple-black"
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
             >
-              <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={manos} alt="valores" />
+              <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={riesgo} alt="valores" />
 
               <h2 className="mt-4 text-xl font-bold text-white">{t("nosotros.Propósito")}</h2>
 
@@ -34,9 +34,9 @@ export const Valores = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-black hover:shadow-purple-black"
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
             >
-              <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={mision} alt="valores" />
+              <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={mountain} alt="valores" />
 
               <h2 className="mt-4 text-xl font-bold text-white">{t("nosotros.Visión")}</h2>
 
@@ -47,9 +47,9 @@ export const Valores = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-purple-black hover:shadow-purple-black"
+              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
             >
-              <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={objetivo} alt="" />
+              <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={target} alt="" />
 
               <h2 className="mt-4 text-xl font-bold text-white">{t("nosotros.Misión")}
               </h2>

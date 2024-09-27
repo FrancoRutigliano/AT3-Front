@@ -14,7 +14,7 @@ export const Nosotros = () => {
         className=""
 
       >
-        <div className="overflow-hidden  h-1/3 md:h-1/2 lg:h-screen bg-cover bg-no-repeat p-8 md:p-12 lg:px-16 lg:py-24" style={{
+        <div className="overflow-hidden  h-1/3 md:h-1/2 bg-cover bg-no-repeat p-8 md:p-12 lg:px-16 lg:py-24" style={{
           background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${at3})`,
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat',

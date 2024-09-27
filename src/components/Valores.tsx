@@ -12,7 +12,7 @@ export const Valores = () => {
       <section className=" text-white pt-20">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="mx-auto  text-center">
-            <h2 className="text-3xl font-bold sm:text-6xl lg:mt-10 lg:mb-24">{t("nosotros.Nuestros Valores")}</h2>
+            <h2 className="text-3xl font-bold sm:text-6xl lg:mt-10 mb-16 lg:mb-24 text-celeste">{t("nosotros.Nuestros Valores")}</h2>
 
             {/* <p className="mt-4 text-gray-300">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus

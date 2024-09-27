@@ -13,12 +13,12 @@ export const Team = () => {
 
 
   return (
-    <article className="p-5 mt-28">
+    <article className="p-5 mt-16 lg:mt-28">
       
       <div className="text-center text-2xl">
 
-        <h2 className='text-3xl font-bold sm:text-6xl lg:mt-10 lg:mb-16'>{t("team.nuestro equipo")}</h2>
-        <p className='text-xl mb-16'>{t("team.nuestro equipo descripcion")}</p>
+        <h2 className='text-3xl lg:text-6xl font-bold sm:text-4xl lg:mt-10 mb-10 lg:mb-16 text-celeste'>{t("team.nuestro equipo")}</h2>
+        <p className='text-sm lg:text-xl  lg:mb-16 lg:mx-[10%] '>{t("team.nuestro equipo descripcion")}</p>
       </div>
 
       <section className='flex flex-wrap justify-center p-5 '>

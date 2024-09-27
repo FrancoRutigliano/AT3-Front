@@ -5,9 +5,11 @@ import ricardo from '../assets/team/ricardo.jpg'
 import franco from '../assets/team/franco.jpg'
 import pedro from '../assets/team/pedro.jpg'
 import juan from '../assets/team/juan.jpg'
+import { useTranslation } from 'react-i18next'
 
 export const Team = () => {
 
+  const [t] = useTranslation("global")
 
 
   return (
@@ -15,8 +17,8 @@ export const Team = () => {
       
       <div className="text-center text-2xl">
 
-        <h2 className='text-3xl font-bold sm:text-6xl lg:mt-10 lg:mb-16'>Nuestro Equipo</h2>
-        <p className='text-xl mb-16'>En atómico 3, contamos con un equipo de profesionales apasionados y visionarios que están comprometidos con revolucionar la industria de las criptomonedas y la tokenización de recursos naturales. nuestro equipo combina experiencia en tecnología blockchain, economía digital y minería, trabajando juntos para democratizar el acceso a las reservas de litio y fomentar una transición energética sostenible.</p>
+        <h2 className='text-3xl font-bold sm:text-6xl lg:mt-10 lg:mb-16'>{t("team.nuestro equipo")}</h2>
+        <p className='text-xl mb-16'>{t("team.nuestro equipo descripcion")}</p>
       </div>
 
       <section className='flex flex-wrap justify-center p-5 '>
@@ -27,7 +29,7 @@ export const Team = () => {
             className="h-56 w-full object-cover"
           />
 
-          <div className="bg-dark-light  p-4 sm:p-6">
+          <div className="bg-dark-light  p-4 sm:p-6 h-full">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
             <a >
@@ -35,7 +37,7 @@ export const Team = () => {
             </a>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-celeste" >
-            Ceo & Fundador
+           {t("team.ceo y fundador")}
             </p>
           </div>
         </div>
@@ -46,7 +48,7 @@ export const Team = () => {
             className="h-56 w-full object-cover"
           />
 
-          <div className="bg-dark-light  p-4 sm:p-6">
+          <div className="bg-dark-light  p-4 sm:p-6 h-full">
             {/* <time dateTime="2022-10-10" className="block text-xs text-celeste" > 10th Oct 2022 </time> */}
 
             <a >
@@ -54,7 +56,9 @@ export const Team = () => {
             </a>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-celeste" >
-             Presidente
+            {t("team.presidente")}
+
+
             </p>
           </div>
         </div>
@@ -65,7 +69,7 @@ export const Team = () => {
             className="h-56 w-full object-cover"
           />
 
-          <div className="bg-dark-light  p-4 sm:p-6">
+          <div className="bg-dark-light  p-4 sm:p-6 h-full">
             {/* <time dateTime="2022-10-10" className="block text-xs text-celeste" > 10th Oct 2022 </time> */}
 
             <a >
@@ -73,7 +77,8 @@ export const Team = () => {
             </a>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-celeste" >
-            Director de finanzas
+            {t("team.director de finanzas")}
+
             </p>
           </div>
         </div>
@@ -84,7 +89,7 @@ export const Team = () => {
             className="h-56 w-full object-cover"
           />
 
-          <div className="bg-dark-light  p-4 sm:p-6">
+          <div className="bg-dark-light  p-4 sm:p-6 h-full">
             {/* <time dateTime="2022-10-10" className="block text-xs text-celeste" > 10th Oct 2022 </time> */}
 
             <a >
@@ -92,7 +97,8 @@ export const Team = () => {
             </a>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-celeste" >
-            Director de Prensa
+            {t("team.Director de Prensa")}
+
             </p>
           </div>
         </div>
@@ -103,7 +109,7 @@ export const Team = () => {
             className="h-56 w-full object-cover"
           />
 
-          <div className="bg-dark-light  p-4 sm:p-6">
+          <div className="bg-dark-light  p-4 sm:p-6 h-full">
             {/* <time dateTime="2022-10-10" className="block text-xs text-celeste" > 10th Oct 2022 </time> */}
 
             <a >
@@ -122,7 +128,7 @@ export const Team = () => {
             className="h-56 w-full object-cover"
           />
 
-          <div className="bg-dark-light  p-4 sm:p-6">
+          <div className="bg-dark-light  p-4 sm:p-6 h-full">
             {/* <time dateTime="2022-10-10" className="block text-xs text-celeste" > 10th Oct 2022 </time> */}
 
             <a >
@@ -130,7 +136,8 @@ export const Team = () => {
             </a>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-celeste" >
-            Desarrollador Web3
+            {t("team.Desarrollador Web3")}
+
             </p>
           </div>
         </div>
@@ -149,7 +156,8 @@ export const Team = () => {
             </a>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-celeste" >
-            Desarrollador Web2
+            {t("team.Desarrollador Web2")}
+
             </p>
           </div>
         </div>

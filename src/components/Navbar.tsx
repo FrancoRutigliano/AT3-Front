@@ -98,7 +98,7 @@ export const Navbar = () => {
                         >
                           Staking
                         </Link>
-
+                        
                         <a
                           href="https://dapp-at-3.vercel.app/stakingplus"
                           target='_blank'
@@ -107,7 +107,29 @@ export const Navbar = () => {
                         >
                           {t("navbar.feliz primavera")}
                         </a>
-
+                        <a
+                          href="https://dapp-at-3.vercel.app/"
+                          target='_blank'
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          {t("navbar.comprar at3")}
+                        </a>
+                        <a
+                          href="https://dapp-at-3.vercel.app/"
+                          target='_blank'
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          Peer to Peer
+                        </a>
+                        <Link
+                          to={'/comoInvertir'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          {t("navbar.tutoriales")}
+                        </Link>
                         {/* <a
         href="#"
         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"

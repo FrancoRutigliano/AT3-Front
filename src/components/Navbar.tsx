@@ -285,7 +285,7 @@ export const Navbar = () => {
                 {
                   isOpenDropdown &&
                   <div
-                    className="absolute left-10 end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                    className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
                     role="menu"
                   >
                     <div className="p-2">
@@ -309,6 +309,29 @@ export const Navbar = () => {
                       >
                         {t("navbar.feliz primavera")}
                       </a>
+                      <a
+                          href="https://dapp-at-3.vercel.app/"
+                          target='_blank'
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          {t("navbar.comprar at3")}
+                        </a>
+                        <a
+                          href="https://dapp-at-3.vercel.app/"
+                          target='_blank'
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          Peer to Peer
+                        </a>
+                        <Link
+                          to={'/comoInvertir'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          {t("navbar.tutoriales")}
+                        </Link>
 
                       {/* <a
         href="#"

@@ -2,6 +2,7 @@
 import { useTranslation } from 'react-i18next'
 import { ConnectWallet } from '../components/ConnectWallet'
 import { Staking } from '../components/Staking'
+import { PeerToPeer } from '../components/PeerToPeer'
 
 export const ComoInvertir = () => {
   const { t } = useTranslation("global")
@@ -22,6 +23,7 @@ export const ComoInvertir = () => {
       </div>
       <ConnectWallet />
       <Staking/>
+      <PeerToPeer/>
     </>
 
   )

@@ -2,8 +2,9 @@ import staking2 from '../assets/staking2.jpeg'
 import stakingES   from '../assets/staking.png'
 import stakingEN from '../assets/stakingEN.jpeg'
 import { useTranslation } from 'react-i18next'
+import { ConnectWallet } from '../components/ConnectWallet'
 
-export const StakingView = () => {
+export const ComoInvertir = () => {
   const {t, i18n} = useTranslation("global")
 
   // const currentLang = i18n.language;
@@ -13,9 +14,13 @@ export const StakingView = () => {
 
 
   return (
-    <section>
- 
 
+    <>
+
+ <h1 className='bg-custom-gradient bg-clip-text text-transparent text-7xl text-center font-bold mt-20 mb-10'>¿Cómo invertir en Atómico3?</h1>
+<h2 className='text-center text-xl'>Comprar Atómico3, Staking, Peer to Peer y Feliz Primavera: En esa sección aprenderás sobre cada una de ellas </h2>
+    <ConnectWallet/>
+    <section>
 <section className="pt-20 lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
   <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
@@ -96,5 +101,7 @@ export const StakingView = () => {
 
 
     </section>
+    </>
+
   )
 }

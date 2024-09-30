@@ -29,7 +29,7 @@ export const Staking = () => {
           {/* <p className=' text-white '>{t("staking.clickea el enlace")}</p> */}
   
           <Link
-            to="/staking"
+            to="/comoInvertir"
             target='_blanck'
             className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
           >

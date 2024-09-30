@@ -17,8 +17,8 @@ export const ComoInvertir = () => {
 
     <>
 
- <h1 className='bg-custom-gradient bg-clip-text text-transparent text-7xl text-center font-bold mt-20 mb-10'>¿Cómo invertir en Atómico3?</h1>
-<h2 className='text-center text-xl'>Comprar Atómico3, Staking, Peer to Peer y Feliz Primavera: En esa sección aprenderás sobre cada una de ellas </h2>
+ <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold mt-20 mb-10'>¿Cómo invertir en Atómico3?</h1>
+<h2 className='text-center text-md lg:text-xl'>Comprar Atómico3, Staking, Peer to Peer y Feliz Primavera: En esa sección aprenderás sobre cada una de ellas </h2>
     <ConnectWallet/>
     <section>
 <section className="pt-20 lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">

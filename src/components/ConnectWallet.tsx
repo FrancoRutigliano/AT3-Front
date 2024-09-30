@@ -5,7 +5,7 @@ export const ConnectWallet = () => {
   <section>
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
     <div className="max-w-3xl">
-      <h2 className="bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold">
+      <h2 className="text-center lg:text-left bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold">
         Conectar tu Wallet
       </h2>
     </div>

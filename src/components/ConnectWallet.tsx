@@ -2,8 +2,8 @@
 export const ConnectWallet = () => {
   return (
     <>
-  <section>
-  <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+  <section className="">
+  <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
     <div className="max-w-3xl">
       <h2 className="text-center lg:text-left bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold">
         Conectar tu Wallet

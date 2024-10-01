@@ -1,10 +1,10 @@
-// import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 // import staking2 from '../assets/Investors.png'
 import p2p from '../assets/p2p.jpg'
 
 
 export const PeerToPeer = () => {
-    // const { t } = useTranslation("global")
+    const { t } = useTranslation("global")
 
     return (
         <>
@@ -14,13 +14,19 @@ export const PeerToPeer = () => {
                     <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
                         <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
                             <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2 break-words">
-                                ¿Qué es Peer to peer?
+                {t("como invertir.peer to peer")}
+                                
                             </h2>
 
                             <p className='text-md lg:text-2xl'>
-                                Básicamene el Peer to Peer consiste en intercambiar USDT por AT3
+                {t("como invertir.peer to peer p1")}
+
+                                
                             </p>
-                            <p className='text-md lg:text-2xl'>¡Mira el siguiente video y aprende paso a paso como realizarlo!</p>
+                            <p className='text-md lg:text-2xl'>
+                {t("como invertir.peer to peer p2")}
+                                
+                                </p>
 
                         </div>
                     </div>
@@ -43,7 +49,8 @@ export const PeerToPeer = () => {
                     <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                         <div className="max-w-3xl">
                             <h2 className="text-center lg:text-left bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold">
-                               ¿Como hacer Peer to Peer?
+                {t("como invertir.peer to peer p3")}
+                               
                             </h2>
                         </div>
 
@@ -60,11 +67,13 @@ export const PeerToPeer = () => {
                             <div className="lg:py-16">
                                 <article className="space-y-4 text-gray-200">
                                     <p className="text-md lg:text-2xl">
-                                        Aprende fácil y rápidamente como hacerlo siguiendo los pasos a continuación
+                {t("como invertir.peer to peer p4")}
+                                        
                                     </p>
 
                                     <p className="text-md lg:text-2xl">
-                                        ¡Dale click al video y empieza a invertir hoy!
+                {t("como invertir.peer to peer p5")}
+                                        
                                     </p>
                                 </article>
                             </div>

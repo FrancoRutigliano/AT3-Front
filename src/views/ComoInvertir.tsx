@@ -23,8 +23,8 @@ export const ComoInvertir = () => {
         backgroundSize: 'cover'
       }}>
 
-        <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32 mb-10' style={{ textShadow: '1px 1px 50px black' }}>¿Cómo invertir en Atómico3?</h1>
-        <h2 className='text-center text-md lg:text-xl'>En esta sección encontraras tutoriales para aprender las diferentes maneras  </h2>
+        <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32 mb-10' style={{ textShadow: '1px 1px 50px black' }}>{t("como invertir.como invertir")}</h1>
+        <h2 className='text-center text-md lg:text-xl'>En esta sección encontraras tutoriales para aprender las diferentes maneras de invertir en Atómico3 <br /> ¡Desliza hacia abajo y comienza a invertir hoy! </h2>
       </div>
       <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-azul to-transparent pointer-events-none"></div>
 

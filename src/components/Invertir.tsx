@@ -14,15 +14,15 @@ export const Invertir = () => {
           <img
             alt=""
             src={at3}
-            className="absolute inset-0 h-full w-full object-cover md:object-contain lg:object-cover"
+            className="absolute inset-0 h-full w-full mx-auto max-w-[500px]  object-contain "
           />
         </div>
   
         <div className="lg:py-24 lg:pl-12 text-center lg:text-left">
-          <h2 className="text-3xl font-bold sm:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">¿Cómo invertir en Atómico3?</h2>
+          <h2 className="text-3xl font-bold sm:text-5xl lg:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">{t("invertir.como invertir")}</h2>
   
-          <p className="mt-2 lg:mt-4 text-white ">En Atómico3 puedes invertir hasta en 4 formas diferentes: Staking, Peer to Peer, Comprar AT3 o Feliz Primavera</p>
-          <p className="mt-2 lg:mt-4 text-white ">Aquí te enseñaremos cómo realizar cada una de ellas</p>
+          <p className="mt-2 lg:mt-4 text-white ">{t("invertir.como invertir p1")}</p>
+          <p className="mt-2 lg:mt-4 text-white ">{t("invertir.como invertir p2")}</p>
 
 
           {/* <p className=' text-white '>{t("staking.como funciona")}</p> */}

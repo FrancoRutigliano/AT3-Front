@@ -154,5 +154,15 @@
   "Director de Prensa": "Press Director",
   "Desarrollador Web3": "Web3 Developer",
   "Desarrollador Web2": "Web2 Developer"
+  },
+  "invertir":{
+    "como invertir": "How to invest in Atómico3?",
+    "como invertir p1": "At Atómico3 you can invest in 4 different modalities: Staking, Peer to Peer, Buy AT3 or Happy Spring",
+    "como invertir p2": "Here we will teach you how to do each of them. Click on the button below!",
+    "ver tutoriales": "Watch Tutorials"
+
+  },
+  "como invertir":{
+    "como invertir": "How to invest in Atómico3?"
   }
 }

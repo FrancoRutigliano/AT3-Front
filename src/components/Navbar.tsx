@@ -63,10 +63,9 @@ export const Navbar = () => {
 
                     >
                       <a
-                        href="#"
                         className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                       >
-                        Como Invertir
+                        {t("navbar.como invertir")}
                       </a>
                       <span className="sr-only">Menu</span>
                       <svg
@@ -92,7 +91,7 @@ export const Navbar = () => {
                     >
                       <div className="p-2">
                         <a
-                        href='https://dapp-at-3.vercel.app'
+                          href='https://dapp-at-3.vercel.app'
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
                           target='_blank'
@@ -273,7 +272,8 @@ export const Navbar = () => {
                     <button
                       className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                     >
-                      Como Invertir
+                      {t("navbar.como invertir")}
+
                     </button>
                     <span className="sr-only">Menu</span>
                     <svg

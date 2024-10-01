@@ -1,12 +1,12 @@
 import staking2 from '../assets/staking2.jpeg'
-import stakingES from '../assets/staking.png'
-import stakingEN from '../assets/stakingEN.jpeg'
+// import stakingES from '../assets/staking.png'
+// import stakingEN from '../assets/stakingEN.jpeg'
 import { useTranslation } from 'react-i18next'
 
 
 
 export const Staking = () => {
-  const { t, i18n } = useTranslation("global")
+  const { t } = useTranslation("global")
 
   return (
     <>

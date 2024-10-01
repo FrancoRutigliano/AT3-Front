@@ -1,10 +1,10 @@
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
 // import staking2 from '../assets/Investors.png'
 import p2p from '../assets/p2p.jpg'
 
 
 export const PeerToPeer = () => {
-    const { t } = useTranslation("global")
+    // const { t } = useTranslation("global")
 
     return (
         <>

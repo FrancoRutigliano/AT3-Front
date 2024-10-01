@@ -91,14 +91,15 @@ export const Navbar = () => {
                       role="menu"
                     >
                       <div className="p-2">
-                        <Link
-                          to={'/staking'}
+                        <a
+                        href='https://dapp-at-3.vercel.app'
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
+                          target='_blank'
                         >
                           Staking
-                        </Link>
-                        
+                        </a>
+
                         <a
                           href="https://dapp-at-3.vercel.app/stakingplus"
                           target='_blank'
@@ -196,6 +197,14 @@ export const Navbar = () => {
                   </a>
                 </li>
                 <li>
+                  <Link
+                    className="text-white transition hover:text-celeste dark:text-white "
+                    to={"/soporte"}
+                  >
+                    {t("navbar.soporte")}
+                  </Link>
+                </li>
+                <li>
                   <button onClick={() => handleChangeLanguage("en")}>
                     <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                   </button>
@@ -251,14 +260,14 @@ export const Navbar = () => {
               </li>
               {/* DROPDWON */}
               <div className="relative"
-                >
+              >
                 <div
                   className="inline-flex items-center overflow-hidden rounded-md  text-white"
                 >
 
                   <button
                     className="h-full flex items-center text-white  dark:text-gray-300 hover:text-blue-500 "
-                    onClick={()=>toggleDropdown()}
+                    onClick={() => toggleDropdown()}
 
                   >
                     <button
@@ -289,49 +298,50 @@ export const Navbar = () => {
                     role="menu"
                   >
                     <div className="p-2">
-                      <Link
-                        to={'/staking'}
+                      <a
+                        href='https://dapp-at-3.vercel.app'
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
-                        onClick={()=>{   toggleDropdown(); closeMenu(); }}
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
+                        target='_blank'
 
                       >
                         Staking
-                      </Link>
+                      </a>
 
                       <a
                         href="https://dapp-at-3.vercel.app/stakingplus"
                         target='_blank'
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
-                        onClick={()=>{   toggleDropdown(); closeMenu(); }}
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
 
                       >
                         {t("navbar.feliz primavera")}
                       </a>
                       <a
-                          href="https://dapp-at-3.vercel.app/"
-                          target='_blank'
-                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                          role="menuitem"
-                        >
-                          {t("navbar.comprar at3")}
-                        </a>
-                        <a
-                          href="https://dapp-at-3.vercel.app/"
-                          target='_blank'
-                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                          role="menuitem"
-                        >
-                          Peer to Peer
-                        </a>
-                        <Link
-                          to={'/comoInvertir'}
-                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                          role="menuitem"
-                        >
-                          {t("navbar.tutoriales")}
-                        </Link>
+                        href="https://dapp-at-3.vercel.app/"
+                        target='_blank'
+                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                        role="menuitem"
+                      >
+                        {t("navbar.comprar at3")}
+                      </a>
+                      <a
+                        href="https://dapp-at-3.vercel.app/"
+                        target='_blank'
+                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                        role="menuitem"
+                      >
+                        Peer to Peer
+                      </a>
+                      <Link
+                        to={'/comoInvertir'}
+                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                        role="menuitem"
+                      >
+                        {t("navbar.tutoriales")}
+                      </Link>
 
                       {/* <a
         href="#"
@@ -373,6 +383,14 @@ export const Navbar = () => {
                   {t("navbar.preguntas frecuentes")}
 
                 </a>
+              </li>
+              <li>
+                <Link
+                  className="text-white transition hover:text-celeste dark:text-white "
+                  to={"/soporte"}
+                >
+                  {t("navbar.soporte")}
+                </Link>
               </li>
               <li>
                 <a

@@ -10,7 +10,8 @@
     "como invertir": "Cómo invertir",
     "feliz primavera": "¡Feliz Primavera!",
     "comprar at3": "Comprar AT3",
-    "tutoriales": "Tutoriales"
+    "tutoriales": "Tutoriales",
+    "soporte": "Soporte"
 
 
   },
@@ -34,8 +35,8 @@
     "staking": "staking"
   },
   "modal": {
-    "feliz primavera descripcion": "El siguiente formulario debe ser completado únicamente por aquellos que hayan comprado AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre. ",
-    "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 30 de septiembre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",
+    "feliz primavera descripcion": "El siguiente formulario debe ser completado únicamente por aquellos que hayan comprado AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 7 de Octubre. ",
+    "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 7 de Octubre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",
     "continuar": "Continuar",
     "cancelar": "Cancelar",
     "completar formulario": "Completar formulario"

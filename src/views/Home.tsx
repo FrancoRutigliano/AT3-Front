@@ -22,9 +22,6 @@ export const Home = () => {
 
   return (
 
-
-
-
 <>
     {/* <MenuAppBar/> */}
     <Header/>

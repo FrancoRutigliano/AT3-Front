@@ -23,25 +23,25 @@ export const ConnectWallet = () => {
               <iframe className="mx-auto rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/rDTr2LqAx9s?si=oH3LD_T0Wd7OqAob" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div> */}
             <div className="relative overflow-hidden pb-[56.25%] h-0 max-w-[600px] w-full mx-auto">
-  <iframe 
-    className="absolute top-0 left-0 w-full h-full rounded-xl"
-    src="https://www.youtube.com/embed/rDTr2LqAx9s?si=oH3LD_T0Wd7OqAob" 
-    title="YouTube video player" 
-    frameBorder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerPolicy="strict-origin-when-cross-origin" 
-    allowFullScreen>
-  </iframe>
-</div>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-xl"
+                src="https://www.youtube.com/embed/rDTr2LqAx9s?si=oH3LD_T0Wd7OqAob"
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen>
+              </iframe>
+            </div>
 
 
             <div className="lg:py-16">
               <article className="lg:space-y-4 text-gray-200">
                 <p className="text-center lg:text-left text-md lg:text-2xl">
-                {t("como invertir.conectar tu wallet p1")}
+                  {t("como invertir.conectar tu wallet p1")}
                 </p>
                 <p className="text-center lg:text-left text-md lg:text-2xl">
-                {t("como invertir.conectar tu wallet p2")}
+                  {t("como invertir.conectar tu wallet p2")}
 
                 </p>
               </article>

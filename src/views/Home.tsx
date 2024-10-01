@@ -32,7 +32,7 @@ export const Home = () => {
     <AtomicInfo/>
     <VideoSection/>
     <Invest/>
-    <Invertir/>
+    {/* <Invertir/> */}
     <Faq ref={faqRef} />
 
 </>

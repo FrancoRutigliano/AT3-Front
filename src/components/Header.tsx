@@ -94,7 +94,7 @@ export const Header = () => {
             <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' onClick={()=>handleOpenModal(false)}
             >
 
-              <button className='' >Como invertir</button>
+              <button className='' >Staking</button>
             </a>
             <a href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV" className='md:hidden max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'>
               <button className='text-sm '>{t("header.whitepaper")}</button>

@@ -36,12 +36,13 @@ export const ConnectWallet = () => {
 
 
             <div className="lg:py-16">
-              <article className="space-y-4 text-gray-200">
+              <article className="lg:space-y-4 text-gray-200">
                 <p className="text-center lg:text-left text-md lg:text-2xl">
-                  Para realizar las operaciones necesarias para invertir en Atómico3 es imprescindible que tengas tu wallet conectada.
+                {t("como invertir.conectar tu wallet p1")}
                 </p>
                 <p className="text-center lg:text-left text-md lg:text-2xl">
-                  ¡Mira el video a continuación y aprende como hacerlo!
+                {t("como invertir.conectar tu wallet p2")}
+
                 </p>
               </article>
             </div>

@@ -73,7 +73,10 @@
     "que es": "What is It?",
     "como funciona": "How does it work?",
     "clickea el enlace": "Click the link below to find out!",
-    "saber mas": "Learn more"
+    "saber mas": "Learn more",
+    "como hacer staking": " How to make Staking?",
+    "como hacer staking p1": "Do you want to learn how to perform Staking? In this video we explain how to do it so that you can learn quickly and easily.",
+    "como hacer staking p2": "Click on the video and start investing today!"
   },
   "faq": {
     "preguntas frecuentes": "FAQ",
@@ -166,7 +169,11 @@
     "como invertir": "How to invest in Atómico3?",
     "como invertir p1": "In this section you will find tutorials to learn the different ways to invest in Atómico3",
     "como invertir p2": "Scroll down and start investing today!",
-    "conectar tu wallet": "Connect your Wallet!"
+    "conectar tu wallet": "Connect your Wallet!",
+    "conectar tu wallet p1": " To perform the necessary operations to invest in Atómico3 it is essential that you have your wallet connected.",
+    "conectar tu wallet p2": "Watch the video below and learn how to do it!"
+
+    
 
   }
 }

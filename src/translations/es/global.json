@@ -12,8 +12,6 @@
     "comprar at3": "Comprar AT3",
     "tutoriales": "Tutoriales",
     "soporte": "Soporte"
-
-
   },
   "nosotros": {
     "title": "Somos una compañía legalmente constituida en Paraguay, dedicada al desarrollo y optimización de la actividad minera. Les aportamos la herramienta de la tokenización de las reservas de litio certificadas, buscando con esto innovar y revolucionar la industria de la electromovilidad. ",
@@ -74,7 +72,10 @@
     "que es": "¿Qué es?",
     "como funciona": "¿Cómo funciona?",
     "clickea el enlace": "¡Clickea el enlace de abajo para saber más!",
-    "saber mas": "Saber Más"
+    "saber mas": "Saber Más",
+    "como hacer staking": "¿Cómo hacer Staking?",
+    "como hacer staking p1": "¿Quieres aprender a realizar Staking? En este video te explicamos como realizarlo para que puedas aprender de manera rápida y sencilla",
+    "como hacer staking p2": "¡Dale click al video y comienza a invertir hoy!"
   },
   "faq": {
     "preguntas frecuentes": "Preguntas Frecuentes",
@@ -145,7 +146,7 @@
     "n2": "La valorización del litio en Latinoamérica: perspectivas, proyecciones y su impacto en el mercado global",
     "n3": "Atómico3, la criptomoneda argentina ligada al litio reduce su emisión para que sea sostenible en el tiempo"
   },
-  "team":{
+  "team": {
     "nuestro equipo": "Nuestro Equipo",
     "nuestro equipo descripcion": "En Atómico3, contamos con un equipo de profesionales apasionados y visionarios que están comprometidos con revolucionar la industria de las criptomonedas y la tokenización de recursos naturales. Nuestro equipo combina experiencia en tecnología blockchain, economía digital y minería, trabajando juntos para democratizar el acceso a las reservas de litio y fomentar una transición energética sostenible.",
     "ceo y fundador": "Ceo & Fundador",
@@ -155,7 +156,7 @@
     "Desarrollador Web3": "Desarrollador Web3",
     "Desarrollador Web2": "Desarrollador Web2"
   },
-   "invertir":{
+  "invertir": {
     "como invertir": "¿Cómo Invertir en Atómico3?",
     "como invertir p1": "En Atómico3 puedes invertir en 4 modalidades diferentes: Staking, Peer to Peer, Comprar AT3 o Feliz Primavera",
     "como invertir p2": "Aquí te enseñaremos cómo realizar cada una de ellas ¡Cliquea en el botón de abajo!",
@@ -163,9 +164,10 @@
   },
   "como invertir": {
     "como invertir": "¿Cómo Invertir en Atómico3?",
-     "como invertir p1": "En esta sección encontrarás tutoriales para aprender las diferentes maneras de invertir en Atómico3",
+    "como invertir p1": "En esta sección encontrarás tutoriales para aprender las diferentes maneras de invertir en Atómico3",
     "como invertir p2": "¡Desliza hacia abajo y comienza a invertir hoy!",
-    "conectar tu wallet": "Conectar tu Wallet"
+    "conectar tu wallet": "Conectar tu Wallet",
+    "conectar tu wallet p1": "Para realizar las operaciones necesarias para invertir en Atómico3 es imprescindible que tengas tu wallet conectada.",
+    "conectar tu wallet p2": "¡Mira el video a continuación y aprende como hacerlo!"
   }
-  
 }

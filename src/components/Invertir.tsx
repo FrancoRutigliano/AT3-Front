@@ -14,7 +14,7 @@ export const Invertir = () => {
           <img
             alt=""
             src={at3}
-            className="absolute inset-0 h-full w-full mx-auto max-w-[500px]  object-contain "
+            className="absolute inset-0 h-full w-full mx-auto max-w-[425px]  object-contain "
           />
         </div>
   
@@ -33,7 +33,7 @@ export const Invertir = () => {
             target='_blanck'
             className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
           >
-            Ver tutoriales
+           {t("invertir.ver tutoriales")}
           </Link>
         </div>
       </div>

@@ -195,14 +195,14 @@ export const Navbar = () => {
                     {t("navbar.contacto")}
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     className="text-white transition hover:text-celeste dark:text-white "
                     to={"/soporte"}
                   >
                     {t("navbar.soporte")}
-                  </Link>
-                </li>
+                  </Link> 
+                </li> */}
                 <li>
                   <button onClick={() => handleChangeLanguage("en")}>
                     <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
@@ -384,14 +384,14 @@ export const Navbar = () => {
 
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   className="text-white transition hover:text-celeste dark:text-white "
                   to={"/soporte"}
                 >
                   {t("navbar.soporte")}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <a
                   className="text-white transition hover:text-celeste dark:text-white hover:cursor-pointer"

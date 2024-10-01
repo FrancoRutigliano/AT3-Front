@@ -324,6 +324,7 @@ export const Navbar = () => {
                         target='_blank'
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
                       >
                         {t("navbar.comprar at3")}
                       </a>
@@ -332,6 +333,7 @@ export const Navbar = () => {
                         target='_blank'
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
                       >
                         Peer to Peer
                       </a>
@@ -339,6 +341,7 @@ export const Navbar = () => {
                         to={'/comoInvertir'}
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
                       >
                         {t("navbar.tutoriales")}
                       </Link>

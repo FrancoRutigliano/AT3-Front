@@ -95,7 +95,7 @@ export const Staking = () => {
         <section>
           <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
             <div className="ml-auto max-w-3xl">
-              <h2 className="bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2 sm:text-4xl text-right">
+              <h2 className="  bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2 sm:text-4xl text-center lg:text-right">
               {t("staking.como hacer staking")}
               </h2>
             </div>
@@ -105,20 +105,23 @@ export const Staking = () => {
 
               <div className="lg:py-16">
                 <article className="space-y-4 text-gray-200 text-left ">
-                  <p className='text-md lg:text-2xl'>
+                  <p className='text-md lg:text-2xl text-center lg:text-right'>
               {t("staking.como hacer staking p1")}
                     
                   </p>
-                  <p className='text-md lg:text-2xl'>
+                  <p className='text-md lg:text-2xl text-center lg:text-right'>
               {t("staking.como hacer staking p2")}
 
                   </p>
 
                 </article>
               </div>
-              <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+              {/* <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
                 <iframe className='rounded-xl' width="560" height="315" src="https://www.youtube.com/embed/VUX8-tJ7ITU?si=XMHAqvvnKlXuyxlQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-              </div>
+              </div> */}
+               <div className="relative overflow-hidden pb-[56.25%] h-0 max-w-[600px] w-full mx-auto">
+               <iframe className="absolute top-0 left-0 w-full h-full rounded-xl" width="560" height="315" src="https://www.youtube.com/embed/VUX8-tJ7ITU?si=XMHAqvvnKlXuyxlQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+               </div>
             </div>
           </div>
         </section>

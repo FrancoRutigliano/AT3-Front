@@ -8,12 +8,12 @@ export const PeerToPeer = () => {
 
     return (
         <>
-            <section>
+            <section className='mt-16'>
                 <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  pt-5' >Peer to Peer</h1>
                 <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
                     <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
                         <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
-                            <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2 break-words">
+                            <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold md:text-3xl py-2 break-words">
                 {t("como invertir.peer to peer")}
                                 
                             </h2>
@@ -30,14 +30,14 @@ export const PeerToPeer = () => {
 
                         </div>
                     </div>
-                    <div className=' flex justify-center items-center'>
+                    <div className=' flex justify-center items-center px-5 md:px-0' >
 
                         <img
                             alt=""
                             // src={i18n.language === 'es' ? stakingES : stakingEN}
                             src={p2p}
 
-                            className='rounded-lg   bg-red-200 lg:object-contain max-w-[600px]'
+                            className='rounded-lg   bg-red-200 lg:object-contain  lg:max-w-[600px]'
 
                         />
                     </div>
@@ -48,7 +48,7 @@ export const PeerToPeer = () => {
                 <section className="">
                     <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                         <div className="max-w-3xl">
-                            <h2 className="text-center lg:text-left bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold">
+                            <h2 className="text-center lg:text-left bg-custom-gradient bg-clip-text text-transparent text-3xl md:text-3xl lg:text-6xl font-bold">
                 {t("como invertir.peer to peer p3")}
                                
                             </h2>

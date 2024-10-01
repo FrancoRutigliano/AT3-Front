@@ -34,15 +34,15 @@
     "staking": "Staking"
   },
   "modal": {
-    "feliz primavera descripcion": "The following form must be completed only by those who purchased AT3 between 0:00 on Monday, September 23 and 23:59 on September 30.",
-    "recordatorio descripcion": "Remember that those who purchase AT3 between 0:00 on Monday, September 23 and 23:59 on September 30, to obtain the additional 5% of Spring Week must complete the form which is accessed by clicking on the button from 'Happy Spring'",
+    "feliz primavera descripcion": "The following form must be completed only by those who purchased AT3 between 0:00 on Monday, September 23 and 23:59 on October 7.",
+    "recordatorio descripcion": "Remember that those who purchase AT3 between 0:00 on Monday, September 23 and 23:59 on October 7, to obtain the additional 5% of Spring Week must complete the form which is accessed by clicking on the button from 'Happy Spring'",
     "continuar": "Continue",
     "cancelar": "Cancel",
     "completar formulario": "Complete form"
   },
   "popup": {
     "obten un 5 adicional": "Get an extra 5%!",
-    "p1": "Buy AT3 (new) between 00:00 a.m. on Monday, September 23, 2024 and until 11:59 p.m. on September 30, 2024. From Atómico3 we are going to give you an additional 5%.",
+    "p1": "Given the numerous inquiries and requests we have extended Spring Week until October 7th! Buy AT3 (new) between 00:00 a.m. on Monday, September 23, 2024 and until 11:59 p.m. on October 7, 2024. From Atómico3 we are going to give you an additional 5%.",
     "p2": "Once you have made the purchase, do not forget to fill out the form with your information by clicking on the 'Happy Spring' button.",
     "aceptar": "Continue"
   },

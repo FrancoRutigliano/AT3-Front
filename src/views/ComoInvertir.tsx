@@ -24,7 +24,7 @@ export const ComoInvertir = () => {
       }}>
 
         <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32 mb-10' style={{ textShadow: '1px 1px 50px black' }}>¿Cómo invertir en Atómico3?</h1>
-        <h2 className='text-center text-md lg:text-xl'>En esta sección encontraras tutoriales </h2>
+        <h2 className='text-center text-md lg:text-xl'>En esta sección encontraras tutoriales para aprender las diferentes maneras  </h2>
       </div>
       <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-azul to-transparent pointer-events-none"></div>
 

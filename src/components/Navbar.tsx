@@ -33,6 +33,9 @@ export const Navbar = () => {
   }; const toggleDropdownHelp = () => {
     setIsOpenDropdownHelp(prev => !prev);
   };
+  const toggleDropdownAboutUs = () => {
+    setIsOpenDropdownAboutUs(prev => !prev);
+  }
   // const toggleDropdownLang = () => {
   //   setIsOpenDropdownLang(prev => !prev);
   // };
@@ -54,7 +57,7 @@ export const Navbar = () => {
               <ul className="flex items-center gap-6  lg:text-md">
 
                 <li >
-                  {/* DROPDWON */}
+                  {/* DROPDWON NOSOTROS*/}
                   <div className="relative"
                     onMouseLeave={() => setIsOpenDropdownAboutUs(false)}>
                     <div
@@ -97,7 +100,7 @@ export const Navbar = () => {
                           <a
                             href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
 '                         download
-                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-purple"
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"
                           >
                             {t("navbar.descargar brochure")}
@@ -117,13 +120,8 @@ export const Navbar = () => {
                       </div>
                     }
                   </div>
-                  {/* FIN DROPDWON */}
-                  {/* <Link
-                    className="text-white transition hover:text-celeste dark:text-white "
-                    to={'/nosotros'}
-                  >
-                    {t("navbar.nosotros")}
-                  </Link> */}
+                  {/* FIN DROPDWON NOSOTROS*/}
+
                 </li>
                 {/* DROPDWON */}
                 <div className="relative"
@@ -401,13 +399,85 @@ export const Navbar = () => {
           <nav aria-label="Global">
             <ul className="flex flex-col items-start gap-4 p-4 text-sm">
               <li>
-                <Link
+                {/* <Link
                   className="text-white transition hover:text-celeste dark:text-white "
                   to={'/nosotros'}
                   onClick={closeMenu}
                 >
                   {t("navbar.nosotros")}
-                </Link>
+                </Link> */}
+                {/* DORPDOWN NOSOTROS */}
+                {/* DROPDWON */}
+                <div className="relative"
+                >
+                  <div
+                    className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                  >
+
+                    <button
+                      className="h-full flex items-center text-white  dark:text-gray-300 hover:text-blue-500 "
+                      onClick={() => toggleDropdownAboutUs()}
+
+                    >
+                      <button
+                        className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                      >
+                        {t("navbar.ayuda")}
+
+                      </button>
+                      <span className="sr-only">Menu</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="size-4 "
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+
+                  {
+                    isOpenDropdownAboutUs &&
+                    <div
+                      className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                      role="menu"
+                    >
+                      <div className="p-2">
+                        <a
+                          href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
+                       '
+                          download
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                          // onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}
+
+                        >
+                          {t("navbar.descargar brochure")}
+
+                        </a>
+                        <Link
+                          to={'/nosotros#equipo'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                          onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}
+                        >
+                          {t("navbar.nuestro equipo")}
+
+                        </Link>
+
+
+                      </div>
+                    </div>
+                  }
+                </div>
+                {/* FIN DROPDWON */}
+
+                {/* FIN DROPDOWN NOSOTROS */}
               </li>
               {/* DROPDWON */}
               <div className="relative"

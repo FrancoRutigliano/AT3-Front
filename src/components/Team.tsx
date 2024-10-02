@@ -6,14 +6,31 @@ import franco from '../assets/team/franco.jpg'
 import pedro from '../assets/team/pedro.jpg'
 import juan from '../assets/team/juan.jpg'
 import { useTranslation } from 'react-i18next'
+import { useEffect, useRef } from 'react'
+import { useLocation } from 'react-router-dom'
 
-export const Team = () => {
+export const  Team = () => {
 
   const [t] = useTranslation("global")
+  const equipoRef = useRef<HTMLDivElement>(null); // Referencia al componente al que quieres desplazarte
+  const location = useLocation();
 
+  useEffect(() => {
+    // Desplazarse si el hash en la URL coincide con "#equipo"
+    if (location.hash === '#equipo' && equipoRef.current) {
+      // Obtener la posición del elemento
+      const elementPosition = equipoRef.current.getBoundingClientRect().top + window.scrollY;
+      
+      // Ajustar el scroll para que se desplace 100px más arriba
+      window.scrollTo({
+        top: elementPosition - 100, // Ajusta la posición sumando o restando píxeles
+        behavior: 'smooth', // Desplazamiento suave
+      });
+    }
+  }, [location]);
 
   return (
-    <article className="p-5 mt-16 lg:mt-28" id='team'>
+    <article className="p-5 mt-16 lg:mt-28" ref={equipoRef} id="equipo">
       
       <div className="text-center text-2xl">
 

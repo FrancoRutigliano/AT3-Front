@@ -11,7 +11,6 @@ import { useLocation } from "react-router-dom"
 // import './Home.css'
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
-  const teamRef = useRef<HTMLDivElement>(null);
 
   const location = useLocation();
 
@@ -20,9 +19,7 @@ export const Home = () => {
     if (location.pathname === '/faq') {
       faqRef.current?.scrollIntoView({ behavior: "smooth" });
     }
-    if (location.pathname === '/nosotros') {
-      teamRef.current?.scrollIntoView({ behavior: "smooth" });
-    }
+   
   }, [location]);
 
   return (

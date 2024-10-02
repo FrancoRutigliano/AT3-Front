@@ -9,7 +9,8 @@ export const AtomicInfo = () => {
   return (
 
     <>
-      <section className=" text-white mt-20  lg:mt-20">
+      <section className="relative  text-white mt-20  lg:pt-20 ">
+      {/* <div className="absolute top-0 left-0 right-0 h-4 bg-gradient-to-b from-blue-500 to-transparent"></div> */}
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
           <div className="mx-auto w-full text-center  ">
             <h2 className=" text-4xl lg:text-7xl font-bold sm:text-5xl bg-custom-gradient bg-clip-text text-transparent ">{t("atomicInfo.que es atomico")}</h2>

@@ -72,7 +72,7 @@ export const Header = () => {
       
       
       
-<header className='flex flex-col-reverse md:flex-row overflow-hidden bg-cover bg-no-repeat md:p-12 lg:px-16 lg:pb-10' style={{
+<header className=' flex flex-col-reverse md:flex-row overflow-hidden bg-cover bg-no-repeat lg:px-16' style={{
   background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${e1})`,
   backgroundPosition: 'center top',
   backgroundRepeat: 'no-repeat',  // Esto asegura que la imagen no se repita

@@ -8,6 +8,7 @@ export const AtomicInfo = () => {
 
   return (
 
+    
     <>
       <section className="relative  text-white mt-20  lg:pt-20 ">
       {/* <div className="absolute top-0 left-0 right-0 h-4 bg-gradient-to-b from-blue-500 to-transparent"></div> */}

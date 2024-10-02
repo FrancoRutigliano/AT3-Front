@@ -11,6 +11,8 @@ import mail from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import soporte from '../assets/soporte.png'
+
 // import { Link } from 'react-router-dom'
 
 export const Footer = () => {
@@ -82,6 +84,12 @@ export const Footer = () => {
                   <img src={mail} alt="mail" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
                   <a href="mailto:info@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
                     Info@atomico3.io
+                  </a>
+                </li>
+                <li className='flex items-center'>
+                  <img src={soporte} alt="soporte" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
+                  <a href="mailto:support@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
+                  support@atomico3.io
                   </a>
                 </li>
 

@@ -6,6 +6,7 @@ import { ComoInvertir } from "../views/ComoInvertir"
 import ScrollToTop from "../components/ScrollToTop"
 import { Press } from "../views/Press"
 import { Nosotros } from "../views/Nosotros"
+import { Support } from "../views/Support"
 
 export const RoutesOutlet = () => {
     return (
@@ -20,6 +21,7 @@ export const RoutesOutlet = () => {
                 <Route path="faq" element={<Home />} /> 
                 <Route path="press" element={<Press/>}/>
                 <Route path="nosotros" element={<Nosotros/>}/>
+                <Route path="soporte" element={<Support/>}/>
 
                 </Route>
 

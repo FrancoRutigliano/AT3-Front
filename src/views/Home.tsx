@@ -8,7 +8,7 @@ import { Invertir } from "../components/Invertir"
 import { VideoSection } from "../components/VideoSection"
 import { useLocation } from "react-router-dom"
 // import { Modal } from "../components/Modal"
-
+import './Home.css'
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
   const location = useLocation();
@@ -23,6 +23,26 @@ export const Home = () => {
   return (
 
 <>
+<div className="background">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+ </div>
     {/* <MenuAppBar/> */}
     <Header/>
     

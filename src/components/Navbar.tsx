@@ -11,6 +11,7 @@ export const Navbar = () => {
   const [isOpenDropdown, setIsOpenDropdown] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownHelp, setIsOpenDropdownHelp] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); // Estado para controlar si el menú está abierto o cerrado
+  const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); // Estado para controlar si el menú está abierto o cerrado
 
 
   const toggleMenu = () => {

@@ -13,7 +13,7 @@ export const Team = () => {
 
 
   return (
-    <article className="p-5 mt-16 lg:mt-28">
+    <article className="p-5 mt-16 lg:mt-28" id='team'>
       
       <div className="text-center text-2xl">
 

@@ -54,12 +54,76 @@ export const Navbar = () => {
               <ul className="flex items-center gap-6  lg:text-md">
 
                 <li >
-                  <Link
+                  {/* DROPDWON */}
+                <div className="relative"
+                  onMouseLeave={() => setIsOpenDropdownAboutUs(false)}>
+                  <div
+                    className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                  >
+
+                    <button
+                      className="h-full flex items-center p-2 text-white  dark:text-gray-300 hover:text-blue-500 "
+                      onMouseEnter={() => setIsOpenDropdownAboutUs(true)}
+
+                    >
+                      <a
+                        className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                      >
+                        {t("navbar.nosotros")}
+                      </a>
+                      <span className="sr-only">Menu</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="size-4 "
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+
+                  {
+                    isOpenDropdownAboutUs &&
+                    <div
+                      className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                      role="menu"
+                    >
+                      <div className="p-2">
+                        <a
+                          href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
+'                         download 
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-purple"
+                          role="menuitem"
+                        >
+                      {t("navbar.descargar brochure")}
+
+                        </a>
+
+                        <Link
+  to={'/nosotros'}
+    className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          {t("navbar.nuestro equipo")}
+                        </Link>
+                        
+
+                      </div>
+                    </div>
+                  }
+                </div>
+                {/* FIN DROPDWON */}
+                  {/* <Link
                     className="text-white transition hover:text-celeste dark:text-white "
                     to={'/nosotros'}
                   >
                     {t("navbar.nosotros")}
-                  </Link>
+                  </Link> */}
                 </li>
                 {/* DROPDWON */}
                 <div className="relative"

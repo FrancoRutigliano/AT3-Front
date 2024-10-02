@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 import { SpringPopUp } from './SpringPopUp';
-
+import e1 from '../assets/bg/e11.jpg'
 
 export const Header = () => {
 
@@ -62,12 +62,23 @@ export const Header = () => {
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   
 
+  {/* <div className="overflow-hidden  h-1/3 md:h-1/2 bg-cover bg-no-repeat p-8 md:p-12 lg:px-16 lg:py-24" style={{
+          background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${at3})`,
+          backgroundPosition: 'center top',
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover'
+        }}> */}
 
+      
+      
+      
+<header className='flex flex-col-reverse md:flex-row overflow-hidden bg-cover bg-no-repeat md:p-12 lg:px-16 lg:pb-10' style={{
+  background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${e1})`,
+  backgroundPosition: 'center top',
+  backgroundRepeat: 'no-repeat',  // Esto asegura que la imagen no se repita
+  backgroundSize: 'cover'  // Esto asegura que la imagen cubra el fondo completamente
+}}>
 
-      
-      
-      
-    <header className='flex flex-col-reverse md:flex-row '>
 
       {/* Sección de texto */}
       <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  '>

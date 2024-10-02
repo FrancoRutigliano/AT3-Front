@@ -8,9 +8,11 @@ import { Invertir } from "../components/Invertir"
 import { VideoSection } from "../components/VideoSection"
 import { useLocation } from "react-router-dom"
 // import { Modal } from "../components/Modal"
-import './Home.css'
+// import './Home.css'
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
+  const teamRef = useRef<HTMLDivElement>(null);
+
   const location = useLocation();
 
   useEffect(() => {
@@ -18,12 +20,15 @@ export const Home = () => {
     if (location.pathname === '/faq') {
       faqRef.current?.scrollIntoView({ behavior: "smooth" });
     }
+    if (location.pathname === '/nosotros') {
+      teamRef.current?.scrollIntoView({ behavior: "smooth" });
+    }
   }, [location]);
 
   return (
 
 <>
-<div className="background">
+{/* <div className="background">
     <span></span>
     <span></span>
     <span></span>
@@ -42,7 +47,7 @@ export const Home = () => {
     <span></span>
     <span></span>
     <span></span>
- </div>
+ </div> */}
     {/* <MenuAppBar/> */}
     <Header/>
     

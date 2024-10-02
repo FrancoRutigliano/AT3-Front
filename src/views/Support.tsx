@@ -1,4 +1,3 @@
-import React from 'react'
 import ws from '../assets/contact_icons/whatsapp.png'
 import email from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'

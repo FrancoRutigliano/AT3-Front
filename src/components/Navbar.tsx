@@ -32,9 +32,9 @@ export const Navbar = () => {
   }; const toggleDropdownHelp = () => {
     setIsOpenDropdownHelp(prev => !prev);
   };
-  const toggleDropdownLang = () => {
-    setIsOpenDropdownLang(prev => !prev);
-  };
+  // const toggleDropdownLang = () => {
+  //   setIsOpenDropdownLang(prev => !prev);
+  // };
 
   return (
     <header className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">

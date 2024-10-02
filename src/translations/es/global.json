@@ -13,7 +13,6 @@
     "tutoriales": "Tutoriales",
     "soporte": "Soporte",
     "contacto": "Contacto"
-
   },
   "nosotros": {
     "title": "Somos una compañía legalmente constituida en Paraguay, dedicada al desarrollo y optimización de la actividad minera. Les aportamos la herramienta de la tokenización de las reservas de litio certificadas, buscando con esto innovar y revolucionar la industria de la electromovilidad. ",
@@ -177,9 +176,12 @@
     "peer to peer p3": "¿Cómo hacer Peer to Peer?",
     "peer to peer p4": "¡Aprende fácil y rápidamente como hacerlo siguiendo los pasos a continuación!",
     "peer to peer p5": "¡Dale click al video y empieza a invertir hoy!"
-
-
-    
-    
+  },
+  "soporte": {
+    "soporte": "Soporte",
+    "soporte p1": "¡Ante cualquier duda o inquietud no dudes en contactarnos, estamos para ayudarte!",
+    "whatssap descripcion": "¡Comunicate por whatsapp para una mejor atención!",
+    "email descripcion": "¡También podes enviarnos un correo con tus consultas!",
+    "nuestra direccion": "¡Nuestra dirección!"
   }
 }

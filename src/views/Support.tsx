@@ -2,18 +2,21 @@ import React from 'react'
 import ws from '../assets/contact_icons/whatsapp.png'
 import email from '../assets/contact_icons/correo.png'
 import location from '../assets/contact_icons/location.png'
+import { useTranslation } from 'react-i18next'
 
 export const Support = () => {
+  const [t] = useTranslation("global")
+
   return (
     <>
         <section className=" text-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
           <div className="mx-auto w-full text-center  ">
-            <h2 className=" text-4xl lg:text-7xl font-bold sm:text-5xl bg-custom-gradient bg-clip-text text-transparent ">Soporte</h2>
+            <h2 className=" text-4xl lg:text-7xl font-bold sm:text-5xl bg-custom-gradient bg-clip-text text-transparent ">{t("soporte.soporte")}</h2>
 
            
             <p className="mt-10 text-gray-300 w-full mx-auto lg:text-lg">
-             ¡Ante cualquier duda o inquietud no dudes en contactarnos, estamos para ayudarte!
+            {t("soporte.soporte p1")}
             </p>
            
             {/* Atómico3 es un token que representa la tokenización de activos mineros, respaldados por reservas de litio certificadas bajo normas ni 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain. <br />
@@ -30,8 +33,8 @@ export const Support = () => {
               <h2 className="mt-4 text-xl font-bold text-white">+595 992 544500</h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                ¡Comunicate por whatsapp para una mejor atención!
-               {/* {t("atomicInfo.criptoactivo responsable descripcion")} */}
+                
+               {t("soporte.whatssap descripcion")}
               </p>
             </a>
 
@@ -43,7 +46,8 @@ export const Support = () => {
               <h2 className="mt-4 text-xl font-bold text-white">support@atomico3.io</h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                ¡También podes enviarnos un correo con tus consultas!  
+               {t("soporte.email descripcion")}
+
               </p>
             </a>
 
@@ -57,7 +61,8 @@ export const Support = () => {
                 </h2>
 
               <p className="mt-1 text-sm text-gray-300">
-                ¡Nuestra Dirección! 
+              {t("soporte.nuestra direccion")}
+
               </p>
             </a>
 

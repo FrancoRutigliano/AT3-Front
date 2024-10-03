@@ -4,6 +4,7 @@ import { ConnectWallet } from '../components/ConnectWallet'
 import { Staking } from '../components/Staking'
 import { PeerToPeer } from '../components/PeerToPeer'
 import bg3 from '../assets/lineas.png'
+import { Tutorials } from '../components/Tutorials'
 export const ComoInvertir = () => {
   const { t } = useTranslation("global")
 
@@ -55,9 +56,10 @@ export const ComoInvertir = () => {
         </div>
       </section>
 
-      <ConnectWallet />
+      {/* <ConnectWallet /> */}
       <Staking />
       <PeerToPeer />
+      <Tutorials/>
     </>
 
   )

@@ -194,5 +194,9 @@
     "whatssap descripcion": "Contact us via WhatsApp for better service!",
     "email descripcion": "You can also send us an email with your inquiries!",
     "nuestra direccion": "Our address!"
+  },
+  "tutoriales:":{
+    "tutoriales": "Tutorials"
+
   }
 }

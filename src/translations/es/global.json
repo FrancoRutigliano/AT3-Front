@@ -187,5 +187,8 @@
     "whatssap descripcion": "¡Comunicate por whatsapp para una mejor atención!",
     "email descripcion": "¡También podes enviarnos un correo con tus consultas!",
     "nuestra direccion": "¡Nuestra dirección!"
+  },
+  "tutoriales": {
+    "tutoriales": "Tutoriales"
   }
 }

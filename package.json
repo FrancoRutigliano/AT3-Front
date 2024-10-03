@@ -14,6 +14,7 @@
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.1.0",
     "@mui/material": "^6.1.0",
+    "animate.css": "^4.1.1",
     "atomicfront": "file:",
     "i18next": "^23.15.1",
     "react": "^18.3.1",

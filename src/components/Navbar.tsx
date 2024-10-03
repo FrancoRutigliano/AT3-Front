@@ -106,7 +106,14 @@ export const Navbar = () => {
                             {t("navbar.descargar brochure")}
 
                           </a>
+                          <Link
+                          to={'/nosotros'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          {t("navbar.sobre atomico")}
 
+                        </Link>
                           <Link
                             to={'/nosotros#equipo'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -414,6 +421,7 @@ export const Navbar = () => {
                     className="inline-flex items-center overflow-hidden rounded-md  text-white"
                   >
 
+
                     <button
                       className="h-full flex items-center text-white  dark:text-gray-300 hover:text-blue-500 "
                       onClick={() => toggleDropdownAboutUs()}
@@ -422,7 +430,7 @@ export const Navbar = () => {
                       <button
                         className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                       >
-                        {t("navbar.ayuda")}
+                        {t("navbar.nosotros")}
 
                       </button>
                       <span className="sr-only">Menu</span>
@@ -461,6 +469,15 @@ export const Navbar = () => {
 
                         </a>
                         <Link
+                          to={'/nosotros'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                          onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}
+                        >
+                          {t("navbar.sobre atomico")}
+
+                        </Link>
+                        <Link
                           to={'/nosotros#equipo'}
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
@@ -469,7 +486,7 @@ export const Navbar = () => {
                           {t("navbar.nuestro equipo")}
 
                         </Link>
-
+                      
 
                       </div>
                     </div>

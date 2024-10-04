@@ -7,6 +7,7 @@ import bg3 from '../assets/lineas.png'
 import { Tutorials } from '../components/Tutorials'
 import { FelizPrimavera } from '../components/FelizPrimavera'
 export const ComoInvertir = () => {
+  
   const { t } = useTranslation("global")
 
   // const currentLang = i18n.language;
@@ -60,8 +61,8 @@ export const ComoInvertir = () => {
       {/* <ConnectWallet /> */}
       <Staking />
       <PeerToPeer />
-      <FelizPrimavera/>
-      <Tutorials/>
+      {/* <FelizPrimavera/> */}
+      <Tutorials />
     </>
 
   )

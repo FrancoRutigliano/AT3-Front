@@ -64,7 +64,7 @@ export const Navbar = () => {
                     >
 
                       <button
-                        className="h-full flex items-center p-2 text-white  dark:text-gray-300 hover:text-blue-500 "
+                        className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
                         onMouseEnter={() => setIsOpenDropdownAboutUs(true)}
 
                       >
@@ -92,7 +92,7 @@ export const Navbar = () => {
                     {
                       isOpenDropdownAboutUs &&
                       <div
-                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                         role="menu"
                       >
                         <div className="p-2">
@@ -137,7 +137,7 @@ export const Navbar = () => {
                   >
 
                     <button
-                      className="h-full flex items-center p-2 text-white  dark:text-gray-300 hover:text-blue-500 "
+                      className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
                       onMouseEnter={() => setIsOpenDropdown(true)}
 
                     >
@@ -165,7 +165,7 @@ export const Navbar = () => {
                   {
                     isOpenDropdown &&
                     <div
-                      className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                      className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                       role="menu"
                     >
                       <div className="p-2">
@@ -218,7 +218,7 @@ export const Navbar = () => {
 
                 <li>
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white "
+                    className="text-white transition hover:text-celeste  "
                     to={'/legal'}
                   >
                     {t("navbar.legal")}
@@ -226,7 +226,7 @@ export const Navbar = () => {
                 </li>
                 <li>
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white "
+                    className="text-white transition hover:text-celeste  "
                     to={"/faq"}
                   >
                     {t("navbar.preguntas frecuentes")}
@@ -235,7 +235,7 @@ export const Navbar = () => {
 
                 <li>
                   <Link
-                    className="text-white transition hover:text-celeste dark:text-white "
+                    className="text-white transition hover:text-celeste  "
                     to={"/press"}
                   >
                     {t("navbar.noticias")}
@@ -250,7 +250,7 @@ export const Navbar = () => {
                   >
 
                     <button
-                      className="h-full flex items-center p-2 text-white  dark:text-gray-300 hover:text-blue-500 "
+                      className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
                       onMouseEnter={() => setIsOpenDropdownHelp(true)}
 
                     >
@@ -278,7 +278,7 @@ export const Navbar = () => {
                   {
                     isOpenDropdownHelp &&
                     <div
-                      className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                      className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                       role="menu"
                     >
                       <div className="p-2">
@@ -321,7 +321,7 @@ export const Navbar = () => {
                     >
 
                       <button
-                        className="h-full flex items-center p-2 text-white  dark:text-gray-300 hover:text-blue-500 "
+                        className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
                         onMouseEnter={() => setIsOpenDropdownLang(true)}
 
                       >
@@ -349,7 +349,7 @@ export const Navbar = () => {
                     {
                       isOpenDropdownLang &&
                       <div
-                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                         role="menu"
                       >
                         <div className="p-2">
@@ -377,8 +377,8 @@ export const Navbar = () => {
             <div className="flex items-center gap-4">
               <div className="block md:hidden">
                 <button
-                  className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75 dark:bg-gray-800 dark:text-white "
-                  onClick={toggleMenu} // Controlar el click en el botón
+                  className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75   "
+                  onClick={toggleMenu} 
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -406,7 +406,7 @@ export const Navbar = () => {
             <ul className="flex flex-col items-start gap-4 p-4 text-sm">
               <li>
                 {/* <Link
-                  className="text-white transition hover:text-celeste dark:text-white "
+                  className="text-white transition hover:text-celeste  "
                   to={'/nosotros'}
                   onClick={closeMenu}
                 >
@@ -422,7 +422,7 @@ export const Navbar = () => {
 
 
                     <button
-                      className="h-full flex items-center text-white  dark:text-gray-300 hover:text-blue-500 "
+                      className="h-full flex items-center text-white   hover:text-blue-500 "
                       onClick={() => toggleDropdownAboutUs()}
 
                     >
@@ -451,7 +451,7 @@ export const Navbar = () => {
                   {
                     isOpenDropdownAboutUs &&
                     <div
-                      className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                      className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                       role="menu"
                     >
                       <div className="p-2">
@@ -503,7 +503,7 @@ export const Navbar = () => {
                 >
 
                   <button
-                    className="h-full flex items-center text-white  dark:text-gray-300 hover:text-blue-500 "
+                    className="h-full flex items-center text-white   hover:text-blue-500 "
                     onClick={() => toggleDropdown()}
 
                   >
@@ -532,7 +532,7 @@ export const Navbar = () => {
                 {
                   isOpenDropdown &&
                   <div
-                    className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                    className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                     role="menu"
                   >
                     <div className="p-2">
@@ -591,7 +591,7 @@ export const Navbar = () => {
               {/* FIN DROPDWON */}
               <li>
                 <Link
-                  className="text-white transition hover:text-celeste dark:text-white "
+                  className="text-white transition hover:text-celeste  "
                   to={'/legal'}
                   onClick={closeMenu}
                 >
@@ -600,7 +600,7 @@ export const Navbar = () => {
               </li>
               <li>
                 <a
-                  className="text-white transition hover:text-celeste dark:text-white "
+                  className="text-white transition hover:text-celeste  "
                   href="/#faq"
                   onClick={closeMenu}
                 >
@@ -620,7 +620,7 @@ export const Navbar = () => {
                   >
 
                     <button
-                      className="h-full flex items-center text-white  dark:text-gray-300 hover:text-blue-500 "
+                      className="h-full flex items-center text-white   hover:text-blue-500 "
                       onClick={() => toggleDropdownHelp()}
 
                     >
@@ -649,7 +649,7 @@ export const Navbar = () => {
                   {
                     isOpenDropdownHelp &&
                     <div
-                      className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg dark:border-gray-800 dark:bg-gray-900"
+                      className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                       role="menu"
                     >
                       <div className="p-2">

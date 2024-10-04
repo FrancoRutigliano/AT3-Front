@@ -56,10 +56,10 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
   </details>
 
   <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?")}</h2>
 
@@ -96,15 +96,15 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
     {t("faq.El token se encuentra en lista de espera en CoinMarketCap")}
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Dónde puedo ver la valuación de Atómico3?")}</h2>
 
@@ -141,15 +141,15 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
   {t("faq.Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap")}
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Por qué el token Atómico3 no tiene liquidez?")}</h2>
 
@@ -186,17 +186,17 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
     {t("faq.El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)")}
 
 
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Cuál es el contrato de Atómico3?")}</h2>
 
@@ -233,16 +233,16 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg break-words">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg break-words">
    {t("faq.El contrato de token es el siguiente en la red Polygon")}
 
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Proyección del precio de Atómico3 en el futuro?")}</h2>
 
@@ -279,7 +279,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
    {t("faq.Se comportará en relación al precio de carbonato de litio internacional (li2co3)")}
     <br />
     {t("faq.Link para consultar el precio actual del carbonato de litio")} <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline" target="_blank">{t("faq.Click aquí")}</a> 
@@ -287,10 +287,10 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Ya puedo hacer staking de los AT3 que adquirí?")}</h2>
 
@@ -327,15 +327,15 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
     {t("faq.Si puedo")}
     </p>
   </details>
   {/* <details
-    className="group rounded-lg bg-dark-light  p-6 dark:bg-gray-900 [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white dark:text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
       <h2 className="font-medium text-celeste lg:text-2xl">Why don't I see the price of Atómico3 reflected in my wallet?</h2>
 
@@ -372,7 +372,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
       </span>
     </summary>
 
-    <p className="mt-4 leading-relaxed text-white dark:text-gray-200 lg:text-lg">
+    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
     The token is currently on the waiting list to be listed on CoinMarketCap, which is why the price will be reflected soon.
     </p>
   </details> */}

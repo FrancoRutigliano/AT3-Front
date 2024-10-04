@@ -21,16 +21,16 @@ export const Footer = () => {
   return (
     <>
       <footer className="" id='contact'>
-        <div className="mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-16 lg:px-8">
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <div className="text-teal-600">
-              <img src={atomicLogo} alt="" className='w-60 mx-auto lg:mx-0' />
+        <div className=" mx-auto max-w-screen-xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-5 lg:px-8">
+          <div className=" sm:flex sm:items-center sm:justify-between border-b border-gray-100 pb-5">
+            <div className="text-teal-600 ">
+              <img src={atomicLogo} alt="" className='w-72  mx-auto lg:mx-0' />
             </div>
 
           </div>
 
           <div
-            className="grid grid-cols-1 gap-8 border-t border-gray-100 pt-8 sm:grid-cols-2 lg:grid-cols-4 lg:pt-16"
+            className=" grid grid-cols-1 gap-8  pt-8 sm:grid-cols-2 lg:grid-cols-5 lg:pt-10"
           >
             <div>
               <p className="font-medium text-celeste">{t("footer.redes sociales")}</p>
@@ -86,12 +86,7 @@ export const Footer = () => {
                     Info@atomico3.io
                   </a>
                 </li>
-                <li className='flex items-center'>
-                  <img src={soporte} alt="soporte" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
-                  <a href="mailto:support@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
-                  support@atomico3.io
-                  </a>
-                </li>
+               
 
                 <li className='flex items-center'>
                 <img src={location} alt="location" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
@@ -118,7 +113,7 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-
+          
             <div>
               <p className="font-medium text-celeste">Legal</p>
 
@@ -133,8 +128,22 @@ export const Footer = () => {
 
               </ul>
             </div>
-          </div>
+            <div>
+              <p className="font-medium text-celeste">{t("footer.soporte")}</p>
 
+              <ul className="mt-6 space-y-4 text-sm">
+              <li className='flex items-center'>
+                  <img src={soporte} alt="soporte" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
+                  <a href="mailto:support@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
+                  support@atomico3.io
+                  </a>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+                  
           <p className="text-xs text-white">&copy; 2024. Atómico3. {t("footer.todos los derechos reservados")}</p>
         </div>
       </footer>

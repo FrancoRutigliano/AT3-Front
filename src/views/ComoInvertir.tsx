@@ -1,11 +1,11 @@
 
 import { useTranslation } from 'react-i18next'
-import { ConnectWallet } from '../components/ConnectWallet'
+// import { ConnectWallet } from '../components/ConnectWallet'
 import { Staking } from '../components/Staking'
 import { PeerToPeer } from '../components/PeerToPeer'
 import bg3 from '../assets/lineas.png'
 import { Tutorials } from '../components/Tutorials'
-import { FelizPrimavera } from '../components/FelizPrimavera'
+// import { FelizPrimavera } from '../components/FelizPrimavera'
 export const ComoInvertir = () => {
   
   const { t } = useTranslation("global")

@@ -1,8 +1,8 @@
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
 import flores from '../assets/flores.jpg'
 export const FelizPrimavera = () => {
 
-    const { t } = useTranslation("global")
+    // const { t } = useTranslation("global")
 
 
 

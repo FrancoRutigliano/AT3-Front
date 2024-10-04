@@ -6,7 +6,7 @@ export const SpringPopUp = ({handleClosePopUp}: any) => {
 
   return (
     <>
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-1">
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-100000000">
     <div className="relative ">
     <section className="overflow-hidden rounded-lg shadow-2xl md:grid md:grid-cols-3 mb-20 lg:mb-0 mx-10 lg:mt-20 bg-red-">
   <img

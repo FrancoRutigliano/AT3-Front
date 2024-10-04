@@ -11,6 +11,7 @@ export const Navbar = () => {
   const [isOpenDropdownHelp, setIsOpenDropdownHelp] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); // Estado para controlar si el menú está abierto o cerrado
+  const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); // Estado para controlar si el menú está abierto o cerrado
 
 
   const toggleMenu = () => {
@@ -34,6 +35,9 @@ export const Navbar = () => {
   };
   const toggleDropdownAboutUs = () => {
     setIsOpenDropdownAboutUs(prev => !prev);
+  }
+  const toggleDropdownLegal = () => {
+    setIsOpenDropdownLegal(prev => !prev);
   }
   // const toggleDropdownLang = () => {
   //   setIsOpenDropdownLang(prev => !prev);
@@ -224,12 +228,74 @@ export const Navbar = () => {
                 {/* FIN DROPDWON */}
 
                 <li>
-                  <Link
+                  {/* <Link
                     className="text-white transition hover:text-celeste  "
                     to={'/legal'}
                   >
                     {t("navbar.legal")}
-                  </Link>
+                  </Link> */} {/* DROPDWON */}
+                <div className="relative"
+                  onMouseLeave={() => setIsOpenDropdown(false)}>
+                  <div
+                    className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                  >
+
+                    <button
+                      className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                      onMouseEnter={() => setIsOpenDropdown(true)}
+
+                    >
+                      <a
+                        className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                      >
+                        {t("navbar.como invertir")}
+                      </a>
+                      <span className="sr-only">Menu</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="size-4 "
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                  </div>
+
+                  {
+                    isOpenDropdown &&
+                    <div
+                      className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                      role="menu"
+                    >
+                      <div className="p-2">
+                        <Link
+                          to={'/legal#terms'}
+                          // href='https://dapp-at-3.vercel.app'
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          Términos y condiciones
+                        </Link>
+                  
+                        <Link
+                          to={'/legal#privacyPolitic'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          Política de Privacidad
+                        </Link>
+                        
+
+                      </div>
+                    </div>
+                  }
+                </div>
+                {/* FIN DROPDWON */}
                 </li>
                 <li>
                   <Link
@@ -537,7 +603,7 @@ export const Navbar = () => {
                 </div>
 
                 {
-                  isOpenDropdown &&
+                  isOpenDropdownLegal &&
                   <div
                     className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                     role="menu"
@@ -612,6 +678,8 @@ export const Navbar = () => {
                 }
               </div>
               {/* FIN DROPDWON */}
+              {/* DROPDWON LEGAL */}
+
               <li>
                 <Link
                   className="text-white transition hover:text-celeste  "
@@ -631,6 +699,7 @@ export const Navbar = () => {
 
                 </a>
               </li>
+              {/* FIN DROPDWON LEGAL */}
 
               <li>
 

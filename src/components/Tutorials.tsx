@@ -16,8 +16,11 @@ export const Tutorials = () => {
       // Obtener la posición del elemento
       const elementPosition = tutorialsRef.current.getBoundingClientRect().top + window.scrollY;
       
+      // Ajustar el desplazamiento según el tamaño de la pantalla
+      const offset = window.innerWidth < 768 ? 30 : 200; // Menos desplazamiento en pantallas pequeñas (<768px)
+  
       window.scrollTo({
-        top: elementPosition - 200, // Ajusta la posición sumando o restando píxeles
+        top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla
         behavior: 'smooth', // Desplazamiento suave
       });
     }
@@ -25,7 +28,8 @@ export const Tutorials = () => {
   
   return (
     <>
-      <section ref={tutorialsRef} className='flex  flex flex-col lg:flex-row justify-between items-center p-5' id='tutoriales'>
+    <h1 ref={tutorialsRef} id='tutoriales' className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  my-16'>{t("tutoriales.tutoriales")}</h1>
+      <section className='flex  flex flex-col lg:flex-row justify-between items-center p-5' >
       <article className=" m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
           <div className="relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">
           <iframe className="absolute top-0 left-0 w-full h-full rounded-t-lg" width="560" height="315" src="https://www.youtube.com/embed/rDTr2LqAx9s?si=YNikBIbuH0gjpNwO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

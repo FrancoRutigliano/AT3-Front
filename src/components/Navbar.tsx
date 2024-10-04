@@ -170,7 +170,7 @@ export const Navbar = () => {
                     >
                       <div className="p-2">
                         <Link
-                        to={'/comoInvertir#staking'}
+                          to={'/comoInvertir#staking'}
                           // href='https://dapp-at-3.vercel.app'
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
@@ -194,14 +194,21 @@ export const Navbar = () => {
                         >
                           {t("navbar.comprar at3")}
                         </a>
-                        <a
+                        {/* <a
                           href="https://dapp-at-3.vercel.app/"
                           target='_blank'
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
                         >
                           Peer to Peer
-                        </a>
+                        </a> */}
+                        <Link
+                          to={'/comoInvertir#p2p'}
+                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          role="menuitem"
+                        >
+                          Peer to Peer
+                        </Link>
                         <Link
                           to={'/comoInvertir#tutoriales'}
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -574,7 +581,7 @@ export const Navbar = () => {
                       >
                         {t("navbar.comprar at3")}
                       </a>
-                      <a
+                      {/* <a
                         href="https://dapp-at-3.vercel.app/"
                         target='_blank'
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -582,7 +589,15 @@ export const Navbar = () => {
                         onClick={() => { toggleDropdown(); closeMenu(); }}
                       >
                         Peer to Peer
-                      </a>
+                      </a> */}
+                      <Link
+                        to={'/comoiInvertir#p2p'}
+                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                        role="menuitem"
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
+                      >
+                        Peer to Peer
+                      </Link>
                       <Link
                         to={'/comoInvertir#tutoriales'}
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"

@@ -196,7 +196,10 @@
     "nuestra direccion": "Our address!"
   },
   "tutoriales": {
-    "tutoriales": "Tutorials"
+  "tutoriales": "Tutorials",
+  "wallet": "How to connect your wallet?",
+  "p2p": "How to perform Peer to Peer?",
+  "staking": "How to do Staking?"
+}
 
-  }
 }

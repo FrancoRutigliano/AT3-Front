@@ -1,16 +1,35 @@
+import { useEffect, useRef } from 'react';
 import staking2 from '../assets/staking2.jpeg'
 // import stakingES from '../assets/staking.png'
 // import stakingEN from '../assets/stakingEN.jpeg'
 import { useTranslation } from 'react-i18next'
+import { useLocation } from 'react-router-dom';
 
 
 
 export const Staking = () => {
   const { t } = useTranslation("global")
 
+  const location = useLocation();
+  const stakingRef = useRef<HTMLDivElement>(null); 
+
+  useEffect(() => {
+    if (location.hash === '#staking' && stakingRef.current) {
+      // Obtener la posición del elemento
+      const elementPosition = stakingRef.current.getBoundingClientRect().top + window.scrollY;
+      
+      // Ajustar el desplazamiento según el tamaño de la pantalla
+      const offset = window.innerWidth < 768 ? 30 : 200; // Menos desplazamiento en pantallas pequeñas (<768px)
+  
+      window.scrollTo({
+        top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla
+        behavior: 'smooth', // Desplazamiento suave
+      });
+    }
+  }, [location]);
   return (
     <>
-      <section className='mt-20 lg:mt-0'>
+      <section className='mt-20 lg:mt-0' ref={stakingRef} id='tutoriales'>
         <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  py-5' >Staking</h1>
         <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
           <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">

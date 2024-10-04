@@ -106,13 +106,13 @@ export const Navbar = () => {
 
                           </a>
                           <Link
-                          to={'/nosotros'}
-                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                          role="menuitem"
-                        >
-                          {t("navbar.sobre atomico")}
+                            to={'/nosotros'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                          >
+                            {t("navbar.sobre atomico")}
 
-                        </Link>
+                          </Link>
                           <Link
                             to={'/nosotros#equipo'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -169,14 +169,14 @@ export const Navbar = () => {
                       role="menu"
                     >
                       <div className="p-2">
-                        <a
-                          href='https://dapp-at-3.vercel.app'
+                        <Link
+                        to={'/comoInvertir#staking'}
+                          // href='https://dapp-at-3.vercel.app'
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
-                          target='_blank'
                         >
                           Staking
-                        </a>
+                        </Link>
 
                         <a
                           href="https://dapp-at-3.vercel.app/stakingplus"
@@ -352,7 +352,7 @@ export const Navbar = () => {
                         className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
                         role="menu"
                       >
-                        <div className="p-2">
+                        <div className="lg:ml-auto  sm:flex sm:justify-end p-2 ">
                           <button onClick={() => handleChangeLanguage("en")}>
                             <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                           </button>
@@ -378,7 +378,7 @@ export const Navbar = () => {
               <div className="block md:hidden">
                 <button
                   className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75   "
-                  onClick={toggleMenu} 
+                  onClick={toggleMenu}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -461,7 +461,7 @@ export const Navbar = () => {
                           download
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
-                          // onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}
+                        // onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}
 
                         >
                           {t("navbar.descargar brochure")}
@@ -485,7 +485,7 @@ export const Navbar = () => {
                           {t("navbar.nuestro equipo")}
 
                         </Link>
-                      
+
 
                       </div>
                     </div>
@@ -536,7 +536,7 @@ export const Navbar = () => {
                     role="menu"
                   >
                     <div className="p-2">
-                      <a
+                      {/* <a
                         href='https://dapp-at-3.vercel.app'
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
@@ -545,8 +545,16 @@ export const Navbar = () => {
 
                       >
                         Staking
-                      </a>
+                      </a> */}
+                      <Link
+                        to={'/comoInvertir#staking'}
+                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                        role="menuitem"
+                        onClick={() => { toggleDropdown(); closeMenu(); }}
 
+                      >
+                        Staking
+                      </Link>
                       <a
                         href="https://dapp-at-3.vercel.app/stakingplus"
                         target='_blank'
@@ -691,8 +699,8 @@ export const Navbar = () => {
 
 
               </li>
-              <li>
-                <button onClick={() => handleChangeLanguage("en")}>
+              <li >
+                <button onClick={() => handleChangeLanguage("en")} >
                   <img src={eng} className='w-[1.5rem] lg:w-[2rem]  transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                 </button>
                 <button onClick={() => handleChangeLanguage("es")}>

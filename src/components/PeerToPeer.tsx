@@ -1,14 +1,32 @@
 import { useTranslation } from 'react-i18next'
 // import staking2 from '../assets/Investors.png'
 import p2p from '../assets/p2p.jpg'
+import { useLocation } from 'react-router-dom';
+import { useEffect, useRef } from 'react';
 
 
 export const PeerToPeer = () => {
     const { t } = useTranslation("global")
-
+    const location = useLocation();
+    const p2pRef = useRef<HTMLDivElement>(null); 
+  
+    useEffect(() => {
+      if (location.hash === '#p2p' && p2pRef.current) {
+        // Obtener la posición del elemento
+        const elementPosition = p2pRef.current.getBoundingClientRect().top + window.scrollY;
+        
+        // Ajustar el desplazamiento según el tamaño de la pantalla
+        const offset = window.innerWidth < 768 ? 30 : 200; // Menos desplazamiento en pantallas pequeñas (<768px)
+    
+        window.scrollTo({
+          top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla
+          behavior: 'smooth', // Desplazamiento suave
+        });
+      }
+    }, [location]);
     return (
         <>
-            <section className='mt-16'>
+            <section className='mt-16' ref={p2pRef} id='p2p'>
                 <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  pt-5' >Peer to Peer</h1>
                 <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
                     <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">

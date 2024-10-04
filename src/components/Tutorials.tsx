@@ -38,7 +38,7 @@ export const Tutorials = () => {
           <div className="bg-white p-4 sm:p-6 h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
-              <h3 className="mt-0.5 text-md md:text-2xl text-gray-900">¿Cómo conectar tu Wallet?</h3>
+              <h3 className="mt-0.5 text-md md:text-2xl text-gray-900">{t("tutoriales.wallet")}</h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-white  ">
               
@@ -53,7 +53,7 @@ export const Tutorials = () => {
           <div className="bg-white p-4 p-6  min-[400px]:min-h-[70px] rounded-b-lg text-center rounded-b-lg">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
-              <h3 className="mt-0.5 text-md md:text-2xl text-gray-900 text-center">¿Cómo realizar el Staking?       </h3>
+              <h3 className="mt-0.5 text-md md:text-2xl text-gray-900 text-center">{t("tutoriales.staking")}      </h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-white  ">
               
@@ -68,7 +68,7 @@ export const Tutorials = () => {
           <div className="bg-white p-4 sm:p-6  h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
-            <h3 className="mt-0.5 text-md md:text-2xl text-gray-900 text-center">¿Cómo hacer Peer to Peer?</h3>
+            <h3 className="mt-0.5 text-md md:text-2xl text-gray-900 text-center">{t("tutoriales.p2p")}</h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
             </p>

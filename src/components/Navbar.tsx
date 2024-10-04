@@ -203,7 +203,7 @@ export const Navbar = () => {
                           Peer to Peer
                         </a>
                         <Link
-                          to={'/comoInvertir'}
+                          to={'/comoInvertir#tutoriales'}
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
                         >
@@ -576,7 +576,7 @@ export const Navbar = () => {
                         Peer to Peer
                       </a>
                       <Link
-                        to={'/comoInvertir'}
+                        to={'/comoInvertir#tutoriales'}
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
                         onClick={() => { toggleDropdown(); closeMenu(); }}

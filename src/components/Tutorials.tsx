@@ -1,11 +1,31 @@
 
 import { useTranslation } from 'react-i18next'
+import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
+
 export const Tutorials = () => {
+
+  
   const [t] = useTranslation("global")
 
+  const location = useLocation();
+  const tutorialsRef = useRef<HTMLDivElement>(null); 
+
+  useEffect(() => {
+    if (location.hash === '#tutoriales' && tutorialsRef.current) {
+      // Obtener la posición del elemento
+      const elementPosition = tutorialsRef.current.getBoundingClientRect().top + window.scrollY;
+      
+      window.scrollTo({
+        top: elementPosition - 200, // Ajusta la posición sumando o restando píxeles
+        behavior: 'smooth', // Desplazamiento suave
+      });
+    }
+  }, [location]);
+  
   return (
     <>
-      <section className='flex  flex flex-col lg:flex-row justify-between items-center p-5'>
+      <section ref={tutorialsRef} className='flex  flex flex-col lg:flex-row justify-between items-center p-5' id='tutoriales'>
       <article className=" m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
           <div className="relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">
           <iframe className="absolute top-0 left-0 w-full h-full rounded-t-lg" width="560" height="315" src="https://www.youtube.com/embed/rDTr2LqAx9s?si=YNikBIbuH0gjpNwO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

@@ -47,7 +47,7 @@ export const Navbar = () => {
   }
   
   if(showingForm) return(
-    <Form documentType='whitepaper' showForm={showForm}/>
+    <Form documentType='brochure' showForm={showForm}/>
   )
   return (
     <>
@@ -561,9 +561,10 @@ export const Navbar = () => {
                     >
                       <div className="p-2">
                         <a
-                          href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
-                       '
-                          download
+                      //     href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
+                      //  '
+                      //     download
+                      onClick={()=>showForm(true)}
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                           role="menuitem"
                         // onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}

@@ -61,7 +61,14 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
           console.log('Email enviado correctamente', response.status, response.text);
           setMessage('Formulario enviado con éxito');
           if (response.status >= 200 && response.status <= 200) {
-            window.open('https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf')
+
+            if(documentType == "brochure"){
+              window.open('https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf')
+            }
+            if(documentType == "whitepaper"){
+              window.open('https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV')
+            }
+            
             setShowLoading(false)
             showForm(false)
           }

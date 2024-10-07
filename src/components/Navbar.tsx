@@ -14,7 +14,7 @@ export const Navbar = () => {
   const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-  const [showForm, setShowForm] = useState(true)
+  const [showingForm, setShowingForm] = useState(false)
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -41,12 +41,13 @@ export const Navbar = () => {
   const toggleDropdownLegal = () => {
     setIsOpenDropdownLegal(prev => !prev);
   }
-  // const toggleDropdownLang = () => {
-  //   setIsOpenDropdownLang(prev => !prev);
-  // };
 
-  if(showForm) return(
-    <Form/>
+  const showForm = (isVisible: boolean) =>{
+         setShowingForm(isVisible)
+  }
+  
+  if(showingForm) return(
+    <Form documentType='whitepaper' showForm={showForm}/>
   )
   return (
     <>
@@ -108,11 +109,12 @@ export const Navbar = () => {
                       >
                         <div className="p-2">
                           <a
-                            // href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
-// '                         download
-                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+//                             href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
+// // '                         download
+
+                            className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
-                            onClick={()=>setShowForm(true)}
+                            onClick={()=>showForm(true)}
                           >
                             {t("navbar.descargar brochure")}
 

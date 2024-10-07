@@ -18,12 +18,12 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
     documentType: documentType
   });
 
-  const [message, setMessage] = useState('');
-  const [loading, setLoading] = useState(false);
+  // const [message, setMessage] = useState('');
+  // const [loading, setLoading] = useState(false);
 
   // Manejar cambios en los campos del formulario
 
-  const handleChange = (e) => {
+  const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -33,9 +33,9 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
   };
 
   // Función para manejar el envío del formulario
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
-    setLoading(true);
+    // setLoading(true);
     console.log(formData);
 
     // Parámetros para enviar por EmailJS
@@ -59,7 +59,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
       .then(
         (response) => {
           console.log('Email enviado correctamente', response.status, response.text);
-          setMessage('Formulario enviado con éxito');
+          // setMessage('Formulario enviado con éxito');
           if (response.status >= 200 && response.status <= 200) {
 
             if(documentType == "brochure"){
@@ -75,7 +75,8 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
         },
         (error) => {
           console.error('Error al enviar el email', error);
-          setMessage('Error al enviar el formulario');
+          // alert
+          // setMessage('Error al enviar el formulario');
         }
       )
       .finally(() => setLoading(false));
@@ -215,3 +216,8 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
     </>
   );
 }
+function setLoading(arg0: boolean): void {
+  console.log(arg0)
+  throw new Error("Function not implemented.");
+}
+

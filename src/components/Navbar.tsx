@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import eng from '../assets/lang/eng.png'
 import esp from '../assets/lang/esp.png'
+import { Form } from './Form';
+
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global")
   const [isOpen, setIsOpen] = useState(false); // Estado para controlar si el menú está abierto o cerrado
@@ -12,7 +14,7 @@ export const Navbar = () => {
   const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); // Estado para controlar si el menú está abierto o cerrado
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-
+  const [showForm, setShowForm] = useState(true)
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -43,7 +45,12 @@ export const Navbar = () => {
   //   setIsOpenDropdownLang(prev => !prev);
   // };
 
+  if(showForm) return(
+    <Form/>
+  )
   return (
+    <>
+    
     <header className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
         <div className="flex h-16 items-center justify-between">
@@ -101,10 +108,11 @@ export const Navbar = () => {
                       >
                         <div className="p-2">
                           <a
-                            href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
-'                         download
+                            // href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
+// '                         download
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                            role="menuitem"
+                              role="menuitem"
+                            onClick={()=>setShowForm(true)}
                           >
                             {t("navbar.descargar brochure")}
 
@@ -886,5 +894,6 @@ export const Navbar = () => {
         </div>
       </div>
     </header>
+    </>
   );
 };

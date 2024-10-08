@@ -8,13 +8,15 @@ import { Form } from './Form';
 
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global")
-  const [isOpen, setIsOpen] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-  const [isOpenDropdown, setIsOpenDropdown] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-  const [isOpenDropdownHelp, setIsOpenDropdownHelp] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-  const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-  const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); // Estado para controlar si el menú está abierto o cerrado
-  const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); // Estado para controlar si el menú está abierto o cerrado
+  const [isOpen, setIsOpen] = useState(false); 
+  const [isOpenDropdown, setIsOpenDropdown] = useState(false); 
+  const [isOpenDropdownHelp, setIsOpenDropdownHelp] = useState(false); 
+  const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); 
+  const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); 
+  const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); 
+  const [isOpenDropdownWork, setIsOpenDropdownWork] = useState(false); 
   const [showingForm, setShowingForm] = useState(false)
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -53,7 +55,7 @@ export const Navbar = () => {
     <>
     
     <header className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
-      <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
+      <div className="mx-auto max-w-screen-xl px-1 sm:px-1 lg:px-1 ">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
             <Link className="block text-teal-600 dark:text-teal-300 hover:cursor-pointer" to={'/'}>
@@ -66,6 +68,8 @@ export const Navbar = () => {
             {/* Menú en pantallas grandes */}
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6  lg:text-md">
+
+              
 
                 <li >
                   {/* DROPDWON NOSOTROS*/}
@@ -134,8 +138,13 @@ export const Navbar = () => {
                           >
                             {t("navbar.nuestro equipo")}
                           </Link>
-
-
+                          <Link
+                            to={'/nosotros#trabajar'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                          >
+                            {t("navbar.trabaja")}
+                          </Link>
                         </div>
                       </div>
                     }
@@ -143,6 +152,8 @@ export const Navbar = () => {
                   {/* FIN DROPDWON NOSOTROS*/}
 
                 </li>
+
+                <li>
                 {/* DROPDWON */}
                 <div className="relative"
                   onMouseLeave={() => setIsOpenDropdown(false)}>
@@ -237,6 +248,7 @@ export const Navbar = () => {
                 </div>
                 {/* FIN DROPDWON */}
 
+                  </li>
                 <li>
                   {/* <Link
                     className="text-white transition hover:text-celeste  "

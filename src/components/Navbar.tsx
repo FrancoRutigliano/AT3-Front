@@ -313,14 +313,7 @@ export const Navbar = () => {
                         >
                           {t("navbar.comprar at3")}
                         </a>
-                        {/* <a
-                          href="https://dapp-at-3.vercel.app/"
-                          target='_blank'
-                          className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                          role="menuitem"
-                        >
-                          Peer to Peer
-                        </a> */}
+                      
                         <Link
                           to={'/comoInvertir#p2p'}
                           className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -865,7 +858,7 @@ export const Navbar = () => {
                         Peer to Peer
                       </a> */}
                       <Link
-                        to={'/comoiInvertir#p2p'}
+                        to={'/comoInvertir#p2p'}
                         className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                         role="menuitem"
                         onClick={() => { toggleDropdown(); closeMenu(); }}

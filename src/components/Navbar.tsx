@@ -46,6 +46,10 @@ export const Navbar = () => {
     setIsOpenDropdownLegal(prev => !prev);
   }
 
+  const toggleDropdownProyectos = () => {
+    setIsOpenDropdownProyectos(prev => !prev);
+  }
+
   const showForm = (isVisible: boolean) =>{
          setShowingForm(isVisible)
   }
@@ -71,7 +75,64 @@ export const Navbar = () => {
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6  lg:text-md">
 
-              
+              <li >
+                    {/* DROPDONW PROYECTO */}
+                     <div className="relative"
+                    onMouseLeave={() => setIsOpenDropdownProyectos(false)}>
+                    <div
+                      className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                    >
+
+                      <button
+                        className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                        onMouseEnter={() => setIsOpenDropdownProyectos(true)}
+
+                      >
+                        <a
+                          className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 leading-[20px] "
+                        >
+                            {t("navbar.proyectos de")} <br />
+                           {t("navbar.tokenizacion")}
+                        </a>
+                        <span className="sr-only">Menu</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="size-4 "
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+
+                    {
+                      isOpenDropdownProyectos &&
+                      <div
+                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                        role="menu"
+                      >
+                        <div className="p-2">
+                          <a
+
+                            className=" block rounded-lg px-4 py-2 text-sm text-white "
+                              role="menuitem"
+                            // onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
+                          >
+                          {t("navbar.nuestros proyectos")}
+
+                          </a>
+                          
+                        </div>
+                      </div>
+                    }
+                  </div>
+                  {/* FIN DROPDWON PROYECTO*/}
+                </li>
 
                 <li >
                   {/* DROPDWON NOSOTROS*/}
@@ -153,64 +214,7 @@ export const Navbar = () => {
                   </div>
                   </li>
                   {/* FIN DROPDWON NOSOTROS*/}
-                  <li >
-                  {/* DROPDONW PROYECTO */}
-                  <div className="relative"
-                    onMouseLeave={() => setIsOpenDropdownProyectos(false)}>
-                    <div
-                      className="inline-flex items-center overflow-hidden rounded-md  text-white"
-                    >
-
-                      <button
-                        className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
-                        onMouseEnter={() => setIsOpenDropdownProyectos(true)}
-
-                      >
-                        <a
-                          className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 leading-[20px] "
-                        >
-                            {t("navbar.proyectos de")} <br />
-                           {t("navbar.tokenizacion")}
-                        </a>
-                        <span className="sr-only">Menu</span>
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="size-4 "
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
-                          <path
-                            fillRule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clipRule="evenodd"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-
-                    {
-                      isOpenDropdownProyectos &&
-                      <div
-                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
-                        role="menu"
-                      >
-                        <div className="p-2">
-                          <a
-
-                            className=" block rounded-lg px-4 py-2 text-sm text-white "
-                              role="menuitem"
-                            // onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
-                          >
-                          {t("navbar.nuestros proyectos")}
-
-                          </a>
-                          
-                        </div>
-                      </div>
-                    }
-                  </div>
-                  {/* FIN DROPDWON PROYECTO*/}
-                </li>
+                  
                 
                 <li>
                 {/* DROPDWON */}
@@ -581,15 +585,78 @@ export const Navbar = () => {
         <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
           <nav aria-label="Global">
             <ul className="flex flex-col items-start gap-4 p-4 text-sm">
-              <li>
-                {/* <Link
-                  className="text-white transition hover:text-celeste  "
-                  to={'/nosotros'}
-                  onClick={closeMenu}
+              
+
+
+
+            <li>
+                 {/* DROPDWON PROYECTOS M.H*/}
+              <div className="relative"
+              >
+                <div
+                  className="inline-flex items-center overflow-hidden rounded-md  text-white"
                 >
-                </Link> */}
+
+                  <button
+                    className="h-full flex items-center text-white   hover:text-blue-500 "
+                    onClick={() => toggleDropdownProyectos()}
+
+                  >
+                    <button
+                      className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                    >
+                      {t("navbar.proyectos de tokenizacion")}
+
+                    </button>
+                    <span className="sr-only">Menu</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="size-4 "
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </button>
+                </div>
+
+                {
+                  isOpenDropdownProyectos &&
+                  <div
+                    className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                    role="menu"
+                  >
+                    <div className="p-2">
+                    
+                     
+                      <a
+                        className="block rounded-lg px-4 py-2 text-sm text-white "
+                        role="menuitem"
+                        // onClick={() => { toggleDropdown(); closeMenu(); }}
+
+                      >
+                        {t("navbar.nuestros proyectos")}
+                      </a>
+                     
+
+                    </div>
+                  </div>
+                }
+              </div>
+              
+              {/* FIN DROPDWON PROYECTOS*/}
+                        </li>
+
+
+
+
+
+              <li>
                 {/* DORPDOWN NOSOTROS */}
-                {/* DROPDWON */}
                 <div className="relative"
                 >
                   <div
@@ -674,13 +741,11 @@ export const Navbar = () => {
                     </div>
                   }
                 </div>
-                {/* FIN DROPDWON */}
-
                 {/* FIN DROPDOWN NOSOTROS */}
               </li>
               <li>
 
-              {/* DROPDWON */}
+              {/* DROPDWON COMO INVERTIR*/}
               <div className="relative"
               >
                 <div
@@ -790,130 +855,7 @@ export const Navbar = () => {
                 }
               </div>
               {/* FIN DROPDWON COMO INVERTIR*/}
-                        </li>
-                        
-
-
-
-                <li>
-                 {/* DROPDWON PROYECTOS M.H*/}
-              <div className="relative"
-              >
-                <div
-                  className="inline-flex items-center overflow-hidden rounded-md  text-white"
-                >
-
-                  <button
-                    className="h-full flex items-center text-white   hover:text-blue-500 "
-                    onClick={() => toggleDropdown()}
-
-                  >
-                    <button
-                      className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
-                    >
-                      {t("navbar.como invertir")}
-
-                    </button>
-                    <span className="sr-only">Menu</span>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="size-4 "
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </button>
-                </div>
-
-                {
-                  isOpenDropdown &&
-                  <div
-                    className="absolute left-20 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
-                    role="menu"
-                  >
-                    <div className="p-2">
-                      {/* <a
-                        href='https://dapp-at-3.vercel.app'
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-                        target='_blank'
-
-                        >
-                        Staking
-                      </a> */}
-                      <Link
-                        to={'/comoInvertir#staking'}
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-
-                        >
-                        Staking
-                      </Link>
-                      <a
-                        href="https://dapp-at-3.vercel.app/stakingplus"
-                        target='_blank'
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-
-                      >
-                        {t("navbar.feliz primavera")}
-                      </a>
-                      <a
-                        href="https://dapp-at-3.vercel.app/"
-                        target='_blank'
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-                        >
-                        {t("navbar.comprar at3")}
-                      </a>
-                      {/* <a
-                        href="https://dapp-at-3.vercel.app/"
-                        target='_blank'
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-                        >
-                        Peer to Peer
-                      </a> */}
-                      <Link
-                        to={'/comoiInvertir#p2p'}
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-                      >
-                        Peer to Peer
-                      </Link>
-                      <Link
-                        to={'/comoInvertir#tutoriales'}
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-                      >
-                        {t("navbar.tutoriales")}
-                      </Link>
-
-                    </div>
-                  </div>
-                }
-              </div>
-              {/* FIN DROPDWON COMO INVERTIR*/}
-                        </li>
-
-
-
-
-
-
-
+                        </li>              
 
               <li>
               {/* DROPDWON LEGAL */}

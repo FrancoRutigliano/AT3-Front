@@ -4,7 +4,7 @@ import atomico from '../assets/Atomico.png'
 import { useEffect, useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
-import { SpringPopUp } from './SpringPopUp';
+// import { SpringPopUp } from './SpringPopUp';
 import e1 from '../assets/bg/e11.jpg'
 import 'animate.css';
 import { Form } from './Form';
@@ -12,7 +12,7 @@ import { Form } from './Form';
 export const Header = () => {
 
   const [showModal, setShowModal] = useState(false)
-  const [showPopUp, setShowPopUp] = useState(false)
+  // const [showPopUp, setShowPopUp] = useState(false)
 
   const [t] = useTranslation("global")
   const [animate, setAnimate] = useState(false);
@@ -34,20 +34,20 @@ export const Header = () => {
 
   };
 
-  const handleClosePopUp = ()=>{
-    setShowPopUp(false)
-    localStorage.setItem('modalShown', 'true');
-  }
+  // const handleClosePopUp = ()=>{
+  //   setShowPopUp(false)
+  //   localStorage.setItem('modalShown', 'true');
+  // }
 
 
   useEffect(() => {
-    const modalShown = localStorage.getItem('modalShown');
+    // const modalShown = localStorage.getItem('modalShown');
   
-    if (!modalShown) {
+    // if (!modalShown) {
       // Si no se ha mostrado, lo mostramos
-      setShowPopUp(true);
+      // setShowPopUp(true);
     
-    }
+    // }
     // Activar la animación al montar el componente
     setAnimate(true);
     const timer = setTimeout(() => {
@@ -67,7 +67,7 @@ export const Header = () => {
   return (
     <>
 
-{showPopUp && <SpringPopUp handleClosePopUp={handleClosePopUp} />}
+{/* {showPopUp && <SpringPopUp handleClosePopUp={handleClosePopUp} />} */}
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   

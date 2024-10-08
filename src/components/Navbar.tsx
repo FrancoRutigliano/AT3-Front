@@ -14,6 +14,8 @@ export const Navbar = () => {
   const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); 
   const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); 
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); 
+  const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false); 
+
   // const [isOpenDropdownWork, setIsOpenDropdownWork] = useState(false); 
   const [showingForm, setShowingForm] = useState(false)
 
@@ -149,10 +151,137 @@ export const Navbar = () => {
                       </div>
                     }
                   </div>
+                  </li>
                   {/* FIN DROPDWON NOSOTROS*/}
+                  <li >
+                  {/* DROPDONW PROYECTO */}
+                  <div className="relative"
+                    onMouseLeave={() => setIsOpenDropdownProyectos(false)}>
+                    <div
+                      className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                    >
 
+                      <button
+                        className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                        onMouseEnter={() => setIsOpenDropdownProyectos(true)}
+
+                      >
+                        <a
+                          className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                        >
+                           Proyectos de <br />
+                          tokenización
+                        </a>
+                        <span className="sr-only">Menu</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="size-4 "
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+
+                    {
+                      isOpenDropdownProyectos &&
+                      <div
+                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                        role="menu"
+                      >
+                        <div className="p-2">
+                          <a
+
+                            className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            // onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
+                          >
+                          Nuestros proyectos
+
+                          </a>
+                          
+                        </div>
+                      </div>
+                    }
+                  </div>
+                  {/* FIN DROPDWON PROYECTO*/}
                 </li>
+                <li>
+                  {/* <Link
+                    className="text-white transition hover:text-celeste  "
+                    to={'/legal'}
+                  >
+                    {t("navbar.legal")}
+                  </Link> */}
+                  {/* DROPDWON LEGAL*/}
+                  <div className="relative"
+                    onMouseLeave={() => setIsOpenDropdownLegal(false)}>
+                    <div
+                      className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                    >
 
+                      <button
+                        className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                        onMouseEnter={() => setIsOpenDropdownLegal(true)}
+
+                      >
+                        <a
+                          className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                        >
+                          {t("navbar.legal")}
+                        </a>
+                        <span className="sr-only">Menu</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="size-4 "
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+
+                    {
+                      isOpenDropdownLegal &&
+                      <div
+                        className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                        role="menu"
+                      >
+                        <div className="p-2">
+                          <Link
+                            to={'/legal#terms'}
+                            // href='https://dapp-at-3.vercel.app'
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                          >
+                            {t("navbar.terms")}
+                          </Link>
+
+                          <Link
+                            to={'/legal#privacyPolitic'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                          >
+                            {t("navbar.privacy")}
+                          </Link>
+
+
+                        </div>
+                      </div>
+                    }
+                  </div>
+                  {/* FIN DROPDWON LEGAL*/}
+                </li>
                 <li>
                 {/* DROPDWON */}
                 <div className="relative"
@@ -320,6 +449,7 @@ export const Navbar = () => {
                   </div>
                   {/* FIN DROPDWON LEGAL*/}
                 </li>
+                
                 <li className='flex items-center'>
                   <Link
                     className="text-white text-center leading-[20px] transition hover:text-celeste  "
@@ -527,7 +657,6 @@ export const Navbar = () => {
                   to={'/nosotros'}
                   onClick={closeMenu}
                 >
-                  {t("navbar.nosotros")}
                 </Link> */}
                 {/* DORPDOWN NOSOTROS */}
                 {/* DROPDWON */}

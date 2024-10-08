@@ -9,7 +9,7 @@ interface FormProps {
 
 export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
 
-  const [t, i18n] = useTranslation("global")
+  const [t] = useTranslation("global")
 
   const [showLoading, setShowLoading] = useState(false)
   // Estado para los campos del formulario

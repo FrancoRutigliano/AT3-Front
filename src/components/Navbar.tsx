@@ -14,7 +14,7 @@ export const Navbar = () => {
   const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); 
   const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); 
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); 
-  const [isOpenDropdownWork, setIsOpenDropdownWork] = useState(false); 
+  // const [isOpenDropdownWork, setIsOpenDropdownWork] = useState(false); 
   const [showingForm, setShowingForm] = useState(false)
 
 
@@ -138,13 +138,13 @@ export const Navbar = () => {
                           >
                             {t("navbar.nuestro equipo")}
                           </Link>
-                          <Link
-                            to={'/nosotros#trabajar'}
-                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                          <a
+                            // to={'/nosotros#trabajar'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white  "
                             role="menuitem"
                           >
                             {t("navbar.trabaja")}
-                          </Link>
+                          </a>
                         </div>
                       </div>
                     }
@@ -603,7 +603,13 @@ export const Navbar = () => {
                           {t("navbar.nuestro equipo")}
 
                         </Link>
-
+                        <a
+                            // to={'/nosotros#trabajar'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white "
+                            role="menuitem"
+                          >
+                            {t("navbar.trabaja")}
+                          </a>
 
                       </div>
                     </div>

@@ -9,7 +9,7 @@ import { VideoSection } from "../components/VideoSection"
 import { useLocation } from "react-router-dom"
 // import { Modal } from "../components/Modal"
 import './Home.css'
-import { Form } from "../components/Form"
+// import { Form } from "../components/Form"
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
 

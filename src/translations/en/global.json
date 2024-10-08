@@ -202,6 +202,17 @@
   "wallet": "How to connect your wallet?",
   "p2p": "How to perform Peer to Peer?",
   "staking": "How to do Staking?"
+},
+  "form": {
+    "Ingrese sus datos": "Enter your details",
+    "Ingrese sus datos p1": "Once your details are entered, the document will download automatically. Thank you very much!",
+    "Nombre": "First Name",
+    "Apellido": "Last Name",
+    "Email": "Email",
+    "Teléfono": "Phone",
+    "Aceptar": "Accept",
+    "Cancelar": "Cancel"
 }
+
 
 }

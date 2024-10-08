@@ -27,7 +27,7 @@ export const PeerToPeer = () => {
     return (
         <>
             <section className='mt-16' ref={p2pRef} id='p2p'>
-                <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  pt-5' >Peer to Peer</h1>
+                {/* <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  pt-5' >Peer to Peer</h1> */}
                 <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
                     <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
                         <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
@@ -43,7 +43,6 @@ export const PeerToPeer = () => {
                             </p>
                             <p className='text-md lg:text-2xl'>
                                 {t("como invertir.peer to peer p2")}
-
                             </p>
 
                         </div>

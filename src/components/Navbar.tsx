@@ -48,13 +48,13 @@ export const Navbar = () => {
          setShowingForm(isVisible)
   }
   
-  if(showingForm) return(
-    <Form documentType='brochure' showForm={showForm}/>
-  )
+  // if(showingForm) return(
+  //   <Form documentType='brochure' showForm={showForm}/>
+  // )
   return (
     <>
     
-    <header className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
+    <nav className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
       <div className="mx-auto max-w-screen-xl px-1 sm:px-1 lg:px-1 ">
         <div className="flex h-16 items-center justify-between">
           <div className="flex-1 md:flex md:items-center md:gap-12">
@@ -118,7 +118,7 @@ export const Navbar = () => {
 
                             className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
-                            onClick={()=>showForm(true)}
+                            onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
                           >
                             {t("navbar.descargar brochure")}
 
@@ -908,7 +908,11 @@ export const Navbar = () => {
           </nav>
         </div>
       </div>
-    </header>
+    </nav>
+    {
+       showingForm && 
+        <Form documentType='brochure' showForm={showForm}/>
+    }
     </>
   );
 };

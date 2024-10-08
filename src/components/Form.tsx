@@ -1,12 +1,15 @@
 import { useState } from "react";
 import emailjs from 'emailjs-com';
 import atomicLogo from '../assets/Atomico.png'
+import { useTranslation } from "react-i18next";
 interface FormProps {
   documentType: string;
   showForm: (isVisible: boolean) => void; // Tipar la función
 }
 
 export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
+
+  const [t, i18n] = useTranslation("global")
 
   const [showLoading, setShowLoading] = useState(false)
   // Estado para los campos del formulario
@@ -62,13 +65,13 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
           // setMessage('Formulario enviado con éxito');
           if (response.status >= 200 && response.status <= 200) {
 
-            if(documentType == "brochure"){
+            if (documentType == "brochure") {
               window.open('https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf')
             }
-            if(documentType == "whitepaper"){
+            if (documentType == "whitepaper") {
               window.open('https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV')
             }
-            
+
             setShowLoading(false)
             showForm(false)
           }
@@ -82,9 +85,9 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
       .finally(() => setLoading(false));
   };
 
-  if(showLoading) return(
+  if (showLoading) return (
     <>
-    <div className="p-3 fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 ">
+      <div className="p-3 fixed inset-0 z-2 flex items-center justify-center bg-black bg-opacity-50 ">
         <div className=" bg-dark-light border border-celeste rounded-lg shadow-lg max-h-[550px] p-5">
           <img src={atomicLogo} alt="" className="max-w-[125px] mx-auto" />
           <h1 className="ml-3 text-center text-2xl font-bold text-indigo-600 sm:text-3xl">
@@ -95,10 +98,10 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
             El documento se descargará en breve
           </p>
 
-          
+
         </div>
       </div>
-    
+
     </>
   )
   return (
@@ -106,21 +109,23 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
       <div className="p-3 fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 ">
         <div className=" bg-dark-light border border-celeste rounded-lg shadow-lg max-h-[550px] p-5">
           <h1 className="text-center text-2xl font-bold text-indigo-600 sm:text-3xl">
-            Ingrese sus datos
+            {t("form.Ingrese sus datos")}
           </h1>
 
           <p className="mx-auto mt-4 max-w-md text-center sm:text-sm text-gray-200">
-            Una vez ingresado sus datos el documento se descargará automáticamente. ¡Muchas Gracias!
+            {t("form.Ingrese sus datos p1")}
           </p>
 
           <form action="#" className="mt-2" onSubmit={handleSubmit}>
             {/* <p className="text-center text-lg font-medium">Sign in to your account</p> */}
 
             <div>
-              <label htmlFor="firstName" className="">Nombre</label>
+              <label htmlFor="firstName" className="">
+                {t("form.Nombre")}
+              </label>
               <div className="relative">
                 <input
-                id="firstName"
+                  id="firstName"
                   name="firstName"
                   onChange={handleChange}
                   value={formData.firstName}
@@ -135,10 +140,13 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
               </div>
             </div>
             <div className="mt-2">
-              <label htmlFor="lastName" className="">Apellido</label>
+              <label htmlFor="lastName" className="">
+              {t("form.Apellido")}
+                
+              </label>
               <div className="relative">
                 <input
-                id="lastName"
+                  id="lastName"
                   name="lastName"
                   onChange={handleChange}
                   value={formData.lastName}
@@ -152,12 +160,15 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
                 </span>
               </div>
             </div>
-           
+
             <div className="mt-2">
-              <label htmlFor="email" className="">Email</label>
+              <label htmlFor="email" className="">
+              {t("form.Email")}
+                
+              </label>
               <div className="relative">
                 <input
-                id="email"
+                  id="email"
                   name="email"
                   onChange={handleChange}
                   value={formData.email}
@@ -173,10 +184,12 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
               </div>
             </div>
             <div className="mt-2">
-              <label htmlFor="phone" className="">Teléfono</label>
+              <label htmlFor="phone" className="">
+              {t("form.Teléfono")}
+              </label>
               <div className="relative">
                 <input
-                id="phone"
+                  id="phone"
                   name="phone"
 
                   onChange={handleChange}
@@ -198,21 +211,23 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
                 onClick={() => showForm(false)}
                 className=" bg-red-400 block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
               >
-                Cancelar
+                            {t("form.Cancelar")}
+
               </button>
               <button
                 type="submit"
                 // onClick={handleSubmit}
                 className="ml-2 block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
               >
-                Aceptar
+                           {t("form.Aceptar")}
+
               </button>
             </div>
 
           </form>
         </div>
       </div>
-      
+
     </>
   );
 }

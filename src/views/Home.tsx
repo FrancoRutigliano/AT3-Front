@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react"
+import { useEffect, useRef, useState } from "react"
 import { AtomicInfo } from "../components/AtomicInfo"
 import { Faq } from "../components/Faq"
 import { Header } from "../components/Header"
@@ -9,6 +9,7 @@ import { VideoSection } from "../components/VideoSection"
 import { useLocation } from "react-router-dom"
 // import { Modal } from "../components/Modal"
 import './Home.css'
+import { Form } from "../components/Form"
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);
 
@@ -22,6 +23,7 @@ export const Home = () => {
    
   }, [location]);
 
+  
   return (
 
 <>
@@ -47,7 +49,6 @@ export const Home = () => {
  </div>
     {/* <MenuAppBar/> */}
     <Header/>
-    
     <AtomicInfo/>
     <VideoSection/>
     <Invest/>

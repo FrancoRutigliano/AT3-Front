@@ -30,11 +30,11 @@ export const Staking = () => {
   return (
     <>
       <section className='mt-20 lg:mt-0' ref={stakingRef} id='tutoriales'>
-        <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  py-5' >Staking</h1>
-        <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
-          <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
-            <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
-              <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent  text-3xl font-bold md:text-6xl py-2 break-words">
+        {/* <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  py-5' >Staking</h1> */}
+        <section className=" lg:mt-20 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
+          <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24 ">
+            <div className="mx-auto p-5 md:p-0 md:w-full text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
+              <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent text-3xl font-bold lg:text-6xl py-2 ">
                 {t("stakingView.¿Qué es el Staking?")}
               </h2>
 

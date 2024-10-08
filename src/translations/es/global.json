@@ -20,9 +20,6 @@
     "terms": "Términos y condiciones",
     "privacy": "Política de privacidad",
     "trabaja": "Trabaja con nosotros"
-
-
-
   },
   "nosotros": {
     "title": "Somos una compañía legalmente constituida en Paraguay, dedicada al desarrollo y optimización de la actividad minera. Les aportamos la herramienta de la tokenización de las reservas de litio certificadas, buscando con esto innovar y revolucionar la industria de la electromovilidad. ",
@@ -201,5 +198,15 @@
     "wallet": "¿Cómo conectar tu wallet?",
     "p2p": "¿Cómo hacer Peer to Peer?",
     "staking": "¿Cómo realizar el Staking?"
+  },
+  "form": {
+    "Ingrese sus datos": "Ingrese sus datos",
+    "Ingrese sus datos p1": " Una vez ingresado sus datos el documento se descargará automáticamente. ¡Muchas Gracias!",
+    "Nombre": "Nombre",
+    "Apellido": "Apellido",
+    "Email": "Email",
+    "Teléfono": "Teléfono",
+    "Aceptar": "Aceptar",
+    "Cancelar": "Cancelar"
   }
 }

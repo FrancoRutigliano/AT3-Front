@@ -7,52 +7,83 @@ import esp from '../assets/lang/esp.png'
 import { Form } from './Form';
 
 export const Navbar = () => {
-  const [t, i18n] = useTranslation("global")
-  const [isOpen, setIsOpen] = useState(false); 
-  const [isOpenDropdown, setIsOpenDropdown] = useState(false); 
-  const [isOpenDropdownHelp, setIsOpenDropdownHelp] = useState(false); 
-  const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false); 
-  const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false); 
-  const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false); 
-  const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false); 
+  const [t, i18n] = useTranslation("global");
 
-  // const [isOpenDropdownWork, setIsOpenDropdownWork] = useState(false); 
-  const [showingForm, setShowingForm] = useState(false)
+  // Estados para cada dropdown
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpenDropdown, setIsOpenDropdown] = useState(false);
+  const [isOpenDropdownHelp, setIsOpenDropdownHelp] = useState(false);
+  const [isOpenDropdownLang, setIsOpenDropdownLang] = useState(false);
+  const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false);
+  const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false);
+  const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false);
 
+  const [showingForm, setShowingForm] = useState(false);
 
+  // Función para abrir/cerrar el menú principal
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const closeMenu = () => {
-    console.log('hola')
-    setIsOpen(false)
-  }
-
-  const handleChangeLanguage = (lang: string) => {
-    i18n.changeLanguage(lang)
-  }
-
-  const toggleDropdown = () => {
-    setIsOpenDropdown(prev => !prev);
-
-  }; const toggleDropdownHelp = () => {
-    setIsOpenDropdownHelp(prev => !prev);
+    setIsOpen(false);
   };
+
+  // Cambiar idioma
+  const handleChangeLanguage = (lang: string) => {
+    i18n.changeLanguage(lang);
+  };
+
+  // Función para cerrar todos los dropdowns
+  const closeAllDropdowns = () => {
+    setIsOpenDropdown(false);
+    setIsOpenDropdownHelp(false);
+    setIsOpenDropdownAboutUs(false);
+    setIsOpenDropdownLegal(false);
+    setIsOpenDropdownProyectos(false);
+    setIsOpenDropdownLang(false);
+  };
+
+  // Funciones para abrir/cerrar dropdowns, cerrando todos los demás
+  const toggleDropdown = () => {
+    const isCurrentlyOpen = isOpenDropdown;
+    closeAllDropdowns();
+    setIsOpenDropdown(!isCurrentlyOpen); // Si ya estaba abierto, lo cerramos
+  };
+
+  const toggleDropdownHelp = () => {
+    const isCurrentlyOpen = isOpenDropdownHelp;
+    closeAllDropdowns();
+    setIsOpenDropdownHelp(!isCurrentlyOpen);
+  };
+
   const toggleDropdownAboutUs = () => {
-    setIsOpenDropdownAboutUs(prev => !prev);
-  }
+    const isCurrentlyOpen = isOpenDropdownAboutUs;
+    closeAllDropdowns();
+    setIsOpenDropdownAboutUs(!isCurrentlyOpen);
+  };
+
   const toggleDropdownLegal = () => {
-    setIsOpenDropdownLegal(prev => !prev);
-  }
+    const isCurrentlyOpen = isOpenDropdownLegal;
+    closeAllDropdowns();
+    setIsOpenDropdownLegal(!isCurrentlyOpen);
+  };
 
   const toggleDropdownProyectos = () => {
-    setIsOpenDropdownProyectos(prev => !prev);
-  }
+    const isCurrentlyOpen = isOpenDropdownProyectos;
+    closeAllDropdowns();
+    setIsOpenDropdownProyectos(!isCurrentlyOpen);
+  };
 
-  const showForm = (isVisible: boolean) =>{
-         setShowingForm(isVisible)
-  }
+  const toggleDropdownLang = () => {
+    const isCurrentlyOpen = isOpenDropdownLang;
+    closeAllDropdowns();
+    setIsOpenDropdownLang(!isCurrentlyOpen);
+  };
+
+  const showForm = (isVisible: boolean) => {
+    setShowingForm(isVisible);
+  };
   
   // if(showingForm) return(
   //   <Form documentType='brochure' showForm={showForm}/>

@@ -408,22 +408,6 @@ export const Navbar = () => {
                   {/* FIN DROPDWON LEGAL*/}
                 </li>
                 
-                <li className='flex items-center'>
-                  <Link
-                    className="text-white text-center leading-[20px] transition hover:text-celeste  "
-                    to={"/faq"}
-                  >
-
-                    {i18n.language === "es" ? (
-                      <div className='text-sm'>
-                        <span className='block'>Preguntas </span>
-                        <span className='block'>Frecuentes</span>
-                      </div>
-                    ) : (
-                      <span className='text-sm'>FAQ</span>
-                    )}
-                  </Link>
-                </li>
 
                 <li>
                   <Link
@@ -442,6 +426,22 @@ export const Navbar = () => {
                         <span className='block'>Press </span>
                         <span className='block'>& Media</span>
                       </div>
+                    )}
+                  </Link>
+                </li>
+                <li className='flex items-center'>
+                  <Link
+                    className="text-white text-center leading-[20px] transition hover:text-celeste  "
+                    to={"/faq"}
+                  >
+
+                    {i18n.language === "es" ? (
+                      <div className='text-sm'>
+                        <span className='block'>Preguntas </span>
+                        <span className='block'>Frecuentes</span>
+                      </div>
+                    ) : (
+                      <span className='text-sm'>FAQ</span>
                     )}
                   </Link>
                 </li>

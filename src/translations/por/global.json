@@ -1,0 +1,107 @@
+{
+    "navbar": {
+      "nosotros": "Nós",
+      "inicio": "Início",
+      "staking": "Staking",
+      "legal": "Legal",
+      "preguntas frecuentes": "Perguntas Frequentes",
+      "ayuda": "Ajuda",
+      "noticias": "Mídia e Notícias",
+      "como invertir": "Como investir",
+      "feliz primavera": "Feliz Primavera!",
+      "comprar at3": "Comprar AT3",
+      "tutoriales": "Tutoriais",
+      "soporte": "Suporte",
+      "contacto": "Contato",
+      "nuestro equipo": "Nossa Equipe",
+      "descargar brochure": "Baixar Brochura",
+      "sobre atomico": "Sobre Atômico3",
+      "idiomas": "Idiomas",
+      "terms": "Termos e condições",
+      "privacy": "Política de privacidade",
+      "trabaja": "Trabalhe conosco",
+      "proyectos de": "Projetos de",
+      "tokenizacion": "tokenização",
+      "proyectos de tokenizacion": "Projetos de tokenização",
+      "nuestros proyectos": "Nossos Projetos"
+    },
+    "nosotros": {
+      "title": "Somos uma empresa legalmente constituída no Paraguai, dedicada ao desenvolvimento e otimização da atividade de mineração. Oferecemos a ferramenta de tokenização das reservas certificadas de lítio, buscando inovar e revolucionar a indústria da eletromobilidade.",
+      "title p1": "Ao converter as reservas de lítio em tokens digitais, facilitamos o financiamento para a indústria de mineração, contribuindo para o desenvolvimento de sua operação integral e a transição para um futuro mais sustentável.",
+      "Nuestros Valores": "Nossos Valores",
+      "Propósito": "Propósito",
+      "Propósito descripcion": "Contribuir para o desenvolvimento da atividade de mineração na América Latina por meio da tokenização de ativos minerais, colaborando como a ferramenta financeira para o desenvolvimento da mineração.",
+      "Visión": "Visão",
+      "Visión descripcion": "Queremos revolucionar a forma como os recursos naturais são gerenciados e investidos, aplicando tecnologias avançadas de tokenização e blockchain.",
+      "Misión": "Missão",
+      "Misión descripcion": "Melhorar a eficiência e a transparência do mercado de lítio, abrir novas oportunidades para investidores e contribuir para o desenvolvimento econômico global."
+    },
+    "header": {
+      "bienvenido": "Bem-vindo ao Atômico3",
+      "criptoactivo": "Um criptoativo respaldado por lítio, que promove a sustentabilidade por meio da redução de emissões de carbono com incentivos tokenizados.",
+      "whitepaper": "Baixar Whitepaper",
+      "feliz primavera": "Feliz Primavera!",
+      "comprar token": "Comprar Token",
+      "staking": "staking"
+    },
+    "modal": {
+      "feliz primavera descripcion": "O formulário a seguir deve ser preenchido apenas por aqueles que compraram AT3 entre 00:00 de segunda-feira, 23 de setembro, e 23:59 de 7 de outubro.",
+      "recordatorio descripcion": "Lembre-se de que aqueles que comprarem AT3 entre 00:00 de segunda-feira, 23 de setembro, e 23:59 de 7 de outubro, para obter o adicional de 5% da Spring Week, devem preencher o formulário acessado clicando no botão 'Feliz Primavera'",
+      "continuar": "Continuar",
+      "cancelar": "Cancelar",
+      "completar formulario": "Preencher formulário"
+    },
+    "popup": {
+      "obten un 5 adicional": "Obtenha 5% adicional!",
+      "p1": "Dadas as numerosas consultas e solicitações, estendemos a Spring Week até 7 de outubro! Compre AT3 (novos) entre 00:00 de segunda-feira, 23 de setembro de 2024, e 23:59 de 7 de outubro de 2024. A Atômico3 lhe dará um adicional de 5%.",
+      "p2": "Após a compra, não se esqueça de preencher o formulário com seus dados clicando no botão 'Feliz Primavera'.",
+      "aceptar": "Aceitar"
+    },
+    "atomicInfo": {
+      "que es atomico": "O que é Atômico3?",
+      "descripcion atomico p1": "Atômico3 é um token que representa a tokenização de ativos minerais, respaldado por reservas de lítio certificadas sob as normas NI 43-101. Este processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
+      "descripcion atomico p2": "Atômico3 democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez. Com sua abordagem inovadora, Atômico3 facilita o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
+      "criptoactivo responsable": "Criptoativo Responsável",
+      "criptoactivo responsable descripcion": "Nosso token é respaldado por lítio real, com um valor que cresce junto à demanda por energia limpa.",
+      "mercado objetivo": "Mercado Alvo",
+      "mercado objetivo descripcion": "Investidores globais com visão. Cidadãos comprometidos com a sustentabilidade.",
+      "plataformas utilizadas": "Plataformas Utilizadas",
+      "plataformas utilizadas descripcion": "Blockchain, redes sociais oficiais e comunidades apaixonadas, holders e entusiastas de tecnologia."
+    },
+    "videoSection": {
+      "video section title": "Assista ao vídeo para saber mais!"
+    },
+    "InvestSection": {
+      "¿Por qué invertir en Atómico3?": "Por que investir no Atômico3?",
+      "Seguridad": "Segurança",
+      "Seguridad descripcion": "Ao ser respaldada por lítio, a moeda pode diversificar os riscos associados às reservas tradicionais, como o ouro ou moedas fiat, tornando-a menos suscetível às flutuações dos mercados financeiros globais e às políticas monetárias dos países emissores de moedas fiat.",
+      "tecnologia y beneficios": "Tecnologia e Benefícios",
+      "tecnologia y beneficios descripcion": "A tokenização do lítio pode revolucionar a forma como os recursos minerais são comercializados e utilizados, proporcionando benefícios significativos em termos de acessibilidade, liquidez e transparência.",
+      "soporte": "Suporte",
+      "soporte descripcion": "Oferecemos suporte para responder a qualquer uma de suas dúvidas."
+    },
+    "staking": {
+      "que es": "O que é?",
+      "como funciona": "Como funciona?",
+      "clickea el enlace": "Clique no link abaixo para saber mais!",
+      "saber mas": "Saiba Mais",
+      "como hacer staking": "Como fazer Staking?",
+      "como hacer staking p1": "Quer aprender a fazer Staking? Neste vídeo, explicamos como fazê-lo de forma rápida e fácil.",
+      "como hacer staking p2": "Clique no vídeo e comece a investir hoje!"
+    },
+    "faq": {
+      "preguntas frecuentes": "Perguntas Frequentes",
+      "que es atomico": "O que é Atômico3?",
+      "que es atomico descripcion": "Atômico 3 é um token digital respaldado por reservas de lítio certificadas sob a norma NI 43-101. Este processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
+      "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?": "Por que não vejo refletido o preço do Atômico3 na minha carteira?",
+      "El token se encuentra en lista de espera en CoinMarketCap": "O token está na lista de espera da CoinMarketCap para ser listado, por isso o preço será refletido em breve.",
+      "¿Dónde puedo ver la valuación de Atómico3?": "Onde posso ver a avaliação do Atômico3?",
+      "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap": "Você pode ver a avaliação atual de Atômico3 em Dex descentralizadas como Quickswap.",
+      "¿Por qué el token Atómico3 no tiene liquidez?": "Por que o token Atômico3 não tem liquidez?",
+      "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)": "O token foi lançado em 12 de agosto e a liquidez formal será injetada quando ele for listado na CoinMarketCap (para o qual estamos trabalhando).",
+      "¿Cuál es el contrato de Atómico3?": "Qual é o contrato de Atômico3?",
+      "El contrato de token es el siguiente en la red Polygon": "O contrato de token é o seguinte na rede Polygon: 0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76",
+      "¿Proyección del precio de Atómico3 en el futuro?": "Projeção do preço do Atômico3 no futuro?",
+      "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Ele vai se comportar em relação ao preço do carbonato de lítio internacional (li2co3)."
+    }
+}

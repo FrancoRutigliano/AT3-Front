@@ -104,16 +104,18 @@ export const Header = () => {
 
           <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3 lg:mt-3'>
             {/* <a href="/public/whitepaper.pdf" download='whitepaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'> */}
-            <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px]  text-white py-2 lg:py-3 rounded-md w-full  px-6 text-center bg-custom-gradient2 font-medium hover:bg-custom-gradient hover:cursor-pointer' onClick={()=>handleOpenModal(true)} >
+            {/* <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px]  text-white py-2 lg:py-3 rounded-md w-full  px-6 text-center bg-custom-gradient2 font-medium hover:bg-custom-gradient hover:cursor-pointer' onClick={()=>handleOpenModal(true)} >
               <button className={animate && localStorage.getItem('modalShown') ? 'animate-shake' : ''}>{t("header.feliz primavera")}</button>
-            </a>
+            </a> */}
 
-            <a   className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' onClick={()=>handleOpenModal(false)} >
+            <a   className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' href='https://dapp-at-3.vercel.app/' target='_blank'>
 
               <button className=''>{t("header.comprar token")}</button>
             </a>
-            <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' onClick={()=>handleOpenModal(false)}
-            >
+            <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' 
+            // onClick={()=>handleOpenModal(false)}
+            href='https://dapp-at-3.vercel.app/' target='_blank'>
+            
 
               <button className='' >Staking</button>
             </a>

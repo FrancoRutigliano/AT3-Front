@@ -132,7 +132,7 @@
   "stakingView": {
     "¿Qué es el Staking?": "¿Qué es el Staking?",
     "¿Qué es el Staking? Descripcion": "Consiste en depositar tus Atómico3 en un contrato inteligente (0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que elijas, beneficiándote de los intereses según el plazo elegido. Serán devueltos a tu monedero una vez finalizado el plazo (salvo que elijas renovarlo por un nuevo plazo).",
-    "¿Qué es el Staking? Descripcion 2": "Si quieres aprender cómo se hace puedes ver el tutorial que se encuentra al final de la página.",
+    "¿Qué es el Staking? Descripcion 2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "¿Cómo lo puedo hacer?": "¿Cómo lo puedo hacer?",
     "¿Cómo lo puedo hacer? descripcion": "¡Haz clic en el botón de abajo!"
     
@@ -185,8 +185,7 @@
     "como invertir": "¿Cómo Invertir en Atómico3?",
     "como invertir p1": "En Atómico3 puedes invertir en 4 modalidades diferentes: Staking, Peer to Peer, Comprar AT3 o Feliz Primavera",
     "como invertir p2": "Aquí te enseñaremos cómo realizar cada una de ellas ¡Cliquea en el botón de abajo!",
-    "ver tutoriales": "Ver Tutoriales",
-    "ver tutorial": "Ver tutorial"
+    "ver tutoriales": "Ver Tutoriales"
 
   },
   "como invertir": {
@@ -199,7 +198,7 @@
     "conectar tu wallet p2": "¡Mira el video a continuación y aprende como hacerlo!",
     "peer to peer": "¿Qué es Peer to Peer?",
     "peer to peer p1": "Es una compra de billetera a billetera en la que compras AT3 con USDT o USDC, directamente de tu billetera a la nuestra, con la cotización que está publicada en nuestra página.",
-    "peer to peer p2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, deslizate hacia abajo para ver el tutorial",
+    "peer to peer p2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "peer to peer p3": "¿Cómo hacer Peer to Peer?",
     "peer to peer p4": "¡Aprende fácil y rápidamente como hacerlo siguiendo los pasos a continuación!",
     "peer to peer p5": "¡Dale click al video y empieza a invertir hoy!"

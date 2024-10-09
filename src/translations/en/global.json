@@ -129,7 +129,7 @@
   "stakingView": {
     "¿Qué es el Staking?": "What is Staking?",
     "¿Qué es el Staking? Descripcion": "It consists of depositing your Atómico3 in a smart contract (0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the term you choose, benefiting from the interest according to the chosen term. They will be returned to your wallet once the term has expired (unless you choose to renew it for a new term).",
-    "¿Qué es el Staking? Descripcion 2": "If you want to learn how to do it, you can see the tutorial at the bottom of the page.",
+    "¿Qué es el Staking? Descripcion 2": "Remember that for this you need to connect your wallet. If you don't know how to do it, you can see the tutorials below.",
 
     "¿Cómo lo puedo hacer?": "How can I do It?",
     "¿Cómo lo puedo hacer? descripcion": "Click on the button below! "
@@ -183,8 +183,7 @@
     "como invertir": "How to invest in Atómico3?",
     "como invertir p1": "At Atómico3 you can invest in 4 different modalities: Staking, Peer to Peer, Buy AT3 or Happy Spring",
     "como invertir p2": "Here we will teach you how to do each of them. Click on the button below!",
-    "ver tutoriales": "Watch Tutorials",
-    "ver tutorial": "Watch tutorial"
+    "ver tutoriales": "Watch Tutorials"
 
 
   },
@@ -198,7 +197,7 @@
     "conectar tu wallet p2": "Watch the video below and learn how to do it!",
     "peer to peer": "What is Peer to Peer?",
      "peer to peer p1": "It is a wallet to wallet purchase where you buy AT3 with USDT or USDC, directly from your wallet to ours, with the quote that is published on our page. ",
-    "peer to peer p2": "Remember that for this you need to connect your wallet. If you don't know how to do it, scroll down to see the tutorial",
+    "peer to peer p2": "Remember that for this you need to connect your wallet. If you don't know how to do it, you can see the tutorials below.",
     "peer to peer p3": "How to make Peer to Peer? ",
     "peer to peer p4": "Learn quickly and easily how to do it by following the steps below! ",
     "peer to peer p5": "Click on the video and start investing today! "

@@ -29,19 +29,19 @@ export const PeerToPeer = () => {
             <section className='mt-16' ref={p2pRef} id='p2p'>
                 {/* <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  pt-5' >Peer to Peer</h1> */}
                 <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-2 py-10">
-                    <div className="py-5 px-1 md:p-12 lg:px-16 lg:py-24">
-                        <div className="mx-auto max-w-xl text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
+                    <div className="py-5 px-1 md:p-12 lg:pl-7 lg:pr-2  lg:py-24 ">
+                        <div className="mx-auto p-5 md:p-0 md:w-full  text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
                             <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold md:text-3xl py-2 break-words">
                                 {t("como invertir.peer to peer")}
 
                             </h2>
 
-                            <p className='text-md lg:text-2xl'>
+                            <p className='text-sm text-white md:mt-4 md:block  lg:text-lg break-words'>
                                 {t("como invertir.peer to peer p1")}
 
 
                             </p>
-                            <p className='text-md lg:text-2xl'>
+                            <p className='text-sm text-white md:mt-4 md:block  lg:text-lg break-words'>
                                 {t("como invertir.peer to peer p2")}
                             </p>
 
@@ -49,7 +49,7 @@ export const PeerToPeer = () => {
                         <div className="mt-4 md:mt-8 flex justify-center lg:justify-start ">
                 <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'  >
 
-                  <button className=''>{t("invertir.ver tutorial")}</button>
+                  <button className=''>{t("invertir.ver tutoriales")}</button>
                 </Link>
                 <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
                   href='https://dapp-at-3.vercel.app/' target='_blank'>

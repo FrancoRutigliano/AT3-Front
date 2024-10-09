@@ -29,6 +29,7 @@ export const  Team = () => {
     }
   }, [location]);
 
+  
   return (
     <article className="p-5 mt-16 lg:mt-28" ref={equipoRef} id="equipo">
       

@@ -75,11 +75,11 @@ export const Navbar = () => {
     setIsOpenDropdownProyectos(!isCurrentlyOpen);
   };
 
-  const toggleDropdownLang = () => {
-    const isCurrentlyOpen = isOpenDropdownLang;
-    closeAllDropdowns();
-    setIsOpenDropdownLang(!isCurrentlyOpen);
-  };
+  // const toggleDropdownLang = () => {
+  //   const isCurrentlyOpen = isOpenDropdownLang;
+  //   closeAllDropdowns();
+  //   setIsOpenDropdownLang(!isCurrentlyOpen);
+  // };
 
   const showForm = (isVisible: boolean) => {
     setShowingForm(isVisible);
@@ -296,6 +296,7 @@ export const Navbar = () => {
                         >
                           Staking
                         </Link>
+
 
                         {/* <a
                           href="https://dapp-at-3.vercel.app/stakingplus"

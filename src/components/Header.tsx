@@ -1,7 +1,7 @@
 
 import { useTranslation } from 'react-i18next'
 import atomico from '../assets/Atomico.png'
-import { useEffect, useState } from 'react';
+import {  useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';
@@ -15,7 +15,7 @@ export const Header = () => {
   // const [showPopUp, setShowPopUp] = useState(false)
 
   const [t] = useTranslation("global")
-  const [animate, setAnimate] = useState(false);
+  // const [animate, setAnimate] = useState(false);
   const [isSpringBtn, setIsSpringBtn] = useState<boolean | null>(null);
   const [showingForm, setShowingForm] = useState(false)
 
@@ -23,10 +23,10 @@ export const Header = () => {
     setShowingForm(isVisible)
 }
 
-  const handleOpenModal = (happySpringBtn: boolean) => {
-    setShowModal(true);
-    setIsSpringBtn(happySpringBtn)
-  };
+  // const handleOpenModal = (happySpringBtn: boolean) => {
+  //   setShowModal(true);
+  //   setIsSpringBtn(happySpringBtn)
+  // };
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -40,7 +40,7 @@ export const Header = () => {
   // }
 
 
-  useEffect(() => {
+  // useEffect(() => {
     // const modalShown = localStorage.getItem('modalShown');
   
     // if (!modalShown) {
@@ -48,14 +48,13 @@ export const Header = () => {
       // setShowPopUp(true);
     
     // }
-    // Activar la animación al montar el componente
-    setAnimate(true);
-    const timer = setTimeout(() => {
-      setAnimate(false);
-    }, 1000); // Duración de la animación
+    // setAnimate(true);
+    // const timer = setTimeout(() => {
+      // setAnimate(false);
+    // }, 1000); 
 
-    return () => clearTimeout(timer);
-  }, []);
+    // return () => clearTimeout(timer);
+  // }, []);
 
   if(showingForm) return (
     

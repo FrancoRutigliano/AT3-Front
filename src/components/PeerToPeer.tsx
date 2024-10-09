@@ -16,7 +16,7 @@ export const PeerToPeer = () => {
         const elementPosition = p2pRef.current.getBoundingClientRect().top + window.scrollY;
         
         // Ajustar el desplazamiento según el tamaño de la pantalla
-        const offset = window.innerWidth < 768 ? 30 : 200; // Menos desplazamiento en pantallas pequeñas (<768px)
+        const offset = window.innerWidth < 768 ? 40 : 20; // Menos desplazamiento en pantallas pequeñas (<768px)
     
         window.scrollTo({
           top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla

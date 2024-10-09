@@ -101,13 +101,13 @@ export const Footer = () => {
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
-                  <a className="text-white transition "> {t("footer.proyectos de tokenizacion")}</a>
+                  <a className="text-white transition hover:opacity-75 "> {t("footer.proyectos de tokenizacion")}</a>
                 </li>
                 <li>
                   <Link className="text-white transition  hover:text-blue-500 hover:underline" to={'/nosotros'}> {t("footer.nosotros")}</Link>
                 </li>
                 <li>
-                  <Link className="text-white transition  hover:text-blue-500 hover:underline" to={'/nosotros'}> {t("footer.como invertir")}</Link>
+                  <Link className="text-white transition  hover:text-blue-500 hover:underline" to={'/comoInvertir'}> {t("footer.como invertir")}</Link>
                 </li>
 
                 <li>
@@ -141,9 +141,9 @@ export const Footer = () => {
                   <Link to={"/legal"} className="text-white transition hover:text-blue-500 hover:underline"> {t("footer.Términos y Condiciones")} </Link>
                 </li>
 
-                {/* <li>
-                  <a href="#" className="text-white transition hover:opacity-75">{t("footer.Política de privacidad")} </a>
-                </li> */}
+                <li>
+                  <a  className="text-white transition hover:opacity-75">{t("footer.Política de privacidad")} </a>
+                </li>
 
               </ul>
             </div>

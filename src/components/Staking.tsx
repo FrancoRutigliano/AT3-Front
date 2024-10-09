@@ -19,7 +19,7 @@ export const Staking = () => {
       const elementPosition = stakingRef.current.getBoundingClientRect().top + window.scrollY;
 
       // Ajustar el desplazamiento según el tamaño de la pantalla
-      const offset = window.innerWidth < 768 ? 30 : 60; // Menos desplazamiento en pantallas pequeñas (<768px)
+      const offset = window.innerWidth < 768 ? 40 : 60; // Menos desplazamiento en pantallas pequeñas (<768px)
 
       window.scrollTo({
         top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla

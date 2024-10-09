@@ -86,10 +86,10 @@ export const Footer = () => {
                     Info@atomico3.io
                   </a>
                 </li>
-               
+
 
                 <li className='flex items-center'>
-                <img src={location} alt="location" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
+                  <img src={location} alt="location" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
 
                   <span className="text-white transition ">Av. Santa Teresa y Coronel Escurra - Ycua Sati. Asunción Paraguay </span>
                 </li>
@@ -100,6 +100,12 @@ export const Footer = () => {
               <p className="font-medium text-celeste">{t("footer.links utiles")}</p>
 
               <ul className="mt-6 space-y-4 text-sm">
+                <li>
+                  <a className="text-white transition "> {t("footer.proyectos de tokenizacion")}</a>
+                </li>
+                <li>
+                  <Link className="text-white transition  hover:text-blue-500 hover:underline" to={'/nosotros'}> {t("footer.nosotros")}</Link>
+                </li>
                 <li>
                   <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> {t("footer.Comprar Atómico3")}</a>
                 </li>
@@ -113,7 +119,7 @@ export const Footer = () => {
                 </li>
               </ul>
             </div>
-          
+
             <div>
               <p className="font-medium text-celeste">Legal</p>
 
@@ -132,10 +138,10 @@ export const Footer = () => {
               <p className="font-medium text-celeste">{t("footer.soporte")}</p>
 
               <ul className="mt-6 space-y-4 text-sm">
-              <li className='flex items-center'>
+                <li className='flex items-center'>
                   <img src={soporte} alt="soporte" className='w-4 lg:w-5 ml-2 lg:mr-4 mr-3' />
                   <a href="mailto:support@atomico3.io" className="text-white transition hover:text-blue-500 hover:underline">
-                  support@atomico3.io
+                    support@atomico3.io
                   </a>
                 </li>
 
@@ -143,7 +149,7 @@ export const Footer = () => {
               </ul>
             </div>
           </div>
-                  
+
           <p className="text-xs text-white">&copy; 2024. Atómico3. {t("footer.todos los derechos reservados")}</p>
         </div>
       </footer>

@@ -107,11 +107,24 @@ export const Footer = () => {
                   <Link className="text-white transition  hover:text-blue-500 hover:underline" to={'/nosotros'}> {t("footer.nosotros")}</Link>
                 </li>
                 <li>
-                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> {t("footer.Comprar Atómico3")}</a>
+                  <Link className="text-white transition  hover:text-blue-500 hover:underline" to={'/nosotros'}> {t("footer.como invertir")}</Link>
                 </li>
 
                 <li>
-                  <a href="https://dapp-at-3.vercel.app/" className="text-white transition hover:text-blue-500 hover:underline" target='_blank'> Staking </a>
+                  <Link
+                    to={'/comoInvertir#staking'}
+                    className="text-white transition hover:text-blue-500 hover:underline"
+                  >
+                    Staking
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={'/press'}
+                    className="text-white transition hover:text-blue-500 hover:underline"
+                  >
+                    {t("footer.noticias")}
+                  </Link>
                 </li>
 
                 <li>

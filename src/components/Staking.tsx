@@ -3,7 +3,7 @@ import staking2 from '../assets/staking2.jpeg'
 // import stakingES from '../assets/staking.png'
 // import stakingEN from '../assets/stakingEN.jpeg'
 import { useTranslation } from 'react-i18next'
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 
@@ -43,16 +43,13 @@ export const Staking = () => {
               </p>
               <p className=" text-sm text-white  md:block  lg:text-lg break-words" >{t("stakingView.¿Qué es el Staking? Descripcion 2")}</p>
 
-              <div className="mt-4 md:mt-8 flex">
-                <a className='w-1/3 bg-custom-gradient2 hover:bg-custom-gradient hover:font-bold py-2 lg:py-3 rounded-md px-6 text-center hover:cursor-pointer' href='https://dapp-at-3.vercel.app/' target='_blank'>
+              <div className="mt-4 md:mt-8 flex justify-center lg:justify-start ">
+                <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'  >
 
                   <button className=''>Ver tutorial</button>
-                </a>
-                <a className='ml-5 w-1/3 bg-custom-gradient hover:bg-custom-gradient2  hover:font-bold py-2 lg:py-3 rounded-md px-6 text-center hover:cursor-pointer'
-                  // onClick={()=>handleOpenModal(false)}
+                </Link>
+                <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
                   href='https://dapp-at-3.vercel.app/' target='_blank'>
-
-
                   <button className='' >Staking</button>
                 </a>
               </div>

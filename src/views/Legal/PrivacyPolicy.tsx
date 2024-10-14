@@ -1,32 +1,49 @@
-export const PrivacyPolicy = () => {
-  return (
-    <section>
-        <h1 className="lg:text-6xl text-center my-20">Política de Privacidad</h1>
+    export const PrivacyPolicy = () => {
 
-    <div className="flex">
-      {/* Columna de Títulos */}
-      <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4">
-        <h2 className="text-lg font-semibold mb-4">Índice</h2>
-        <ul className="list-decimal list-inside">
-          <li><a href="#section1" className="text-blue-500 hover:underline">1. ¿Cuál es el contenido y alcance de esta Política de Privacidad?</a></li>
-          <li><a href="#section2" className="text-blue-500 hover:underline">2. Alcance de su consentimiento</a></li>
-          <li><a href="#section3" className="text-blue-500 hover:underline">3. ¡Para tener en claro al momento de leer nuestra Política!</a></li>
-          <li><a href="#section4" className="text-blue-500 hover:underline">4. ¿Qué información recolectamos y tratamos?</a></li>
-          <li><a href="#section5" className="text-blue-500 hover:underline">5. ¿Con qué finalidades tratamos la información?</a></li>
-          <li><a href="#section6" className="text-blue-500 hover:underline">6. ¿Con quien compartimos la información y cómo podemos tratar su Información Personal?</a></li>
-        </ul>
-      </div>
+        const handleAnchorClick = (e:any, targetId:any) => {
+            e.preventDefault(); // Prevenir el cambio de URL
+          
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+              // Ajusta el desplazamiento aquí
+              const offset = 110; // Cantidad de píxeles para desplazarse hacia arriba
+              const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+          
+              // Desplazarse suavemente a la sección ajustada
+              window.scrollTo({
+                top: elementPosition - offset,
+                behavior: "smooth",
+              });
+            }
+          };
+    return (
+        <section>
+            <h1 className="lg:text-6xl text-center my-20">Política de Privacidad</h1>
 
-      {/* Contenido de la Política de Privacidad */}
-      <div className="w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
-        <p className="mb-4">
-          La protección de su información es importante para nosotros. La presente Política de Privacidad es aplicable a todas aquellas actividades que involucran el tratamiento de su información y tiene el propósito de garantizar transparencia y control en el modo en que tratamos su información.
-        </p>
+        <div className="flex">
+        {/* Columna de Títulos */}
+        <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4">
+            <h2 className="text-lg font-semibold mb-4">Índice</h2>
+            <ul className="list-decimal list-inside">
+            <li className="bg-red-200 p-5 border-l-4 border-celeste"><a href="#section1" className="text-blue-500  py-5 border-t-3 border-celeste" onClick={(e) => handleAnchorClick(e, 'section1')}>1. ¿Cuál es el contenido y alcance de esta Política de Privacidad?</a></li>
+            <li><a href="#section2" className="text-blue-500 hover:underline" onClick={(e) => handleAnchorClick(e, 'section2')}>2. Alcance de su consentimiento</a></li>
+            <li><a href="#section3"  onClick={(e) => handleAnchorClick(e, 'section3')} className="text-blue-500 hover:underline">3. ¡Para tener en claro al momento de leer nuestra Política!</a></li>
+            <li><a href="#section4" onClick={(e) => handleAnchorClick(e, 'section4')} className="text-blue-500 hover:underline">4. ¿Qué información recolectamos y tratamos?</a></li>
+            <li><a href="#section5" onClick={(e) => handleAnchorClick(e, 'section5')} className="text-blue-500 hover:underline">5. ¿Con qué finalidades tratamos la información?</a></li>
+            <li><a href="#section6" className="text-blue-500 hover:underline" onClick={(e) => handleAnchorClick(e, 'section6')}>6. ¿Con quien compartimos la información y cómo podemos tratar su Información Personal?</a></li>
+            </ul>
+        </div>
 
-        <h2 id="section1" className="text-xl font-semibold mt-6 mb-2">1. ¿Cuál es el contenido y alcance de esta Política de Privacidad?</h2>
-        <p className="mb-4">
-          Este documento contiene la Política de Privacidad (la “Política”) que rige entre ATÓMICO3 S.A. (“Atómico”), en adelante "Las Sociedades" y según corresponda en forma individual y separada, y a los usuarios (el “Usuario” o en plural, los “Usuarios”), siempre que los Usuarios accedan o utilicen una o varias de las siguientes plataformas:
-        </p>
+        {/* Contenido de la Política de Privacidad */}
+        <div className="w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
+            <p className="mb-4">
+            La protección de su información es importante para nosotros. La presente Política de Privacidad es aplicable a todas aquellas actividades que involucran el tratamiento de su información y tiene el propósito de garantizar transparencia y control en el modo en que tratamos su información.
+            </p>
+
+            <h2 id="section1" className="text-xl font-semibold mt-6 mb-2">1. ¿Cuál es el contenido y alcance de esta Política de Privacidad?</h2>
+            <p className="mb-4">
+            Este documento contiene la Política de Privacidad (la “Política”) que rige entre ATÓMICO3 S.A. (“Atómico”), en adelante "Las Sociedades" y según corresponda en forma individual y separada, y a los usuarios (el “Usuario” o en plural, los “Usuarios”), siempre que los Usuarios accedan o utilicen una o varias de las siguientes plataformas:
+            </p>
         <ul className="list-disc list-inside mb-4">
           <li>El sitio web <a href="https://www.Atómico3.io" className="text-blue-500 hover:underline">https://www.Atómico3.io</a> (“Sitio Web”).</li>
           <li>La aplicación móvil de “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).</li>

@@ -204,7 +204,7 @@ export const Footer = () => {
           </div>
 
           <p className='pt-5 text-center text-sm'>
-            ¿Necesitás ayuda? Visita nuestro help centre o escribinos a soporte de lunes a viernes de 8:00 a 20:00 hs. O de 9:00 a 17:00 hs Sábados y Domingos.
+          {t("footer.horarios")}
           </p>
           <p className="text-xs text-white text-center mt-5">&copy; 2024. Atómico3. {t("footer.todos los derechos reservados")}</p>
         </div>

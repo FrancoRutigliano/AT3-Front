@@ -23,6 +23,11 @@ export const getIndiceTitles = (t:any) => [
     { id: "section7", text: t("privacyPolicy.indice7") },
     { id: "section8", text: t("privacyPolicy.indice8") },
     { id: "section9", text: t("privacyPolicy.indice9") },
-    { id: "section10", text: t("privacyPolicy.indice10") }
+    { id: "section10", text: t("privacyPolicy.indice10") },
+    { id: "section11", text: t("privacyPolicy.indice11") },
+    { id: "section12", text: t("privacyPolicy.indice12") },
+    { id: "section13", text: t("privacyPolicy.indice13") },
+
+
   ];
   

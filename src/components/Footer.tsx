@@ -200,7 +200,6 @@ export const Footer = () => {
 
 
 
-
           </div>
 
           <p className='pt-5 text-center text-sm'>

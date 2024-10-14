@@ -226,5 +226,25 @@
     "Teléfono": "Teléfono",
     "Aceptar": "Aceptar",
     "Cancelar": "Cancelar"
+  },
+  "privacyPolicy": {
+    "politica de privacidad": "Política de privacidad",
+    "vigencia": "Vigente desde 09 de Octubre de 2024",
+    "indice": "Índice",
+    "indice1": "¿Cuál es el contenido y alcance de esta Política de Privacidad?",
+    "indice2": "Alcance de su consentimiento",
+    "indice3": "¡Para tener en claro al momento de leer nuestra Política!",
+    "indice4": "¿Qué información recolectamos y tratamos?",
+    "indice5": "¿Con qué finalidades tratamos la información?",
+    "indice6": "¿Con quién compartimos la información y cómo podemos tratar su Información Personal?",
+    "indice7": "¿Qué medidas de seguridad y confidencialidad de la información tomamos?",
+    "indice8": "¿Cómo podemos comunicarnos con usted y qué tipo de información podemos proveer?",
+    "indice9": "¿Podemos modificar esta Política? ¿Qué sucede ante una enajenación o cambio de control de las Sociedades?",
+    "indice10": "¿Cuáles son las responsabilidades del Usuario?",
+    "indice11": "¿Qué derechos tiene el Usuario y cómo puede ejercerlos?",
+    "indice12": "",
+    "indice13": ""
+
+
   }
 }

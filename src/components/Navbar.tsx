@@ -385,7 +385,7 @@ export const Navbar = () => {
                       >
                         <div className="p-2">
                           <Link
-                            to={'/legal#terms'}
+                            to={'/legal'}
                             // href='https://dapp-at-3.vercel.app'
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"

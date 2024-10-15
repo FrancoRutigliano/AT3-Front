@@ -157,7 +157,7 @@ export const PrivacyPolicy = () => {
                         ].map((item, index) => (
                             <div key={index} className="mb-4">
                                 <p>
-                                {item.title && <span className="text-blue-500 ">{item.title} </span>}
+                                    {item.title && <span className="text-blue-500 ">{item.title} </span>}
                                     {item.content}</p>
                             </div>
                         ))}
@@ -166,31 +166,50 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section6">
-                        <h2 className="text-xl font-semibold mb-2">6. ¿Con quien compartimos la información y cómo podemos tratar su Información Personal?</h2>
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">6.  {t("privacyPolicy.titles.title6")}</h2>
                         <p className="mb-4">
-                            Para dar cumplimiento a las finalidades anteriormente detalladas la Información Total podrá ser compartida con:
+                            {t("privacyPolicy.documento.informacion punto 6.intro")}
                         </p>
 
-                        <ol className="list-decimal list-inside mb-4">
+                        {[
+                            { item: "i)", text: t("privacyPolicy.documento.informacion punto 6.item i") },
+                            { item: "ii)", text: t("privacyPolicy.documento.informacion punto 6.item ii") },
+                            { item: "iii)", text: t("privacyPolicy.documento.informacion punto 6.item iii") },
+                            { item: "iv)", text: t("privacyPolicy.documento.informacion punto 6.item iv") },
+                            { item: "v)", text: t("privacyPolicy.documento.informacion punto 6.item v") },
+                            { item: "vi)", text: t("privacyPolicy.documento.informacion punto 6.item vi") },
+                        ].map((elem, index) => (
+                            <div key={index} className="mb-4">
+                                <p><span className="text-blue-500"> {elem.item} </span> {elem.text}</p>
+                            </div>
+                        ))}
+
+                        {[
+                            { text: t("privacyPolicy.documento.informacion punto 6.p2") },
+                            { text: t("privacyPolicy.documento.informacion punto 6.p3") },
+                            { text: t("privacyPolicy.documento.informacion punto 6.p4") },
+                        ].map((elem, index) => (
+                            <div key={index} className="mb-4">
+                                <p className="mb-4"> {elem.text}</p>
+                            </div>
+                        ))}
+
+
+                        <p className="underline mb-2">{t("privacyPolicy.documento.informacion punto 6.actividades title")}</p>
+                        <ul className="list-disc pl-5">
                             {[
-                                "Afiliadas de Atómico, socios y/o colaboradores comerciales.",
-                                "Proveedores de servicios de Atómico, incluyendo proveedores de servicios de tecnología, redes, transmisión de datos, identificación de personas, validación de identidad y otros prestadores que resultan necesarios para que Atómico pueda prestar correctamente todos sus Servicios a través de la Plataforma.",
-                                "Autoridades y organismos públicos y regulatorios nacionales, provinciales o municipales.",
-                                "Proveedores de servicios de marketing de Atómico y/o sus afiliadas para el análisis de las actividades del Usuario y la optimización de campañas de publicidad de Atómico, sus afiliadas o los Proveedores de Servicios.",
-                                "Proveedores de servicios de experiencia de usuario (UX) de Atómico y/o sus Afiliadas para el análisis de la experiencia del Usuario para mejorar la Plataforma.",
-                                "Proveedores de servicios de redes de envío y recepción de activos digitales de Atómico y/o sus Afiliadas."
-                            ].map((item, index) => (
-                                <li key={index} className="mb-2">{item}</li>
+                                 { text: t("privacyPolicy.documento.informacion punto 6.actividad 1") },
+                               { text: t("privacyPolicy.documento.informacion punto 6.actividad 2") },
+                               { text: t("privacyPolicy.documento.informacion punto 6.actividad 3") },
+                               { text: t("privacyPolicy.documento.informacion punto 6.actividad 4") },
+                               { text: t("privacyPolicy.documento.informacion punto 6.actividad 5") }
+                            ].map((elem, index) => (
+                                <li key={index} className="mb-2">
+                                    {elem.text}
+                                </li>
                             ))}
-                        </ol>
+                        </ul>
 
-                        <p className="mb-4">
-                            Usted puede en cualquier momento revocar su consentimiento para la transmisión a terceros de su Información Personal, comunicándose con nosotros personalmente o por correo electrónico a las direcciones especificadas al pie de esta Política. La revocación, dependiendo de su alcance, podría ocasionar que nosotros ya no estemos en condiciones de seguir prestando el Servicio.
-                        </p>
-
-                        <p className="mb-4">
-                            Cualquiera de las entidades señaladas en los apartados anteriores pueden estar en Paraguay, Argentina, Chile, Bolivia, México o ubicados inclusive en países de otro continente u organismos internacionales o supranacionales que, conforme a la legislación vigente aplicable, no proporcionen niveles de protección de datos personales adecuados, como entre otros, Brasil o Estados Unidos. En consecuencia, al aceptar esta Política el Usuario otorga su consentimiento expreso a que su Información Total, incluyendo su Información Personal, pueda ser transferidas internacionalmente por Atómico, incluso a países u organismos internacionales o supranacionales que no proporcionen niveles de protección de datos personales adecuados, conforme a la legislación vigente aplicable.
-                        </p>
                     </section>
 
                     <section className="mb-8" id="section7">

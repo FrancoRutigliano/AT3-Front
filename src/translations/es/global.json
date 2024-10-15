@@ -248,69 +248,64 @@
         "punto ii": "la aplicación móvil de “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).",
         "punto iii": "la plataforma de intercambio de activos digitales provista a través del sitio web https:// ('Exchange').",
         "conclusion": "Para que sea más práctico llamaremos al Sitio Web, la App y al Exchange, indistintamente, como 'Plataforma'."
-        
       },
       "informacion punto 2": {
         "p1": "Para proteger su información Atómico cumple con las normas vigentes en la República Argentina, en particular, las reglas y principios establecidos por la Ley N° 25.326 (en adelante, la “Ley de Protección de Datos Personales”), su Decreto Reglamentario N° 1558/01 y las demás disposiciones que los adicionen, modifiquen, reglamenten, amplíen, complementen o supriman.",
         "p2": "Atómico es Responsable registrado de la base de datos que contiene su Información Personal ante la Agencia de Acceso a la Información Pública de la República Argentina.",
         "p3": "Atómico también cumple con todas las normas de la Republica del Paraguay. Inscripto en la Secretaría de Prevención de Lavado de Dinero o Bienes (SEPRELAD) de la Republica del Paraguay. Y en un todo orientado al cumplimiento del Decreto N° 2463/2024, que emitió la actualización y modificación del anexo correspondiente al Plan de Acción del decreto N° 9012 de fecha 22 de marzo de 2023 para dar cumplimiento a las recomendaciones del Grupo de Acción Financiera de Latinoamérica (GAFILAT), en el marco de la Cuarta Ronda de Evaluaciones Mutuas del país. Dicha actualización y modificación del Plan de Acción fue incorporada como parte del Plan Estratégico del Estado Paraguayo (PEEP), aprobado por Decreto N° 11.200/2013."
-    },
-   "informacion punto 3": {
-    "p1": {
-      "title": "",
-      "content": "A continuación, señalamos conceptos clave para entender y tener en cuenta durante la lectura nuestra Política:"
-    },
-    "p2": {
-      "title": "AAIP",
-      "content": "Es la Agencia de Acceso a la Información Pública de la República Argentina."
-    },
-    "p3": {
-      "title": "Afiliada",
-      "content": "Con respecto a cualquier persona determinada, deberá entenderse por tal a cualquier otra persona que controle a esa persona determinada, o que sea controlada por esa persona determinada, ya sea en forma directa o indirecta, o que junto con esa otra persona estuvieran directa o indirectamente bajo el control común de una tercera persona. A los fines de esta definición, la palabra 'control', cuando se use con respecto a una persona determinada, significa el poder de dirigir directa o indirectamente la administración y las políticas de dicha persona a través de la titularidad de acciones con derecho a voto o mediante el derecho a elegir a la mayoría de los miembros del directorio de dicha persona, y los términos 'que controle' y 'controlada' tienen significados correlativos con lo precedente."
-    },
-    "p4": {
-      "title": "Base de datos",
-      "content": "Es el conjunto organizado de Información Personal que sea objeto de tratamiento o procesamiento, electrónico o no, cualquiera que fuere la modalidad de su formación, almacenamiento, organización o acceso."
-    },
-    "p5": {
-      "title": "Consentimiento",
-      "content": "Manifestación previa, libre, expresa e informada por parte del Titular de la Información Personal para llevar a cabo el tratamiento de su Información Personal, que deberá constar por escrito, o por otro medio que permita se le equipare, de acuerdo a las circunstancias."
-    },
-    "p6": {
-      "title": "Responsable",
-      "content": "Persona física o de existencia ideal pública o privada, que es titular de una Base de datos."
-    },
-    "p7": {
-      "title": "Titular",
-      "content": "Toda persona física o persona de existencia ideal cuya Información Personal sea objeto del tratamiento al que se refiere la presente Política."
-    },
-    "p8": {
-      "title": "Transferencia",
-      "content": "La transferencia de información tiene lugar cuando el Responsable envía la información a un receptor que se encuentra dentro o fuera del país del cual se remitió."
-    },
-    "p9": {
-      "title": "Tratamiento",
-      "content": "Operaciones y procedimientos sistemáticos, electrónicos o no, que permitan la recolección, conservación, ordenación, almacenamiento, modificación, relacionamiento, evaluación, bloqueo, destrucción, y en general el procesamiento de Información Personal, así como también su cesión a terceros a través de comunicaciones, consultas, interconexiones o transferencias."
-    }
-  },
-  
-    "informacion punto 4": {
-      "title1": "Información proporcionada por el Usuario",
-      "p1": "Cuando el Usuario utiliza un Servicio de Atómico y/o utiliza la Plataforma el Usuario acepta que Atómico puede recolectar y tratar cierta información sobre el Usuario, por ejemplo: El uso de, o acceso al Servicio puede requerir la generación de una cuenta de Usuario. Para generar una cuenta de Usuario y comunicarse con Atómico, las Sociedades requiere que el Usuario proporcione su nombre y apellido, dirección de correo electrónico, sexo y fecha de nacimiento y otros datos identificatorios, dependiendo de su uso del Servicio, su número de teléfono, domicilio, nacionalidad, CUIT, CUIL, documento nacional de identidad u otro documento que permita identificarlo, datos sobre su cuenta bancaria, imágenes (fotografía suyas o copias de sus documentos de identificación) solicitadas a los efectos de validar su identidad, su información financiera tal como ingresos, activos, patrimonio, pasivos e historial crediticio, el origen de los recursos para la utilización del Servicio y los fines con que utilizará los recursos obtenidos por la utilización del Servicio (conjuntamente, en adelante, “Información Personal”). Asimismo, Atómico requerirá la creación de una contraseña para acceder a ciertas funciones del Servicio.",
-      "p2": "Los formularios que Atómico solicita completar al Usuario establecen qué datos son obligatorios completar y cuáles son optativos. En el caso de que el usuario no proporcione la información obligatoria podría ocasionar que Atómico no pueda prestar o continuar prestando el Servicio o el acceso a la Plataforma.",
-      "p3": "El Usuario tendrá el deber de informar cualquier modificación, cambio o actualización necesaria de su Información Personal y será responsable de las consecuencias de no haber advertido oportuna e integralmente a Atómico sobre cualquiera de estos.",
-      
-      "title2": "Información que recopilan nuestros sistemas",
-      "p4": "Atómico recopila y trata información general, estadística y/o no identificable personalmente (“Información No Identificable Personalmente”, o “INIP”) que incluye información técnica sobre su dispositivo, el sistema operativo que emplea y el software de aplicación.",
-      "p5": "Además, Atómico recopila y trata información relativa a todas las operaciones y actividades realizadas a través del Servicio, fechas, duración y frecuencia de las sesiones de Usuario y de accesos por cualquier vía al Servicio, ubicación geográfica del dispositivo a través del que se accede a, o usa el Servicio, configuración, dirección IP, información del navegador, datos de la transacción y cualquier otra información a la que se nos haya dado acceso a través de dispositivos móviles, tablets o computadoras con las que se acceda a, o use el Servicio (conjuntamente, “Información Operativa”). En caso de transmisión a terceros de la Información Operativa de conformidad con los términos de esta Política, los titulares de la Información Operativa no serán identificables, salvo en casos de transmisión de la Información Total, según se la define en el punto 5 de esta Política.",
-      "p6": "Atómico o sus proveedores de servicios también pueden utilizar varias herramientas de la web, incluyendo Cookies, Web Beacons y Tagging en la Plataforma y anuncios, con el propósito de evaluar y mejorar la Plataforma y otras ofertas electrónicas, adaptar los servicios, mejorar su experiencia de usuario y comunicarnos con los Usuarios acerca de productos y servicios que puedan ser de su interés.",
-      
-      "title3": "Información proporcionada por terceros",
-      "p7": "El Usuario puede elegir dar acceso a Atómico a cierta información almacenada por terceros, tales como redes sociales (incluyendo, sin limitación, Facebook, Instagram y Twitter). El tipo de información y el alcance del uso que podamos darle varía según el sitio o servicio y está controlada por su configuración de privacidad en ese sitio o servicio, y por su autorización al momento de asociar una cuenta administrada por un tercero con su cuenta administrada por Atómico. Una vez que usted haya asociado su cuenta administrada por un tercero con su cuenta de usuario del Servicio, usted acepta que Atómico puede recopilar, almacenar y usar, de acuerdo con esta Política, la información contenida en la cuenta administrada por un tercero.",
-      
-      "title4": "Exclusión",
-      "p8": "Queda excluida de esta Política la información relativa a su salud, raza, grupo étnico, orientación sexual, antecedentes penales, religión, afiliación sindical, opiniones morales y políticas, porque en ningún caso le solicitaremos que nos la proporcione."
-    },
+      },
+      "informacion punto 3": {
+        "p1": {
+          "title": "",
+          "content": "A continuación, señalamos conceptos clave para entender y tener en cuenta durante la lectura nuestra Política:"
+        },
+        "p2": {
+          "title": "AAIP",
+          "content": "Es la Agencia de Acceso a la Información Pública de la República Argentina."
+        },
+        "p3": {
+          "title": "Afiliada",
+          "content": "Con respecto a cualquier persona determinada, deberá entenderse por tal a cualquier otra persona que controle a esa persona determinada, o que sea controlada por esa persona determinada, ya sea en forma directa o indirecta, o que junto con esa otra persona estuvieran directa o indirectamente bajo el control común de una tercera persona. A los fines de esta definición, la palabra 'control', cuando se use con respecto a una persona determinada, significa el poder de dirigir directa o indirectamente la administración y las políticas de dicha persona a través de la titularidad de acciones con derecho a voto o mediante el derecho a elegir a la mayoría de los miembros del directorio de dicha persona, y los términos 'que controle' y 'controlada' tienen significados correlativos con lo precedente."
+        },
+        "p4": {
+          "title": "Base de datos",
+          "content": "Es el conjunto organizado de Información Personal que sea objeto de tratamiento o procesamiento, electrónico o no, cualquiera que fuere la modalidad de su formación, almacenamiento, organización o acceso."
+        },
+        "p5": {
+          "title": "Consentimiento",
+          "content": "Manifestación previa, libre, expresa e informada por parte del Titular de la Información Personal para llevar a cabo el tratamiento de su Información Personal, que deberá constar por escrito, o por otro medio que permita se le equipare, de acuerdo a las circunstancias."
+        },
+        "p6": {
+          "title": "Responsable",
+          "content": "Persona física o de existencia ideal pública o privada, que es titular de una Base de datos."
+        },
+        "p7": {
+          "title": "Titular",
+          "content": "Toda persona física o persona de existencia ideal cuya Información Personal sea objeto del tratamiento al que se refiere la presente Política."
+        },
+        "p8": {
+          "title": "Transferencia",
+          "content": "La transferencia de información tiene lugar cuando el Responsable envía la información a un receptor que se encuentra dentro o fuera del país del cual se remitió."
+        },
+        "p9": {
+          "title": "Tratamiento",
+          "content": "Operaciones y procedimientos sistemáticos, electrónicos o no, que permitan la recolección, conservación, ordenación, almacenamiento, modificación, relacionamiento, evaluación, bloqueo, destrucción, y en general el procesamiento de Información Personal, así como también su cesión a terceros a través de comunicaciones, consultas, interconexiones o transferencias."
+        }
+      },
+      "informacion punto 4": {
+        "title1": "Información proporcionada por el Usuario",
+        "p1": "Cuando el Usuario utiliza un Servicio de Atómico y/o utiliza la Plataforma el Usuario acepta que Atómico puede recolectar y tratar cierta información sobre el Usuario, por ejemplo: El uso de, o acceso al Servicio puede requerir la generación de una cuenta de Usuario. Para generar una cuenta de Usuario y comunicarse con Atómico, las Sociedades requiere que el Usuario proporcione su nombre y apellido, dirección de correo electrónico, sexo y fecha de nacimiento y otros datos identificatorios, dependiendo de su uso del Servicio, su número de teléfono, domicilio, nacionalidad, CUIT, CUIL, documento nacional de identidad u otro documento que permita identificarlo, datos sobre su cuenta bancaria, imágenes (fotografía suyas o copias de sus documentos de identificación) solicitadas a los efectos de validar su identidad, su información financiera tal como ingresos, activos, patrimonio, pasivos e historial crediticio, el origen de los recursos para la utilización del Servicio y los fines con que utilizará los recursos obtenidos por la utilización del Servicio (conjuntamente, en adelante, “Información Personal”). Asimismo, Atómico requerirá la creación de una contraseña para acceder a ciertas funciones del Servicio.",
+        "p2": "Los formularios que Atómico solicita completar al Usuario establecen qué datos son obligatorios completar y cuáles son optativos. En el caso de que el usuario no proporcione la información obligatoria podría ocasionar que Atómico no pueda prestar o continuar prestando el Servicio o el acceso a la Plataforma.",
+        "p3": "El Usuario tendrá el deber de informar cualquier modificación, cambio o actualización necesaria de su Información Personal y será responsable de las consecuencias de no haber advertido oportuna e integralmente a Atómico sobre cualquiera de estos.",
+        "title2": "Información que recopilan nuestros sistemas",
+        "p4": "Atómico recopila y trata información general, estadística y/o no identificable personalmente (“Información No Identificable Personalmente”, o “INIP”) que incluye información técnica sobre su dispositivo, el sistema operativo que emplea y el software de aplicación.",
+        "p5": "Además, Atómico recopila y trata información relativa a todas las operaciones y actividades realizadas a través del Servicio, fechas, duración y frecuencia de las sesiones de Usuario y de accesos por cualquier vía al Servicio, ubicación geográfica del dispositivo a través del que se accede a, o usa el Servicio, configuración, dirección IP, información del navegador, datos de la transacción y cualquier otra información a la que se nos haya dado acceso a través de dispositivos móviles, tablets o computadoras con las que se acceda a, o use el Servicio (conjuntamente, “Información Operativa”). En caso de transmisión a terceros de la Información Operativa de conformidad con los términos de esta Política, los titulares de la Información Operativa no serán identificables, salvo en casos de transmisión de la Información Total, según se la define en el punto 5 de esta Política.",
+        "p6": "Atómico o sus proveedores de servicios también pueden utilizar varias herramientas de la web, incluyendo Cookies, Web Beacons y Tagging en la Plataforma y anuncios, con el propósito de evaluar y mejorar la Plataforma y otras ofertas electrónicas, adaptar los servicios, mejorar su experiencia de usuario y comunicarnos con los Usuarios acerca de productos y servicios que puedan ser de su interés.",
+        "title3": "Información proporcionada por terceros",
+        "p7": "El Usuario puede elegir dar acceso a Atómico a cierta información almacenada por terceros, tales como redes sociales (incluyendo, sin limitación, Facebook, Instagram y Twitter). El tipo de información y el alcance del uso que podamos darle varía según el sitio o servicio y está controlada por su configuración de privacidad en ese sitio o servicio, y por su autorización al momento de asociar una cuenta administrada por un tercero con su cuenta administrada por Atómico. Una vez que usted haya asociado su cuenta administrada por un tercero con su cuenta de usuario del Servicio, usted acepta que Atómico puede recopilar, almacenar y usar, de acuerdo con esta Política, la información contenida en la cuenta administrada por un tercero.",
+        "title4": "Exclusión",
+        "p8": "Queda excluida de esta Política la información relativa a su salud, raza, grupo étnico, orientación sexual, antecedentes penales, religión, afiliación sindical, opiniones morales y políticas, porque en ningún caso le solicitaremos que nos la proporcione."
+      },
       "informacion punto 5": {
         "p1": "El Usuario acepta que Atómico podrá tratar toda la información del Usuario mencionada en el punto 4 de esta Política (conjuntamente la Información Personal, la Información no Identificable Personalmente y la Información Operativa en adelante la “Información Total”) con las siguientes finalidades:",
         "finalidades": {
@@ -323,9 +318,25 @@
           "g": "Cumplir con la ley, regulación, u orden emanada de autoridad competente, o por razones de seguridad pública, salud pública, y/o defensa nacional y para cumplir con reportes regulatorios, responder una orden judicial o de autoridad competente.",
           "h": "Ofrecer información publicitaria o de marketing sobre productos y/o servicios de esos terceros, acceso a eventos o promociones, investigación de mercado u otras actividades de marketing (usted no recibirá esta información si, de conformidad con el primer párrafo del punto 8, hubiere optado por no recibirla);"
         }
+      },
+      "informacion punto 6": {
+        "intro": "Para dar cumplimiento a las finalidades anteriormente detalladas la Información Total podrá ser compartida con:",
+        "item i": "Afiliadas de Atómico, socios y/o colaboradores comerciales.",
+        "item ii": "Proveedores de servicios de Atómico, incluyendo proveedores de servicios de tecnología, redes, transmisión de datos, identificación de personas, validación de identidad y otros prestadores que resultan necesarios para que Atómico pueda prestar correctamente todos sus Servicios a través de la Plataforma.",
+        "item iii": "Autoridades y organismos públicos y regulatorios nacionales, provinciales o municipales.",
+        "item iv": "Proveedores de servicios de marketing de Atómico y/o sus afiliadas para el análisis de las actividades del Usuario y la optimización de campañas de publicidad de Atómico, sus afiliadas o los Proveedores de Servicios, en cuyo caso la información procesada puede ser: Dirección de IP; Direcciones de MAC; ID del dispositivo y los IDs de las publicidades; Encabezado HTTP que incluye la versión del SDK del procesador, país, idioma, configuración del dispositivo, versión del sistema operativo, así como la versión de la aplicación; el Dispositivo del Usuario e información de su actividad web; y aplicaciones y tokens.",
+        "item v": "Proveedores de servicios de experiencia de usuario (UX) de Atómico y/o sus Afiliadas para el análisis de la experiencia del Usuario para mejorar la Plataforma, en cuyo caso la información procesada puede ser: pantallas visitadas, patrones de interacción (como acciones de pantalla, gestos: toques, desplazamientos) y detalles del dispositivo (tipo, versión, modelo, sistema operativo). Utilizamos la información recopilada por UXCam Inc. para mejorar nuestra aplicación.",
+        "item vi": "Proveedores de servicios de redes de envío y recepción de activos digitales de Atómico y/o sus Afiliadas, tales como Lightspark Group, Inc., incluyendo a usuarios finales de dichos proveedores, para permitir el servicio de envío y recepción de activos digitales a través de dichas redes, en cuyo caso la información procesada puede ser: nombre del Usuario y dirección del usuario en dicha red. Usted acepta que otros usuarios de dicha red puedan acceder a su nombre de usuario y dirección en esa red.",
+        "p2": "Usted puede en cualquier momento revocar su consentimiento para la transmisión a terceros de su Información Personal, comunicándose con nosotros personalmente o por correo electrónico a las direcciones especificadas al pie de esta Política. La revocación, dependiendo de su alcance, podría ocasionar que nosotros ya no estemos en condiciones de seguir prestando el Servicio.",
+        "p3": "Cualquiera de las entidades señaladas en los apartados anteriores pueden estar en Paraguay, Argentina, Chile, Bolivia, México  o ubicados inclusive en países de otro continente u organismos internacionales o supranacionales que, conforme a la legislación vigente aplicable, no proporcionen niveles de protección de datos personales adecuados, como entre otros, Brasil o Estados Unidos",
+        "p4": "En consecuencia, al aceptar esta Política el Usuario otorga su consentimiento expreso a que su Información Total, incluyendo su Información Personal, pueda ser transferidas internacionalmente por Atómico, incluso a países u organismos internacionales o supranacionales que no proporcionen niveles de protección de datos personales adecuados, conforme a la legislación vigente aplicable.",
+        "actividades title": "Conforme a las finalidades mencionadas, Atómico podrá llevar a cabo las siguientes actividades:",
+        "actividad 1": "Conocer, almacenar y procesar toda la información suministrada por usted en una o varias bases de datos, en el formato que se estime más conveniente.",
+        "actividad 2": "Conocer, almacenar, grabar, procesar y monitorear toda la información suministrada por Usted de manera verbal o escrita por cualquier canal establecido por Atómico, la cual podrá ser utilizada, inclusive, como prueba en cualquier queja, reclamación, conciliación o demanda.",
+        "actividad 3": "Ordenar, catalogar, clasificar, dividir o separar la información suministrada por usted.",
+        "actividad 4": "Verificar, corroborar, comprobar, validar, monitorear, investigar o comparar la información suministrada por usted, con cualquier información de que disponga legítimamente, incluyendo aquella conocida por nuestras Afiliadas.",
+        "actividad 5": "Analizar, procesar, evaluar, tratar o comparar la información suministrada por Usted o recolectada por Atómico a través de la interacción en plataformas digitales relacionadas con Atómico. A los datos resultantes de análisis, procesamientos, evaluaciones, tratamientos y comparaciones, les serán aplicables las mismas autorizaciones que Usted otorgó."
       }
-    
-  
-      
+    }
   }
-}}
+}

@@ -24,9 +24,6 @@
     "tokenizacion": "tokenización",
     "proyectos de tokenizacion": "Proyectos de tokenización",
     "nuestros proyectos": "Nuestros Proyectos"
-
-
-
   },
   "nosotros": {
     "title": "Somos una compañía legalmente constituida en Paraguay, dedicada al desarrollo y optimización de la actividad minera. Les aportamos la herramienta de la tokenización de las reservas de litio certificadas, buscando con esto innovar y revolucionar la industria de la electromovilidad. ",
@@ -125,10 +122,7 @@
     "nosotros": "Nosotros",
     "como invertir": "Cómo invertir",
     "noticias": "Medios y Noticias",
-    "horarios": "  ¿Necesitás ayuda? Visita nuestro help centre o escribinos a soporte de lunes a viernes de 8:00 a 20:00 hs. O de 9:00 a 17:00 hs sábados y domingos." 
-
-
-
+    "horarios": "  ¿Necesitás ayuda? Visita nuestro help centre o escribinos a soporte de lunes a viernes de 8:00 a 20:00 hs. O de 9:00 a 17:00 hs sábados y domingos."
   },
   "stakingView": {
     "¿Qué es el Staking?": "¿Qué es el Staking?",
@@ -136,7 +130,6 @@
     "¿Qué es el Staking? Descripcion 2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "¿Cómo lo puedo hacer?": "¿Cómo lo puedo hacer?",
     "¿Cómo lo puedo hacer? descripcion": "¡Haz clic en el botón de abajo!"
-    
   },
   "terms": {
     "Términos y condiciones de pago del token AT3": "Términos y condiciones de pago del token AT3",
@@ -187,7 +180,6 @@
     "como invertir p1": "En Atómico3 puedes invertir en 4 modalidades diferentes: Staking, Peer to Peer o Comprar AT3",
     "como invertir p2": "Aquí te enseñaremos cómo realizar cada una de ellas ¡Cliquea en el botón de abajo!",
     "ver tutoriales": "Ver Tutoriales"
-
   },
   "como invertir": {
     "como invertir": "¿Cómo Invertir en Atómico3?",
@@ -230,21 +222,34 @@
   "privacyPolicy": {
     "politica de privacidad": "Política de privacidad",
     "vigencia": "Vigente desde 09 de Octubre de 2024",
-    "indice": "Índice",
-    "indice1": "¿Cuál es el contenido y alcance de esta Política de Privacidad?",
-    "indice2": "Alcance de su consentimiento",
-    "indice3": "¡Para tener en claro al momento de leer nuestra Política!",
-    "indice4": "¿Qué información recolectamos y tratamos?",
-    "indice5": "¿Con qué finalidades tratamos la información?",
-    "indice6": "¿Con quién compartimos la información y cómo podemos tratar su Información Personal?",
-    "indice7": "¿Qué medidas de seguridad y confidencialidad de la información tomamos?",
-    "indice8": "¿Cómo podemos comunicarnos con usted y qué tipo de información podemos proveer?",
-    "indice9": "¿Podemos modificar esta Política? ¿Qué sucede ante una enajenación o cambio de control de las Sociedades?",
-    "indice10": "¿Cuáles son las responsabilidades del Usuario?",
-    "indice11": "¿Qué derechos tiene el Usuario y cómo puede ejercerlos?",
-    "indice12": "¿Cuáles son los mecanismos de resolución de conflictos y la jurisdicción y ley aplicable a esta Política?",
-    "indice13": "¿Quién es responsable de su información Personal?"
-
-
+    "titles": {
+      "indice": "Índice",
+      "title1": "¿Cuál es el contenido y alcance de esta Política de Privacidad?",
+      "title2": "Alcance de su consentimiento",
+      "title3": "¡Para tener en claro al momento de leer nuestra Política!",
+      "title4": "¿Qué información recolectamos y tratamos?",
+      "title5": "¿Con qué finalidades tratamos la información?",
+      "title6": "¿Con quién compartimos la información y cómo podemos tratar su Información Personal?",
+      "title7": "¿Qué medidas de seguridad y confidencialidad de la información tomamos?",
+      "title8": "¿Cómo podemos comunicarnos con usted y qué tipo de información podemos proveer?",
+      "title9": "¿Podemos modificar esta Política? ¿Qué sucede ante una enajenación o cambio de control de las Sociedades?",
+      "title10": "¿Cuáles son las responsabilidades del Usuario?",
+      "title11": "¿Qué derechos tiene el Usuario y cómo puede ejercerlos?",
+      "title12": "¿Cuáles son los mecanismos de resolución de conflictos y la jurisdicción y ley aplicable a esta Política?",
+      "title13": "¿Quién es responsable de su información Personal?"
+    },
+    "documento": {
+      "intro": "La protección de su información es importante para nosotros. La presente Política de Privacidad es aplicable a todas aquellas actividades que involucran el tratamiento de su información y tiene el propósito de garantizar transparencia y control en el modo en que tratamos su información.",
+      "informacion punto 1": {
+        "intro": "Este documento contiene la Política de Privacidad (la 'Política') que rige entre ATÓMICO3 S.A. ('Atómico'), en adelante 'Las Sociedades' y según corresponda en forma individual y separada, y a los usuarios el 'Usuario' o en plural, los 'Usuarios'), siempre que los Usuarios accedan o utilicen una o varias de las siguientes plataformas:",
+        "punto i": "el sitio web",
+        "punto i link": "https://www.Atómico3.io ",
+        "punto i tag": "('Sitio Web').",
+        "punto ii": "la aplicación móvil de “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).",
+        "punto iii": "la plataforma de intercambio de activos digitales provista a través del sitio web https:// ('Exchange').",
+        "conclusion": "Para que sea más práctico llamaremos al Sitio Web, la App y al Exchange, indistintamente, como 'Plataforma'."
+        
+      }
+    }
   }
 }

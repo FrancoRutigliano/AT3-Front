@@ -30,7 +30,7 @@ export const PrivacyPolicy = () => {
             <div className="flex relative">
                 {/* Columna de Títulos */}
                 <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4 sticky top-20 h-screen overflow-y-auto">
-                    <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.indice")}</h2>
+                    <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {indiceTitles.map((section, index) => (
                             <li key={index} className="p-5 border-l-4 border-celeste">
@@ -45,30 +45,41 @@ export const PrivacyPolicy = () => {
                 {/* Contenido de la Política de Privacidad */}
                 <div className="w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
                     <p className="mb-4">
-                        {/* {t("privacy.p1")} */}
-                        La protección de su información es importante para nosotros. La presente Política de Privacidad es aplicable a todas aquellas actividades que involucran el tratamiento de su información y tiene el propósito de garantizar transparencia y control en el modo en que tratamos su información.
+                        {t("privacyPolicy.documento.intro")}
+
                     </p>
                     <section id="section1">
 
-                        <h2 className="text-xl font-semibold mt-6 mb-2">1. ¿Cuál es el contenido y alcance de esta Política de Privacidad?</h2>
+                        <h2 className="text-xl font-semibold mt-6 mb-2">1. {t("privacyPolicy.titles.title1")}</h2>
                         <p className="mb-4">
-                            Este documento contiene la Política de Privacidad (la “Política”) que rige entre ATÓMICO3 S.A. (“Atómico”), en adelante "Las Sociedades" y según corresponda en forma individual y separada, y a los usuarios (el “Usuario” o en plural, los “Usuarios”), siempre que los Usuarios accedan o utilicen una o varias de las siguientes plataformas:
+                            {t("privacyPolicy.documento.informacion punto 1.intro")}
+
                         </p>
 
                         <ul className="list-disc list-inside mb-4">
                             {[
-                                { text: "El sitio web", link: "https://www.Atómico3.io" },
-                                { text: "La aplicación móvil de “Atómico”", link: "#" }, // Link placeholder
-                                { text: "La plataforma de intercambio de activos digitales provista a través del sitio web", link: "#" } // Link placeholder
+                                {
+                                    text: t("privacyPolicy.documento.informacion punto 1.punto i"),
+                                    link: t("privacyPolicy.documento.informacion punto 1.punto i link"),
+                                    tag: t("privacyPolicy.documento.informacion punto 1.punto i tag")
+                                },
+                                { text: t("privacyPolicy.documento.informacion punto 1.punto ii"), link: "" }, 
+                                { text: t("privacyPolicy.documento.informacion punto 1.punto iii"), link: "" } 
                             ].map((item, index) => (
-                                <li key={index}>
-                                    {item.text} <a href={item.link} className="text-blue-500 hover:underline">{item.link}</a>
+                                <li key={`item-${index}`}>
+                                    {item.text}
+                                    {item.link && (
+                                        <>
+                                        <a href={item.link} className="inline text-blue-500 hover:underline"> {item.link}</a> <span>{item.tag}</span>
+                                        </>
+                                    )}
                                 </li>
                             ))}
                         </ul>
 
+
                         <p className="mb-4">
-                            Para que sea más práctico llamaremos al Sitio Web, la App y al Exchange, indistintamente, como “Plataforma”.
+                            {t("privacyPolicy.documento.informacion punto 1.conclusion")}
                         </p>
                     </section>
 
@@ -236,7 +247,7 @@ export const PrivacyPolicy = () => {
                             <li>Teléfono: <span>+54 11 2345 6789</span></li>
                         </ul>
                     </section>
-                   
+
                     <section className="mb-8" id="section12">
                         <h2 className="text-xl font-semibold mb-2">12. ¿Cuáles son los mecanismos de resolución de conflictos y la jurisdicción y ley aplicable a esta Política?    </h2>
                         <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>
@@ -256,7 +267,7 @@ export const PrivacyPolicy = () => {
                             <li>Teléfono: <span>+54 11 2345 6789</span></li>
                         </ul>
                     </section>
-                    
+
                 </div>
             </div>
         </section>

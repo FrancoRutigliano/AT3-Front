@@ -50,7 +50,7 @@ export const PrivacyPolicy = () => {
                     </p>
                     <section id="section1">
 
-                        <h2 className="text-xl font-semibold mt-6 mb-2">1. {t("privacyPolicy.titles.title1")}</h2>
+                        <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">1. {t("privacyPolicy.titles.title1")}</h2>
                         <p className="mb-4">
                             {t("privacyPolicy.documento.informacion punto 1.intro")}
 
@@ -85,10 +85,17 @@ export const PrivacyPolicy = () => {
 
                     <section id="section2">
 
-                        <h2 className="text-xl font-semibold mt-6 mb-2">2. Alcance de su consentimiento</h2>
-                        <p className="mb-4">
-                            Para proteger su información Atómico cumple con las normas vigentes en la República Argentina, en particular, las reglas y principios establecidos por la Ley N° 25.326 (en adelante, la “Ley de Protección de Datos Personales”).
-                        </p>
+                        <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("privacyPolicy.titles.title2")}</h2>
+                        {[
+                                { text: t("privacyPolicy.documento.informacion punto 2.p1") },
+                                { text: t("privacyPolicy.documento.informacion punto 2.p2") }, 
+                                { text: t("privacyPolicy.documento.informacion punto 2.p3") } 
+                            ].map((item, index) => (
+                                <>
+                                <p className="mb-4" key={`item-${index}`} >{item.text}</p>
+                                </>
+                            ))}
+                        
                     </section>
                     <section id="section3">
 

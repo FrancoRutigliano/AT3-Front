@@ -249,7 +249,11 @@
         "punto iii": "la plataforma de intercambio de activos digitales provista a través del sitio web https:// ('Exchange').",
         "conclusion": "Para que sea más práctico llamaremos al Sitio Web, la App y al Exchange, indistintamente, como 'Plataforma'."
         
-      }
+      },
+      "informacion punto 2": {
+        "p1": "Para proteger su información Atómico cumple con las normas vigentes en la República Argentina, en particular, las reglas y principios establecidos por la Ley N° 25.326 (en adelante, la “Ley de Protección de Datos Personales”), su Decreto Reglamentario N° 1558/01 y las demás disposiciones que los adicionen, modifiquen, reglamenten, amplíen, complementen o supriman.",
+        "p2": "Atómico es Responsable registrado de la base de datos que contiene su Información Personal ante la Agencia de Acceso a la Información Pública de la República Argentina.",
+        "p3": "Atómico también cumple con todas las normas de la Republica del Paraguay. Inscripto en la Secretaría de Prevención de Lavado de Dinero o Bienes (SEPRELAD) de la Republica del Paraguay. Y en un todo orientado al cumplimiento del Decreto N° 2463/2024, que emitió la actualización y modificación del anexo correspondiente al Plan de Acción del decreto N° 9012 de fecha 22 de marzo de 2023 para dar cumplimiento a las recomendaciones del Grupo de Acción Financiera de Latinoamérica (GAFILAT), en el marco de la Cuarta Ronda de Evaluaciones Mutuas del país. Dicha actualización y modificación del Plan de Acción fue incorporada como parte del Plan Estratégico del Estado Paraguayo (PEEP), aprobado por Decreto N° 11.200/2013."
     }
   }
-}
+}}

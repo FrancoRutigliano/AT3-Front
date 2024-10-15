@@ -336,6 +336,17 @@
         "actividad 3": "Ordenar, catalogar, clasificar, dividir o separar la información suministrada por usted.",
         "actividad 4": "Verificar, corroborar, comprobar, validar, monitorear, investigar o comparar la información suministrada por usted, con cualquier información de que disponga legítimamente, incluyendo aquella conocida por nuestras Afiliadas.",
         "actividad 5": "Analizar, procesar, evaluar, tratar o comparar la información suministrada por Usted o recolectada por Atómico a través de la interacción en plataformas digitales relacionadas con Atómico. A los datos resultantes de análisis, procesamientos, evaluaciones, tratamientos y comparaciones, les serán aplicables las mismas autorizaciones que Usted otorgó."
+      },
+      "informacion punto 7": {
+        "intro": "En cumplimiento de la Ley de Protección de Datos Personales, de la República Argentina, y de la Secretaría de Prevención de Lavado de Dinero o Bienes. Atómico ha tomado medidas adecuadas para proteger la seguridad y confidencialidad de su Información Personal, garantizar que lo previsto en esta Política sea respetado, proteger su Información Personal contra pérdida, uso indebido y acceso, divulgación, alteración o destrucción no autorizados.",
+        "p1": "A fin de garantizar un nivel de seguridad adecuado de su Información Personal, Atómico puede tomar, entre otras, las siguientes medidas:",
+        "medida1": "El cifrado de Información Personal, cuando proceda.",
+        "medida2": "Medidas capaces de garantizar la confidencialidad, integridad, disponibilidad y servicios de tratamiento.",
+        "medida3": "Medidas capaces de restaurar la disponibilidad y el acceso a la Información Personal de forma rápida en caso de incidente físico o técnico.",
+        "medida4": "Procesos de verificación, evaluación y valoración regulares de la eficacia de las medidas técnicas y organizativas.",
+        "medida5": "Evaluación periódica del riesgo de destrucción, pérdida o alteración accidental o ilícita de Información Personal transferida, conservada o tratada de otra forma, o la comunicación o acceso no autorizados a dicha información.",
+        "medida6": "Medidas para garantizar que cualquier persona que actúe bajo la autoridad de Atómico que tenga acceso a Información Personal sólo pueda tratar dicha información siguiendo instrucciones de Atómico.",
+        "confidencialidad": "Su Información Personal será tratada con confidencialidad, comprometiéndonos, dentro del alcance de esta Política, a guardar secreto respecto de la misma y a adoptar todas las medidas necesarias que eviten su alteración, pérdida, y tratamiento o acceso no autorizado, de acuerdo con lo establecido en la legislación aplicable y en esta Política."
       }
     }
   }

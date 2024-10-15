@@ -213,23 +213,26 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section7">
-                        <h2 className="text-xl font-semibold mb-2">7. ¿Qué medidas de seguridad y confidencialidad de la información tomamos?</h2>
-                        <p className="mb-4">
-                            En cumplimiento de la Ley de Protección de Datos Personales, de la República Argentina, y de la Secretaría de Prevención de Lavado de Dinero o Bienes. Atómico ha tomado medidas adecuadas para proteger la seguridad y confidencialidad de su Información Personal, garantizar que lo previsto en esta Política sea respetado, proteger su Información Personal contra pérdida, uso indebido y acceso, divulgación, alteración o destrucción no autorizados.
-                        </p>
-
-                        <p className="mb-4">A fin de garantizar un nivel de seguridad adecuado de su Información Personal, Atómico puede tomar, entre otras, las siguientes medidas:</p>
-
-                        <ul className="list-disc list-inside mb-4">
+                        <h2 className="text-xl font-semibold mb-2">7. {t("privacyPolicy.titles.title7")}</h2>
+                            <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.intro")}</p>
+                            <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.p1")}</p>
                             {[
-                                "El cifrado de Información Personal, cuando proceda;",
-                                "Medidas de seudonimización y/o anonimización de datos cuando sea posible;",
-                                "Acceso restringido y controlado a su Información Personal, incluyendo controles de acceso a la información;",
-                                "Medidas físicas, técnicas y organizativas para proteger la seguridad de su Información Personal;"
-                            ].map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul>
+                            { title: "a)", content: t("privacyPolicy.documento.informacion punto 7.medida1") },
+                            { title: "b)", content: t("privacyPolicy.documento.informacion punto 7.medida2") },
+                            { title: "c)", content: t("privacyPolicy.documento.informacion punto 7.medida3") },
+                            { title: "d)", content: t("privacyPolicy.documento.informacion punto 7.medida4") },
+                            { title: "e)", content: t("privacyPolicy.documento.informacion punto 7.medida5") },
+                            { title: "f)", content: t("privacyPolicy.documento.informacion punto 7.medida6") },
+
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                    {item.title && <span className="text-blue-500 ">{item.title} </span>}
+                                    {item.content}</p>
+                            </div>
+                        ))}
+                            <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.confidencialidad")}</p>
+
                     </section>
 
                     <section className="mb-8" id="section8">

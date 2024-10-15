@@ -213,7 +213,7 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section7">
-                        <h2 className="text-xl font-semibold mb-2">7. {t("privacyPolicy.titles.title7")}</h2>
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">7. {t("privacyPolicy.titles.title7")}</h2>
                             <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.intro")}</p>
                             <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.p1")}</p>
                             {[
@@ -232,7 +232,6 @@ export const PrivacyPolicy = () => {
                             </div>
                         ))}
                             <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.confidencialidad")}</p>
-
                     </section>
 
                     <section className="mb-8" id="section8">

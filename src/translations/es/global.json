@@ -347,7 +347,14 @@
         "medida5": "Evaluación periódica del riesgo de destrucción, pérdida o alteración accidental o ilícita de Información Personal transferida, conservada o tratada de otra forma, o la comunicación o acceso no autorizados a dicha información.",
         "medida6": "Medidas para garantizar que cualquier persona que actúe bajo la autoridad de Atómico que tenga acceso a Información Personal sólo pueda tratar dicha información siguiendo instrucciones de Atómico.",
         "confidencialidad": "Su Información Personal será tratada con confidencialidad, comprometiéndonos, dentro del alcance de esta Política, a guardar secreto respecto de la misma y a adoptar todas las medidas necesarias que eviten su alteración, pérdida, y tratamiento o acceso no autorizado, de acuerdo con lo establecido en la legislación aplicable y en esta Política."
-      }
+      },
+      "informacion punto 8": {
+        "p1": "Usted podrá seleccionar los tipos de información que no desea recibir de nosotros, incluyendo información promocional o publicitaria de Atómico. y/o de sus Afiliadas o de terceros. No obstante, usted no podrá impedir, mientras posea una cuenta de Usuario, que le enviemos información no promocional, tal como información sobre su cuenta de Usuario o sobre solicitudes o reclamos en curso. El Servicio puede transferir cookies a la unidad de almacenamiento del dispositivo a través del que accede a, o usa el Servicio. Las cookies son identificadores alfanuméricos que funcionan con su navegador web y que permiten que nuestros sistemas lo reconozcan y mejoren el uso del Servicio. Usted puede eliminar las cookies o evitar que las enviemos. ",
+        "p2": "Consulte la sección de ayuda de su navegador para realizar cualquiera de estas operaciones. De cualquier modo, le recomendamos que permita las cookies de nuestro Servicio: algunas funciones del Servicio pueden no operar adecuadamente o inhabilitarse por completo si las cookies están deshabilitadas. ",
+        "p3": ". Asimismo, usted podrá solicitar la revocación del monitoreo de la ubicación geográfica de los dispositivos a través de los cuales accede a el Servicio. No obstante, esta revocación podría inhabilitar algunas funciones o impedir directamente la prestación del Servicio.",
+        "p4": "El Servicio puede proporcionar enlaces a sitios web de terceros. Esos sitios web no son operados por nosotros y están fuera de nuestro control. Tenga presente que estos sitios pueden recopilar información sobre usted y que, al visitarlos, pasará a estar sujeto a sus propias políticas de privacidad, por consiguiente, recomendamos que lea esos y otros documentos que rijan su relación con los proveedores de esos sitios web. Atómico no es responsable de las prácticas de privacidad de estos sitios y no puede garantizar la seguridad de la información que recolectan.", 
+        "p5": "Esta Política aplica solo al uso del Servicio, y no a otras aplicaciones o sitios web de terceros con los que Atómico tenga conexiones o hipervínculos."
     }
   }
+}
 }

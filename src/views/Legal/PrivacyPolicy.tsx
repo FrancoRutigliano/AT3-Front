@@ -99,8 +99,9 @@ export const PrivacyPolicy = () => {
                     </section>
                     <section id="section3">
 
-                        <h2 className="text-xl font-semibold mt-6 mb-2">3. ¡Para tener en claro al momento de leer nuestra Política!</h2>
+                        <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">3. {t("privacyPolicy.titles.title3")}</h2>
                         {[
+                            { title: t("privacyPolicy.documento.informacion punto 3.p1.title"), content: t("privacyPolicy.documento.informacion punto 3.p1.content") },
                             { title: t("privacyPolicy.documento.informacion punto 3.p2.title"), content: t("privacyPolicy.documento.informacion punto 3.p2.content") },
                             { title: t("privacyPolicy.documento.informacion punto 3.p3.title"), content: t("privacyPolicy.documento.informacion punto 3.p3.content") },
                             { title: t("privacyPolicy.documento.informacion punto 3.p4.title"), content: t("privacyPolicy.documento.informacion punto 3.p4.content") },
@@ -111,7 +112,7 @@ export const PrivacyPolicy = () => {
                             { title: t("privacyPolicy.documento.informacion punto 3.p9.title"), content: t("privacyPolicy.documento.informacion punto 3.p9.content") }
                         ].map((item, index) => (
                             <div key={index} className="mb-4">
-                                {item.title && <h3 className="text-blue-500 font-bold">{item.title}:</h3>}
+                                {item.title && <h3 className="text-blue-500 ">{item.title}:</h3>}
                                 <p>{item.content}</p>
                             </div>
                         ))}

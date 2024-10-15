@@ -122,40 +122,47 @@ export const PrivacyPolicy = () => {
                     </section>
                     <section id="section4">
 
-                        <h2 className="text-xl font-semibold mt-6 mb-2">4. ¿Qué información recolectamos y tratamos?</h2>
-                        <h3 className="font-semibold mb-2">Información proporcionada por el Usuario</h3>
-                        <p className="mb-4">
-                            Cuando el Usuario utiliza un Servicio de Atómico, acepta que se puede recolectar cierta información, como nombre, dirección de correo electrónico, y otros datos identificatorios.
-                        </p>
+                        <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">4. {t("privacyPolicy.titles.title4")}</h2>
+                        {[
+                            { title: t("privacyPolicy.documento.informacion punto 4.title1"), content: t("privacyPolicy.documento.informacion punto 4.p1") },
+                            { title: "", content: t("privacyPolicy.documento.informacion punto 4.p2") },
+                            { title: "", content: t("privacyPolicy.documento.informacion punto 4.p3") },
+                            { title: t("privacyPolicy.documento.informacion punto 4.title2"), content: t("privacyPolicy.documento.informacion punto 4.p4") },
+                            { title: "", content: t("privacyPolicy.documento.informacion punto 4.p5") },
+                            { title: "", content: t("privacyPolicy.documento.informacion punto 4.p6") },
+                            { title: t("privacyPolicy.documento.informacion punto 4.title3"), content: t("privacyPolicy.documento.informacion punto 4.p7") },
+                            { title: t("privacyPolicy.documento.informacion punto 4.title4"), content: t("privacyPolicy.documento.informacion punto 4.p8") }
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                {item.title && <h3 className="text-blue-500 font-medium">{item.title}:</h3>}
+                                <p>{item.content}</p>
+                            </div>
+                        ))}
 
-                        <h3 className="font-semibold mb-2">Información que recopilan nuestros sistemas</h3>
-                        <p className="mb-4">
-                            Atómico recopila información técnica sobre su dispositivo, operaciones y actividades realizadas a través del Servicio, y otros datos relevantes.
-                        </p>
-
-                        <h3 className="font-semibold mb-2">Información proporcionada por terceros</h3>
-                        <p className="mb-4">
-                            El Usuario puede dar acceso a información almacenada por terceros, como redes sociales.
-                        </p>
                     </section>
                     <section id="section5">
 
-                        <h2 className="text-xl font-semibold mt-6 mb-2">5. ¿Con qué finalidades tratamos la información?</h2>
-                        <p className="mb-4">
-                            El Usuario acepta que Atómico podrá tratar toda la información con las siguientes finalidades:
-                        </p>
+                        <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">5. {t("privacyPolicy.titles.title5")}</h2>
+                        {[
+                            { title: "", content: t("privacyPolicy.documento.informacion punto 5.p1") },
+                            { title: "a)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.a") },
+                            { title: "b)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.b") },
+                            { title: "c)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.c") },
+                            { title: "d)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.d") },
+                            { title: "e)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.e") },
+                            { title: "f)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.f") },
+                            { title: "g)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.g") },
+                            { title: "h)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.h") },
 
-                        <ul className="list-disc list-inside mb-4">
-                            {[
-                                "Comunicarnos con el Usuario y prestar el Servicio.",
-                                "Validar información y verificar identidad.",
-                                "Mejorar y optimizar el Servicio.",
-                                "Realizar campañas de publicidad y/o marketing.",
-                                "Cumplir con la ley y regulaciones aplicables."
-                            ].map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul>
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                {item.title && <span className="text-blue-500 ">{item.title} </span>}
+                                    {item.content}</p>
+                            </div>
+                        ))}
+
+
                     </section>
 
                     <section className="mb-8" id="section6">

@@ -63,14 +63,14 @@ export const PrivacyPolicy = () => {
                                     link: t("privacyPolicy.documento.informacion punto 1.punto i link"),
                                     tag: t("privacyPolicy.documento.informacion punto 1.punto i tag")
                                 },
-                                { text: t("privacyPolicy.documento.informacion punto 1.punto ii"), link: "" }, 
-                                { text: t("privacyPolicy.documento.informacion punto 1.punto iii"), link: "" } 
+                                { text: t("privacyPolicy.documento.informacion punto 1.punto ii"), link: "" },
+                                { text: t("privacyPolicy.documento.informacion punto 1.punto iii"), link: "" }
                             ].map((item, index) => (
                                 <li key={`item-${index}`}>
                                     {item.text}
                                     {item.link && (
                                         <>
-                                        <a href={item.link} className="inline text-blue-500 hover:underline"> {item.link}</a> <span>{item.tag}</span>
+                                            <a href={item.link} className="inline text-blue-500 hover:underline"> {item.link}</a> <span>{item.tag}</span>
                                         </>
                                     )}
                                 </li>
@@ -87,39 +87,37 @@ export const PrivacyPolicy = () => {
 
                         <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("privacyPolicy.titles.title2")}</h2>
                         {[
-                                { text: t("privacyPolicy.documento.informacion punto 2.p1") },
-                                { text: t("privacyPolicy.documento.informacion punto 2.p2") }, 
-                                { text: t("privacyPolicy.documento.informacion punto 2.p3") } 
-                            ].map((item, index) => (
-                                <>
+                            { text: t("privacyPolicy.documento.informacion punto 2.p1") },
+                            { text: t("privacyPolicy.documento.informacion punto 2.p2") },
+                            { text: t("privacyPolicy.documento.informacion punto 2.p3") }
+                        ].map((item, index) => (
+                            <>
                                 <p className="mb-4" key={`item-${index}`} >{item.text}</p>
-                                </>
-                            ))}
-                        
+                            </>
+                        ))}
+
                     </section>
                     <section id="section3">
 
                         <h2 className="text-xl font-semibold mt-6 mb-2">3. ¡Para tener en claro al momento de leer nuestra Política!</h2>
-                        <p className="mb-4">
-                            A continuación, señalamos conceptos clave para entender y tener en cuenta durante la lectura de nuestra Política:
-                        </p>
+                        {[
+                            { title: t("privacyPolicy.documento.informacion punto 3.p2.title"), content: t("privacyPolicy.documento.informacion punto 3.p2.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p3.title"), content: t("privacyPolicy.documento.informacion punto 3.p3.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p4.title"), content: t("privacyPolicy.documento.informacion punto 3.p4.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p5.title"), content: t("privacyPolicy.documento.informacion punto 3.p5.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p6.title"), content: t("privacyPolicy.documento.informacion punto 3.p6.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p7.title"), content: t("privacyPolicy.documento.informacion punto 3.p7.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p8.title"), content: t("privacyPolicy.documento.informacion punto 3.p8.content") },
+                            { title: t("privacyPolicy.documento.informacion punto 3.p9.title"), content: t("privacyPolicy.documento.informacion punto 3.p9.content") }
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                {item.title && <h3 className="text-blue-500 font-bold">{item.title}:</h3>}
+                                <p>{item.content}</p>
+                            </div>
+                        ))}
 
-                        <ul className="list-disc list-inside mb-4">
-                            {[
-                                { term: "AAIP", definition: "Es la Agencia de Acceso a la Información Pública de la República Argentina." },
-                                { term: "Afiliada", definition: "Se refiere a cualquier persona que controle a otra persona o que sea controlada por ella." },
-                                { term: "Base de datos", definition: "Conjunto organizado de Información Personal." },
-                                { term: "Consentimiento", definition: "Manifestación previa, libre, expresa e informada por parte del Titular de la Información Personal." },
-                                { term: "Responsable", definition: "Persona que es titular de una Base de datos." },
-                                { term: "Titular", definition: "Persona cuya Información Personal es objeto del tratamiento." },
-                                { term: "Transferencia", definition: "Envío de información a un receptor dentro o fuera del país." },
-                                { term: "Tratamiento", definition: "Operaciones y procedimientos que permiten el procesamiento de Información Personal." },
-                            ].map((item, index) => (
-                                <li key={index}>
-                                    <strong>{item.term}:</strong> {item.definition}
-                                </li>
-                            ))}
-                        </ul>
+
+
                     </section>
                     <section id="section4">
 

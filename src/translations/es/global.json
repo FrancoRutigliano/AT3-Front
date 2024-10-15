@@ -254,6 +254,44 @@
         "p1": "Para proteger su información Atómico cumple con las normas vigentes en la República Argentina, en particular, las reglas y principios establecidos por la Ley N° 25.326 (en adelante, la “Ley de Protección de Datos Personales”), su Decreto Reglamentario N° 1558/01 y las demás disposiciones que los adicionen, modifiquen, reglamenten, amplíen, complementen o supriman.",
         "p2": "Atómico es Responsable registrado de la base de datos que contiene su Información Personal ante la Agencia de Acceso a la Información Pública de la República Argentina.",
         "p3": "Atómico también cumple con todas las normas de la Republica del Paraguay. Inscripto en la Secretaría de Prevención de Lavado de Dinero o Bienes (SEPRELAD) de la Republica del Paraguay. Y en un todo orientado al cumplimiento del Decreto N° 2463/2024, que emitió la actualización y modificación del anexo correspondiente al Plan de Acción del decreto N° 9012 de fecha 22 de marzo de 2023 para dar cumplimiento a las recomendaciones del Grupo de Acción Financiera de Latinoamérica (GAFILAT), en el marco de la Cuarta Ronda de Evaluaciones Mutuas del país. Dicha actualización y modificación del Plan de Acción fue incorporada como parte del Plan Estratégico del Estado Paraguayo (PEEP), aprobado por Decreto N° 11.200/2013."
+    },
+   "informacion punto 3": {
+    "p1": {
+      "title": "",
+      "content": "A continuación, señalamos conceptos clave para entender y tener en cuenta durante la lectura nuestra Política:"
+    },
+    "p2": {
+      "title": "AAIP",
+      "content": "Es la Agencia de Acceso a la Información Pública de la República Argentina."
+    },
+    "p3": {
+      "title": "Afiliada",
+      "content": "Con respecto a cualquier persona determinada, deberá entenderse por tal a cualquier otra persona que controle a esa persona determinada, o que sea controlada por esa persona determinada, ya sea en forma directa o indirecta, o que junto con esa otra persona estuvieran directa o indirectamente bajo el control común de una tercera persona. A los fines de esta definición, la palabra 'control', cuando se use con respecto a una persona determinada, significa el poder de dirigir directa o indirectamente la administración y las políticas de dicha persona a través de la titularidad de acciones con derecho a voto o mediante el derecho a elegir a la mayoría de los miembros del directorio de dicha persona, y los términos 'que controle' y 'controlada' tienen significados correlativos con lo precedente."
+    },
+    "p4": {
+      "title": "Base de datos",
+      "content": "Es el conjunto organizado de Información Personal que sea objeto de tratamiento o procesamiento, electrónico o no, cualquiera que fuere la modalidad de su formación, almacenamiento, organización o acceso."
+    },
+    "p5": {
+      "title": "Consentimiento",
+      "content": "Manifestación previa, libre, expresa e informada por parte del Titular de la Información Personal para llevar a cabo el tratamiento de su Información Personal, que deberá constar por escrito, o por otro medio que permita se le equipare, de acuerdo a las circunstancias."
+    },
+    "p6": {
+      "title": "Responsable",
+      "content": "Persona física o de existencia ideal pública o privada, que es titular de una Base de datos."
+    },
+    "p7": {
+      "title": "Titular",
+      "content": "Toda persona física o persona de existencia ideal cuya Información Personal sea objeto del tratamiento al que se refiere la presente Política."
+    },
+    "p8": {
+      "title": "Transferencia",
+      "content": "La transferencia de información tiene lugar cuando el Responsable envía la información a un receptor que se encuentra dentro o fuera del país del cual se remitió."
+    },
+    "p9": {
+      "title": "Tratamiento",
+      "content": "Operaciones y procedimientos sistemáticos, electrónicos o no, que permitan la recolección, conservación, ordenación, almacenamiento, modificación, relacionamiento, evaluación, bloqueo, destrucción, y en general el procesamiento de Información Personal, así como también su cesión a terceros a través de comunicaciones, consultas, interconexiones o transferencias."
     }
+  }
   }
 }}

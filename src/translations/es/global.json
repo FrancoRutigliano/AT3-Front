@@ -358,7 +358,15 @@
     "informacion punto 9": {
       "p1": "Atómico se reserva el derecho a modificar esta Política en cualquier momento y con efecto inmediato. El Usuario será notificado de modificaciones a esta Política a través de los medios que Atómico estime convenientes (incluyendo, sin limitación, su publicación en la Plataforma), y acepta que el uso del Servicio con posterioridad a la notificación constituye aceptación íntegra de los nuevos términos de la Política.", 
       "p2": "Asimismo, Atómico se reserva el derecho de habilitar el acceso y/o transferir a un tercero la Información Total en los supuestos de enajenación total o parcial, fusión, escisión o cambio de control de la empresa."
+    },
+    "informacion punto 10": {
+      "p1": "Atómico toma todas las medidas a su alcance para proteger la seguridad, integridad y confidencialidad de la Información Personal. No obstante, el Usuario asume el riesgo por cualquier transmisión de cualquier tipo de información bajo esta Política.", 
+      "p2": "El Usuario no iniciará reclamo alguno contra Atómico, ni sus Afiliadas, e indemnizará y mantendrá permanentemente indemne a Atómico, sus Afiliadas, y a sus funcionarios, representantes y empleados, de y contra cualquier reclamo, demanda, acción, costo, gasto (incluyendo los costos y cargas judiciales y los honorarios razonables de abogados) pérdida, daño y/o perjuicio, directo y/o indirecto, judicial y/o extrajudicial, que pudieran surgir directa o indirectamente de:",
+      "item i": "Cualquier acción u omisión del Usuario en relación con la presente Política",
+      "item ii": "Cualquier acción u omisión del Usuario en relación con su Información Total",
+      "item iii": "Cualquier acción o reclamo de terceros contra el Usuario y/o contra Atómico, o sus Afiliadas, de cualquier forma vinculado con la presente Política o con la información cuya recolección, tratamiento y transferencia se prevé en esta Política."
     }
+    
     
   }
 }

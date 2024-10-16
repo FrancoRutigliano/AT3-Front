@@ -263,7 +263,30 @@ export const PrivacyPolicy = () => {
                             </div>
                         ))}
                     </section>  
+                    <section className="mb-8" id="section10">
+                        <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">10. {t("privacyPolicy.titles.title10")}</h2>
+                        {/* {[
+                            {  content: t("privacyPolicy.documento.informacion punto 9.p1") },
+                            {  content: t("privacyPolicy.documento.informacion punto 9.p2") },
 
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                    {item.content}</p>
+                            </div>
+                        ))} */}
+                        <p className="mb-4">{ t("privacyPolicy.documento.informacion punto 10.p1") }</p>
+                        <p className="mb-3">{ t("privacyPolicy.documento.informacion punto 10.p2") }</p>
+                        {[
+                            { item: "i)", text: t("privacyPolicy.documento.informacion punto 10.item i") },
+                            { item: "ii)", text: t("privacyPolicy.documento.informacion punto 10.item ii") },
+                            { item: "iii)", text: t("privacyPolicy.documento.informacion punto 10.item iii") },
+                        ].map((elem, index) => (
+                            <div key={index} className="mb-4">
+                                <p><span className="text-blue-500"> {elem.item} </span> {elem.text}</p>
+                            </div>
+                        ))}
+                    </section> 
 
                     <section className="mb-8" id="section12">
                         <h2 className="text-xl font-semibold mb-2">12. ¿Cuáles son los mecanismos de resolución de conflictos y la jurisdicción y ley aplicable a esta Política?    </h2>

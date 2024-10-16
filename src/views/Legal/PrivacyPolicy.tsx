@@ -265,16 +265,7 @@ export const PrivacyPolicy = () => {
                     </section>  
                     <section className="mb-8" id="section10">
                         <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">10. {t("privacyPolicy.titles.title10")}</h2>
-                        {/* {[
-                            {  content: t("privacyPolicy.documento.informacion punto 9.p1") },
-                            {  content: t("privacyPolicy.documento.informacion punto 9.p2") },
-
-                        ].map((item, index) => (
-                            <div key={index} className="mb-4">
-                                <p>
-                                    {item.content}</p>
-                            </div>
-                        ))} */}
+                      
                         <p className="mb-4">{ t("privacyPolicy.documento.informacion punto 10.p1") }</p>
                         <p className="mb-3">{ t("privacyPolicy.documento.informacion punto 10.p2") }</p>
                         {[
@@ -284,6 +275,25 @@ export const PrivacyPolicy = () => {
                         ].map((elem, index) => (
                             <div key={index} className="mb-4">
                                 <p><span className="text-blue-500"> {elem.item} </span> {elem.text}</p>
+                            </div>
+                        ))}
+                    </section> 
+                    <section className="mb-8" id="section11">
+                        <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">11. {t("privacyPolicy.titles.title11")}</h2>
+                        {[
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p1") },
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p2") },
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p3") },
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p4") },
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p5") },
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p6") },
+                            {  content: t("privacyPolicy.documento.informacion punto 11.p7") },
+
+
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                    {item.content}</p>
                             </div>
                         ))}
                     </section> 

@@ -301,6 +301,16 @@ export const PrivacyPolicy = () => {
                     <section className="mb-8" id="section12">
                         <h2 className="text-xl font-semibold mb-2">12. {t("privacyPolicy.titles.title12")}    </h2>
                        
+                        {[
+                            {  content: t("privacyPolicy.documento.informacion punto 12.p1") },
+                            {  content: t("privacyPolicy.documento.informacion punto 12.p2") },
+                            {  content: t("privacyPolicy.documento.informacion punto 12.p3") },
+
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p> {item.content}</p>
+                            </div>
+                        ))}
 
 
                     </section>

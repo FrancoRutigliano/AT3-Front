@@ -235,52 +235,35 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section8">
-                        <h2 className="text-xl font-semibold mb-2">8. ¿Cómo podemos comunicarnos con usted y qué tipo de información podemos proveer?</h2>
-                        <p className="mb-4">
-                            El Usuario tiene derecho a solicitar acceso a su Información Personal, así como a su rectificación, actualización o supresión, y también a limitar el tratamiento de su Información Personal en las condiciones establecidas por la Ley de Protección de Datos Personales. En particular, el Usuario tiene derecho a solicitar:
-                        </p>
+                        <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">8. {t("privacyPolicy.titles.title8")}</h2>
+                        {[
+                            {  content: t("privacyPolicy.documento.informacion punto 8.p1") },
+                            {  content: t("privacyPolicy.documento.informacion punto 8.p2") },
+                            {  content: t("privacyPolicy.documento.informacion punto 8.p3") },
+                            {  content: t("privacyPolicy.documento.informacion punto 8.p4") },
+                            {  content: t("privacyPolicy.documento.informacion punto 8.p5") },
 
-                        <ul className="list-disc list-inside mb-4">
-                            {[
-                                "Acceso a su Información Personal, así como información sobre el tratamiento que realizamos con respecto a dicha Información Personal;",
-                                "La rectificación de la Información Personal, en caso de que se encuentren inexactitudes o errores en su Información;",
-                                "La supresión de su Información Personal, en las circunstancias y en los casos establecidos por la Ley de Protección de Datos Personales;",
-                                "La limitación del tratamiento de su Información Personal, cuando corresponda;"
-                            ].map((item, index) => (
-                                <li key={index}>{item}</li>
-                            ))}
-                        </ul>
-
-                        <p className="mb-4">
-                            El Usuario puede ejercer sus derechos mencionados anteriormente a través de un correo electrónico, en las direcciones especificadas al pie de esta Política.
-                        </p>
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                    {item.content}</p>
+                            </div>
+                        ))}
                     </section>
-
                     <section className="mb-8" id="section9">
-                        <h2 className="text-xl font-semibold mb-2">9. ¿Podemos modificar esta Política? ¿Qué sucede ante una enajenación o cambio de control de las Sociedades?</h2>
-                        <p className="mb-4">
-                            Atómico se reserva el derecho de modificar esta Política de Privacidad en cualquier momento. En caso de modificaciones, se publicará la nueva versión de la Política en la Plataforma. Es responsabilidad del Usuario revisar periódicamente esta Política.
-                        </p>
-                    </section>
+                        <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">9. {t("privacyPolicy.titles.title9")}</h2>
+                        {[
+                            {  content: t("privacyPolicy.documento.informacion punto 9.p1") },
+                            {  content: t("privacyPolicy.documento.informacion punto 9.p2") },
 
-                    <section className="mb-8" id="section10">
-                        <h2 className="text-xl font-semibold mb-2">10.  ¿Cuáles son las responsabilidades del Usuario?</h2>
-                        <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                    {item.content}</p>
+                            </div>
+                        ))}
+                    </section>  
 
-                        <ul className="list-none mb-4">
-                            <li>Email: <a href="mailto:contacto@atómico3.io" className="text-blue-500 hover:underline">contacto@atómico3.io</a></li>
-                            <li>Teléfono: <span>+54 11 2345 6789</span></li>
-                        </ul>
-                    </section>
-                    <section className="mb-8" id="section11">
-                        <h2 className="text-xl font-semibold mb-2">11. ¿Qué derechos tiene el Usuario y cómo puede ejercerlos?</h2>
-                        <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>
-
-                        <ul className="list-none mb-4">
-                            <li>Email: <a href="mailto:contacto@atómico3.io" className="text-blue-500 hover:underline">contacto@atómico3.io</a></li>
-                            <li>Teléfono: <span>+54 11 2345 6789</span></li>
-                        </ul>
-                    </section>
 
                     <section className="mb-8" id="section12">
                         <h2 className="text-xl font-semibold mb-2">12. ¿Cuáles son los mecanismos de resolución de conflictos y la jurisdicción y ley aplicable a esta Política?    </h2>

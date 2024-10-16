@@ -299,15 +299,11 @@ export const PrivacyPolicy = () => {
                     </section> 
 
                     <section className="mb-8" id="section12">
-                        <h2 className="text-xl font-semibold mb-2">12. ¿Cuáles son los mecanismos de resolución de conflictos y la jurisdicción y ley aplicable a esta Política?    </h2>
-                        <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>
+                        <h2 className="text-xl font-semibold mb-2">12. {t("privacyPolicy.titles.title12")}    </h2>
+                       
 
-                        <ul className="list-none mb-4">
-                            <li>Email: <a href="mailto:contacto@atómico3.io" className="text-blue-500 hover:underline">contacto@atómico3.io</a></li>
-                            <li>Teléfono: <span>+54 11 2345 6789</span></li>
-                        </ul>
+
                     </section>
-                    {/* 13. ¿Quién es responsable de su información Personal? */}
                     <section className="mb-8" id="section13">
                         <h2 className="text-xl font-semibold mb-2">13. ¿Quién es responsable de su información Personal?   </h2>
                         <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>

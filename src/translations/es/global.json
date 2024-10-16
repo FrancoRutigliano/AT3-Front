@@ -352,110 +352,108 @@
         "p1": "Usted podrá seleccionar los tipos de información que no desea recibir de nosotros, incluyendo información promocional o publicitaria de Atómico. y/o de sus Afiliadas o de terceros. No obstante, usted no podrá impedir, mientras posea una cuenta de Usuario, que le enviemos información no promocional, tal como información sobre su cuenta de Usuario o sobre solicitudes o reclamos en curso. El Servicio puede transferir cookies a la unidad de almacenamiento del dispositivo a través del que accede a, o usa el Servicio. Las cookies son identificadores alfanuméricos que funcionan con su navegador web y que permiten que nuestros sistemas lo reconozcan y mejoren el uso del Servicio. Usted puede eliminar las cookies o evitar que las enviemos. ",
         "p2": "Consulte la sección de ayuda de su navegador para realizar cualquiera de estas operaciones. De cualquier modo, le recomendamos que permita las cookies de nuestro Servicio: algunas funciones del Servicio pueden no operar adecuadamente o inhabilitarse por completo si las cookies están deshabilitadas. ",
         "p3": "Asimismo, usted podrá solicitar la revocación del monitoreo de la ubicación geográfica de los dispositivos a través de los cuales accede a el Servicio. No obstante, esta revocación podría inhabilitar algunas funciones o impedir directamente la prestación del Servicio.",
-        "p4": "El Servicio puede proporcionar enlaces a sitios web de terceros. Esos sitios web no son operados por nosotros y están fuera de nuestro control. Tenga presente que estos sitios pueden recopilar información sobre usted y que, al visitarlos, pasará a estar sujeto a sus propias políticas de privacidad, por consiguiente, recomendamos que lea esos y otros documentos que rijan su relación con los proveedores de esos sitios web. Atómico no es responsable de las prácticas de privacidad de estos sitios y no puede garantizar la seguridad de la información que recolectan.", 
+        "p4": "El Servicio puede proporcionar enlaces a sitios web de terceros. Esos sitios web no son operados por nosotros y están fuera de nuestro control. Tenga presente que estos sitios pueden recopilar información sobre usted y que, al visitarlos, pasará a estar sujeto a sus propias políticas de privacidad, por consiguiente, recomendamos que lea esos y otros documentos que rijan su relación con los proveedores de esos sitios web. Atómico no es responsable de las prácticas de privacidad de estos sitios y no puede garantizar la seguridad de la información que recolectan.",
         "p5": "Esta Política aplica solo al uso del Servicio, y no a otras aplicaciones o sitios web de terceros con los que Atómico tenga conexiones o hipervínculos."
-    },
-    "informacion punto 9": {
-      "p1": "Atómico se reserva el derecho a modificar esta Política en cualquier momento y con efecto inmediato. El Usuario será notificado de modificaciones a esta Política a través de los medios que Atómico estime convenientes (incluyendo, sin limitación, su publicación en la Plataforma), y acepta que el uso del Servicio con posterioridad a la notificación constituye aceptación íntegra de los nuevos términos de la Política.", 
-      "p2": "Asimismo, Atómico se reserva el derecho de habilitar el acceso y/o transferir a un tercero la Información Total en los supuestos de enajenación total o parcial, fusión, escisión o cambio de control de la empresa."
-    },
-    "informacion punto 10": {
-      "p1": "Atómico toma todas las medidas a su alcance para proteger la seguridad, integridad y confidencialidad de la Información Personal. No obstante, el Usuario asume el riesgo por cualquier transmisión de cualquier tipo de información bajo esta Política.", 
-      "p2": "El Usuario no iniciará reclamo alguno contra Atómico, ni sus Afiliadas, e indemnizará y mantendrá permanentemente indemne a Atómico, sus Afiliadas, y a sus funcionarios, representantes y empleados, de y contra cualquier reclamo, demanda, acción, costo, gasto (incluyendo los costos y cargas judiciales y los honorarios razonables de abogados) pérdida, daño y/o perjuicio, directo y/o indirecto, judicial y/o extrajudicial, que pudieran surgir directa o indirectamente de:",
-      "item i": "Cualquier acción u omisión del Usuario en relación con la presente Política",
-      "item ii": "Cualquier acción u omisión del Usuario en relación con su Información Total",
-      "item iii": "Cualquier acción o reclamo de terceros contra el Usuario y/o contra Atómico, o sus Afiliadas, de cualquier forma vinculado con la presente Política o con la información cuya recolección, tratamiento y transferencia se prevé en esta Política."
-    },
-    "informacion punto 11": {
-      "p1": "El Usuario podrá solicitar, en cualquier momento, el acceso, rectificación, actualización o supresión de su Información Personal, a tales fines, deberá compartir los datos de contacto que figuran a continuación.", 
-      "p2": "Si se pone en contacto con Atómico, deberá acreditar su identidad a fin de que Atómico pueda cumplir con las reglas de derecho de acceso y proceda, según corresponda a su corrección, actualización o eliminación. Las solicitudes para suprimir Información Personal estarán sujetas a cualquier obligación legal y ética vigente de informar o cumplimentar documentos u obligaciones de retención documental que nos sean impuestas.",
-      "p3": "Tenga en cuenta que las comunicaciones por correo electrónico no son completamente seguras, por lo que no debería incluir datos sensibles en los correos electrónicos que nos envíe.", 
-      "p4": "La Información Personal del Usuario será conservada por Atómico durante el plazo de suscripción al Servicio o mientras permanezca vigente su cuenta de Usuario y, al cancelar o terminar su suscripción al Servicio, o al cerrar su cuenta de Usuario, hasta que deje de ser necesaria o pertinente a los fines para los cuales ha sido recolectada por Atómico.",
-      "p5": "En ningún caso el Usuario podrá revocar el consentimiento y solicitar la supresión de su Información Personal a Atómico cuando exista un deber legal o contractual que le imponga la obligación a Atómico conservar la Información Personal.", 
-      "p6": "En ningún caso cederemos su Información Personal a terceros sin obtener su consentimiento previo, salvo que sea necesario para el mantenimiento de nuestra relación con usted, para continuar prestando el Servicio, o para cumplir la normativa de protección de datos vigente. En particular se aclara, que en el marco de la prestación del Servicio Atómico podrá ceder su Información Personal a Afiliadas para la realización de operaciones o actividades asociadas al Servicio por parte de sus Afiliadas, en consecuencia, mediante la aceptación de esta Política el Usuario consiente expresamente que autoriza la cesión de su Información Personal a Afiliadas a de Atómico para la realización de operaciones o actividades asociadas al Servicio.", 
-      "p7":"El Usuario que como titular de la Información Personal tiene la facultad de ejercer el derecho de acceso a la misma en forma gratuita a intervalos no inferiores a seis meses, salvo que acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley de Protección de Datos Personales. La AAIP, Órgano de Control de la Ley de Protección de Datos Personales, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales."
-    },
-    "informacion punto 12": {
-      "p1": "Esta Política se encuentra alineada en todos sus puntos por las leyes de la República Argentina y será interpretada de acuerdo con ella. Al igual que busca cumplir con estipulado en las normas de la Republica del Paraguay, y bajo el estricto control de la Secretaría de Prevención de Lavado de Dinero o Bienes.", 
-      "p2": "La AAIP, en su carácter de Órgano de Control de la Ley de Protección de Datos Personales tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.",
-      "p3": "Sin limitar lo anterior, ante cualquier diferencia, desacuerdo o conflicto derivado de la aplicación, interpretación, validez, y/o alcance de la presente Política, el Usuario debe comunicarse con Atómico de manera fehaciente, haciéndole llegar su reclamo para que las partes intenten llegar a un acuerdo. En caso de que, luego de transcurridos 20 (veinte) días de iniciado el reclamo, no hubiese sido posible arribar a una solución, el Usuario también podrá elegir y someter su reclamo a cualquiera de las siguientes instancias, de resultar competentes:",
-      "a": "Tribunales ordinarios de la Ciudad de Asunción, República del Paraguay, con competencia en la materia ",
-      "b": "Dirección General de Defensa y Protección del Consumidor del Gobierno de la Ciudad de Buenos Aires (más información en",
-      "b link": "http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general",
-      "b.1":  ") o de la Provincia o municipalidad en donde el Usuario tenga su domicilio, y en la que exista una instancia de arbitraje o procedimiento para la solución de controversias.",
-      "c": "Tribunales ordinarios con competencia en la materia y asiento en el lugar en donde el Usuario tenga su domicilio."
-      
-    },
-    "informacion punto 13": {
-      "p1": "La información de contacto del responsable registrado de la base de datos es: Atómico S.A.", 
-      "p2": "Domicilio: Av. Aviadores del Chaco 2351 piso 8 Asunción, Paraguay ",
-      "p3": "Email: support@atomico3.io"
+      },
+      "informacion punto 9": {
+        "p1": "Atómico se reserva el derecho a modificar esta Política en cualquier momento y con efecto inmediato. El Usuario será notificado de modificaciones a esta Política a través de los medios que Atómico estime convenientes (incluyendo, sin limitación, su publicación en la Plataforma), y acepta que el uso del Servicio con posterioridad a la notificación constituye aceptación íntegra de los nuevos términos de la Política.",
+        "p2": "Asimismo, Atómico se reserva el derecho de habilitar el acceso y/o transferir a un tercero la Información Total en los supuestos de enajenación total o parcial, fusión, escisión o cambio de control de la empresa."
+      },
+      "informacion punto 10": {
+        "p1": "Atómico toma todas las medidas a su alcance para proteger la seguridad, integridad y confidencialidad de la Información Personal. No obstante, el Usuario asume el riesgo por cualquier transmisión de cualquier tipo de información bajo esta Política.",
+        "p2": "El Usuario no iniciará reclamo alguno contra Atómico, ni sus Afiliadas, e indemnizará y mantendrá permanentemente indemne a Atómico, sus Afiliadas, y a sus funcionarios, representantes y empleados, de y contra cualquier reclamo, demanda, acción, costo, gasto (incluyendo los costos y cargas judiciales y los honorarios razonables de abogados) pérdida, daño y/o perjuicio, directo y/o indirecto, judicial y/o extrajudicial, que pudieran surgir directa o indirectamente de:",
+        "item i": "Cualquier acción u omisión del Usuario en relación con la presente Política",
+        "item ii": "Cualquier acción u omisión del Usuario en relación con su Información Total",
+        "item iii": "Cualquier acción o reclamo de terceros contra el Usuario y/o contra Atómico, o sus Afiliadas, de cualquier forma vinculado con la presente Política o con la información cuya recolección, tratamiento y transferencia se prevé en esta Política."
+      },
+      "informacion punto 11": {
+        "p1": "El Usuario podrá solicitar, en cualquier momento, el acceso, rectificación, actualización o supresión de su Información Personal, a tales fines, deberá compartir los datos de contacto que figuran a continuación.",
+        "p2": "Si se pone en contacto con Atómico, deberá acreditar su identidad a fin de que Atómico pueda cumplir con las reglas de derecho de acceso y proceda, según corresponda a su corrección, actualización o eliminación. Las solicitudes para suprimir Información Personal estarán sujetas a cualquier obligación legal y ética vigente de informar o cumplimentar documentos u obligaciones de retención documental que nos sean impuestas.",
+        "p3": "Tenga en cuenta que las comunicaciones por correo electrónico no son completamente seguras, por lo que no debería incluir datos sensibles en los correos electrónicos que nos envíe.",
+        "p4": "La Información Personal del Usuario será conservada por Atómico durante el plazo de suscripción al Servicio o mientras permanezca vigente su cuenta de Usuario y, al cancelar o terminar su suscripción al Servicio, o al cerrar su cuenta de Usuario, hasta que deje de ser necesaria o pertinente a los fines para los cuales ha sido recolectada por Atómico.",
+        "p5": "En ningún caso el Usuario podrá revocar el consentimiento y solicitar la supresión de su Información Personal a Atómico cuando exista un deber legal o contractual que le imponga la obligación a Atómico conservar la Información Personal.",
+        "p6": "En ningún caso cederemos su Información Personal a terceros sin obtener su consentimiento previo, salvo que sea necesario para el mantenimiento de nuestra relación con usted, para continuar prestando el Servicio, o para cumplir la normativa de protección de datos vigente. En particular se aclara, que en el marco de la prestación del Servicio Atómico podrá ceder su Información Personal a Afiliadas para la realización de operaciones o actividades asociadas al Servicio por parte de sus Afiliadas, en consecuencia, mediante la aceptación de esta Política el Usuario consiente expresamente que autoriza la cesión de su Información Personal a Afiliadas a de Atómico para la realización de operaciones o actividades asociadas al Servicio.",
+        "p7": "El Usuario que como titular de la Información Personal tiene la facultad de ejercer el derecho de acceso a la misma en forma gratuita a intervalos no inferiores a seis meses, salvo que acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley de Protección de Datos Personales. La AAIP, Órgano de Control de la Ley de Protección de Datos Personales, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales."
+      },
+      "informacion punto 12": {
+        "p1": "Esta Política se encuentra alineada en todos sus puntos por las leyes de la República Argentina y será interpretada de acuerdo con ella. Al igual que busca cumplir con estipulado en las normas de la Republica del Paraguay, y bajo el estricto control de la Secretaría de Prevención de Lavado de Dinero o Bienes.",
+        "p2": "La AAIP, en su carácter de Órgano de Control de la Ley de Protección de Datos Personales tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.",
+        "p3": "Sin limitar lo anterior, ante cualquier diferencia, desacuerdo o conflicto derivado de la aplicación, interpretación, validez, y/o alcance de la presente Política, el Usuario debe comunicarse con Atómico de manera fehaciente, haciéndole llegar su reclamo para que las partes intenten llegar a un acuerdo. En caso de que, luego de transcurridos 20 (veinte) días de iniciado el reclamo, no hubiese sido posible arribar a una solución, el Usuario también podrá elegir y someter su reclamo a cualquiera de las siguientes instancias, de resultar competentes:",
+        "a": "Tribunales ordinarios de la Ciudad de Asunción, República del Paraguay, con competencia en la materia ",
+        "b": "Dirección General de Defensa y Protección del Consumidor del Gobierno de la Ciudad de Buenos Aires (más información en",
+        "b link": "http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general",
+        "b.1": ") o de la Provincia o municipalidad en donde el Usuario tenga su domicilio, y en la que exista una instancia de arbitraje o procedimiento para la solución de controversias.",
+        "c": "Tribunales ordinarios con competencia en la materia y asiento en el lugar en donde el Usuario tenga su domicilio."
+      },
+      "informacion punto 13": {
+        "p1": "La información de contacto del responsable registrado de la base de datos es: Atómico S.A.",
+        "p2": "Domicilio: Av. Aviadores del Chaco 2351 piso 8 Asunción, Paraguay ",
+        "p3": "Email: support@atomico3.io"
+      }
     }
-  }
-},
-"termsAndConditions": {
-  "terminos y condiciones": "Términos y condiciones",
-  "vigencia": "Vigente desde el 09 de octubre de 2024 por tiempo indefinido o por el tiempo establecido a exclusivo criterio de ATOMICO3 SA",
-  "titles": {
-    "indice": "Índice",
-    "title1": "Contenido de los Términos y Condiciones.",
-    "title2": "Aceptación de T&C.",
-    "title3": "Servicios ofrecidos en la Plataforma.",
-    "title4": "Riesgos de uso de la Plataforma.",
-    "title5": "Requisitos para utilizar la Plataforma.",
-    "title6": "Registro para uso de la Plataforma.",
-    "title7": "Utilización de la Plataforma.",
-    "title8": " Cuenta de Usuario.",
-    "title9": " Obligaciones del Usuario.",
-    "title10": " Prohibiciones al Usuario",
-    "title11": "Solicitud de baja o cierre de la Cuenta. Terminación.",
-    "title12": "Seguridad. Recupero de contraseñas.",
-    "title13": "Créditos.",
-    "title14": "Modificaciones a los T&C",
-    "title15": "Contenido. Propiedad Intelectual",
-    "title16": "Baja de la Plataforma. Falta de Responsabilidad.",
-    "title17": "Empleados de Atómico",
-    "title18": "Uso de cookies y tecnologías similares",
-    "title19": "Transferencias TAG.",
-    "title20": "Swap",
-    "title21": "Tarjetas Prepagas. Cashback",
-    "title22": "Misceláneas",
-    "title23": "Cesión",
-    "title24": "Consentimiento para notificaciones electrónicas",
-    "title25": "Resolución de conflictos. Jurisdicción y ley aplicable",
-    "title26": "Sugerencias, opiniones, quejas y comentarios",
-    "title27": "Atención al Usuario",
-    "title28": "Notificaciones"    
   },
-  "documento": {
-    "informacion punto 1": {
-      "p1": "Este documento contiene los términos y condiciones (“T&C”) que rigen la relación entre ATOMICO3 S.A. (“Atómico”) y sus usuarios. Esa relación existirá siempre que los usuarios accedan o utilicen una o varias de las siguientes plataformas (el “Usuario” o en plural, los “Usuarios”):", 
-      "punto i": "El sitio web",
-      "punto i link": "https://www.atomico3.io",
-      "punto i tag": "('Sitio Web').",
-      "punto ii": "La aplicación móvil de billetera digital “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).",
-      "punto iii": "Otros servicios ofrecidos conforme los presentes términos y condiciones, o aceptados por el Usuario en la Plataforma.",
-      "conclusion": "Para que sea más práctico para usted, llamaremos al Sitio Web y la App, indistintamente, como “Plataforma” y nos referiremos por las definiciones recién indicadas a cada una en particular."
+  "termsAndConditions": {
+    "terminos y condiciones": "Términos y condiciones",
+    "vigencia": "Vigente desde el 09 de octubre de 2024 por tiempo indefinido o por el tiempo establecido a exclusivo criterio de ATOMICO3 SA",
+    "titles": {
+      "indice": "Índice",
+      "title1": "Contenido de los Términos y Condiciones.",
+      "title2": "Aceptación de T&C.",
+      "title3": "Servicios ofrecidos en la Plataforma.",
+      "title4": "Riesgos de uso de la Plataforma.",
+      "title5": "Requisitos para utilizar la Plataforma.",
+      "title6": "Registro para uso de la Plataforma.",
+      "title7": "Utilización de la Plataforma.",
+      "title8": " Cuenta de Usuario.",
+      "title9": " Obligaciones del Usuario.",
+      "title10": " Prohibiciones al Usuario",
+      "title11": "Solicitud de baja o cierre de la Cuenta. Terminación.",
+      "title12": "Seguridad. Recupero de contraseñas.",
+      "title13": "Créditos.",
+      "title14": "Modificaciones a los T&C",
+      "title15": "Contenido. Propiedad Intelectual",
+      "title16": "Baja de la Plataforma. Falta de Responsabilidad.",
+      "title17": "Empleados de Atómico",
+      "title18": "Uso de cookies y tecnologías similares",
+      "title19": "Transferencias TAG.",
+      "title20": "Swap",
+      "title21": "Tarjetas Prepagas. Cashback",
+      "title22": "Misceláneas",
+      "title23": "Cesión",
+      "title24": "Consentimiento para notificaciones electrónicas",
+      "title25": "Resolución de conflictos. Jurisdicción y ley aplicable",
+      "title26": "Sugerencias, opiniones, quejas y comentarios",
+      "title27": "Atención al Usuario",
+      "title28": "Notificaciones"
     },
-    "informacion punto 2": {
-      "p1": "Cualquier Usuario deberá aceptar estos T&C y la Política de Privacidad para utilizar la Plataforma. Esa aceptación por parte del Usuario lo vinculará con Atómico mediante un contrato legalmente válido.", 
-      "p2": "Si bien el usuario puede ingresar a la Política de Privacidad haciendo clic en el siguiente link",
-      "p2 link": "https://www.atomico3.io",
-      "p3": ", le adelantamos que este documento contiene las cláusulas sobre el tratamiento de la información del Usuario, su dispositivo y/o su comportamiento en línea. Si usted no acepta estos T&C o la Política de Privacidad, no podrá usar la Plataforma."
-    },
-    "informacion punto 3": {
-      "p1": "La Plataforma le permitirá, entre otras actividades, adquirir, almacenar, enviar, recibir y vender activos digitales (“Servicios”)." 
-    },
-    "informacion punto 4": {
-      "p1": "El uso de la Plataforma le representará riesgos por (i) la fluctuación del valor de los activos digitales y (ii) el mero uso de internet o los dispositivos. Como contracara, la fluctuación de los activos digitales presenta una oportunidad y el uso de internet facilita la accesibilidad. Antes de utilizar los Servicios le recomendamos que adquiera conocimientos y consulte a profesionales o expertos que lo asesoren sobre las características de los activos digitales y las tecnologías involucradas. No le recomendamos que utilice los Servicios si no se ha informado adecuadamente.",
-      "p2": "Sobre la fluctuación de los activos digitales. En cualquier caso, usted reconoce y acepta que los activos digitales y cualquier actividad vinculada a ellos son patrimonialmente riesgosas en el sentido de que puede perder la totalidad del capital comprometido. Los activos digitales son altamente volátiles al punto de que podrían: no tener valor alguno, depreciarse hasta un valor insignificante o, incluso, dejar de existir. La volatilidad de los activos digitales depende de cuestiones ajenas al control de Atómico. Por lo tanto, Atómico no garantiza que el capital comprometido en cada operación que se realice en la Plataforma mantenga, incremente o reduzca su valor.",
-      "p3": "Le aclaramos que Atómico podrá proporcionarle información sobre los activos digitales y su cotización, pero nunca debe interpretar que esa información será un asesoramiento financiero o de inversión, ni representa de forma alguna ningún tipo de asesoramiento, recomendación, sugerencia, ofrecimiento u oferta por parte de Atómico o sus Afiliadas. Cualquier compra, venta u otra operación con activos digitales es una decisión exclusiva del Usuario. Nadie más que usted será responsable por ninguna pérdida de valor de los activos digitales que usted adquirió libremente.",
-      "p4": "A los efectos de estos T&C, se considera Afiliadas cualquier otra persona que controle o sea controlada por Atómico en forma directa o indirecta, o que junto con Atómico estuvieran directa o indirectamente bajo el control común de una tercera persona. A los fines de esta definición, la palabra “control”, cuando se use con respecto a Atómico, significa el poder de dirigir directa o indirectamente la administración y las políticas de Atómico, a través de la titularidad de acciones con derecho a voto o mediante el derecho a elegir a la mayoría de los miembros del directorio de dicha persona, y los términos “que controle” y “controlada” tienen significados correlativos con lo precedente.",
-      "p5": "Sobre el uso de internet o los dispositivos Atómico no garantiza el acceso y uso continuado o ininterrumpido de su Plataforma y Servicios ya que estos pueden eventualmente no estar disponible debido a dificultades técnicas o fallas de internet en los links o por cualquier otra circunstancia ajena a Atómico. Cuando ocurra una falla de ese tipo, Atómico adoptará las medidas de prevención razonables que tenga a su alcance. Esas medidas podrían implicar la suspensión de los Servicios o el acceso a la Plataforma. Los Usuarios deben comprender que esas medidas se realizan de buena fe y por el bien de los Usuarios.",
-      "p6": "Asimismo, el Usuario podrá elegir libremente el dispositivo en el cual acceda a la Plataforma y deberá dirigir el reclamo ante el responsable de ese dispositivo por cualquier defecto o inconveniente técnico que presente ese dispositivo.",
-      "p7": "Atómico no puede garantizar que la Plataforma y los canales de comunicación con el Usuario se encuentren en todo momento libre de virus, spyware, troyanos, gusanos o cualquier otro elemento que pueda llegar a tomar conocimiento de su información sin su consentimiento, dañar o destruir sus dispositivos electrónicos, tomar control de su Cuenta, o alterar su normal funcionamiento (“Elementos Dañinos”). Es responsabilidad y obligación del Usuario contar con los antivirus, programas de software y herramientas adecuadas para detectar, prevenir y neutralizar cualquier tipo de Elemento Dañino. Atómico no será responsable por ningún daño que pueda sufrir el Usuario como consecuencia o en relación con Elementos Dañinos o correos electrónicos falsos o que aparenten provenir de Atómico que sean enviados por terceros (“phishing”) sin relación con Atómico."
-    },
-    
+    "documento": {
+      "informacion punto 1": {
+        "p1": "Este documento contiene los términos y condiciones (“T&C”) que rigen la relación entre ATOMICO3 S.A. (“Atómico”) y sus usuarios. Esa relación existirá siempre que los usuarios accedan o utilicen una o varias de las siguientes plataformas (el “Usuario” o en plural, los “Usuarios”):",
+        "punto i": "El sitio web",
+        "punto i link": "https://www.atomico3.io",
+        "punto i tag": "('Sitio Web').",
+        "punto ii": "La aplicación móvil de billetera digital “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).",
+        "punto iii": "Otros servicios ofrecidos conforme los presentes términos y condiciones, o aceptados por el Usuario en la Plataforma.",
+        "conclusion": "Para que sea más práctico para usted, llamaremos al Sitio Web y la App, indistintamente, como “Plataforma” y nos referiremos por las definiciones recién indicadas a cada una en particular."
+      },
+      "informacion punto 2": {
+        "p1": "Cualquier Usuario deberá aceptar estos T&C y la Política de Privacidad para utilizar la Plataforma. Esa aceptación por parte del Usuario lo vinculará con Atómico mediante un contrato legalmente válido.",
+        "p2": "Si bien el usuario puede ingresar a la Política de Privacidad haciendo clic en el siguiente link",
+        "p2 link": "https://www.atomico3.io",
+        "p3": ", le adelantamos que este documento contiene las cláusulas sobre el tratamiento de la información del Usuario, su dispositivo y/o su comportamiento en línea. Si usted no acepta estos T&C o la Política de Privacidad, no podrá usar la Plataforma."
+      },
+      "informacion punto 3": {
+        "p1": "La Plataforma le permitirá, entre otras actividades, adquirir, almacenar, enviar, recibir y vender activos digitales (“Servicios”)."
+      },
+      "informacion punto 4": {
+        "p1": "El uso de la Plataforma le representará riesgos por (i) la fluctuación del valor de los activos digitales y (ii) el mero uso de internet o los dispositivos. Como contracara, la fluctuación de los activos digitales presenta una oportunidad y el uso de internet facilita la accesibilidad. Antes de utilizar los Servicios le recomendamos que adquiera conocimientos y consulte a profesionales o expertos que lo asesoren sobre las características de los activos digitales y las tecnologías involucradas. No le recomendamos que utilice los Servicios si no se ha informado adecuadamente.",
+        "p2": "Sobre la fluctuación de los activos digitales. En cualquier caso, usted reconoce y acepta que los activos digitales y cualquier actividad vinculada a ellos son patrimonialmente riesgosas en el sentido de que puede perder la totalidad del capital comprometido. Los activos digitales son altamente volátiles al punto de que podrían: no tener valor alguno, depreciarse hasta un valor insignificante o, incluso, dejar de existir. La volatilidad de los activos digitales depende de cuestiones ajenas al control de Atómico. Por lo tanto, Atómico no garantiza que el capital comprometido en cada operación que se realice en la Plataforma mantenga, incremente o reduzca su valor.",
+        "p3": "Le aclaramos que Atómico podrá proporcionarle información sobre los activos digitales y su cotización, pero nunca debe interpretar que esa información será un asesoramiento financiero o de inversión, ni representa de forma alguna ningún tipo de asesoramiento, recomendación, sugerencia, ofrecimiento u oferta por parte de Atómico o sus Afiliadas. Cualquier compra, venta u otra operación con activos digitales es una decisión exclusiva del Usuario. Nadie más que usted será responsable por ninguna pérdida de valor de los activos digitales que usted adquirió libremente.",
+        "p4": "A los efectos de estos T&C, se considera Afiliadas cualquier otra persona que controle o sea controlada por Atómico en forma directa o indirecta, o que junto con Atómico estuvieran directa o indirectamente bajo el control común de una tercera persona. A los fines de esta definición, la palabra “control”, cuando se use con respecto a Atómico, significa el poder de dirigir directa o indirectamente la administración y las políticas de Atómico, a través de la titularidad de acciones con derecho a voto o mediante el derecho a elegir a la mayoría de los miembros del directorio de dicha persona, y los términos “que controle” y “controlada” tienen significados correlativos con lo precedente.",
+        "p5": "Sobre el uso de internet o los dispositivos Atómico no garantiza el acceso y uso continuado o ininterrumpido de su Plataforma y Servicios ya que estos pueden eventualmente no estar disponible debido a dificultades técnicas o fallas de internet en los links o por cualquier otra circunstancia ajena a Atómico. Cuando ocurra una falla de ese tipo, Atómico adoptará las medidas de prevención razonables que tenga a su alcance. Esas medidas podrían implicar la suspensión de los Servicios o el acceso a la Plataforma. Los Usuarios deben comprender que esas medidas se realizan de buena fe y por el bien de los Usuarios.",
+        "p6": "Asimismo, el Usuario podrá elegir libremente el dispositivo en el cual acceda a la Plataforma y deberá dirigir el reclamo ante el responsable de ese dispositivo por cualquier defecto o inconveniente técnico que presente ese dispositivo.",
+        "p7": "Atómico no puede garantizar que la Plataforma y los canales de comunicación con el Usuario se encuentren en todo momento libre de virus, spyware, troyanos, gusanos o cualquier otro elemento que pueda llegar a tomar conocimiento de su información sin su consentimiento, dañar o destruir sus dispositivos electrónicos, tomar control de su Cuenta, o alterar su normal funcionamiento (“Elementos Dañinos”). Es responsabilidad y obligación del Usuario contar con los antivirus, programas de software y herramientas adecuadas para detectar, prevenir y neutralizar cualquier tipo de Elemento Dañino. Atómico no será responsable por ningún daño que pueda sufrir el Usuario como consecuencia o en relación con Elementos Dañinos o correos electrónicos falsos o que aparenten provenir de Atómico que sean enviados por terceros (“phishing”) sin relación con Atómico."
+      },
       "informacion punto 5": {
         "p1": "Para poder utilizar la Plataforma usted deberá haber cumplido 18 años y no estar declarado judicialmente como incapaz o tener la capacidad restringida para contratar o disponer de su patrimonio. Aunque es responsabilidad del Usuario cumplir con este requisito, Atómico podrá pedirle cierta documentación que acredite estos extremos.",
         "p2": "No podrán volver a utilizar la Plataforma los Usuarios que hayan sido suspendidos temporalmente o inhabilitados definitivamente por Atómico, salvo autorización expresa de Atómico.",
@@ -464,16 +462,22 @@
         "p5": "El Usuario declara y acepta que utilizará la Plataforma y los Servicios solamente con fines personales, no comerciales."
       },
       "informacion punto 6": {
-          "p1": "Para utilizar la Plataforma usted debe registrarse completando el formulario correspondiente con datos válidos e información personal exacta, precisa, completa, actualizada y verdadera (“Datos Personales”). Usted deberá mantener actualizados sus Datos Personales y es responsable por cualquier inexactitud que presenten.",
-          "p2": "El proceso de registro también puede llegar a efectuarse ingresando los datos que los Usuarios hayan declarado en algún perfil propio de una red social. En esos casos, el Usuario acepta que Atómico extraiga de la red social que se trate cierta información necesaria para la prestación del Servicio y también lo establecido por la Política de Privacidad.",
-          "p3": "Sin perjuicio de ello, Atómico, en cualquier caso, podría solicitarle cierta documentación que acredite la información entregada o verificar los datos suministrados con las bases de datos de entidades públicas o privadas y, eventualmente, suspender los Servicios si usted no logra acreditar la información requerida. Con esta política Atómico pretende proteger a la masa de Usuarios que utilizan la Plataforma de buena fe.",
-          "p4": "El Usuario autoriza a Atómico y a sus Afiliadas a verificar los datos suministrados con bases de entidades públicas, compañías especializadas y centrales de riesgo, incluyendo sin limitación al Registro Nacional de las Personas (RENAPER).",
-          "p5": "Atómico utilizará la Información para los siguientes fines: a) identificación y autenticación, b) administración y gestión comercial o transaccional de la Plataforma, c) mejora del servicio, d) fines estadísticos, e) envío de notificaciones, promociones o publicidad, entre otros; y, f) lo estipulado en la política de privacidad.",
-          "p6": "El Usuario reconoce y acepta expresamente que Atómico podrá compartir los legajos de información y documentación del Usuario a otras sociedades del mismo grupo económico y/o a la Unidad de Información Financiera, el Banco Central de la República Argentina, el Banco Central de la República del Paraguay (BCP), la Secretaria de Prevención de Lavado de Dinero y Bienes (SEPRELAD), o a cualquier otra autoridad u organismo que fuera competente a fines de dar cumplimiento a obligaciones regulatorias de conocimiento del cliente para la prevención de lavado de activos y financiamiento del terrorismo.",
-          "p7": "Al completar tus datos en forma voluntaria, autorizas expresa e irrevocablemente, otorgando mandato en los términos del artículo 917 inc. c) del Código Civil Paraguayo y de conformidad a lo dispuesto en la Ley 6534/2020 'De Protección de Datos Personales Crediticios' y demás normas suplementarias o modificatorias, especialmente su artículo 6, para que por cuenta propia o a través de empresas especializadas de nuestro medio podamos recabar información de los Registros Públicos o Privados, bancos, financieras u otra entidad comercial que pudiera corresponder, referente a tu situación patrimonial y solvencia económica para la obtención, verificación, confirmación y/o certificación de datos por ti declarados y/u obrantes en bases de datos propiedad de terceros, ya sea por procedimientos telefónicos, electrónicos, etc. Esta autorización se extiende en los mismos términos a la posibilidad de proveer a terceros información referente a tu situación patrimonial, información crediticia, operaciones activas y pasivas, solvencia económica y/o sobre el cumplimiento de mis/nuestras obligaciones comerciales.",
-          "p8": "El Usuario autoriza expresamente a Atómico a compartir la información brindada al momento del registro y verificación de su cuenta (incluyendo dirección de e-mail) con instituciones financieras en caso de que ello sea requerido por procedimientos de prevención de lavado de dinero y financiamiento al terrorismo y/o prevención de fraude y con los proveedores de servicios o las empresas Afiliadas que contribuyan a dar servicio y/o mejorar o facilitar las operaciones a través de la Plataforma en todas las jurisdicciones donde el Servicio se encuentre disponible, sin limitarse a medios de pago, medios de colección de pago, entidades financieras, seguros o intermediarios en la gestión de pagos, call centers, entidades que intervengan en la resolución de disputas, que pueden incluir, entre otros, Compañías de Seguros, Amigables Componedores o Tribunales de Arbitraje o tribunales competentes. Atómico velará porque se cumplan ciertos estándares en la trasmisión de la información, mediante la firma de acuerdos o convenios cuyo objeto sea la privacidad y confidencialidad de los datos personales de los Usuarios."
+        "p1": "Para utilizar la Plataforma usted debe registrarse completando el formulario correspondiente con datos válidos e información personal exacta, precisa, completa, actualizada y verdadera (“Datos Personales”). Usted deberá mantener actualizados sus Datos Personales y es responsable por cualquier inexactitud que presenten.",
+        "p2": "El proceso de registro también puede llegar a efectuarse ingresando los datos que los Usuarios hayan declarado en algún perfil propio de una red social. En esos casos, el Usuario acepta que Atómico extraiga de la red social que se trate cierta información necesaria para la prestación del Servicio y también lo establecido por la Política de Privacidad.",
+        "p3": "Sin perjuicio de ello, Atómico, en cualquier caso, podría solicitarle cierta documentación que acredite la información entregada o verificar los datos suministrados con las bases de datos de entidades públicas o privadas y, eventualmente, suspender los Servicios si usted no logra acreditar la información requerida. Con esta política Atómico pretende proteger a la masa de Usuarios que utilizan la Plataforma de buena fe.",
+        "p4": "El Usuario autoriza a Atómico y a sus Afiliadas a verificar los datos suministrados con bases de entidades públicas, compañías especializadas y centrales de riesgo, incluyendo sin limitación al Registro Nacional de las Personas (RENAPER).",
+        "p5": "Atómico utilizará la Información para los siguientes fines: a) identificación y autenticación, b) administración y gestión comercial o transaccional de la Plataforma, c) mejora del servicio, d) fines estadísticos, e) envío de notificaciones, promociones o publicidad, entre otros; y, f) lo estipulado en la política de privacidad.",
+        "p6": "El Usuario reconoce y acepta expresamente que Atómico podrá compartir los legajos de información y documentación del Usuario a otras sociedades del mismo grupo económico y/o a la Unidad de Información Financiera, el Banco Central de la República Argentina, el Banco Central de la República del Paraguay (BCP), la Secretaria de Prevención de Lavado de Dinero y Bienes (SEPRELAD), o a cualquier otra autoridad u organismo que fuera competente a fines de dar cumplimiento a obligaciones regulatorias de conocimiento del cliente para la prevención de lavado de activos y financiamiento del terrorismo.",
+        "p7": "Al completar tus datos en forma voluntaria, autorizas expresa e irrevocablemente, otorgando mandato en los términos del artículo 917 inc. c) del Código Civil Paraguayo y de conformidad a lo dispuesto en la Ley 6534/2020 'De Protección de Datos Personales Crediticios' y demás normas suplementarias o modificatorias, especialmente su artículo 6, para que por cuenta propia o a través de empresas especializadas de nuestro medio podamos recabar información de los Registros Públicos o Privados, bancos, financieras u otra entidad comercial que pudiera corresponder, referente a tu situación patrimonial y solvencia económica para la obtención, verificación, confirmación y/o certificación de datos por ti declarados y/u obrantes en bases de datos propiedad de terceros, ya sea por procedimientos telefónicos, electrónicos, etc. Esta autorización se extiende en los mismos términos a la posibilidad de proveer a terceros información referente a tu situación patrimonial, información crediticia, operaciones activas y pasivas, solvencia económica y/o sobre el cumplimiento de mis/nuestras obligaciones comerciales.",
+        "p8": "El Usuario autoriza expresamente a Atómico a compartir la información brindada al momento del registro y verificación de su cuenta (incluyendo dirección de e-mail) con instituciones financieras en caso de que ello sea requerido por procedimientos de prevención de lavado de dinero y financiamiento al terrorismo y/o prevención de fraude y con los proveedores de servicios o las empresas Afiliadas que contribuyan a dar servicio y/o mejorar o facilitar las operaciones a través de la Plataforma en todas las jurisdicciones donde el Servicio se encuentre disponible, sin limitarse a medios de pago, medios de colección de pago, entidades financieras, seguros o intermediarios en la gestión de pagos, call centers, entidades que intervengan en la resolución de disputas, que pueden incluir, entre otros, Compañías de Seguros, Amigables Componedores o Tribunales de Arbitraje o tribunales competentes. Atómico velará porque se cumplan ciertos estándares en la trasmisión de la información, mediante la firma de acuerdos o convenios cuyo objeto sea la privacidad y confidencialidad de los datos personales de los Usuarios."
+      },
+      "informacion punto 7": {
+        "p1": "Atómico protege a sus Usuarios de buena fe limitando la registración de ciertas personas que podrían utilizar los Servicios de mala fe. Así, con el objetivo de proteger a la masa de Usuarios de buena fe de la Plataforma, Atómico no admitirá el registro o suspenderá uno vigente en todos los casos en los cuales identifique que un Usuario, o si correspondiere, sus accionistas, subsidiarias, controladas, directores, funcionarios, empleados o agentes son personas que se encuentren situadas en, constituidas en, o sean residentes de un país o territorio cuyo gobierno esté sujeto a Sanciones, incluyendo sin limitaciones: la Región de Crimea, Cuba, Irán, Siria y Corea del Norte.",
+        "p2": "A los efectos de esta cláusula, se entenderá por “Sanciones” a las restricciones o prohibiciones en la capacidad de participar en negocios y otras actividades económicas con ciertos países, regiones, personas o entidades, o cualquier medida gubernamental emitida con el fin de privar a una entidad (incluyendo individuos, corporaciones, territorios, países, etc.) de activos financieros y económicos con el fin de contrarrestar e intentar reducir el comportamiento que amenace la seguridad nacional o internacional o contravenga el derecho internacional.",
+        "p3": "En particular, serán rechazados como Usuarios o suspendidos o inhabilitados quienes se encuentren incluidos en las Listas de Sancionados de OFAC (Office of Foreign Assets Control de Estados Unidos) y listas de terroristas de las Naciones Unidas, así como en cualquier lista nacional de personas bloqueadas, quedando prohibido el registro del Usuario o la utilización de la Plataforma en los mencionados territorios o jurisdicciones sancionadas.",
+        "p4": "Tampoco podrán registrarse como Usuarios las personas humanas o jurídicas sobre las que disponga de información de la que surja que pueden estar relacionadas con actividades de naturaleza delictiva, especialmente aquellos supuestamente vinculados al narcotráfico, al terrorismo, o al crimen organizado en general.",
+        "p5": "En virtud de lo previsto en la presente cláusula, Atómico podrá rechazar una solicitud de registro o cancelar, suspender o impedir, temporal o definitivamente una Cuenta, o el acceso o uso de la Plataforma o los Servicios por parte de cualquier Usuario (i) ante incongruencias o inconsistencias en la información provista por un Usuario, o actividades inusuales o sospechosas del Usuario en materia de prevención de lavado de dinero y financiamiento al terrorismo o de fraude; o (ii) en caso que el Usuario no proporcione o no actualice en tiempo y forma la información o documentación requerida; (iii) en caso de que el Usuario se encuentre sujeto a Sanciones, o situado en, constituido en, o sea residente en un país o territorio sujeto a Sanciones, con el alcance previsto en esta cláusula; (iv) en caso de que el Usuario estuviese o pudiese estar relacionado con actividades de naturaleza delictiva, según lo previsto en esta cláusula; (v) en caso de que Atómico identifique actividades sospechosas o ilícitas o no permitidas por las prácticas y buenas costumbre de la industria, o (vi) o cuando Atómico considere que el Usuario viola total o parcialmente estos T&C. En ningún caso la decisión de Atómico generará para el Usuario derecho a ser resarcido ni indemnizado en ningún modo ni por concepto alguno. Aclaramos que en estos casos podría no otorgarse preaviso o expresión de causa como parte de la adopción de las medidas razonables para evitar que se produzcan mayores daños de conformidad con lo previsto por el art. 1710 del Código Civil y Comercial de la Republica Argentina."
       }
-    
+    }
   }
-}
 }

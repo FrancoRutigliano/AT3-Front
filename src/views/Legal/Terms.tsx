@@ -155,24 +155,17 @@ export const Terms = () => {
 
           <section className="mb-8" id="section7">
               <h2 className="text-xl font-semibold mb-2 text-blue-500">7. {t("termsAndConditions.titles.title7")}</h2>
-                  <p className="mb-4">{t("termsAndConditions.documento.informacion punto 7.intro")}</p>
-                  <p className="mb-4">{t("termsAndConditions.documento.informacion punto 7.p1")}</p>
-                  {[
-                  { title: "a)", content: t("termsAndConditions.documento.informacion punto 7.medida1") },
-                  { title: "b)", content: t("termsAndConditions.documento.informacion punto 7.medida2") },
-                  { title: "c)", content: t("termsAndConditions.documento.informacion punto 7.medida3") },
-                  { title: "d)", content: t("termsAndConditions.documento.informacion punto 7.medida4") },
-                  { title: "e)", content: t("termsAndConditions.documento.informacion punto 7.medida5") },
-                  { title: "f)", content: t("termsAndConditions.documento.informacion punto 7.medida6") },
-
-              ].map((item, index) => (
+              {[
+                  { content: t("termsAndConditions.documento.informacion punto 7.p1") },
+                  { content: t("termsAndConditions.documento.informacion punto 7.p2") },
+                  {  content: t("termsAndConditions.documento.informacion punto 7.p3") },
+                  {  content: t("termsAndConditions.documento.informacion punto 7.p4") },
+                  {  content: t("termsAndConditions.documento.informacion punto 7.p5") },
+              ].map(({content}, index) => (
                   <div key={index} className="mb-4">
-                      <p>
-                          {item.title && <span className="text-blue-500 ">{item.title} </span>}
-                          {item.content}</p>
+                      <p>{content}</p>
                   </div>
               ))}
-                  <p className="mb-4">{t("termsAndConditions.documento.informacion punto 7.confidencialidad")}</p>
           </section>
 
           <section className="mb-8" id="section8">

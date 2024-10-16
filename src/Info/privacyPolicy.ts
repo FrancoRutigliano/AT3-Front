@@ -27,7 +27,5 @@ export const getIndiceTitles = (t:any) => [
     { id: "section11", text: t("privacyPolicy.titles.title11") },
     { id: "section12", text: t("privacyPolicy.titles.title12") },
     { id: "section13", text: t("privacyPolicy.titles.title13") },
-
-
   ];
-  
+

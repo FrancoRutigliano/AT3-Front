@@ -390,11 +390,47 @@
       "p1": "La información de contacto del responsable registrado de la base de datos es: Atómico S.A.", 
       "p2": "Domicilio: Av. Aviadores del Chaco 2351 piso 8 Asunción, Paraguay ",
       "p3": "Email: support@atomico3.io"
-      
     }
-    
-    
-    
+  }
+},
+"termsAndConditions": {
+  "terminos y condiciones": "Términos y condiciones",
+  "vigencia": "Vigente desde el 09 de octubre de 2024 por tiempo indefinido o por el tiempo establecido a exclusivo criterio de ATOMICO3 SA",
+  "titles": {
+    "indice": "Índice",
+    "title1": "Contenido de los Términos y Condiciones.",
+    "title2": "Aceptación de T&C.",
+    "title3": "Servicios ofrecidos en la Plataforma.",
+    "title4": "Riesgos de uso de la Plataforma.",
+    "title5": "Requisitos para utilizar la Plataforma.",
+    "title6": "Registro para uso de la Plataforma.",
+    "title7": "Utilización de la Plataforma.",
+    "title8": " Cuenta de Usuario.",
+    "title9": " Obligaciones del Usuario.",
+    "title10": " Prohibiciones al Usuario",
+    "title11": "Solicitud de baja o cierre de la Cuenta. Terminación.",
+    "title12": "Seguridad. Recupero de contraseñas.",
+    "title13": "Créditos.",
+    "title14": "Modificaciones a los T&C",
+    "title15": "Contenido. Propiedad Intelectual",
+    "title16": "Baja de la Plataforma. Falta de Responsabilidad.",
+    "title17": "Empleados de Atómico",
+    "title18": "Uso de cookies y tecnologías similares",
+    "title19": "Transferencias TAG.",
+    "title20": "Swap",
+    "title21": "Tarjetas Prepagas. Cashback",
+    "title22": "",
+    "title23": "Misceláneas",
+    "title24": "Cesión",
+    "title25": "Consentimiento para notificaciones electrónicas",
+    "title26": "Resolución de conflictos. Jurisdicción y ley aplicable",
+    "title27": "Sugerencias, opiniones, quejas y comentarios",
+    "title28": "Atención al Usuario",
+    "title29": "Notificaciones"    
+
+
+
+
   }
 }
 }

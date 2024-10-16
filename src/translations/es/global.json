@@ -419,14 +419,24 @@
     "title19": "Transferencias TAG.",
     "title20": "Swap",
     "title21": "Tarjetas Prepagas. Cashback",
-    "title22": "",
-    "title23": "Misceláneas",
-    "title24": "Cesión",
-    "title25": "Consentimiento para notificaciones electrónicas",
-    "title26": "Resolución de conflictos. Jurisdicción y ley aplicable",
-    "title27": "Sugerencias, opiniones, quejas y comentarios",
-    "title28": "Atención al Usuario",
-    "title29": "Notificaciones"    
+    "title22": "Misceláneas",
+    "title23": "Cesión",
+    "title24": "Consentimiento para notificaciones electrónicas",
+    "title25": "Resolución de conflictos. Jurisdicción y ley aplicable",
+    "title26": "Sugerencias, opiniones, quejas y comentarios",
+    "title27": "Atención al Usuario",
+    "title28": "Notificaciones"    
+  },
+  "documento": {
+    "informacion punto 1": {
+      "p1": "Este documento contiene los términos y condiciones (“T&C”) que rigen la relación entre ATOMICO3 S.A. (“Atómico”) y sus usuarios. Esa relación existirá siempre que los usuarios accedan o utilicen una o varias de las siguientes plataformas (el “Usuario” o en plural, los “Usuarios”):", 
+      "punto i": "El sitio web",
+      "punto i link": "https://www.atomico3.io",
+      "punto i tag": "('Sitio Web').",
+      "punto ii": "La aplicación móvil de billetera digital “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).",
+      "punto iii": "Otros servicios ofrecidos conforme los presentes términos y condiciones, o aceptados por el Usuario en la Plataforma.",
+      "conclusion": "Para que sea más práctico para usted, llamaremos al Sitio Web y la App, indistintamente, como “Plataforma” y nos referiremos por las definiciones recién indicadas a cada una en particular."
+    }
   }
 }
 }

@@ -1,10 +1,27 @@
 import { useTranslation } from "react-i18next";
+import { getTermsTitles } from "../../Info/termsAndConditions";
 
 export const Terms = () => {
   const [t] = useTranslation("global");
 
   const titles = getTermsTitles(t);
 
+  const handleAnchorClick = (e: any, targetId: any) => {
+    e.preventDefault(); // Prevenir el cambio de URL
+
+    const targetElement = document.getElementById(targetId);
+    if (targetElement) {
+        // Ajusta el desplazamiento aquí
+        const offset = 110; // Cantidad de píxeles para desplazarse hacia arriba
+        const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+
+        // Desplazarse suavemente a la sección ajustada
+        window.scrollTo({
+            top: elementPosition - offset,
+            behavior: "smooth",
+        });
+    }
+};
   return (
   //  <section>
   //     <h1 className="lg:text-6xl text-center mt-20 mb-5"</h1>
@@ -18,7 +35,7 @@ export const Terms = () => {
       <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4 sticky top-20 h-screen overflow-y-auto">
           <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.titles.indice")}</h2>
           <ul className="list-decimal text-black list-inside">
-              {'array de objetos a iterar'.map((section, index) => (
+              {titles.map((section, index) => (
                   <li key={index} className="p-5 border-l-4 border-celeste">
                       <a href={`#${section.id}`} className="text-black hover:underline" onClick={(e) => handleAnchorClick(e, section.id)}>
                           {section.text}
@@ -30,42 +47,39 @@ export const Terms = () => {
 
       {/* Contenido de la Política de Privacidad */}
       <div className="w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
-          <p className="mb-4">
-              {t("privacyPolicy.documento.intro")}
-
-          </p>
+         
           <section id="section1">
 
-              <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">1. {t("privacyPolicy.titles.title1")}</h2>
+              <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">1. {t("termsAndConditions.titles.title1")}</h2>
               <p className="mb-4">
-                  {t("privacyPolicy.documento.informacion punto 1.intro")}
+                  {t("termsAndConditions.documento.informacion punto 1.p1")}
 
               </p>
 
-              <ul className="list-disc list-inside mb-4">
+              <div className="list-disc list-inside mb-4">
                   {[
-                      {
-                          text: t("privacyPolicy.documento.informacion punto 1.punto i"),
-                          link: t("privacyPolicy.documento.informacion punto 1.punto i link"),
-                          tag: t("privacyPolicy.documento.informacion punto 1.punto i tag")
+                      {   item: "(i)", 
+                          text: t("termsAndConditions.documento.informacion punto 1.punto i"),
+                          link: t("termsAndConditions.documento.informacion punto 1.punto i link"),
+                          tag: t("termsAndConditions.documento.informacion punto 1.punto i tag")
                       },
-                      { text: t("privacyPolicy.documento.informacion punto 1.punto ii"), link: "" },
-                      { text: t("privacyPolicy.documento.informacion punto 1.punto iii"), link: "" }
-                  ].map((item, index) => (
-                      <li key={`item-${index}`}>
-                          {item.text}
-                          {item.link && (
+                      { item: "(ii)",  text: t("termsAndConditions.documento.informacion punto 1.punto ii"), link: "" },
+                      { item: "(iii)", text: t("termsAndConditions.documento.informacion punto 1.punto iii"), link: "" }
+                  ].map(({text, link, item, tag}, index) => (
+                      <p key={`elem-${index}`}>
+                          {item} {text}
+                          {link && (
                               <>
-                                  <a href={item.link} className="inline text-blue-500 hover:underline"> {item.link}</a> <span>{item.tag}</span>
+                                  <a href={link} className="inline text-blue-500 hover:underline"> {link}</a> <span>{tag}</span>
                               </>
                           )}
-                      </li>
+                      </p>
                   ))}
-              </ul>
+              </div>
 
 
               <p className="mb-4">
-                  {t("privacyPolicy.documento.informacion punto 1.conclusion")}
+                  {t("termsAndConditions.documento.informacion punto 1.conclusion")}
               </p>
           </section>
 

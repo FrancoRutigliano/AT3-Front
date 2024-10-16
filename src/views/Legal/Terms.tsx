@@ -171,16 +171,16 @@ export const Terms = () => {
           <section className="mb-8" id="section8">
               <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">8. {t("termsAndConditions.titles.title8")}</h2>
               {[
-                  {  content: t("termsAndConditions.documento.informacion punto 8.p1") },
-                  {  content: t("termsAndConditions.documento.informacion punto 8.p2") },
+                  { content: t("termsAndConditions.documento.informacion punto 8.p1") },
+                  { content: t("termsAndConditions.documento.informacion punto 8.p2") },
                   {  content: t("termsAndConditions.documento.informacion punto 8.p3") },
                   {  content: t("termsAndConditions.documento.informacion punto 8.p4") },
                   {  content: t("termsAndConditions.documento.informacion punto 8.p5") },
+                  {  content: t("termsAndConditions.documento.informacion punto 8.p6") },
 
-              ].map((item, index) => (
+              ].map(({content}, index) => (
                   <div key={index} className="mb-4">
-                      <p>
-                          {item.content}</p>
+                      <p>{content}</p>
                   </div>
               ))}
           </section>

@@ -319,13 +319,16 @@ export const PrivacyPolicy = () => {
 
                     </section>
                     <section className="mb-8" id="section13">
-                        <h2 className="text-xl font-semibold mb-2">13. {t("privacyPolicy.titles.title13")}   </h2>
-                        <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>
-
-                        <ul className="list-none mb-4">
-                            <li>Email: <a href="mailto:contacto@atómico3.io" className="text-blue-500 hover:underline">contacto@atómico3.io</a></li>
-                            <li>Teléfono: <span>+54 11 2345 6789</span></li>
-                        </ul>
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">13. {t("privacyPolicy.titles.title13")}   </h2>
+                        {[
+                            {  content: t("privacyPolicy.documento.informacion punto 13.p1") },
+                            {  content: t("privacyPolicy.documento.informacion punto 13.p2") },
+                            {  content: t("privacyPolicy.documento.informacion punto 13.p3") },
+                        ].map((item, index) => (
+                            <div key={index} className="mb-4">
+                                <p> {item.content}</p>
+                            </div>
+                        ))}
                     </section>
 
                 </div>

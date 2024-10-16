@@ -442,6 +442,9 @@
       "p2": "Si bien el usuario puede ingresar a la Política de Privacidad haciendo clic en el siguiente link",
       "p2 link": "https://www.atomico3.io",
       "p3": ", le adelantamos que este documento contiene las cláusulas sobre el tratamiento de la información del Usuario, su dispositivo y/o su comportamiento en línea. Si usted no acepta estos T&C o la Política de Privacidad, no podrá usar la Plataforma."
+    },
+    "informacion punto 3": {
+      "p1": "La Plataforma le permitirá, entre otras actividades, adquirir, almacenar, enviar, recibir y vender activos digitales (“Servicios”)." 
     }
   }
 }

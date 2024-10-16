@@ -91,26 +91,12 @@ export const Terms = () => {
             <p className="mb-4">{t("termsAndConditions.documento.informacion punto 2.p2")} <a href=" https://www.atomico3.io" className="text-blue-500 hover:underline"> https://www.atomico3.io</a> {t("termsAndConditions.documento.informacion punto 2.p3")}</p>
 
           </section>
+
           <section id="section3">
 
               <h2 className="text-xl font-semibold mt-6 mb-2 text-blue-500">3. {t("termsAndConditions.titles.title3")}</h2>
-              {[
-                  { title: t("termsAndConditions.documento.informacion punto 3.p1.title"), content: t("termsAndConditions.documento.informacion punto 3.p1.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p2.title"), content: t("termsAndConditions.documento.informacion punto 3.p2.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p3.title"), content: t("termsAndConditions.documento.informacion punto 3.p3.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p4.title"), content: t("termsAndConditions.documento.informacion punto 3.p4.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p5.title"), content: t("termsAndConditions.documento.informacion punto 3.p5.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p6.title"), content: t("termsAndConditions.documento.informacion punto 3.p6.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p7.title"), content: t("termsAndConditions.documento.informacion punto 3.p7.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p8.title"), content: t("termsAndConditions.documento.informacion punto 3.p8.content") },
-                  { title: t("termsAndConditions.documento.informacion punto 3.p9.title"), content: t("termsAndConditions.documento.informacion punto 3.p9.content") }
-              ].map((item, index) => (
-                  <div key={index} className="mb-4">
-                      {item.title && <h3 className="text-blue-500 ">{item.title}:</h3>}
-                      <p>{item.content}</p>
-                  </div>
-              ))}
-
+              
+              <p className="mb-4"> {t("termsAndConditions.documento.informacion punto 3.p1")}</p>
 
 
           </section>

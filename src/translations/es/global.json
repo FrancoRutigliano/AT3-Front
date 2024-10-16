@@ -436,6 +436,12 @@
       "punto ii": "La aplicación móvil de billetera digital “Atómico”, disponible para su descarga a través de los dispositivos móviles donde esta se encuentre disponible (“App”).",
       "punto iii": "Otros servicios ofrecidos conforme los presentes términos y condiciones, o aceptados por el Usuario en la Plataforma.",
       "conclusion": "Para que sea más práctico para usted, llamaremos al Sitio Web y la App, indistintamente, como “Plataforma” y nos referiremos por las definiciones recién indicadas a cada una en particular."
+    },
+    "informacion punto 2": {
+      "p1": "Cualquier Usuario deberá aceptar estos T&C y la Política de Privacidad para utilizar la Plataforma. Esa aceptación por parte del Usuario lo vinculará con Atómico mediante un contrato legalmente válido.", 
+      "p2": "Si bien el usuario puede ingresar a la Política de Privacidad haciendo clic en el siguiente link",
+      "p2 link": "https://www.atomico3.io",
+      "p3": ", le adelantamos que este documento contiene las cláusulas sobre el tratamiento de la información del Usuario, su dispositivo y/o su comportamiento en línea. Si usted no acepta estos T&C o la Política de Privacidad, no podrá usar la Plataforma."
     }
   }
 }

@@ -7,7 +7,7 @@
     import { Nosotros } from "../views/Nosotros"
     import { Support } from "../views/Support"
     import { LegalLayout } from "../views/Legal/LegalLayout"
-    import { Terms } from "../views/Terms"
+    import { Terms } from "../views/Legal/Terms"
     import { PrivacyPolicy } from "../views/Legal/PrivacyPolicy"
 
     export const RoutesOutlet = () => {

@@ -3,29 +3,29 @@ import { useTranslation } from "react-i18next";
 export const Terms = () => {
   const [t] = useTranslation("global");
 
- 
+  const titles = getTermsTitles(t);
 
   return (
   //  <section>
-  //     <h1 className="lg:text-6xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
+  //     <h1 className="lg:text-6xl text-center mt-20 mb-5"</h1>
   //     <h5 className="text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
   //  </section>
   <section >
-  <h1 className="lg:text-6xl text-center mt-20 mb-5">{t("privacyPolicy.politica de privacidad")}</h1>
-  <h5 className="text-center mb-20">{t("privacyPolicy.vigencia")}</h5>
+  <h1 className="lg:text-6xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
+  <h5 className="text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
   <div className="flex relative">
       {/* Columna de Títulos */}
       <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4 sticky top-20 h-screen overflow-y-auto">
           <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.titles.indice")}</h2>
-          {/* <ul className="list-decimal text-black list-inside">
-              {indiceTitles.map((section, index) => (
+          <ul className="list-decimal text-black list-inside">
+              {'array de objetos a iterar'.map((section, index) => (
                   <li key={index} className="p-5 border-l-4 border-celeste">
                       <a href={`#${section.id}`} className="text-black hover:underline" onClick={(e) => handleAnchorClick(e, section.id)}>
                           {section.text}
                       </a>
                   </li>
               ))}
-          </ul> */}
+          </ul>
       </div>
 
       {/* Contenido de la Política de Privacidad */}

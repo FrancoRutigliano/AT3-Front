@@ -299,7 +299,7 @@ export const PrivacyPolicy = () => {
                     </section> 
 
                     <section className="mb-8" id="section12">
-                        <h2 className="text-xl font-semibold mb-2">12. {t("privacyPolicy.titles.title12")}    </h2>
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">12. {t("privacyPolicy.titles.title12")}    </h2>
                        
                         {[
                             {  content: t("privacyPolicy.documento.informacion punto 12.p1") },
@@ -312,10 +312,14 @@ export const PrivacyPolicy = () => {
                             </div>
                         ))}
 
+                    <p className="mb-4 "><span className="text-blue-500 ">a)</span> {t("privacyPolicy.documento.informacion punto 12.a")}</p>
+                    <p className="mb-4"><span className="text-blue-500 ">b) </span>{t("privacyPolicy.documento.informacion punto 12.b")} <a target="_blank" href="http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general" className="text-blue-500 hover:underline">{t("privacyPolicy.documento.informacion punto 12.b link")}</a> {t("privacyPolicy.documento.informacion punto 12.b.1")} </p>
+                    <p className="mb-4"><span className="text-blue-500 ">c) </span>{t("privacyPolicy.documento.informacion punto 12.c")}</p>
+
 
                     </section>
                     <section className="mb-8" id="section13">
-                        <h2 className="text-xl font-semibold mb-2">13. ¿Quién es responsable de su información Personal?   </h2>
+                        <h2 className="text-xl font-semibold mb-2">13. {t("privacyPolicy.titles.title13")}   </h2>
                         <p className="mb-4">Si tiene alguna pregunta sobre esta Política, por favor contáctenos a:</p>
 
                         <ul className="list-none mb-4">

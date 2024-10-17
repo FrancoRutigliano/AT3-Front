@@ -366,7 +366,32 @@ export const Terms = () => {
                                 <p>{content}</p>
                             </div>
                         ))}
+                    </section>
+                    <section className="mb-8" id="section17">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">17. {t("termsAndConditions.titles.title17")}   </h2>
+                        <p className="my-4">{t("termsAndConditions.documento.informacion punto 17.p1")}</p>
+                    </section>
+                    <section className="mb-8" id="section18">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">18. {t("termsAndConditions.titles.title18")}   </h2>
+                        <p className="my-4">{t("termsAndConditions.documento.informacion punto 18.intro")}</p>
 
+                        <p className="my-4 inline  underline underline-offset-4 decoration-blue-500">
+                            <span className="text-blue-500">1. {t("termsAndConditions.documento.informacion punto 18.t1")}</span>
+                        </p>
+                        <p className="inline"> {t("termsAndConditions.documento.informacion punto 18.t1 p1")}</p>
+                        <p className="my-4"> {t("termsAndConditions.documento.informacion punto 18.t1 p2")}</p>
+                        <p className="my-4"> {t("termsAndConditions.documento.informacion punto 18.t1 p3")}</p>
+
+
+                        <p className="my-4 inline  underline underline-offset-4 decoration-blue-500">
+                            <span className="text-blue-500">2. {t("termsAndConditions.documento.informacion punto 18.t2")}</span>
+                        </p>
+                        <p className="inline"> {t("termsAndConditions.documento.informacion punto 18.t2 p1")}</p>
+                        <br />
+                        <p className="mt-5 inline-block  underline underline-offset-4 decoration-blue-500">
+                            <span className="text-blue-500">3. {t("termsAndConditions.documento.informacion punto 18.t3")}  </span>
+                        </p>
+                        <p className="inline"> {t("termsAndConditions.documento.informacion punto 18.t3 p1")}</p>
                     </section>
                 </div>
             </div>

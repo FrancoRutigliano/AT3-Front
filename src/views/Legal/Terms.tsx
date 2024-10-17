@@ -393,6 +393,33 @@ export const Terms = () => {
                         </p>
                         <p className="inline"> {t("termsAndConditions.documento.informacion punto 18.t3 p1")}</p>
                     </section>
+                    <section className="mb-8" id="section19">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">19. {t("termsAndConditions.titles.title19")}   </h2>
+
+                        {[
+                            { item:"19.1",content: t("termsAndConditions.documento.informacion punto 19.p1") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p2") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p3") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p4") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p5") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p6") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p7") },
+                            { content: t("termsAndConditions.documento.informacion punto 19.p8") },
+                            {  item:"19.2", content: t("termsAndConditions.documento.informacion punto 19.p9") },
+                            {  item:"19.3", content: t("termsAndConditions.documento.informacion punto 19.p10") },
+                            {  item:"19.4", content: t("termsAndConditions.documento.informacion punto 19.p11") },
+
+
+
+                        ].map(({ content, item }, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                {item && <span className=" text-blue-500">{item} </span>}
+                                    {content}</p>
+                            </div>
+                        ))}
+
+                    </section>
                 </div>
             </div>
         </section>

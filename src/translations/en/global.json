@@ -224,7 +224,184 @@
     "Teléfono": "Phone",
     "Aceptar": "Accept",
     "Cancelar": "Cancel"
+},
+"privacyPolicy": {
+    "politica de privacidad": "Privacy Policy",
+    "vigencia": "Effective from October 9, 2024",
+    "titles": {
+      "indice": "Index",
+      "title1": "What is the content and scope of this Privacy Policy?",
+      "title2": "Scope of your consent",
+      "title3": "Things to keep in mind when reading our Policy!",
+      "title4": "What information do we collect and process?",
+      "title5": "For what purposes do we process the information?",
+      "title6": "With whom do we share the information and how can we process your Personal Information?",
+      "title7": "What security and confidentiality measures do we take for the information?",
+      "title8": "How can we communicate with you and what type of information can we provide?",
+      "title9": "Can we modify this Policy? What happens in the event of a sale or change of control of the Companies?",
+      "title10": "What are the User's responsibilities?",
+      "title11": "What rights does the User have and how can they exercise them?",
+      "title12": "What are the conflict resolution mechanisms, and what jurisdiction and law apply to this Policy?",
+      "title13": "Who is responsible for your Personal Information?"
+    },
+    "documento": {
+  "intro": "The protection of your information is important to us. This Privacy Policy applies to all activities that involve the processing of your information and aims to ensure transparency and control in the way we handle your information.",
+  "informacion punto 1": {
+    "intro": "This document contains the Privacy Policy (the 'Policy') that governs the relationship between ATÓMICO3 S.A. ('Atómico'), hereinafter 'The Companies' and, as appropriate, individually and separately, and the users ('User' or, in plural, 'Users'), whenever Users access or use one or more of the following platforms:",
+    "punto i": "the website",
+    "punto i link": "https://www.Atómico3.io",
+    "punto i tag": "('Website').",
+    "punto ii": "the 'Atómico' mobile application, available for download on mobile devices where it is available ('App').",
+    "punto iii": "the digital asset exchange platform provided through the website https:// ('Exchange').",
+    "conclusion": "For simplicity, we will refer to the Website, the App, and the Exchange collectively as 'Platform'."
+  }, 
+  "informacion punto 2": {
+    "p1": "To protect your information, Atómico complies with the regulations in force in the Argentine Republic, in particular, the rules and principles established by Law No. 25.326 (hereinafter, the 'Personal Data Protection Law'), its Regulatory Decree No. 1558/01, and other provisions that add to, modify, regulate, extend, complement, or eliminate them.",
+    "p2": "Atómico is a registered Responsible Party for the database containing your Personal Information with the Public Information Access Agency of the Argentine Republic.",
+    "p3": "Atómico also complies with all regulations of the Republic of Paraguay. It is registered with the Secretariat for the Prevention of Money or Property Laundering (SEPRELAD) of the Republic of Paraguay, fully aligned with compliance with Decree No. 2463/2024, which issued the update and modification of the annex related to the Action Plan of Decree No. 9012 dated March 22, 2023, to comply with the recommendations of the Latin American Financial Action Task Force (GAFILAT) in the context of the country's Fourth Round of Mutual Evaluations. This update and modification of the Action Plan was incorporated as part of the Paraguayan State Strategic Plan (PEEP), approved by Decree No. 11.200/2013."
+  },
+  "informacion punto 3": {
+    "p1": {
+      "title": "",
+      "content": "Below, we highlight key concepts to understand and keep in mind while reading our Policy:"
+    },
+    "p2": {
+      "title": "AAIP",
+      "content": "It is the Public Information Access Agency of the Argentine Republic."
+    },
+    "p3": {
+      "title": "Affiliate",
+      "content": "With respect to any given person, it shall be understood as any other person who controls, is controlled by, or is under common control with such a person, whether directly or indirectly. For the purposes of this definition, the term 'control' means the power to direct the management and policies of such a person, whether through ownership of voting shares or the right to elect the majority of the board of directors, and the terms 'controlled' and 'controls' shall be construed accordingly."
+    },
+    "p4": {
+      "title": "Database",
+      "content": "It is the organized set of Personal Information subject to treatment or processing, whether electronic or not, regardless of the mode of its formation, storage, organization, or access."
+    },
+    "p5": {
+      "title": "Consent",
+      "content": "The prior, free, express, and informed manifestation by the Owner of the Personal Information to carry out the processing of their Personal Information, which must be in writing or in another way that can be equated depending on the circumstances."
+    },
+    "p6": {
+      "title": "Responsible",
+      "content": "A natural or legal person, public or private, who owns a Database."
+    },
+    "p7": {
+      "title": "Owner ",
+      "content": "Any natural or legal person whose Personal Information is subject to the processing referred to in this Policy."
+    },
+    "p8": {
+      "title": "Transfer",
+      "content": "The transfer of information occurs when the Responsible Party sends the information to a recipient located inside or outside the country from which it was sent."
+    },
+    "p9": {
+      "title": "Treatment",
+      "content": "Systematic operations and procedures, whether electronic or not, that allow the collection, preservation, organization, storage, modification, association, evaluation, blocking, destruction, and generally the processing of Personal Information, as well as its transfer to third parties through communications, consultations, interconnections, or transfers."
+    }
+  },
+  "informacion punto 4": {
+    "title1": "Information provided by the User",
+    "p1": "When the User uses an Atómico Service and/or the Platform, the User agrees that Atómico may collect and process certain information about the User, for example: The use of, or access to the Service may require the creation of a User account. To create a User account and communicate with Atómico, the Companies require the User to provide their first and last name, email address, gender, date of birth, and other identifying data, depending on their use of the Service, their phone number, address, nationality, tax ID (CUIT, CUIL), national ID or other documents that allow identification, banking information, images (photographs of themselves or copies of their identification documents) requested for the purpose of validating their identity, financial information such as income, assets, liabilities, credit history, the origin of funds for using the Service, and the purposes for which the obtained funds will be used through the Service (hereinafter collectively referred to as 'Personal Information'). Additionally, Atómico will require the creation of a password to access certain functions of the Service.",
+    "p2": "The forms that Atómico requests the User to complete indicate which data are mandatory and which are optional. If the User does not provide the mandatory information, it may result in Atómico being unable to provide or continue providing the Service or access to the Platform.",
+    "p3": "The User is responsible for informing any necessary modification, change, or update of their Personal Information and will be accountable for the consequences of not having timely and fully informed Atómico of any of these.",
+    "title2": "Information collected by our systems",
+    "p4": "Atómico collects and processes general, statistical, and/or non-personally identifiable information ('Non-Personally Identifiable Information' or 'NPII') which includes technical information about your device, the operating system you use, and the application software.",
+    "p5": "Additionally, Atómico collects and processes information regarding all operations and activities carried out through the Service, dates, duration and frequency of User sessions and access through any means to the Service, geographic location of the device through which the Service is accessed or used, configuration, IP address, browser information, transaction data, and any other information we are given access to through mobile devices, tablets, or computers with which the Service is accessed or used (hereinafter collectively referred to as 'Operational Information'). In the event of the transmission of Operational Information to third parties in accordance with the terms of this Policy, the holders of the Operational Information will not be identifiable, except in cases of transmission of Total Information, as defined in point 5 of this Policy.",
+    "p6": "Atómico or its service providers may also use various web tools, including Cookies, Web Beacons, and Tagging on the Platform and advertisements, for the purpose of evaluating and improving the Platform and other electronic offerings, customizing services, enhancing your user experience, and communicating with Users about products and services that may be of interest.",
+    "title3": "Information provided by third parties",
+    "p7": "The User may choose to grant Atómico access to certain information stored by third parties, such as social networks (including but not limited to Facebook, Instagram, and Twitter). The type of information and the extent of its use may vary depending on the site or service and is controlled by your privacy settings on that site or service, and by your authorization when linking a third-party managed account to your Atómico managed account. Once you have linked your third-party managed account to your Service user account, you agree that Atómico may collect, store, and use, in accordance with this Policy, the information contained in the third-party managed account.",
+    "title4": "Exclusion",
+    "p8": "Excluded from this Policy is information related to your health, race, ethnicity, sexual orientation, criminal background, religion, union membership, moral and political opinions, as we will never ask you to provide it."
+  },
+  "informacion punto 5": {
+  "p1": "The User agrees that Atómico may process all the User's information mentioned in point 4 of this Policy (collectively, the Personal Information, the Non-Personally Identifiable Information, and the Operational Information, hereinafter the 'Total Information') for the following purposes:",
+  "finalidades": {
+    "a": "Communicate with the User, provide the Service, and fulfill contractual commitments;",
+    "b": "Validate your information, verify your identity, detect or prevent fraud, scams, and other crimes, comply with regulations and policies on money laundering prevention and counter-terrorism financing, manage and resolve any claims related to actual or alleged fraud, scams, and other crimes, investigate, evaluate, and adjudicate claims, complaints, and risks, and associate, link, complete, consult, link, tie, use, relate, gather, and join information related to your identity and digital reputation available in the digital environment, including messaging services and applications in any digital format, social content networks, mobile devices, and wearables, and generally, information related to your interaction on websites, applications, and content;",
+    "c": "Improve, optimize, and modify the Service or third-party services. In particular, it is clarified that the use of images and photographs for information validation is central to Atómico providing its Services to Users securely and preventing fraud, scams, and other crimes. Atómico may outsource this function to a specialized provider, and the provider may incorporate Personal Information (including images and photographs) into a broader database to improve and customize its services for Atómico and all its clients;",
+    "d": "Collect and analyze data trends, evaluate Service performance, conduct satisfaction surveys, facilitate the design, development, generation, and provision of software updates, product support, and other products and services for Users;",
+    "e": "Prepare advertising and/or marketing campaigns associated with any product and/or service;",
+    "f": "Evaluate, develop, offer, and provide goods and/or services to Users (you will not receive these offers and/or services if, under the first paragraph of point 8, you have opted not to receive them);",
+    "g": "Comply with the law, regulation, or orders from competent authorities, or for reasons of public safety, public health, and/or national defense, and to comply with regulatory reports, respond to a court order or competent authority's order.",
+    "h": "Offer advertising or marketing information about products and/or services from those third parties, access to events or promotions, market research, or other marketing activities (you will not receive this information if, under the first paragraph of point 8, you have opted not to receive it);"
+  }
+},
+"informacion punto 6": {
+  "intro": "To fulfill the purposes detailed above, the Total Information may be shared with:",
+  "item i": "Affiliates of Atómico, partners, and/or business collaborators.",
+  "item ii": "Atómico's service providers, including providers of technology services, networks, data transmission, identity verification, and other providers necessary for Atómico to provide all its Services correctly through the Platform.",
+  "item iii": "National, provincial, or municipal public and regulatory authorities and bodies.",
+  "item iv": "Atómico's and/or its affiliates' marketing service providers for analyzing User activities and optimizing advertising campaigns for Atómico, its affiliates, or Service Providers, in which case the processed information may be: IP address; MAC addresses; device ID and advertising IDs; HTTP header that includes the SDK processor version, country, language, device configuration, operating system version, as well as the app version; User's device and web activity information; and applications and tokens.",
+  "item v": "Atómico's and/or its Affiliates' user experience (UX) service providers for analyzing the User's experience to improve the Platform, in which case the processed information may be: visited screens, interaction patterns (such as screen actions, gestures: taps, scrolls) and device details (type, version, model, operating system). We use the information collected by UXCam Inc. to improve our app.",
+  "item vi": "Atómico's and/or its Affiliates' digital asset sending and receiving network service providers, such as Lightspark Group, Inc., including end-users of those providers, to enable the service of sending and receiving digital assets through those networks, in which case the processed information may be: the User's name and the user's address on that network. You agree that other users on that network may access your username and address on that network.",
+  "p2": "You may revoke your consent for the transmission of your Personal Information to third parties at any time by contacting us in person or via email at the addresses specified at the bottom of this Policy. Depending on its scope, revoking your consent may result in us no longer being able to provide the Service.",
+  "p3": "Any of the entities mentioned in the previous sections may be located in Paraguay, Argentina, Chile, Bolivia, Mexico, or even in countries on another continent or international or supranational organizations that, under applicable law, do not provide adequate personal data protection levels, such as Brazil or the United States, among others.",
+  "p4": "As a result, by accepting this Policy, the User expressly consents to their Total Information, including their Personal Information, being transferred internationally by Atómico, even to countries or international or supranational organizations that do not provide adequate levels of personal data protection under applicable law.",
+  "actividades title": "In accordance with the mentioned purposes, Atómico may carry out the following activities:",
+  "actividad 1": "Know, store, and process all the information provided by you in one or more databases, in the format deemed most convenient.",
+  "actividad 2": "Know, store, record, process, and monitor all information provided by you, either verbally or in writing, through any channel established by Atómico, which may be used as evidence in any complaint, claim, conciliation, or lawsuit.",
+  "actividad 3": "Order, catalog, classify, divide, or separate the information provided by you.",
+  "actividad 4": "Verify, corroborate, check, validate, monitor, investigate, or compare the information provided by you with any information legitimately available to us, including that known by our Affiliates.",
+  "actividad 5": "Analyze, process, evaluate, treat, or compare the information provided by you or collected by Atómico through interaction on digital platforms related to Atómico. The resulting data from analysis, processing, evaluations, treatments, and comparisons will be subject to the same authorizations you granted."
+},
+  "informacion punto 7": {
+    "intro": "In compliance with the Personal Data Protection Law of the Republic of Argentina, and the Secretariat for the Prevention of Money Laundering or Assets, Atómico has taken appropriate measures to protect the security and confidentiality of your Personal Information, ensure that the provisions of this Policy are respected, and protect your Personal Information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction.",
+    "p1": "To ensure an adequate level of security for your Personal Information, Atómico may take, among others, the following measures:",
+    "medida1": "Encryption of Personal Information, when applicable.",
+    "medida2": "Measures capable of ensuring confidentiality, integrity, availability, and treatment services.",
+    "medida3": "Measures capable of quickly restoring the availability and access to Personal Information in the event of a physical or technical incident.",
+    "medida4": "Regular verification, evaluation, and assessment processes of the effectiveness of technical and organizational measures.",
+    "medida5": "Periodic risk assessment of accidental or unlawful destruction, loss, or alteration of Personal Information transferred, stored, or otherwise processed, or unauthorized communication or access to such information.",
+    "medida6": "Measures to ensure that any person acting under Atómico's authority who has access to Personal Information can only process such information following Atómico's instructions.",
+    "confidencialidad": "Your Personal Information will be treated confidentially. Within the scope of this Policy, we commit to maintaining confidentiality regarding such information and adopting all necessary measures to prevent its alteration, loss, unauthorized access, or processing, in accordance with applicable legislation and this Policy."
+  },
+  "informacion punto 8": {
+    "p1": "You may select the types of information you do not wish to receive from us, including promotional or advertising information from Atómico, its Affiliates, or third parties. However, you may not prevent us from sending you non-promotional information, such as information about your User account or ongoing requests or claims, as long as you have a User account. The Service may transfer cookies to the storage unit of the device through which you access or use the Service. Cookies are alphanumeric identifiers that work with your web browser and allow our systems to recognize you and improve your use of the Service. You can delete cookies or prevent us from sending them.",
+    "p2": "Check your browser's help section to perform any of these operations. In any case, we recommend allowing cookies from our Service: some features of the Service may not function properly or be completely disabled if cookies are disabled.",
+    "p3": "You may also request the revocation of the geographic location monitoring of the devices through which you access the Service. However, this revocation could disable some features or directly prevent the provision of the Service.",
+    "p4": "The Service may provide links to third-party websites. These websites are not operated by us and are beyond our control. Please note that these sites may collect information about you and that, by visiting them, you will be subject to their own privacy policies. Therefore, we recommend reading these and other documents governing your relationship with the providers of these websites. Atómico is not responsible for the privacy practices of these sites and cannot guarantee the security of the information they collect.",
+    "p5": "This Policy applies only to the use of the Service, and not to other third-party applications or websites with which Atómico has connections or hyperlinks."
+  },
+  "informacion punto 9": {
+    "p1": "Atómico reserves the right to modify this Policy at any time and with immediate effect. The User will be notified of changes to this Policy through any means that Atómico deems appropriate (including, but not limited to, posting on the Platform), and agrees that the continued use of the Service after notification constitutes full acceptance of the new terms of the Policy.",
+    "p2": "Atómico also reserves the right to enable access to and/or transfer Total Information to a third party in the event of a total or partial disposal, merger, spin-off, or change of control of the company."
+  },
+  "informacion punto 10": {
+    "p1": "Atómico takes all measures within its reach to protect the security, integrity, and confidentiality of Personal Information. However, the User assumes the risk of any transmission of any type of information under this Policy.",
+    "p2": "The User will not initiate any claims against Atómico or its Affiliates, and will indemnify and hold Atómico, its Affiliates, and its officers, representatives, and employees harmless from and against any claim, demand, action, cost, expense (including court costs and reasonable attorney's fees), loss, damage, and/or harm, direct and/or indirect, judicial and/or extrajudicial, that may arise directly or indirectly from:",
+    "item i": "Any action or omission of the User in connection with this Policy",
+    "item ii": "Any action or omission of the User in connection with their Total Information",
+    "item iii": "Any action or claim by third parties against the User and/or Atómico, or its Affiliates, in any way related to this Policy or the information whose collection, processing, and transfer is provided for in this Policy."
+  },
+  "informacion punto 11": {
+    "p1": "The User may request, at any time, access, rectification, update, or deletion of their Personal Information. To do so, they must share the contact details listed below.",
+    "p2": "If you contact Atómico, you must prove your identity so that Atómico can comply with access rights and proceed, as appropriate, with correction, updating, or deletion. Requests to delete Personal Information will be subject to any current legal and ethical obligations to inform or comply with document retention requirements imposed on us.",
+    "p3": "Please note that email communications are not entirely secure, so you should not include sensitive data in the emails you send us.",
+    "p4": "The User's Personal Information will be retained by Atómico for the duration of their Service subscription or as long as their User account is active. Upon cancellation or termination of the Service subscription, or closure of their User account, Personal Information will be kept until it is no longer necessary or relevant for the purposes for which it was collected by Atómico.",
+    "p5": "Under no circumstances may the User revoke their consent and request the deletion of their Personal Information from Atómico when there is a legal or contractual obligation that requires Atómico to retain the Personal Information.",
+    "p6": "We will not transfer your Personal Information to third parties without obtaining your prior consent, except when necessary to maintain our relationship with you, to continue providing the Service, or to comply with current data protection regulations. In particular, it is clarified that in the context of the provision of the Service, Atómico may transfer your Personal Information to Affiliates to carry out operations or activities associated with the Service. Therefore, by accepting this Policy, the User expressly consents to the transfer of their Personal Information to Atómico's Affiliates for operations or activities associated with the Service.",
+    "p7": "As the holder of Personal Information, the User has the right to access such information free of charge at intervals of no less than six months, unless a legitimate interest is proven, in accordance with Article 14, paragraph 3 of the Personal Data Protection Law. The AAIP, the Regulatory Body for the Personal Data Protection Law, has the authority to address complaints and claims related to non-compliance with personal data protection regulations."
+  },
+  "informacion punto 12": {
+    "p1": "This Policy is aligned with the laws of the Republic of Argentina in all respects and will be interpreted accordingly. It also seeks to comply with the regulations of the Republic of Paraguay, under the strict supervision of the Secretariat for the Prevention of Money Laundering or Assets.",
+    "p2": "The AAIP, as the Regulatory Body for the Personal Data Protection Law, has the authority to address complaints and claims made by those whose rights have been affected by non-compliance with current personal data protection regulations.",
+    "p3": "Without limiting the foregoing, in the event of any dispute, disagreement, or conflict arising from the application, interpretation, validity, and/or scope of this Policy, the User must communicate with Atómico in a reliable manner, submitting their claim so that the parties can attempt to reach an agreement. If, after 20 (twenty) days from the initiation of the claim, no solution has been reached, the User may also choose to submit their claim to any of the following competent bodies:",
+    "a": "Ordinary courts in the City of Asunción, Republic of Paraguay, with jurisdiction in the matter",
+    "b": "General Directorate of Consumer Defense and Protection of the Government of the City of Buenos Aires (more information at",
+    "b link": "http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general",
+    "b.1": ") or the Province or municipality where the User is domiciled, and where there is an arbitration instance or procedure for dispute resolution.",
+    "c": "Ordinary courts with jurisdiction in the matter and located in the User's place of residence."
+  },
+  "informacion punto 13": {
+    "p1": "The contact information for the registered data controller is: Atómico S.A.",
+    "p2": "Address: Av. Aviadores del Chaco 2351, 8th floor, Asunción, Paraguay",
+    "p3": "Email: support@atomico3.io"
+  }
+
+  
 }
+
+}
+
 
 
 }

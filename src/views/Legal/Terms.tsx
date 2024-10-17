@@ -455,7 +455,6 @@ export const Terms = () => {
                         ].map(({ content, item }, index) => (
                             <div key={index} className="mb-4">
                                 <p>
-                                    {/* {inciso && <span className=" text-blue-500">{inciso} </span>} */}
                                     {item && <span className=" text-blue-500">{item} </span>}
                                     {content}</p>
 
@@ -550,10 +549,27 @@ export const Terms = () => {
 
 
                         ].map(({ text, link }, index) => (
-                            <p key={index} className="my-3">{text} 
+                            <p key={index} className="my-3">{text}
                                 {link && <a href={link} target="_blank" className="text-blue-500 hover:underline"> {link}</a>}
-                             </p>
+                            </p>
                         ))}
+
+                        <p className="mt-10"><span className=" text-blue-500">21.6 </span>
+                        { t("termsAndConditions.documento.informacion punto 21.21.6")} </p>
+                        <p className="mt-6"> { t("termsAndConditions.documento.informacion punto 21.21.6 p1")} </p>
+                        <ul className="list-disc pl-5">
+                            {[
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.6 p2") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.6 p3") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.6 p4") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.6 p5") },
+                            ].map(({ content }, index) => (
+                                <li key={index} className=" my-2">
+                                    {content}
+                                </li>
+                            ))}
+                        </ul>
+
                     </section>
                 </div>
             </div>

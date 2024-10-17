@@ -310,16 +310,12 @@ export const Terms = () => {
                             { content: t("termsAndConditions.documento.informacion punto 11.p3") },
                             { content: t("termsAndConditions.documento.informacion punto 11.p4") },
                             { content: t("termsAndConditions.documento.informacion punto 11.p5") },
-                            { content: t("termsAndConditions.documento.informacion punto 11.p6") },
-                            { content: t("termsAndConditions.documento.informacion punto 11.p7") },
-
-
-                        ].map((item, index) => (
+                        ].map(({ content }, index) => (
                             <div key={index} className="mb-4">
-                                <p>
-                                    {item.content}</p>
+                                <p> {content}</p>
                             </div>
                         ))}
+
                     </section>
 
                     <section className="mb-8" id="section12">

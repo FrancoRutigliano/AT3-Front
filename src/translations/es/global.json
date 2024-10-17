@@ -548,7 +548,17 @@
         "m": "Realizar cualquier acción que imponga una carga desproporcionada o desmesurada sobre la infraestructura tecnológica de la Plataforma;",
         "n": "Utilizar meta tags o algún otro tipo de texto oculto con el nombre 'Atómico', 'Atómico', o cualquier otro nombre o denominación comercial y/o derechos de propiedad intelectual que le pertenezcan o sean de titularidad de Atómico o de sus licenciantes o Afiliadas;",
         "o": "Realizar una factura dirigida a Atómico, a menos que entre el Usuario y Atómico se haya establecido un acuerdo comercial por el cual Atómico haya aceptado pagar por bienes o servicios. Toda factura emitida a nombre de Atómico, fuera del caso anterior, será nula."
-      }
+      },
+      
+        "informacion punto 11": {
+          "p1": "El Usuario puede solicitar la baja de la Cuenta a través de la Plataforma, o vía correo electrónico a support@atomico3.io únicamente desde la casilla de correo con la cual se registró, o vía carta documento dirigida a la dirección: Av. Aviadores del Chaco 2351 8 piso, Asunción, Paraguay.",
+          "p2": "Atómico podrá solicitar comprobantes o información adicional a efectos de corroborar la veracidad de la solicitud de baja y de la información suministrada por el Usuario. La verificación se realiza a fin de proteger los derechos y activos del Usuario y, en ningún modo, limitará o restringirá el derecho del Usuario a solicitar la baja del servicio. Una vez que dicha solicitud se considere válida, Atómico procederá a la eliminación de las credenciales de acceso a los Servicios. El número de documento y el correo electrónico asociados al Usuario permanecerán bloqueados, de modo que ninguna otra persona podrá crear una nueva Cuenta bajo dichos parámetros.",
+          "p3": "Tanto el Usuario como Atómico podrán en cualquier momento terminar este contrato manifestando justa causa. El Usuario podrá terminar el contrato solicitando a Atómico, por los medios de notificación previstos en estos T&C o por los medios disponibles a través de la Plataforma, el cierre de su Cuenta. Atómico sólo procederá a cerrar la Cuenta si la misma tuviese saldo positivo o equivalente a cero. Si el Usuario recibiera acreditaciones periódicas de manera automática, cualquiera fuera su causa, entiende y está de acuerdo con que no es posible para Atómico adelantar ninguna de esas acreditaciones, y que cualquier acreditación posterior a la solicitud de cierre de la Cuenta deberán ser reprogramados con el tercero con quien el Usuario hubiese acordado esas acreditaciones o, por el contrario, canceladas sin derecho a indemnización.",
+          "p4": "El saldo positivo en la Cuenta deberá ser retirado por el Cliente previo al cierre de la Cuenta. Pero si al momento del cierre, existiese saldo positivo, será liquidado y entregado al Usuario a través del medio seleccionado por el Usuario e informado fehacientemente a Atómico o a alguno de los medios que el Usuario haya previamente utilizado para extraer activos digitales. No se podrá proceder al cierre de la Cuenta si se mantiene saldo que no pueda ser devuelto al Usuario por cualquier causa ajena a Atómico.",
+          "p5": "El Usuario autoriza a Atómico a cobrar cualquier interés, costo y/o gasto que resulten aplicables al momento de, o por causa de, la terminación o el cierre de la Cuenta."
+        }
+      
+      
     }
   }
 }

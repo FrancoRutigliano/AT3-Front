@@ -397,7 +397,7 @@ export const Terms = () => {
                         <h2 className="text-xl font-semibold mb-2 text-blue-500">19. {t("termsAndConditions.titles.title19")}   </h2>
 
                         {[
-                            { item:"19.1",content: t("termsAndConditions.documento.informacion punto 19.p1") },
+                            { item: "19.1", content: t("termsAndConditions.documento.informacion punto 19.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 19.p2") },
                             { content: t("termsAndConditions.documento.informacion punto 19.p3") },
                             { content: t("termsAndConditions.documento.informacion punto 19.p4") },
@@ -405,13 +405,13 @@ export const Terms = () => {
                             { content: t("termsAndConditions.documento.informacion punto 19.p6") },
                             { content: t("termsAndConditions.documento.informacion punto 19.p7") },
                             { content: t("termsAndConditions.documento.informacion punto 19.p8") },
-                            {  item:"19.2", content: t("termsAndConditions.documento.informacion punto 19.p9") },
-                            {  item:"19.3", content: t("termsAndConditions.documento.informacion punto 19.p10") },
-                            {  item:"19.4", content: t("termsAndConditions.documento.informacion punto 19.p11") },
+                            { item: "19.2", content: t("termsAndConditions.documento.informacion punto 19.p9") },
+                            { item: "19.3", content: t("termsAndConditions.documento.informacion punto 19.p10") },
+                            { item: "19.4", content: t("termsAndConditions.documento.informacion punto 19.p11") },
                         ].map(({ content, item }, index) => (
                             <div key={index} className="mb-4">
                                 <p>
-                                {item && <span className=" text-blue-500">{item} </span>}
+                                    {item && <span className=" text-blue-500">{item} </span>}
                                     {content}</p>
                             </div>
                         ))}
@@ -419,20 +419,140 @@ export const Terms = () => {
                     <section className="mb-8" id="section20">
                         <h2 className="text-xl font-semibold mb-2 text-blue-500">20. {t("termsAndConditions.titles.title20")}   </h2>
                         {[
-                            { item:"20.1",content: t("termsAndConditions.documento.informacion punto 20.20.1 p1") },
+                            { item: "20.1", content: t("termsAndConditions.documento.informacion punto 20.20.1 p1") },
                             { content: t("termsAndConditions.documento.informacion punto 20.20.1 p2") },
                             { content: t("termsAndConditions.documento.informacion punto 20.20.1 p3") },
                             { content: t("termsAndConditions.documento.informacion punto 20.20.1 p4") },
                             { content: t("termsAndConditions.documento.informacion punto 20.20.1 p5") },
-                            { item:"20.2", content: t("termsAndConditions.documento.informacion punto 20.20.2") },
-                            { item:"20.3", content: t("termsAndConditions.documento.informacion punto 20.20.3") },
-                            { item:"20.4", content: t("termsAndConditions.documento.informacion punto 20.20.4") },
+                            { item: "20.2", content: t("termsAndConditions.documento.informacion punto 20.20.2") },
+                            { item: "20.3", content: t("termsAndConditions.documento.informacion punto 20.20.3") },
+                            { item: "20.4", content: t("termsAndConditions.documento.informacion punto 20.20.4") },
                         ].map(({ content, item }, index) => (
                             <div key={index} className="mb-4">
                                 <p>
-                                {item && <span className=" text-blue-500">{item} </span>}
+                                    {item && <span className=" text-blue-500">{item} </span>}
                                     {content}</p>
                             </div>
+                        ))}
+                    </section>
+                    <section className="mb-8" id="section21">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">21. {t("termsAndConditions.titles.title21")}   </h2>
+
+
+                        {[
+                            { item: "21.1", content: t("termsAndConditions.documento.informacion punto 21.21.1") },
+                            { item: "21.2", content: t("termsAndConditions.documento.informacion punto 21.21.2") },
+                            { item: "21.3", content: t("termsAndConditions.documento.informacion punto 21.21.3") },
+                            { item: "21.4", content: t("termsAndConditions.documento.informacion punto 21.21.4") },
+                            { item: "i)", content: t("termsAndConditions.documento.informacion punto 21.21.4 i") },
+                            { item: "ii)", content: t("termsAndConditions.documento.informacion punto 21.21.4 ii") },
+                            { item: "iii)", content: t("termsAndConditions.documento.informacion punto 21.21.4 iii") },
+                            { item: "21.5", content: t("termsAndConditions.documento.informacion punto 21.21.5") },
+                            { content: t("termsAndConditions.documento.informacion punto 21.21.5 p1") },
+                            { content: t("termsAndConditions.documento.informacion punto 21.21.5 p2") },
+                            { content: t("termsAndConditions.documento.informacion punto 21.21.5 p3") },
+                            { content: t("termsAndConditions.documento.informacion punto 21.21.5 p4") },
+                        ].map(({ content, item }, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                    {/* {inciso && <span className=" text-blue-500">{inciso} </span>} */}
+                                    {item && <span className=" text-blue-500">{item} </span>}
+                                    {content}</p>
+
+                            </div>
+                        ))}
+
+                        <ul className="list-disc pl-5">
+                            {[
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p5") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p6") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p7") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p8") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p9") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p10") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p11") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p12") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p13") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p14") },
+                            ].map(({ content }, index) => (
+                                <li key={index} className="mb-2">
+                                    {content}
+                                </li>
+                            ))}
+                        </ul>
+
+                        {[
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p15") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p16") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p17") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p18") },
+                        ].map(({ text }, index) => (
+                            <p key={index} className="mb-4">{text} </p>
+                        ))}
+
+
+                        <p className="mt-8">{t("termsAndConditions.documento.informacion punto 21.21.5 p19")}</p>
+                        <p className="mt-2">{t("termsAndConditions.documento.informacion punto 21.21.5 p20")}</p>
+
+
+                        <ul className="list-disc pl-5">
+                            {[
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p21") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p22") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p23") },
+                                { content: t("termsAndConditions.documento.informacion punto 21.21.5 p24") },
+                            ].map(({ content }, index) => (
+                                <li key={index} className=" my-2">
+                                    {content}
+                                </li>
+                            ))}
+                        </ul>
+
+                        {[
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p25") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p26") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p27") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p28") },
+                        ].map(({ text }, index) => (
+                            <p key={index} className="my-3">{text} </p>
+                        ))}
+
+                        <p className="mt-8 mb-4">{t("termsAndConditions.documento.informacion punto 21.21.5 p29")}</p>
+
+                        {[
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p30") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p31") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p32") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p33") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p34") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p35") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p36") },
+
+                        ].map(({ text }, index) => (
+                            <p key={index} className="my-3">{text} </p>
+                        ))}
+
+                        <p className="mt-8 mb-4">{t("termsAndConditions.documento.informacion punto 21.21.5 p37")}</p>
+                        {[
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p38") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p39") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p40") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p41") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p42") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p43") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p44") },
+                            { text: t("termsAndConditions.documento.informacion punto 21.21.5 p45") },
+                            {
+                                text: t("termsAndConditions.documento.informacion punto 21.21.5 p46"),
+                                link: t("termsAndConditions.documento.informacion punto 21.21.5 p46 link")
+                            },
+
+
+
+                        ].map(({ text, link }, index) => (
+                            <p key={index} className="my-3">{text} 
+                                {link && <a href={link} target="_blank" className="text-blue-500 hover:underline"> {link}</a>}
+                             </p>
                         ))}
                     </section>
                 </div>

@@ -408,9 +408,6 @@ export const Terms = () => {
                             {  item:"19.2", content: t("termsAndConditions.documento.informacion punto 19.p9") },
                             {  item:"19.3", content: t("termsAndConditions.documento.informacion punto 19.p10") },
                             {  item:"19.4", content: t("termsAndConditions.documento.informacion punto 19.p11") },
-
-
-
                         ].map(({ content, item }, index) => (
                             <div key={index} className="mb-4">
                                 <p>
@@ -418,7 +415,25 @@ export const Terms = () => {
                                     {content}</p>
                             </div>
                         ))}
-
+                    </section>
+                    <section className="mb-8" id="section20">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">20. {t("termsAndConditions.titles.title20")}   </h2>
+                        {[
+                            { item:"20.1",content: t("termsAndConditions.documento.informacion punto 20.20.1 p1") },
+                            { content: t("termsAndConditions.documento.informacion punto 20.20.1 p2") },
+                            { content: t("termsAndConditions.documento.informacion punto 20.20.1 p3") },
+                            { content: t("termsAndConditions.documento.informacion punto 20.20.1 p4") },
+                            { content: t("termsAndConditions.documento.informacion punto 20.20.1 p5") },
+                            { item:"20.2", content: t("termsAndConditions.documento.informacion punto 20.20.2") },
+                            { item:"20.3", content: t("termsAndConditions.documento.informacion punto 20.20.3") },
+                            { item:"20.4", content: t("termsAndConditions.documento.informacion punto 20.20.4") },
+                        ].map(({ content, item }, index) => (
+                            <div key={index} className="mb-4">
+                                <p>
+                                {item && <span className=" text-blue-500">{item} </span>}
+                                    {content}</p>
+                            </div>
+                        ))}
                     </section>
                 </div>
             </div>

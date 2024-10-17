@@ -240,6 +240,36 @@ export const Terms = () => {
                             <p  className="mb-4"><span className="text-blue-500">9.4.1 </span> {t("termsAndConditions.documento.informacion punto 9.9.4.1")}</p>
                             <p  className="mb-4"><span className="text-blue-500">9.4.2 </span> {t("termsAndConditions.documento.informacion punto 9.9.4.2")}</p>
                             <p  className="mb-4"> {t("termsAndConditions.documento.informacion punto 9.9.4.2 p1")}</p>
+
+                            {[
+                                { item: "9.4.3", text: t("termsAndConditions.documento.informacion punto 9.9.4.3") },
+                                { item: "9.4.4", text: t("termsAndConditions.documento.informacion punto 9.9.4.4") },
+                                { item: "9.4.5", text: t("termsAndConditions.documento.informacion punto 9.9.4.5") },
+                                { item: "9.4.6", text: t("termsAndConditions.documento.informacion punto 9.9.4.6") },
+                                { item: "9.2.7", text: t("termsAndConditions.documento.informacion punto 9.9.4.7") },
+                                { item: "", text: t("termsAndConditions.documento.informacion punto 9.9.4.7 p1") },
+                                { item: "9.4.8", text: t("termsAndConditions.documento.informacion punto 9.9.4.8") },
+                                { item: "9.4.9", text: t("termsAndConditions.documento.informacion punto 9.9.4.9") },
+                                { item: "9.4.9.1", text: t("termsAndConditions.documento.informacion punto 9.9.4.9.1") },
+                                { item: "9.4.9.2", text: t("termsAndConditions.documento.informacion punto 9.9.4.9.2") },
+                                { item: "9.4.9.3", text: t("termsAndConditions.documento.informacion punto 9.9.4.9.3") },
+                                { item: "9.4.9.4", text: t("termsAndConditions.documento.informacion punto 9.9.4.9.4") },
+                                { item: "9.4.10", text: t("termsAndConditions.documento.informacion punto 9.9.4.10") },
+                                { item: "9.4.11", text: t("termsAndConditions.documento.informacion punto 9.9.4.11") },
+
+
+
+
+
+
+
+
+
+                            ].map(({ text, item }, index) => (
+                                <p key={index} className="mb-4"><span className="text-blue-500">{item} </span>{text} </p>
+                            ))}
+
+
                         </div>
 
                     </section>

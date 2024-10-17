@@ -322,19 +322,16 @@ export const Terms = () => {
                         <h2 className="text-xl font-semibold mb-2 text-blue-500">12. {t("termsAndConditions.titles.title12")}    </h2>
 
                         {[
-                            { content: t("termsAndConditions.documento.informacion punto 12.p1") },
-                            { content: t("termsAndConditions.documento.informacion punto 12.p2") },
-                            { content: t("termsAndConditions.documento.informacion punto 12.p3") },
-
-                        ].map((item, index) => (
-                            <div key={index} className="mb-4">
-                                <p> {item.content}</p>
-                            </div>
-                        ))}
-
-                        <p className="mb-4 "><span className="text-blue-500 ">a)</span> {t("termsAndConditions.documento.informacion punto 12.a")}</p>
-                        <p className="mb-4"><span className="text-blue-500 ">b) </span>{t("termsAndConditions.documento.informacion punto 12.b")} <a target="_blank" href="http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general" className="text-blue-500 hover:underline">{t("termsAndConditions.documento.informacion punto 12.b link")}</a> {t("termsAndConditions.documento.informacion punto 12.b.1")} </p>
-                        <p className="mb-4"><span className="text-blue-500 ">c) </span>{t("termsAndConditions.documento.informacion punto 12.c")}</p>
+  { content: t("termsAndConditions.documento.informacion punto 12.p1") },
+  { content: t("termsAndConditions.documento.informacion punto 12.p2") },
+  { content: t("termsAndConditions.documento.informacion punto 12.p3") },
+  { content: t("termsAndConditions.documento.informacion punto 12.p4") },
+  { content: t("termsAndConditions.documento.informacion punto 12.p5") },
+].map(({ content }, index) => (
+  <div key={index} className="mb-4">
+    <p> {content}</p>
+  </div>
+))}
 
 
                     </section>

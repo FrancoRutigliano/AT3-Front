@@ -556,8 +556,17 @@
           "p3": "Tanto el Usuario como Atómico podrán en cualquier momento terminar este contrato manifestando justa causa. El Usuario podrá terminar el contrato solicitando a Atómico, por los medios de notificación previstos en estos T&C o por los medios disponibles a través de la Plataforma, el cierre de su Cuenta. Atómico sólo procederá a cerrar la Cuenta si la misma tuviese saldo positivo o equivalente a cero. Si el Usuario recibiera acreditaciones periódicas de manera automática, cualquiera fuera su causa, entiende y está de acuerdo con que no es posible para Atómico adelantar ninguna de esas acreditaciones, y que cualquier acreditación posterior a la solicitud de cierre de la Cuenta deberán ser reprogramados con el tercero con quien el Usuario hubiese acordado esas acreditaciones o, por el contrario, canceladas sin derecho a indemnización.",
           "p4": "El saldo positivo en la Cuenta deberá ser retirado por el Cliente previo al cierre de la Cuenta. Pero si al momento del cierre, existiese saldo positivo, será liquidado y entregado al Usuario a través del medio seleccionado por el Usuario e informado fehacientemente a Atómico o a alguno de los medios que el Usuario haya previamente utilizado para extraer activos digitales. No se podrá proceder al cierre de la Cuenta si se mantiene saldo que no pueda ser devuelto al Usuario por cualquier causa ajena a Atómico.",
           "p5": "El Usuario autoriza a Atómico a cobrar cualquier interés, costo y/o gasto que resulten aplicables al momento de, o por causa de, la terminación o el cierre de la Cuenta."
-        }
-      
+        },
+        
+          "informacion punto 12": {
+            "p1": "El Usuario reconoce que todo servicio a través del cual se almacenen activos digitales presenta un objetivo atractivo para estafadores y hackers. Mientras que Atómico toma medidas razonables comunes para su industria, para garantizar la seguridad de los fondos y los activos digitales del Usuario, su seguridad en una Cuenta específica depende también de las medidas de seguridad que el propio Usuario tome con respecto a los dispositivos y el modo por los que accede a su Cuenta.",
+            "p2": "Atómico promueve al Usuario la importancia de la fortaleza de la contraseña elegida y también ofrece al Usuario la posibilidad de acceder a su Cuenta a través de un doble factor de autenticación (“2FA”) que eleva significativamente la seguridad de acceso a la Cuenta. En línea con lo establecido en estos T&C, Atómico asume que cualquier modificación y movimiento en una Cuenta, mediante logueo previo, ha sido efectuado por el Usuario, por lo que el Usuario reconoce y acepta ser el exclusivo responsable del uso que se haga de su Cuenta y de las consecuencias y daños directos e indirectos que de él se deriven.",
+            "p3": "En caso de que el Usuario olvide o pierda su contraseña podrá recuperarla por los medios disponibles a través de la Plataforma, en defecto de lo cual deberá contactarse con Atómico a la dirección support@atomico3.io.",
+            "p4": "El Usuario acepta, entiende y reconoce que Atómico, en ningún caso tiene acceso o conocimiento de la contraseña que el Usuario haya elegido al momento de la creación o recuperación de la Cuenta debido a que la misma se encuentra encriptada bajo estrictos protocolos de seguridad.",
+            "p5": "Atómico hará sus mejores esfuerzos para mantener la confidencialidad y seguridad de los Usuarios, pero no responderá por perjuicios que se puedan derivar de la violación de dichas medidas por parte de terceros que utilicen las redes públicas o el Internet para acceder a dicha información o en los casos en que exista culpa o negligencia del Usuario."
+          }
+        
+        
       
     }
   }

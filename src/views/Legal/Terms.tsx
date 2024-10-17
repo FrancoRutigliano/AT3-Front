@@ -555,8 +555,8 @@ export const Terms = () => {
                         ))}
 
                         <p className="mt-10"><span className=" text-blue-500">21.6 </span>
-                        { t("termsAndConditions.documento.informacion punto 21.21.6")} </p>
-                        <p className="mt-6"> { t("termsAndConditions.documento.informacion punto 21.21.6 p1")} </p>
+                            {t("termsAndConditions.documento.informacion punto 21.21.6")} </p>
+                        <p className="mt-6"> {t("termsAndConditions.documento.informacion punto 21.21.6 p1")} </p>
                         <ul className="list-disc pl-5">
                             {[
                                 { content: t("termsAndConditions.documento.informacion punto 21.21.6 p2") },
@@ -581,6 +581,35 @@ export const Terms = () => {
                                 <p> {content}</p>
                             </div>
                         ))}
+                    </section>
+                    <section className="mb-8" id="section23">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">23. {t("termsAndConditions.titles.title23")}   </h2>
+                        {[
+                            { content: t("termsAndConditions.documento.informacion punto 23.p1") },
+                            { content: t("termsAndConditions.documento.informacion punto 23.p2") },
+                        ].map(({ content }, index) => (
+                            <div key={index} className="mb-4">
+                                <p> {content}</p>
+                            </div>
+                        ))}
+                    </section>
+                    <section className="mb-8" id="section24">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">24. {t("termsAndConditions.titles.title24")}   </h2>
+                        <p className="my-3">{t("termsAndConditions.documento.informacion punto 24.p1")}</p>
+                    </section>
+                    <section className="mb-8" id="section25">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">25. {t("termsAndConditions.titles.title25")}   </h2>
+
+                        {[
+                            { content: t("termsAndConditions.documento.informacion punto 25.p1")},
+                            { content: t("termsAndConditions.documento.informacion punto 25.p2") },
+                        ].map(({ content }, index) => (
+                            <div key={index} className="mb-4">
+                                <p> {content}</p>
+                            </div>
+                        ))}
+
+
                     </section>
                 </div>
             </div>

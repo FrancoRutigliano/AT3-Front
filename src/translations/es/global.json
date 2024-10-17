@@ -671,18 +671,28 @@
         "21.5 p45": "Atómico podrá modificar en cualquier momento la Promoción, incluso eliminarla, sin necesidad de aviso previo al Usuario. La modificación o eliminación no otorgará al Usuario derecho a reclamar a Atómico por ningún concepto.",
         "21.5 p46": "En el caso de  alguna de las Promociones o Descuentos anteriores, sea aplicable en forma acumulativa una promoción definida por VISA, deberá tenerse en cuenta los propios términos estipulados en",
         "21.5 p46 link": "https://www.visa.com.ar/es_ar/promociones/",
-        "21.6": "Conforme se indica en la cláusula 9.4.10., si se realiza una compra con la Tarjeta Prepaga de ATOMICO3 habiendo seleccionado AT3 medio de pago,  Atómico procederá a la venta de la cantidad necesaria del activo digital seleccionado para obtener los pesos argentinos correspondientes para afrontar el pago de la suma indicada por el Comercio. Para dicha venta, Atómico utilizará el valor de venta de dicho activo al momento de realizar la operación. Atómico cobrará al usuario la comisión correspondiente a una venta de activo digital.  En caso de que se trate de una compra en moneda extranjera o en el exterior, habiendo seleccionado alguno de los activos digitales como medio de pago, Atómico procederá, además de la comisión por la venta indicada, al cobro de un costo fijo estipulado por VISA.", 
+        "21.6": "Conforme se indica en la cláusula 9.4.10., si se realiza una compra con la Tarjeta Prepaga de ATOMICO3 habiendo seleccionado AT3 medio de pago,  Atómico procederá a la venta de la cantidad necesaria del activo digital seleccionado para obtener los pesos argentinos correspondientes para afrontar el pago de la suma indicada por el Comercio. Para dicha venta, Atómico utilizará el valor de venta de dicho activo al momento de realizar la operación. Atómico cobrará al usuario la comisión correspondiente a una venta de activo digital.  En caso de que se trate de una compra en moneda extranjera o en el exterior, habiendo seleccionado alguno de los activos digitales como medio de pago, Atómico procederá, además de la comisión por la venta indicada, al cobro de un costo fijo estipulado por VISA.",
         "21.6 p1": "Dicho costo dependerá del monto de transacción a considerarse en el equivalente en dólares estadounidenses (“USDT”), y se aplicará una vez que haya sido aprobada la transacción.",
         "21.6 p2": "Tier 1 - de 0,01 a 5 USD - Costo fijo: 0,11 USD",
         "21.6 p3": "Tier 2 - de 5,01 a 15 USD - Costo fijo: 0,18 USD",
         "21.6 p4": "Tier 3 - de 15,01 a 50 USD- Costo fijo: 0,24 USD",
         "21.6 p5": "Tier 4 - 50,01 USD o más - Costo Fijo: 0,54 USD"
       },
-        "informacion punto 22": {
-          "p1": "En caso de que una o más cláusulas de estos T&C se declarasen nulas por cualquier autoridad u órgano judicial competente, tal nulidad no afectará la validez de las restantes cláusulas, que mantendrán su plena vigencia y efecto.",
-          "p2": "El Usuario entiende y acepta que cualquier falta de acción por parte de Atómico respecto del incumplimiento o violación por parte del Usuario de una o más disposiciones de los presentes T&C no implica la conformidad de Atómico con tal actitud, ni impide que la persiga o que en el futuro persiga otra violación idéntica o similar. Asimismo, el Usuario entiende y acepta que el hecho de que cualquier funcionalidad de la Plataforma esté efectivamente disponible, aunque no esté mencionada en estos T&C, no dará derecho al Usuario al mantenimiento de la funcionalidad ni a indemnización alguna en caso de su discontinuación con o sin previo aviso."
-        }
-      
+      "informacion punto 22": {
+        "p1": "En caso de que una o más cláusulas de estos T&C se declarasen nulas por cualquier autoridad u órgano judicial competente, tal nulidad no afectará la validez de las restantes cláusulas, que mantendrán su plena vigencia y efecto.",
+        "p2": "El Usuario entiende y acepta que cualquier falta de acción por parte de Atómico respecto del incumplimiento o violación por parte del Usuario de una o más disposiciones de los presentes T&C no implica la conformidad de Atómico con tal actitud, ni impide que la persiga o que en el futuro persiga otra violación idéntica o similar. Asimismo, el Usuario entiende y acepta que el hecho de que cualquier funcionalidad de la Plataforma esté efectivamente disponible, aunque no esté mencionada en estos T&C, no dará derecho al Usuario al mantenimiento de la funcionalidad ni a indemnización alguna en caso de su discontinuación con o sin previo aviso."
+      },
+      "informacion punto 23": {
+        "p1": "Atómico podrá ceder a cualquiera de sus Afiliadas o a un tercero su posición contractual, este contrato, y/o cualquiera de los derechos y obligaciones emergentes del mismo. Se le notificará al Usuario esta operación.",
+        "p2": "A menos que medie consentimiento expreso y por escrito de un representante debidamente autorizado de Atómico, el Usuario no podrá ceder a ningún tercero su posición contractual, este contrato, ni cualquiera de los derechos u obligaciones emergentes del mismo."
+      },
+      "informacion punto 24": {
+        "p1": "El Usuario otorga su expreso consentimiento para que toda información relacionada con su calidad de Usuario, su Cuenta y el uso de la Plataforma y/o de los Servicios, le sea notificada o informada al último correo electrónico informado por el Usuario, a través notificaciones dentro de la Plataforma y/o por cualquier otro medio que implique una notificación por medios electrónicos."
+      },
+      "informacion punto 25": {
+        "p1": "Los T&C se encuentran regidos sin excepción y en todos sus puntos por las leyes de la República del Paraguay y serán interpretados de acuerdo con ellas.",
+        "p2": "Ante cualquier diferencia, desacuerdo o conflicto derivado del uso de la Plataforma y/o de los Servicios, o de la interpretación, validez, y/o alcance de los presentes T&C, el Usuario podrá a iniciar su reclamo a través de los medios previstos en la Plataforma, o en su defecto a comunicarse con Atómico de manera fehaciente, haciéndole llegar su reclamo, para que las partes traten de llegar a un acuerdo antes de iniciar cualquier reclamo ante la jurisdicción que le corresponda."
+      }
     }
   }
 }

@@ -611,6 +611,22 @@ export const Terms = () => {
 
 
                     </section>
+                    <section className="mb-8" id="section26">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">26. {t("termsAndConditions.titles.title26")}   </h2>
+                        <p className="my-3">{t("termsAndConditions.documento.informacion punto 26.p1")}</p>
+                    </section>
+                    <section className="mb-8" id="section27">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">27. {t("termsAndConditions.titles.title27")}   </h2>
+                        <p className="my-3">{t("termsAndConditions.documento.informacion punto 27.p1")} <span className="text-blue-500 underline">support@Atómico3.io</span> {t("termsAndConditions.documento.informacion punto 27.p1.1")} </p>
+                    </section>
+                    <section className="mb-8" id="section28">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">28. {t("termsAndConditions.titles.title28")}   </h2>
+                        <p className="my-3">{t("termsAndConditions.documento.informacion punto 28.p1")}</p>
+                        <p className="my-3 font-bold lg:text-lg">{t("termsAndConditions.documento.informacion punto 28.p2")}</p>
+                        <p className="my-3 font-bold lg:text-lg">{t("termsAndConditions.documento.informacion punto 28.p3")}</p>
+                        <p className="my-3"><span className="underline">{t("termsAndConditions.documento.informacion punto 28.p4")}</span> {t("termsAndConditions.documento.informacion punto 28.p5")} </p>
+                        <p className="my-3"><span className="underline">{t("termsAndConditions.documento.informacion punto 28.p6")}</span> <span className="text-blue-500"> {t("termsAndConditions.documento.informacion punto 28.p7")}</span> </p>
+                    </section>
                 </div>
             </div>
         </section>

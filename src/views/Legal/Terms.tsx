@@ -234,12 +234,12 @@ export const Terms = () => {
                             ))}
 
                             <h4 className="underline underline-offset-8 decoration-blue-500 mb-4"><span className="text-blue-500">9.3</span> {t("termsAndConditions.documento.informacion punto 9.9.3")}</h4>
-                            <p  className="mb-4"><span className="text-blue-500">9.3.1 </span> {t("termsAndConditions.documento.informacion punto 9.9.3.1")}</p>
+                            <p className="mb-4"><span className="text-blue-500">9.3.1 </span> {t("termsAndConditions.documento.informacion punto 9.9.3.1")}</p>
 
                             <h4 className="underline underline-offset-8 decoration-blue-500 mb-4"><span className="text-blue-500">9.4</span> {t("termsAndConditions.documento.informacion punto 9.9.4")}</h4>
-                            <p  className="mb-4"><span className="text-blue-500">9.4.1 </span> {t("termsAndConditions.documento.informacion punto 9.9.4.1")}</p>
-                            <p  className="mb-4"><span className="text-blue-500">9.4.2 </span> {t("termsAndConditions.documento.informacion punto 9.9.4.2")}</p>
-                            <p  className="mb-4"> {t("termsAndConditions.documento.informacion punto 9.9.4.2 p1")}</p>
+                            <p className="mb-4"><span className="text-blue-500">9.4.1 </span> {t("termsAndConditions.documento.informacion punto 9.9.4.1")}</p>
+                            <p className="mb-4"><span className="text-blue-500">9.4.2 </span> {t("termsAndConditions.documento.informacion punto 9.9.4.2")}</p>
+                            <p className="mb-4"> {t("termsAndConditions.documento.informacion punto 9.9.4.2 p1")}</p>
 
                             {[
                                 { item: "9.4.3", text: t("termsAndConditions.documento.informacion punto 9.9.4.3") },
@@ -276,17 +276,31 @@ export const Terms = () => {
                     <section className="mb-8" id="section10">
                         <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">10. {t("termsAndConditions.titles.title10")}</h2>
 
-                        <p className="mb-4">{t("termsAndConditions.documento.informacion punto 10.p1")}</p>
-                        <p className="mb-3">{t("termsAndConditions.documento.informacion punto 10.p2")}</p>
+                        <p className="mb-4">{t("termsAndConditions.documento.informacion punto 10.intro")}</p>
+
                         {[
-                            { item: "i)", text: t("termsAndConditions.documento.informacion punto 10.item i") },
-                            { item: "ii)", text: t("termsAndConditions.documento.informacion punto 10.item ii") },
-                            { item: "iii)", text: t("termsAndConditions.documento.informacion punto 10.item iii") },
-                        ].map((elem, index) => (
+                            { content: t("termsAndConditions.documento.informacion punto 10.a"), item: "a)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.b"), item: "b)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.c"), item: "c)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.d"), item: "d)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.e"), item: "e)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.f"), item: "f)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.g"), item: "g)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.h"), item: "h)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.i"), item: "i)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.j"), item: "j)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.k"), item: "k)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.l"), item: "l)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.m"), item: "m)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.n"), item: "n)" },
+                            { content: t("termsAndConditions.documento.informacion punto 10.o"), item: "o)" },
+                        ].map(({ content, item }, index) => (
                             <div key={index} className="mb-4">
-                                <p><span className="text-blue-500"> {elem.item} </span> {elem.text}</p>
+                                <p> <span className="text-blue-500">{item} </span> {content}</p>
                             </div>
                         ))}
+
+
                     </section>
                     <section className="mb-8" id="section11">
                         <h2 className="text-xl font-semibold mb-4 mt-10 text-blue-500">11. {t("termsAndConditions.titles.title11")}</h2>

@@ -677,10 +677,12 @@
         "21.6 p3": "Tier 2 - de 5,01 a 15 USD - Costo fijo: 0,18 USD",
         "21.6 p4": "Tier 3 - de 15,01 a 50 USD- Costo fijo: 0,24 USD",
         "21.6 p5": "Tier 4 - 50,01 USD o más - Costo Fijo: 0,54 USD"
-        
-
-
-      }
+      },
+        "informacion punto 22": {
+          "p1": "En caso de que una o más cláusulas de estos T&C se declarasen nulas por cualquier autoridad u órgano judicial competente, tal nulidad no afectará la validez de las restantes cláusulas, que mantendrán su plena vigencia y efecto.",
+          "p2": "El Usuario entiende y acepta que cualquier falta de acción por parte de Atómico respecto del incumplimiento o violación por parte del Usuario de una o más disposiciones de los presentes T&C no implica la conformidad de Atómico con tal actitud, ni impide que la persiga o que en el futuro persiga otra violación idéntica o similar. Asimismo, el Usuario entiende y acepta que el hecho de que cualquier funcionalidad de la Plataforma esté efectivamente disponible, aunque no esté mencionada en estos T&C, no dará derecho al Usuario al mantenimiento de la funcionalidad ni a indemnización alguna en caso de su discontinuación con o sin previo aviso."
+        }
+      
     }
   }
 }

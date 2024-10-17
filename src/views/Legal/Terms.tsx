@@ -571,6 +571,17 @@ export const Terms = () => {
                         </ul>
 
                     </section>
+                    <section className="mb-8" id="section22">
+                        <h2 className="text-xl font-semibold mb-2 text-blue-500">22. {t("termsAndConditions.titles.title22")}   </h2>
+                        {[
+                            { content: t("termsAndConditions.documento.informacion punto 22.p1") },
+                            { content: t("termsAndConditions.documento.informacion punto 22.p2") },
+                        ].map(({ content }, index) => (
+                            <div key={index} className="mb-4">
+                                <p> {content}</p>
+                            </div>
+                        ))}
+                    </section>
                 </div>
             </div>
         </section>

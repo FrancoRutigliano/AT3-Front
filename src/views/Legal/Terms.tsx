@@ -45,7 +45,7 @@ export const Terms = () => {
                     </ul>
                 </div>
 
-                {/* Contenido de la Política de Privacidad */}
+                {/* Contenido de la Terminos y condiciones */}
                 <div className="w-full text-xs md:w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
 
                     <section id="section1">

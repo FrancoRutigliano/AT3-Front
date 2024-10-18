@@ -37,7 +37,7 @@ export const Terms = () => {
                     <ul className="list-decimal text-black list-inside">
                         {titles.map((section, index) => (
                             <li key={index} className="p-2 md:p-5 border-l-4 border-celeste text-sm md:text-base">
-                                <a href={`#${section.id}`} className="text-black hover:text-celeste hover:font-medium transition duration-150 ease-out " onClick={(e) => handleAnchorClick(e, section.id)}>
+                                <a href={`#${section.id}`} className="text-black hover:text-celeste hover:font-medium transition duration-150 ease-out  " onClick={(e) => handleAnchorClick(e, section.id)}>
                                     {section.text}
                                 </a>
                             </li>

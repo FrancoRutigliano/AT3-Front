@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { getTermsTitles } from "../../Info/termsAndConditions";
-
+import arrowtop from '../../assets/arrowtop.png'
 export const Terms = () => {
     const [t] = useTranslation("global");
 
@@ -29,14 +29,14 @@ export const Terms = () => {
         //  </section>
         <section >
             <h1 className="text-2xl lg:text-6xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
-            <h5 className="text-xs w-2/3 mx-auto text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
-            <div className="flex relative">
+            <h5 className="text-xs md:text-lg w-2/3 mx-auto text-center mb-32 md:mb-20">{t("termsAndConditions.vigencia")}</h5>
+            <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}
-                <div className="hidden md:block w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4 sticky top-20 h-screen overflow-y-auto">
-                    <h2 className="text-lg font-semibold mb-4 text-black">{t("termsAndConditions.titles.indice")}</h2>
+                <div className=" md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky md:top-20 max-[768px]:max-h-[200px] rounded-t-lg  md:h-screen overflow-y-auto">
+                    <h2 className=" text-lg font-semibold mb-4 text-black">{t("termsAndConditions.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {titles.map((section, index) => (
-                            <li key={index} className="p-5 border-l-4 border-celeste">
+                            <li key={index} className="p-2 md:p-5 border-l-4 border-celeste">
                                 <a href={`#${section.id}`} className="text-black hover:underline" onClick={(e) => handleAnchorClick(e, section.id)}>
                                     {section.text}
                                 </a>
@@ -46,7 +46,7 @@ export const Terms = () => {
                 </div>
 
                 {/* Contenido de la Terminos y condiciones */}
-                <div className="w-full text-xs md:w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
+                <div className="w-full text-md md:w-3/4 p-6 bg-dark-light md:shadow-md md:rounded-lg">
 
                     <section id="section1">
 
@@ -629,6 +629,17 @@ export const Terms = () => {
                     </section>
                 </div>
             </div>
+            <button
+    className="fixed bottom-4 mb-1 md:mb-0 right-4 bg-dark-blue text-white p-2 rounded-full shadow-lg  focus:outline-none flex items-center justify-center w-10 h-10 md:w-12 md:h-12"
+    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+>
+    <img
+        src={arrowtop}
+        alt="flecha"
+        className="w-6 h-6 md:w-8 md:h-8 object-contain"
+    />
+</button>
+
         </section>
     );
 };

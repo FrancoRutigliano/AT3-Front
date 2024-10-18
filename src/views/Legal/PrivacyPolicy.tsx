@@ -34,7 +34,7 @@ export const PrivacyPolicy = () => {
                     <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {indiceTitles.map((section, index) => (
-                            <li key={index} className="p-2 md:p-5 border-l-4 border-celeste text-xs md:text-sm">
+                            <li key={index} className="p-2 md:p-4 border-l-4 border-celeste text-xs md:text-sm">
                                 <a href={`#${section.id}`} className="text-black hover:text-celeste hover:font-medium transition duration-150 ease-out " onClick={(e) => handleAnchorClick(e, section.id)}>
                                     {section.text}
                                 </a>

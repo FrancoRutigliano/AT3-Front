@@ -12,7 +12,6 @@ import { Form } from './Form';
 export const Header = () => {
 
   const [showModal, setShowModal] = useState(false)
-  // const [showPopUp, setShowPopUp] = useState(false)
 
   const [t] = useTranslation("global")
   // const [animate, setAnimate] = useState(false);
@@ -23,10 +22,6 @@ export const Header = () => {
     setShowingForm(isVisible)
 }
 
-  // const handleOpenModal = (happySpringBtn: boolean) => {
-  //   setShowModal(true);
-  //   setIsSpringBtn(happySpringBtn)
-  // };
 
   const handleCloseModal = () => {
     setShowModal(false);
@@ -34,27 +29,7 @@ export const Header = () => {
 
   };
 
-  // const handleClosePopUp = ()=>{
-  //   setShowPopUp(false)
-  //   localStorage.setItem('modalShown', 'true');
-  // }
-
-
-  // useEffect(() => {
-    // const modalShown = localStorage.getItem('modalShown');
-  
-    // if (!modalShown) {
-      // Si no se ha mostrado, lo mostramos
-      // setShowPopUp(true);
-    
-    // }
-    // setAnimate(true);
-    // const timer = setTimeout(() => {
-      // setAnimate(false);
-    // }, 1000); 
-
-    // return () => clearTimeout(timer);
-  // }, []);
+ 
 
   if(showingForm) return (
     
@@ -66,7 +41,6 @@ export const Header = () => {
   return (
     <>
 
-{/* {showPopUp && <SpringPopUp handleClosePopUp={handleClosePopUp} />} */}
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   
@@ -84,8 +58,8 @@ export const Header = () => {
 <header className=' flex flex-col-reverse md:flex-row overflow-hidden bg-cover bg-no-repeat lg:px-16' style={{
   background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${e1})`,
   backgroundPosition: 'center top',
-  backgroundRepeat: 'no-repeat',  // Esto asegura que la imagen no se repita
-  backgroundSize: 'cover'  // Esto asegura que la imagen cubra el fondo completamente
+  backgroundRepeat: 'no-repeat',  
+  backgroundSize: 'cover'  
 }}>
 
 
@@ -127,15 +101,15 @@ export const Header = () => {
         </div>
       </div>
 
+         {/* href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"  */}
       {/* Sección de imagen */}
       <div className=' w-full md:w-1/2 flex flex-col items-center justify-center mt-20 md:mt-10 lg:mt-0 lg:pb-24  '>
         <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full md:mb-20 lg:mb-0 md:mt-0    ' />
-        <a 
-        // href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV" 
+        {/* <a 
         onClick={()=>showForm(true)}
         className='hover:cursor-pointer hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'>
           <button className='text-sm '>{t("header.whitepaper")}</button>
-        </a>
+        </a> */}
       </div>
     </header>
     </>

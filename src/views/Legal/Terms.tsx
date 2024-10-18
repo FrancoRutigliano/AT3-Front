@@ -28,15 +28,15 @@ export const Terms = () => {
         //     <h5 className="text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
         //  </section>
         <section >
-            <h1 className="text-2xl lg:text-6xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
-            <h5 className="text-xs md:text-lg w-2/3 mx-auto text-center mb-32 md:mb-20">{t("termsAndConditions.vigencia")}</h5>
+            <h1 className="text-2xl lg:text-5xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
+            <h5 className="text-xs md:text-base w-2/3 mx-auto text-center mb-32 md:mb-20">{t("termsAndConditions.vigencia")}</h5>
             <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}
                 <div className=" md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky md:top-20 max-[768px]:max-h-[160px] rounded-t-lg  md:h-screen overflow-y-auto">
                     <h2 className=" text-lg font-semibold mb-4 text-black">{t("termsAndConditions.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {titles.map((section, index) => (
-                            <li key={index} className="p-2 md:p-5 border-l-4 border-celeste text-sm md:text-base">
+                            <li key={index} className="p-2 md:p-4 border-l-4 border-celeste text-xs md:text-sm">
                                 <a href={`#${section.id}`} className="text-black hover:text-celeste hover:font-medium transition duration-150 ease-out  " onClick={(e) => handleAnchorClick(e, section.id)}>
                                     {section.text}
                                 </a>
@@ -46,11 +46,11 @@ export const Terms = () => {
                 </div>
 
                 {/* Contenido de la Terminos y condiciones */}
-                <div className="w-full text-base md:w-3/4 p-6 bg-dark-light md:shadow-md md:rounded-lg">
+                <div className="w-full text-sm md:w-3/4 p-6 bg-dark-light md:shadow-md md:rounded-lg">
 
                     <section id="section1">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">1. {t("termsAndConditions.titles.title1")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mt-6 mb-2 text-blue-500">1. {t("termsAndConditions.titles.title1")}</h2>
                         <p className="mb-4">
                             {t("termsAndConditions.documento.informacion punto 1.p1")}
 
@@ -86,7 +86,7 @@ export const Terms = () => {
 
                     <section id="section2">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("termsAndConditions.titles.title2")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("termsAndConditions.titles.title2")}</h2>
 
                         <p className="mb-4"> {t("termsAndConditions.documento.informacion punto 2.p1")}</p>
                         <p className="mb-4">{t("termsAndConditions.documento.informacion punto 2.p2")} <a href=" https://www.atomico3.io" className="text-blue-500 hover:underline"> https://www.atomico3.io</a> {t("termsAndConditions.documento.informacion punto 2.p3")}</p>
@@ -95,14 +95,14 @@ export const Terms = () => {
 
                     <section id="section3">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">3. {t("termsAndConditions.titles.title3")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mt-6 mb-2 text-blue-500">3. {t("termsAndConditions.titles.title3")}</h2>
 
                         <p className="mb-4"> {t("termsAndConditions.documento.informacion punto 3.p1")}</p>
 
                     </section>
                     <section id="section4">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">4. {t("termsAndConditions.titles.title4")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mt-6 mb-2 text-blue-500">4. {t("termsAndConditions.titles.title4")}</h2>
 
                         <p className="mb-4">{t("termsAndConditions.documento.informacion punto 4.p1")}</p>
                         {[
@@ -120,7 +120,7 @@ export const Terms = () => {
                     </section>
                     <section id="section5">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">5. {t("termsAndConditions.titles.title5")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mt-6 mb-2 text-blue-500">5. {t("termsAndConditions.titles.title5")}</h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 5.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 5.p2") },
@@ -137,7 +137,7 @@ export const Terms = () => {
                     </section>
 
                     <section className="mb-8 mt-10" id="section6">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">6.  {t("termsAndConditions.titles.title6")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">6.  {t("termsAndConditions.titles.title6")}</h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 6.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 6.p2") },
@@ -155,7 +155,7 @@ export const Terms = () => {
                     </section>
 
                     <section className="mb-8" id="section7">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">7. {t("termsAndConditions.titles.title7")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">7. {t("termsAndConditions.titles.title7")}</h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 7.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 7.p2") },
@@ -170,7 +170,7 @@ export const Terms = () => {
                     </section>
 
                     <section className="mb-8" id="section8">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">8. {t("termsAndConditions.titles.title8")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-4 mt-10 text-blue-500">8. {t("termsAndConditions.titles.title8")}</h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 8.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 8.p2") },
@@ -186,7 +186,7 @@ export const Terms = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section9">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">9. {t("termsAndConditions.titles.title9")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-4 mt-10 text-blue-500">9. {t("termsAndConditions.titles.title9")}</h2>
                         <div>
 
                             <h4 className="underline underline-offset-8 decoration-blue-500 mb-4"><span className="text-blue-500">9.1</span> {t("termsAndConditions.documento.informacion punto 9.9.1")}</h4>
@@ -274,7 +274,7 @@ export const Terms = () => {
 
                     </section>
                     <section className="mb-8" id="section10">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">10. {t("termsAndConditions.titles.title10")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-4 mt-10 text-blue-500">10. {t("termsAndConditions.titles.title10")}</h2>
 
                         <p className="mb-4">{t("termsAndConditions.documento.informacion punto 10.intro")}</p>
 
@@ -303,7 +303,7 @@ export const Terms = () => {
 
                     </section>
                     <section className="mb-8" id="section11">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">11. {t("termsAndConditions.titles.title11")}</h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-4 mt-10 text-blue-500">11. {t("termsAndConditions.titles.title11")}</h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 11.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 11.p2") },
@@ -319,7 +319,7 @@ export const Terms = () => {
                     </section>
 
                     <section className="mb-8" id="section12">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">12. {t("termsAndConditions.titles.title12")}    </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">12. {t("termsAndConditions.titles.title12")}    </h2>
 
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 12.p1") },
@@ -336,15 +336,15 @@ export const Terms = () => {
 
                     </section>
                     <section className="mb-8" id="section13">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">13. {t("termsAndConditions.titles.title13")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">13. {t("termsAndConditions.titles.title13")}   </h2>
                         <p className="my-4">{t("termsAndConditions.documento.informacion punto 13.p1")}</p>
                     </section>
                     <section className="mb-8" id="section14">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">14. {t("termsAndConditions.titles.title14")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">14. {t("termsAndConditions.titles.title14")}   </h2>
                         <p className="my-4">{t("termsAndConditions.documento.informacion punto 14.p1")}</p>
                     </section>
                     <section className="mb-8" id="section15">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">15. {t("termsAndConditions.titles.title15")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">15. {t("termsAndConditions.titles.title15")}   </h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 15.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 15.p2") },
@@ -357,7 +357,7 @@ export const Terms = () => {
                     </section>
 
                     <section className="mb-8" id="section16">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">16. {t("termsAndConditions.titles.title16")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">16. {t("termsAndConditions.titles.title16")}   </h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 16.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 16.p2") },
@@ -368,11 +368,11 @@ export const Terms = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section17">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">17. {t("termsAndConditions.titles.title17")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">17. {t("termsAndConditions.titles.title17")}   </h2>
                         <p className="my-4">{t("termsAndConditions.documento.informacion punto 17.p1")}</p>
                     </section>
                     <section className="mb-8" id="section18">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">18. {t("termsAndConditions.titles.title18")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">18. {t("termsAndConditions.titles.title18")}   </h2>
                         <p className="my-4">{t("termsAndConditions.documento.informacion punto 18.intro")}</p>
 
                         <p className="my-4 inline  underline underline-offset-4 decoration-blue-500">
@@ -394,7 +394,7 @@ export const Terms = () => {
                         <p className="inline"> {t("termsAndConditions.documento.informacion punto 18.t3 p1")}</p>
                     </section>
                     <section className="mb-8" id="section19">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">19. {t("termsAndConditions.titles.title19")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">19. {t("termsAndConditions.titles.title19")}   </h2>
 
                         {[
                             { item: "19.1", content: t("termsAndConditions.documento.informacion punto 19.p1") },
@@ -417,7 +417,7 @@ export const Terms = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section20">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">20. {t("termsAndConditions.titles.title20")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">20. {t("termsAndConditions.titles.title20")}   </h2>
                         {[
                             { item: "20.1", content: t("termsAndConditions.documento.informacion punto 20.20.1 p1") },
                             { content: t("termsAndConditions.documento.informacion punto 20.20.1 p2") },
@@ -436,7 +436,7 @@ export const Terms = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section21">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">21. {t("termsAndConditions.titles.title21")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">21. {t("termsAndConditions.titles.title21")}   </h2>
 
 
                         {[
@@ -572,7 +572,7 @@ export const Terms = () => {
 
                     </section>
                     <section className="mb-8" id="section22">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">22. {t("termsAndConditions.titles.title22")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">22. {t("termsAndConditions.titles.title22")}   </h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 22.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 22.p2") },
@@ -583,7 +583,7 @@ export const Terms = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section23">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">23. {t("termsAndConditions.titles.title23")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">23. {t("termsAndConditions.titles.title23")}   </h2>
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 23.p1") },
                             { content: t("termsAndConditions.documento.informacion punto 23.p2") },
@@ -594,11 +594,11 @@ export const Terms = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section24">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">24. {t("termsAndConditions.titles.title24")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">24. {t("termsAndConditions.titles.title24")}   </h2>
                         <p className="my-3">{t("termsAndConditions.documento.informacion punto 24.p1")}</p>
                     </section>
                     <section className="mb-8" id="section25">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">25. {t("termsAndConditions.titles.title25")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">25. {t("termsAndConditions.titles.title25")}   </h2>
 
                         {[
                             { content: t("termsAndConditions.documento.informacion punto 25.p1")},
@@ -612,15 +612,15 @@ export const Terms = () => {
 
                     </section>
                     <section className="mb-8" id="section26">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">26. {t("termsAndConditions.titles.title26")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">26. {t("termsAndConditions.titles.title26")}   </h2>
                         <p className="my-3">{t("termsAndConditions.documento.informacion punto 26.p1")}</p>
                     </section>
                     <section className="mb-8" id="section27">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">27. {t("termsAndConditions.titles.title27")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">27. {t("termsAndConditions.titles.title27")}   </h2>
                         <p className="my-3">{t("termsAndConditions.documento.informacion punto 27.p1")} <span className="text-blue-500 underline">support@Atómico3.io</span> {t("termsAndConditions.documento.informacion punto 27.p1.1")} </p>
                     </section>
                     <section className="mb-8" id="section28">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">28. {t("termsAndConditions.titles.title28")}   </h2>
+                        <h2 className="text-lg md:text-2xl font-semibold mb-2 text-blue-500">28. {t("termsAndConditions.titles.title28")}   </h2>
                         <p className="my-3">{t("termsAndConditions.documento.informacion punto 28.p1")}</p>
                         <p className="my-3 font-bold lg:text-lg">{t("termsAndConditions.documento.informacion punto 28.p2")}</p>
                         <p className="my-3 font-bold lg:text-lg">{t("termsAndConditions.documento.informacion punto 28.p3")}</p>

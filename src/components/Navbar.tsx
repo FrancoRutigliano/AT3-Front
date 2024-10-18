@@ -150,7 +150,15 @@ export const Navbar = () => {
                               {t("navbar.nuestros proyectos")}
 
                             </a>
+                            <a
 
+                              className=" block rounded-lg px-4 py-2 text-sm text-white "
+                              role="menuitem"
+                            // onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
+                            >
+                              {t("navbar.informacion sobre litio")}
+
+                            </a>
                           </div>
                         </div>
                       }
@@ -746,7 +754,7 @@ export const Navbar = () => {
                             download
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"
-                            onClick={() =>  toggleDropdownAboutUs()}
+                            onClick={() => toggleDropdownAboutUs()}
                           >{t("navbar.descargar brochure")}
                           </a>
                           <a
@@ -754,8 +762,8 @@ export const Navbar = () => {
                             download
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"
-                            onClick={() =>  toggleDropdownAboutUs()}
-                            >
+                            onClick={() => toggleDropdownAboutUs()}
+                          >
                             {t("navbar.descargar whitepaper")}
                           </a>
                         </div>

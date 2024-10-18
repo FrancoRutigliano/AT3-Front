@@ -268,10 +268,10 @@ export const Navbar = () => {
 
                         >
                           <a
-                            className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                            className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 leading-[20px] "
                           >
-                            {/* {t("navbar.como invertir")} */}
-                          {t("navbar.inverti en At3")}
+                          {t("navbar.inverti en")} <br />
+                          Atómico3
 
                           </a>
                           <span className="sr-only">Menu</span>
@@ -801,7 +801,6 @@ export const Navbar = () => {
                         <button
                           className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                         >
-                          {/* {t("navbar.como invertir")} */}
                           {t("navbar.inverti en At3")}
                           
 
@@ -829,16 +828,15 @@ export const Navbar = () => {
                         role="menu"
                       >
                         <div className="p-2">
-                          {/* <a
-                        href='https://dapp-at-3.vercel.app'
-                        className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                        role="menuitem"
-                        onClick={() => { toggleDropdown(); closeMenu(); }}
-                        target='_blank'
+                        <Link
+                            to={'/comoInvertir'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() => { toggleDropdown(); closeMenu(); }}
 
-                        >
-                        Staking
-                      </a> */}
+                          >
+                            {t("navbar.como invertir")}
+                          </Link>
                           <Link
                             to={'/comoInvertir#staking'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"

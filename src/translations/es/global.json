@@ -15,6 +15,7 @@
     "contacto": "Contacto",
     "nuestro equipo": "Nuestro Equipo",
     "descargar brochure": "Descargar Brochure",
+    "descargar whitepaper": "Descargar Whitepaper",
     "sobre atomico": "Sobre Atómico3",
     "idiomas": "Idiomas",
     "terms": "Términos y condiciones",
@@ -39,7 +40,6 @@
   "header": {
     "bienvenido": "Bienvenido a Atómico3",
     "criptoactivo": "Un criptoactivo respaldado por litio, que fomenta la sostenibilidad, mediante la reducción de emisiones de carbono, a través de incentivos tokenizados.",
-    "whitepaper": "Descargar Whitepaper",
     "feliz primavera": "¡Feliz Primavera!",
     "comprar token": "Comprar Token",
     "staking": "staking"

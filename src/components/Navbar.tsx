@@ -18,7 +18,6 @@ export const Navbar = () => {
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false);
   const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false);
 
-  const [showingForm, setShowingForm] = useState(false);
 
   // Función para abrir/cerrar el menú principal
   const toggleMenu = () => {
@@ -81,13 +80,8 @@ export const Navbar = () => {
   //   setIsOpenDropdownLang(!isCurrentlyOpen);
   // };
 
-  const showForm = (isVisible: boolean) => {
-    setShowingForm(isVisible);
-  };
 
-  // if(showingForm) return(
-  //   <Form documentType='brochure' showForm={showForm}/>
-  // )
+
   return (
     <>
 
@@ -206,17 +200,7 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="p-2">
-                            <a
-                              //                             href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
-                              // // '                         download
 
-                              className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                              role="menuitem"
-                              onClick={() => { toggleDropdownAboutUs(); showForm(true) }}
-                            >
-                              {t("navbar.descargar brochure")}
-
-                            </a>
                             <Link
                               to={'/nosotros'}
                               className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -239,6 +223,25 @@ export const Navbar = () => {
                             >
                               {t("navbar.trabaja")}
                             </a>
+                            <a
+                              href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf' download
+                              className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                              onClick={() => { toggleDropdownAboutUs() }}
+                            >
+                              {t("navbar.descargar brochure")}
+
+                            </a>
+                            <a
+                              href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"
+                              className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                              onClick={() => { toggleDropdownAboutUs() }}
+                            >
+                              {t("navbar.descargar whitepaper")}
+
+                            </a>
+
                           </div>
                         </div>
                       }
@@ -713,19 +716,7 @@ export const Navbar = () => {
                         role="menu"
                       >
                         <div className="p-2">
-                          <a
-                            //     href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf
-                            //  '
-                            //     download
-                            onClick={() => showForm(true)}
-                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                            role="menuitem"
-                          // onClick={() => { toggleDropdownAboutUs(); closeMenu(); }}
 
-                          >
-                            {t("navbar.descargar brochure")}
-
-                          </a>
                           <Link
                             to={'/nosotros'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -751,7 +742,23 @@ export const Navbar = () => {
                           >
                             {t("navbar.trabaja")}
                           </a>
-
+                          <a
+                            href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf'
+                            download
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() =>  toggleDropdownAboutUs()}
+                          >{t("navbar.descargar brochure")}
+                          </a>
+                          <a
+                            href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"
+                            download
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() =>  toggleDropdownAboutUs()}
+                            >
+                            {t("navbar.descargar whitepaper")}
+                          </a>
                         </div>
                       </div>
                     }
@@ -1056,10 +1063,7 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      {
-        showingForm &&
-        <Form documentType='brochure' showForm={showForm} />
-      }
+
     </>
   );
 };

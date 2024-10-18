@@ -4,7 +4,6 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import eng from '../assets/lang/eng.png'
 import esp from '../assets/lang/esp.png'
-import { Form } from './Form';
 
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global");

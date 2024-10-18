@@ -36,7 +36,7 @@ export const Terms = () => {
                     <h2 className=" text-lg font-semibold mb-4 text-black">{t("termsAndConditions.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {titles.map((section, index) => (
-                            <li key={index} className="p-2 md:p-5 border-l-4 border-celeste">
+                            <li key={index} className="p-2 md:p-5 border-l-4 border-celeste text-sm md:text-lg">
                                 <a href={`#${section.id}`} className="text-black hover:underline" onClick={(e) => handleAnchorClick(e, section.id)}>
                                     {section.text}
                                 </a>

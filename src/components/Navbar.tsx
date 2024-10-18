@@ -145,16 +145,13 @@ export const Navbar = () => {
 
                               className=" block rounded-lg px-4 py-2 text-sm text-white "
                               role="menuitem"
-                            // onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
                             >
                               {t("navbar.nuestros proyectos")}
 
                             </a>
                             <a
-
                               className=" block rounded-lg px-4 py-2 text-sm text-white "
                               role="menuitem"
-                            // onClick={()=>{toggleDropdownAboutUs(); showForm(true)}}
                             >
                               {t("navbar.informacion sobre litio")}
 
@@ -273,7 +270,9 @@ export const Navbar = () => {
                           <a
                             className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                           >
-                            {t("navbar.como invertir")}
+                            {/* {t("navbar.como invertir")} */}
+                          {t("navbar.inverti en At3")}
+
                           </a>
                           <span className="sr-only">Menu</span>
                           <svg
@@ -298,6 +297,14 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="p-2">
+                          <Link
+                              to={'/comoInvertir'}
+                              // href='https://dapp-at-3.vercel.app'
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.como invertir")}
+                            </Link>
                             <Link
                               to={'/comoInvertir#staking'}
                               // href='https://dapp-at-3.vercel.app'
@@ -661,12 +668,17 @@ export const Navbar = () => {
                           <a
                             className="block rounded-lg px-4 py-2 text-sm text-white "
                             role="menuitem"
-                          // onClick={() => { toggleDropdown(); closeMenu(); }}
 
                           >
                             {t("navbar.nuestros proyectos")}
                           </a>
+                          <a
+                              className=" block rounded-lg px-4 py-2 text-sm text-white "
+                              role="menuitem"
+                            >
+                              {t("navbar.informacion sobre litio")}
 
+                            </a>
 
                         </div>
                       </div>
@@ -789,7 +801,9 @@ export const Navbar = () => {
                         <button
                           className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                         >
-                          {t("navbar.como invertir")}
+                          {/* {t("navbar.como invertir")} */}
+                          {t("navbar.inverti en At3")}
+                          
 
                         </button>
                         <span className="sr-only">Menu</span>

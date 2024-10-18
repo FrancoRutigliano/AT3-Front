@@ -28,11 +28,11 @@ export const Terms = () => {
         //     <h5 className="text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
         //  </section>
         <section >
-            <h1 className="lg:text-6xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
-            <h5 className="text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
+            <h1 className="text-2xl lg:text-6xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
+            <h5 className="text-xs w-2/3 mx-auto text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
             <div className="flex relative">
                 {/* Columna de Títulos */}
-                <div className="w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4 sticky top-20 h-screen overflow-y-auto">
+                <div className="hidden md:block w-1/4 bg-gray-100 p-4 rounded-lg shadow-md mr-4 sticky top-20 h-screen overflow-y-auto">
                     <h2 className="text-lg font-semibold mb-4 text-black">{t("termsAndConditions.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {titles.map((section, index) => (
@@ -46,7 +46,7 @@ export const Terms = () => {
                 </div>
 
                 {/* Contenido de la Política de Privacidad */}
-                <div className="w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
+                <div className="w-full text-xs md:w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
 
                     <section id="section1">
 

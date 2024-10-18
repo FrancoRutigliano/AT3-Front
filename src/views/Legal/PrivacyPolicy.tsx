@@ -30,7 +30,7 @@ export const PrivacyPolicy = () => {
             <h5 className="text-xs md:text-lg w-2/3 mx-auto text-center mb-32 md:mb-20">{t("privacyPolicy.vigencia")}</h5>
             <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}
-                <div className="md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky lg:top-20 max-[768px]:max-h-[200px] rounded-t-lg  md:h-screen overflow-y-auto">
+                <div className="md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky lg:top-20 max-[768px]:max-h-[160px] rounded-t-lg  md:h-screen overflow-y-auto">
                     <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
                         {indiceTitles.map((section, index) => (
@@ -44,7 +44,7 @@ export const PrivacyPolicy = () => {
                 </div>
 
                 {/* Contenido de la Política de Privacidad */}
-                <div className="w-full text- md:w-3/4 p-6 bg-dark-light shadow-md rounded-lg">
+                <div className="w-full text-base md:w-3/4 p-6 bg-dark-light md:shadow-md md:rounded-lg">
                     <p className="mb-4">
                         {t("privacyPolicy.documento.intro")}
 
@@ -314,7 +314,7 @@ export const PrivacyPolicy = () => {
                         ))}
 
                         <p className="mb-4 "><span className="text-blue-500 ">a)</span> {t("privacyPolicy.documento.informacion punto 12.a")}</p>
-                        <p className="mb-4"><span className="text-blue-500 ">b) </span>{t("privacyPolicy.documento.informacion punto 12.b")} <a target="_blank" href="http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general" className="text-blue-500 hover:underline">{t("privacyPolicy.documento.informacion punto 12.b link")}</a> {t("privacyPolicy.documento.informacion punto 12.b.1")} </p>
+                        <p className="mb-4"><span className="text-blue-500 ">b) </span>{t("privacyPolicy.documento.informacion punto 12.b")} <a target="_blank" href="http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general" className="break-words text-blue-500 hover:underline">{t("privacyPolicy.documento.informacion punto 12.b link")}</a> {t("privacyPolicy.documento.informacion punto 12.b.1")} </p>
                         <p className="mb-4"><span className="text-blue-500 ">c) </span>{t("privacyPolicy.documento.informacion punto 12.c")}</p>
 
 

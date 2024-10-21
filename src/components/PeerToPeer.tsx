@@ -1,6 +1,15 @@
 import { useTranslation } from 'react-i18next'
 // import staking2 from '../assets/Investors.png'
-import p2p from '../assets/p2p.jpg'
+// import p2p from '../assets/p2p.jpg'
+// import p23 from '../assets/peertopeer.jpeg'
+// import p23 from '../assets/peertopeer.jpeg'
+
+// import p2p from '../assets/peertopeer (2).jpeg'
+// import p2p from '../assets/p2pcel.jpeg'
+import p2p from '../assets/compraat3.jpeg'
+
+
+
 import { Link, useLocation } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 
@@ -8,21 +17,21 @@ import { useEffect, useRef } from 'react';
 export const PeerToPeer = () => {
     const { t } = useTranslation("global")
     const location = useLocation();
-    const p2pRef = useRef<HTMLDivElement>(null); 
-  
+    const p2pRef = useRef<HTMLDivElement>(null);
+
     useEffect(() => {
-      if (location.hash === '#p2p' && p2pRef.current) {
-        // Obtener la posición del elemento
-        const elementPosition = p2pRef.current.getBoundingClientRect().top + window.scrollY;
-        
-        // Ajustar el desplazamiento según el tamaño de la pantalla
-        const offset = window.innerWidth < 768 ? 40 : 20; // Menos desplazamiento en pantallas pequeñas (<768px)
-    
-        window.scrollTo({
-          top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla
-          behavior: 'smooth', // Desplazamiento suave
-        });
-      }
+        if (location.hash === '#p2p' && p2pRef.current) {
+            // Obtener la posición del elemento
+            const elementPosition = p2pRef.current.getBoundingClientRect().top + window.scrollY;
+
+            // Ajustar el desplazamiento según el tamaño de la pantalla
+            const offset = window.innerWidth < 768 ? 40 : 20; // Menos desplazamiento en pantallas pequeñas (<768px)
+
+            window.scrollTo({
+                top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla
+                behavior: 'smooth', // Desplazamiento suave
+            });
+        }
     }, [location]);
     return (
         <>
@@ -37,34 +46,37 @@ export const PeerToPeer = () => {
                             </h2>
 
                             <p className='text-sm text-white md:mt-4 md:block  lg:text-lg break-words'>
-                                {t("como invertir.peer to peer p1")}
+                                {/* {t("como invertir.peer to peer p1")} */}
+                                Los pagos P2P o peer-to-peer (literalmente, de persona a persona), son transferencias instantáneas entre particulares que se realizan a través de una plataforma digital, en este caso, se envían entre billeteras digitales, por un lado, los token de AT3 contra los USDT o USDC. <br />
+<br />
+                                De esta forma podes comprar tus atomicos directamente de nosotros desde la billetera oficial 0XAFF655C15C943121DEA79B67C47AC9BD2253FD65, pagandolos con tus USDT o USDC
 
 
                             </p>
-                            <p className='text-sm text-white md:mt-4 md:block  lg:text-lg break-words'>
+                            {/* <p className='text-sm text-white md:mt-4 md:block  lg:text-lg break-words'>
                                 {t("como invertir.peer to peer p2")}
-                            </p>
+                            </p> */}
 
 
-                        <div className="mt-4 md:mt-8 flex justify-center lg:justify-start ">
-                <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'  >
+                            <div className="mt-4 md:mt-8 flex justify-center lg:justify-start ">
+                                <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'  >
 
-                  <button className=''>{t("invertir.ver tutoriales")}</button>
-                </Link>
-                <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
-                  href='https://dapp-at-3.vercel.app/' target='_blank'>
-                  <button className='' >Peer to Peer</button>
-                </a>
-              </div>
+                                    <button className=''>{t("invertir.ver tutoriales")}</button>
+                                </Link>
+                                <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                    href='https://dapp-at-3.vercel.app/' target='_blank'>
+                                    <button className='' >Peer to Peer</button>
+                                </a>
+                            </div>
                         </div>
-                        
 
 
 
 
 
 
-                        
+
+
                     </div>
                     <div className=' flex justify-center items-center px-5 md:px-0' >
 
@@ -73,13 +85,21 @@ export const PeerToPeer = () => {
                             // src={i18n.language === 'es' ? stakingES : stakingEN}
                             src={p2p}
 
-                            className='rounded-lg  lg:object-contain max-w-[400px]  lg:max-w-[600px]'
+                            className='rounded-lg  lg:object-contain max-w-[400px]  lg:max-w-[350px]'
 
                         />
+                        {/* <img
+                            alt=""
+                            // src={i18n.language === 'es' ? stakingES : stakingEN}
+                            src={p23}
+
+                            className='rounded-lg  lg:object-contain max-w-[400px]  lg:max-w-[600px]'
+
+                        /> */}
                     </div>
                 </section>
             </section>
-{/* TUTORIAL */}
+            {/* TUTORIAL */}
             {/* <section className='mt-28'>
                 <section className="">
                     <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">

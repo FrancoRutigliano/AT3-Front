@@ -3,7 +3,9 @@ import { useTranslation } from 'react-i18next'
 // import { ConnectWallet } from '../components/ConnectWallet'
 import { Staking } from '../components/Staking'
 import { PeerToPeer } from '../components/PeerToPeer'
-import bg3 from '../assets/lineas.png'
+// import bg3 from '../assets/lineas.png'
+import bg3 from '../assets/pruebas/p9.jpeg'
+
 import { Tutorials } from '../components/Tutorials'
 // import { FelizPrimavera } from '../components/FelizPrimavera'
 export const ComoInvertir = () => {
@@ -33,7 +35,7 @@ export const ComoInvertir = () => {
 
       >
         <div className="overflow-hidden  h-1/3 md:h-1/2 bg-cover bg-no-repeat p-8 md:p-12 lg:px-16 lg:py-24" style={{
-          background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${bg3})`,
+          background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.2)), url(${bg3})`,
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover'
@@ -47,7 +49,10 @@ export const ComoInvertir = () => {
 
             <div className="relative z-20 flex flex-col justify-center items-center  h-full lg:mb-52">
               {/* <img src={atomico3} alt="atomico" className='w-2/3 lg:w-1/3 max-w-[550px]' /> */}
-              <h1 className='bg-custom-gradient bg-clip-text text-transparent text-3xl lg:text-7xl text-center font-bold mt-10 lg:mt-32 lg:mb-2 lg:py-5' style={{ textShadow: '1px 1px 50px black' }}>{t("como invertir.como invertir")}</h1>
+              <h1 className='bg-custom-gradient bg-clip-text text-transparent text-3xl lg:text-7xl text-center font-bold mt-10 lg:mt-32 lg:mb-2 lg:py-5' style={{ textShadow: '1px 1px 50px black' }}>
+                {/* {t("como invertir.como invertir")} */}
+                Invertí y Ahorrá en Atómico3
+                </h1>
               <h2 className='text-center text-md px-5  mb-24 mt-5 lg:mb-0 lg:text-xl'>{t("como invertir.como invertir p1")} <br />{t("como invertir.como invertir p2")} <br /> {t("como invertir.como invertir p3")}  </h2>
               <div className="mt-4 sm:mt-8 flex justify-start">
               </div>

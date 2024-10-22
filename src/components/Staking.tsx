@@ -42,7 +42,7 @@ export const Staking = () => {
             <img
               alt="staking"
               src={i18n.language === 'es' ? stakingES : stakingEN}
-              className='hidden md:block max-w-[200px] lg:max-w-[400px]  w-2/3 mx-auto object-contain lg:object-contain rounded-md'
+              className='hidden sm:block max-w-[200px] lg:max-w-[400px]  w-2/3 mx-auto object-contain lg:object-contain rounded-md'
             />
           </div>
           <div className="mx-auto sm:col-span-2   md:p-0 md:w-full px-10 md:px-5  text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
@@ -85,7 +85,7 @@ export const Staking = () => {
               src={staking2}
 
               // className="rounded-lg w-2/3 object-cover sm:h-96 my-auto "
-              className='hidden md:block max-w-[200px] lg:max-w-[400px]  w-2/3 mx-auto object-contain lg:object-contain rounded-md'
+              className='hidden sm:block max-w-[200px] lg:max-w-[400px]  w-2/3 mx-auto object-contain lg:object-contain rounded-md'
             />
           </div>
         </section>

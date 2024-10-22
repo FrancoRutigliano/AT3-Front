@@ -1,5 +1,4 @@
 // import at3 from '../assets/lineas.png'
-import atomico3 from '../assets/atomicLogo.png'
 import { Valores } from '../components/Valores'
 import { Team } from '../components/Team'
 import { useTranslation } from 'react-i18next'
@@ -26,7 +25,7 @@ import at3 from '../assets/pruebas/p13.avif'
 // import at3 from '../assets/pruebas/p17.avif'
 // import at3 from '../assets/pruebas/p18.avif'
 // import at3 from '../assets/pruebas/p19.avif'
-import { Work } from './Work'
+// import { Work } from './Work'
 
 
 export const Nosotros = () => {
@@ -51,10 +50,10 @@ export const Nosotros = () => {
   /> */}
             {/* <div className="absolute inset-0 bg-black/50  opacity-100 z-10" />  */}
 
-            <div className="relative z-20 flex flex-col  items-center mb-52 pb-64 pt-32">
-              <h2 className="text-3xl font-bold sm:text-6xl text-celeste py-10">Nosotros</h2>
+            <div className="relative z-20 flex flex-col  items-center m">
+              <h2 className="text-3xl font-bold sm:text-6xl text-celeste py-2">Nosotros</h2>
 
-              <p className="text-lg w-full  mt-2text-center px-5 md:px-4 ">
+              <p className="text-base w-full  mt-2text-center px-5 md:px-4 ">
                 {/* {t("nosotros.title")} */}
                 <br />
                 {/* {t("nosotros.title p1")} */}
@@ -80,18 +79,23 @@ export const Nosotros = () => {
                 Esto asegurará un desarrollo económico sostenible y equitativo, beneficiando tanto a las regiones productoras de litio como a los consumidores de productos derivados de este mineral esencial.
                 Nuestra billetera oficial es la 0XAFF655C15C943121DEA79B67C47AC9BD2253FD65. */}
 
-Somos una compañía legalmente constituida en la Republica del Paraguay, dedicados al desarrollo y optimización de la actividad minera. En particular a la minería del Litio. <br />
-Aportamos a la actividad Minera, la herramienta de la tokenización (de sus reservas de litio certificadas), buscando con esto innovar y revolucionar la industria de la electromovilidad a nivel mundial.
-Mediante la conversión de dichas reservas de litio certificadas en tokens digitales, facilitamos a la industria minera la financiación de su operatoria. Contribuyendo al desarrollo de su actividad integral, y a la transición hacia un futuro más sostenible. <br />
-El token Atómico3, bajo la sigla “AT3”, está diseñado para representar la tokenización de las reservas de litio. La emisión actual de AT3 es de 100,000,000,000 tokens, cada uno respaldado por reservas certificadas de litio conforme a las normas internacionales NI 43-101. <br />
+                {t("nosotros.p1")} <br />
+                {t("nosotros.p2")}  <br /> <br />
+                {t("nosotros.p3")} <br />
+                {t("nosotros.p4")}
+               <br />
+               {t("nosotros.p5")}
 
-El contrato blockchain que respalda esta emisión es el número: 0X22A79A08DDB74A9F1A4EBE5DA75300AD9F1AED76, y con ello, garantiza la integridad y la transparencia de los activos subyacentes. <br />
-La compañía utiliza un modelo innovador de tokenización de activos del mundo real (RWA, por sus siglas en inglés), para facilitar la integración de recursos naturales en la economía digital. <br />
-La marca y la patente asociadas a este modelo están registradas bajo la titularidad del CEO- Fundador de Atómico 3 SA, Lic. Pablo Rutigliano, con el código internacional clase número 9. Todos los derechos relacionados con la marca y el modelo están formalmente registrados y son de uso exclusivo de Atómico 3 S.A. <br />
-De esta manera, AT3 se perfila para desarrollar sus precios en función de las reservas mineras, permitiendo así establecer una relación directa entre AT3 (Átomico3) y el precio del Li₂CO₃ (carbonato de litio grado batería). 
-En conclusión, 1 AT3 equivaldrá al precio de 1 kilogramo de carbonato de litio. <br />
-La colaboración entre los gobiernos, empresas y comunidades, junto con una regulación legal clara y efectiva, serán cruciales para asegurar el camino al éxito de esta transición hacia una economía más limpia y equitativa. 
-Buscamos, transformar el mercado global del litio al pretender declararlo un commodity.
+                <br /> <br />
+               {t("nosotros.p6")}
+
+                 <br />
+               {t("nosotros.p7")}
+
+                <br />
+               {t("nosotros.p8")}
+
+        
 
               </p>
               <div className="mt-4 sm:mt-8 flex justify-start">
@@ -108,7 +112,7 @@ Buscamos, transformar el mercado global del litio al pretender declararlo un com
       </section>
 
       <Team />
-      <Work/>
+      {/* <Work /> */}
     </>
   )
 }

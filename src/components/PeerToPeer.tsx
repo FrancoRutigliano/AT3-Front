@@ -59,12 +59,12 @@ export const PeerToPeer = () => {
 
 
 
-                            <div className="mt-4 md:mt-8 flex justify-between md:justify-center lg:justify-start ">
+                            <div className="mt-4 md:mt-8 flex justify-between md:justify-start ">
                                 <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'  >
 
                                     <button className=''>{t("invertir.ver tutoriales")}</button>
                                 </Link>
-                                <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                <a className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
                                     href='https://dapp-at-3.vercel.app/' target='_blank'>
                                     <button className='' >Peer to Peer</button>
                                 </a>

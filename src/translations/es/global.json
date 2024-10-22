@@ -200,8 +200,9 @@
     "conectar tu wallet p1": "Para realizar las operaciones necesarias para invertir en Atómico3 es imprescindible que tengas tu wallet conectada.",
     "conectar tu wallet p2": "¡Mira el video a continuación y aprende como hacerlo!",
     "peer to peer": "¿Qué es Peer to Peer?",
-    "peer to peer p1": "Es una compra de billetera a billetera en la que compras AT3 con USDT o USDC, directamente de tu billetera a la nuestra, con la cotización que está publicada en nuestra página.",
-    "peer to peer p2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
+    "peer to peer p1": " Los pagos P2P o peer-to-peer (literalmente, de persona a persona), son transferencias instantáneas entre particulares que se realizan a través de una plataforma digital, en este caso, se envían entre billeteras digitales, por un lado, los token de AT3 contra los USDT o USDC. ",
+    "peer to peer p2": "De esta forma podes comprar tus atomicos directamente de nosotros desde la billetera oficial 0XAFF655C15C943121DEA79B67C47AC9BD2253FD65, pagandolos con tus USDT o USDC.",
+    "peer to peer p2.1": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "peer to peer p3": "¿Cómo hacer Peer to Peer?",
     "peer to peer p4": "¡Aprende fácil y rápidamente como hacerlo siguiendo los pasos a continuación!",
     "peer to peer p5": "¡Dale click al video y empieza a invertir hoy!"

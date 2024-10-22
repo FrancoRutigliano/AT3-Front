@@ -37,14 +37,12 @@ export const Staking = () => {
       <section className='mt-20 lg:mt-0' ref={stakingRef} id='tutoriales'>
        
         <section className=" lg:mt-20 flex  overflow-hidden  sm:grid sm:grid-cols-4 py-10 ">
-          <div >
+          <div className='flex items-center'>
 
             <img
               alt="staking"
               src={i18n.language === 'es' ? stakingES : stakingEN}
-
-              // className="rounded-lg w-2/3 object-cover sm:h-96 my-auto "
-              className='max-w-[200px] lg:max-w-[400px] rounded w-2/3 mx-auto object-contain lg:object-contain sm:h-full'
+              className='max-w-[200px] lg:max-w-[400px]  w-2/3 mx-auto object-contain lg:object-contain rounded-md'
             />
           </div>
           <div className="mx-auto col-span-2  md:p-0 md:w-full px-5  text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
@@ -73,7 +71,7 @@ export const Staking = () => {
               </a>
             </div>
           </div>
-          <div>
+          <div className='flex items-center'>
 
             <img
               alt="staking"
@@ -81,7 +79,7 @@ export const Staking = () => {
               src={staking2}
 
               // className="rounded-lg w-2/3 object-cover sm:h-96 my-auto "
-              className='max-w-[200px] lg:max-w-[400px] w-2/3 mx-auto object-contain lg:object-contain sm:h-full'
+              className='max-w-[200px] lg:max-w-[400px]  w-2/3 mx-auto object-contain lg:object-contain rounded-md'
             />
           </div>
         </section>

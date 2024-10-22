@@ -20,24 +20,25 @@ export const Invertir = () => {
             />
           </div>
 
-          <div className="lg:py-24 text-center lg:text-left">
-            <h2 className="text-3xl font-bold sm:text-5xl  lg:text-7xl py-2 bg-custom-gradient bg-clip-text text-transparent">
-              {/* {t("invertir.como invertir")} */}
-              Invertí y ahorrá en Atómico3
+          <div className="lg:py-24 text-center  lg:text-left p-5 md:p-0">
+            <h2 className="text-3xl font-bold sm:text-5xl  lg:text-6xl py-2 bg-custom-gradient bg-clip-text text-transparent">
+              {t("invertir.inverti y ahorra")}
             </h2>
 
-            <p className="mt-2 lg:mt-4 text-white ">
-              {/* {t("invertir.como invertir p2")} */}
-              <span className='text-lg'>
+            <p className="mt-2 lg:mt-4 text-white text-xs lg:text-lg sm:text-center lg:text-left">
+              <span className=''>
+              {t("invertir.p1")}
                 
-                 Te vamos a explicar porque tenes que invertir y ahorrar con nuestro Proyecto. <br /> 
-              Hoy podes invertir en nuestro Proyecto en tres modalidades diferentes: <br /> <br />
+                  <br /> 
+                  {t("invertir.p2")}
+                  <br /> <br />
                 </span>
-              <b className='text-lg'>
+              <b className='lg:text-lg'>
 
-              1. Haciendo Staking, <br />
-              2. Comprando Atómicos (AT3) en Peer to Peer con la billetera oficial <br />
-              3. Comprar AT3 nuevos y sumarte a las diferentes promos.
+              1. {t("invertir.modalidad 1")}
+              <br />
+              2. {t("invertir.modalidad 2")} <br />
+              3. {t("invertir.modalidad 3")}
               </b>
 
               
@@ -46,14 +47,23 @@ export const Invertir = () => {
 
             {/* <p className=' text-white '>{t("staking.como funciona")}</p> */}
             {/* <p className=' text-white '>{t("staking.clickea el enlace")}</p> */}
+      <div className='flex justify-center lg:justify-start w-full '>
 
+            <Link
+              to="/comoInvertir#tutoriales"
+              target='_blanck'
+              className="max-[640px]:w-1/3 w-full max-w-[225px] py-2 px-2 text-xs flex items-center justify-center  mt-8 inline-block rounded bg-indigo-600 sm:px-12 sm:py-3 md:text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-blue-500"
+              >
+              {t("invertir.ver tutoriales")}
+            </Link>
             <Link
               to="/comoInvertir"
               target='_blanck'
-              className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-blue-500"
-            >
-              {t("invertir.ver tutoriales")}
+              className="max-[640px]:w-1/3 w-full max-w-[225px] py-2 px-2 ml-4 text-xs flex items-center justify-center mt-8 inline-block rounded bg-indigo-600 sm:px-12 sm:py-3 md:text-sm  font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-blue-500"
+              >
+              {t("invertir.invertir")}
             </Link>
+              </div>
           </div>
         </div>
       </div>

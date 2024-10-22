@@ -132,10 +132,14 @@
   },
   "stakingView": {
     "¿Qué es el Staking?": "What is Staking?",
-    "¿Qué es el Staking? Descripcion": "It consists of depositing your Atómico3 in a smart contract (staking contract 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the term you choose, benefiting from the interest according to the chosen term. They will be returned to your wallet once the term has expired (unless you choose to renew it for a new term).",
-    "¿Qué es el Staking? Descripcion 2": "Remember that for this you need to connect your wallet. If you don't know how to do it, you can see the tutorials below.",
-    "¿Cómo lo puedo hacer?": "How can I do It?",
-    "¿Cómo lo puedo hacer? descripcion": "Click on the button below! "
+    "staking p1": "This consists of acquiring cryptocurrencies and keeping them locked in a virtual wallet, smart contract, or wallet with the purpose of receiving profits or rewards. It's very similar to having a savings account and earning interest on the deposited capital.",
+    "staking p1.1": "In this case, it means depositing your Atómico3 into a smart contract (staking contract 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the period you choose (60, 180, or 240 days), benefiting from the interest we can offer based on the selected term.",
+    "staking p1.2": "At the end of the chosen term, all your AT3 will be returned to your wallet along with the agreed interest (unless you choose to renew it for a new term).",
+    "staking p1.3": "Remember that for this, you need to connect your wallet. If you don't know how to do it, you can watch the tutorials below.",
+    "¿Qué es el Staking? Descripcion": "It consists of depositing your Atómico3 into a smart contract (staking contract 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the chosen period, and benefiting from the interest according to the selected term. They will be returned to your wallet once the term is over (unless you choose to renew for a new term).",
+    "¿Qué es el Staking? Descripcion 2": "Remember that for this, you need to connect your wallet. If you don't know how to do it, you can watch the tutorials below.",
+    "¿Cómo lo puedo hacer?": "How can I do it?",
+    "¿Cómo lo puedo hacer? descripcion": "Click the button below!"
   },
   "terms": {
     "Términos y condiciones de pago del token AT3": "AT3 Token Payment Terms and Conditions",
@@ -188,19 +192,21 @@
     "ver tutoriales": "Watch Tutorials"
   },
   "como invertir": {
+    "inverti y ahorra": "Invest and save with Atómico3",
     "como invertir": "How to invest in Atómico3?",
-    "como invertir p1": "In this section we are going to explain the different ways you can invest in our project today. Below you will find detailed information on each of them, the tutorial videos and step by step instructions on how to do it.",
-    "como invertir p2": "Remember that the first step is to connect your wallet, if you still don't know how to do it, check the tutorials.",
+    "como invertir p1": "In this section, we will explain the different ways you can invest in our project today.",
+    "como invertir p1.1": "Below you will find detailed information about each of them, tutorial videos, and step-by-step instructions on how to do it.",
+    "como invertir p2": "Remember, the first step is to connect your wallet. If you don't know how to do it yet, check out the tutorials.",
     "como invertir p3": "Scroll down and start investing today!",
-    "conectar tu wallet": "Connect your Wallet!",
-    "conectar tu wallet p1": " To perform the necessary operations to invest in Atómico3 it is essential that you have your wallet connected.",
+    "conectar tu wallet": "Connect your Wallet",
+    "conectar tu wallet p1": "To perform the necessary operations to invest in Atómico3, it is essential that your wallet is connected.",
     "conectar tu wallet p2": "Watch the video below and learn how to do it!",
     "peer to peer": "What is Peer to Peer?",
-    "peer to peer p1": "It is a wallet to wallet purchase where you buy AT3 with USDT or USDC, directly from your wallet to ours, with the quote that is published on our page. ",
-    "peer to peer p2": "Remember that for this you need to connect your wallet. If you don't know how to do it, you can see the tutorials below.",
-    "peer to peer p3": "How to make Peer to Peer? ",
-    "peer to peer p4": "Learn quickly and easily how to do it by following the steps below! ",
-    "peer to peer p5": "Click on the video and start investing today! "
+    "peer to peer p1": "It is a wallet-to-wallet transaction where you buy AT3 with USDT or USDC, directly from your wallet to ours, at the rate published on our website.",
+    "peer to peer p2": "Remember that for this, you need to connect your wallet. If you don't know how to do it, you can watch the tutorials below.",
+    "peer to peer p3": "How to do Peer to Peer?",
+    "peer to peer p4": "Learn quickly and easily how to do it by following the steps below!",
+    "peer to peer p5": "Click on the video and start investing today!"
   },
   "soporte": {
     "soporte": "Support",

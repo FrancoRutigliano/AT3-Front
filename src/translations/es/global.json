@@ -129,6 +129,10 @@
   },
   "stakingView": {
     "¿Qué es el Staking?": "¿Qué es el Staking?",
+    "staking p1": "Esto consiste en adquirir criptomonedas y mantenerlas bloqueadas en un monedero virtual , smartcontract o wallet con la finalidad de recibir ganancias o recompensas. Es algo muy similar a tener una cuenta de ahorros y recibir intereses por el capital depositado.",
+    "staking p1.1": "En este caso, es depositar tus Atómico3 en un contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que vos elijas, (60 días , 180 y 240 ), beneficiándote de los intereses que podemos darte según el plazo elegido.",
+    "staking p1.2": "Al finalizar el plazo elegido todos los atómicos te serán devueltos a tu monedero con el interés acordado (salvo que elijas renovarlo por un nuevo plazo).",
+    "staking p1.3": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "¿Qué es el Staking? Descripcion": "Consiste en depositar tus Atómico3 en un contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que elijas, beneficiándote de los intereses según el plazo elegido. Serán devueltos a tu monedero una vez finalizado el plazo (salvo que elijas renovarlo por un nuevo plazo).",
     "¿Qué es el Staking? Descripcion 2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "¿Cómo lo puedo hacer?": "¿Cómo lo puedo hacer?",

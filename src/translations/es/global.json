@@ -34,13 +34,13 @@
     "nosotros": "Nosotros",
     "title p1": "Al convertir las reservas de litio en tokens digitales, les facilitamos a la industria minera la financiación de su operatoria, contribuyendo al desarrollo de su actividad integral, y a la transición hacia un futuro más sostenible.",
     "p1": "Somos una compañía legalmente constituida en la Republica del Paraguay, dedicados al desarrollo y optimización de la actividad minera. En particular a la minería del Litio.",
-    "p2": "Aportamos a la actividad Minera, la herramienta de la tokenización (de sus reservas de litio certificadas), buscando con esto innovar y revolucionar la industria de la electromovilidad a nivel mundial.Mediante la conversión de dichas reservas de litio certificadas en tokens digitales, facilitamos a la industria la financiación de su operatoria. Contribuyendo al desarrollo de su actividad integral, y a la transición hacia un futuro más sostenible. ",
+    "p2": "Aportamos a la actividad Minera, la herramienta de la tokenización (de sus reservas de litio certificadas), buscando con esto innovar y revolucionar la industria de la electromovilidad a nivel mundial.   Mediante la conversión de dichas reservas de litio certificadas en tokens digitales, facilitamos a la industria la financiación de su operatoria. Contribuyendo al desarrollo de su actividad integral, y a la transición hacia un futuro más sostenible. ",
     "p3": " El token Atómico3, bajo la sigla “AT3”, está diseñado para representar la tokenización de las reservas de litio. La emisión actual de AT3 es de 100,000,000,000 tokens, cada uno respaldado por reservas certificadas de litio conforme a las normas internacionales NI 43-101. ",
     "p4": "  El contrato blockchain que respalda esta emisión es el número: 0X22A79A08DDB74A9F1A4EBE5DA75300AD9F1AED76, y con ello, garantiza la integridad y la transparencia de los activos subyacentes.",
-    "p5": "La compañía utiliza un modelo innovador de tokenización de activos del mundo real (RWA, por sus siglas en inglés), para facilitar la integración de recursos naturales en la economía digital. ",
+    "p5": "La compañía utiliza un modelo innovador de tokenización de activos del mundo real (RWA, por sus siglas en inglés), para facilitar la integración de recursos naturales en la economía digital. Buscamos, transformar el mercado global del litio al pretender declararlo un commodity. ",
     "p6": "La marca y la patente asociadas a este modelo están registradas bajo la titularidad del CEO- Fundador de Atómico 3 SA, Lic. Pablo Rutigliano, con el código internacional clase número 9. Todos los derechos relacionados con la marca y el modelo están formalmente registrados y son de uso exclusivo de Atómico 3 S.A.",
     "p7": " De esta manera, AT3 se perfila para desarrollar sus precios en función de las reservas mineras, permitiendo así establecer una relación directa entre AT3 (Átomico3) y el precio del Li₂CO₃ (carbonato de litio grado batería). En conclusión, 1 AT3 equivaldrá al precio de 1 kilogramo de carbonato de litio.",
-    "p8": "        La colaboración entre los gobiernos, empresas y comunidades, junto con una regulación legal clara y efectiva, serán cruciales para asegurar el camino al éxito de esta transición hacia una economía más limpia y equitativa. Buscamos, transformar el mercado global del litio al pretender declararlo un commodity.",
+    "p8": "        ",
     "Nuestros Valores": "Nuestros Valores",
     "Propósito": "Propósito",
     "Propósito descripcion": "Contribuir al desarrollo de la actividad minera de Latinoamérica mediante la tokenización de los activos mineros, colaborando en ser la herramienta financiera del desarrollo de la minería.",
@@ -123,7 +123,7 @@
     "Link para consultar el precio actual del carbonato de litio": "Link para consultar el precio actual del carbonato de litio:",
     "Click aquí": "Click aquí",
     "¿Ya puedo hacer staking de los AT3 que adquirí?": "¿Ya puedo hacer staking de los AT3 que adquirí?",
-    "Si puedo": "Si puedo. Para ello debo presionar en el botón azul que dice 'staking' ubicado en la parte superior de la página. Luego en la ventana emergente, se me pedirá vincular mi wallet (para poder decir desde donde van a salir mis at3). Allí me aparecerá un formulario que debo completar con mis datos personales y un mail de contacto, ello me va a permitir elegir los AT3 que quiero colocar y los plazos posibles (60 días , 180 y 240 ). Finalmente aparecerá una confirmación sobre que quedó el mismo terminado correctamente."
+    "Si puedo": "Si puedo. Para ello debo presionar en el botón azul que dice 'staking' ubicado en la parte superior de la página. Luego en la ventana emergente, se me pedirá vincular mi wallet (para poder decir desde donde van a salir mis at3). Allí me aparecerá un formulario que debo completar con mis datos personales y un mail de contacto, ello me va a permitir elegir los AT3 que quiero colocar y los plazos posibles (60, 180 y 240 días). Finalmente aparecerá una confirmación sobre que quedó el mismo terminado correctamente."
   },
   "footer": {
     "redes sociales": "Redes Sociales",
@@ -144,7 +144,7 @@
   "stakingView": {
     "¿Qué es el Staking?": "¿Qué es el Staking?",
     "staking p1": "Esto consiste en adquirir criptomonedas y mantenerlas bloqueadas en un monedero virtual , smartcontract o wallet con la finalidad de recibir ganancias o recompensas. Es algo muy similar a tener una cuenta de ahorros y recibir intereses por el capital depositado.",
-    "staking p1.1": "En este caso, es depositar tus Atómico3 en un contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que vos elijas, (60 días , 180 y 240 ), beneficiándote de los intereses que podemos darte según el plazo elegido.",
+    "staking p1.1": "En este caso, es depositar tus Atómico3 en un contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que vos elijas, (60, 180 y 240 días), beneficiándote de los intereses que podemos darte según el plazo elegido.",
     "staking p1.2": "Al finalizar el plazo elegido todos los atómicos te serán devueltos a tu monedero con el interés acordado (salvo que elijas renovarlo por un nuevo plazo).",
     "staking p1.3": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "¿Qué es el Staking? Descripcion": "Consiste en depositar tus Atómico3 en un contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), manteniéndolos allí durante el plazo que elijas, beneficiándote de los intereses según el plazo elegido. Serán devueltos a tu monedero una vez finalizado el plazo (salvo que elijas renovarlo por un nuevo plazo).",
@@ -220,7 +220,7 @@
     "conectar tu wallet p1": "Para realizar las operaciones necesarias para invertir en Atómico3 es imprescindible que tengas tu wallet conectada.",
     "conectar tu wallet p2": "¡Mira el video a continuación y aprende como hacerlo!",
     "peer to peer": "¿Qué es Peer to Peer?",
-    "peer to peer p1": " Los pagos P2P o peer-to-peer (literalmente, de persona a persona), son transferencias instantáneas entre particulares que se realizan a través de una plataforma digital, en este caso, se envían entre billeteras digitales, por un lado, los token de AT3 contra los USDT o USDC. ",
+    "peer to peer p1": " Las compras P2P o peer-to-peer (literalmente, de persona a persona), son transferencias instantáneas entre particulares que se realizan a través de una plataforma digital, en este caso, se envían entre billeteras digitales, por un lado, los token de AT3 contra los USDT o USDC. ",
     "peer to peer p2": "De esta forma podes comprar tus atomicos directamente de nosotros desde la billetera oficial 0XAFF655C15C943121DEA79B67C47AC9BD2253FD65, pagandolos con tus USDT o USDC.",
     "peer to peer p2.1": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "peer to peer p3": "¿Cómo hacer Peer to Peer?",

@@ -44,11 +44,11 @@ export const Nosotros = () => {
           backgroundSize: 'cover'
         }} >
           <div className="relative  flex items-center justify-center w-full ">
-        
+
             <div className="relative z-20 flex flex-col  items-center  break-words w-full">
               <h2 className="text-2xl font-bold  sm:text-3xl lg:text-5xl text-celeste py-2 ">{t("nosotros.nosotros")}</h2>
 
-              <p className="text-[0.7rem] sm:text-base w-full  mt-2 lg:mt-0 text-justify px-5  ">
+              <p className="text-[0.7rem] sm:text-base w-full  mt-2 lg:mt-0 text-justify px-44  ">
                 {/* {t("nosotros.title")} */}
                 <br />
 
@@ -56,20 +56,21 @@ export const Nosotros = () => {
                 {t("nosotros.p2")}  <br /> <br />
                 {t("nosotros.p3")} <br />
                 {t("nosotros.p4")}
-               <br />
-               {t("nosotros.p5")}
+                <br />
+                {t("nosotros.p5")}
 
                 <br /> <br />
-               {t("nosotros.p6")}
-
-                 <br />
-               {t("nosotros.p7")}
+                {t("nosotros.p6")}
 
                 <br />
-               {t("nosotros.p8")}
+                {t("nosotros.p7")}
 
-        
+                <br />
+                {t("nosotros.p8")}
 
+                <br />
+
+               
               </p>
               <div className="mt-4 sm:mt-8 flex justify-start">
               </div>

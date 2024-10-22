@@ -9,7 +9,7 @@ import bg3 from '../assets/pruebas/p9.jpeg'
 import { Tutorials } from '../components/Tutorials'
 // import { FelizPrimavera } from '../components/FelizPrimavera'
 export const ComoInvertir = () => {
-  
+
   const { t } = useTranslation("global")
 
   // const currentLang = i18n.language;
@@ -51,8 +51,9 @@ export const ComoInvertir = () => {
               {/* <img src={atomico3} alt="atomico" className='w-2/3 lg:w-1/3 max-w-[550px]' /> */}
               <h1 className='bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-7xl text-center font-bold mt-10 lg:mt-32 lg:mb-2 lg:py-5' style={{ textShadow: '1px 1px 50px black' }}>
                 {t("como invertir.inverti y ahorra")}
-                </h1>
-              <h2 className='text-justify md:text-center   px-5  md:mb-24 md:mt-5 mt-7 lg:mb-0 text-sm lg:text-xl'>{t("como invertir.como invertir p1")} <br />  {t("como invertir.como invertir p1.1")} <br />{t("como invertir.como invertir p2")} <br /> {t("como invertir.como invertir p3")}  </h2>
+              </h1>
+              <h2 className='text-justify  px-2  md:mb-24 md:mt-5 mt-7 lg:mb-0 text-sm lg:text-xl'>{t("como invertir.como invertir p1")} <br />  {t("como invertir.como invertir p1.1")} <br />{t("como invertir.como invertir p2")} <br /> {t("como invertir.como invertir p3")}  </h2>
+
               <div className="mt-4 sm:mt-8 flex justify-start">
               </div>
             </div>

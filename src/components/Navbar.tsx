@@ -566,10 +566,10 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="lg:ml-auto  sm:flex sm:justify-end p-2 ">
-                            <button onClick={() => handleChangeLanguage("en")}>
+                            <button onClick={() => {handleChangeLanguage("en"); toggleMenu()}}>
                               <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                             </button>
-                            <button onClick={() => handleChangeLanguage("es")}>
+                            <button onClick={() => {handleChangeLanguage("es"); toggleMenu()}}>
                               <img src={esp} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
 
                             </button>
@@ -1069,10 +1069,10 @@ export const Navbar = () => {
 
                 </li>
                 <li >
-                  <button onClick={() => handleChangeLanguage("en")} >
+                  <button onClick={() => {handleChangeLanguage("en"); toggleMenu()}} >
                     <img src={eng} className='w-[1.5rem] lg:w-[2rem]  transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                   </button>
-                  <button onClick={() => handleChangeLanguage("es")}>
+                  <button onClick={() => {handleChangeLanguage("es") ; toggleMenu()}}>
                     <img src={esp} className='w-[1.5rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
 
                   </button>

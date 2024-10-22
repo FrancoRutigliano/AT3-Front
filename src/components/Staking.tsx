@@ -35,7 +35,7 @@ export const Staking = () => {
   return (
     <>
       <section className='mt-20 lg:mt-0' ref={stakingRef} id='tutoriales'>
-       
+
         <section className=" lg:mt-20 flex  overflow-hidden  sm:grid sm:grid-cols-4 py-10 ">
           <div className='flex items-center'>
 
@@ -46,24 +46,30 @@ export const Staking = () => {
             />
           </div>
           <div className="mx-auto sm:col-span-2   md:p-0 md:w-full px-10 md:px-5  text-center lg:text-left ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="mb-5  w-full bg-custom-gradient bg-clip-text text-transparent text-xl font-bold lg:text-6xl py-2 ">
+            <h2 className="mb-5  w-full bg-custom-gradient bg-clip-text text-transparent text-2xl font-bold lg:text-6xl py-2 ">
               {t("stakingView.¿Qué es el Staking?")}
             </h2>
 
-            <p className=" text-xs text-white md:mt-4 md:block text-justify md:text-center  md:px-0 lg:text-base break-words">
+            <p className=" text-xs text-white md:mt-4 md:block text-justify   md:px-0 lg:text-base break-words">
               {/* {t("stakingView.¿Qué es el Staking? Descripcion")} */}
               {t("stakingView.staking p1")}
-               <br />
+              <br />
+              <span className="block sm:hidden">
+                <br />
+              </span>
               {t("stakingView.staking p1.1")}
-               <br />
-               {t("stakingView.staking p1.2")} <br /> <br />
-               {t("stakingView.staking p1.3")}
+              <br />
+              <span className="block sm:hidden">
+                <br />
+              </span>
+              {t("stakingView.staking p1.2")} <br /> <br />
+              {t("stakingView.staking p1.3")}
             </p>
             {/* <p className=" text-sm text-white  md:block  lg:text-lg break-words" >{t("stakingView.¿Qué es el Staking? Descripcion 2")}</p> */}
 
             <div className="mt-4 md:mt-8 flex justify-between md:justify-center  lg:justify-start ">
               <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px]  lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-base text-center hover:cursor-pointer'  >
-               {t("invertir.ver tutoriales")}
+                {t("invertir.ver tutoriales")}
               </Link>
               <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-base text-center hover:cursor-pointer'
                 href='https://dapp-at-3.vercel.app/' target='_blank'>

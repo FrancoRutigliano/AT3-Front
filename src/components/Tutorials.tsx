@@ -28,7 +28,7 @@ export const Tutorials = () => {
   
   return (
     <>
-    <h1 ref={tutorialsRef} id='tutoriales' className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  my-16'>{t("tutoriales.tutoriales")}</h1>
+    <h1 ref={tutorialsRef} id='tutoriales' className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold   my-16'>{t("tutoriales.tutoriales")}</h1>
       <section className='flex  flex flex-col lg:flex-row justify-between items-center p-5' >
       <article className=" m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
           <div className="relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">

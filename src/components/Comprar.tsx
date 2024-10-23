@@ -32,7 +32,11 @@ export const Comprar = () => {
 
                                {/* <br /> Puedes adquirir Atómicos haciendo click en el botón que se encuentra debajo o mediante un transferencia bancaria.
                                 Para acudir a esta segunda opción debes enviarnos un correo electrónico a <span className="text-blue-500 underline">support@atomico3.io</span> solicitando la compra por transferencia bancaria y consignando todos tus datos para que podamos contactarte y realizar la transferencia bancaria de cuenta a cuenta. */}
-                                Actualmente estamos disponibles en 
+                                <br />
+                                Puedes comprar Atómicos cliqueando en el botón de abajo.
+                                <br />
+
+                                Actualmente estamos disponibles en Quickswap. 
                                 {/* <br /> <br /> Estaremos disponibles en diversas plataformas Dex como Paraswap y Uniswap, donde podrás ver y aprovechar el valor de mercado en tiempo real. <br /> Prepárate para explorar posibilidades con Atómicos. */}
                             </p>
                             <div className="mt-4 md:mt-8 flex justify-between md:justify-start">

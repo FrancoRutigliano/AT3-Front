@@ -42,9 +42,9 @@ export const AtomicInfo = () => {
           </div>
         </div>
 
-        <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4">
           <a
-            className="block rounded-xl border border-gray-800 p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+            className="bg-dark-light block rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             href="#"
           >
             <img src={energy} alt="Energy" className='w-12' />
@@ -55,7 +55,7 @@ export const AtomicInfo = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+            className="bg-dark-light block rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             href="#"
           >
             <img src={investors} alt="Investors" className='w-12' />
@@ -66,7 +66,7 @@ export const AtomicInfo = () => {
           </a>
 
           <a
-            className="block rounded-xl border border-gray-800 p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+            className="bg-dark-light block rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             href="#"
           >
             <img src={platform} alt="Platform" className='w-12' />

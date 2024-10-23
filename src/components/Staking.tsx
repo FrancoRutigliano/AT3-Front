@@ -34,7 +34,7 @@ export const Staking = () => {
   }, [location]);
   return (
     <>
-      <section className='mt-20 lg:mt-0' ref={stakingRef} id='tutoriales'>
+      <section className='mt-20 lg:mt-0' ref={stakingRef} id='staking'>
 
         <section className=" lg:mt-20 flex  overflow-hidden  sm:grid sm:grid-cols-4 py-10 ">
           <div className='flex items-center'>

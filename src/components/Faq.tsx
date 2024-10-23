@@ -331,51 +331,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     {t("faq.Si puedo")}
     </p>
   </details>
-  {/* <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
-  >
-    <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
-    >
-      <h2 className="font-medium text-celeste lg:text-2xl">Why don't I see the price of Atómico3 reflected in my wallet?</h2>
-
-      <span className="relative size-5 shrink-0">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="absolute inset-0 opacity-100 group-open:opacity-0"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="2"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="absolute inset-0 opacity-0 group-open:opacity-100"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-          stroke-width="2"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-          />
-        </svg>
-      </span>
-    </summary>
-
-    <p className="mt-4 leading-relaxed text-white  lg:text-lg">
-    The token is currently on the waiting list to be listed on CoinMarketCap, which is why the price will be reflected soon.
-    </p>
-  </details> */}
+  
 
 </div>
     </>

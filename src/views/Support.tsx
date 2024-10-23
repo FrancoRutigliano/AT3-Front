@@ -23,9 +23,9 @@ export const Support = () => {
 
           </div>
 
-          <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             >
               <img src={ws} alt="" className='w-12' />
 
@@ -38,7 +38,7 @@ export const Support = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             >
               <img src={email} alt="investors" className='w-12' />
 
@@ -51,7 +51,7 @@ export const Support = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             >
               <img src={location} alt="location" className='w-12' />
 

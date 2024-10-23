@@ -48,7 +48,7 @@ export const Nosotros = () => {
             <div className="relative z-20 flex flex-col  items-center  break-words w-full">
               <h2 className="text-2xl font-bold  sm:text-3xl lg:text-5xl text-celeste py-2 ">{t("nosotros.nosotros")}</h2>
 
-              <p className="text-[0.7rem] sm:text-base w-full  mt-2 lg:mt-0 text-justify px-44  ">
+              <p className="text-[0.7rem] sm:text-base w-full  mt-2 lg:mt-0 text-justify px-4 sm:px-7 lg:px-44  ">
                 {/* {t("nosotros.title")} */}
                 <br />
 

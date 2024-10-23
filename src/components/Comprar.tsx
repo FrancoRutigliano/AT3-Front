@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next"
 import { Link } from "react-router-dom"
-import p2p from '../assets/Investors.png'
 import c1 from '../assets/ComprarAt3/c1.avif'
 export const Comprar = () => {
 

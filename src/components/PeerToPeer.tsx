@@ -35,7 +35,7 @@ export const PeerToPeer = () => {
     }, [location]);
     return (
         <>
-            <section className='mt-16 ' ref={p2pRef} id='p2p'>
+            <section className=' ' ref={p2pRef} id='p2p'>
                 {/* <h1 className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold lg:mt-32  pt-5' >Peer to Peer</h1> */}
                 <section className=" lg:mt-0 flex flex-col-reverse overflow-hidden  sm:grid sm:grid-cols-3 py-10">
                     <div className=" sm:col-span-2 py-5  md:p-12 lg:pl-7 lg:pr-2  lg:py-24 ">

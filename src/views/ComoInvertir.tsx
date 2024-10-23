@@ -8,6 +8,7 @@ import bg3 from '../assets/pruebas/p9.jpeg'
 
 import { Tutorials } from '../components/Tutorials'
 import { Link } from 'react-router-dom'
+import { Comprar } from '../components/Comprar'
 // import { FelizPrimavera } from '../components/FelizPrimavera'
 export const ComoInvertir = () => {
 
@@ -85,6 +86,7 @@ export const ComoInvertir = () => {
 
       {/* <ConnectWallet /> */}
       <Staking />
+      <Comprar/>
       <PeerToPeer />
       {/* <FelizPrimavera/> */}
       <Tutorials />

@@ -22,7 +22,7 @@ export const Valores = () => {
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
+              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
             >
               <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={riesgo} alt="valores" />
 
@@ -34,7 +34,7 @@ export const Valores = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
+              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
             >
               <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={mountain} alt="valores" />
 
@@ -47,7 +47,7 @@ export const Valores = () => {
             </a>
 
             <a
-              className="block rounded-xl border border-gray-800 p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
+              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-celeste"
             >
               <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={target} alt="" />
 

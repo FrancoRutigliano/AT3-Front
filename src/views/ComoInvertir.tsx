@@ -8,7 +8,7 @@ import bg3 from '../assets/pruebas/p9.jpeg'
 
 import { Tutorials } from '../components/Tutorials'
 import { Link } from 'react-router-dom'
-import { Comprar } from '../components/Comprar'
+// import { Comprar } from '../components/Comprar'
 // import { FelizPrimavera } from '../components/FelizPrimavera'
 export const ComoInvertir = () => {
 
@@ -54,24 +54,24 @@ export const ComoInvertir = () => {
               </p>
              
 
-              <div className="mt-4 sm:mt-8 flex flex-col justify-center items-center sm:flex-row sm:justify-between w-4/5 mx-auto gap-4">
+              <div className=" mt-4 sm:mt-8 flex flex-col justify-center items-center sm:flex-row sm:justify-between w-4/5 mx-auto gap-4">
                 <Link
                   to={'/comoInvertir#staking'}
-                  className="w-full sm:w-1/3 max-w-[150px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
+                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
                 >
                   Staking
                 </Link>
 
                 <Link
                   to={'/comoInvertir'}
-                  className="w-full sm:w-1/3 max-w-[150px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer"
+                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer"
                 >
                   Comprar AT3
                 </Link>
 
                 <Link
                   to={'/comoInvertir#p2p'}
-                  className="w-full sm:w-1/3 max-w-[150px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
+                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
                 >
                   Peer to Peer
                 </Link>
@@ -86,7 +86,7 @@ export const ComoInvertir = () => {
 
       {/* <ConnectWallet /> */}
       <Staking />
-      <Comprar/>
+      {/* <Comprar/> */}
       <PeerToPeer />
       {/* <FelizPrimavera/> */}
       <Tutorials />

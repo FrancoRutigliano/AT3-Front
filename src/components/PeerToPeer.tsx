@@ -52,7 +52,13 @@ export const PeerToPeer = () => {
                                 {t("como invertir.peer to peer p2")}
                                 <br />
                                 <br />
-                                {t("como invertir.peer to peer p2.1")}
+                                {t("como invertir.peer to peer p2.1")}  
+                                {t("como invertir.peer to peer p2.1.1")} <span className='text-blue-500 underline'>support@atomico3.io</span>  
+
+                                {t("como invertir.peer to peer p2.1.2")} 
+                                <br /> <br />
+                                {t("como invertir.peer to peer p2.2")}
+
                                 
 
                             </p>

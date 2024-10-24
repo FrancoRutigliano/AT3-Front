@@ -7,9 +7,7 @@ export const Medios = () => {
 
     const noticias = [
         {imagen: m1, title:  t("medios.m1"), subtitle: "data BA",link: "https://databa.ar/nota/6149/encuentro-entre-el-presidente-de-la-camara-latinoamericana-del-litio-y-el-secretario-de-mineria-de-argentina-un-dialogo-entre-mundos-divergentes/" },
-    
       ]
-
 
   return (
     <section className=" text-white">

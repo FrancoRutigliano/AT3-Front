@@ -68,6 +68,12 @@ export const Navbar = () => {
     setIsOpenDropdownLegal(!isCurrentlyOpen);
   };
 
+  const toggleDropdownNoticias = () => {
+    const isCurrentlyOpen = isOpenDropdownNoticias;
+    closeAllDropdowns();
+    setIsOpenDropdownNoticias(!isCurrentlyOpen);
+  };
+
   const toggleDropdownProyectos = () => {
     const isCurrentlyOpen = isOpenDropdownProyectos;
     closeAllDropdowns();
@@ -1070,6 +1076,88 @@ export const Navbar = () => {
                   </div>
                   {/* FIN DROPDWON LEGAL */}
                 </li>
+
+
+
+
+
+
+                <li>
+                  {/* DROPDWON NOTICIAS Y MEDIOS */}
+                  <div className="relative"
+                  >
+                    <div
+                      className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                    >
+
+                      <button
+                        className="h-full flex items-center text-white   hover:text-blue-500 "
+                        onClick={() => toggleDropdownNoticias()}
+
+                      >
+                        <button
+                          className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                        >
+                          {t("navbar.medios y noticias")}
+
+                        </button>
+                        <span className="sr-only">Menu</span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          className="size-4 "
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+
+                    {
+                      isOpenDropdownNoticias &&
+                      <div
+                        className="absolute left-12 border border-celeste end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                        role="menu"
+                      >
+                        <div className="p-2">
+                    
+                          <Link
+                            to={'/medios'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() => { toggleDropdownNoticias(); closeMenu(); }}
+
+                          >
+                            {t("navbar.medios")}
+                          </Link>
+
+                          <Link
+                            to={'/noticias'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() => { toggleDropdownNoticias(); closeMenu(); }}
+                          >
+                            {t("navbar.noticias")}
+
+                          </Link>
+
+
+                        </div>
+                      </div>
+                    }
+                  </div>
+                  {/* FIN DROPDWON NOTICIAS Y MEDIOS */}
+                </li>
+
+
+
+
+
+
 
 
                 <li>

@@ -52,9 +52,9 @@ export const Nosotros = () => {
                 {/* {t("nosotros.title")} */}
                 <br />
 
-                {t("nosotros.p1")} <br />
+                {t("nosotros.p1")} <br /> <br />
                 {t("nosotros.p2")}  <br /> <br />
-                {t("nosotros.p3")} <br />
+                {t("nosotros.p3")} <br /> <br />
                 {t("nosotros.p4")}
                 <br />
                 {t("nosotros.p5")}

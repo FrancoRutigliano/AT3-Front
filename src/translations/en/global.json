@@ -6,7 +6,7 @@
     "legal": "Legal",
     "preguntas frecuentes": "Faq",
     "ayuda": "Help",
-    "noticias": "Press and Media",
+    "medios y noticias": "Press and Media",
     "inverti en": "Invest in",
     "inverti en At3": "Invest in Atómico3",
     "como invertir": "How to invest",
@@ -28,7 +28,9 @@
     "tokenizacion": "projects",
     "proyectos de tokenizacion": "Tokenization projects",
     "nuestros proyectos": "Our Proyects",
-    "informacion sobre litio": "Information about Lithium"
+    "informacion sobre litio": "Information about Lithium",
+    "medios": "Media",
+    "noticias": "Press"
   },
   "nosotros": {
     "title": "We are a company legally incorporated in Paraguay, dedicated to the development and optimization of mining activity. We provide them with the tool of tokenization of certified lithium reserves, seeking to innovate and revolutionize the electromobility industry. ",
@@ -190,7 +192,10 @@
     "n4": "What mineral could reach U$S 8.7 billion in exports by 2030?",
     "n5": "The Latin American Lithium Chamber raised to the mining secretary the need for the mineral price to be set in the country and not in London."
     ,"n6": "Little progress in the formation of a regional capital market for lithium."
-    
+  },
+  "medios": {
+    "medios": "Media",
+    "m1": "Meeting between the President of the Latin American Lithium Chamber and the Secretary of Mining of Argentina: A Dialogue between Divergent Worlds."
   },
   "team": {
     "nuestro equipo": "Our Team",

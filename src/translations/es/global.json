@@ -6,7 +6,7 @@
     "legal": "Legal",
     "preguntas frecuentes": "Preguntas Frecuentes",
     "ayuda": "Ayuda",
-    "noticias": "Medios y Noticias",
+    "medios y noticias": "Medios y Noticias",
     "inverti en": "Invertí en",
     "inverti en At3": "Invertí en Atómico3",
     "como invertir": "Cómo invertir",
@@ -27,7 +27,9 @@
     "tokenizacion": "tokenización",
     "proyectos de tokenizacion": "Proyectos de tokenización",
     "nuestros proyectos": "Nuestros Proyectos",
-    "informacion sobre litio": "Información sobre el Litio"
+    "informacion sobre litio": "Información sobre el Litio",
+    "medios": "Medios",
+    "noticias": "Noticias"
   },
   "nosotros": {
     "title": "Somos una compañía legalmente constituida en Paraguay, dedicada al desarrollo y optimización de la actividad minera. Les aportamos la herramienta de la tokenización de las reservas de litio certificadas, buscando con esto innovar y revolucionar la industria de la electromovilidad. ",
@@ -188,8 +190,10 @@
     "n4": "Cuál es el mineral que podría alcanzar los U$S 8.700 millones en exportaciones para 2030",
     "n5": "La Cámara Latinoamericana del litio planteó al secretario de minería la necesidad de que el precio del mineral sea fijado en el país y no en Londres.",
     "n6": "Pocos avances en la conformación de un mercado de capitales regional para el litio."
-
-
+  },
+  "medios": {
+    "medios": "Medios",
+    "m1": "Encuentro entre el Presidente de la Cámara Latinoamericana del Litio y el Secretario de Minería de Argentina: Un Diálogo entre Mundos Divergentes"
   },
   "team": {
     "nuestro equipo": "Nuestro Equipo",

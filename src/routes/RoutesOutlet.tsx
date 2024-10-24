@@ -3,12 +3,13 @@
     import { Home } from "../views/Home"
     import { ComoInvertir } from "../views/ComoInvertir"
     import ScrollToTop from "../components/ScrollToTop"
-    import { Press } from "../views/Press"
+    import { Noticias } from "../views/Noticias"
     import { Nosotros } from "../views/Nosotros"
     import { Support } from "../views/Support"
     import { LegalLayout } from "../views/Legal/LegalLayout"
     import { Terms } from "../views/Legal/Terms"
     import { PrivacyPolicy } from "../views/Legal/PrivacyPolicy"
+import { Medios } from "../components/Medios"
 
     export const RoutesOutlet = () => {
         return (
@@ -20,7 +21,9 @@
                     <Route index element={<Home/>} />
                     <Route path="comoInvertir" element={<ComoInvertir/>}/>
                     <Route path="faq" element={<Home />} /> 
-                    <Route path="press" element={<Press/>}/>
+                    <Route path="noticias" element={<Noticias/>}/>
+                    <Route path="medios" element={<Medios/>}/>
+
                     <Route path="nosotros" element={<Nosotros/>}/>
                     <Route path="soporte" element={<Support/>}/>
 

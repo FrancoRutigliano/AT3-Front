@@ -16,6 +16,7 @@ export const Navbar = () => {
   const [isOpenDropdownAboutUs, setIsOpenDropdownAboutUs] = useState(false);
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false);
   const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false);
+  const [isOpenDropdownNoticias, setIsOpenDropdownNoticias] = useState(false);
 
 
   // Función para abrir/cerrar el menú principal
@@ -270,8 +271,8 @@ export const Navbar = () => {
                           <a
                             className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 leading-[20px] "
                           >
-                          {t("navbar.inverti en")} <br />
-                          Atómico3
+                            {t("navbar.inverti en")} <br />
+                            Atómico3
 
                           </a>
                           <span className="sr-only">Menu</span>
@@ -297,7 +298,7 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="p-2">
-                          <Link
+                            <Link
                               to={'/comoInvertir'}
                               // href='https://dapp-at-3.vercel.app'
                               className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -425,15 +426,107 @@ export const Navbar = () => {
                     </div>
                     {/* FIN DROPDWON LEGAL*/}
                   </li>
+                  {/* DROPDOWN MEDIOS Y NOTICIAS */}
+
+
+
 
 
                   <li>
+
+                    {/* DROPDWON MEDIOS Y NOTICIAS*/}
+                    <div className="relative"
+                      onMouseLeave={() => setIsOpenDropdownNoticias(false)}>
+                      <div
+                        className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                      >
+
+                        <button
+                          className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                          onMouseEnter={() => setIsOpenDropdownNoticias(true)}
+
+                        >
+                          {/* <a
+                            className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                          >
+                            {t("navbar.legal")}
+                          </a> */}
+
+
+                          <Link
+                            className="text-white text-center leading-[20px] transition hover:text-celeste   "
+                            to={"/press"}
+                          >
+                            {/* {t("navbar.noticias")} */}
+                            {i18n.language === "es" ? (
+                              <div className='text-sm'>
+                                <span className='block'>Medios y</span>
+                                <span className='block'>Noticias</span>
+                              </div>
+                            ) : (
+
+                              <div className='text-sm'>
+                                <span className='block'>Press </span>
+                                <span className='block'>& Media</span>
+                              </div>
+                            )}
+                          </Link>
+
+
+                          <span className="sr-only">Menu</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="size-4 "
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+
+                      {
+                        isOpenDropdownNoticias &&
+                        <div
+                          className="absolute end-0 z-10 mt-0 w-56 bg-dark-light text-white shadow-lg  "
+                          role="menu"
+                        >
+                          <div className="p-2">
+                            <Link
+                              to={'/medios'}
+                              // href='https://dapp-at-3.vercel.app'
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.medios")}
+                            </Link>
+
+                            <Link
+                              to={'/noticias'}
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.noticias")}
+                            </Link>
+
+
+                          </div>
+                        </div>
+                      }
+                    </div>
+                    {/* FIN DROPDWON MEDIOS Y NOTICIAS*/}
+                  </li>
+                  {/* <li>
                     <Link
                       className="text-white text-center leading-[20px] transition hover:text-celeste   "
                       to={"/press"}
                     >
                       {/* {t("navbar.noticias")} */}
-                      {i18n.language === "es" ? (
+                  {/* {i18n.language === "es" ? (
                         <div className='text-sm'>
                           <span className='block'>Medios y</span>
                           <span className='block'>Noticias</span>
@@ -446,7 +539,7 @@ export const Navbar = () => {
                         </div>
                       )}
                     </Link>
-                  </li>
+                  </li> */}
 
                   {/* DROPDWON AYUDA*/}
                   <div className="relative"
@@ -566,10 +659,10 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="lg:ml-auto  sm:flex sm:justify-end p-2 ">
-                            <button onClick={() => {handleChangeLanguage("en"); toggleMenu()}}>
+                            <button onClick={() => { handleChangeLanguage("en"); toggleMenu() }}>
                               <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                             </button>
-                            <button onClick={() => {handleChangeLanguage("es"); toggleMenu()}}>
+                            <button onClick={() => { handleChangeLanguage("es"); toggleMenu() }}>
                               <img src={esp} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
 
                             </button>
@@ -673,12 +766,12 @@ export const Navbar = () => {
                             {t("navbar.nuestros proyectos")}
                           </a>
                           <a
-                              className=" block rounded-lg px-4 py-2 text-sm text-white "
-                              role="menuitem"
-                            >
-                              {t("navbar.informacion sobre litio")}
+                            className=" block rounded-lg px-4 py-2 text-sm text-white "
+                            role="menuitem"
+                          >
+                            {t("navbar.informacion sobre litio")}
 
-                            </a>
+                          </a>
 
                         </div>
                       </div>
@@ -802,7 +895,7 @@ export const Navbar = () => {
                           className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                         >
                           {t("navbar.inverti en At3")}
-                          
+
 
                         </button>
                         <span className="sr-only">Menu</span>
@@ -828,7 +921,7 @@ export const Navbar = () => {
                         role="menu"
                       >
                         <div className="p-2">
-                        <Link
+                          <Link
                             to={'/comoInvertir'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"
@@ -1069,10 +1162,10 @@ export const Navbar = () => {
 
                 </li>
                 <li >
-                  <button onClick={() => {handleChangeLanguage("en"); toggleMenu()}} >
+                  <button onClick={() => { handleChangeLanguage("en"); toggleMenu() }} >
                     <img src={eng} className='w-[1.5rem] lg:w-[2rem]  transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                   </button>
-                  <button onClick={() => {handleChangeLanguage("es") ; toggleMenu()}}>
+                  <button onClick={() => { handleChangeLanguage("es"); toggleMenu() }}>
                     <img src={esp} className='w-[1.5rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
 
                   </button>

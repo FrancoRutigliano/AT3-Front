@@ -28,13 +28,10 @@ export const Comprar = () => {
                             </h2>
                             <p className='md:pr-12 text-justify  text-xs ms:text-sm text-white md:mt-4 md:block  lg:text-base break-words'>
                                Comprar Atómicos es una opción conveniente y atractiva, ya que representa una medida de inversión segura respaldada por un recurso estratégico como el litio.  Al adquirir Atómicos, estás protegiendo tu capital en un activo con alto potencial de crecimiento, lo que puede ser beneficioso tanto a corto como a largo plazo. <br /> 
-
-                               {/* <br /> Puedes adquirir Atómicos haciendo click en el botón que se encuentra debajo o mediante un transferencia bancaria.
-                                Para acudir a esta segunda opción debes enviarnos un correo electrónico a <span className="text-blue-500 underline">support@atomico3.io</span> solicitando la compra por transferencia bancaria y consignando todos tus datos para que podamos contactarte y realizar la transferencia bancaria de cuenta a cuenta. */}
-                                <br />
+<br />
                                 Para adquirir Atómicos, simplemente haz clic en el botón a continuación. <br/>
                                  Nos encontramos disponibles en Uniswap, donde podrás realizar tu compra de manera rápida y segura.
-                                {/* <br /> <br /> Estaremos disponibles en diversas plataformas Dex como Paraswap y Uniswap, donde podrás ver y aprovechar el valor de mercado en tiempo real. <br /> Prepárate para explorar posibilidades con Atómicos. */}
+                            
                             </p>
                             <div className="mt-4 md:mt-8 flex justify-between md:justify-start">
                                 <Link

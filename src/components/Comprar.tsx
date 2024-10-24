@@ -1,15 +1,34 @@
 import { useTranslation } from "react-i18next"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import c1 from '../assets/ComprarAt3/c1.avif'
+import { useEffect, useRef } from "react"
 export const Comprar = () => {
 
     const { t } = useTranslation("global")
+
+    const location = useLocation();
+    const comprarRef = useRef<HTMLDivElement>(null);
+
+    useEffect(() => {
+        if (location.hash === '#comprar' && comprarRef.current) {
+            // Obtener la posición del elemento
+            const elementPosition = comprarRef.current.getBoundingClientRect().top + window.scrollY;
+
+            // Ajustar el desplazamiento según el tamaño de la pantalla
+            const offset = window.innerWidth < 768 ? 40 : 60; // Menos desplazamiento en pantallas pequeñas (<768px)
+
+            window.scrollTo({
+                top: elementPosition - offset, // Ajusta la posición sumando o restando píxeles según la pantalla
+                behavior: 'smooth', // Desplazamiento suave
+            });
+        }
+    }, [location]);
 
     return (
 
 
         <>
-            <section
+            <section ref={comprarRef}
                 className='overflow-hidden mt-16  flex items-center'
                 id='comprarAt3'
                 style={{
@@ -20,18 +39,18 @@ export const Comprar = () => {
                 }}
             >
                 <section className="lg:mt-0 flex flex-col-reverse overflow-hidden sm:grid sm:grid-cols-3 py-10 backdrop-brightness-75">
-                   
+
                     <div className="sm:col-span-2 px-9 md:pl-16  pt-2 pb-10 ">
                         <div className="mx-auto px-2 md:p-0 md:w-full text-left lg:text-left ltr:sm:text-left rtl:sm:text-left">
                             <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold md:text-3xl py-2 break-words text-center md:text-left">
-                                Comprar Atómico3
+                                {t("comprarAt3.comprarAt3")}
                             </h2>
                             <p className='md:pr-12 text-justify  text-xs ms:text-sm text-white md:mt-4 md:block  lg:text-base break-words'>
-                               Comprar Atómicos es una opción conveniente y atractiva, ya que representa una medida de inversión segura respaldada por un recurso estratégico como el litio.  Al adquirir Atómicos, estás protegiendo tu capital en un activo con alto potencial de crecimiento, lo que puede ser beneficioso tanto a corto como a largo plazo. <br /> 
-<br />
-                                Para adquirir Atómicos, simplemente haz clic en el botón a continuación. <br/>
-                                 Nos encontramos disponibles en Uniswap, donde podrás realizar tu compra de manera rápida y segura.
-                            
+                                {t("comprarAt3.p1")} <br />
+                                <br />
+                                {t("comprarAt3.p1")}  <br />
+                              
+                                {t("comprarAt3.p3")}
                             </p>
                             <div className="mt-4 md:mt-8 flex justify-between md:justify-start">
                                 <Link
@@ -44,7 +63,7 @@ export const Comprar = () => {
                                     className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2 py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
                                     href='https://app.uniswap.org/explore/tokens/polygon/0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76' target='_blank'
                                 >
-                                    <button>Comprar AT3</button>
+                                    <button>{t("comprarAt3.comprarAt3")}</button>
                                 </a>
                             </div>
                         </div>

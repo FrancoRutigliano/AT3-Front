@@ -10,7 +10,6 @@ import { LegalLayout } from "../views/Legal/LegalLayout"
 import { Terms } from "../views/Legal/Terms"
 import { PrivacyPolicy } from "../views/Legal/PrivacyPolicy"
 import { Medios } from "../components/Medios"
-import { Halloween } from "../components/Halloween"
 
 export const RoutesOutlet = () => {
     return (

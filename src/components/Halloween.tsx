@@ -73,8 +73,10 @@ export const Halloween = () => {
               </h2>
 
               <p className="mt-4 text-gray-200">
-                  <Link to={'/'} className="text-blue-500 underline hover:text-blue-700">
                   {t("halloween.p5")}
+                  <Link to={'/'} className="text-blue-500 underline hover:text-blue-700">
+                  {t("halloween.inicio")}
+
                 </Link> 
                 {t("halloween.p6")}
 
@@ -88,10 +90,13 @@ export const Halloween = () => {
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Completar Formulario:</h2>
+                  <h2 className="text-lg font-bold">
+                {t("halloween.p7")}
+
+                  </h2>
 
                   <p className="mt-1 text-sm text-gray-300">
-                    Completar el formulario que les aparecerá en la app de atómico3, con todos sus datos de contacto
+                  {t("halloween.p8")}
 
 
 
@@ -106,25 +111,32 @@ export const Halloween = () => {
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Confirmación de datos</h2>
+                  <h2 className="text-lg font-bold"> 
+                  {t("halloween.p9")}
+                  </h2>
 
                   <p className="mt-1 text-sm text-gray-300">
-                    Luego de presionar el botón de enviar el formulario, recibirás un correo desde
-                    support@atomico3.io confirmando que todo quedo registrado debidamente.
+                  {t("halloween.p10")}
+
+              
                   </p>
                 </div>
               </div>
 
               <div className="flex items-start gap-4">
                 <span className="shrink-0 rounded-lg bg-celeste text-white p-5">
-                  2
+                  3
                 </span>
 
                 <div>
-                  <h2 className="text-lg font-bold">Recepción del beneficio</h2>
+                  <h2 className="text-lg font-bold"> 
+                  {t("halloween.p11")}
+
+                  </h2>
 
                   <p className="mt-1 text-sm text-gray-300">
-                    El 5% de regalo de ATOMICO3, será enviado a la billetera declarada (misma que se indico al cargar la compra, como de su amigo referente), el día 04 de Noviembre de 2024.
+                  {t("halloween.p12")}
+
                   </p>
                 </div>
               </div>

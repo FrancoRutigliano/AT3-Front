@@ -68,11 +68,25 @@
     "completar formulario": "Complete form"
   },
   "popup": {
-      "p1": "Ask two of your friends to join the project by purchasing ATOMICO3 (new) through PEER TO PEER (P2P) transactions, at a price of $0.85.",
-      "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet.",
-      "p3": "These purchases must be made between 12:00 AM on Monday, October 21, 2024, and 11:59 PM on October 31, 2024."
-      , "saber mas": "Learn more"
-  
+    "p1": "Ask two of your friends to join the project by purchasing ATOMICO3 (new) through PEER TO PEER (P2P) transactions, at a price of $0.85.",
+    "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet.",
+    "p3": "These purchases must be made between 12:00 AM on Monday, October 21, 2024, and 11:59 PM on October 31, 2024.",
+    "saber mas": "Learn more"
+  },
+  "halloween": {
+    "p1": "Ask two of your friends to join the Project by purchasing ATOMICO3 (new) in PEER TO PEER (P2P) transactions at a price of $0.85. The purchases must be made between 00:00 on Monday, October 21, 2024, and 23:59 on October 31, 2024, and they must reference you when doing so.",
+    "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet. It is important that your two friends have purchased the ATOMICOS (new AT3) within the established timeframe.",
+    "p3": "Scroll down to learn more!",
+    "p4": "How to access the benefit?",
+    "p5": "To access this benefit, the new buyers of AT3 (new) must navigate to the ",
+    "inicio": "home",
+    "p6": " of the page and click the buy token button, then follow the steps below.",
+    "p7": "Complete Form:",
+    "p8": "Fill out the form that will appear in the ATOMICO3 app with all your contact details.",
+    "p9": "Data Confirmation",
+    "p10": "After pressing the submit button on the form, you will receive an email from support@atomico3.io confirming that everything has been properly recorded.",
+    "p11": "Receiving the benefit",
+    "p12": "The 5% gift from ATOMICO3 will be sent to the declared wallet (the same one indicated when completing the purchase, as your friend's reference) on November 4, 2024."
   },
   "atomicInfo": {
     "que es atomico": "What is Atómico3?",
@@ -157,6 +171,12 @@
     "¿Cómo lo puedo hacer?": "How can I do it?",
     "¿Cómo lo puedo hacer? descripcion": "Click the button below!"
   },
+  "comprarAt3": {
+      "comprarAt3": "Buy AT3",
+      "p1": "Buying Atómicos is a convenient and attractive option, as it represents a secure investment backed by a strategic resource like lithium. By acquiring Atómicos, you are protecting your capital in an asset with high growth potential, which can be beneficial both in the short and long term.",
+      "p2": "To acquire Atómicos, simply click the button below.",
+      "p3": "We are available on Uniswap, where you can make your purchase quickly and securely."
+  },
   "terms": {
     "Términos y condiciones de pago del token AT3": "AT3 Token Payment Terms and Conditions",
     "General": "General",
@@ -191,8 +211,8 @@
     "n2": "The valorization of lithium in Latin America: perspectives, projections and its impact on the global market",
     "n3": "Atómico3, the Argentine cryptocurrency linked to lithium, reduces its emission to make it sustainable over time",
     "n4": "What mineral could reach U$S 8.7 billion in exports by 2030?",
-    "n5": "The Latin American Lithium Chamber raised to the mining secretary the need for the mineral price to be set in the country and not in London."
-    ,"n6": "Little progress in the formation of a regional capital market for lithium."
+    "n5": "The Latin American Lithium Chamber raised to the mining secretary the need for the mineral price to be set in the country and not in London.",
+    "n6": "Little progress in the formation of a regional capital market for lithium."
   },
   "medios": {
     "medios": "Media",

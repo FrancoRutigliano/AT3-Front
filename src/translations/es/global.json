@@ -66,29 +66,33 @@
     "completar formulario": "Completar formulario"
   },
   "popup": {
-    "p1": "  Pedile a dos de tus amigos que se sumen al Proyecto, comprando ATOMICO3 (nuevos) en compras PEER TO PEER (P2P), a un valor de U$S 0,85."
-    ,"p2": "Desde ATOMICO3, te vamos a regalar un 5% del total de las compras de tus dos amigos de ATOMICOS (AT3 nuevos), directo a tu billetera.",
+    "p1": "  Pedile a dos de tus amigos que se sumen al Proyecto, comprando ATOMICO3 (nuevos) en compras PEER TO PEER (P2P), a un valor de U$S 0,85.",
+    "p2": "Desde ATOMICO3, te vamos a regalar un 5% del total de las compras de tus dos amigos de ATOMICOS (AT3 nuevos), directo a tu billetera.",
     "p3": "Dichas compras deben de ser realizadas entre las 0.00 hs del lunes 21 de Octubre de 2024, y hasta las 23.59 hs del día 31 de Octubre de 2024.",
-    "saber mas": "Saber Más" 
+    "saber mas": "Saber Más"
   },
   "halloween": {
     "p1": " Pedile a dos de tus amigos que se sumen al Proyecto, comprando ATOMICO3 (nuevos) en compras PEER TO PEER (P2P), a un valor de U$S 0,85. Las compras deben de ser hechas entre las 0.00 hs del lunes 21 de Octubre de 2024, y hasta las 23.59 hs del día 31 de Octubre de 2024, y que te pongan como referencia al hacerlo.",
     "p2": "Desde ATOMICO3, te vamos a regalar un 5% del total de las compras de tus dos amigos de ATOMICOS (AT3 nuevos), directo a tu billetera. Es importante, que tus dos amigos hayan comprado los ATOMICOS (AT3 nuevos), dentro del plazo establecido.",
     "p3": " ¡Deslizá hacia abajo para saber más!",
     "p4": "¿Cómo acceder al beneficio?",
-    "p5": "Para poder acceder a este beneficio, los nuevos compradores de AT3 (nuevos), deberán navegar al",
+    "p5": "Para poder acceder a este beneficio, los nuevos compradores de AT3 (nuevos), deberán navegar al ",
     "inicio": "inicio",
-    "p6": "de la página y hacer clic en el botón de comprar token y seguir los pasos a continuación.",
-    "p7": "Completar Formulario",
-    "p8": ""
+    "p6": " de la página y hacer clic en el botón de comprar token y seguir los pasos a continuación.",
+    "p7": "Completar Formulario:",
+    "p8": "Completar el formulario que les aparecerá en la app de atómico3, con todos sus datos de contacto",
+    "p9": "Confirmación de datos",
+    "p10": "Luego de presionar el botón de enviar el formulario, recibirás un correo desde support@atomico3.io confirmando que todo quedo registrado debidamente.",
+    "p11": "Recepción del beneficio",
+    "p12": "El 5% de regalo de ATOMICO3, será enviado a la billetera declarada (misma que se indico al cargar la compra, como de su amigo referente), el día 04 de Noviembre de 2024."
   },
   "atomicInfo": {
     "que es atomico": "¿Qué es Atómico3?",
     "p1": "Es un token que representa la tokenización de los activos mineros, atados a un subyacente el Litio (respaldados por las reservas de litio certificadas bajo normas NI 43-101), que tiene cada Proyecto. ",
-    "p2":"Este proceso de digitalizar las reservas de litio, permite su comercialización en plataformas blockchain. Democratizado el acceso a la inversión en recursos naturales, ofreciendo transparencia, seguridad y liquidez. ",
+    "p2": "Este proceso de digitalizar las reservas de litio, permite su comercialización en plataformas blockchain. Democratizado el acceso a la inversión en recursos naturales, ofreciendo transparencia, seguridad y liquidez. ",
     "p3": " Con su enfoque innovador, hemos facilitado la inversión sostenible y el desarrollo económico en regiones ricas en litio, posicionándolo como un activo digital de alto valor en el mercado global.",
     "p4": "Nuestra billetera oficial es la ",
-    "p5":"Nuestro contrato POLYGON es ",
+    "p5": "Nuestro contrato POLYGON es ",
     "descripcion atomico p1": " Atómico3 es un token que representa la tokenización de activos mineros, respaldados por reservas de litio certificadas bajo normas ni 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain.",
     "descripcion atomico p2": "Atómico3 democratiza el acceso a la inversión en recursos naturales, ofreciendo transparencia, seguridad y liquidez. Con su enfoque innovador, Atómico3 facilita la inversión sostenible y el desarrollo económico en regiones ricas en litio, posicionándolo como un activo digital de alto valor en el mercado global.",
     "criptoactivo responsable": "Criptoactivo Responsable",
@@ -164,6 +168,12 @@
     "¿Qué es el Staking? Descripcion 2": "Recuerda que para esto necesitas conectar tu wallet. Si no sabes como hacerlo, puedes ver los tutoriales debajo.",
     "¿Cómo lo puedo hacer?": "¿Cómo lo puedo hacer?",
     "¿Cómo lo puedo hacer? descripcion": "¡Haz clic en el botón de abajo!"
+  },
+  "comprarAt3": {
+    "comprarAt3": "Comprar AT3",
+    "p1": "Comprar Atómicos es una opción conveniente y atractiva, ya que representa una medida de inversión segura respaldada por un recurso estratégico como el litio.  Al adquirir Atómicos, estás protegiendo tu capital en un activo con alto potencial de crecimiento, lo que puede ser beneficioso tanto a corto como a largo plazo.",
+    "p2": "  Para adquirir Atómicos, simplemente haz clic en el botón a continuación.",
+    "p3": "  Nos encontramos disponibles en Uniswap, donde podrás realizar tu compra de manera rápida y segura."
   },
   "terms": {
     "Términos y condiciones de pago del token AT3": "Términos y condiciones de pago del token AT3",
@@ -753,15 +763,15 @@
       "informacion punto 27": {
         "p1": "Atómico cuenta con un centro de atención al Usuario. Para contactarse, puede hacerlo por correo electrónico a",
         "p1.1": "y/o cualquier otro medio dispuesto por Atómico a tal fin."
-      }, "informacion punto 28": {
+      },
+      "informacion punto 28": {
         "p1": "Todas las notificaciones que deban efectuarse a Atómico por el acceso o uso de la Plataforma bajo estos T&C deberán realizarse por escrito a su correo electrónico o dirección postal indicados a continuación:",
-        "p2": "Atómico3 S.A ", 
-        "p3": "RUC: 80144052-1", 
-        "p4": "Dirección:", 
-        "p5": "Av. Aviadores del Chaco 2351 8 piso, Asunción, Republica del Paraguay", 
-        "p6": "Correo electrónico:", 
+        "p2": "Atómico3 S.A ",
+        "p3": "RUC: 80144052-1",
+        "p4": "Dirección:",
+        "p5": "Av. Aviadores del Chaco 2351 8 piso, Asunción, Republica del Paraguay",
+        "p6": "Correo electrónico:",
         "p7": "support@Atómico3.io"
-      
       }
     }
   }

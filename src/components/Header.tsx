@@ -35,16 +35,14 @@ export const Header = () => {
     setShowPopUp(false)
   }
 
-//  useEffect(() => {
+ useEffect(() => {
   
-    // Verificar si es la primera vez
-    // const isFirstTime = sessionStorage.getItem("isFirstTime");
-    // if (!isFirstTime) {
-    //   setShowPopUp(true);
-      // // Solo mostrar una vez
-      // sessionStorage.setItem("isFirstTime", "true");
-//     }
-//  }, [])
+    const isFirstTime = sessionStorage.getItem("isFirstTime");
+    if (!isFirstTime) {
+      setShowPopUp(true);
+      sessionStorage.setItem("isFirstTime", "true");
+    }
+ }, [])
  
 
   if(showingForm) return (
@@ -57,7 +55,7 @@ export const Header = () => {
   return (
     <>
 
-  {!showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> }
+  {showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> }
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   

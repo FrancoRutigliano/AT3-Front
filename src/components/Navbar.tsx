@@ -347,6 +347,13 @@ export const Navbar = () => {
                               Peer to Peer
                             </Link>
                             <Link
+                              to={'/comoInvertir#halloween'}
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              Halloween Week!
+                            </Link>
+                            <Link
                               to={'/comoInvertir#tutoriales'}
                               className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
@@ -981,6 +988,15 @@ export const Navbar = () => {
                           >
                             Peer to Peer
                           </Link>
+                          <Link
+                            to={'/comoInvertir#p2p'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() => { toggleDropdown(); closeMenu(); }}
+                          >
+                            Halloween Week!
+                          </Link>
+                          
                           <Link
                             to={'/comoInvertir#tutoriales'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"

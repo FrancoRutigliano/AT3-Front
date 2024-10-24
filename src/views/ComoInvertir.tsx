@@ -63,10 +63,10 @@ export const ComoInvertir = () => {
                 </Link>
 
                 <Link
-                  to={'/comoInvertir'}
+                  to={'/comoInvertir#comprar'}
                   className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer"
                 >
-                  Comprar AT3
+                 {t("comprarAt3.comprarAt3")}
                 </Link>
 
                 <Link

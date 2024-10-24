@@ -1,13 +1,14 @@
 
 import { useTranslation } from 'react-i18next'
 import atomico from '../assets/Atomico.png'
-import {  useState } from 'react';
+import {  useEffect, useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';
 import e1 from '../assets/bg/e11.jpg'
 import 'animate.css';
 import { Form } from './Form';
+import { SpringPopUp } from './SpringPopUp';
 
 export const Header = () => {
 
@@ -17,6 +18,7 @@ export const Header = () => {
   // const [animate, setAnimate] = useState(false);
   const [isSpringBtn, setIsSpringBtn] = useState<boolean | null>(null);
   const [showingForm, setShowingForm] = useState(false)
+  const [showPopUp, setShowPopUp] = useState(false);
 
   const showForm = (isVisible: boolean) =>{
     setShowingForm(isVisible)
@@ -29,6 +31,20 @@ export const Header = () => {
 
   };
 
+  const handleClosePopUp = () => {
+    setShowPopUp(false)
+  }
+
+//  useEffect(() => {
+  
+    // Verificar si es la primera vez
+    // const isFirstTime = sessionStorage.getItem("isFirstTime");
+    // if (!isFirstTime) {
+    //   setShowPopUp(true);
+      // // Solo mostrar una vez
+      // sessionStorage.setItem("isFirstTime", "true");
+//     }
+//  }, [])
  
 
   if(showingForm) return (
@@ -41,6 +57,7 @@ export const Header = () => {
   return (
     <>
 
+  {!showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> }
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   

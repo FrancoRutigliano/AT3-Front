@@ -68,10 +68,11 @@
     "completar formulario": "Complete form"
   },
   "popup": {
-    "obten un 5 adicional": "Get an extra 5%!",
-    "p1": "Given the numerous inquiries and requests we have extended Spring Week until October 7th! Buy AT3 (new) between 00:00 a.m. on Monday, September 23, 2024 and until 11:59 p.m. on October 7, 2024. From Atómico3 we are going to give you an additional 5%.",
-    "p2": "Once you have made the purchase, do not forget to fill out the form with your information by clicking on the 'Happy Spring' button.",
-    "aceptar": "Continue"
+      "p1": "Ask two of your friends to join the project by purchasing ATOMICO3 (new) through PEER TO PEER (P2P) transactions, at a price of $0.85.",
+      "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet.",
+      "p3": "These purchases must be made between 12:00 AM on Monday, October 21, 2024, and 11:59 PM on October 31, 2024."
+      , "saber mas": "Learn more"
+  
   },
   "atomicInfo": {
     "que es atomico": "What is Atómico3?",

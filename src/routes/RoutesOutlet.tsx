@@ -27,7 +27,6 @@ export const RoutesOutlet = () => {
 
                     <Route path="nosotros" element={<Nosotros />} />
                     <Route path="soporte" element={<Support />} />
-                    <Route path="halloween" element={<Halloween />} />
 
                     <Route path="legal" element={<LegalLayout />}>
 

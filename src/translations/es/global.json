@@ -66,10 +66,21 @@
     "completar formulario": "Completar formulario"
   },
   "popup": {
-    "obten un 5 adicional": "¡Obtén un 5% adicional!",
-    "p1": "¡Dadas las numerosas consultas y solicitudes hemos extendido la Spring Week hasta el 7 de Octubre! Compra AT3 (nuevos) entre las 00:00hs del lunes 23 de setiembre de 2024 y hasta las 23:59 hs del día 7 de Octubre de 2024. Desde Atómico3 le vamos a regalar un 5% adicional.",
-    "p2": "Una vez realizada la compra no te olvides de llenar el formulario con tus datos cliqueando en el botón 'Feliz Primavera'",
-    "aceptar": "Aceptar"
+    "p1": "  Pedile a dos de tus amigos que se sumen al Proyecto, comprando ATOMICO3 (nuevos) en compras PEER TO PEER (P2P), a un valor de U$S 0,85."
+    ,"p2": "Desde ATOMICO3, te vamos a regalar un 5% del total de las compras de tus dos amigos de ATOMICOS (AT3 nuevos), directo a tu billetera.",
+    "p3": "Dichas compras deben de ser realizadas entre las 0.00 hs del lunes 21 de Octubre de 2024, y hasta las 23.59 hs del día 31 de Octubre de 2024.",
+    "saber mas": "Saber Más" 
+  },
+  "halloween": {
+    "p1": " Pedile a dos de tus amigos que se sumen al Proyecto, comprando ATOMICO3 (nuevos) en compras PEER TO PEER (P2P), a un valor de U$S 0,85. Las compras deben de ser hechas entre las 0.00 hs del lunes 21 de Octubre de 2024, y hasta las 23.59 hs del día 31 de Octubre de 2024, y que te pongan como referencia al hacerlo.",
+    "p2": "Desde ATOMICO3, te vamos a regalar un 5% del total de las compras de tus dos amigos de ATOMICOS (AT3 nuevos), directo a tu billetera. Es importante, que tus dos amigos hayan comprado los ATOMICOS (AT3 nuevos), dentro del plazo establecido.",
+    "p3": " ¡Deslizá hacia abajo para saber más!",
+    "p4": "¿Cómo acceder al beneficio?",
+    "p5": "Para poder acceder a este beneficio, los nuevos compradores de AT3 (nuevos), deberán navegar al",
+    "inicio": "inicio",
+    "p6": "de la página y hacer clic en el botón de comprar token y seguir los pasos a continuación.",
+    "p7": "Completar Formulario",
+    "p8": ""
   },
   "atomicInfo": {
     "que es atomico": "¿Qué es Atómico3?",

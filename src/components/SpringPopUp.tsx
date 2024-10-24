@@ -8,7 +8,7 @@ export const SpringPopUp = ({ handleClosePopUp }: any) => {
   return (
     <>
       <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50"
-        style={{ zIndex: 100 }}>
+        style={{ zIndex: 1 }}>
         <div className="relative w-full max-w-lg md:max-w-2xl lg:max-w-2xl ">
           <section className="overflow-hidden rounded-lg shadow-2xl grid grid-cols-1 md:grid-cols-3">
             {/* Imagen */}
@@ -39,19 +39,21 @@ export const SpringPopUp = ({ handleClosePopUp }: any) => {
 
               <div className="mt-12 flex flex-col">
                 <p className="text-[0.9rem] text-justify">
-                  Pedile a dos de tus amigos que se sumen al Proyecto, comprando ATOMICO3 (nuevos) en compras
-                  PEER TO PEER (P2P), a un valor de U$S 0,85.
+              {t("popup.p1")}
                   <br /> <br />
-                  Desde ATOMICO3, te vamos a regalar un 5% del total de las compras de tus dos amigos de ATOMICOS (AT3 nuevos), directo a tu billetera.
+                  {t("popup.p2")}
+
                   <br /> <br />
-                  Dichas compras deben de ser realizadas entre las 0.00 hs del lunes 21 de Octubre de 2024, y hasta las 23.59 hs del día 31 de Octubre de 2024.
+                  {t("popup.p3")}
+
                 </p>
 
                 <Link
-                  to={'/halloween'}
+                  to={'/comoInvertir#halloween'}
                   className="px-20 mt-5 bg-celeste hover:bg-sky-500 rounded-lg py-3 text-sm font-bold uppercase tracking-widest text-white text-center"
                 >
-                  Saber más
+                                    {t("popup.saber mas")}
+
                 </Link>
               </div>
             </div>

@@ -73,7 +73,7 @@ export const Work = () => {
               <form action="#" className="mt-8 grid grid-cols-6 gap-6">
                 <div className="col-span-6 sm:col-span-3">
                   <label
-                    htmlFor="FirstName"
+                    htmlFor="firstName"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                   >
                     Nombre
@@ -81,15 +81,15 @@ export const Work = () => {
 
                   <input
                     type="text"
-                    id="FirstName"
+                    id="firstName"
                     name="first_name"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200  p-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200  p-2  focus:outline-none focus:ring focus:ring-celeste"
                   />
                 </div>
 
                 <div className="col-span-6 sm:col-span-3">
                   <label
-                    htmlFor="LastName"
+                    htmlFor="lastName"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                   >
                     Apellido
@@ -97,9 +97,9 @@ export const Work = () => {
 
                   <input
                     type="text"
-                    id="LastName"
+                    id="lastName"
                     name="last_name"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2  focus:outline-none focus:ring focus:ring-celeste"
                   />
                 </div>
 
@@ -130,12 +130,13 @@ export const Work = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2 
+                     focus:outline-none focus:ring focus:ring-celeste"
                   />
                 </div>
                 <div className="col-span-6 sm:col-span-3">
                   <label
-                    htmlFor="puesto"
+                    htmlFor="position"
                     className="block text-sm font-medium text-gray-700 dark:text-gray-200"
                   >
                     Puesto al que aplica
@@ -143,18 +144,18 @@ export const Work = () => {
 
                   <input
                     type="text"
-                    id="puesto"
-                    name="puesto"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
+                    id="position"
+                    name="position"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2 focus:outline-none focus:ring focus:ring-celeste"
                   />
                 </div>
 
                 <div className='col-span-6 h-[100px]'>
-                  <label className="sr-only" htmlFor="message">Message</label>
+                  <label className="sr-only" htmlFor="message">Mensaje</label>
 
                   <textarea
-                    className="mt-1 w-full h-full bg-lime-200   rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
-                    placeholder="Message"
+                    className="mt-1 w-full h-full bg-lime-200   rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2  focus:outline-none focus:ring focus:ring-celeste"
+                    placeholder="Mensaje"
                     // rows={8}
                     // cols={10}
                     id="message"

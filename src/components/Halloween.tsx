@@ -72,15 +72,17 @@ export const Halloween = () => {
 
               </h2>
 
-              <p className="mt-4 text-gray-200">
+              <p className="mt-4 text-gray-200 text-sm sm:text-base">
                   {t("halloween.p5")}
-                  <Link to={'/'} className="text-blue-500 underline hover:text-blue-700">
-                  {t("halloween.inicio")}
+                  
+                  <Link to={'https://dapp-at-3.vercel.app/'} target="_blank" className="text-blue-500 underline hover:text-blue-700">
+                  {t("halloween.click aqui")}
 
-                </Link> 
-                {t("halloween.p6")}
+                </Link>
+                {t("halloween.p5.1")}
 
               </p>
+           
             </div>
 
             <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">

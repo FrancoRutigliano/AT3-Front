@@ -78,9 +78,9 @@
     "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet. It is important that your two friends have purchased the ATOMICOS (new AT3) within the established timeframe.",
     "p3": "Scroll down to learn more!",
     "p4": "How to access the benefit?",
-    "p5": "To access this benefit, the new buyers of AT3 (new) must navigate to the ",
-    "inicio": "home",
-    "p6": " of the page and click the buy token button, then follow the steps below.",
+    "p5": "To access this benefit, new AT3 buyers (new) must ",
+    "click aqui": "click here",
+    "p5.1": " to start the purchase process, and then continue with the steps below:",
     "p7": "Complete Form:",
     "p8": "Fill out the form that will appear in the ATOMICO3 app with all your contact details.",
     "p9": "Data Confirmation",
@@ -172,10 +172,10 @@
     "¿Cómo lo puedo hacer? descripcion": "Click the button below!"
   },
   "comprarAt3": {
-      "comprarAt3": "Buy AT3",
-      "p1": "Buying Atómicos is a convenient and attractive option, as it represents a secure investment backed by a strategic resource like lithium. By acquiring Atómicos, you are protecting your capital in an asset with high growth potential, which can be beneficial both in the short and long term.",
-      "p2": "To acquire Atómicos, simply click the button below.",
-      "p3": "We are available on Uniswap, where you can make your purchase quickly and securely."
+    "comprarAt3": "Buy AT3",
+    "p1": "Buying Atómicos is a convenient and attractive option, as it represents a secure investment backed by a strategic resource like lithium. By acquiring Atómicos, you are protecting your capital in an asset with high growth potential, which can be beneficial both in the short and long term.",
+    "p2": "To acquire Atómicos, simply click the button below.",
+    "p3": "We are available on Uniswap, where you can make your purchase quickly and securely."
   },
   "terms": {
     "Términos y condiciones de pago del token AT3": "AT3 Token Payment Terms and Conditions",

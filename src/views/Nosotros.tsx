@@ -3,29 +3,9 @@ import { Valores } from '../components/Valores'
 import { Team } from '../components/Team'
 import { useTranslation } from 'react-i18next'
 
-// import at3 from '../assets/news/at3-image.jpeg'
 
-// import at3 from '../assets/pruebas/p1.jpeg'
-// import at3 from '../assets/pruebas/p2.jpeg'
-// import at3 from '../assets/pruebas/p3.jpeg'
-// import at3 from '../assets/pruebas/p4.jpeg'
-// import at3 from '../assets/pruebas/p5.jpeg'
-// import at3 from '../assets/pruebas/p6.jpeg'
-// import at3 from '../assets/pruebas/p7.jpeg'
-// import at3 from '../assets/pruebas/p7.jpeg'
-// import at3 from '../assets/pruebas/p8.webp'
-// import at3 from '../assets/pruebas/p9.jpeg'
-// import at3 from '../assets/pruebas/p10.jpeg'
-// import at3 from '../assets/pruebas/p11.jpeg'
-
-// import at3 from '../assets/pruebas/p12.jpeg'
 import at3 from '../assets/pruebas/p13.avif'
-// import at3 from '../assets/pruebas/p14.jpg'
-// import at3 from '../assets/pruebas/p16.jpg'
-// import at3 from '../assets/pruebas/p17.avif'
-// import at3 from '../assets/pruebas/p18.avif'
-// import at3 from '../assets/pruebas/p19.avif'
-// import { Work } from './Work'
+import { Work } from '../components/Work'
 
 
 export const Nosotros = () => {
@@ -86,7 +66,7 @@ export const Nosotros = () => {
       </section>
 
       <Team />
-      {/* <Work /> */}
+      <Work />
     </>
   )
 }

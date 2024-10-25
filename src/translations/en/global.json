@@ -216,7 +216,10 @@
   },
   "medios": {
     "medios": "Media",
-    "m1": "Meeting between the President of the Latin American Lithium Chamber and the Secretary of Mining of Argentina: A Dialogue between Divergent Worlds."
+    "por": "By",
+    "m1": "Meeting between the President of the Latin American Lithium Chamber and the Secretary of Mining of Argentina",
+    "m2": "The Price of Lithium: A Market Perspective"
+
   },
   "team": {
     "nuestro equipo": "Our Team",

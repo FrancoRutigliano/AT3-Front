@@ -13,7 +13,6 @@ export const Nosotros = () => {
 
   return (
     <>
-
       <section
         className=""
       >

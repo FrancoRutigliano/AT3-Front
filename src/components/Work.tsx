@@ -1,5 +1,5 @@
 import manos from '../assets/nosotros/manos.avif'
-
+import at3 from '../assets/Atomico.png'
 
 export const Work = () => {
   return (
@@ -54,7 +54,12 @@ export const Work = () => {
             <div className="w-full lg:px-5">
               <div className="relative -mt-16 block lg:hidden">
           
-
+              <a
+            className="inline-flex size-16 items-center justify-center rounded-full bg-white text-blue-600 sm:size-20"
+            href="#"
+          >
+           <img src={at3} alt="atomico3" />
+          </a>
                 <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl dark:text-white">
                   Trabaja con nosotros
                 </h1>
@@ -78,7 +83,7 @@ export const Work = () => {
                     type="text"
                     id="FirstName"
                     name="first_name"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 lg:py-2 lg:py-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200  p-2"
                   />
                 </div>
 
@@ -94,7 +99,7 @@ export const Work = () => {
                     type="text"
                     id="LastName"
                     name="last_name"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 lg:py-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
                   />
                 </div>
 
@@ -107,7 +112,7 @@ export const Work = () => {
               type="email"
               id="Email"
               name="email"
-              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 lg:py-2"
+              className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
             />
           </div> */}
 
@@ -125,7 +130,7 @@ export const Work = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 lg:py-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
                   />
                 </div>
                 <div className="col-span-6 sm:col-span-3">
@@ -140,7 +145,7 @@ export const Work = () => {
                     type="text"
                     id="puesto"
                     name="puesto"
-                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 lg:py-2"
+                    className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
                   />
                 </div>
 
@@ -148,7 +153,7 @@ export const Work = () => {
                   <label className="sr-only" htmlFor="message">Message</label>
 
                   <textarea
-                    className="mt-1 w-full h-full bg-lime-200   rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 lg:py-2"
+                    className="mt-1 w-full h-full bg-lime-200   rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm dark:border-gray-700 dark:bg-gray-800 dark:text-gray-200 p-2"
                     placeholder="Message"
                     // rows={8}
                     // cols={10}

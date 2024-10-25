@@ -52,7 +52,7 @@ export const SpringPopUp = ({ handleClosePopUp }: any) => {
 
                 <Link
                   to={'/comoInvertir#halloween'}
-                  className="px-20 mt-5 bg-[#f4780a] hover:bg-[#f4ac1e] hover:bg-sky-500 rounded-lg py-3 text-sm font-medium uppercase tracking-widest text-white border border-black text-center"
+                  className="px-20 mt-5 bg-[#f4780a] hover:bg-[#f4ac1e] rounded-lg py-3 text-sm font-medium uppercase tracking-widest text-white border border-black text-center"
                 >
                                     {t("popup.saber mas")}
 

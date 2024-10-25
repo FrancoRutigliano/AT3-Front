@@ -14,7 +14,7 @@ export const Invertir = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
           <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
             <img
-              alt=""
+              alt="criptomoneda"
               src={at3}
               className="absolute inset-0 h-full w-full mx-auto max-w-[425px]  object-contain "
             />

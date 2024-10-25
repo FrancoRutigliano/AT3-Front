@@ -17,12 +17,12 @@ export const Invest = () => {
     </div>
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
-      <div className="flex items-start gap-4">
+      <div className="flex flex-col items-start justify-start gap-4 bg-dark-light rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
         <span className="shrink-0 rounded-lg p-4 text-center flex justify-center">
          <img src={padlock} alt="padlock" className='w-12 text-center'  />
         </span>
 
-        <div>
+        <div >
           <h2 className="text-lg font-bold">{t("InvestSection.Seguridad")}
           </h2>
 
@@ -32,7 +32,7 @@ export const Invest = () => {
         </div>
       </div>
 
-      <div className="flex items-start gap-4">
+      <div className="flex flex-col items-start justify-start gap-4 bg-dark-light rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
         <span className="shrink-0 rounded-lg  p-4">
          <img src={technology} alt="technology" className='w-12' />
         </span>
@@ -46,7 +46,7 @@ export const Invest = () => {
         </div>
       </div>
 
-      <div className="flex items-start gap-4">
+      <div className="flex flex-col items-start justify-start gap-4 bg-dark-light rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
         <span className="shrink-0 rounded-lg  p-4">
           <img src={support} alt="support" className='w-12' />
         </span>

@@ -26,7 +26,7 @@ export const FaqForLaw = () => {
     };
     return (
         <section >
-            <h1 className="text-2xl lg:text-5xl text-center mt-20 mb-5 lg:mb-20 lg:w-2/3 lg:mx-auto lg:leading-snug">{t("faqForLaw.faqForLaw")}</h1>
+            <h1 className="text-2xl md:text-3xl lg:text-5xl text-center mt-20 mb-5 md:mb-20 md:w-2/3 md:mx-auto md:leading-snug">{t("faqForLaw.faqForLaw")}</h1>
 
             <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}

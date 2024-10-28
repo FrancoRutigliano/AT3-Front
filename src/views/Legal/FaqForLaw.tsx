@@ -85,20 +85,20 @@ export const FaqForLaw = () => {
                         <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 3.p1")}</p>
 
                     </section>
-                    <section id="section3">
+                    <section id="section4">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">4. {t("faqForLaw.titles.title4")}</h2>
 
                         <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 4.p1")}</p>
 
                     </section>
-                    <section id="section3">
+                    <section id="section5">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">5. {t("faqForLaw.titles.title5")}</h2>
 
                         <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 5.p1")}</p>
 
-                    </section> <section id="section3">
+                    </section> <section id="section6">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">6. {t("faqForLaw.titles.title6")}</h2>
 
@@ -106,7 +106,7 @@ export const FaqForLaw = () => {
                         <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 6.p2")}</p>
 
 
-                    </section> <section id="section3">
+                    </section> <section id="section7">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">7. {t("faqForLaw.titles.title7")}</h2>
 
@@ -115,7 +115,7 @@ export const FaqForLaw = () => {
                         <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 7.p2")}</p>
 
 
-                    </section> <section id="section5">
+                    </section> <section id="section8">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">8. {t("faqForLaw.titles.title8")}</h2>
 

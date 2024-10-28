@@ -24,6 +24,19 @@
                 "p1.2": "Direcciones postales (a menos que se utilicen para la identificación de 2 factores)",
                 "p1.3": "Números de la seguridad social o de documento nacional de identidad",
                 "p2": "Sin embargo, Atomico3 puede entregar cierta información de registro estándar de la industria asociada con la billetera, incluida la fecha de creación, la hora de inicio de sesión, la identificación del dispositivo, el sistema operativo, la dirección de correo electrónico asociada o los números de teléfono (si se usa para la identificación de 2 factores), junto con cualquier archivo de billetera cifrado respaldado con servidores Atomico3.io."
+            },
+            "informacion punto 3": {
+                "p1": "No, Atomico3.io no recopila ni almacena ningún dato personal de los usuarios de Wallet."
+            },
+            "informacion punto 4": {
+                "p1": "No, Atomico3.io no puede acceder a la billetera de un usuario porque la billetera no tiene custodia. Una billetera sin custodia es un tipo de billetera que permite a los usuarios mantener y poseer su clave privada mientras tienen el control total de sus fondos. Las claves se guardan en un almacenamiento cifrado, al que Atomico3 no puede acceder ni descifrar."
+            },
+            "informacion punto 5": {
+                "p1": "Si las fuerzas del orden necesitan investigar una billetera sin custodia, deberán rastrear el movimiento de criptomonedas desde la billetera del usuario. Esto se puede hacer analizando la cadena de bloques, que es el libro mayor público de todas las transacciones de criptomonedas. Sin embargo, esto también puede ser una tarea difícil, ya que la cadena de bloques es un conjunto de datos muy grande y complejo."
+            },
+            "informacion punto 6": {
+                "p1": "Atomico3.io cumplirá con cualquier citación debidamente emitida que se nos notifique a través de los canales legales adecuados. Si está emitiendo su citación desde una jurisdicción extranjera, esto puede requerir que obtenga cartas rogatorias y la aprobación posterior de nuestra jurisdicción local antes de que se pueda realizar la notificación. No damos nuestro consentimiento para la entrega de una citación por ningún otro método.",
+                "p2": "Consideraremos si responder a todas las demás consultas de las fuerzas del orden público caso por caso, y cualquier respuesta de este tipo es voluntaria y se realiza a nuestra entera discreción. Usted consiente y acepta expresamente que todas y cada una de las comunicaciones realizadas a Atomico3 se convierten en propiedad exclusiva de Atomico3 y que Atomico3 tendrá el derecho, a su entera discreción, de publicar o difundir dichas comunicaciones, independientemente del contenido de las comunicaciones."
             }
         }
     }

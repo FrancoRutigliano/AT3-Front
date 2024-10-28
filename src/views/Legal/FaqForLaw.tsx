@@ -9,7 +9,7 @@ export const FaqForLaw = () => {
 
 
     const handleAnchorClick = (e: any, targetId: any) => {
-        e.preventDefault(); 
+        e.preventDefault();
 
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
@@ -27,7 +27,7 @@ export const FaqForLaw = () => {
     return (
         <section >
             <h1 className="text-2xl lg:text-5xl text-center mt-20 mb-5 lg:mb-20 lg:w-2/3 lg:mx-auto lg:leading-snug">{t("faqForLaw.faqForLaw")}</h1>
-          
+
             <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}
                 <div className="md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky lg:top-20 max-[768px]:max-h-[160px] rounded-t-lg  md:h-screen overflow-y-auto">
@@ -45,11 +45,11 @@ export const FaqForLaw = () => {
 
                 {/* Contenido de la Faq For Law */}
                 <div className="w-full text-sm md:w-3/4 p-6 bg-dark-light md:shadow-md md:rounded-lg">
-                    
+
                     <section id="section1">
 
                         <h2 className="text-lg md:text-3xl font-semibold  mb-2 lg:mb-5 text-blue-500">1. {t("faqForLaw.titles.title1")}</h2>
-                      
+
 
                         {[
                             { text: t("faqForLaw.documento.informacion punto 1.p1") },
@@ -61,47 +61,64 @@ export const FaqForLaw = () => {
                             </>
                         ))}
 
-                      
+
                     </section>
 
                     <section id="section2">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("faqForLaw.titles.title2")}</h2>
-                       
-                        <p className="mb-4">{t("faqForLaw.documento.informacion punto 2.p1") }</p>
+
+                        <p className="mb-4">{t("faqForLaw.documento.informacion punto 2.p1")}</p>
 
                         <ul className="list-disc list-inside mb-4">
-                            <li>{t("faqForLaw.documento.informacion punto 2.p1.1") }</li>
-                            <li>{t("faqForLaw.documento.informacion punto 2.p1.2") }</li>
-                            <li>{t("faqForLaw.documento.informacion punto 2.p1.3") }</li>
+                            <li>{t("faqForLaw.documento.informacion punto 2.p1.1")}</li>
+                            <li>{t("faqForLaw.documento.informacion punto 2.p1.2")}</li>
+                            <li>{t("faqForLaw.documento.informacion punto 2.p1.3")}</li>
                         </ul>
-                        <p className="mb-4">{t("faqForLaw.documento.informacion punto 2.p2") }</p>
+                        <p className="mb-4">{t("faqForLaw.documento.informacion punto 2.p2")}</p>
 
                     </section>
                     <section id="section3">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">3. {t("faqForLaw.titles.title3")}</h2>
-                        {[
-                            { title: t("faqForLaw.documento.informacion punto 3.p1.title"), content: t("faqForLaw.documento.informacion punto 3.p1.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p2.title"), content: t("faqForLaw.documento.informacion punto 3.p2.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p3.title"), content: t("faqForLaw.documento.informacion punto 3.p3.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p4.title"), content: t("faqForLaw.documento.informacion punto 3.p4.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p5.title"), content: t("faqForLaw.documento.informacion punto 3.p5.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p6.title"), content: t("faqForLaw.documento.informacion punto 3.p6.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p7.title"), content: t("faqForLaw.documento.informacion punto 3.p7.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p8.title"), content: t("faqForLaw.documento.informacion punto 3.p8.content") },
-                            { title: t("faqForLaw.documento.informacion punto 3.p9.title"), content: t("faqForLaw.documento.informacion punto 3.p9.content") }
-                        ].map((item, index) => (
-                            <div key={index} className="mb-4">
-                                {item.title && <h3 className="text-blue-500 ">{item.title}:</h3>}
-                                <p>{item.content}</p>
-                            </div>
-                        ))}
 
-
+                        <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 3.p1")}</p>
 
                     </section>
-                  
+                    <section id="section3">
+
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">4. {t("faqForLaw.titles.title4")}</h2>
+
+                        <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 4.p1")}</p>
+
+                    </section>
+                    <section id="section3">
+
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">5. {t("faqForLaw.titles.title5")}</h2>
+
+                        <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 5.p1")}</p>
+
+                    </section> <section id="section3">
+
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">6. {t("faqForLaw.titles.title6")}</h2>
+
+                        <p className="mt-5 ">{t("faqForLaw.documento.informacion punto 6.p1")}</p>
+                        <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 6.p2")}</p>
+
+
+                    </section> <section id="section3">
+
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">7. {t("faqForLaw.titles.title3")}</h2>
+
+                        <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 3.p1")}</p>
+
+                    </section> <section id="section5">
+
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">{t("faqForLaw.titles.title3")}</h2>
+
+                        <p className="mt-5 mb-10">{t("faqForLaw.documento.informacion punto 3.p1")}</p>
+
+                    </section>
 
                 </div>
             </div>

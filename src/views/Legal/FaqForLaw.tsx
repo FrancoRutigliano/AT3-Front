@@ -48,37 +48,20 @@ export const FaqForLaw = () => {
                     
                     <section id="section1">
 
-                        <h2 className="text-lg md:text-3xl font-semibold  mb-2 text-blue-500">1. {t("faqForLaw.titles.title1")}</h2>
-                        <p className="mb-4">
-                            {t("faqForLaw.documento.informacion punto 1.intro")}
+                        <h2 className="text-lg md:text-3xl font-semibold  mb-2 lg:mb-5 text-blue-500">1. {t("faqForLaw.titles.title1")}</h2>
+                      
 
-                        </p>
+                        {[
+                            { text: t("faqForLaw.documento.informacion punto 1.p1") },
+                            { text: t("faqForLaw.documento.informacion punto 1.p2") },
+                            { text: t("faqForLaw.documento.informacion punto 1.p3") }
+                        ].map((item, index) => (
+                            <>
+                                <p className="mb-4" key={`item-${index}`} >{item.text}</p>
+                            </>
+                        ))}
 
-                        <ul className="list-disc list-inside mb-4">
-                            {[
-                                {
-                                    text: t("faqForLaw.documento.informacion punto 1.punto i"),
-                                    link: t("faqForLaw.documento.informacion punto 1.punto i link"),
-                                    tag: t("faqForLaw.documento.informacion punto 1.punto i tag")
-                                },
-                                { text: t("faqForLaw.documento.informacion punto 1.punto ii"), link: "" },
-                                { text: t("faqForLaw.documento.informacion punto 1.punto iii"), link: "" }
-                            ].map((item, index) => (
-                                <li key={`item-${index}`}>
-                                    {item.text}
-                                    {item.link && (
-                                        <>
-                                            <a href={item.link} className="inline text-blue-500 hover:underline"> {item.link}</a> <span>{item.tag}</span>
-                                        </>
-                                    )}
-                                </li>
-                            ))}
-                        </ul>
-
-
-                        <p className="mb-4">
-                            {t("faqForLaw.documento.informacion punto 1.conclusion")}
-                        </p>
+                      
                     </section>
 
                     <section id="section2">

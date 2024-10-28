@@ -1,16 +1,16 @@
 import { useTranslation } from "react-i18next";
-import { getTermsTitles } from "../../Info/termsAndConditions";
 import arrowtop from '../../assets/arrowtop.png'
+import { termsTitles } from "../../Info/Legal";
 export const Terms = () => {
     const [t] = useTranslation("global");
 
-    const titles = getTermsTitles(t);
+    const titles = termsTitles(t);
 
     const handleAnchorClick = (e: any, targetId: any) => {
-        e.preventDefault(); // Prevenir el cambio de URL
-
+        e.preventDefault(); 
         const targetElement = document.getElementById(targetId);
         if (targetElement) {
+            
             // Ajusta el desplazamiento aquí
             const offset = 110; // Cantidad de píxeles para desplazarse hacia arriba
             const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
@@ -23,10 +23,7 @@ export const Terms = () => {
         }
     };
     return (
-        //  <section>
-        //     <h1 className="lg:text-6xl text-center mt-20 mb-5"</h1>
-        //     <h5 className="text-center mb-20">{t("termsAndConditions.vigencia")}</h5>
-        //  </section>
+  
         <section >
             <h1 className="text-2xl lg:text-5xl text-center mt-20 mb-5">{t("termsAndConditions.terminos y condiciones")}</h1>
             <h5 className="text-xs md:text-base w-2/3 mx-auto text-center mb-32 md:mb-20">{t("termsAndConditions.vigencia")}</h5>

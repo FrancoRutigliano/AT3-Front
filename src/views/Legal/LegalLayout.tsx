@@ -20,6 +20,11 @@ export const LegalLayout = () => {
 
             </Link>
           </li>
+          <li className={`p-5 lg:text-2xl ${location.pathname === '/legal/faqForLaw' ? 'border-b-4 border-blue-500 transition duration-150 ease-out hover:ease-in text-center ' : ' text-center border-b-4 border-transparent'}`}>
+            <Link to={'faqForLaw'} className=" text-white hover:text-blue-500 transition duration-150 ease-out hover:ease-in">
+            {t("faqForLaw.faqForLaw")}
+            </Link>
+          </li>
           {/* <li className={`p-5 lg:text-2xl ${location.pathname === '/legal/cookies' ? 'border-b-4 border-blue-500 transition duration-150 ease-out hover:ease-in text-center ' : 'text-center  border-b-2 border-transparent'}`}>
             <Link to={'cookies'} className=" text-white hover:text-blue-500 transition duration-150 ease-out hover:ease-in">
               Cookies policy

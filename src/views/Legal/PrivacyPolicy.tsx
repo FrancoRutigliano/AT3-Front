@@ -1,12 +1,13 @@
 import { useTranslation } from "react-i18next";
-import { getIndiceTitles } from '../../Info/privacyPolicy.ts'
+// import { getIndiceTitles } from '../../Info/privacyPolicy.ts'
 import arrowtop from '../../assets/arrowtop.png'
+import { privacyTitles } from "../../Info/Legal";
 
 export const PrivacyPolicy = () => {
 
     const [t] = useTranslation("global");
 
-    const indiceTitles = getIndiceTitles(t);
+    const titles = privacyTitles(t);
 
     const handleAnchorClick = (e: any, targetId: any) => {
         e.preventDefault(); // Prevenir el cambio de URL
@@ -33,7 +34,7 @@ export const PrivacyPolicy = () => {
                 <div className="md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky lg:top-20 max-[768px]:max-h-[160px] rounded-t-lg  md:h-screen overflow-y-auto">
                     <h2 className="text-lg font-semibold mb-4 text-black">{t("privacyPolicy.titles.indice")}</h2>
                     <ul className="list-decimal text-black list-inside">
-                        {indiceTitles.map((section, index) => (
+                        {titles.map((section, index) => (
                             <li key={index} className="p-2 md:p-4 border-l-4 border-celeste text-xs md:text-sm">
                                 <a href={`#${section.id}`} className="text-black hover:text-celeste hover:font-medium transition duration-150 ease-out " onClick={(e) => handleAnchorClick(e, section.id)}>
                                     {section.text}

@@ -1,0 +1,16 @@
+{
+    "faqForLaw": {
+        "faqForLaw": "Preguntas frecuentes para las fuerzas del orden",
+        "titles": {
+            "indice": "Índice",
+            "title1": "¿Atomico3.io controla la red Atomico3 o cualquier otra red de activos digitales?",
+            "title2": "Tengo una dirección de Atomico3 o un ID de transacción. ¿Puede Atomico3.io correlacionar esta información con cualquier información de identificación personal del usuario?",
+            "title3": "Tengo el nombre, dirección, número de teléfono u otra información de identificación personal de una persona. ¿Puede Atomico3.io correlacionar esta información con otra información de identificación personal?",
+            "title4": "¿Puede Atomico3.io congelar o entregar moneda virtual desde la billetera de un usuario?",
+            "title5": "¿Qué pueden hacer las fuerzas del orden si necesitan investigar una billetera sin custodia?",
+            "title6": "¿Cómo pueden las fuerzas del orden solicitar información a Atomico3.io?",
+            "title7": "¿Qué pasa si mi solicitud implica un riesgo inminente de muerte o lesiones corporales graves?",
+            "title8": "Renuncia"
+        }
+    }
+}

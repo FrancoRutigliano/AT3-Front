@@ -5,6 +5,9 @@ import './index.css'
 
 import global_en from './translations/en/global.json'
 import global_es from './translations/es/global.json'
+import faqForLaw_es from './translations/es/faqForLaw.json'
+import faqForLaw_en from './translations/en/faqForLaw.json'
+
 import i18next from 'i18next'
 import { I18nextProvider } from 'react-i18next'
 
@@ -13,13 +16,14 @@ i18next.init({
   lng: "es",
   resources: {
 en:{
- global: global_en
+ global: global_en,
+ faqForLaw: faqForLaw_en
 },
 es:{
-  global: global_es
+  global: global_es,
+   faqForLaw: faqForLaw_es
 }
   }
-
 })
 
 

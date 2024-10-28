@@ -10,6 +10,7 @@ import { LegalLayout } from "../views/Legal/LegalLayout"
 import { Terms } from "../views/Legal/Terms"
 import { PrivacyPolicy } from "../views/Legal/PrivacyPolicy"
 import { Medios } from "../components/Medios"
+import { FaqForLaw } from "../views/Legal/FaqForLaw"
 
 export const RoutesOutlet = () => {
     return (
@@ -31,6 +32,8 @@ export const RoutesOutlet = () => {
 
                         <Route path="terms" element={<Terms />} />
                         <Route path="privacy" element={<PrivacyPolicy />} />
+                        <Route path="faqForLaw" element={<FaqForLaw />} />
+
 
                     </Route>
 

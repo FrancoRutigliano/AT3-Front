@@ -1,0 +1,16 @@
+{
+    "faqForLaw": {
+    "faqForLaw": "Faq for Law Enforcement",
+        "titles": {
+            "indice": "Index",
+            "title1": "Does Atomico3.io control the Atomico3 network or any other digital asset network?",
+            "title2": "I have a Atomico address or transaction ID. Can Atomico3.io correlate this information with any personally-identifying user information?",
+            "title3": "I have the name, address, telephone number, or other personally-identifying information of an individual. Can Atomico3.io correlate this information with other personally identifying information?",
+            "title4": "Can Atomico3.io freeze or deliver virtual currency from a user’s wallet?",
+            "title5": "What can law enforcement do if they need to investigate a non-custodial wallet?",
+            "title6": "How can law enforcement seek information from Atomico3.io?",
+            "title7": "What if my request involves imminent risk of death or serious bodily harm?",
+            "title8": "Disclaimer"
+        }
+    }
+}

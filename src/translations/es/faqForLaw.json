@@ -17,6 +17,13 @@
                 "p1": "Atomico3 es una red descentralizada, que permite a sus participantes realizar transacciones de valor (en forma de AT3) peer-to-peer sin necesidad de un tercero. Para obtener más información sobre Atomico3, consulte nuestro Centro de aprendizaje.",
                 "p2": "Atomico3 es un sitio web informativo sobre Atomico3 y otros activos digitales. También proporcionamos software en forma de billetera digital, que permite a los usuarios recibir, almacenar y enviar varios activos digitales (la 'Billetera'). La Billetera es una billetera sin custodia. Una billetera sin custodia es un tipo de billetera de criptomonedas en la que el usuario tiene las claves privadas de sus fondos. Esto significa que el usuario tiene control total sobre sus fondos y puede acceder a ellos en cualquier momento. Por el contrario, una billetera de custodia es donde el proveedor de la billetera tiene las claves privadas de los fondos del usuario. Esto significa que el proveedor de la billetera tiene control sobre los fondos del usuario y puede acceder a ellos en cualquier momento.",
                 "p3": "La distinción entre billeteras con custodia y sin custodia es relevante para la aplicación de la ley porque el uso de billeteras sin custodia dificulta el seguimiento y la incautación de criptomonedas. Las fuerzas del orden no pueden simplemente solicitar las claves privadas del proveedor de la billetera. En su lugar, las fuerzas del orden tendrían que localizar al usuario y obtener las claves privadas del usuario."
+            },
+            "informacion punto 2": {
+                "p1": "En términos generales, Atomico3.io no conoce a los usuarios de su billetera:"
+                ,"p1.1": "Nombres Legales",
+                "p1.2": "Direcciones postales (a menos que se utilicen para la identificación de 2 factores)",
+                "p1.3": "Números de la seguridad social o de documento nacional de identidad",
+                "p2": "Sin embargo, Atomico3 puede entregar cierta información de registro estándar de la industria asociada con la billetera, incluida la fecha de creación, la hora de inicio de sesión, la identificación del dispositivo, el sistema operativo, la dirección de correo electrónico asociada o los números de teléfono (si se usa para la identificación de 2 factores), junto con cualquier archivo de billetera cifrado respaldado con servidores Atomico3.io."
             }
         }
     }

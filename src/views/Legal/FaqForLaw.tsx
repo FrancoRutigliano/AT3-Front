@@ -67,15 +67,15 @@ export const FaqForLaw = () => {
                     <section id="section2">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("faqForLaw.titles.title2")}</h2>
-                        {[
-                            { text: t("faqForLaw.documento.informacion punto 2.p1") },
-                            { text: t("faqForLaw.documento.informacion punto 2.p2") },
-                            { text: t("faqForLaw.documento.informacion punto 2.p3") }
-                        ].map((item, index) => (
-                            <>
-                                <p className="mb-4" key={`item-${index}`} >{item.text}</p>
-                            </>
-                        ))}
+                       
+                        <p className="mb-4">{t("faqForLaw.documento.informacion punto 2.p1") }</p>
+
+                        <ul className="list-disc list-inside mb-4">
+                            <li>{t("faqForLaw.documento.informacion punto 2.p1.1") }</li>
+                            <li>{t("faqForLaw.documento.informacion punto 2.p1.2") }</li>
+                            <li>{t("faqForLaw.documento.informacion punto 2.p1.3") }</li>
+                        </ul>
+                        <p className="mb-4">{t("faqForLaw.documento.informacion punto 2.p2") }</p>
 
                     </section>
                     <section id="section3">

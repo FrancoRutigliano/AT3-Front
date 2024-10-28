@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import arrowtop from '../../assets/arrowtop.png'
 import { cookiesPolicyTitles } from "../../Info/Legal";
+import { Link } from "react-router-dom";
 
 export const CookiesPolicy = () => {
 
@@ -73,14 +74,29 @@ export const CookiesPolicy = () => {
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("cookiesPolicy.titles.title2")}</h2>
 
-                        <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 2.p1")}</p>
+                        <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 2.p1")} 
+                            <Link to={'/legal/privacy'} className="text-blue-500 underline">
+                                {t("cookiesPolicy.documento.informacion punto 2.p1.1")}</Link>{t("cookiesPolicy.documento.informacion punto 2.p1.2")}  </p>
 
-                        <ul className="list-disc list-inside mb-4">
-                            <li>{t("cookiesPolicy.documento.informacion punto 2.p1.1")}</li>
-                            <li>{t("cookiesPolicy.documento.informacion punto 2.p1.2")}</li>
-                            <li>{t("cookiesPolicy.documento.informacion punto 2.p1.3")}</li>
+                        <p className="mb-3">{t("cookiesPolicy.documento.informacion punto 2.p2")}</p>
+
+                        <ul className="list-disc list-inside mb-10">
+                            {[
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.1")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.2")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.3")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.4")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.5")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.6")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.7")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.8")},
+                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.9")}
+                            ].map(({text}, index) => (
+                                <li className="mb-3" key={index}>{text}</li>
+                            ) )
+                            }
+                           
                         </ul>
-                        <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 2.p2")}</p>
 
                     </section>
                     <section id="section3">

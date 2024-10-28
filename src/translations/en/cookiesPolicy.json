@@ -20,6 +20,21 @@
                 "p2.2": "offer you content specifically personalized for you (for example to remember the choice of language you have made on our site, or to show you advertisements that are tailored to your needs and interest)",
                 "p3": "When we talk about 'cookies' we are also talking about technologies similar to cookies, such as scripts, web beacons, pixels, fingerprinting and redirects. Scripts (sometimes called tags) are programs that run in your browser or mobile application and perform various actions, such as sending information to our servers.",
                 "p4": "Cookies can be implemented by us and also by third-party organizations."
+            },
+            "informacion punto 2": {
+                "p1": "Cookies allow us to collect personal data relating to you, and to transmit us technical information about the devices you use, the clicks you make, and the content you view. We combine this information with personal data that you have already provided us or that we have obtained from external sources (see our ",
+                "p1.1": "Privacy Policy",
+                "p1.2": " here)."
+                ,"p2": "The cookies we place on your terminal give us access to the following personal data relating to you:",
+                "p2.1": "Identifiers of the equipment you use (IP address of your computer, Android identifier, Apple identifier, etc.);",
+                "p2.2": "Type of operating system used by your terminal (Microsoft Windows, Apple Os, Linux, Unix, etc.);",
+                "p2.3": "Type and version of the browser software used by your terminal (Microsoft Internet Explorer, Apple Safari, Mozilla Firefox, Google Chrome, etc.);",
+                "p2.4": "Dates and times of connection to our services;",
+                "p2.5": "Address of the originating Internet page ('referrer');",
+                "p2.6": "Browsing data on our services, content viewed;",
+                "p2.7": "Information relating to your use of our sites and applications;",
+                "p2.8": "Information relating to the presence of cookies on your terminal, the time and date of viewing; a page, and a description of the page where the web beacon is placed;",
+                "p2.9": "Information on whether or not you read emails that we send you, on the clicks you make on the links contained in these emails."
             }
         }
     }

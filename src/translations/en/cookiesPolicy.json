@@ -35,6 +35,17 @@
                 "p2.7": "Information relating to your use of our sites and applications;",
                 "p2.8": "Information relating to the presence of cookies on your terminal, the time and date of viewing; a page, and a description of the page where the web beacon is placed;",
                 "p2.9": "Information on whether or not you read emails that we send you, on the clicks you make on the links contained in these emails."
+            }, 
+            "informacion punto 3": {
+                "p1": "Yes and no. Some cookies are necessary for our site to function ('Essential Cookies'). However, for others, your consent is collected before the cookies are implemented on your terminal.",
+                "p2": "Essential Cookies allow our website/mobile applications to function. Without them, your user experience would be degraded. The Essential Cookies that we implement without your consent are the following:",
+                "p2.1": "Cookies recording the choice you have expressed on the implementation of cookies;",
+                "p2.2": "Cookies used for authentication purposes and for ensuring the security of our authentication mechanism;",
+                "p2.3": "Cookies used for personalization of our user interface (choice of language, or presentation of our service), when such personalization is essential to provide you with our service;",
+                "p2.4": "Cookies allowing you to automatically login into your account, using identifiers or data that you have previously entrusted to us;",
+                "p2.5": "Cookies allowing us to ensure that the display of our content is suitable for your device;",
+                "p2.6": "Cookies to remember your subscription to our newsletters."
+
             }
         }
     }

@@ -45,7 +45,23 @@
                 "p2.4": "Cookies allowing you to automatically login into your account, using identifiers or data that you have previously entrusted to us;",
                 "p2.5": "Cookies allowing us to ensure that the display of our content is suitable for your device;",
                 "p2.6": "Cookies to remember your subscription to our newsletters."
-
+            },
+            "informacion punto 4": {
+                "p1": "These cookies, for which we collect your consent, are used to measure our audience, to present you with personalized advertising, to tailor the content displayed on our website/application to your preferences, and to allow you to share our website/mobile application content on social media platforms. We use non-essential cookies for the following:",
+                "p2": "Optimization of your navigation on our website and applications",
+                "p2.1": "Recording of information relating to a form that you have filled in on our site registration or access to your account) or to products, services or information that you chosen on our site (service subscribed, content viewed, purchase made, etc.);",
+                "p2.2": "A/B testing cookies, i.e. cookies allowing us to build traffic statistics and tests aimed at measuring the relative performance of different versions of our website, detecting navigation problems on our site or application, or even organize the content.",
+                "p2.3": "Management of our platforms and performance of internal technical operations as part of problem solving, data analysis, tests, research, analysis, studies and surveys;",
+                "p2.4": "Cookies allowing us to improve the security measures of our website.",
+                "p3": "Audience measurement and web analytics",
+                "p3.1": "Establishment of statistics and volumes of visits and use of the various elements making up our site (sections and contents visited, routes) in order to improve the interest and ergonomics of our services;",
+                "p3.2": "Calculation of the total number of advertisements displayed by us on our advertising spaces, ranking and statistics;",
+                "p3.3": "Analysis of audiences based on the results of advertising campaigns;",
+                "p3.4": "Determination of interests and behaviors;",
+                "p3.5": "Improved customer / user knowledge for personalization purposes.",
+                "p4": "Sharing of your personal data on social media platforms",
+                "p5": "The use of social networks to interact with our sites and applications (in particular the 'like' buttons on Facebook, Twitter) allows you to share content of our website on social media platforms.",
+                "p6": "For example, if you are connected to the social network Facebook and you visit a page of our site, Facebook is likely to collect this information. Likewise, if you consult an article on our website and click on the 'tweet' button, Twitter will collect this information. We therefore invite you to consult the privacy policies of any such social networks to learn about the collections and processing they carry out on your data."
             }
         }
     }

@@ -120,12 +120,21 @@ export const CookiesPolicy = () => {
                            
                         </ul>
                     </section>
-                    <section id="section3">
+                    <section id="section4">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">4. {t("cookiesPolicy.titles.title4")}</h2>
 
-                        <p className="mt-5 mb-10">{t("cookiesPolicy.documento.informacion punto 4.p1")}</p>
+                        <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 4.p1")}</p>
 
+                            <ul className="list-disc list-inside">
+                                <li>{t("cookiesPolicy.documento.informacion punto 4.p2")}</li>
+                                    <ul className="list-disc list-inside">
+                                        <li>{t("cookiesPolicy.documento.informacion punto 4.p2.1")}</li>
+                                    </ul>
+
+
+
+                            </ul>
                     </section>
                     <section id="section3">
 

@@ -37,6 +37,16 @@
             "informacion punto 6": {
                 "p1": "Atomico3.io cumplirá con cualquier citación debidamente emitida que se nos notifique a través de los canales legales adecuados. Si está emitiendo su citación desde una jurisdicción extranjera, esto puede requerir que obtenga cartas rogatorias y la aprobación posterior de nuestra jurisdicción local antes de que se pueda realizar la notificación. No damos nuestro consentimiento para la entrega de una citación por ningún otro método.",
                 "p2": "Consideraremos si responder a todas las demás consultas de las fuerzas del orden público caso por caso, y cualquier respuesta de este tipo es voluntaria y se realiza a nuestra entera discreción. Usted consiente y acepta expresamente que todas y cada una de las comunicaciones realizadas a Atomico3 se convierten en propiedad exclusiva de Atomico3 y que Atomico3 tendrá el derecho, a su entera discreción, de publicar o difundir dichas comunicaciones, independientemente del contenido de las comunicaciones."
+            },
+            "informacion punto 7": {
+                "p1": "Si usted es un agente de la ley que solicita información de Atomico3 que probablemente evite la muerte o lesiones corporales graves, puede ponerse en contacto con nosotros de forma urgente. Junto con los documentos apropiados enumerados anteriormente, envíe un correo electrónico a",
+                "p1.1": " con 'RIESGO INMINENTE' en la línea de asunto.",
+                "p2": "En el cuerpo del correo electrónico, incluya una breve declaración jurada que describa el riesgo inminente y Atomico3.io esforzará por responder de manera expedita. Nos reservamos expresamente todos los derechos de considerar si responder o no, lo cual es de forma voluntaria y a nuestra entera discreción, excepto en los casos en que se nos haya entregado una citación debidamente emitida a través de los canales legales adecuados."
+            },
+            "informacion punto 8": {
+                "p1": "La información y los datos proporcionados en respuesta a las solicitudes se recopilarán y proporcionarán en la medida más completa y precisa posible. Sin embargo, no se puede garantizar que nada en dicha información y datos contenga errores, equivocaciones, tergiversaciones o fallos, etc. Tales errores, equivocaciones, tergiversaciones o fallas, etc., pueden ser el resultado de imperfecciones de la agencia humana, el programa o el proceso.",
+                "p2": "POR LO TANTO, NI ATOMICO3.IO NI NINGUNO DE NUESTROS RESPECTIVOS DIRECTORES, FUNCIONARIOS, EMPLEADOS, AGENTES O ASESORES SUBCONTRATADOS HACEN NINGUNA REPRESENTACIÓN, GARANTÍA O AVAL ALGUNO CON RESPECTO A LA INFORMACIÓN Y LOS DATOS Y, EN PARTICULAR, EN CUANTO A LA EXACTITUD O INTEGRIDAD DE LA INFORMACIÓN Y LOS DATOS.",
+                "p3": "Nada de lo dispuesto en esta sección se considerará o interpretará como una falta de voluntad para proporcionar la información y los datos solicitados."
             }
         }
     }

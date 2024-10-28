@@ -11,6 +11,43 @@
             "title6": "How can law enforcement seek information from Atomico3.io?",
             "title7": "What if my request involves imminent risk of death or serious bodily harm?",
             "title8": "Disclaimer"
+        },
+        "documento": {
+            "informacion punto 1": {
+                "p1": "Atomico3 is a decentralized network that allows its participants to conduct peer-to-peer value transactions (in the form of AT3) without the need for a third party. For more information about Atomico3, please consult our Learning Center.",
+                "p2": "Atomico3 is an informational website about Atomico3 and other digital assets. We also provide software in the form of a digital wallet that allows users to receive, store, and send various digital assets (the 'Wallet'). The Wallet is a non-custodial wallet. A non-custodial wallet is a type of cryptocurrency wallet in which the user holds the private keys to their funds. This means that the user has full control over their funds and can access them at any time. In contrast, a custodial wallet is where the wallet provider holds the user's private keys. This means that the wallet provider has control over the user's funds and can access them at any time.",
+                "p3": "The distinction between custodial and non-custodial wallets is relevant for law enforcement as the use of non-custodial wallets makes tracking and seizing cryptocurrencies more difficult. Law enforcement cannot simply request the private keys from the wallet provider. Instead, they would need to locate the user and obtain the user's private keys."
+            },
+            "informacion punto 2": {
+                "p1": "In general terms, Atomico3.io does not know the users of its wallet:",
+                "p1.1": "Legal Names",
+                "p1.2": "Mailing addresses (unless used for two-factor identification)",
+                "p1.3": "Social Security numbers or national ID numbers",
+                "p2": "However, Atomico3 may provide certain industry-standard registration information associated with the wallet, including the creation date, login time, device ID, operating system, associated email address, or phone numbers (if used for two-factor identification), along with any encrypted wallet files backed up on Atomico3.io servers."
+            },
+            "informacion punto 3": {
+                "p1": "No, Atomico3.io does not collect or store any personal data from Wallet users."
+            },
+            "informacion punto 4": {
+                "p1": "No, Atomico3.io cannot access a user’s wallet because the wallet is non-custodial. A non-custodial wallet is a type of wallet that allows users to hold and own their private key while having full control over their funds. The keys are stored in encrypted storage, which Atomico3 cannot access or decrypt."
+            },
+            "informacion punto 5": {
+                "p1": "If law enforcement needs to investigate a non-custodial wallet, they must track cryptocurrency movements from the user's wallet. This can be done by analyzing the blockchain, which is the public ledger of all cryptocurrency transactions. However, this can also be a challenging task, as the blockchain is a very large and complex dataset."
+            },
+            "informacion punto 6": {
+                "p1": "Atomico3.io will comply with any duly issued subpoena that is served through appropriate legal channels. If you are issuing your subpoena from a foreign jurisdiction, this may require you to obtain letters rogatory and subsequent approval from our local jurisdiction before service can be effected. We do not consent to the service of a subpoena by any other method.",
+                "p2": "We will consider whether to respond to all other law enforcement inquiries on a case-by-case basis, and any such response is voluntary and at our sole discretion. You expressly consent and agree that all communications made to Atomico3 become the exclusive property of Atomico3 and that Atomico3 shall have the right, at its sole discretion, to publish or disseminate such communications, regardless of the content of the communications."
+            },
+            "informacion punto 7": {
+                "p1": "If you are a law enforcement officer requesting information from Atomico3 that is likely to prevent death or serious bodily harm, you may contact us urgently. Along with the appropriate documents listed above, send an email to",
+                "p1.1": " with 'IMMINENT RISK' in the subject line.",
+                "p2": "In the body of the email, include a brief affidavit describing the imminent risk, and Atomico3.io will endeavor to respond expeditiously. We expressly reserve all rights to consider whether or not to respond, which is voluntary and at our sole discretion, except in cases where we have been served a duly issued subpoena through appropriate legal channels."
+            },
+            "informacion punto 8": {
+                "p1": "The information and data provided in response to requests will be collected and provided as fully and accurately as possible. However, nothing in such information and data can be guaranteed to be free from errors, inaccuracies, misrepresentations, or failures, etc. Such errors, inaccuracies, misrepresentations, or failures, etc., may result from imperfections in human agency, program, or process.",
+                "p2": "THEREFORE, NEITHER ATOMICO3.IO NOR ANY OF OUR RESPECTIVE DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, OR SUBCONTRACTED ADVISORS MAKE ANY REPRESENTATION, WARRANTY, OR ENDORSEMENT REGARDING THE INFORMATION AND DATA AND, IN PARTICULAR, AS TO THE ACCURACY OR COMPLETENESS OF THE INFORMATION AND DATA.",
+                "p3": "Nothing in this section shall be construed or interpreted as a lack of willingness to provide the requested information and data."
+            }
         }
     }
 }

@@ -184,9 +184,6 @@ export const CookiesPolicy = () => {
                 { name: '^_gcl_au$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t7"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t7.1") },
                 { name: '^_gid$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t8"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t8.1") },
                 { name: '^NID$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t9"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t9.1") },
-                
-                
-                
             ].map((cookie, index) => (
                 <tr key={index} className="border-t border-gray-300">
                     <td className="px-6 py-4 text-sm text-gray-800">{cookie.name}</td>
@@ -197,32 +194,12 @@ export const CookiesPolicy = () => {
         </tbody>
     </table>
 </div>
-
-
-
-
-
-
-
-
-
                     </section>
-
-
-
-
-
-
-
-
-
-                    <section id="section3">
+                    <section id="section6">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">6. {t("cookiesPolicy.titles.title6")}</h2>
 
                         <p className="mt-5 ">{t("cookiesPolicy.documento.informacion punto 6.p1")}</p>
-                        <p className="mt-5 mb-10">{t("cookiesPolicy.documento.informacion punto 6.p2")}</p>
-
 
                     </section> <section id="section3">
 

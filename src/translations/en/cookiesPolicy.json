@@ -83,6 +83,9 @@
             "t7.1": "90 days", 
             "t8.1": "24 hours",
             "t9.1": "6 months"
+        },
+        "informacion punto 6": {
+            "p1": "You will be prompted to take a clear, affirmative action so that we can ensure that you agree with the processing of your personal data. This action may, for example, take the form of a checkbox in your online tool. Before obtaining your consent, we will systematically inform you of the names of the organizations implementing the cookies, the consequences of your consent or refusal to consent, the purposes of the processing, and your right to withdraw your consent. You can choose to consent to certain uses that we or our partners will make of your data and to refuse others."
         }
     }
 

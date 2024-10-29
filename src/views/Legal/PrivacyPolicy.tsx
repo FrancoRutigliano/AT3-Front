@@ -27,8 +27,8 @@ export const PrivacyPolicy = () => {
     };
     return (
         <section >
-            <h1 className="text-2xl lg:text-5xl text-center mt-20 mb-5">{t("privacyPolicy.politica de privacidad")}</h1>
-            <h5 className="text-xs md:text-base w-2/3 mx-auto text-center mb-32 md:mb-20">{t("privacyPolicy.vigencia")}</h5>
+            <h1 className="text-2xl lg:text-5xl text-center mt-32 mb-5">{t("privacyPolicy.politica de privacidad")}</h1>
+            <h5 className="text-xs md:text-base w-2/3 mx-auto text-center mb-16 md:mb-20">{t("privacyPolicy.vigencia")}</h5>
             <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}
                 <div className="md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky lg:top-20 max-[768px]:max-h-[160px] rounded-t-lg  md:h-screen overflow-y-auto">

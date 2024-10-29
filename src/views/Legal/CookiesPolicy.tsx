@@ -54,9 +54,9 @@ export const CookiesPolicy = () => {
 
                         <h2 className="text-lg md:text-3xl font-semibold  mb-2 lg:mb-5 text-blue-500">1. {t("cookiesPolicy.titles.title1")}</h2>
 
-                        <p className="mb-4" >{t("cookiesPolicy.documento.informacion punto 1.p1") }</p>
+                        <p className="mb-4" >{t("cookiesPolicy.documento.informacion punto 1.p1")}</p>
                         <p className="mb-2" >{t("cookiesPolicy.documento.informacion punto 1.p2")}</p>
-                        
+
                         <ul className="list-disc list-inside mb-5">
                             <li>
                                 {t("cookiesPolicy.documento.informacion punto 1.p2.1")}
@@ -65,16 +65,16 @@ export const CookiesPolicy = () => {
                                 {t("cookiesPolicy.documento.informacion punto 1.p2.2")}
                             </li>
                         </ul>
-                        <p className="mb-4" >{t("cookiesPolicy.documento.informacion punto 1.p3") }</p>
+                        <p className="mb-4" >{t("cookiesPolicy.documento.informacion punto 1.p3")}</p>
                         <p className="mb-10" >{t("cookiesPolicy.documento.informacion punto 1.p4")}</p>
-                        
+
                     </section>
 
                     <section id="section2">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("cookiesPolicy.titles.title2")}</h2>
 
-                        <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 2.p1")} 
+                        <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 2.p1")}
                             <Link to={'/legal/privacy'} className="text-blue-500 underline">
                                 {t("cookiesPolicy.documento.informacion punto 2.p1.1")}</Link>{t("cookiesPolicy.documento.informacion punto 2.p1.2")}  </p>
 
@@ -82,20 +82,20 @@ export const CookiesPolicy = () => {
 
                         <ul className="list-disc list-inside mb-10">
                             {[
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.1")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.2")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.3")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.4")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.5")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.6")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.7")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.8")},
-                                {text: t("cookiesPolicy.documento.informacion punto 2.p2.9")}
-                            ].map(({text}, index) => (
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.1") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.2") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.3") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.4") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.5") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.6") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.7") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.8") },
+                                { text: t("cookiesPolicy.documento.informacion punto 2.p2.9") }
+                            ].map(({ text }, index) => (
                                 <li className="mb-3" key={index}>{text}</li>
-                            ) )
+                            ))
                             }
-                           
+
                         </ul>
 
                     </section>
@@ -107,17 +107,17 @@ export const CookiesPolicy = () => {
                         <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 3.p2")}</p>
                         <ul className="list-disc list-inside mb-10">
                             {[
-                                {text: t("cookiesPolicy.documento.informacion punto 3.p2.1")},
-                                {text: t("cookiesPolicy.documento.informacion punto 3.p2.2")},
-                                {text: t("cookiesPolicy.documento.informacion punto 3.p2.3")},
-                                {text: t("cookiesPolicy.documento.informacion punto 3.p2.4")},
-                                {text: t("cookiesPolicy.documento.informacion punto 3.p2.5")},
-                                {text: t("cookiesPolicy.documento.informacion punto 3.p2.6")},
-                            ].map(({text}, index) => (
+                                { text: t("cookiesPolicy.documento.informacion punto 3.p2.1") },
+                                { text: t("cookiesPolicy.documento.informacion punto 3.p2.2") },
+                                { text: t("cookiesPolicy.documento.informacion punto 3.p2.3") },
+                                { text: t("cookiesPolicy.documento.informacion punto 3.p2.4") },
+                                { text: t("cookiesPolicy.documento.informacion punto 3.p2.5") },
+                                { text: t("cookiesPolicy.documento.informacion punto 3.p2.6") },
+                            ].map(({ text }, index) => (
                                 <li className="mb-3" key={index}>{text}</li>
-                            ) )
+                            ))
                             }
-                           
+
                         </ul>
                     </section>
                     <section id="section4">
@@ -126,43 +126,97 @@ export const CookiesPolicy = () => {
 
                         <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 4.p1")}</p>
 
-                            <ul className="list-[square] list-inside">
-                                <li className="mb-3">{t("cookiesPolicy.documento.informacion punto 4.p2")}</li>
-                                     <ul className="list-disc list-inside">
-                                        {[
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.1")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.2")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.3")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.4")}
-                                        ].map(({text}, index)=>(
-                                            <li key={index} className="ml-10 my-2">{text}</li>
-                                        ))}
-                                    </ul>
-                                    <li className="my-5">{t("cookiesPolicy.documento.informacion punto 4.p3")}</li>
-                                    <ul className="list-disc list-inside">
-                                        {[
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.1")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.2")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.3")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.4")},
-                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.5")}
-
-                                        ].map(({text}, index)=>(
-                                            <li key={index} className="ml-10 my-2">{text}</li>
-                                        ))}
-                                    </ul>
-                                    <li className="my-5">{t("cookiesPolicy.documento.informacion punto 4.p4")}</li>
+                        <ul className="list-[square] list-inside">
+                            <li className="mb-3">{t("cookiesPolicy.documento.informacion punto 4.p2")}</li>
+                            <ul className="list-disc list-inside">
+                                {[
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p2.1") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p2.2") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p2.3") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p2.4") }
+                                ].map(({ text }, index) => (
+                                    <li key={index} className="ml-10 my-2">{text}</li>
+                                ))}
                             </ul>
-                            <p className="my-2">{t("cookiesPolicy.documento.informacion punto 4.p5")}</p>
-                            <p className="my-2">{t("cookiesPolicy.documento.informacion punto 4.p6")}</p>
+                            <li className="my-5">{t("cookiesPolicy.documento.informacion punto 4.p3")}</li>
+                            <ul className="list-disc list-inside">
+                                {[
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p3.1") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p3.2") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p3.3") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p3.4") },
+                                    { text: t("cookiesPolicy.documento.informacion punto 4.p3.5") }
+
+                                ].map(({ text }, index) => (
+                                    <li key={index} className="ml-10 my-2">{text}</li>
+                                ))}
+                            </ul>
+                            <li className="my-5">{t("cookiesPolicy.documento.informacion punto 4.p4")}</li>
+                        </ul>
+                        <p className="my-2">{t("cookiesPolicy.documento.informacion punto 4.p5")}</p>
+                        <p className="my-2">{t("cookiesPolicy.documento.informacion punto 4.p6")}</p>
                     </section>
-                    <section id="section3">
+                    <section id="section5">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">5. {t("cookiesPolicy.titles.title5")}</h2>
 
                         <p className="mt-5 mb-10">{t("cookiesPolicy.documento.informacion punto 5.p1")}</p>
 
-                    </section> <section id="section3">
+
+
+                        <div className="overflow-x-auto">
+                            <table className="min-w-full bg-white border border-gray-300 ">
+                                <thead className="bg-gray-200">
+                                    <tr>
+                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-700 uppercase">Cookie Name</th>
+                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-700 uppercase">Purpose</th>
+                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-700 uppercase">Expiration</th>
+                                    </tr>
+                                </thead>
+   <tbody>
+            {[
+                { name: 'amp_', purpose: t("cookiesPolicy.documento.informacion punto 5.t1"), expiration: t("cookiesPolicy.documento.informacion punto 5.t1.1") },
+                { name: '_ce.s', purpose:  t("cookiesPolicy.documento.informacion punto 5.t2"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t2.1") },
+                { name: '^__cfduid$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t3"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t3.1") },
+                { name: 'bitcoincom-locale', purpose:  t("cookiesPolicy.documento.informacion punto 5.t4"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t4.1") },
+                { name: '^_ga$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t5"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t5.1") },
+                { name: '^_gat_UA-.*', purpose:  t("cookiesPolicy.documento.informacion punto 5.t6"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t6.1") },
+                { name: '^_gcl_au$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t7"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t7.1") },
+                { name: '^_gid$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t8"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t8.1") },
+                { name: '^NID$', purpose:  t("cookiesPolicy.documento.informacion punto 5.t9"), expiration:  t("cookiesPolicy.documento.informacion punto 5.t9.1") },
+                
+                
+                
+            ].map((cookie, index) => (
+                <tr key={index} className="border-t border-gray-300">
+                    <td className="px-6 py-4 text-sm text-gray-800">{cookie.name}</td>
+                    <td className="px-6 py-4 text-sm text-gray-800">{cookie.purpose}</td>
+                    <td className="px-6 py-4 text-sm text-gray-800">{cookie.expiration}</td>
+                </tr>
+            ))}
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+                    </section>
+
+
+
+
+
+
+
+
+
+                    <section id="section3">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">6. {t("cookiesPolicy.titles.title6")}</h2>
 

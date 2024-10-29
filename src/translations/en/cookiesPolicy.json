@@ -62,7 +62,29 @@
                 "p4": "Sharing of your personal data on social media platforms",
                 "p5": "The use of social networks to interact with our sites and applications (in particular the 'like' buttons on Facebook, Twitter) allows you to share content of our website on social media platforms.",
                 "p6": "For example, if you are connected to the social network Facebook and you visit a page of our site, Facebook is likely to collect this information. Likewise, if you consult an article on our website and click on the 'tweet' button, Twitter will collect this information. We therefore invite you to consult the privacy policies of any such social networks to learn about the collections and processing they carry out on your data."
-            }
+            },
+            "informacion punto 5": {
+             "p1": "Yes. Some cookies are set by our service providers who help us achieve our goals (for example Google Tag Manager sets a cookie to help us measure our audience). Below is the current list of third parties that implement cookies on your terminal through our website/mobile application.",
+            "t1": "Website user analytics performed by Amplitude.",
+            "t2": "Website user analytics performed by CrazyEgg.",
+            "t3": "Detecting bots on the web performed by CloudFlare.",
+            "t4": "Defining and keeping user preffered website language.",
+            "t5": "Identifying unique users performed by Google Analytics",
+            "t6": "These are performance cookies which we use to collect information about how our visitors use the website via Google Analytics",
+            "t7": "Is used by Google AdSense for experimenting with advertisement efficiency",
+            "t8": "Used to distinguish users by Google Analytics",
+            "t9": "The NID cookie contains a unique ID Google uses to remember your preferences and other information, such as your preferred language",
+            "t1.1": "24 hours.",
+            "t2.1": "5 years.",
+            "t3.1": "30 days.",
+            "t4.1": "1 year.",
+            "t5.1": "2 years",
+            "t6.1": "1 year", 
+            "t7.1": "90 days", 
+            "t8.1": "24 hours",
+            "t9.1": "6 months"
         }
+    }
+
     }
 }

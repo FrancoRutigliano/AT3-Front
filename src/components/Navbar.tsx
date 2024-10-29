@@ -431,6 +431,20 @@ export const Navbar = () => {
                             >
                               {t("navbar.privacy")}
                             </Link>
+                            <Link
+                              to={'/legal/cookiesPolicy'}
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.politica cookies")}
+                            </Link>
+                            <Link
+                              to={'/legal/faqForlaw'}
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.faq for law")}
+                            </Link>
 
 
                           </div>
@@ -1084,7 +1098,23 @@ export const Navbar = () => {
                             {t("navbar.privacy")}
 
                           </Link>
-
+                          <Link
+                            to={'/legal/cookiesPolicy'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() => { toggleDropdownLegal(); closeMenu(); }}
+                          >
+                            {t("navbar.politica cookies")}
+                          </Link>
+                          <Link
+                            to={'/legal/faqForlaw'}
+                            className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                            onClick={() => { toggleDropdownLegal(); closeMenu(); }}
+                          >
+                            {t("navbar.faq for law")}
+                          </Link>
+                          
 
                         </div>
                       </div>

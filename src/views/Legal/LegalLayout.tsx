@@ -22,7 +22,7 @@ export const LegalLayout = () => {
 
             </Link>
           </li>
-          <li className={` flex justify-center items-center p-5 lg:text-2xl ${location.pathname === '/legal/faqForLaw' ? 'sm:border-b-4 border-blue-500 transition duration-150 ease-out hover:ease-in text-center ' : ' text-center sm:border-b-4 border-transparent'}`}>
+          <li className={` flex justify-center items-center p-5 lg:text-2xl ${location.pathname === '/legal/faqForlaw' ? 'sm:border-b-4 border-blue-500 transition duration-150 ease-out hover:ease-in text-center ' : ' text-center sm:border-b-4 border-transparent'}`}>
             <Link to={'faqForLaw'} className="text-base md:text-lg max-w-[270px] text-white hover:text-blue-500 transition duration-150 ease-out hover:ease-in w-full">
             {t("faqForLaw.faqForLaw")}
             </Link>

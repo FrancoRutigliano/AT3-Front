@@ -151,9 +151,10 @@ export const CookiesPolicy = () => {
                                             <li key={index} className="ml-10 my-2">{text}</li>
                                         ))}
                                     </ul>
-
-
+                                    <li className="my-5">{t("cookiesPolicy.documento.informacion punto 4.p4")}</li>
                             </ul>
+                            <p className="my-2">{t("cookiesPolicy.documento.informacion punto 4.p5")}</p>
+                            <p className="my-2">{t("cookiesPolicy.documento.informacion punto 4.p6")}</p>
                     </section>
                     <section id="section3">
 

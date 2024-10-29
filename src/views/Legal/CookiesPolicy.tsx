@@ -201,31 +201,18 @@ export const CookiesPolicy = () => {
 
                         <p className="mt-5 ">{t("cookiesPolicy.documento.informacion punto 6.p1")}</p>
 
-                    </section> <section id="section3">
+                    </section> 
+                    
+                    <section id="section7">
 
                         <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">7. {t("cookiesPolicy.titles.title7")}</h2>
 
                         <p className="mt-5 ">{t("cookiesPolicy.documento.informacion punto 7.p1")} <span className="text-blue-500 underline">
                             support@atomico3.io</span> {t("cookiesPolicy.documento.informacion punto 7.p1.1")}</p>
-                        <p className="mt-5 mb-10">{t("cookiesPolicy.documento.informacion punto 7.p2")}</p>
 
-
-                    </section> <section id="section5">
-
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">8. {t("cookiesPolicy.titles.title8")}</h2>
-
-                        {[
-                            { text: t("cookiesPolicy.documento.informacion punto 8.p1") },
-                            { text: t("cookiesPolicy.documento.informacion punto 8.p2") },
-                            { text: t("cookiesPolicy.documento.informacion punto 8.p3") }
-                        ].map((item, index) => (
-                            <>
-                                <p className="mb-4" key={`item-${index}`} >{item.text}</p>
-                            </>
-                        ))}
 
                     </section>
-
+                    
                 </div>
             </div>
 

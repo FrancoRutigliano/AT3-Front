@@ -86,7 +86,13 @@
         },
         "informacion punto 6": {
             "p1": "You will be prompted to take a clear, affirmative action so that we can ensure that you agree with the processing of your personal data. This action may, for example, take the form of a checkbox in your online tool. Before obtaining your consent, we will systematically inform you of the names of the organizations implementing the cookies, the consequences of your consent or refusal to consent, the purposes of the processing, and your right to withdraw your consent. You can choose to consent to certain uses that we or our partners will make of your data and to refuse others."
+        },
+        "informacion punto 7": {
+            "p1": "You can withdraw your consent at any time and easily. All you need to do is to send us an email at ",
+            "p1.1": " If you refuse to give us your consent for non-essential cookies, or decide to withdraw it, you will not suffer any negative consequences and will be able to continue to use the rest of our service normally." 
+            
         }
+         
     }
 
     }

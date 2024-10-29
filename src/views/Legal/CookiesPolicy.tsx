@@ -126,12 +126,31 @@ export const CookiesPolicy = () => {
 
                         <p className="mb-4">{t("cookiesPolicy.documento.informacion punto 4.p1")}</p>
 
-                            <ul className="list-disc list-inside">
-                                <li>{t("cookiesPolicy.documento.informacion punto 4.p2")}</li>
-                                    <ul className="list-disc list-inside">
-                                        <li>{t("cookiesPolicy.documento.informacion punto 4.p2.1")}</li>
+                            <ul className="list-[square] list-inside">
+                                <li className="mb-3">{t("cookiesPolicy.documento.informacion punto 4.p2")}</li>
+                                     <ul className="list-disc list-inside">
+                                        {[
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.1")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.2")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.3")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p2.4")}
+                                        ].map(({text}, index)=>(
+                                            <li key={index} className="ml-10 my-2">{text}</li>
+                                        ))}
                                     </ul>
+                                    <li className="my-5">{t("cookiesPolicy.documento.informacion punto 4.p3")}</li>
+                                    <ul className="list-disc list-inside">
+                                        {[
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.1")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.2")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.3")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.4")},
+                                            {text: t("cookiesPolicy.documento.informacion punto 4.p3.5")}
 
+                                        ].map(({text}, index)=>(
+                                            <li key={index} className="ml-10 my-2">{text}</li>
+                                        ))}
+                                    </ul>
 
 
                             </ul>

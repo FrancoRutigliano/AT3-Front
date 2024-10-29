@@ -55,5 +55,14 @@ export const privacyTitles = (t:any) => [
     { id: "section6", text: t("faqForLaw.titles.title6") },
     { id: "section7", text: t("faqForLaw.titles.title7") },
     { id: "section8", text: t("faqForLaw.titles.title8") },
+  ];
 
+  export const cookiesPolicyTitles = (t:any) => [
+    { id: "section1", text: t("cookiesPolicy.titles.title1") },
+    { id: "section2", text: t("cookiesPolicy.titles.title2") },
+    { id: "section3", text: t("cookiesPolicy.titles.title3") },
+    { id: "section4", text: t("cookiesPolicy.titles.title4") },
+    { id: "section5", text: t("cookiesPolicy.titles.title5") },
+    { id: "section6", text: t("cookiesPolicy.titles.title6") },
+    { id: "section7", text: t("cookiesPolicy.titles.title7") },
   ];

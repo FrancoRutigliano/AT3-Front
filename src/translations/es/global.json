@@ -778,5 +778,8 @@
     }
   }, "faqForLaw": {
     "faqForLaw": "Preguntas frecuentes para las fuerzas del orden"
+  },
+  "cookiesPolicy": {
+    "cookiesPolicy": "Política de Cookies"
   }
 }

@@ -11,6 +11,7 @@ import { Terms } from "../views/Legal/Terms"
 import { PrivacyPolicy } from "../views/Legal/PrivacyPolicy"
 import { Medios } from "../components/Medios"
 import { FaqForLaw } from "../views/Legal/FaqForLaw"
+import { CookiesPolicy } from "../views/Legal/CookiesPolicy"
 
 export const RoutesOutlet = () => {
     return (
@@ -33,6 +34,7 @@ export const RoutesOutlet = () => {
                         <Route path="terms" element={<Terms />} />
                         <Route path="privacy" element={<PrivacyPolicy />} />
                         <Route path="faqForLaw" element={<FaqForLaw />} />
+                        <Route path="cookiesPolicy" element={<CookiesPolicy />} />
 
 
                     </Route>

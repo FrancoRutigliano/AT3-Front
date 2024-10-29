@@ -7,6 +7,10 @@ import global_en from './translations/en/global.json'
 import global_es from './translations/es/global.json'
 import faqForLaw_es from './translations/es/faqForLaw.json'
 import faqForLaw_en from './translations/en/faqForLaw.json'
+import cookiesPolicy_en from './translations/en/cookiesPolicy.json'
+import cookiesPolicy_es from './translations/es/cookiesPolicy.json'
+
+
 
 import i18next from 'i18next'
 import { I18nextProvider } from 'react-i18next'
@@ -17,11 +21,14 @@ i18next.init({
   resources: {
 en:{
  global: global_en,
- faqForLaw: faqForLaw_en
+ faqForLaw: faqForLaw_en,
+ cookiesPolicy: cookiesPolicy_en
 },
 es:{
   global: global_es,
-   faqForLaw: faqForLaw_es
+   faqForLaw: faqForLaw_es,
+ cookiesPolicy: cookiesPolicy_es
+
 }
   }
 })

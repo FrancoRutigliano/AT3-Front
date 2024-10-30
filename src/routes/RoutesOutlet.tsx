@@ -12,6 +12,7 @@ import { PrivacyPolicy } from "../views/Legal/PrivacyPolicy"
 import { Medios } from "../components/Medios"
 import { FaqForLaw } from "../views/Legal/FaqForLaw"
 import { CookiesPolicy } from "../views/Legal/CookiesPolicy"
+import { ProyectosTokenizacion } from "../views/ProyectosTokenizacion"
 
 export const RoutesOutlet = () => {
     return (
@@ -28,6 +29,7 @@ export const RoutesOutlet = () => {
 
                     <Route path="nosotros" element={<Nosotros />} />
                     <Route path="soporte" element={<Support />} />
+                    <Route path="proyectos" element={<ProyectosTokenizacion />} />
 
                     <Route path="legal" element={<LegalLayout />}>
 

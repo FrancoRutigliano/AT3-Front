@@ -1,6 +1,7 @@
 // import imagen1 from '../assets/proyectosAssets/1.jpg'
 import imagen1 from '../assets/proyectosAssets/4.jpg'
 import { Proyectos } from '../components/ProyectosTokenizacion/Proyectos'
+import { ProyectoTokenizado } from '../components/ProyectosTokenizacion/ProyectoTokenizado'
 
 
 export const ProyectosTokenizacion = () => {
@@ -51,6 +52,7 @@ export const ProyectosTokenizacion = () => {
             </div>
         </section>
         <Proyectos/>
+        <ProyectoTokenizado/>
         </>
     )
 }

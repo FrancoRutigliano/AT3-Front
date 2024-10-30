@@ -20,7 +20,7 @@ export const Proyectos = () => {
 
     <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
       <li>
-      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg transition-transform duration-300 transform hover:scale-105 hover:cursor-pointer">
   <img
     alt=""
     // src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80"
@@ -29,7 +29,7 @@ export const Proyectos = () => {
     className="absolute inset-0 h-full w-full object-cover "
   />
 
-  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 from-gray-900/50 to-gray-900/25 hover:from-gray-900/5 hover:to-gray-900/1 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">
       <time dateTime="2022-10-10" className="block text-xs text-white/90"> 10th Oct 2022 </time>
 
@@ -49,14 +49,14 @@ export const Proyectos = () => {
       </li>
 
       <li>
-      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg transition-transform duration-300 transform hover:scale-105 hover:cursor-pointer">
   <img
     alt=""
     src={test2}
     className="absolute inset-0 h-full w-full object-cover"
   />
 
-  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 from-gray-900/50 to-gray-900/25 hover:from-gray-900/5 hover:to-gray-900/1 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">
       <time dateTime="2022-10-10" className="block text-xs text-white/90"> 12th Mayo 2021 </time>
 
@@ -76,14 +76,14 @@ export const Proyectos = () => {
       </li>
 
       <li>
-      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg transition-transform duration-300 transform hover:scale-105 hover:cursor-pointer">
   <img
     alt=""
     src={test3}
     className="absolute inset-0 h-full w-full object-cover"
   />
 
-  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 from-gray-900/50 to-gray-900/25 hover:from-gray-900/5 hover:to-gray-900/1 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">
       <time dateTime="2022-10-10" className="block text-xs text-white/90"> 2th Feb 2015 </time>
 
@@ -103,14 +103,17 @@ export const Proyectos = () => {
       </li>
 
       <li>
-      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
+      <article className="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg hover:cursor-pointer  transition-transform duration-300 transform hover:scale-105">
+        <div className='overflow-hidden'>
+
   <img
     alt=""
     src={test4}
-    className="absolute inset-0 h-full w-full object-cover"
-  />
+    className="absolute inset-0 h-full w-full object-cover "
+    />
+    </div>
 
-  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 pt-32 sm:pt-48 lg:pt-64">
+  <div className="relative bg-gradient-to-t from-gray-900/50 to-gray-900/25 hover:from-gray-900/5 hover:to-gray-900/1 pt-32 sm:pt-48 lg:pt-64">
     <div className="p-4 sm:p-6">
       <time dateTime="2022-10-10" className="block text-xs text-white/90"> 10th Oct 2002 </time>
 

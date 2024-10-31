@@ -2,6 +2,7 @@
 import imagen1 from '../assets/proyectosAssets/4.jpg'
 import { Proyectos } from '../components/ProyectosTokenizacion/Proyectos'
 import { ProyectoTokenizado } from '../components/ProyectosTokenizacion/ProyectoTokenizado'
+import { ProyectoTokenizado2 } from '../components/ProyectosTokenizacion/ProyectoTokenizado2'
 
 
 export const ProyectosTokenizacion = () => {
@@ -30,7 +31,8 @@ export const ProyectosTokenizacion = () => {
                     </h1>
 
                     <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-                        En esta sección encontrarás los diferentes proyectos de tokenización mineros que hemos implementado.
+                        En esta sección encontrarás información sobre los distintos Proyectos de Tokenización mineros en los que hemos participado.
+
                     </p>
 
                     <div className="mt-8 flex flex-wrap gap-4 text-center">
@@ -53,6 +55,7 @@ export const ProyectosTokenizacion = () => {
         </section>
         <Proyectos/>
         <ProyectoTokenizado/>
+        <ProyectoTokenizado2/>
         </>
     )
 }

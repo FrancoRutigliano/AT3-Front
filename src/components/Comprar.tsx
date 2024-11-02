@@ -61,7 +61,7 @@ export const Comprar = () => {
                                 </Link>
                                 <a
                                     className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2 py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
-                                    href='https://app.uniswap.org/explore/tokens/polygon/0x22a79a08ddb74a9f1a4ebe5da75300ad9f1aed76' target='_blank'
+                                    href='https://app.uniswap.org/explore/tokens/polygon/0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76' target='_blank'
                                 >
                                     <button>{t("comprarAt3.comprarAt3")}</button>
                                 </a>

@@ -35,9 +35,9 @@ export const AtomicInfo = () => {
             </p>
               <p className='px-4   leading-2 break-words text-sm  lg:text-xl text-left '>
           {t("atomicInfo.p4")}
-                <span className=' text-sm md:text-2xl text-celeste font-bold'>0XAFF655C15C943121DEA79B67C47AC9BD2253FD65.</span> <br />
+                <span className=' text-sm md:text-2xl text-celeste font-bold'>0xAfF655c15c943121Dea79B67c47ac9BD2253FD65.</span> <br />
           {t("atomicInfo.p5")}
-                 <span className='text-sm md:text-2xl text-celeste font-bold'>0X22A79A08DDB74A9F1A4EBE5DA75300AD9F1AED76</span>
+                 <span className='text-sm md:text-2xl text-celeste font-bold'>0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76</span>
               </p>
           </div>
         </div>

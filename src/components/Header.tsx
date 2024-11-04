@@ -18,7 +18,7 @@ export const Header = () => {
   // const [animate, setAnimate] = useState(false);
   const [isSpringBtn, setIsSpringBtn] = useState<boolean | null>(null);
   const [showingForm, setShowingForm] = useState(false)
-  const [showPopUp, setShowPopUp] = useState(false);
+  // const [showPopUp, setShowPopUp] = useState(false);
 
   const showForm = (isVisible: boolean) =>{
     setShowingForm(isVisible)
@@ -55,7 +55,7 @@ export const Header = () => {
   return (
     <>
 
-  {showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> }
+  {/* {showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> } */}
 
   <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
   

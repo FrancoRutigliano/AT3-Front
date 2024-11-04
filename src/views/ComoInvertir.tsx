@@ -9,7 +9,7 @@ import bg3 from '../assets/pruebas/p9.jpeg'
 import { Tutorials } from '../components/Tutorials'
 import { Link } from 'react-router-dom'
 import { Comprar } from '../components/Comprar'
-import { Halloween } from '../components/Halloween'
+// import { Halloween } from '../components/Halloween'
 export const ComoInvertir = () => {
 
   const { t } = useTranslation("global")
@@ -88,8 +88,7 @@ export const ComoInvertir = () => {
       <Staking />
       <Comprar/>
       <PeerToPeer />
-      {/* <FelizPrimavera/> */}
-      <Halloween/>
+      {/* <Halloween/> */}
       <Tutorials />
     </>
 

@@ -1,14 +1,14 @@
 
 import { useTranslation } from 'react-i18next'
 import atomico from '../assets/Atomico.png'
-import {  useEffect, useState } from 'react';
+import {  useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';
 import e1 from '../assets/bg/e11.jpg'
 import 'animate.css';
 import { Form } from './Form';
-import { SpringPopUp } from './SpringPopUp';
+// import { SpringPopUp } from './SpringPopUp';
 
 export const Header = () => {
 
@@ -31,18 +31,18 @@ export const Header = () => {
 
   };
 
-  const handleClosePopUp = () => {
-    setShowPopUp(false)
-  }
+  // const handleClosePopUp = () => {
+  //   setShowPopUp(false)
+  // }
 
- useEffect(() => {
+//  useEffect(() => {
   
-    const isFirstTime = sessionStorage.getItem("isFirstTime");
-    if (!isFirstTime) {
-      setShowPopUp(true);
-      sessionStorage.setItem("isFirstTime", "true");
-    }
- }, [])
+//     const isFirstTime = sessionStorage.getItem("isFirstTime");
+//     if (!isFirstTime) {
+//       setShowPopUp(true);
+//       sessionStorage.setItem("isFirstTime", "true");
+//     }
+//  }, [])
  
 
   if(showingForm) return (

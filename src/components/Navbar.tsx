@@ -148,21 +148,22 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="p-2">
-                            <a
-
-                              className=" block rounded-lg px-4 py-2 text-sm text-white "
+                            <Link
+                            to={'/proyectos'}
+                              className=" block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500 "
                               role="menuitem"
                             >
                               {t("navbar.nuestros proyectos")}
 
-                            </a>
-                            <a
-                              className=" block rounded-lg px-4 py-2 text-sm text-white "
+                            </Link>
+                            <Link
+                            to={'/proyectos#litio'}
+                              className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500 "
                               role="menuitem"
                             >
                               {t("navbar.informacion sobre litio")}
 
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       }

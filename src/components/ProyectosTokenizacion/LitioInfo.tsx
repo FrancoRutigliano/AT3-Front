@@ -1,9 +1,30 @@
+import { useEffect, useRef } from "react";
+import { useTranslation } from "react-i18next";
+import { useLocation } from "react-router-dom";
 
 export const LitioInfo = () => {
+
+  const [t] = useTranslation("global")
+  const litioRef = useRef<HTMLDivElement>(null); // Referencia al componente al que quieres desplazarte
+  const location = useLocation();
+
+  useEffect(() => {
+    // Desplazarse si el hash en la URL coincide con "#equipo"
+    if (location.hash === '#litio' && litioRef.current) {
+      // Obtener la posición del elemento
+      const elementPosition = litioRef.current.getBoundingClientRect().top + window.scrollY;
+      
+      // Ajustar el scroll para que se desplace 100px más arriba
+      window.scrollTo({
+        top: elementPosition - 100, // Ajusta la posición sumando o restando píxeles
+        behavior: 'smooth', // Desplazamiento suave
+      });
+    }
+  }, [location]);
   return (
    <>
 
-<section className="h-screen overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
+<section ref={litioRef} className="h-screen overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
   <div className="p-8 md:p-12 lg:px-16 lg:py-24">
     <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h2 className="text-2xl font-bold text-gray-900 md:text-3xl text-left">

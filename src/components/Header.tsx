@@ -1,7 +1,7 @@
 
 import { useTranslation } from 'react-i18next'
 import atomico from '../assets/Atomico.png'
-import {  useEffect, useState } from 'react';
+import {  useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';

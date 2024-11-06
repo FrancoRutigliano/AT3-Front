@@ -116,9 +116,9 @@ export const Header = () => {
       <div className=' w-full md:w-1/2 flex flex-col items-center justify-center mt-20 md:mt-10 lg:mt-0 lg:pb-24  '>
         <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full  lg:mb-0 md:mt-0    ' />
        <div className='flex justify-center w-full' >
-        <a href="" className='ml-2 hover:cursor-pointer bg-white text- hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>Ingresar</a>
+        <a href="https://app.atomico3.io/auth" target='_blank' className='ml-2 hover:cursor-pointer bg-white text- hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>Ingresar</a>
         
-              <a href="" className='ml-2 hover:cursor-pointer bg-white text- hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>
+              <a href="https://app.atomico3.io/auth" target='_blank' className='ml-2 hover:cursor-pointer bg-white text- hidden md:block max-w-[270px] md:max-w-[298px] lg:max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>
               Registrarse
               </a>
           </div>

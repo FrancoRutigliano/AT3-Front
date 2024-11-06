@@ -104,7 +104,7 @@ export const Navbar = () => {
               </Link>
             </div>
 
-            <div className="md:flex md:items-center md:gap-12">
+            <div className="md:flex md:items-center ">
               {/* Menú en pantallas grandes */}
               <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6  lg:text-md">
@@ -721,7 +721,7 @@ export const Navbar = () => {
                           <a
                             className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                           >
-                           <img src={login} alt="login"  className="w-8 sm:w-10 md:w-12 lg:w-8 "  />
+                            <img src={login} alt="login" className="w-8 sm:w-10 md:w-12 lg:w-8 " />
 
                           </a>
                           <span className="sr-only">Menu</span>
@@ -747,19 +747,20 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="p-2 ">
-                          <Link
-                            to={'/'}
-                            className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
-                            role="menuitem"
-                          >
-                            Iniciar Sesión
-                          </Link>
-                          <Link
-                            className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
-                            to={"/"}
-                          >
-                            Registrarse
-                          </Link>
+                            <Link
+                              to={'/'}
+                              className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.iniciar sesion")}
+                            </Link>
+                            <Link
+                              className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
+                              to={"/"}
+                            >
+                              {t("navbar.registrarse")}
+
+                            </Link>
 
                           </div>
                         </div>

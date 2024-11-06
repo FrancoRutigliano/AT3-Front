@@ -492,9 +492,8 @@ export const Navbar = () => {
                           </a> */}
 
 
-                          <Link
+                          <a
                             className="text-white text-center leading-[20px] transition hover:text-celeste   "
-                            to={"/press"}
                           >
                             {/* {t("navbar.noticias")} */}
                             {i18n.language === "es" ? (
@@ -509,7 +508,7 @@ export const Navbar = () => {
                                 <span className='block'>& Media</span>
                               </div>
                             )}
-                          </Link>
+                          </a>
 
 
                           <span className="sr-only">Menu</span>

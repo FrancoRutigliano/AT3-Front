@@ -25,6 +25,7 @@ export const Navbar = () => {
   // Función para abrir/cerrar el menú principal
   const toggleMenu = () => {
     setIsOpen(!isOpen);
+    setIsOpenDropdownLogin(false)
   };
 
   const closeMenu = () => {
@@ -83,6 +84,13 @@ export const Navbar = () => {
     setIsOpenDropdownProyectos(!isCurrentlyOpen);
   };
 
+  const toggleDropdownLogin = () => {
+    const isCurrentlyOpen = isOpenDropdownLogin;
+    closeAllDropdowns();
+    setIsOpenDropdownLogin(!isCurrentlyOpen);
+    setIsOpen(false);
+
+  };
   // const toggleDropdownLang = () => {
   //   const isCurrentlyOpen = isOpenDropdownLang;
   //   closeAllDropdowns();
@@ -706,7 +714,7 @@ export const Navbar = () => {
 
                   </li>
                   <li>
-                    {/* DROPDWON INICIAR SESIÓN*/}
+                    {/* DROPDOWN INICIAR SESIÓN*/}
                     <div className="relative"
                       onMouseLeave={() => setIsOpenDropdownLogin(false)}>
                       <div
@@ -777,6 +785,70 @@ export const Navbar = () => {
 
               {/* Menú hamburguesa */}
               <div className="flex items-center gap-4">
+                    {/* DROPDOwN INICIAR SESIÓN*/}
+                    <div className="relative md:hidden"
+                      onClick={() => toggleDropdownLogin()}>
+                      <div
+                        className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                      >
+
+                        <button
+                          className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                          onClick={() => toggleDropdownLogin()}
+
+                        >
+                          <a
+                            className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                          >
+                            <img src={login} alt="login" className="w-8 sm:w-10 md:w-12 lg:w-8 " />
+
+                          </a>
+                          <span className="sr-only">Menu</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="size-4 "
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+
+                      {
+                        isOpenDropdownLogin &&
+                        <div
+                          className="absolute end-0 z-10 mt-0 w-56  bg-dark-light text-white shadow-lg  "
+                          role="menu"
+                        >
+                          <div className="p-2 ">
+                            <Link
+                              to={"https://app.atomico3.io/auth"}
+                              target='_blank'
+                              className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                            >
+                              {t("navbar.iniciar sesion")}
+                            </Link>
+                            <Link
+                              className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
+                              to={"https://app.atomico3.io/auth"}
+                              target='_blank'
+                            >
+                              {t("navbar.registrarse")}
+
+                            </Link>
+
+                          </div>
+                        </div>
+                      }
+                    </div>
+                    {/* FIN DROPDWON LANGUAGES*/}
+
                 <div className="block md:hidden">
                   <button
                     className="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75   "
@@ -876,10 +948,6 @@ export const Navbar = () => {
 
                   {/* FIN DROPDWON PROYECTOS*/}
                 </li>
-
-
-
-
 
                 <li>
                   {/* DORPDOWN NOSOTROS */}

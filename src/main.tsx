@@ -5,8 +5,9 @@ import './index.css'
 
 import global_en from './translations/en/global.json'
 import global_es from './translations/es/global.json'
-import faqForLaw_es from './translations/es/faqForLaw.json'
+import global_por from './translations/por/global.json'
 import faqForLaw_en from './translations/en/faqForLaw.json'
+import faqForLaw_es from './translations/es/faqForLaw.json'
 import cookiesPolicy_en from './translations/en/cookiesPolicy.json'
 import cookiesPolicy_es from './translations/es/cookiesPolicy.json'
 
@@ -28,6 +29,9 @@ es:{
   global: global_es,
    faqForLaw: faqForLaw_es,
  cookiesPolicy: cookiesPolicy_es
+},
+por:{
+  global: global_por,
 
 }
   }

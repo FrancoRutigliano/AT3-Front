@@ -4,6 +4,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import eng from '../assets/lang/eng.png'
 import esp from '../assets/lang/esp.png'
+import por from '../assets/lang/por.png'
+
 import login from '../assets/login.png'
 
 export const Navbar = () => {
@@ -697,6 +699,10 @@ export const Navbar = () => {
                           role="menu"
                         >
                           <div className="lg:ml-auto  sm:flex sm:justify-end p-2 ">
+                            <button onClick={() => { handleChangeLanguage("por"); toggleMenu() }}>
+                              <img src={por} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+                        
+                            </button>
                             <button onClick={() => { handleChangeLanguage("en"); toggleMenu() }}>
                               <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
                             </button>
@@ -704,7 +710,6 @@ export const Navbar = () => {
                               <img src={esp} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
 
                             </button>
-
                           </div>
                         </div>
                       }

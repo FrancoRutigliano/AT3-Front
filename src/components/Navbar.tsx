@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import eng from '../assets/lang/eng.png'
 import esp from '../assets/lang/esp.png'
+import login from '../assets/login.png'
 
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global");
@@ -17,6 +18,8 @@ export const Navbar = () => {
   const [isOpenDropdownLegal, setIsOpenDropdownLegal] = useState(false);
   const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false);
   const [isOpenDropdownNoticias, setIsOpenDropdownNoticias] = useState(false);
+  const [isOpenDropdownLogin, setIsOpenDropdownLogin] = useState(false);
+
 
 
   // Función para abrir/cerrar el menú principal
@@ -702,7 +705,69 @@ export const Navbar = () => {
                     {/* FIN DROPDWON LANGUAGES*/}
 
                   </li>
+                  <li>
+                    {/* DROPDWON INICIAR SESIÓN*/}
+                    <div className="relative"
+                      onMouseLeave={() => setIsOpenDropdownLogin(false)}>
+                      <div
+                        className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                      >
 
+                        <button
+                          className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                          onMouseEnter={() => setIsOpenDropdownLogin(true)}
+
+                        >
+                          <a
+                            className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
+                          >
+                           <img src={login} alt="login"  className="w-8 sm:w-10 md:w-12 lg:w-8 "  />
+
+                          </a>
+                          <span className="sr-only">Menu</span>
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            className="size-4 "
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                          >
+                            <path
+                              fillRule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clipRule="evenodd"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+
+                      {
+                        isOpenDropdownLogin &&
+                        <div
+                          className="absolute end-0 z-10 mt-0 w-56  bg-dark-light text-white shadow-lg  "
+                          role="menu"
+                        >
+                          <div className="p-2 ">
+                          <Link
+                            to={'/'}
+                            className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                            role="menuitem"
+                          >
+                            Iniciar Sesión
+                          </Link>
+                          <Link
+                            className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
+                            to={"/"}
+                          >
+                            Registrarse
+                          </Link>
+
+                          </div>
+                        </div>
+                      }
+                    </div>
+                    {/* FIN DROPDWON LANGUAGES*/}
+
+                  </li>
 
                 </ul>
               </nav>
@@ -1012,7 +1077,7 @@ export const Navbar = () => {
                           >
                             Halloween Week!
                           </Link> */}
-                          
+
                           <Link
                             to={'/comoInvertir#tutoriales'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
@@ -1116,7 +1181,7 @@ export const Navbar = () => {
                           >
                             {t("navbar.faq for law")}
                           </Link>
-                          
+
 
                         </div>
                       </div>
@@ -1172,7 +1237,7 @@ export const Navbar = () => {
                         role="menu"
                       >
                         <div className="p-2">
-                    
+
                           <Link
                             to={'/medios'}
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"

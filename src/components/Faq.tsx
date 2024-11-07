@@ -282,7 +282,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     <p className="mt-4 leading-relaxed text-white  lg:text-lg">
    {t("faq.Se comportará en relación al precio de carbonato de litio internacional (li2co3)")}
     <br />
-    {t("faq.Link para consultar el precio actual del carbonato de litio")} <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline" target="_blank">{t("faq.Click aquí")}</a> 
+    {/* {t("faq.Link para consultar el precio actual del carbonato de litio")} <a href="https://es.investing.com/commodities/lithium-carbonate-99.5-min-china-futures?utm_source=investing_app&utm_medium=share_link&utm_campaign=share_instrument" className="text-blue-500 underline" target="_blank">{t("faq.Click aquí")}</a>  */}
       
     </p>
   </details>

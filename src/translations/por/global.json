@@ -75,96 +75,414 @@
     "p3": "Essas compras devem ser realizadas entre 0:00 de segunda-feira, 21 de outubro de 2024, e 23:59 de 31 de outubro de 2024.",
     "saber mas": "Saber Mais"
   },
-    "atomicInfo": {
-      "que es atomico": "O que é Atómico3?",
-      "p1": "É um token que representa a tokenização dos ativos mineradores, ligados a um subjacente, o Lítio (respaldados por reservas de lítio certificadas sob as normas NI 43-101) que cada projeto possui.",
-      "p2": "Esse processo de digitalização das reservas de lítio permite sua comercialização em plataformas blockchain. Democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez.",
-      "p3": "Com sua abordagem inovadora, facilitamos o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
-      "p4": "Nossa carteira oficial é",
-      "p5": "Nosso contrato POLYGON é",
-      "descripcion atomico p1": "Atómico3 é um token que representa a tokenização de ativos mineradores, respaldados por reservas de lítio certificadas sob as normas NI 43-101. Esse processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
-      "descripcion atomico p2": "Atómico3 democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez. Com sua abordagem inovadora, Atómico3 facilita o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
-      "criptoactivo responsable": "Criptoativo Responsável",
-      "criptoactivo responsable descripcion": "Nosso token é respaldado por lítio real, com um valor que cresce junto com a demanda por energia limpa.",
-      "mercado objetivo": "Mercado-Alvo",
-      "mercado objetivo descripcion": "Investidores globais com visão. Cidadãos comprometidos com a sustentabilidade.",
-      "plataformas utilizadas": "Plataformas Utilizadas",
-      "plataformas utilizadas descripcion": "Blockchain, redes sociais oficiais e comunidades apaixonadas, holders e entusiastas de tecnologia."
+  "atomicInfo": {
+    "que es atomico": "O que é Atómico3?",
+    "p1": "É um token que representa a tokenização dos ativos mineradores, ligados a um subjacente, o Lítio (respaldados por reservas de lítio certificadas sob as normas NI 43-101) que cada projeto possui.",
+    "p2": "Esse processo de digitalização das reservas de lítio permite sua comercialização em plataformas blockchain. Democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez.",
+    "p3": "Com sua abordagem inovadora, facilitamos o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
+    "p4": "Nossa carteira oficial é",
+    "p5": "Nosso contrato POLYGON é",
+    "descripcion atomico p1": "Atómico3 é um token que representa a tokenização de ativos mineradores, respaldados por reservas de lítio certificadas sob as normas NI 43-101. Esse processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
+    "descripcion atomico p2": "Atómico3 democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez. Com sua abordagem inovadora, Atómico3 facilita o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
+    "criptoactivo responsable": "Criptoativo Responsável",
+    "criptoactivo responsable descripcion": "Nosso token é respaldado por lítio real, com um valor que cresce junto com a demanda por energia limpa.",
+    "mercado objetivo": "Mercado-Alvo",
+    "mercado objetivo descripcion": "Investidores globais com visão. Cidadãos comprometidos com a sustentabilidade.",
+    "plataformas utilizadas": "Plataformas Utilizadas",
+    "plataformas utilizadas descripcion": "Blockchain, redes sociais oficiais e comunidades apaixonadas, holders e entusiastas de tecnologia."
+  },
+  "videoSection": {
+    "video section title": "Assista ao vídeo para saber mais!"
+  },
+  "InvestSection": {
+    "¿Por qué invertir en Atómico3?": "Por que investir em Atómico3?",
+    "Seguridad": "Segurança",
+    "Seguridad descripcion": "Por ser respaldada por lítio, a moeda pode diversificar os riscos associados às reservas tradicionais, como o ouro ou as moedas fiduciárias. Isso pode torná-la menos suscetível às flutuações nos mercados financeiros globais e às políticas monetárias dos países emissores de moedas fiat.",
+    "tecnologia y beneficios": "Tecnologia e Benefícios",
+    "tecnologia y beneficios descripcion": "A tokenização do lítio pode revolucionar a maneira como os recursos minerais são comercializados e utilizados, proporcionando benefícios significativos em termos de acessibilidade, liquidez e transparência.",
+    "soporte": "Suporte",
+    "soporte descripcion": "Oferecemos suporte para responder a todas as suas dúvidas."
+  },
+  "staking": {
+    "que es": "O que é?",
+    "como funciona": "Como funciona?",
+    "clickea el enlace": "Clique no link abaixo para saber mais!",
+    "saber mas": "Saber Mais",
+    "como hacer staking": "Como fazer Staking?",
+    "como hacer staking p1": "Quer aprender a realizar Staking? Neste vídeo explicamos como fazer isso de maneira rápida e simples.",
+    "como hacer staking p2": "Clique no vídeo e comece a investir hoje!"
+  },
+  "faq": {
+    "preguntas frecuentes": "Perguntas Frequentes",
+    "que es atomico": "O que é Atómico3?",
+    "que es atomico descripcion": "Atómico 3 é um token digital respaldado por reservas de lítio certificadas sob a norma NI 43-101. Este processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
+    "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?": "Por que não vejo o preço de Atómico3 na minha carteira?",
+    "El token se encuentra en lista de espera en CoinMarketCap": "O token está em lista de espera no CoinMarketCap para ser listado, por isso o preço será refletido em breve.",
+    "¿Dónde puedo ver la valuación de Atómico3?": "Onde posso ver a avaliação de Atómico3?",
+    "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap": "Você pode ver a avaliação atual de Atómico3 em Dex descentralizadas como Quickswap.",
+    "¿Por qué el token Atómico3 no tiene liquidez?": "Por que o token Atómico3 não tem liquidez?",
+    "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)": "O token foi lançado em 12 de agosto e a liquidez formal será injetada quando for listado no CoinMarketCap (no qual estamos trabalhando).",
+    "¿Cuál es el contrato de Atómico3?": "Qual é o contrato de Atómico3?",
+    "El contrato de token es el siguiente en la red Polygon": "O contrato do token é o seguinte na rede Polygon: 0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76",
+    "¿Proyección del precio de Atómico3 en el futuro?": "Projeção do preço de Atómico3 no futuro?",
+    "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Comportará-se em relação ao preço internacional de carbonato de lítio (Li₂CO₃).",
+    "Link para consultar el precio actual del carbonato de litio": "Link para consultar o preço atual do carbonato de lítio:",
+    "Click aquí": "Clique aqui",
+    "¿Ya puedo hacer staking de los AT3 que adquirí?": "Já posso fazer staking dos AT3 que adquiri?",
+    "Si puedo": "Sim, posso. Para isso, devo clicar no botão azul que diz 'staking' localizado na parte superior da página. Em seguida, na janela que aparece, será solicitado vincular minha wallet (para indicar de onde sairão meus AT3). Aparecerá um formulário que devo preencher com meus dados pessoais e um e-mail de contato, o que me permitirá escolher os AT3 que quero colocar e os prazos possíveis (60, 180 e 240 dias). Finalmente, aparecerá uma confirmação de que o processo foi concluído corretamente."
+  },
+  "footer": {
+    "redes sociales": "Redes Sociais",
+    "contacto": "Contato",
+    "links utiles": "Links Úteis",
+    "Comprar Atómico3": "Comprar Atómico3",
+    "Preguntas Frecuentes": "Perguntas Frequentes",
+    "Términos y Condiciones": "Termos e Condições",
+    "Política de privacidad": "Política de Privacidade",
+    "todos los derechos reservados": "Todos os direitos reservados.",
+    "soporte": "Suporte",
+    "proyectos de tokenizacion": "Projetos de Tokenização",
+    "nosotros": "Nós",
+    "como invertir": "Como Investir",
+    "noticias": "Mídia e Notícias",
+    "horarios": "Precisa de ajuda? Visite nosso help center ou entre em contato com o suporte de segunda a sexta das 8:00 às 20:00. Ou das 9:00 às 17:00 aos sábados e domingos."
+  },
+  "stakingView": {
+    "¿Qué es el Staking?": "O que é Staking?",
+    "staking p1": "Isso consiste em adquirir criptomoedas e mantê-las bloqueadas em uma carteira virtual, smart contract ou wallet com o objetivo de receber ganhos ou recompensas. É algo muito semelhante a ter uma conta poupança e receber juros sobre o capital depositado.",
+    "staking p1.1": "Neste caso, é depositar seus Atómico3 em um contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), mantendo-os lá pelo período que você escolher (60, 180 e 240 dias), beneficiando-se dos juros que podemos oferecer de acordo com o período escolhido.",
+    "staking p1.2": "Ao final do período escolhido, todos os Atómicos serão devolvidos para sua carteira com o juro acordado (a menos que você escolha renová-lo por um novo período).",
+    "staking p1.3": "Lembre-se de que, para isso, você precisa conectar sua carteira. Se você não sabe como fazer isso, pode ver os tutoriais abaixo.",
+    "¿Qué es el Staking? Descripcion": "Consiste em depositar seus Atómico3 em um contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), mantendo-os lá pelo período que você escolher, beneficiando-se dos juros de acordo com o período escolhido. Eles serão devolvidos para sua carteira ao final do período (a menos que você escolha renová-lo por um novo período).",
+    "¿Qué es el Staking? Descripcion 2": "Lembre-se de que, para isso, você precisa conectar sua carteira. Se você não sabe como fazer isso, pode ver os tutoriais abaixo.",
+    "¿Cómo lo puedo hacer?": "Como posso fazer isso?",
+    "¿Cómo lo puedo hacer? descripcion": "Clique no botão abaixo!"
+  },
+  "comprarAt3": {
+    "comprarAt3": "Comprar AT3",
+    "p1": "Comprar Atómicos é uma opção conveniente e atraente, pois representa uma medida de investimento segura respaldada por um recurso estratégico como o lítio. Ao adquirir Atómicos, você está protegendo seu capital em um ativo com alto potencial de crescimento, o que pode ser benéfico tanto a curto como a longo prazo.",
+    "p2": "Para adquirir Atómicos, basta clicar no botão abaixo.",
+    "p3": "Estamos disponíveis na Uniswap, onde você poderá realizar sua compra de maneira rápida e segura."
+  },
+  "terms": {
+    "Términos y condiciones de pago del token AT3": "Termos e condições de pagamento do token AT3",
+    "General": "Geral",
+    "General descripcion": "Estes Termos e Condições de Pagamento do Token AT3 («Termos do Token AT3») aplicam-se ao uso do token AT3 como seu método de pagamento selecionado para produtos e serviços elegíveis da Atómico3.io em certas jurisdições. Por favor, leia estes Termos do Token AT3 cuidadosamente. Ao usar o Token AT3 como seu método de pagamento, você reconhece e concorda em estar vinculado por estes Termos do Token AT3. Estes Termos do Token AT3 aplicam-se além dos termos e condições contidos no Contrato de Pedido e no Contrato de Compra de Produto. Em caso de conflito entre estes Termos do Token AT3 e o Contrato de Pedido ou o Contrato de Compra de Produto em relação a transações com o token AT3, estes Termos do Token AT3 serão aplicados. Se você não concorda com qualquer um dos termos e condições destes Termos do Token AT3, por favor, não selecione o token AT3 como seu método de pagamento. Reservamo-nos o direito de alterar, suspender, remover, desativar ou impor restrições ou limites à nossa aceitação do Token AT3 como método de pagamento para nossos produtos e serviços a qualquer momento e sem responsabilidade para com você, a nosso exclusivo critério.",
+    "El token AT3 como método de pago": "O token AT3 como método de pagamento",
+    "El token AT3 como método de pago p1": "Quando solicitado durante o processo de compra, podemos, a nosso critério, permitir que você selecione o Token AT3 como método de pagamento para a compra de produtos e serviços elegíveis em certas jurisdições, conforme detalhado em nossa FAQ de Pagamentos com Token AT3 em www.atomic3.io/support/token-at3, que podemos atualizar periodicamente. Podemos exigir que você nos forneça informações adicionais para verificar sua identidade ao selecionar o token AT3 como seu método de pagamento. Para fazer um pagamento com token AT3, você precisa de uma carteira digital que suporte transferências de token AT3 para carteiras digitais externas, hardware compatível e acesso à Internet.",
+    "El token AT3 como método de pago p2": "Se decidir fazer uma compra elegível com o token AT3, você deve selecionar o token AT3 como método de pagamento quando solicitado. Nós forneceremos um endereço de carteira digital («Endereço do token AT3») em formato alfanumérico e em código QR. Este é o local de pagamento para o qual você deve enviar o token AT3 de sua carteira digital. Você pode copiar e colar ou inserir manualmente o código alfanumérico que fornecemos no campo do destinatário no software da sua carteira digital ou, se o software da sua carteira digital suportar códigos QR, escanear o código QR que fornecemos usando seu dispositivo para preencher automaticamente o campo do destinatário com o código alfanumérico.",
+    "nota importante": "NOTA IMPORTANTE",
+    "nota importante descripcion": "É sua responsabilidade confirmar e verificar que o código alfanumérico fornecido é idêntico ao código alfanumérico que aparece no software de sua carteira digital ao escanear o código QR ou copiar e colar o código alfanumérico. Não nos responsabilizamos por qualquer perda do token AT3 ou de outros ativos digitais como resultado do envio do token AT3 para um endereço de carteira incorreto ou do envio de um ativo digital que não seja o token AT3.",
+    "Comisiones de la red del token AT3": "Taxas da rede do token AT3",
+    "Comisiones de la red del token AT3 descripcion": "Você é responsável por pagar diretamente todas as taxas de rede associadas à transação («Taxas de Transação»), além do Preço do Token AT3. Se o software de sua carteira digital não gerar automaticamente um valor para as Taxas de Transação, você precisará calcular o valor necessário para que a transação seja processada na rede de tokens AT3. Para mais detalhes sobre as Taxas de Transação, consulte as Perguntas Frequentes sobre o Token AT3 em www.atomic3.io/support/token-at3. A Taxa de Transação cobre o custo de verificação das transações do token AT3. Não temos controle sobre a Taxa de Transação e não recebemos nenhuma parte dela.",
+    "Soporte de pago de tokens AT3": "Suporte de pagamento de tokens AT3",
+    "Soporte de pago de tokens AT3 descripcion p1": "O token AT3 é o único ativo digital que aceitamos como pagamento por nossos produtos neste momento. Não é possível fazer compras conosco usando outros ativos digitais, incluindo outros tokens de criptomoedas. Nossa carteira digital para o token AT3 não está configurada para detectar ou receber ativos digitais que não sejam o token AT3.",
+    "Soporte de pago de tokens AT3 descripcion p2": "CERTIFIQUE-SE DE NÃO ENVIAR ATIVOS DIGITAIS DIFERENTES DO TOKEN AT3. SE VOCÊ TENTAR ENVIAR UM TIPO DE ATIVO DIGITAL DIFERENTE DO TOKEN AT3, ESSE ATIVO DIGITAL PODERÁ SER PERDIDO OU DESTRUÍDO IRREVERSIVELMENTE. NÃO NOS RESPONSABILIZAMOS PELA PERDA OU DESTRUIÇÃO DE ATIVOS DIGITAIS.",
+    "Transacciones completadas una vez confirmadas": "Transações concluídas após a confirmação",
+    "Transacciones completadas una vez confirmadas descripcion": "Uma vez que uma transação de tokens AT3 seja enviada para a rede, ela ficará sem confirmação por um período de tempo (geralmente menos de uma hora, mas até um dia ou mais) até que a rede reflita essa transferência em um número determinado de blocos consecutivos na rede de tokens AT3. Esse número será determinado por nós a nosso critério. Consideraremos sua transação pendente até que a rede de tokens AT3 reflita a transação no número exigido de blocos consecutivos. Enviaremos uma comunicação por e-mail assim que recebermos seu pagamento.",
+    "Pagos insuficientes y excesivos": "Pagamentos insuficientes e excessivos",
+    "Pagos insuficientes y excesivos p1": "O preço do token AT3 pode ser volátil e estar sujeito a movimentos de alta e baixa. Você é responsável por iniciar um pagamento do token AT3 pelo valor exato indicado na página de pagamento dentro da Janela de Preço do Token AT3. Cada Preço do token AT3 expirará após a Janela de Preço do token AT3. Após a expiração do preço do token AT3, você deverá solicitar um novo preço do token AT3 e uma nova janela de preço do token AT3 na página de pagamento e poderá ser necessário reiniciar o processo de pagamento.",
+    "Pagos insuficientes y excesivos p2": "Em relação às taxas de pedido e/ou depósitos, se você transmitir uma quantia diferente do preço em Token AT3, seu pedido poderá falhar, e podemos devolver sua taxa de pedido e/ou depósito sob estes termos do Token AT3. Você precisará reenviar o pagamento no valor correto para que possamos processar seu pedido.",
+    "En cuanto a los pagos finales": "Em relação aos pagamentos finais",
+    "i": "Se você transferir um valor menor que o Preço do token AT3, retearemos seu pagamento e aplicaremos ao valor devido, e você deverá pagar o saldo pendente.",
+    "ii": "Se você transferir um valor superior ao Preço do token AT3, não terá direito ao reembolso do valor excedente.",
+    "Los pagos con el Token AT3 son definitivos": "Os pagamentos com o Token AT3 são definitivos",
+    "Los pagos con el Token AT3 son definitivos p1": "Uma vez que você inicia uma transação de tokens AT3, a transação não pode ser revertida. Isso é inerente à natureza da rede de tokens AT3 e não é uma política estabelecida por nós.",
+    "Los pagos con el Token AT3 son definitivos p2": "VOCÊ É RESPONSÁVEL POR VERIFICAR SE INSERIU O ENDEREÇO CORRETO DO TOKEN AT3 NO CAMPO DO DESTINATÁRIO E O PREÇO CORRETO DO TOKEN AT3 NO CAMPO DO VALOR NO SOFTWARE DE SUA CARTEIRA DIGITAL.",
+    "Protocolos de la red Token AT3": "Protocolos da rede Token AT3",
+    "Protocolos de la red Token AT3 descripcion": "Não possuímos nem controlamos os protocolos de software subjacentes que regem o funcionamento da rede de tokens AT3. Os protocolos da rede de tokens AT3 são de código aberto e qualquer pessoa pode usá-los, copiá-los, modificá-los e distribuí-los. Não somos responsáveis pelo funcionamento dos protocolos da rede de tokens AT3. Os protocolos da rede de tokens AT3 estão sujeitos a mudanças repentinas nas normas de operação (por exemplo, bifurcações), e tais mudanças podem afetar materialmente o valor, a função e/ou até mesmo o nome do token AT3."
+  },
+  "noticias": {
+    "noticias": "Notícias",
+    "n1": "Aumento do preço do lítio impulsiona a criptomoeda argentina Atómico3 como opção de investimento sólida",
+    "n2": "A valorização do lítio na América Latina: perspectivas, projeções e seu impacto no mercado global",
+    "n3": "Atómico3, a criptomoeda argentina ligada ao lítio reduz sua emissão para que seja sustentável ao longo do tempo",
+    "n4": "Qual é o mineral que pode atingir os U$S 8.700 milhões em exportações até 2030",
+    "n5": "A Câmara Latino-Americana de Lítio propôs ao secretário de mineração a necessidade de que o preço do mineral seja fixado no país e não em Londres.",
+    "n6": "Poucos avanços na formação de um mercado de capitais regional para o lítio."
+  },
+  "medios": {
+    "medios": "Mídia",
+    "por": "Por",
+    "m1": "Encontro entre o Presidente da Câmara Latino-Americana de Lítio e o Secretário de Mineração da Argentina",
+    "m2": "O preço do lítio: uma visão de mercado"
+  },
+  "team": {
+    "nuestro equipo": "Nossa Equipe",
+    "nuestro equipo descripcion": "Na Atómico3, contamos com uma equipe de profissionais apaixonados e visionários comprometidos em revolucionar a indústria de criptomoedas e a tokenização de recursos naturais. Nossa equipe combina experiência em tecnologia blockchain, economia digital e mineração, trabalhando juntos para democratizar o acesso às reservas de lítio e promover uma transição energética sustentável.",
+    "ceo y fundador": "CEO e Fundador",
+    "presidente": "Presidente",
+    "director de finanzas": "Diretor Financeiro",
+    "Director de Prensa": "Diretor de Imprensa",
+    "Desarrollador Web3": "Desenvolvedor Web3",
+    "Desarrollador Web2": "Desenvolvedor Web2"
+  },
+  "invertir": {
+    "inverti y ahorra": "Invista e economize no Atómico3",
+    "p1": "Vamos explicar por que você deve investir e economizar com nosso Projeto.",
+    "p2": "Hoje você pode investir em nosso Projeto em três modalidades diferentes:",
+    "modalidad 1": "Fazendo Staking",
+    "modalidad 2": "Comprando Atómicos (AT3) em Peer to Peer com a carteira oficial",
+    "modalidad 3": "Comprar novos AT3 e aproveitar as diferentes promoções.",
+    "invertir": "Investir",
+    "como invertir en atomico3": "Como Investir no Atómico3?",
+    "como invertir p1": "No Atómico3 você pode investir em 4 modalidades diferentes: Staking, Peer to Peer ou Comprar AT3",
+    "como invertir p2": "Aqui vamos te ensinar como realizar cada uma delas. Clique no botão abaixo!",
+    "ver tutoriales": "Ver Tutoriais"
+  },
+  "como invertir": {
+    "inverti y ahorra": "Invista e economize no Atómico3",
+    "como invertir": "Como Investir no Atómico3?",
+    "como invertir p1": "Nesta seção vamos explicar as diferentes maneiras de investir em nosso projeto hoje.",
+    "como invertir p1.1": "Abaixo você encontrará informações detalhadas sobre cada uma delas, os vídeos tutoriais e o passo a passo de como fazer.",
+    "como invertir p2": "Lembre-se que o primeiro passo é conectar sua carteira. Se você ainda não sabe como fazer isso, revise os tutoriais.",
+    "como invertir p3": "Deslize para baixo e comece a investir hoje!",
+    "conectar tu wallet": "Conectar sua Carteira",
+    "conectar tu wallet p1": "Para realizar as operações necessárias para investir no Atómico3, é imprescindível que sua carteira esteja conectada.",
+    "conectar tu wallet p2": "Veja o vídeo a seguir e aprenda como fazer isso!",
+    "peer to peer": "O que é Peer to Peer?",
+    "peer to peer p1": "As compras P2P ou peer-to-peer (literalmente, de pessoa para pessoa), são transferências instantâneas entre particulares realizadas por meio de uma plataforma digital, neste caso, enviadas entre carteiras digitais, de um lado, os tokens de AT3 contra os USDT ou USDC.",
+    "peer to peer p2": "Dessa forma, você pode comprar seus atômicos diretamente de nós pela carteira oficial 0xAfF655c15c943121Dea79B67c47ac9BD2253FD65, pagando com seus USDT ou USDC.",
+    "peer to peer p2.1": "Você pode adquirir Atómicos clicando no botão abaixo ou via transferência bancária.",
+    "peer to peer p2.1.1": "Para essa segunda opção, envie-nos um e-mail para",
+    "peer to peer p2.1.2": "solicitando a compra por transferência bancária e informando todos os seus dados para que possamos entrar em contato e realizar a transferência bancária de conta para conta.",
+    "peer to peer p2.2": "Lembre-se que para isso você precisa conectar sua carteira. Se não sabe como, veja os tutoriais abaixo.",
+    "peer to peer p3": "Como fazer Peer to Peer?",
+    "peer to peer p4": "Aprenda fácil e rapidamente como fazer isso seguindo os passos a seguir!",
+    "peer to peer p5": "Clique no vídeo e comece a investir hoje!"
+  },
+  "soporte": {
+    "soporte": "Suporte",
+    "soporte p1": "Se tiver qualquer dúvida ou preocupação, não hesite em nos contatar, estamos aqui para ajudar!",
+    "whatssap descripcion": "Comunique-se por WhatsApp para um melhor atendimento!",
+    "email descripcion": "Você também pode nos enviar um e-mail com suas perguntas!",
+    "nuestra direccion": "Nosso endereço!"
+  },
+  "tutoriales": {
+    "tutoriales": "Tutoriais",
+    "wallet": "Como conectar sua wallet?",
+    "p2p": "Como fazer Peer to Peer?",
+    "staking": "Como realizar o Staking?"
+  },
+  "form": {
+    "Ingrese sus datos": "Insira seus dados",
+    "Ingrese sus datos p1": "Após inserir seus dados, o documento será baixado automaticamente. Muito obrigado!",
+    "Nombre": "Nome",
+    "Apellido": "Sobrenome",
+    "Email": "E-mail",
+    "Teléfono": "Telefone",
+    "Aceptar": "Aceitar",
+    "Cancelar": "Cancelar"
+  },
+  "privacyPolicy": {
+    "politica de privacidad": "Política de Privacidade",
+    "vigencia": "Vigente desde 09 de Outubro de 2024",
+    "titles": {
+      "indice": "Índice",
+      "title1": "Qual é o conteúdo e o alcance desta Política de Privacidade?",
+      "title2": "Alcance do seu consentimento",
+      "title3": "Para que fique claro ao ler nossa Política!",
+      "title4": "Quais informações coletamos e tratamos?",
+      "title5": "Para que finalidades tratamos as informações?",
+      "title6": "Com quem compartilhamos as informações e como podemos tratar suas Informações Pessoais?",
+      "title7": "Quais medidas de segurança e confidencialidade das informações tomamos?",
+      "title8": "Como podemos nos comunicar com você e que tipo de informações podemos fornecer?",
+      "title9": "Podemos modificar esta Política? O que acontece em caso de alienação ou mudança de controle das Sociedades?",
+      "title10": "Quais são as responsabilidades do Usuário?",
+      "title11": "Quais direitos o Usuário possui e como pode exercê-los?",
+      "title12": "Quais são os mecanismos de resolução de conflitos e a jurisdição e lei aplicável a esta Política?",
+      "title13": "Quem é responsável por suas Informações Pessoais?"
     },
-    "videoSection": {
-      "video section title": "Assista ao vídeo para saber mais!"
-    },
-    "InvestSection": {
-      "¿Por qué invertir en Atómico3?": "Por que investir em Atómico3?",
-      "Seguridad": "Segurança",
-      "Seguridad descripcion": "Por ser respaldada por lítio, a moeda pode diversificar os riscos associados às reservas tradicionais, como o ouro ou as moedas fiduciárias. Isso pode torná-la menos suscetível às flutuações nos mercados financeiros globais e às políticas monetárias dos países emissores de moedas fiat.",
-      "tecnologia y beneficios": "Tecnologia e Benefícios",
-      "tecnologia y beneficios descripcion": "A tokenização do lítio pode revolucionar a maneira como os recursos minerais são comercializados e utilizados, proporcionando benefícios significativos em termos de acessibilidade, liquidez e transparência.",
-      "soporte": "Suporte",
-      "soporte descripcion": "Oferecemos suporte para responder a todas as suas dúvidas."
-    },
-    "staking": {
-      "que es": "O que é?",
-      "como funciona": "Como funciona?",
-      "clickea el enlace": "Clique no link abaixo para saber mais!",
-      "saber mas": "Saber Mais",
-      "como hacer staking": "Como fazer Staking?",
-      "como hacer staking p1": "Quer aprender a realizar Staking? Neste vídeo explicamos como fazer isso de maneira rápida e simples.",
-      "como hacer staking p2": "Clique no vídeo e comece a investir hoje!"
-    },
-      "faq": {
-        "preguntas frecuentes": "Perguntas Frequentes",
-        "que es atomico": "O que é Atómico3?",
-        "que es atomico descripcion": "Atómico 3 é um token digital respaldado por reservas de lítio certificadas sob a norma NI 43-101. Este processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
-        "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?": "Por que não vejo o preço de Atómico3 na minha carteira?",
-        "El token se encuentra en lista de espera en CoinMarketCap": "O token está em lista de espera no CoinMarketCap para ser listado, por isso o preço será refletido em breve.",
-        "¿Dónde puedo ver la valuación de Atómico3?": "Onde posso ver a avaliação de Atómico3?",
-        "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap": "Você pode ver a avaliação atual de Atómico3 em Dex descentralizadas como Quickswap.",
-        "¿Por qué el token Atómico3 no tiene liquidez?": "Por que o token Atómico3 não tem liquidez?",
-        "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)": "O token foi lançado em 12 de agosto e a liquidez formal será injetada quando for listado no CoinMarketCap (no qual estamos trabalhando).",
-        "¿Cuál es el contrato de Atómico3?": "Qual é o contrato de Atómico3?",
-        "El contrato de token es el siguiente en la red Polygon": "O contrato do token é o seguinte na rede Polygon: 0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76",
-        "¿Proyección del precio de Atómico3 en el futuro?": "Projeção do preço de Atómico3 no futuro?",
-        "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Comportará-se em relação ao preço internacional de carbonato de lítio (Li₂CO₃).",
-        "Link para consultar el precio actual del carbonato de litio": "Link para consultar o preço atual do carbonato de lítio:",
-        "Click aquí": "Clique aqui",
-        "¿Ya puedo hacer staking de los AT3 que adquirí?": "Já posso fazer staking dos AT3 que adquiri?",
-        "Si puedo": "Sim, posso. Para isso, devo clicar no botão azul que diz 'staking' localizado na parte superior da página. Em seguida, na janela que aparece, será solicitado vincular minha wallet (para indicar de onde sairão meus AT3). Aparecerá um formulário que devo preencher com meus dados pessoais e um e-mail de contato, o que me permitirá escolher os AT3 que quero colocar e os prazos possíveis (60, 180 e 240 dias). Finalmente, aparecerá uma confirmação de que o processo foi concluído corretamente."
+    "documento": {
+      "intro": "A proteção de suas informações é importante para nós. Esta Política de Privacidade se aplica a todas as atividades que envolvem o tratamento de suas informações e visa garantir transparência e controle sobre como tratamos suas informações.",
+      "informacion punto 1": {
+        "intro": "Este documento contém a Política de Privacidade ('Política') que rege a relação entre ATÓMICO3 S.A. ('Atómico'), doravante denominadas 'As Sociedades', e os usuários ('Usuário' ou, no plural, 'Usuários') sempre que os Usuários acessarem ou utilizarem uma ou mais das seguintes plataformas:",
+        "punto i": "o site",
+        "punto i link": "https://www.Atómico3.io ",
+        "punto i tag": "('Site').",
+        "punto ii": "o aplicativo móvel “Atómico”, disponível para download em dispositivos móveis onde estiver disponível ('App').",
+        "punto iii": "a plataforma de intercâmbio de ativos digitais fornecida através do site https:// ('Exchange').",
+        "conclusion": "Para simplificar, chamaremos o Site, o App e o Exchange, indistintamente, de 'Plataforma'."
       },
-      "footer": {
-        "redes sociales": "Redes Sociais",
-        "contacto": "Contato",
-        "links utiles": "Links Úteis",
-        "Comprar Atómico3": "Comprar Atómico3",
-        "Preguntas Frecuentes": "Perguntas Frequentes",
-        "Términos y Condiciones": "Termos e Condições",
-        "Política de privacidad": "Política de Privacidade",
-        "todos los derechos reservados": "Todos os direitos reservados.",
-        "soporte": "Suporte",
-        "proyectos de tokenizacion": "Projetos de Tokenização",
-        "nosotros": "Nós",
-        "como invertir": "Como Investir",
-        "noticias": "Mídia e Notícias",
-        "horarios": "Precisa de ajuda? Visite nosso help center ou entre em contato com o suporte de segunda a sexta das 8:00 às 20:00. Ou das 9:00 às 17:00 aos sábados e domingos."
+      "informacion punto 2": {
+        "p1": "Para proteger suas informações, a Atómico cumpre as normas vigentes na República Argentina, em particular, as regras e princípios estabelecidos pela Lei N° 25.326 (doravante, 'Lei de Proteção de Dados Pessoais'), seu Decreto Regulamentar N° 1558/01 e demais disposições que a adicionem, modifiquem, regulamentem, ampliem, complementem ou suprimam.",
+        "p2": "A Atómico é Responsável registrado pela base de dados que contém suas Informações Pessoais perante a Agência de Acesso à Informação Pública da República Argentina.",
+        "p3": "A Atómico também cumpre com todas as normas da República do Paraguai. Registrada na Secretaria de Prevenção à Lavagem de Dinheiro ou Bens (SEPRELAD) da República do Paraguai. Alinhada ao cumprimento do Decreto N° 2463/2024, que emitiu a atualização e modificação do anexo correspondente ao Plano de Ação do Decreto N° 9012 de 22 de março de 2023 para atender às recomendações do Grupo de Ação Financeira da América Latina (GAFILAT), no contexto da Quarta Rodada de Avaliações Mútuas do país. Essa atualização e modificação do Plano de Ação foi incorporada como parte do Plano Estratégico do Estado Paraguaio (PEEP), aprovado pelo Decreto N° 11.200/2013."
       },
-        "stakingView": {
-          "¿Qué es el Staking?": "O que é Staking?",
-          "staking p1": "Isso consiste em adquirir criptomoedas e mantê-las bloqueadas em uma carteira virtual, smart contract ou wallet com o objetivo de receber ganhos ou recompensas. É algo muito semelhante a ter uma conta poupança e receber juros sobre o capital depositado.",
-          "staking p1.1": "Neste caso, é depositar seus Atómico3 em um contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), mantendo-os lá pelo período que você escolher (60, 180 e 240 dias), beneficiando-se dos juros que podemos oferecer de acordo com o período escolhido.",
-          "staking p1.2": "Ao final do período escolhido, todos os Atómicos serão devolvidos para sua carteira com o juro acordado (a menos que você escolha renová-lo por um novo período).",
-          "staking p1.3": "Lembre-se de que, para isso, você precisa conectar sua carteira. Se você não sabe como fazer isso, pode ver os tutoriais abaixo.",
-          "¿Qué es el Staking? Descripcion": "Consiste em depositar seus Atómico3 em um contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), mantendo-os lá pelo período que você escolher, beneficiando-se dos juros de acordo com o período escolhido. Eles serão devolvidos para sua carteira ao final do período (a menos que você escolha renová-lo por um novo período).",
-          "¿Qué es el Staking? Descripcion 2": "Lembre-se de que, para isso, você precisa conectar sua carteira. Se você não sabe como fazer isso, pode ver os tutoriais abaixo.",
-          "¿Cómo lo puedo hacer?": "Como posso fazer isso?",
-          "¿Cómo lo puedo hacer? descripcion": "Clique no botão abaixo!"
+      "informacion punto 3": {
+        "p1": {
+          "title": "",
+          "content": "A seguir, destacamos conceitos-chave para entender e levar em consideração durante a leitura da nossa Política:"
         },
-        "comprarAt3": {
-          "comprarAt3": "Comprar AT3",
-          "p1": "Comprar Atómicos é uma opção conveniente e atraente, pois representa uma medida de investimento segura respaldada por um recurso estratégico como o lítio. Ao adquirir Atómicos, você está protegendo seu capital em um ativo com alto potencial de crescimento, o que pode ser benéfico tanto a curto como a longo prazo.",
-          "p2": "Para adquirir Atómicos, basta clicar no botão abaixo.",
-          "p3": "Estamos disponíveis na Uniswap, onde você poderá realizar sua compra de maneira rápida e segura."
+        "p2": {
+          "title": "AAIP",
+          "content": "É a Agência de Acesso à Informação Pública da República Argentina."
+        },
+        "p3": {
+          "title": "Afiliada",
+          "content": "Com relação a qualquer pessoa determinada, entende-se como qualquer outra pessoa que controle essa pessoa determinada, ou que seja controlada por essa pessoa determinada, seja de forma direta ou indireta, ou que, junto com essa outra pessoa, esteja sob controle comum de uma terceira pessoa. Para os fins desta definição, a palavra 'controle', quando usada com relação a uma pessoa determinada, significa o poder de dirigir direta ou indiretamente a administração e as políticas dessa pessoa através da titularidade de ações com direito a voto ou por meio do direito de escolher a maioria dos membros do conselho dessa pessoa, e os termos 'que controle' e 'controlada' têm significados correlatos ao precedente."
+        },
+        "p4": {
+          "title": "Base de dados",
+          "content": "É o conjunto organizado de Informações Pessoais que são objeto de tratamento ou processamento, eletrônico ou não, independentemente da modalidade de sua formação, armazenamento, organização ou acesso."
+        },
+        "p5": {
+          "title": "Consentimento",
+          "content": "Manifestação prévia, livre, expressa e informada por parte do Titular da Informação Pessoal para realizar o tratamento de sua Informação Pessoal, que deve estar por escrito ou por outro meio que permita sua equiparação, de acordo com as circunstâncias."
+        },
+        "p6": {
+          "title": "Responsável",
+          "content": "Pessoa física ou jurídica pública ou privada, que é titular de uma Base de dados."
+        },
+        "p7": {
+          "title": "Titular",
+          "content": "Toda pessoa física ou jurídica cuja Informação Pessoal seja objeto de tratamento ao qual se refere esta Política."
+        },
+        "p8": {
+          "title": "Transferência",
+          "content": "A transferência de informação ocorre quando o Responsável envia a informação a um destinatário que está dentro ou fora do país de onde foi enviada."
+        },
+        "p9": {
+          "title": "Tratamento",
+          "content": "Operações e procedimentos sistemáticos, eletrônicos ou não, que permitem a coleta, conservação, organização, armazenamento, modificação, relacionamento, avaliação, bloqueio, destruição e, em geral, o processamento de Informação Pessoal, bem como sua cessão a terceiros por meio de comunicações, consultas, interconexões ou transferências."
         }
+      },
+      "informacion punto 4": {
+        "title1": "Informação fornecida pelo Usuário",
+        "p1": "Quando o Usuário utiliza um Serviço da Atómico e/ou utiliza a Plataforma, o Usuário aceita que a Atómico pode coletar e processar certas informações sobre o Usuário, por exemplo: O uso de ou acesso ao Serviço pode exigir a criação de uma conta de Usuário. Para gerar uma conta de Usuário e comunicar-se com a Atómico, as Sociedades requerem que o Usuário forneça seu nome e sobrenome, endereço de e-mail, sexo, data de nascimento e outros dados identificadores, dependendo do uso do Serviço, seu número de telefone, endereço, nacionalidade, CUIT, CUIL, documento de identidade ou outro documento que permita identificá-lo, dados sobre sua conta bancária, imagens (fotografias suas ou cópias de seus documentos de identificação) solicitadas para validar sua identidade, informações financeiras como rendimentos, ativos, patrimônio, passivos e histórico de crédito, a origem dos recursos para o uso do Serviço e os fins para os quais usará os recursos obtidos pelo uso do Serviço (coletivamente, doravante, 'Informação Pessoal'). Além disso, a Atómico solicitará a criação de uma senha para acessar certas funções do Serviço.",
+        "p2": "Os formulários que a Atómico solicita que o Usuário preencha indicam quais dados são obrigatórios e quais são opcionais. Caso o usuário não forneça as informações obrigatórias, a Atómico pode não conseguir prestar ou continuar prestando o Serviço ou o acesso à Plataforma.",
+        "p3": "O Usuário tem o dever de informar qualquer modificação, alteração ou atualização necessária de sua Informação Pessoal e será responsável pelas consequências de não ter notificado a Atómico de forma oportuna e completa sobre qualquer uma dessas alterações.",
+        "title2": "Informações coletadas pelos nossos sistemas",
+        "p4": "A Atómico coleta e processa informações gerais, estatísticas e/ou não identificáveis pessoalmente ('Informações Não Identificáveis Pessoalmente', ou 'INIP') que incluem informações técnicas sobre seu dispositivo, o sistema operacional utilizado e o software de aplicação.",
+        "p5": "Além disso, a Atómico coleta e processa informações relativas a todas as operações e atividades realizadas por meio do Serviço, datas, duração e frequência das sessões de Usuário e de acessos por qualquer meio ao Serviço, localização geográfica do dispositivo através do qual o Serviço é acessado ou utilizado, configuração, endereço IP, informações do navegador, dados de transação e qualquer outra informação que nos tenha sido fornecida através de dispositivos móveis, tablets ou computadores utilizados para acessar ou usar o Serviço (coletivamente, 'Informações Operacionais'). No caso de transmissão a terceiros das Informações Operacionais conforme os termos desta Política, os titulares das Informações Operacionais não serão identificáveis, exceto em casos de transmissão da Informação Completa, conforme definida no ponto 5 desta Política.",
+        "p6": "A Atómico ou seus fornecedores de serviços também podem utilizar várias ferramentas da web, incluindo Cookies, Web Beacons e Tagging na Plataforma e em anúncios, com o objetivo de avaliar e melhorar a Plataforma e outras ofertas eletrônicas, adaptar os serviços, melhorar a experiência do usuário e comunicar com os Usuários sobre produtos e serviços que possam ser de interesse.",
+        "title3": "Informação fornecida por terceiros",
+        "p7": "O Usuário pode optar por dar acesso à Atómico a certas informações armazenadas por terceiros, como redes sociais (incluindo, sem limitação, Facebook, Instagram e Twitter). O tipo de informação e o escopo do uso que podemos dar a ela varia de acordo com o site ou serviço e é controlado pela configuração de privacidade nesse site ou serviço, e pela autorização no momento de associar uma conta gerida por terceiros com a conta gerida pela Atómico. Depois de associar sua conta gerida por terceiros com sua conta de usuário do Serviço, o Usuário aceita que a Atómico pode coletar, armazenar e usar, de acordo com esta Política, as informações contidas na conta gerida por terceiros.",
+        "title4": "Exclusão",
+        "p8": "Está excluída desta Política a informação relativa à sua saúde, raça, grupo étnico, orientação sexual, antecedentes criminais, religião, afiliação sindical, opiniões morais e políticas, pois em nenhum caso solicitaremos que a forneça."
+      },
+      "informacion punto 5": {
+        "p1": "O Usuário aceita que Atómico poderá tratar todas as informações do Usuário mencionadas no ponto 4 desta Política (conjuntamente a Informação Pessoal, a Informação Não Identificável Pessoalmente e a Informação Operacional, doravante a 'Informação Total') com as seguintes finalidades:",
+        "finalidades": {
+          "a": "Comunicar-se com o Usuário, prestar o Serviço e cumprir com compromissos contratuais;",
+          "b": "Validar suas informações, verificar sua identidade, detectar ou prevenir fraudes, estelionato e outros crimes, cumprir normas e políticas de prevenção à lavagem de dinheiro e financiamento do terrorismo, gerenciar e resolver qualquer reclamação relacionada a uma fraude real ou presumida, estelionato e outros crimes, investigar, avaliar e adjudicar reclamações, queixas e riscos, além de associar, vincular, completar, consultar, relacionar, unir, usar, relacionar e reunir informações relacionadas à sua identidade e reputação digital disponíveis no ambiente digital, incluindo serviços e aplicativos de mensagens instantâneas em qualquer formato digital, redes sociais de conteúdo, dispositivos móveis e vestíveis e, em geral, informações relacionadas à sua interação em sites, aplicativos e conteúdo;",
+          "c": "Melhorar, otimizar e modificar o Serviço ou serviços de terceiros. Em particular, esclarece-se que o uso de imagens e fotografias para validação de informações é um elemento central para que Atómico possa prestar seus Serviços aos Usuários de forma segura e prevenir fraudes, estelionato e outros crimes. Atómico poderá terceirizar essa função para um fornecedor especializado e este, para uma melhor prestação de seus serviços, poderá incorporar a Informação Pessoal (incluindo imagens e fotografias) em uma base de dados mais ampla, visando melhorar e customizar seus serviços em favor de Atómico e de todos os seus clientes;",
+          "d": "Coletar e analisar tendências de dados, avaliar o desempenho do Serviço, realizar pesquisas de satisfação, facilitar o design, desenvolvimento, geração e fornecimento de atualizações de software, suporte de produtos e outros produtos e serviços para os Usuários;",
+          "e": "Preparar campanhas de publicidade e/ou marketing associadas a qualquer produto e/ou serviço;",
+          "f": "Avaliar, desenvolver, oferecer e prestar bens e/ou serviços aos Usuários (você não receberá essas ofertas e/ou prestações caso, de acordo com o primeiro parágrafo do ponto 8, tenha optado por não recebê-las);",
+          "g": "Cumprir com a lei, regulamento ou ordem emitida por autoridade competente, ou por razões de segurança pública, saúde pública e/ou defesa nacional, e para cumprir relatórios regulatórios, responder a uma ordem judicial ou de autoridade competente.",
+          "h": "Oferecer informações publicitárias ou de marketing sobre produtos e/ou serviços desses terceiros, acesso a eventos ou promoções, pesquisa de mercado ou outras atividades de marketing (você não receberá essas informações caso, de acordo com o primeiro parágrafo do ponto 8, tenha optado por não recebê-las);"
+        }
+      },
+      "informacion punto 6": {
+        "intro": "Para cumprir as finalidades detalhadas acima, a Informação Total poderá ser compartilhada com:",
+        "item i": "Afiliadas da Atómico, sócios e/ou colaboradores comerciais.",
+        "item ii": "Fornecedores de serviços da Atómico, incluindo fornecedores de serviços de tecnologia, redes, transmissão de dados, identificação de pessoas, verificação de identidade e outros prestadores que são necessários para que Atómico possa prestar corretamente todos os seus Serviços através da Plataforma.",
+        "item iii": "Autoridades e órgãos públicos e regulatórios nacionais, regionais ou municipais.",
+        "item iv": "Fornecedores de serviços de marketing da Atómico e/ou suas afiliadas para a análise das atividades do Usuário e otimização de campanhas publicitárias de Atómico, suas afiliadas ou dos Fornecedores de Serviços, caso em que as informações processadas podem incluir: Endereço IP; Endereços MAC; ID do dispositivo e IDs dos anúncios; Cabeçalho HTTP que inclui a versão do SDK do processador, país, idioma, configuração do dispositivo, versão do sistema operacional, bem como a versão do aplicativo; o Dispositivo do Usuário e informações de sua atividade na web; aplicativos e tokens.",
+        "item v": "Fornecedores de serviços de experiência do usuário (UX) da Atómico e/ou suas Afiliadas para análise da experiência do Usuário para melhorar a Plataforma, caso em que as informações processadas podem incluir: telas visitadas, padrões de interação (como ações na tela, gestos: toques, rolagens) e detalhes do dispositivo (tipo, versão, modelo, sistema operacional). Utilizamos as informações coletadas pela UXCam Inc. para melhorar nosso aplicativo.",
+        "item vi": "Fornecedores de serviços de redes de envio e recepção de ativos digitais da Atómico e/ou suas Afiliadas, como Lightspark Group, Inc., incluindo usuários finais desses fornecedores, para permitir o serviço de envio e recepção de ativos digitais através dessas redes, caso em que as informações processadas podem incluir: nome do Usuário e endereço do usuário nessa rede. Você aceita que outros usuários dessa rede possam acessar seu nome de usuário e endereço nessa rede.",
+        "p2": "Você pode, a qualquer momento, revogar seu consentimento para a transmissão a terceiros de suas Informações Pessoais, entrando em contato conosco pessoalmente ou por e-mail nos endereços especificados no final desta Política. A revogação, dependendo de seu escopo, pode fazer com que não possamos continuar prestando o Serviço.",
+        "p3": "Qualquer uma das entidades mencionadas nos parágrafos anteriores pode estar no Paraguai, Argentina, Chile, Bolívia, México ou até mesmo em países de outro continente ou em organismos internacionais ou supranacionais que, conforme a legislação vigente aplicável, não fornecem níveis de proteção de dados pessoais adequados, como, entre outros, Brasil ou Estados Unidos.",
+        "p4": "Consequentemente, ao aceitar esta Política, o Usuário dá seu consentimento expresso para que sua Informação Total, incluindo suas Informações Pessoais, possa ser transferida internacionalmente pela Atómico, inclusive para países ou organismos internacionais ou supranacionais que não forneçam níveis adequados de proteção de dados pessoais, conforme a legislação vigente aplicável.",
+        "actividades title": "De acordo com as finalidades mencionadas, Atómico poderá realizar as seguintes atividades:",
+        "actividad 1": "Conhecer, armazenar e processar todas as informações fornecidas por você em uma ou várias bases de dados, no formato que for considerado mais conveniente.",
+        "actividad 2": "Conhecer, armazenar, gravar, processar e monitorar todas as informações fornecidas por você verbalmente ou por escrito, por qualquer canal estabelecido pela Atómico, que pode ser utilizada, inclusive, como prova em qualquer reclamação, queixa, conciliação ou demanda.",
+        "actividad 3": "Ordenar, catalogar, classificar, dividir ou separar as informações fornecidas por você.",
+        "actividad 4": "Verificar, corroborar, comprovar, validar, monitorar, investigar ou comparar as informações fornecidas por você com qualquer informação legitimamente disponível, incluindo aquelas conhecidas por nossas Afiliadas.",
+        "actividad 5": "Analisar, processar, avaliar, tratar ou comparar as informações fornecidas por você ou coletadas pela Atómico através da interação em plataformas digitais relacionadas à Atómico. Os dados resultantes de análises, processamentos, avaliações, tratamentos e comparações estarão sujeitos às mesmas autorizações que você concedeu."
+      },
+        "informacion punto 7": {
+          "intro": "Em cumprimento à Lei de Proteção de Dados Pessoais da República Argentina e da Secretaria de Prevenção de Lavagem de Dinheiro ou Bens. A Atómico tomou medidas adequadas para proteger a segurança e confidencialidade de sua Informação Pessoal, garantir que o previsto nesta Política seja respeitado, proteger sua Informação Pessoal contra perda, uso indevido e acesso, divulgação, alteração ou destruição não autorizados.",
+          "p1": "Para garantir um nível adequado de segurança de sua Informação Pessoal, a Atómico pode tomar, entre outras, as seguintes medidas:",
+          "medida1": "A criptografia de Informação Pessoal, quando aplicável.",
+          "medida2": "Medidas capazes de garantir a confidencialidade, integridade, disponibilidade e serviços de tratamento.",
+          "medida3": "Medidas capazes de restaurar rapidamente a disponibilidade e o acesso à Informação Pessoal em caso de incidente físico ou técnico.",
+          "medida4": "Processos de verificação, avaliação e valorização regulares da eficácia das medidas técnicas e organizacionais.",
+          "medida5": "Avaliação periódica do risco de destruição, perda ou alteração acidental ou ilícita de Informação Pessoal transferida, armazenada ou tratada de outra forma, ou a comunicação ou acesso não autorizados a essa informação.",
+          "medida6": "Medidas para garantir que qualquer pessoa que atue sob a autoridade da Atómico e tenha acesso à Informação Pessoal possa tratá-la apenas seguindo as instruções da Atómico.",
+          "confidencialidad": "Sua Informação Pessoal será tratada com confidencialidade, comprometendo-nos, dentro do escopo desta Política, a manter sigilo sobre a mesma e a adotar todas as medidas necessárias para evitar sua alteração, perda e tratamento ou acesso não autorizado, de acordo com o estabelecido na legislação aplicável e nesta Política."
+        },
+        "informacion punto 8": {
+          "p1": "Você poderá selecionar os tipos de informação que não deseja receber de nós, incluindo informações promocionais ou publicitárias da Atómico e/ou de suas Afiliadas ou de terceiros. No entanto, enquanto possuir uma conta de Usuário, você não poderá impedir que enviemos informações não promocionais, como informações sobre sua conta de Usuário ou sobre solicitações ou reclamações em andamento. O Serviço pode transferir cookies para a unidade de armazenamento do dispositivo através do qual você acessa ou utiliza o Serviço. Os cookies são identificadores alfanuméricos que funcionam com seu navegador da web e permitem que nossos sistemas o reconheçam e melhorem o uso do Serviço. Você pode excluir os cookies ou evitar que os enviemos.",
+          "p2": "Consulte a seção de ajuda do seu navegador para realizar qualquer uma dessas operações. De qualquer forma, recomendamos que permita os cookies do nosso Serviço: algumas funções do Serviço podem não operar adequadamente ou ser completamente desativadas se os cookies estiverem desabilitados.",
+          "p3": "Além disso, você poderá solicitar a revogação do monitoramento da localização geográfica dos dispositivos pelos quais acessa o Serviço. No entanto, essa revogação pode desativar algumas funções ou impedir diretamente a prestação do Serviço.",
+          "p4": "O Serviço pode fornecer links para sites de terceiros. Esses sites não são operados por nós e estão fora do nosso controle. Lembre-se de que esses sites podem coletar informações sobre você e que, ao visitá-los, você estará sujeito às suas próprias políticas de privacidade; portanto, recomendamos que leia esses e outros documentos que regem sua relação com os fornecedores desses sites. A Atómico não é responsável pelas práticas de privacidade desses sites e não pode garantir a segurança das informações que coletam.",
+          "p5": "Esta Política se aplica apenas ao uso do Serviço, e não a outras aplicações ou sites de terceiros com os quais a Atómico tenha conexões ou hiperlinks."
+        },
+        "informacion punto 9": {
+          "p1": "A Atómico reserva-se o direito de modificar esta Política a qualquer momento e com efeito imediato. O Usuário será notificado de modificações nesta Política através dos meios que a Atómico considerar adequados (incluindo, sem limitação, sua publicação na Plataforma), e aceita que o uso do Serviço após a notificação constitui aceitação integral dos novos termos da Política.",
+          "p2": "Além disso, a Atómico reserva-se o direito de habilitar o acesso e/ou transferir a Informação Total a um terceiro nos casos de alienação total ou parcial, fusão, cisão ou mudança de controle da empresa."
+        },
+        "informacion punto 10": {
+        "p1": "Atómico toma todas as medidas ao seu alcance para proteger a segurança, integridade e confidencialidade das Informações Pessoais. No entanto, o Usuário assume o risco de qualquer transmissão de qualquer tipo de informação sob esta Política.",
+        "p2": "O Usuário não iniciará qualquer reclamação contra Atómico, nem suas Afiliadas, e indenizará e manterá permanentemente indene a Atómico, suas Afiliadas e seus funcionários, representantes e empregados, contra qualquer reclamação, demanda, ação, custo, despesa (incluindo custos e taxas judiciais e honorários advocatícios razoáveis), perda, dano e/ou prejuízo, direto e/ou indireto, judicial e/ou extrajudicial, que possam surgir direta ou indiretamente de:",
+        "item i": "Qualquer ação ou omissão do Usuário em relação a esta Política",
+        "item ii": "Qualquer ação ou omissão do Usuário em relação às suas Informações Pessoais",
+        "item iii": "Qualquer ação ou reclamação de terceiros contra o Usuário e/ou contra Atómico, ou suas Afiliadas, de qualquer forma vinculada a esta Política ou às informações cuja coleta, tratamento e transferência são previstas nesta Política."
+      },
+      "informacion punto 11": {
+        "p1": "O Usuário poderá solicitar, a qualquer momento, o acesso, retificação, atualização ou eliminação de suas Informações Pessoais. Para isso, deve compartilhar os dados de contato que constam abaixo.",
+        "p2": "Se entrar em contato com Atómico, deverá comprovar sua identidade para que Atómico possa cumprir com as normas de direito de acesso e proceder, conforme aplicável, à sua correção, atualização ou eliminação. As solicitações para excluir Informações Pessoais estarão sujeitas a qualquer obrigação legal e ética vigente de informar ou cumprir documentos ou obrigações de retenção documental que nos sejam impostas.",
+        "p3": "Observe que as comunicações por e-mail não são completamente seguras, por isso não inclua dados sensíveis nos e-mails que nos enviar.",
+        "p4": "As Informações Pessoais do Usuário serão mantidas por Atómico durante o prazo de subscrição ao Serviço ou enquanto sua conta de Usuário estiver ativa. Ao cancelar ou encerrar sua subscrição ao Serviço ou ao fechar sua conta de Usuário, as informações serão mantidas até que deixem de ser necessárias ou pertinentes para os fins para os quais foram coletadas por Atómico.",
+        "p5": "Em nenhum caso o Usuário poderá revogar o consentimento e solicitar a exclusão de suas Informações Pessoais de Atómico quando houver uma obrigação legal ou contratual que imponha a Atómico a conservação das Informações Pessoais.",
+        "p6": "Em nenhuma hipótese transferiremos suas Informações Pessoais a terceiros sem obter seu consentimento prévio, exceto quando necessário para a manutenção de nosso relacionamento com você, para continuar prestando o Serviço ou para cumprir a legislação vigente de proteção de dados. Em particular, esclarecemos que, no âmbito da prestação do Serviço, Atómico poderá transferir suas Informações Pessoais para Afiliadas para a realização de operações ou atividades associadas ao Serviço por parte de suas Afiliadas. Consequentemente, ao aceitar esta Política, o Usuário consente expressamente com a transferência de suas Informações Pessoais para as Afiliadas de Atómico para a realização de operações ou atividades associadas ao Serviço.",
+        "p7": "O Usuário, como titular das Informações Pessoais, tem o direito de exercer o direito de acesso às mesmas gratuitamente, em intervalos não inferiores a seis meses, salvo se comprovar um interesse legítimo para tanto, conforme o estabelecido no artigo 14, inciso 3 da Lei de Proteção de Dados Pessoais. A AAIP, órgão de controle da Lei de Proteção de Dados Pessoais, possui a atribuição de atender às denúncias e reclamações relacionadas ao descumprimento das normas de proteção de dados pessoais."
+      },
+      "informacion punto 12": {
+        "p1": "Esta Política está alinhada em todos os seus pontos com as leis da República Argentina e será interpretada de acordo com elas, além de buscar cumprir com as normas da República do Paraguai, sob o rigoroso controle da Secretaria de Prevenção à Lavagem de Dinheiro ou Bens.",
+        "p2": "A AAIP, na qualidade de órgão de controle da Lei de Proteção de Dados Pessoais, possui a atribuição de atender às denúncias e reclamações daqueles cujos direitos foram afetados pelo descumprimento das normas vigentes em matéria de proteção de dados pessoais.",
+        "p3": "Sem limitar o anterior, em caso de qualquer divergência, desacordo ou conflito derivado da aplicação, interpretação, validade e/ou alcance desta Política, o Usuário deve entrar em contato com Atómico de maneira formal, enviando sua reclamação para que as partes tentem chegar a um acordo. Caso, após decorridos 20 (vinte) dias do início da reclamação, não seja possível chegar a uma solução, o Usuário também poderá optar por submeter sua reclamação a uma das seguintes instâncias, caso sejam competentes:",
+        "a": "Tribunais ordinários da Cidade de Assunção, República do Paraguai, com competência na matéria",
+        "b": "Direção Geral de Defesa e Proteção ao Consumidor do Governo da Cidade de Buenos Aires (mais informações em",
+        "b link": "http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general",
+        "b.1": ") ou da província ou município onde o Usuário reside, desde que exista uma instância de arbitragem ou procedimento para a solução de controvérsias.",
+        "c": "Tribunais ordinários com competência na matéria e sede no local onde o Usuário reside."
+      },
+        "informacion punto 13": {
+          "p1": "A informação de contato do responsável registrado pela base de dados é: Atómico S.A.",
+          "p2": "Endereço: Av. Aviadores del Chaco 2351, 8º andar, Assunção, Paraguai",
+          "p3": "Email: support@atomico3.io"
+        },
+        "termsAndConditions": {
+          "terminos y condiciones": "Termos e condições",
+          "vigencia": "Válido desde 09 de outubro de 2024 por tempo indefinido ou pelo tempo estabelecido a exclusivo critério da ATOMICO3 SA",
+          "titles": {
+            "indice": "Índice",
+            "title1": "Conteúdo dos Termos e Condições.",
+            "title2": "Aceitação dos T&C.",
+            "title3": "Serviços oferecidos na Plataforma.",
+            "title4": "Riscos de uso da Plataforma.",
+            "title5": "Requisitos para usar a Plataforma.",
+            "title6": "Registro para uso da Plataforma.",
+            "title7": "Utilização da Plataforma.",
+            "title8": "Conta de Usuário.",
+            "title9": "Obrigações do Usuário.",
+            "title10": "Proibições ao Usuário",
+            "title11": "Solicitação de cancelamento ou fechamento da Conta. Término.",
+            "title12": "Segurança. Recuperação de senhas.",
+            "title13": "Créditos.",
+            "title14": "Modificações aos T&C",
+            "title15": "Conteúdo. Propriedade Intelectual",
+            "title16": "Cancelamento da Plataforma. Falta de Responsabilidade.",
+            "title17": "Funcionários da Atómico",
+            "title18": "Uso de cookies e tecnologias similares",
+            "title19": "Transferências TAG.",
+            "title20": "Swap",
+            "title21": "Cartões Pré-pagos. Cashback",
+            "title22": "Diversos",
+            "title23": "Cessão",
+            "title24": "Consentimento para notificações eletrônicas",
+            "title25": "Resolução de conflitos. Jurisdição e lei aplicável",
+            "title26": "Sugestões, opiniões, queixas e comentários",
+            "title27": "Atendimento ao Usuário",
+            "title28": "Notificações"
+        }
+      }
       
-    
-  
+
+      
+    }
+  }
 }

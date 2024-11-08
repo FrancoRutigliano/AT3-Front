@@ -760,8 +760,7 @@ export const Navbar = () => {
                         >
                           <div className="p-2 ">
                             <Link
-                              to={"https://app.atomico3.io/auth"}
-                              target='_blank'
+                              to={""}
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
                             >
@@ -769,8 +768,7 @@ export const Navbar = () => {
                             </Link>
                             <Link
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
-                              to={"https://app.atomico3.io/auth"}
-                              target='_blank'
+                              to={""}
                             >
                               {t("navbar.registrarse")}
 
@@ -831,8 +829,8 @@ export const Navbar = () => {
                         >
                           <div className="p-2 ">
                             <Link
-                              to={"https://app.atomico3.io/auth"}
-                              target='_blank'
+                              to={""}
+                              
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
                             >
@@ -840,8 +838,8 @@ export const Navbar = () => {
                             </Link>
                             <Link
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
-                              to={"https://app.atomico3.io/auth"}
-                              target='_blank'
+                              to={""}
+                              
                             >
                               {t("navbar.registrarse")}
 

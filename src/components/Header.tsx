@@ -101,6 +101,7 @@ export const Header = () => {
         </div>
       </div>
 
+
       {/* Sección de imagen */}
       <div className=' w-full md:w-1/2 flex flex-col items-center justify-center mt-20 md:mt-10 lg:mt-0 lg:pb-24  '>
         <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full  lg:mb-0 md:mt-0    ' />

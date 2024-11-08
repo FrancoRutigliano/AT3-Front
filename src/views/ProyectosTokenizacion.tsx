@@ -38,7 +38,7 @@ export const ProyectosTokenizacion = () => {
                 <div className="bg-gray-500/25 p-10 max-w-xl flex flex-col justify-center items-center text-center ltr:sm:text-left rtl:sm:text-right">
                     <h1 className="text-3xl font-extrabold sm:text-5xl">
                       {t("proyectosTokenizacion.proyectos de")}
-                        <strong className="block font-extrabold text-blue-800">
+                        <strong className="block font-extrabold text-blue-500">
                       {t("proyectosTokenizacion.tokenizacion")}
                             
                              </strong>
@@ -51,14 +51,14 @@ export const ProyectosTokenizacion = () => {
 
                     <div className="mt-8 flex flex-wrap gap-4 text-center">
                         <a
-                            className="block w-full rounded bg-blue-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
+                            className="block w-full rounded bg-blue-500 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                         >
                                             {t("proyectosTokenizacion.p2")}
 
                         </a>
 
                         <a
-                            className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-800 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
+                            className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-500 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
                         >
                                                 {t("proyectosTokenizacion.p3")}
 

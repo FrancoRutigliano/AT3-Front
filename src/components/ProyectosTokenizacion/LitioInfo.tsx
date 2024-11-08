@@ -28,15 +28,19 @@ export const LitioInfo = () => {
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h2 className="text-2xl font-bold text-gray-900 md:text-4xl text-left">
-              ¿Qué es el litio?
+              {t("proyectosTokenizacion.que es el litio")}
             </h2>
 
             <p className="hidden text-gray-500 md:mt-4 md:block text-justify">
-              El litio es un elemento clave en la tecnología moderna y la transición hacia energías sostenibles, impulsando la demanda de baterías para dispositivos electrónicos y vehículos eléctricos. Conocer su potencial es esencial para entender las tendencias del mercado y las oportunidades de inversión.
+              {t("proyectosTokenizacion.p4")}
+
             </p>
             <p className="hidden text-gray-500 md:mt-4 md:block text-justify">
-              Se trata de un metal blando y de color plateado, extraído de minerales y salares, con propiedades únicas que lo convierten en un recurso insustituible en una gran variedad de aplicaciones industriales. <br />
-              Con el crecimiento exponencial de la demanda de baterías para dispositivos electrónicos y vehículos eléctricos, entender el papel del litio es esencial para quienes desean mantenerse informados sobre las tendencias del mercado y las oportunidades de inversión.
+              {t("proyectosTokenizacion.p4.1")}
+
+              <br />
+              {t("proyectosTokenizacion.p4.2")}
+
             </p>
             {/* <p className="text-gray-500 text-lg text-start my-4 underline deco">Leer más</p> */}
           </div>
@@ -53,7 +57,8 @@ export const LitioInfo = () => {
           <div className="mx-auto  px-1 py-16 sm:px-1 sm:py-24 lg:px-1  ">
             <div className="max-w-3xl">
               <h2 className="text-3xl font-bold sm:text-4xl">
-                ¿Por qué es tan importante el litio?
+                {t("proyectosTokenizacion.por que es tan importante el litio")}
+
               </h2>
             </div>
 
@@ -69,11 +74,15 @@ export const LitioInfo = () => {
               <div className="lg:py-16 ">
                 <article className="space-y-4 text-gray-600 mb-20 ">
                   <p className="text-justify" >
-                  El litio se ha ganado la denominación de "oro blanco" del siglo XXI debido a su creciente demanda y su papel esencial en la transición hacia un modelo energético sostenible. Este mineral es la base de las baterías de ion-litio, una tecnología esencial para dispositivos electrónicos, vehículos eléctricos y sistemas de almacenamiento de energía renovable. <br /> <br /> En un mundo que avanza hacia la reducción de su dependencia de los combustibles fósiles, el litio se erige como un recurso esencial para almacenar y gestionar energía de manera eficiente, permitiendo su uso cuando se requiere.
+                    {t("proyectosTokenizacion.p5")}
+
+                    <br /> <br />               {t("proyectosTokenizacion.p6")}
+
                   </p>
 
                   <p className="text-justify">
-                  En este contexto, respaldar nuestra criptomoneda en el valor y las reservas de litio representa una oportunidad única de inversión. No solo permite a nuestros usuarios participar en el ecosistema financiero digital, sino que también vincula su inversión con un recurso estratégico cuyo valor seguirá en aumento a medida que la demanda global por soluciones energéticas sostenibles continúe creciendo. Al adquirir esta criptomoneda, nuestros usuarios se convierten en parte de una visión innovadora y responsable, alineada con un futuro más sostenible y tecnológicamente avanzado.
+                  {t("proyectosTokenizacion.p7")}
+
                   </p>
                 </article>
               </div>
@@ -82,7 +91,7 @@ export const LitioInfo = () => {
         </section>
 
       </section>
-      <section className="lg:py-32 bg-white">
+      {/* <section className="lg:py-32 bg-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">Estadístiscas sobre el litio</h2>
@@ -121,7 +130,7 @@ export const LitioInfo = () => {
             </div>
           </dl>
         </div>
-      </section>
+      </section> */}
 
     </>
   );

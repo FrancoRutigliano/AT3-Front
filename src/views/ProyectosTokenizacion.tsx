@@ -2,8 +2,10 @@ import { useRef, useEffect } from 'react';
 import video from '../assets/video.mp4'
 import { LitioInfo } from '../components/ProyectosTokenizacion/LitioInfo';
 import { NoticiasLitio } from '../components/ProyectosTokenizacion/NoticiasLitio';
+import { useTranslation } from 'react-i18next';
 export const ProyectosTokenizacion = () => {
     const videoRef =  useRef<HTMLVideoElement>(null);
+    const [t] = useTranslation("global")
 
     useEffect(() => {
         const video = videoRef.current;
@@ -35,27 +37,31 @@ export const ProyectosTokenizacion = () => {
             <div className="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
                 <div className="bg-gray-500/25 p-10 max-w-xl flex flex-col justify-center items-center text-center ltr:sm:text-left rtl:sm:text-right">
                     <h1 className="text-3xl font-extrabold sm:text-5xl">
-                        Proyectos de 
-                        <strong className="block font-extrabold text-blue-800">tokenización </strong>
+                      {t("proyectosTokenizacion.proyectos de")}
+                        <strong className="block font-extrabold text-blue-800">
+                      {t("proyectosTokenizacion.tokenizacion")}
+                            
+                             </strong>
                     </h1>
 
                     <p className="mt-4 max-w-lg sm:text-xl/relaxed">
-                        En esta sección encontrarás información sobre los distintos Proyectos de Tokenización mineros en los que hemos participado.
+                    {t("proyectosTokenizacion.p1")}
+
                     </p>
 
                     <div className="mt-8 flex flex-wrap gap-4 text-center">
                         <a
-                            href="#"
                             className="block w-full rounded bg-blue-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto"
                         >
-                            Saber más
+                                            {t("proyectosTokenizacion.p2")}
+
                         </a>
 
                         <a
-                            href="#"
                             className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-800 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto"
                         >
-                            Tokenizar mi proyecto
+                                                {t("proyectosTokenizacion.p3")}
+
                         </a>
                     </div>
                 </div>

@@ -785,5 +785,22 @@
   },
   "cookiesPolicy": {
     "cookiesPolicy": "Política de Cookies"
+  },
+  "proyectosTokenizacion": {
+    "proyectos de tokenizacion": "Proyectos de tokenización",
+    "proyectos de": "Proyectos de",
+    "tokenizacion": "Tokenización",
+    "p1": "En esta sección encontrarás información sobre los distintos Proyectos de Tokenización mineros en los que hemos participado.",
+    "p2": "Saber más",
+    "p3": "Tokenizar mi proyecto",
+    "que es el litio": "¿Qué es el litio?",
+    "p4": "El litio es un elemento clave en la tecnología moderna y la transición hacia energías sostenibles, impulsando la demanda de baterías para dispositivos electrónicos y vehículos eléctricos. Conocer su potencial es esencial para entender las tendencias del mercado y las oportunidades de inversión.",
+    "p4.1": "Se trata de un metal blando y de color plateado, extraído de minerales y salares, con propiedades únicas que lo convierten en un recurso insustituible en una gran variedad de aplicaciones industriales.",
+    "p4.2": "Con el crecimiento exponencial de la demanda de baterías para dispositivos electrónicos y vehículos eléctricos, entender el papel del litio es esencial para quienes desean mantenerse informados sobre las tendencias del mercado y las oportunidades de inversión.",
+    "por que es tan importante el litio": "¿Por qué es tan importante el litio?",
+    "p5": "El litio se ha ganado la denominación de 'oro blanco' del siglo XXI debido a su creciente demanda y su papel esencial en la transición hacia un modelo energético sostenible. Este mineral es la base de las baterías de ion-litio, una tecnología esencial para dispositivos electrónicos, vehículos eléctricos y sistemas de almacenamiento de energía renovable.",
+    "p6": "En un mundo que avanza hacia la reducción de su dependencia de los combustibles fósiles, el litio se erige como un recurso esencial para almacenar y gestionar energía de manera eficiente, permitiendo su uso cuando se requiere.",
+    "p7": "En este contexto, respaldar nuestra criptomoneda en el valor y las reservas de litio representa una oportunidad única de inversión. No solo permite a nuestros usuarios participar en el ecosistema financiero digital, sino que también vincula su inversión con un recurso estratégico cuyo valor seguirá en aumento a medida que la demanda global por soluciones energéticas sostenibles continúe creciendo. Al adquirir esta criptomoneda, nuestros usuarios se convierten en parte de una visión innovadora y responsable, alineada con un futuro más sostenible y tecnológicamente avanzado."
   }
+  
 }

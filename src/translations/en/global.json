@@ -31,11 +31,10 @@
     "informacion sobre litio": "Information about Lithium",
     "medios": "Media",
     "noticias": "Press",
-     "politica cookies": "Cookies Policy",
+    "politica cookies": "Cookies Policy",
     "faq for law": "Faq for law enforcement",
-      "iniciar sesion": "Log in",
-      "registrarse": "Sign up"
-    
+    "iniciar sesion": "Log in",
+    "registrarse": "Sign up"
   },
   "nosotros": {
     "title": "We are a company legally incorporated in Paraguay, dedicated to the development and optimization of mining activity. We provide them with the tool of tokenization of certified lithium reserves, seeking to innovate and revolutionize the electromobility industry. ",
@@ -224,7 +223,6 @@
     "por": "By",
     "m1": "Meeting between the President of the Latin American Lithium Chamber and the Secretary of Mining of Argentina",
     "m2": "The Price of Lithium: A Market Perspective"
-
   },
   "team": {
     "nuestro equipo": "Our Team",
@@ -790,5 +788,21 @@
   },
   "cookiesPolicy": {
     "cookiesPolicy": "Cookies Policy"
+  },
+  "proyectosTokenizacion": {
+    "proyectos de tokenizacion": "Tokenization Projects",
+    "proyectos de": "Tokenization",
+    "tokenizacion": "Projects",
+    "p1": "In this section, you will find information about the different Mining Tokenization Projects in which we have participated.",
+    "p2": "Learn more",
+    "p3": "Tokenize my project",
+    "que es el litio": "What is lithium?",
+    "p4": "Lithium is a key element in modern technology and the transition towards sustainable energy, driving the demand for batteries for electronic devices and electric vehicles. Understanding its potential is essential to grasp market trends and investment opportunities.",
+    "p4.1": "It is a soft, silver-colored metal, extracted from minerals and salt flats, with unique properties that make it an irreplaceable resource in a wide variety of industrial applications.",
+    "p4.2": "With the exponential growth in demand for batteries for electronic devices and electric vehicles, understanding the role of lithium is essential for those who want to stay informed about market trends and investment opportunities.",
+    "por que es tan importante el litio": "Why is lithium so important?",
+    "p5": "Lithium has earned the designation of the 'white gold' of the 21st century due to its growing demand and essential role in the transition towards a sustainable energy model. This mineral is the foundation of lithium-ion batteries, an essential technology for electronic devices, electric vehicles, and renewable energy storage systems.",
+    "p6": "In a world moving towards reducing its dependence on fossil fuels, lithium emerges as an essential resource for efficiently storing and managing energy, allowing its use when needed.",
+    "p7": "In this context, backing our cryptocurrency with the value and reserves of lithium represents a unique investment opportunity. It not only allows our users to participate in the digital financial ecosystem, but it also links their investment to a strategic resource whose value will continue to increase as global demand for sustainable energy solutions grows. By acquiring this cryptocurrency, our users become part of an innovative and responsible vision, aligned with a more sustainable and technologically advanced future."
   }
 }

@@ -733,43 +733,60 @@
         "21.6 p4": "Nível 3 - de 15,01 a 50 USD - Custo fixo: 0,24 USD",
         "21.6 p5": "Nível 4 - 50,01 USD ou mais - Custo fixo: 0,54 USD"
       },
-        "informacion punto 22": {
-          "p1": "Caso uma ou mais cláusulas destes T&C sejam declaradas nulas por qualquer autoridade ou órgão judicial competente, tal nulidade não afetará a validade das cláusulas restantes, que manterão sua plena vigência e efeito.",
-          "p2": "O Usuário entende e aceita que qualquer falta de ação por parte da Atómico em relação ao descumprimento ou violação por parte do Usuário de uma ou mais disposições destes T&C não implica na concordância da Atómico com tal atitude, nem impede que a persiga ou que, no futuro, persiga outra violação idêntica ou similar. Além disso, o Usuário entende e aceita que o fato de qualquer funcionalidade da Plataforma estar efetivamente disponível, embora não mencionada nestes T&C, não dará ao Usuário o direito ao manter a funcionalidade nem a qualquer indenização em caso de descontinuação com ou sem aviso prévio."
-        },
-        "informacion punto 23": {
-          "p1": "A Atómico poderá ceder a qualquer uma de suas Afiliadas ou a um terceiro sua posição contratual, este contrato, e/ou qualquer um dos direitos e obrigações decorrentes do mesmo. O Usuário será notificado sobre essa operação.",
-          "p2": "A menos que haja consentimento expresso e por escrito de um representante devidamente autorizado da Atómico, o Usuário não poderá ceder a nenhum terceiro sua posição contratual, este contrato, nem qualquer um dos direitos ou obrigações decorrentes do mesmo."
-        },
-        "informacion punto 24": {
-          "p1": "O Usuário concede seu consentimento expresso para que todas as informações relacionadas com sua qualidade de Usuário, sua Conta e o uso da Plataforma e/ou dos Serviços, sejam notificadas ou informadas para o último e-mail fornecido pelo Usuário, por meio de notificações dentro da Plataforma e/ou por qualquer outro meio que implique uma notificação por meios eletrônicos."
-        },
-        "informacion punto 25": {
-          "p1": "Os T&C estão regidos sem exceção e em todos os seus pontos pelas leis da República do Paraguai e serão interpretados de acordo com elas.",
-          "p2": "Em caso de qualquer divergência, desacordo ou conflito derivado do uso da Plataforma e/ou dos Serviços, ou da interpretação, validade e/ou alcance destes T&C, o Usuário poderá iniciar sua reclamação por meio dos meios previstos na Plataforma, ou, na falta deles, entrar em contato com a Atómico de maneira formal, enviando sua reclamação, para que as partes tentem chegar a um acordo antes de iniciar qualquer reclamação perante a jurisdição que lhe corresponda."
-        },
-        "informacion punto 26": {
-          "p1": "Todas as sugestões, opiniões, queixas e comentários feitos pelo Usuário por qualquer meio poderão ser considerados, implementados, divulgados ou adaptados pela Atómico, sem que isso gere qualquer direito em favor do Usuário que os tenha feito ou proposto."
-        },
-        "informacion punto 27": {
-          "p1": "A Atómico possui um centro de atendimento ao Usuário. Para entrar em contato, o Usuário pode fazê-lo por e-mail para",
-          "p1.1": "e/ou qualquer outro meio disponibilizado pela Atómico para esse fim."
-        },
-        "informacion punto 28": {
-          "p1": "Todas as notificações que devem ser feitas à Atómico pelo acesso ou uso da Plataforma sob estes T&C devem ser feitas por escrito para o seu e-mail ou endereço postal indicados abaixo:",
-          "p2": "Atómico3 S.A",
-          "p3": "RUC: 80144052-1",
-          "p4": "Endereço:",
-          "p5": "Av. Aviadores del Chaco 2351 8º andar, Assunção, República do Paraguai",
-          "p6": "E-mail:",
-          "p7": "support@Atómico3.io"
-        }
+      "informacion punto 22": {
+        "p1": "Caso uma ou mais cláusulas destes T&C sejam declaradas nulas por qualquer autoridade ou órgão judicial competente, tal nulidade não afetará a validade das cláusulas restantes, que manterão sua plena vigência e efeito.",
+        "p2": "O Usuário entende e aceita que qualquer falta de ação por parte da Atómico em relação ao descumprimento ou violação por parte do Usuário de uma ou mais disposições destes T&C não implica na concordância da Atómico com tal atitude, nem impede que a persiga ou que, no futuro, persiga outra violação idêntica ou similar. Além disso, o Usuário entende e aceita que o fato de qualquer funcionalidade da Plataforma estar efetivamente disponível, embora não mencionada nestes T&C, não dará ao Usuário o direito ao manter a funcionalidade nem a qualquer indenização em caso de descontinuação com ou sem aviso prévio."
+      },
+      "informacion punto 23": {
+        "p1": "A Atómico poderá ceder a qualquer uma de suas Afiliadas ou a um terceiro sua posição contratual, este contrato, e/ou qualquer um dos direitos e obrigações decorrentes do mesmo. O Usuário será notificado sobre essa operação.",
+        "p2": "A menos que haja consentimento expresso e por escrito de um representante devidamente autorizado da Atómico, o Usuário não poderá ceder a nenhum terceiro sua posição contratual, este contrato, nem qualquer um dos direitos ou obrigações decorrentes do mesmo."
+      },
+      "informacion punto 24": {
+        "p1": "O Usuário concede seu consentimento expresso para que todas as informações relacionadas com sua qualidade de Usuário, sua Conta e o uso da Plataforma e/ou dos Serviços, sejam notificadas ou informadas para o último e-mail fornecido pelo Usuário, por meio de notificações dentro da Plataforma e/ou por qualquer outro meio que implique uma notificação por meios eletrônicos."
+      },
+      "informacion punto 25": {
+        "p1": "Os T&C estão regidos sem exceção e em todos os seus pontos pelas leis da República do Paraguai e serão interpretados de acordo com elas.",
+        "p2": "Em caso de qualquer divergência, desacordo ou conflito derivado do uso da Plataforma e/ou dos Serviços, ou da interpretação, validade e/ou alcance destes T&C, o Usuário poderá iniciar sua reclamação por meio dos meios previstos na Plataforma, ou, na falta deles, entrar em contato com a Atómico de maneira formal, enviando sua reclamação, para que as partes tentem chegar a um acordo antes de iniciar qualquer reclamação perante a jurisdição que lhe corresponda."
+      },
+      "informacion punto 26": {
+        "p1": "Todas as sugestões, opiniões, queixas e comentários feitos pelo Usuário por qualquer meio poderão ser considerados, implementados, divulgados ou adaptados pela Atómico, sem que isso gere qualquer direito em favor do Usuário que os tenha feito ou proposto."
+      },
+      "informacion punto 27": {
+        "p1": "A Atómico possui um centro de atendimento ao Usuário. Para entrar em contato, o Usuário pode fazê-lo por e-mail para",
+        "p1.1": "e/ou qualquer outro meio disponibilizado pela Atómico para esse fim."
+      },
+      "informacion punto 28": {
+        "p1": "Todas as notificações que devem ser feitas à Atómico pelo acesso ou uso da Plataforma sob estes T&C devem ser feitas por escrito para o seu e-mail ou endereço postal indicados abaixo:",
+        "p2": "Atómico3 S.A",
+        "p3": "RUC: 80144052-1",
+        "p4": "Endereço:",
+        "p5": "Av. Aviadores del Chaco 2351 8º andar, Assunção, República do Paraguai",
+        "p6": "E-mail:",
+        "p7": "support@Atómico3.io"
       }
-    },
-    "faqForLaw": {
-      "faqForLaw": "Perguntas frequentes para as forças de segurança"
-    },
-    "cookiesPolicy": {
-      "cookiesPolicy": "Política de Cookies"
     }
+  },
+  "faqForLaw": {
+    "faqForLaw": "Perguntas frequentes para as forças de segurança"
+  },
+  "cookiesPolicy": {
+    "cookiesPolicy": "Política de Cookies"
+  },
+  "proyectosTokenizacion": {
+    "proyectos de tokenizacion": "Projetos de tokenização",
+    "proyectos de": "Projetos de",
+    "tokenizacion": "Tokenização",
+    "p1": "Nesta seção você encontrará informações sobre os diversos Projetos de Tokenização mineradora nos quais participamos.",
+    "p2": "Saiba mais",
+    "p3": "Tokenizar meu projeto",
+    "que es el litio": "O que é o lítio?",
+    "p4": "O lítio é um elemento chave na tecnologia moderna e na transição para energias sustentáveis, impulsionando a demanda por baterias para dispositivos eletrônicos e veículos elétricos. Conhecer seu potencial é essencial para entender as tendências de mercado e as oportunidades de investimento.",
+    "p4.1": "Trata-se de um metal macio e prateado, extraído de minerais e salares, com propriedades únicas que o tornam um recurso insubstituível em uma ampla variedade de aplicações industriais.",
+    "p4.2": "Com o crescimento exponencial da demanda por baterias para dispositivos eletrônicos e veículos elétricos, entender o papel do lítio é essencial para quem deseja se manter informado sobre as tendências de mercado e as oportunidades de investimento.",
+    "por que es tan importante el litio": "Por que o lítio é tão importante?",
+    "p5": "O lítio ganhou a denominação de 'ouro branco' do século XXI devido à sua crescente demanda e seu papel essencial na transição para um modelo energético sustentável. Este mineral é a base das baterias de íon-lítio, uma tecnologia essencial para dispositivos eletrônicos, veículos elétricos e sistemas de armazenamento de energia renovável.",
+    "p6": "Em um mundo que avança na redução da dependência de combustíveis fósseis, o lítio se destaca como um recurso essencial para armazenar e gerenciar energia de maneira eficiente, permitindo seu uso quando necessário.",
+    "p7": "Nesse contexto, respaldar nossa criptomoeda no valor e nas reservas de lítio representa uma oportunidade única de investimento. Não apenas permite que nossos usuários participem do ecossistema financeiro digital, mas também vincula seu investimento a um recurso estratégico cujo valor continuará a aumentar à medida que a demanda global por soluções energéticas sustentáveis continue crescendo. Ao adquirir essa criptomoeda, nossos usuários se tornam parte de uma visão inovadora e responsável, alinhada com um futuro mais sustentável e tecnologicamente avançado."
+  }
+ 
 }

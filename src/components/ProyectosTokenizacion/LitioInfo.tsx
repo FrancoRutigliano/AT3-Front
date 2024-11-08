@@ -18,7 +18,7 @@ export const LitioInfo = () => {
       // Ajustar el scroll para que se desplace 100px más arriba
       window.scrollTo({
         top: elementPosition - 100, // Ajusta la posición sumando o restando píxeles
-        behavior: 'smooth', // Desplazamiento suave
+        behavior: 'smooth', 
       });
     }
   }, [location]);

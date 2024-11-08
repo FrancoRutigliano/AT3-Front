@@ -763,13 +763,13 @@
           "p5": "Av. Aviadores del Chaco 2351 8º andar, Assunção, República do Paraguai",
           "p6": "E-mail:",
           "p7": "support@Atómico3.io"
-        },
-        "faqForLaw": {
-          "faqForLaw": "Perguntas frequentes para as forças de segurança"
-        },
-        "cookiesPolicy": {
-          "cookiesPolicy": "Política de Cookies"
         }
+      }
+    },
+    "faqForLaw": {
+      "faqForLaw": "Perguntas frequentes para as forças de segurança"
+    },
+    "cookiesPolicy": {
+      "cookiesPolicy": "Política de Cookies"
     }
-  }
 }

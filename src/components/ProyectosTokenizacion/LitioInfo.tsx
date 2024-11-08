@@ -1,7 +1,8 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
-
+import litio from '../../assets/litio/montañas-litio.webp'
+import salar from '../../assets/litio/salar-litio.jpg'
 export const LitioInfo = () => {
 
   const [t] = useTranslation("global")
@@ -47,9 +48,9 @@ export const LitioInfo = () => {
         </div>
 
         <img
-          alt=""
-          src="https://bynder.aggreko.com/transform/ce8c8b8e-7b00-44b3-9112-af9532b721bc/minas-de-litio-argentina-bolivia-aggreko-007-jpg"
-          className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-ss-[60px]"
+          alt="litio"
+          src={litio}
+          className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-l-[60px]"
         />
       </section>
       <section>
@@ -66,8 +67,8 @@ export const LitioInfo = () => {
               <div className="relative h-64 overflow-hidden sm:h-80 lg:h-[90%]  ">
                 <img
                   alt=""
-                  src="https://litio.com.ar/wp-content/uploads/2022/02/lithium.jpg"
-                  className="absolute inset-0 h-full w-full object-cover rounded-xl "
+                  src={salar}
+                  className="absolute inset-0 w-full h-full object-cover rounded-xl "
                 />
               </div>
 

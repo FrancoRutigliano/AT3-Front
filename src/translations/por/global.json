@@ -585,7 +585,191 @@
         "9.4.9.4": "Os tokens mencionados não são um valor mobiliário, título de valor, ou um commodity, e você aceita e reconhece que está recebendo o token para seu uso tanto na Plataforma como em exchanges de terceiros onde eventualmente esteja listado e não para fins de investimento ou ganho financeiro. Estes Termos não constituem nenhuma oferta para subscrever valores mobiliários, títulos de valor ou qualquer outro instrumento com efeitos semelhantes a esses.",
         "9.4.10": "Em caso de uma compra com o Cartão Pré-pago de ATOMICO3, tendo selecionado um dos ativos digitais como meio de pagamento, o Usuário concede uma procuração irrevogável à Atómico para que venda a quantidade necessária do ativo digital selecionado para obter os pesos argentinos correspondentes para realizar o pagamento do valor indicado pelo Comércio. Para essa venda, a Atómico utilizará o valor de venda do ativo no momento da operação. A Atómico cobrará do usuário a comissão correspondente a uma venda de ativo digital.",
         "9.4.11": "Caso seja realizada uma remessa através da rede do UENO BANK em uma moeda diferente de AT3, o Usuário aceita e concede uma procuração irrevogável à Atómico para que realize uma conversão automática da quantidade do ativo selecionado para seu equivalente em AT3, conforme o preço da Plataforma, no momento da operação."
-      }
+      },
+      "informacion punto 10": {
+        "intro": "Sem que a lista seja exaustiva, o Usuário compromete-se a abster-se de realizar as seguintes ações, seja diretamente ou através de terceiros:",
+        "a": "Utilizar a Plataforma, os Serviços ou qualquer um dos seus conteúdos de uma maneira ou com fins que a Atómico considere diferentes ou contrários a estes T&C, as leis, a moral, os bons costumes ou a ordem pública;",
+        "b": "Utilizar a Plataforma para enviar, reproduzir ou publicar arquivos ou qualquer tipo de informação cujo conteúdo seja obsceno, abusivo, difamatório, injurioso, pornográfico, político ou contrário às leis, à moral e aos bons costumes, ou que contenha software malicioso como vírus, worms ou qualquer outra característica capaz de destruir ou danificar o funcionamento de um dispositivo eletrônico, da Plataforma ou dos sistemas ou servidores da Atómico, das suas Afiliadas ou de terceiros;",
+        "c": "Utilizar a Plataforma para enviar, reproduzir ou publicar arquivos em violação aos direitos de propriedade intelectual de terceiros;",
+        "d": "Explorar ou aproveitar-se de má fé de um ataque à Plataforma, ou de uma vulnerabilidade ou erro da Plataforma, em benefício próprio ou de terceiros;",
+        "e": "Utilizar a Plataforma em nome ou por conta de terceiros, ou permitir que qualquer pessoa (incluindo, sem limitação, através de cessão, licença, transferência ou locação) utilize a Conta ou qualquer um dos Serviços associados a ela, inclusive cobrando pelos Serviços;",
+        "f": "Efetuar Ordens de Gestão para realizar operações que constituam ou possam ser interpretadas como empréstimos ou adiantamentos de dinheiro para si mesmo ou terceiros, ou como etapas de um processo que culminem ou impliquem essas operações;",
+        "g": "Usar programas, software ou dispositivos automáticos ou manuais para monitorar ou copiar a informação ou qualquer tipo de conteúdo ou elemento da Plataforma;",
+        "h": "Vincular de qualquer forma a Plataforma ou os Serviços a promoções não solicitadas, campanhas políticas ou mensagens comerciais (SPAM) ou a qualquer mensagem em cadeia ou conteúdo projetado para enganar ou obter benefícios indevidos de Usuários ou terceiros;",
+        "i": "Efetuar ações que restrinjam, neguem ou impeçam qualquer indivíduo, grupo, entidade ou organização de acessar ou usar a Plataforma e os conteúdos, produtos e serviços oferecidos através dela;",
+        "j": "Tentar violar qualquer sistema de autenticação e segurança da Plataforma;",
+        "k": "Tentar obter qualquer tipo de material ou conteúdo acessível através da Plataforma utilizando procedimentos ou meios diferentes dos que, conforme o caso, tenham sido expressamente indicados ou disponibilizados ao Usuário;",
+        "l": "Incluir frames, links, deep links ou hiperlinks para a Plataforma, seja de outros sites ou de qualquer software ou dispositivo eletrônico;",
+        "m": "Realizar qualquer ação que imponha uma carga desproporcional ou excessiva sobre a infraestrutura tecnológica da Plataforma;",
+        "n": "Utilizar meta tags ou qualquer outro tipo de texto oculto com o nome 'Atómico', ou qualquer outro nome ou denominação comercial e/ou direitos de propriedade intelectual que pertençam ou sejam de titularidade da Atómico, de seus licenciantes ou Afiliadas;",
+        "o": "Emitir uma fatura endereçada à Atómico, a menos que exista um acordo comercial entre o Usuário e a Atómico no qual a Atómico tenha concordado em pagar por bens ou serviços. Qualquer fatura emitida em nome da Atómico fora do caso anterior será nula."
+      },
+      "informacion punto 11": {
+        "p1": "O Usuário pode solicitar o cancelamento da Conta através da Plataforma ou por e-mail para support@atomico3.io, exclusivamente a partir do endereço de e-mail com o qual se registrou, ou através de carta registrada endereçada a: Av. Aviadores do Chaco 2351, 8º andar, Assunção, Paraguai.",
+        "p2": "A Atómico poderá solicitar comprovantes ou informações adicionais para verificar a veracidade do pedido de cancelamento e das informações fornecidas pelo Usuário. A verificação é realizada para proteger os direitos e ativos do Usuário e, de forma alguma, limitará ou restringirá o direito do Usuário de solicitar o cancelamento do serviço. Uma vez que essa solicitação seja considerada válida, a Atómico procederá com a exclusão das credenciais de acesso aos Serviços. O número do documento e o e-mail associados ao Usuário permanecerão bloqueados, de modo que nenhuma outra pessoa poderá criar uma nova Conta com esses parâmetros.",
+        "p3": "Tanto o Usuário quanto a Atómico poderão, a qualquer momento, encerrar este contrato por justa causa. O Usuário poderá encerrar o contrato solicitando à Atómico, pelos meios de notificação previstos nestes T&C ou pelos meios disponíveis através da Plataforma, o encerramento de sua Conta. A Atómico somente procederá ao fechamento da Conta caso ela tenha saldo positivo ou equivalente a zero. Se o Usuário receber créditos periódicos de maneira automática, por qualquer motivo, entende e concorda que não é possível para a Atómico antecipar nenhum desses créditos e que qualquer crédito posterior ao pedido de fechamento da Conta deverá ser reprogramado com o terceiro com quem o Usuário tenha acordado esses créditos ou, alternativamente, cancelado sem direito a indenização.",
+        "p4": "O saldo positivo na Conta deverá ser retirado pelo Cliente antes do fechamento da Conta. Caso haja saldo positivo no momento do fechamento, ele será liquidado e entregue ao Usuário através do meio selecionado pelo Usuário e informado à Atómico ou por um dos meios que o Usuário tenha utilizado anteriormente para sacar ativos digitais. Não será possível proceder ao fechamento da Conta caso haja saldo que não possa ser devolvido ao Usuário por qualquer motivo alheio à Atómico.",
+        "p5": "O Usuário autoriza a Atómico a cobrar qualquer juro, custo e/ou despesa aplicável no momento da rescisão ou do fechamento da Conta."
+      },
+      "informacion punto 12": {
+        "p1": "O Usuário reconhece que todo serviço através do qual se armazenem ativos digitais apresenta um objetivo atraente para golpistas e hackers. Enquanto a Atômico toma medidas razoáveis comuns para sua indústria, para garantir a segurança dos fundos e dos ativos digitais do Usuário, sua segurança em uma Conta específica também depende das medidas de segurança que o próprio Usuário adote em relação aos dispositivos e ao modo como acessa sua Conta.",
+        "p2": "A Atômico promove ao Usuário a importância da força da senha escolhida e também oferece ao Usuário a possibilidade de acessar sua Conta por meio de um duplo fator de autenticação (“2FA”) que aumenta significativamente a segurança de acesso à Conta. Em linha com o estabelecido nestes T&C, a Atômico assume que qualquer modificação e movimento em uma Conta, mediante login prévio, foi efetuado pelo Usuário, pelo que o Usuário reconhece e aceita ser o exclusivo responsável pelo uso de sua Conta e pelas consequências e danos diretos e indiretos que dele derivem.",
+        "p3": "Caso o Usuário esqueça ou perca sua senha, poderá recuperá-la pelos meios disponíveis através da Plataforma, em caso contrário deverá contatar a Atômico no endereço support@atomico3.io.",
+        "p4": "O Usuário aceita, entende e reconhece que a Atômico, em nenhum caso, tem acesso ou conhecimento da senha que o Usuário escolheu no momento da criação ou recuperação da Conta, pois a mesma está criptografada sob rígidos protocolos de segurança.",
+        "p5": "A Atômico fará o possível para manter a confidencialidade e segurança dos Usuários, mas não será responsável por prejuízos que possam derivar da violação dessas medidas por terceiros que utilizem redes públicas ou a Internet para acessar essas informações ou nos casos em que haja culpa ou negligência do Usuário."
+      },
+      "informacion punto 13": {
+        "p1": "O Usuário reconhece que a Atômico não concede, por si mesma, créditos de nenhum tipo."
+      },
+      "informacion punto 14": {
+        "p1": "A Atômico poderá modificar a qualquer momento estes T&C. O Usuário será notificado dessas modificações através da publicação dos novos T&C na Plataforma. O Usuário aceita que o acesso ou uso da Plataforma após a modificação constitui aceitação integral dos novos T&C; caso discorde dos novos T&C, o Usuário deverá deixar de acessar ou usar a Plataforma. Em caso de modificações a características essenciais do Serviço, o Usuário será notificado através da publicação dos novos T&C na Plataforma e terá a possibilidade de aceitar ou não os mesmos. Caso não aceite os novos T&C e seja necessário o consentimento do Usuário para a prestação dos Serviços, será procedido à desativação parcial ou total do acesso aos Serviços e/ou ao encerramento da Conta."
+      },
+      "informacion punto 15": {
+        "p1": "Todo o conteúdo da Plataforma, incluindo, mas não limitado a, design das telas, materiais promocionais, marcas, nomes comerciais, sinais distintivos, textos, gráficos, logotipos, imagens, ícones, botões, vídeos, sons, música, bancos de dados, código-fonte, software e combinações de cores ('Conteúdo'), é de titularidade da Atômico ou de seus licenciadores. O Conteúdo não poderá ser reproduzido, modificado, transformado, editado, traduzido, cedido, distribuído, representado, comercializado, comunicado publicamente, armazenado, utilizado para fins distintos dos previstos nestes T&C, nem ser objeto de obras derivadas, sem autorização prévia e por escrito do titular dos direitos.",
+        "p2": "O fato de que o Usuário possa acessar a Plataforma não lhe confere licença, direito nem titularidade alguma sobre os direitos de propriedade industrial ou intelectual sobre a totalidade nem sobre parte alguma do Conteúdo. Somente se concede aos Usuários, sobre a Plataforma e sobre o Conteúdo, uma licença não exclusiva, revogável e limitada para acessar e usar a Plataforma conforme estes T&C.",
+        "p3": "Caso o Usuário considere que na Plataforma ou no Conteúdo haja violação de algum direito de propriedade intelectual de terceiros, deverá notificar a Atômico no endereço indicado nestes T&C, acompanhando todas as informações e documentação necessárias que fundamentem a mencionada consideração."
+      },
+      "informacion punto 16": {
+        "p1": "O Usuário aceita que a Atômico poderá, a qualquer momento e sem necessidade de pré-aviso, interromper, suspender, descontinuar, eliminar ou modificar a Plataforma e qualquer produto ou Serviço oferecido, mediante decisão fundamentada.",
+        "p2": "A Atômico não será responsável pela insolvência das entidades financeiras nas quais a Atômico mantenha os fundos em moeda local das contas, nem pela insolvência de terceiros cujos serviços tenham sido contratados pela Atômico para prestar seus Serviços."
+      },
+      "informacion punto 17": {
+        "p1": "Os funcionários da Atômico e/ou de suas Afiliadas poderão utilizar a Plataforma seguindo estritamente estes T&C e estão sujeitos a estes T&C nas mesmas condições que qualquer outro Usuário. Entender-se-á que esses fazem uso da Plataforma para fins pessoais e sob nenhuma hipótese em nome da Atômico nem de nenhuma de suas Afiliadas. Por este motivo, nem a Atômico nem nenhuma de suas Afiliadas se responsabilizam pelas operações que esses realizem na Plataforma. Para utilizar a Plataforma, os funcionários da Atômico e/ou de suas Afiliadas devem se registrar informando seu e-mail e endereço pessoais e, em nenhum caso, deverão se registrar ou usar a Plataforma utilizando o e-mail e/ou endereço da Atômico e/ou de suas Afiliadas."
+      },
+      "informacion punto 18": {
+        "intro": "Os Usuários da Plataforma sabem e aceitam que Atômico pode utilizar sistemas e serviços de rastreamento e tecnologias similares ou que cumpram uma função semelhante, como as que são listadas a seguir de forma não exaustiva:",
+        "t1": "Cookies:",
+        "t1 p1": "são pequenos arquivos que podem ser instalados no dispositivo de armazenamento do computador ou dispositivo utilizado pelo Usuário da Plataforma, com duração limitada que ajudam a personalizar os serviços. Além disso, Atômico pode oferecer certas funcionalidades que só estarão disponíveis por meio do uso de cookies.",
+        "t1 p2": "Os cookies são usados para conhecer os interesses, o comportamento e a demografia de quem visita ou utiliza a Plataforma e, dessa forma, compreender melhor suas necessidades e interesses e oferecer um serviço melhor ou fornecer informações relacionadas. Atômico também pode usar as informações obtidas através dos cookies para analisar as páginas visitadas pelo Usuário ou visitante, bem como suas buscas realizadas, para melhorar e personalizar iniciativas comerciais e promocionais, realizar notícias, publicidade ou promoções, banners de interesse e aprimorar sua oferta de conteúdos; também poderá utilizar cookies para contabilizar e verificar os registros e níveis de validação, além de promover e garantir as regras e segurança da Plataforma.",
+        "t1 p3": "Atômico também pode adicionar cookies em seus e-mails para medir a eficácia de suas promoções e campanhas publicitárias. Estabelece-se que a instalação, permanência e existência dos cookies no computador ou dispositivo do Usuário ou visitante depende de sua exclusiva vontade e pode ser eliminada de seu computador ou dispositivo quando desejar. Para saber como remover os cookies do sistema, é necessário revisar as configurações do seu navegador.",
+        "t2": "Registro de endereços de protocolo de internet:",
+        "t2 p1": "Atômico pode utilizar um sistema de registro de endereços de protocolo de internet que permite conhecer a localização dos Usuários para oferecer um melhor serviço e fornecer informações relacionadas a ela, além de melhorar e personalizar iniciativas comerciais e promocionais, realizar notícias, publicidade ou promoções, banners de interesse, aprimorar sua oferta de conteúdos e artigos e, por outro lado, promover e garantir as regras e segurança da Atômico. Ao acessar a Plataforma, o Usuário sabe e aceita que tal sistema possa ser utilizado.",
+        "t3": "Single pixel:",
+        "t3 p1": "é uma imagem eletrônica (também chamada de pixel transparente) colocada no código de uma página web com finalidades semelhantes aos cookies. Adicionalmente, um single pixel é usado para medir padrões de tráfego dos Usuários para outro, com o objetivo de maximizar o fluxo de tráfego através da web. O Usuário sabe e aceita que Atômico pode usar um sistema de rastreamento por meio da utilização de single pixel."
+      },
+      "informacion punto 19": {
+        "p1": "Atômico oferece dentro da Plataforma a possibilidade de que Usuários registrados e completamente validados com o nível requerido possam enviar (“Usuário Ordenante”), fora da blockchain (off-chain), ativos digitais a outros Usuários registrados e completamente validados com o nível requerido (“Usuário Receptor” ou, no plural, “Usuários Receptores”), sem custo (o “Serviço TAG”).",
+        "p2": "Os Usuários reconhecem e aceitam que as operações realizadas através do Serviço TAG não serão registradas na blockchain e só poderão ser efetuadas entre Usuários da Plataforma na República Argentina.",
+        "p3": "Para poder utilizar o Serviço TAG, Atômico atribuirá a cada Usuário um alias único visível apenas por cada Usuário, para que o Usuário possa compartilhá-lo com outro Usuário para realizar uma transferência de ativos digitais.",
+        "p4": "O Usuário Ordenante deverá carregar, previamente, em sua lista o Usuário Receptor ao qual pretende realizar a transferência. O limite máximo de Usuários Receptores que podem ser carregados estará estabelecido na seção correspondente.",
+        "p5": "O Usuário Ordenante pode realizar uma instrução de envio, detalhando a quantidade específica do ativo digital que deseja remeter e deverá escolher, na lista dos pré-carregados, o Usuário Receptor ao qual deseja enviar o ativo digital (a “Instrução TAG”). Para realizar tal Instrução TAG, o Usuário Ordenante deverá ter quantidade suficiente do ativo digital selecionado. Quando o Usuário Ordenante confirmar a Instrução TAG, a quantidade do ativo digital selecionado ficará afetada à execução da Instrução TAG sem que possa ser usada para outro fim.",
+        "p6": "A execução da operação pode durar até 48 (quarenta e oito) horas.",
+        "p7": "Executada a Instrução TAG, Atômico procederá a debitar da conta do Usuário Ordenante a quantidade do ativo digital que foi remetido conforme à Instrução TAG e a creditar na conta do Usuário Receptor.",
+        "p8": "Não será possível executar parcialmente uma Instrução TAG.",
+        "p9": "Cancelamento. No caso de Instruções TAG iniciadas, o Usuário Ordenante só poderá cancelá-las antes de sua execução. Uma vez que sua Instrução TAG tenha sido executada, o Usuário Ordenante não poderá alterá-la, revogá-la ou cancelá-la. Se a Conta do Usuário Ordenante não tiver quantidade suficiente de ativos digitais para executar uma Instrução TAG, Atômico cancelará a instrução TAG.",
+        "p10": "Comissões. Não serão cobradas comissões pelas operações realizadas através do Serviço TAG. No entanto, Atômico se reserva o direito de cobrar comissões pelo Serviço TAG e, neste caso, estas poderão, a critério de Atômico, ser atualizadas a qualquer momento, com notificação ao Usuário pelos canais de comunicação estabelecidos nestes T&C. As comissões atualizadas serão aplicadas a qualquer operação que ocorrer após a data de entrada em vigor dessas. Você autoriza Atômico a deduzir de sua conta qualquer comissão aplicável de acordo com estes Termos.",
+        "p11": "Limites. Os limites diários, mensais e anuais de quantidade de operações do Serviço TAG estarão estabelecidos na seção correspondente da Plataforma. Da mesma forma, os limites mínimos e máximos de quantidade de ativos digitais do Serviço TAG estarão estabelecidos na seção correspondente da Plataforma."
+      },
+      "informacion punto 20": {
+        "20.1 p1": "Atômico oferece dentro da Plataforma um serviço de troca entre ativos digitais denominado Swap (“Swap”).",
+        "20.1 p2": "O Usuário pode ordenar à Atômico uma instrução de troca de uma quantidade específica de um ativo digital ou moeda de curso legal por outro ativo digital (a 'Instrução Swap'). Atômico colocará à disposição do Usuário a cotação correspondente para realizar a Instrução Swap durante 15 (quinze) segundos. Para executar a Instrução Swap, o Usuário deverá ter (i) a quantidade suficiente do montante especificado do ativo digital selecionado e (ii) o valor referente às comissões ou custos no ativo digital selecionado, que se apliquem à Instrução Swap, se houver.",
+        "20.1 p3": "Para que a execução do Swap aconteça, o Usuário deverá confirmar a Instrução Swap e, uma vez que o Usuário confirme, a quantidade especificada do ativo digital selecionado ficará afetada à execução da Instrução Swap sem que possa ser usada para outro fim.",
+        "20.1 p4": "A Instrução Swap será executada apenas sobre a quantidade especificada pelo Usuário na Instrução Swap. A execução da Instrução Swap será feita imediatamente após a confirmação pelo Usuário, salvo erro ou problema que seja responsabilidade do Usuário.",
+        "20.1 p5": "Uma vez executada a Instrução Swap, Atômico procederá a debitar da conta do Usuário o saldo correspondente à quantidade do ativo digital indicado para trocar e creditará na mesma o saldo do ativo digital escolhido para receber. As operações realizadas não serão registradas na blockchain.",
+        "20.2": "Cancelamento. O Usuário não poderá alterar, revogar ou cancelar uma Instrução Swap após confirmação. Se sua Conta não tiver quantidade suficiente de ativos digitais para executar uma Instrução Swap ou para pagar as comissões ou custos correspondentes à Instrução Swap, Atômico não permitirá ou cancelará a Instrução Swap.",
+        "20.3": "Comissões. O Usuário se compromete a pagar à Atômico as comissões informadas na Plataforma. As Comissões poderão, a critério de Atômico, ser atualizadas a qualquer momento, com notificação ao Usuário pelos canais de comunicação estabelecidos nestes T&C. As comissões atualizadas serão aplicadas a qualquer operação que ocorrer após a data de entrada em vigor dessas. O Usuário autoriza Atômico a deduzir de qualquer operação a comissão aplicável conforme estes T&C.",
+        "20.4": "Limites. A instrução Swap só será confirmada e executada se a quantidade especificada pelo Usuário corresponder aos limites mínimos e máximos estabelecidos pela Atômico e indicados na Plataforma para a realização de Swaps."
+      },
+      "informacion punto 21": {
+        "21.1": "Os cartões pré-pagos (o “Cartão Pré-pago”, no plural “Cartões Pré-pagos”) são oferecidos na Plataforma.",
+        "21.2": "Caso o titular de um Cartão Pré-pago (“Titular do Cartão”) realize compras com seu Cartão Pré-pago utilizando o ativo digital AT3, receberá em sua Conta uma quantidade de ativo digital AT3, equivalente a 2% (dois por cento) do valor da referida compra. No caso de compras realizadas com o Cartão sem que o saldo em guaranis (utilizado para cobrir o pagamento da compra) venha da venda de ativos digitais, a Atómico poderá aplicar um 'Cashback Reduzido' de 0,5% (0,5 por cento). As demais condições do Cashback e do Cashback Reduzido são idênticas, diferindo apenas na porcentagem reconhecida pela Atómico ao Titular do Cartão. Para determinar a quantidade de cashback que o Titular do Cartão receberá por sua compra, a Atómico utilizará a cotação de Compra desse ativo digital em pesos argentinos vigente na Plataforma no momento da compra (o “Cashback”). A Atómico creditará o Cashback na Conta até 48 (quarenta e oito) horas úteis após sua realização.",
+        "21.3": "Caso as compras no exterior sejam habilitadas para serem realizadas com o Cartão Pré-pago, se o consumo que originou o Cashback for realizado em uma moeda diferente do guarani, a VISA ou MASTER fará a conversão para guaranis para determinar o valor a ser pago. Será utilizado esse valor em pesos argentinos para definir o Cashback a ser creditado ao Titular do Cartão, conforme estipulado no parágrafo anterior.",
+        "21.4": "As seguintes operações não aplicam nem geram Cashback:",
+        "21.4 i": "carregamento de saldo em carteiras digitais, exchanges ou qualquer outro comércio.",
+        "21.4 ii": "impostos, taxas, alíquotas, adicionais e/ou qualquer outro custo relacionado às compras realizadas.",
+        "21.4 iii": "qualquer uso do Cartão Pré-pago que constitua mau uso, uso fraudulento ou uso contrário a estes Termos, a critério exclusivo da Atómico.",
+        "21.5": "O Cashback e as promoções estarão limitados conforme os seguintes parâmetros:",
+        "21.5 p1": "Serão pagos por mês calendário até o equivalente a R$ 300.000 (trezentos mil guaranis) para cada Titular do Cartão. Os valores das operações serão considerados por mês calendário e os valores das operações de um mês não serão acumulados para os meses seguintes.",
+        "21.5 p2": "Promoções:",
+        "21.5 p3": "Promoção “mais Cashback”",
+        "21.5 p4": "A promoção estará vigente de 23/04/2024 até 30/06/2024 (“Período de Vigência”). Com esta promoção, será creditado mais Cashback para todos os Titulares do Cartão que pagarem seus consumos com seus Cartões Pré-pagos nos seguintes estabelecimentos e dias:",
+        "21.5 p5": "No aplicativo móvel PedidosYa®, um Cashback total de 4% todas as sextas-feiras durante o Período de Vigência.",
+        "21.5 p6": "No aplicativo móvel BOLT®, um Cashback total de 5% todas as quartas-feiras e sábados durante o Período de Vigência.",
+        "21.5 p7": "Nos estabelecimentos Mc Donald’s®, um Cashback total de 4% todas as segundas-feiras durante o Período de Vigência.",
+        "21.5 p8": "Nos estabelecimentos Burger King®, um Cashback total de 4% todas as segundas-feiras durante o Período de Vigência.",
+        "21.5 p9": "Nos estabelecimentos Farmacenter®, um Cashback total de 4% todas as terças-feiras durante o Período de Vigência.",
+        "21.5 p10": "Nos postos de combustível SHELL®, um Cashback total de 4% todas as quintas-feiras durante o Período de Vigência.",
+        "21.5 p11": "Nos estabelecimentos Starbucks®, um Cashback total de 4% todos os sábados durante o Período de Vigência.",
+        "21.5 p12": "Nos estabelecimentos Café Martinez®, um Cashback total de 4% todos os sábados durante o Período de Vigência.",
+        "21.5 p13": "Nos supermercados BIGGIE®, um Cashback total de 4% todos os domingos durante o Período de Vigência.",
+        "21.5 p14": "Nos supermercados SUPERSEIS®, um Cashback total de 4% todos os domingos durante o Período de Vigência.",
+        "21.5 p15": "Esta Promoção é aplicável apenas para compras realizadas no território da República Argentina, utilizando os Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p16": "Aplicam-se os limites estipulados nestes Termos e Condições.",
+        "21.5 p17": "A Promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p18": "A Atómico poderá modificar a qualquer momento o Cashback da Promoção, inclusive eliminá-lo, sem necessidade de aviso prévio ao Usuário. A Atómico informará sobre essa modificação ou eliminação aos Usuários na Plataforma, assim que ocorrer. A modificação ou eliminação não concederá ao Usuário o direito de reclamar à Atómico por qualquer motivo.",
+        "21.5 p19": "Promoção “Descontos”",
+        "21.5 p20": "A promoção estará vigente de 23/04/2024 até 30/06/2024 (“Período de Vigência”). Com esta promoção, serão realizados os descontos informados abaixo, para todos os Titulares do Cartão que pagarem seus consumos com seus Cartões Pré-pagos nos seguintes estabelecimentos e dias:",
+        "21.5 p21": "Na MAPFREAssistance®, 25% de desconto todos os dias durante o Período de Vigência.",
+        "21.5 p22": "Na Universidade Nacional de Assunção, 15% em todos os cursos, todos os dias durante o Período de Vigência.",
+        "21.5 p23": "Na Universidade Católica de Assunção, 25% em todos os “cursos cripto” (relacionados com ativos digitais conforme determinado pela Universidade), todos os dias durante o Período de Vigência.",
+        "21.5 p24": "Na Samsung®, 15% de desconto, todos os dias durante o Período de Vigência.",
+        "21.5 p25": "Esta Promoção é aplicável apenas em compras realizadas no Território da República Argentina por meio dos Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p26": "Aplicam-se os limites estipulados nestes Termos e Condições.",
+        "21.5 p27": "A Promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p28": "Atômico pode modificar a Promoção a qualquer momento, incluindo cancelá-la, sem necessidade de aviso prévio ao Usuário. Atômico informará essa modificação ou eliminação aos Usuários na Plataforma, assim que ocorrer. A modificação ou eliminação não concederá ao Usuário o direito de reclamar a Atômico por qualquer motivo.",
+        "21.5 p29": "Promoção de 5% de cashback pagando com “Go Cuotas”",
+        "21.5 p30": "A promoção estará vigente de 1 de fevereiro de 2024 até 31 de agosto de 2024.",
+        "21.5 p31": "Por meio desta promoção, será creditado o total de 5% (cinco por cento) de Cashback, a todos os Titulares de Cartão que pagarem suas compras com seus Cartões Pré-pagos em “Go Cuotas” qualquer dia da semana, durante o período de vigência indicado.",
+        "21.5 p32": "O Cashback será creditado apenas para cada débito realizado por este comércio. Caso existam débitos futuros pendentes, esses serão creditados posteriormente quando esses débitos forem efetivados, caso a Promoção continue vigente.",
+        "21.5 p33": "Esta promoção é aplicável apenas em compras realizadas no Território da República Argentina por meio dos Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p34": "Aplicam-se os limites estipulados nos Termos e Condições do Cartão Pré-pago.",
+        "21.5 p35": "A promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p36": "Atômico pode modificar a Promoção a qualquer momento, incluindo cancelá-la, sem necessidade de aviso prévio ao Usuário. A modificação ou eliminação não concederá ao Usuário o direito de reclamar a Atômico por qualquer motivo.",
+        "21.5 p37": "Desconto de 5% no “Shell Box” - Esta promoção é aplicável apenas em compras realizadas no Território da República Argentina.",
+        "21.5 p38": "Atômico realizará o desconto equivalente a 5% do valor da compra de combustível “Shell V-POWER” nas Estações de Serviço aderidas ao “Shell Box” de todo o país, desde que seja realizado por meio do aplicativo Shell Box com o Cartão Pré-pago, às quartas-feiras, com um limite de reembolso de até R$ 30.000 (trinta mil reais) por mês.",
+        "21.5 p39": "Este limite é compartilhado com outros benefícios concedidos pelo cartão pré-pago vigentes.",
+        "21.5 p40": "O reembolso não se aplica para a compra de outros combustíveis, lubrificantes ou compras nas lojas de conveniência (“Shell Shops” e “Shell Select”).",
+        "21.5 p41": "A promoção estará vigente de 15 de maio de 2024 até 31 de março de 2024.",
+        "21.5 p42": "Esta promoção é aplicável apenas em compras realizadas no Território da República Argentina por meio dos Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p43": "Aplicam-se os limites estipulados nos Termos e Condições do Cartão Pré-pago.",
+        "21.5 p44": "A promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p45": "Atômico pode modificar a Promoção a qualquer momento, incluindo cancelá-la, sem necessidade de aviso prévio ao Usuário. A modificação ou eliminação não concederá ao Usuário o direito de reclamar a Atômico por qualquer motivo.",
+        "21.5 p46": "Caso alguma das Promoções ou Descontos anteriores seja aplicável de forma acumulativa com uma promoção definida pela VISA, devem ser observados os próprios termos estipulados em",
+        "21.5 p46 link": "https://www.visa.com.ar/es_ar/promociones/",
+        "21.6": "Conforme indicado na cláusula 9.4.10., se uma compra for realizada com o Cartão Pré-pago ATOMICO3 tendo selecionado AT3 como meio de pagamento, Atômico procederá à venda da quantidade necessária do ativo digital selecionado para obter os pesos argentinos correspondentes para realizar o pagamento do valor indicado pelo Comércio. Para essa venda, Atômico usará o valor de venda do ativo no momento da operação. Atômico cobrará do usuário a comissão correspondente a uma venda de ativo digital. Em caso de compra em moeda estrangeira ou no exterior, tendo selecionado algum dos ativos digitais como meio de pagamento, Atômico procederá, além da comissão pela venda indicada, à cobrança de um custo fixo estipulado pela VISA.",
+        "21.6 p1": "Esse custo dependerá do valor da transação a ser considerado no equivalente em dólares americanos (“USDT”), e será aplicado assim que a transação for aprovada.",
+        "21.6 p2": "Nível 1 - de 0,01 a 5 USD - Custo fixo: 0,11 USD",
+        "21.6 p3": "Nível 2 - de 5,01 a 15 USD - Custo fixo: 0,18 USD",
+        "21.6 p4": "Nível 3 - de 15,01 a 50 USD - Custo fixo: 0,24 USD",
+        "21.6 p5": "Nível 4 - 50,01 USD ou mais - Custo fixo: 0,54 USD"
+      },
+        "informacion punto 22": {
+          "p1": "Caso uma ou mais cláusulas destes T&C sejam declaradas nulas por qualquer autoridade ou órgão judicial competente, tal nulidade não afetará a validade das cláusulas restantes, que manterão sua plena vigência e efeito.",
+          "p2": "O Usuário entende e aceita que qualquer falta de ação por parte da Atómico em relação ao descumprimento ou violação por parte do Usuário de uma ou mais disposições destes T&C não implica na concordância da Atómico com tal atitude, nem impede que a persiga ou que, no futuro, persiga outra violação idêntica ou similar. Além disso, o Usuário entende e aceita que o fato de qualquer funcionalidade da Plataforma estar efetivamente disponível, embora não mencionada nestes T&C, não dará ao Usuário o direito ao manter a funcionalidade nem a qualquer indenização em caso de descontinuação com ou sem aviso prévio."
+        },
+        "informacion punto 23": {
+          "p1": "A Atómico poderá ceder a qualquer uma de suas Afiliadas ou a um terceiro sua posição contratual, este contrato, e/ou qualquer um dos direitos e obrigações decorrentes do mesmo. O Usuário será notificado sobre essa operação.",
+          "p2": "A menos que haja consentimento expresso e por escrito de um representante devidamente autorizado da Atómico, o Usuário não poderá ceder a nenhum terceiro sua posição contratual, este contrato, nem qualquer um dos direitos ou obrigações decorrentes do mesmo."
+        },
+        "informacion punto 24": {
+          "p1": "O Usuário concede seu consentimento expresso para que todas as informações relacionadas com sua qualidade de Usuário, sua Conta e o uso da Plataforma e/ou dos Serviços, sejam notificadas ou informadas para o último e-mail fornecido pelo Usuário, por meio de notificações dentro da Plataforma e/ou por qualquer outro meio que implique uma notificação por meios eletrônicos."
+        },
+        "informacion punto 25": {
+          "p1": "Os T&C estão regidos sem exceção e em todos os seus pontos pelas leis da República do Paraguai e serão interpretados de acordo com elas.",
+          "p2": "Em caso de qualquer divergência, desacordo ou conflito derivado do uso da Plataforma e/ou dos Serviços, ou da interpretação, validade e/ou alcance destes T&C, o Usuário poderá iniciar sua reclamação por meio dos meios previstos na Plataforma, ou, na falta deles, entrar em contato com a Atómico de maneira formal, enviando sua reclamação, para que as partes tentem chegar a um acordo antes de iniciar qualquer reclamação perante a jurisdição que lhe corresponda."
+        },
+        "informacion punto 26": {
+          "p1": "Todas as sugestões, opiniões, queixas e comentários feitos pelo Usuário por qualquer meio poderão ser considerados, implementados, divulgados ou adaptados pela Atómico, sem que isso gere qualquer direito em favor do Usuário que os tenha feito ou proposto."
+        },
+        "informacion punto 27": {
+          "p1": "A Atómico possui um centro de atendimento ao Usuário. Para entrar em contato, o Usuário pode fazê-lo por e-mail para",
+          "p1.1": "e/ou qualquer outro meio disponibilizado pela Atómico para esse fim."
+        },
+        "informacion punto 28": {
+          "p1": "Todas as notificações que devem ser feitas à Atómico pelo acesso ou uso da Plataforma sob estes T&C devem ser feitas por escrito para o seu e-mail ou endereço postal indicados abaixo:",
+          "p2": "Atómico3 S.A",
+          "p3": "RUC: 80144052-1",
+          "p4": "Endereço:",
+          "p5": "Av. Aviadores del Chaco 2351 8º andar, Assunção, República do Paraguai",
+          "p6": "E-mail:",
+          "p7": "support@Atómico3.io"
+        },
+        "faqForLaw": {
+          "faqForLaw": "Perguntas frequentes para as forças de segurança"
+        },
+        "cookiesPolicy": {
+          "cookiesPolicy": "Política de Cookies"
+        }
     }
   }
 }

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import eng from '../assets/lang/eng.png'
 import esp from '../assets/lang/esp.png'
-import por from '../assets/lang/por.png'
+import bra from '../assets/lang/brazil.png'
 
 import login from '../assets/login.png'
 
@@ -700,7 +700,7 @@ export const Navbar = () => {
                         >
                           <div className="lg:ml-auto  sm:flex sm:justify-end p-2 ">
                             <button onClick={() => { handleChangeLanguage("por"); toggleMenu() }}>
-                              <img src={por} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+                              <img src={bra} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
                         
                             </button>
                             <button onClick={() => { handleChangeLanguage("en"); toggleMenu() }}>
@@ -1441,6 +1441,10 @@ export const Navbar = () => {
                   </button>
                   <button onClick={() => { handleChangeLanguage("es"); toggleMenu() }}>
                     <img src={esp} className='w-[1.5rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
+
+                  </button>
+                  <button onClick={() => { handleChangeLanguage("por"); toggleMenu() }}>
+                    <img src={bra} className='w-[1.5rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
 
                   </button>
                 </li>

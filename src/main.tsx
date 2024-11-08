@@ -8,6 +8,7 @@ import global_es from './translations/es/global.json'
 import global_por from './translations/por/global.json'
 import faqForLaw_en from './translations/en/faqForLaw.json'
 import faqForLaw_es from './translations/es/faqForLaw.json'
+import faqForLaw_por from './translations/por/faqForLaw.json'
 import cookiesPolicy_en from './translations/en/cookiesPolicy.json'
 import cookiesPolicy_es from './translations/es/cookiesPolicy.json'
 import cookiesPolicy_por from './translations/por/cookiesPolicy.json'
@@ -34,6 +35,7 @@ es:{
 },
 por:{
   global: global_por,
+  faqForLaw: faqForLaw_por,
  cookiesPolicy: cookiesPolicy_por
 
 }

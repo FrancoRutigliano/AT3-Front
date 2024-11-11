@@ -54,8 +54,8 @@ export const LitioInfo = () => {
         <img
           alt="litio"
           src={litio}
-          className=" mx-auto  w-4/5 md:px-0 rounded-xl md:h-full md:w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] lg:rounded-l-[60px] lg:rounded-r-[0px] 
-          max-[1023px]:max-w-[600px]"
+          className=" w-4/5 md:px-0 rounded-xl md:h-full md:w-3/4 object-cover sm:h-[calc(100%_-_2rem)] sm:self-end  md:h-[calc(100%_-_4rem)]  
+          max-[1023px]:max-w-[600px] mx-auto md:max-w-[500px]"
           />
           </div>
       </section>

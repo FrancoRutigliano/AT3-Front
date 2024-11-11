@@ -25,10 +25,10 @@ export const LitioInfo = () => {
   return (
     <>
 
-      <section ref={litioRef} className="h-screen overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
+      <section ref={litioRef} className="md:h-screen overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
         <div className="p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-gray-900 md:text-4xl text-left">
+            <h2 className="text-2xl font-bold text-gray-900 md:text-4xl text-center md:text-left">
               {t("proyectosTokenizacion.que es el litio")}
             </h2>
 
@@ -50,14 +50,14 @@ export const LitioInfo = () => {
         <img
           alt="litio"
           src={litio}
-          className="h-full w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-l-[60px]"
+          className=" md:h-full md:w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-l-[60px]"
         />
       </section>
       <section>
         <section className="bg-gray-50 text-black px-10">
           <div className="mx-auto  px-1 py-16 sm:px-1 sm:py-24 lg:px-1  ">
             <div className="max-w-3xl">
-              <h2 className="text-3xl font-bold sm:text-4xl">
+              <h2 className="text-2xl font-bold sm:text-4xl text-center md:text-left">
                 {t("proyectosTokenizacion.por que es tan importante el litio")}
 
               </h2>

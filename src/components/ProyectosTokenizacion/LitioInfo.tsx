@@ -25,18 +25,18 @@ export const LitioInfo = () => {
   return (
     <>
 
-      <section ref={litioRef} className="md:h-screen overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2 sm:items-center">
-        <div className="p-8 md:p-12 lg:px-16 lg:py-24">
+      <section ref={litioRef} className="py-10 flex flex-col-reverse overflow-hidden bg-gray-50 lg:grid lg:grid-cols-2 lg:items-center ">
+        <div className=" p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-gray-900 md:text-4xl text-center md:text-left">
+            <h2 className="hidden lg:block text-2xl font-bold text-gray-900 md:text-4xl text-center md:text-left">
               {t("proyectosTokenizacion.que es el litio")}
             </h2>
 
-            <p className="hidden text-gray-500 md:mt-4 md:block text-justify">
+            <p className=" text-gray-500 md:mt-4 md:block text-justify">
               {t("proyectosTokenizacion.p4")}
 
             </p>
-            <p className="hidden text-gray-500 md:mt-4 md:block text-justify">
+            <p className=" text-gray-500 md:mt-4 md:block text-justify">
               {t("proyectosTokenizacion.p4.1")}
 
               <br />
@@ -46,12 +46,18 @@ export const LitioInfo = () => {
             {/* <p className="text-gray-500 text-lg text-start my-4 underline deco">Leer más</p> */}
           </div>
         </div>
+        <div className="flex flex-col">
 
+        <h2 className="lg:hidden py-5 text-2xl font-bold text-gray-900 md:text-4xl text-center lg:text-left">
+              {t("proyectosTokenizacion.que es el litio")}
+            </h2>
         <img
           alt="litio"
           src={litio}
-          className=" mx-auto w-4/5 md:px-0 rounded-xl md:h-full md:w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] md:rounded-l-[60px]"
-        />
+          className=" mx-auto  w-4/5 md:px-0 rounded-xl md:h-full md:w-full object-cover sm:h-[calc(100%_-_2rem)] sm:self-end sm:rounded-ss-[30px] md:h-[calc(100%_-_4rem)] lg:rounded-l-[60px] lg:rounded-r-[0px] 
+          max-[1023px]:max-w-[600px]"
+          />
+          </div>
       </section>
       <section>
         <section className="bg-gray-50 text-black px-10">

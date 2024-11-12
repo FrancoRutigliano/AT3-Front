@@ -37,7 +37,7 @@ export const Team = () => {
       <div className="text-center text-2xl">
 
         <h2 className='text-3xl lg:text-6xl font-bold sm:text-4xl lg:mt-5 mb-10 lg:mb-16 text-celeste'>{t("team.nuestro equipo")}</h2>
-        <p className='text-sm lg:text-xl text-justify lg:mb-16 lg:mx-[10%] text-dark-light'>{t("team.nuestro equipo descripcion")}</p>
+        <p className='text-sm lg:text-xl text-justify mb-16 px-8 lg:px-0 lg:mb-16 lg:mx-[10%] text-dark-light'>{t("team.nuestro equipo descripcion")}</p>
       </div>
 
       <section className='flex flex-wrap justify-center p- '>

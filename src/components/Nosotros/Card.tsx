@@ -2,7 +2,7 @@
 export const Card = ({imagen, puesto, nombre, alt}:any) => {
   return (
     <>
-     <div className=" hover:border-celeste hover:shadow-celeste mx-10 lg:mb-10 bg-red-200 overflow-hidden rounded-lg shadow transition hover:shadow-lg w-[240px] border border-b-celeste ">
+     <div className=" hover:border-celeste hover:shadow-celeste mx-10 my-5 lg:mb-10 bg-red-200 overflow-hidden rounded-lg shadow transition hover:shadow-lg w-[240px] border border-b-celeste ">
           <img
             alt={alt}
             src={imagen}

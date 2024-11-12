@@ -33,6 +33,7 @@ export const Valores = () => {
               </p>
             </a>
 
+
             <a
               className=" block rounded-xl border border-black p-8 shadow-xl transition border-celeste hover:shadow-celeste"
             >

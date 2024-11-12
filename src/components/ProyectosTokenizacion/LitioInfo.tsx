@@ -28,15 +28,15 @@ export const LitioInfo = () => {
       <section ref={litioRef} className="py-10 flex flex-col-reverse overflow-hidden bg-gray-50 lg:grid lg:grid-cols-2 lg:items-center ">
         <div className=" p-8 md:p-12 lg:px-16 lg:py-24">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="hidden lg:block text-2xl font-bold text-gray-900 md:text-4xl text-center md:text-left">
+            <h2 className="hidden lg:block text-2xl font-bold text-blue-500 md:text-4xl text-center md:text-left">
               {t("proyectosTokenizacion.que es el litio")}
             </h2>
 
-            <p className=" text-gray-500 md:mt-4 md:block text-justify">
+            <p className=" text-dark-light md:mt-4 md:block text-justify">
               {t("proyectosTokenizacion.p4")}
 
             </p>
-            <p className=" text-gray-500 md:mt-4 md:block text-justify">
+            <p className=" text-dark-light md:mt-4 md:block text-justify">
               {t("proyectosTokenizacion.p4.1")}
 
               <br />
@@ -48,7 +48,7 @@ export const LitioInfo = () => {
         </div>
         <div className="flex flex-col">
 
-        <h2 className="lg:hidden py-5 text-2xl font-bold text-gray-900 md:text-4xl text-center lg:text-left">
+        <h2 className="lg:hidden py-5 text-2xl font-bold text-blue-500 md:text-4xl text-center lg:text-left">
               {t("proyectosTokenizacion.que es el litio")}
             </h2>
         <img
@@ -63,7 +63,7 @@ export const LitioInfo = () => {
         <section className="bg-gray-50 text-black px-10">
           <div className="mx-auto  px-1 py-16 sm:px-1 sm:py-24 lg:px-1  ">
             <div className="max-w-3xl">
-              <h2 className="text-2xl font-bold sm:text-4xl text-center md:text-left">
+              <h2 className="text-2xl font-bold sm:text-4xl text-center md:text-left text-blue-500">
                 {t("proyectosTokenizacion.por que es tan importante el litio")}
 
               </h2>
@@ -80,14 +80,14 @@ export const LitioInfo = () => {
 
               <div className="lg:py-16 ">
                 <article className="space-y-4 text-gray-600 mb-20 ">
-                  <p className="text-justify" >
+                  <p className="text-justify text-dark-light" >
                     {t("proyectosTokenizacion.p5")}
 
                     <br /> <br />               {t("proyectosTokenizacion.p6")}
 
                   </p>
 
-                  <p className="text-justify">
+                  <p className="text-justify text-dark-light">
                   {t("proyectosTokenizacion.p7")}
 
                   </p>

@@ -18,8 +18,8 @@ export default {
         },
       },
       colors:{
-        'dark-blue': '#000024',
         'dark-light': '#0B1B42',
+        'dark-blue': '#000024',
         'light-blue': '#096798',
         'celeste': '#2C8DCE',
         "purple": "#B121FD",

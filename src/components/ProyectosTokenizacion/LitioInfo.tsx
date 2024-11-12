@@ -61,20 +61,20 @@ export const LitioInfo = () => {
       </section>
       <section>
         <section className="bg-gray-50 text-black px-10">
-          <div className="mx-auto  px-1 py-16 sm:px-1 sm:py-24 lg:px-1  ">
-            <div className="max-w-3xl">
-              <h2 className="text-2xl font-bold sm:text-4xl text-center md:text-left text-blue-500">
+          <div className="mx-auto  px-1 py-16 sm:px-1 sm:py-10 lg:px-1   ">
+            <div className="max-w-3xl ">
+              <h2 className="text-2xl font-bold sm:text-4xl text-center md:text-left text-blue-500 ">
                 {t("proyectosTokenizacion.por que es tan importante el litio")}
 
               </h2>
             </div>
 
-            <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 ">
-              <div className="relative h-64 overflow-hidden sm:h-80 lg:h-[90%]  ">
+            <div className=" grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16  ">
+              <div className="relative overflow-hidden  w-4/5 h-3/5 mt-20 ml-10">
                 <img
                   alt=""
                   src={salar}
-                  className="absolute inset-0 w-full h-full object-cover rounded-xl "
+                  className="absolute w-full h-full  object-cover rounded-xl  "
                 />
               </div>
 

@@ -60,21 +60,17 @@ export const LitioInfo = () => {
         </div>
       </section>
 
-<div>
+      <div>
 
-      <div className="grid grid-cols-2 bg-gray-50">
-        <div className=" col-span-1 ">
-      <h2 className="  mx-auto max-w-2xl    hidden lg:block text-2xl font-bold text-blue-500 bg-gray-50 md:text-4xl text-center md:text-left lg:px-16 xl:px-6">
-            {t("proyectosTokenizacion.por que es tan importante el litio")}
+            <h2 className="   hidden lg:block text-2xl font-bold text-blue-500 bg-gray-50 md:text-4xl text-center md:text-left lg:pl-16  ">
+              {t("proyectosTokenizacion.por que es tan importante el litio")}
             </h2>
-        </div>
-</div>
       </div>
       <section ref={litioRef} className=" flex flex-col-reverse overflow-hidden bg-gray-50 lg:grid lg:grid-cols-2 lg:items-center ">
 
         <div className=" p-8 lg:px-16 ">
-            
-          <div className=" mx-auto max-w-2xl text-center ltr:sm:text-left rtl:sm:text-right">
+
+          <div className=" mx-auto max-w-2xl  text-center ltr:sm:text-left rtl:sm:text-right">
 
             <p className=" text-dark-light md:mt-4 md:block text-justify">
               {t("proyectosTokenizacion.p5")}

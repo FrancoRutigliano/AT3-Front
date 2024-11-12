@@ -1,6 +1,6 @@
 // import at3 from '../assets/lineas.png'
 import { Valores } from '../components/Valores'
-import { Team } from '../components/Team'
+import { Team } from '../components/Nosotros/Team'
 import { useTranslation } from 'react-i18next'
 
 

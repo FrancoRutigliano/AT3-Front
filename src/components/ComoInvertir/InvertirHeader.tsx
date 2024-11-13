@@ -22,7 +22,7 @@ export const InvertirHeader = () => {
 
             <div className="relative z-20 flex flex-col justify-center items-center h-full lg:mb-52">
               {/* <img src={atomico3} alt="atomico" className='w-2/3 lg:w-1/3 max-w-[550px]' /> */}
-              <h1 className="bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-7xl text-center font-bold lg:mb-2" style={{ textShadow: '1px 1px 50px black' }}>
+              <h1 className="text-celeste text-2xl lg:text-7xl text-center font-bold lg:mb-2" style={{ textShadow: '1px 1px 50px black' }}>
                 {t("como invertir.inverti y ahorra")}
               </h1>
               <p className="text-justify mt-5 sm:mt-16 w-4/5 lg:mb-0 text-sm lg:text-xl">
@@ -39,21 +39,21 @@ export const InvertirHeader = () => {
               <div className=" mt-4 sm:mt-8 flex flex-col justify-center items-center sm:flex-row sm:justify-between w-4/5 mx-auto gap-4">
                 <Link
                   to={'/comoInvertir#staking'}
-                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
+                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-celeste hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
                 >
                   Staking
                 </Link>
 
                 <Link
                   to={'/comoInvertir#comprar'}
-                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer"
+                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-celeste hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer"
                 >
                  {t("comprarAt3.comprarAt3")}
                 </Link>
 
                 <Link
                   to={'/comoInvertir#p2p'}
-                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
+                  className="w-full sm:w-1/3 max-w-[270px] lg:max-w-[200px] bg-celeste hover:bg-custom-gradient py-2 lg:py-3 rounded-md px-6 text-xs sm:text-sm lg:text-sm text-center hover:cursor-pointer flex items-center justify-center"
                 >
                   Peer to Peer
                 </Link>

@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next"
 import { Link, useLocation } from "react-router-dom"
-import c1 from '../assets/ComprarAt3/c1.avif'
+import c1 from '../../assets/ComprarAt3/c1.avif'
 import { useEffect, useRef } from "react"
 export const Comprar = () => {
 
@@ -29,7 +29,7 @@ export const Comprar = () => {
 
         <>
             <section ref={comprarRef}
-                className='overflow-hidden mt-16  flex items-center'
+                className='overflow-hidden   flex items-center'
                 id='comprarAt3'
                 style={{
                     background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.1), rgba(0, 0, 0, 0.1)), url(${c1})`,
@@ -42,7 +42,7 @@ export const Comprar = () => {
 
                     <div className="sm:col-span-2 px-9 md:pl-16  pt-2 pb-10 ">
                         <div className="mx-auto px-2 md:p-0 md:w-full text-left lg:text-left ltr:sm:text-left rtl:sm:text-left">
-                            <h2 className="mb-5 bg-custom-gradient bg-clip-text text-transparent text-2xl lg:text-6xl font-bold md:text-3xl py-2 break-words text-center md:text-left">
+                            <h2 className="mb-5 text-celeste text-2xl lg:text-6xl font-bold md:text-3xl py-2 break-words text-center md:text-left">
                                 {t("comprarAt3.comprarAt3")}
                             </h2>
                             <p className='md:pr-12 text-justify  text-xs ms:text-sm text-white md:mt-4 md:block  lg:text-base break-words'>
@@ -55,12 +55,12 @@ export const Comprar = () => {
                             <div className="mt-4 md:mt-8 flex justify-between md:justify-start">
                                 <Link
                                     to={'/ComoInvertir#tutoriales'}
-                                    className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient2 hover:bg-custom-gradient py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                    className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-celeste py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
                                 >
                                     <button>{t("invertir.ver tutoriales")}</button>
                                 </Link>
                                 <a
-                                    className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-custom-gradient hover:bg-custom-gradient2 py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                    className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-celeste py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
                                     href='https://app.uniswap.org/explore/tokens/polygon/0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76' target='_blank'
                                 >
                                     <button>{t("comprarAt3.comprarAt3")}</button>

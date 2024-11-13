@@ -1,5 +1,4 @@
 
-import { useTranslation } from 'react-i18next'
 // import { ConnectWallet } from '../components/ConnectWallet'
 import { Staking } from '../components/ComoInvertir/Staking'
 import { PeerToPeer } from '../components/ComoInvertir/PeerToPeer'
@@ -8,7 +7,7 @@ import { PeerToPeer } from '../components/ComoInvertir/PeerToPeer'
 
 
 import { Tutorials } from '../components/Tutorials'
-import { Comprar } from '../components/Comprar'
+import { Comprar } from '../components/ComoInvertir/Comprar'
 import { InvertirHeader } from '../components/ComoInvertir/InvertirHeader'
 // import { Halloween } from '../components/Halloween'
 export const ComoInvertir = () => {
@@ -23,7 +22,6 @@ export const ComoInvertir = () => {
   return (
 
     <>
-
 
       <InvertirHeader />
       <Staking />

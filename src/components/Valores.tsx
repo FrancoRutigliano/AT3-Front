@@ -19,7 +19,7 @@ export const Valores = () => {
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <a
-              className=" block rounded-xl border  p-8 shadow-xl transition border-celeste hover:shadow-celeste"
+              className=" block rounded-xl   p-8 border shadow-xl transition border-celeste hover:shadow-celeste"
             >
               <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={riesgo} alt="valores" />
 

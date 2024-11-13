@@ -1,6 +1,7 @@
-import ws from '../assets/contact_icons/whatsapp.png'
-import email from '../assets/contact_icons/correo.png'
-import location from '../assets/contact_icons/location.png'
+import ws from '../assets/soporte/whatsapp-celeste.png'
+import email from '../assets/soporte/mail-celeste.png'
+import location from '../assets/soporte/location-celeste.png'
+
 import { useTranslation } from 'react-i18next'
 
 export const Support = () => {
@@ -8,58 +9,56 @@ export const Support = () => {
 
   return (
     <>
-        <section className=" text-white">
+        <section className="bg-white">
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 ">
           <div className="mx-auto w-full text-center  ">
-            <h2 className=" text-4xl lg:text-7xl font-bold sm:text-5xl bg-custom-gradient bg-clip-text text-transparent ">{t("soporte.soporte")}</h2>
+            <h2 className=" text-4xl lg:text-7xl font-bold sm:text-5xl text-celeste ">{t("soporte.soporte")}</h2>
 
            
-            <p className="mt-10 text-gray-300 w-full mx-auto lg:text-lg">
+            <p className="mt-10 text-dark-light w-full mx-auto lg:text-lg">
             {t("soporte.soporte p1")}
             </p>
            
-            {/* Atómico3 es un token que representa la tokenización de activos mineros, respaldados por reservas de litio certificadas bajo normas ni 43-101. Este proceso digitaliza las reservas de litio, permitiendo su comercialización en plataformas blockchain. <br />
-                Atómico3 democratiza el acceso a la inversión en recursos naturales, ofreciendo transparencia, seguridad y liquidez. Con su enfoque innovador, Atómico3 facilita la inversión sostenible y el desarrollo económico en regiones ricas en litio, posicionándolo como un activo digital de alto valor en el mercado global. */}
 
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
             <a
-              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+              className=" block rounded-xl border shadow-xl transition border-celeste hover:shadow-celeste p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             >
               <img src={ws} alt="" className='w-12' />
 
-              <h2 className="mt-4 text-xl font-bold text-white">+595 992 544500</h2>
+              <h2 className="mt-4 text-xl font-bold text-celeste">+595 992 544500</h2>
 
-              <p className="mt-1 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-dark-light">
                 
                {t("soporte.whatssap descripcion")}
               </p>
             </a>
 
             <a
-              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+              className=" block rounded-xl border shadow-xl transition border-celeste hover:shadow-celeste p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             >
               <img src={email} alt="investors" className='w-12' />
 
-              <h2 className="mt-4 text-xl font-bold text-white">support@atomico3.io</h2>
+              <h2 className="mt-4 text-xl font-bold text-celeste">support@atomico3.io</h2>
 
-              <p className="mt-1 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-dark-light">
                {t("soporte.email descripcion")}
 
               </p>
             </a>
 
             <a
-              className="bg-dark-light block rounded-xl border border-black p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+              className=" block rounded-xl border shadow-xl transition border-celeste hover:shadow-celeste p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             >
               <img src={location} alt="location" className='w-12' />
 
-              <h2 className="mt-4 text-xl font-bold text-white">
+              <h2 className="mt-4 text-xl font-bold text-celeste">
               Av. Santa Teresa y Coronel Escurra - Ycua Sati. Asunción Paraguay
                 </h2>
 
-              <p className="mt-1 text-sm text-gray-300">
+              <p className="mt-1 text-sm text-dark-light">
               {t("soporte.nuestra direccion")}
 
               </p>

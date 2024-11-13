@@ -14,15 +14,12 @@ export const Valores = () => {
           <div className="mx-auto text-center">
           <h2 className="text-3xl font-bold sm:text-6xl lg:mt-10 mb-16 lg:mb-24 text-celeste">{t("nosotros.Nuestros Valores")}</h2>
 
-            {/* <p className="mt-4 text-gray-300">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aliquam doloribus
-        nesciunt eos fugiat. Vitae aperiam fugit consequuntur saepe laborum.
-      </p> */}
+           
           </div>
 
           <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             <a
-              className=" block rounded-xl border border-black p-8 shadow-xl transition border-celeste hover:shadow-celeste"
+              className=" block rounded-xl border  p-8 shadow-xl transition border-celeste hover:shadow-celeste"
             >
               <img className="max-w-[35px] md:max-w-[50px] lg:max-w-[50px]" src={riesgo} alt="valores" />
 

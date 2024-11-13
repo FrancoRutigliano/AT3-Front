@@ -16,7 +16,6 @@ export const CardNews = ({title, imagen, link, medio}:any) => {
       <h3 className="mt-0.5 text-lg text-gray-900">{title}</h3>
     </a>
 
-    
   </div>
 </article>
     </>

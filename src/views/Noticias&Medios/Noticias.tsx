@@ -22,13 +22,13 @@ export const Noticias = () => {
   ]
 
   return (
-    <section className=" text-white">
+    <section className="bg-white text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="text-center w-full">
-          <h2 className="lg:mb-20 font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl">{t("noticias.noticias")}</h2>
+          <h2 className="lg:mb-24 font-bold text-celeste text-5xl md:text-6xl lg:text-7xl">{t("noticias.noticias")}</h2>
           
         </div>
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8  grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           
             {
               noticias.map(({title, subtitle, link, imagen}, index) => 

@@ -6,7 +6,7 @@ import { PeerToPeer } from '../components/ComoInvertir/PeerToPeer'
 // import bg3 from '../../assets/pruebas/p9.jpeg'
 
 
-import { Tutorials } from '../components/Tutorials'
+import { Tutorials } from '../components/ComoInvertir/Tutorials'
 import { Comprar } from '../components/ComoInvertir/Comprar'
 import { InvertirHeader } from '../components/ComoInvertir/InvertirHeader'
 // import { Halloween } from '../components/Halloween'

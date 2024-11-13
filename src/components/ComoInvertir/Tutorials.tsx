@@ -28,47 +28,49 @@ export const Tutorials = () => {
   
   return (
     <>
-    <h1 ref={tutorialsRef} id='tutoriales' className='bg-custom-gradient bg-clip-text text-transparent text-4xl lg:text-7xl text-center font-bold   my-16'>{t("tutoriales.tutoriales")}</h1>
+    <section className='bg-white'>
+
+    <h1 ref={tutorialsRef} id='tutoriales' className='text-celeste text-4xl lg:text-7xl text-center font-bold   py-10'>{t("tutoriales.tutoriales")}</h1>
       <section className='flex  flex flex-col lg:flex-row justify-between items-center p-5' >
-      <article className=" m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
+      <article className="bg-blue-50 border border-celeste  shadow transition hover:shadow-lg hover:shadow-celeste m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
           <div className="relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">
           <iframe className="absolute top-0 left-0 w-full h-full rounded-t-lg" width="560" height="315" src="https://www.youtube.com/embed/rDTr2LqAx9s?si=YNikBIbuH0gjpNwO" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
 
-          <div className="bg-white p-4 sm:p-6 h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
+          <div className=" p-4 sm:p-6 h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
-              <h3 className="mt-0.5 text-md md:text-2xl text-gray-900">{t("tutoriales.wallet")}</h3>
+              <h3 className="mt-0.5 text-md md:text-2xl text-celeste">{t("tutoriales.wallet")}</h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-white  ">
               
             </p>
           </div>
         </article>
-        <article className=" m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
-          <div className="relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">
+        <article className="bg-blue-50 border border-celeste  shadow transition hover:shadow-lg hover:shadow-celeste m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px] lg:w-[430px] lg:max-w-[400px]">
+          <div className=" relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">
           <iframe className="absolute top-0 left-0 w-full h-full rounded-t-lg" width="560" height="315" src="https://www.youtube.com/embed/VUX8-tJ7ITU?si=pvvn0nCidTieEUPi" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
 
-          <div className="bg-white p-4 p-6  min-[400px]:min-h-[70px] rounded-b-lg text-center rounded-b-lg">
+          <div className=" h-full p-4 p-6  min-[400px]:min-h-[70px] rounded-b-lg text-center rounded-b-lg">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
-              <h3 className="mt-0.5 text-md md:text-2xl text-gray-900 text-center">{t("tutoriales.staking")}      </h3>
+              <h3 className="mt-0.5 text-md md:text-2xl text-celeste text-center">{t("tutoriales.staking")}      </h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-white  ">
               
             </p>
           </div>
         </article>
-        <article className="  m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px]  lg:w-[430px] lg:max-w-[400px]">
+        <article className="bg-blue-50 border border-celeste  shadow transition hover:shadow-lg hover:shadow-celeste  m-2 overflow-hidden rounded-lg shadow transition hover:shadow-lg min-[400px]:min-w-[350px] min-[400px]:min-h-[350px]  lg:w-[430px] lg:max-w-[400px]">
           <div className="relative overflow-hidden pb-[56.25%] h-full w-full mx-auto">
             <iframe className="absolute top-0 left-0 w-full h-full rounded-t-lg" width="560" height="315" src="https://www.youtube.com/embed/nnGQIAwvpBs?si=RFUnBQZ1RBBmT1N6" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
           </div>
 
-          <div className="bg-white p-4 sm:p-6  h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
+          <div className=" p-4 sm:p-6  h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
             {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
 
-            <h3 className="mt-0.5 text-md md:text-2xl text-gray-900 text-center">{t("tutoriales.p2p")}</h3>
+            <h3 className="mt-0.5 text-md md:text-2xl text-celeste text-center">{t("tutoriales.p2p")}</h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
             </p>
@@ -76,6 +78,7 @@ export const Tutorials = () => {
         </article>
        
       </section>
+    </section>
     </>
   )
 }

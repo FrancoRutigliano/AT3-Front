@@ -1,10 +1,12 @@
 
 import { useTranslation } from 'react-i18next'
 // import { ConnectWallet } from '../components/ConnectWallet'
-import { Staking } from '../components/Staking'
-import { PeerToPeer } from '../components/PeerToPeer'
+import { Staking } from '../components/ComoInvertir/Staking'
+import { PeerToPeer } from '../components/ComoInvertir/PeerToPeer'
 // import bg3 from '../assets/lineas.png'
+// import bg3 from '../../assets/pruebas/p9.jpeg'
 import bg3 from '../assets/pruebas/p9.jpeg'
+
 
 import { Tutorials } from '../components/Tutorials'
 import { Link } from 'react-router-dom'
@@ -26,7 +28,6 @@ export const ComoInvertir = () => {
     
       <section
         className=""
-
       >
         <div className="overflow-hidden  h-1/3 md:h-1/2 bg-cover bg-no-repeat p-8 md:p-12 lg:px-16 lg:py-24" style={{
           background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.2)), url(${bg3})`,

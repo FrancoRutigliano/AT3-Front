@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 
 // import p2p from '../assets/peertopeer (2).jpeg'
 // import p2p from '../assets/p2pcel.jpeg'
-import p2p from '../assets/compraat3.jpeg'
+import p2p from '../../assets/compraat3.jpeg'
 
 
 

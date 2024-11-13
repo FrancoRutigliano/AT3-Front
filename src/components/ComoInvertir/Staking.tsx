@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
-import staking2 from '../assets/staking2.jpeg'
-// import staking2 from '../assets/stakingEN.jpeg'
+import staking2 from '../../assets/staking2.jpeg'
+// import staking2 from '../../assets/stakingEN.jpeg'
 
-// import stakingES from '../assets/staking.png'
-import stakingEN from '../assets/stakingEN.jpeg'
-import stakingES from '../assets/stakingES.png'
+// import stakingES from '../../assets/staking.png'
+import stakingEN from '../../assets/stakingEN.jpeg'
+import stakingES from '../../assets/stakingES.png'
 
-// import stakginES from '../assets/'
+// import stakginES from '../../assets/'
 import { useTranslation } from 'react-i18next'
 import { Link, useLocation } from 'react-router-dom';
 

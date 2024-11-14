@@ -68,8 +68,7 @@ export const Tutorials = () => {
           </div>
 
           <div className=" p-4 sm:p-6  h- min-[400px]:min-h-[70px] rounded-b-lg text-center">
-            {/* <time dateTime="2022-10-10" className="block text-xs text-gray-500">  </time> */}
-
+        
             <h3 className="mt-0.5 text-md md:text-2xl text-celeste text-center">{t("tutoriales.p2p")}</h3>
 
             <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">

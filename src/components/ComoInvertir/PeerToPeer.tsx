@@ -62,11 +62,11 @@ export const PeerToPeer = () => {
 
 
                             <div className="mt-4 md:mt-8 flex justify-between md:justify-start ">
-                                <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'  >
+                                <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer transition hover:bg-blue-200 hover:text-blue-800'  >
 
                                     <button className=''>{t("invertir.ver tutoriales")}</button>
                                 </Link>
-                                <a className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                <a className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer transition hover:bg-blue-200 hover:text-blue-800'
                                     href='https://dapp-at-3.vercel.app/' target='_blank'>
                                     <button className='' >Peer to Peer</button>
                                 </a>

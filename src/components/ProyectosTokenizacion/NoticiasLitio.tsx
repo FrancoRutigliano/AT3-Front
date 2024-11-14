@@ -31,7 +31,8 @@ export const NoticiasLitio = () => {
                             target="_blank"
                             className="mt-6 inline-flex shrink-0 items-center gap-2 rounded-full bg-blue-50 border border-blue-600 px-5 py-3 text-celeste transition hover:bg-blue-200 hover:text-blue-800 md:mt-0"
                         >
-                            <span className="font-medium">                                {t("proyectosTokenizacion.p9")}
+                            <span className="font-medium">
+                                {t("proyectosTokenizacion.p9")}
                             </span>
 
                             <svg
@@ -57,16 +58,16 @@ export const NoticiasLitio = () => {
                         </blockquote> */}
 
                         {[{
-                            title: t("proyectosTokenizacion.n1") 
+                            title: t("proyectosTokenizacion.n1")
                             ,
                             imagen: litio,
                             link: "https://eleconomista.com.ar/energia/cual-mineral-podria-alcanzar-us-8700-millones-exportaciones-2030-n78652#google_vignette",
                             medio: "El Economista"
                         },
 
-                        { title:  t("proyectosTokenizacion.n2") , imagen: at3, link: "https://nacionweb.com.ar/aumento-del-precio-del-litio-impulsa-a-la-criptomoneda-argentina-atomico-3-como-opcion-de-inversion-solida/", medio: "Nación Web" },
+                        { title: t("proyectosTokenizacion.n2"), imagen: at3, link: "https://nacionweb.com.ar/aumento-del-precio-del-litio-impulsa-a-la-criptomoneda-argentina-atomico-3-como-opcion-de-inversion-solida/", medio: "Nación Web" },
                         {
-                            title:  t("proyectosTokenizacion.n3") ,
+                            title: t("proyectosTokenizacion.n3"),
                             imagen: salar,
                             link: "https://www.elinversorenergetico.com/la-concrecion-de-proyectos-que-estaban-demorados-empezaria-a-reactivarse-tras-aumento-regional-en-el-precio-del-litio/?amp=1#google_vignette",
                             medio: "El Inversor"

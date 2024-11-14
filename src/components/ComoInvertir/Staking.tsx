@@ -68,10 +68,10 @@ export const Staking = () => {
             {/* <p className=" text-sm text-white  md:block  lg:text-lg break-words" >{t("stakingView.¿Qué es el Staking? Descripcion 2")}</p> */}
 
             <div className="mt-4 md:mt-8 flex justify-between md:justify-center  lg:justify-start ">
-              <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px]  lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-base text-center hover:cursor-pointer'  >
+              <Link to={'/ComoInvertir#tutoriales'} className='w-2/3 max-w-[150px]  lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste   py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-base text-center hover:cursor-pointer transition hover:bg-blue-200 hover:text-blue-800'  >
                 {t("invertir.ver tutoriales")}
               </Link>
-              <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-base text-center hover:cursor-pointer'
+              <a className='ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-blue-50 border border-celeste text-celeste    py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-base text-center hover:cursor-pointer transition hover:bg-blue-200 hover:text-blue-800'
                 href='https://dapp-at-3.vercel.app/' target='_blank'>
                 Staking
               </a>

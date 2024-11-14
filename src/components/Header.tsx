@@ -71,9 +71,7 @@ export const Header = () => {
       <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  '>
         <div className=" mb-14   text-center md:text-left  md:pl-8 lg:pl-28  mt-12">
           <h1 className=' font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl '>{t("header.bienvenido")}</h1>
-          {/* <p className='my-5 text-sm md:text-base lg:text-md lg:pr-20'>
-            A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.
-          </p> */}
+          
           <p className='my-5 text-sm md:text-base lg:text-md lg:pr-20'>
             {t("header.criptoactivo")}
           </p>

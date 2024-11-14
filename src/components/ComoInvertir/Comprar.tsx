@@ -55,12 +55,12 @@ export const Comprar = () => {
                             <div className="mt-4 md:mt-8 flex justify-between md:justify-start">
                                 <Link
                                     to={'/ComoInvertir#tutoriales'}
-                                    className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-celeste py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                    className='w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-celeste py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer hover:bg-sky-500'
                                 >
                                     <button>{t("invertir.ver tutoriales")}</button>
                                 </Link>
                                 <a
-                                    className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-celeste py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer'
+                                    className='flex items-center justify-center ml-5 w-2/3 max-w-[150px] lg:max-w-[200px] md:w-full bg-celeste py-2 lg:py-2 rounded-md px-6 text-xs sm:text-sm lg:text-lg text-center hover:cursor-pointer hover:bg-sky-500'
                                     href='https://app.uniswap.org/explore/tokens/polygon/0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76' target='_blank'
                                 >
                                     <button>{t("comprarAt3.comprarAt3")}</button>

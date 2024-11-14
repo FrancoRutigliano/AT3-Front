@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next'
 // import p2p from '../assets/p2p.jpg'
 // import p23 from '../assets/peertopeer.jpeg'
 // import p23 from '../assets/peertopeer.jpeg'
-
 // import p2p from '../../assets/peertopeer (2).jpeg'
 // import p2p from '../../assets/p2pcel.jpeg'
 import p2p from '../../assets/compraat3.jpeg'

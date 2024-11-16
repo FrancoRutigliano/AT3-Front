@@ -1,7 +1,7 @@
 
 import { useTranslation } from 'react-i18next'
 import atomico from '../assets/Atomico.png'
-import {  useState } from 'react';
+import { useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';
@@ -9,6 +9,10 @@ import e1 from '../assets/bg/e11.jpg'
 import 'animate.css';
 import { Form } from './Form';
 // import { SpringPopUp } from './SpringPopUp';
+import cardano from '../assets/caradno-circulo.png'
+import cardanoWord from '../assets/cardano-palabra.png'
+// import naveCardano from '../assets/nave-cardano.jpeg'
+import naveCardano from '../assets/nave-planeta.png'
 
 export const Header = () => {
 
@@ -20,9 +24,9 @@ export const Header = () => {
   const [showingForm, setShowingForm] = useState(false)
   // const [showPopUp, setShowPopUp] = useState(false);
 
-  const showForm = (isVisible: boolean) =>{
+  const showForm = (isVisible: boolean) => {
     setShowingForm(isVisible)
-}
+  }
 
 
   const handleCloseModal = () => {
@@ -35,83 +39,118 @@ export const Header = () => {
   //   setShowPopUp(false)
   // }
 
-//  useEffect(() => {
-  
-//     const isFirstTime = sessionStorage.getItem("isFirstTime");
-//     if (!isFirstTime) {
-//       setShowPopUp(true);
-//       sessionStorage.setItem("isFirstTime", "true");
-//     }
-//  }, [])
- 
+  //  useEffect(() => {
 
-  if(showingForm) return (
-    
+  //     const isFirstTime = sessionStorage.getItem("isFirstTime");
+  //     if (!isFirstTime) {
+  //       setShowPopUp(true);
+  //       sessionStorage.setItem("isFirstTime", "true");
+  //     }
+  //  }, [])
+
+
+  if (showingForm) return (
+
     <>
-    <Form documentType='whitepaper' showForm={showForm}/>
+      <Form documentType='whitepaper' showForm={showForm} />
     </>
   )
 
   return (
     <>
 
-  {/* {showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> } */}
+      {/* {showPopUp &&  <SpringPopUp handleClosePopUp={handleClosePopUp} /> } */}
 
-  <Modal handleCloseModal={handleCloseModal}  isSpringBtn={isSpringBtn} showModal={showModal} />
-  
-<header className=' flex flex-col-reverse md:flex-row overflow-hidden bg-cover bg-no-repeat lg:px-16' style={{
-  background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.7)), url(${e1})`,
-  backgroundPosition: 'center top',
-  backgroundRepeat: 'no-repeat',  
-  backgroundSize: 'cover'  
-}}>
+      <Modal handleCloseModal={handleCloseModal} isSpringBtn={isSpringBtn} showModal={showModal} />
 
-
-      {/* Sección de texto */}
-      <div className=' w-full md:w-1/2 flex items-center justify-center h-auto md:h-screen p-4  md:p-0 lg:p-0  '>
-        <div className=" mb-14   text-center md:text-left  md:pl-8 lg:pl-28  mt-12">
-          <h1 className=' font-bold bg-custom-gradient bg-clip-text text-transparent text-5xl md:text-6xl lg:text-7xl '>{t("header.bienvenido")}</h1>
-          
-          <p className='my-5 text-sm md:text-base lg:text-md lg:pr-20'>
-            {t("header.criptoactivo")}
-          </p>
+      <header className='h-screen  overflow-hidden bg-cover bg-no-repeat ' style={{
+        background: `linear-gradient(to bottom, rgba(0, 0, 18, 0), rgba(0, 0, 0, 0)), url(${naveCardano})`,
+        backgroundPosition: 'center 100%  ',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover'
+      }}>
 
 
-          <div className='flex flex-col items-center md:items-start justify-between w-full lg:pr-36 space-y-3 lg:mt-3'>
-            {/* <a href="/public/whitepaper.pdf" download='whitepaper.pdf' className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] border border-gray-400 text-gray-300 py-2 lg:py-3 rounded-md w-full  px-6 text-center hover:bg-custom-gradient2 hover:font-bold'> */}
-            {/* <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px]  text-white py-2 lg:py-3 rounded-md w-full  px-6 text-center bg-custom-gradient2 font-medium hover:bg-custom-gradient hover:cursor-pointer' onClick={()=>handleOpenModal(true)} >
-              <button className={animate && localStorage.getItem('modalShown') ? 'animate-shake' : ''}>{t("header.feliz primavera")}</button>
-            </a> */}
-
-            <a   className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' href='https://dapp-at-3.vercel.app/' target='_blank'>
-
-              <button className=''>{t("header.comprar token")}</button>
-            </a>
-            <a  className='max-w-[270px] md:max-w-[298px] lg:max-w-[330px] bg-custom-gradient hover:bg-custom-gradient2 hover:font-bold py-2 lg:py-3 rounded-md w-full px-6 text-center hover:cursor-pointer' 
-            // onClick={()=>handleOpenModal(false)}
-            href='https://dapp-at-3.vercel.app/' target='_blank'>
-            
-
-              <button className='' >Staking</button>
-            </a>
-        
-          </div> 
-        </div>
-      </div>
+        {/* Sección de texto */}
 
 
-      {/* Sección de imagen */}
-      <div className=' w-full md:w-1/2 flex flex-col items-center justify-center mt-20 md:mt-10 lg:mt-0 lg:pb-24  '>
-        <img src={atomico} alt="Atomico Logo" className=' max-w-[205px] lg:max-w-[400px] w-1/3 md:w-2/3  md:w-full  lg:mb-0 md:mt-0    ' />
-       <div className='flex justify-center w-full' >
-        <a   className='ml-2 hover:cursor-pointer bg-white text- hidden md:block  max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>{t("navbar.iniciar sesion")}</a>
-        
-              <a   className='ml-2 hover:cursor-pointer bg-white text- hidden md:block  max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>
-              {t("navbar.registrarse")}
-              </a>
+        <article className='flex  w-full    '>
+
+          {/* container1 */}
+          <div className=" p-4 w-full sm:w-4/5 text-center  sm:text-left pl-5 text-left     ">
+            <h1 className=' font-bold text-shadow-bl text-5xl md:text-6xl lg:text-7xl mt-4 '>{t("header.bienvenido")}</h1>
+
+            <p className='my-5 text-sm md:text-base lg:text-md text-shadow sm:w-2/3 '>
+              {t("header.criptoactivo")}
+            </p>
+            {/* BOTONES */}
+            {/* <div className='flex w-full bg-sky-2 py-3' > */}
+            {/* <a className=' hover:cursor-pointer bg-white text- hidden md:block  max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>{t("navbar.iniciar sesion")}</a>
+
+                <a className='ml-2 hover:cursor-pointer bg-white text- hidden md:block  max-w-[200px] border-2 border-[#6D6D6D] text-[#6D6D6D]  py-2 lg:py-3 rounded-md w-full lg:mb-3  px-6 text-center  hover:font-bold'>
+                  {t("navbar.registrarse")}
+                  </a> */}
+            {/* </div> */}
+
           </div>
-      </div>
-    </header>
+
+          <div className='hidden sm:block w-1/5  flex flex-col items-center justify-center  '>
+
+            <div className=' h-full flex flex-col items-center justify-center'>
+
+              <p className='   w-full text-center text-shadow-bl  text-2xl bg-200'>
+                Partner tecnológico
+              </p>
+              <img src={cardano} alt="" className='bg-white rounded-[200px] w-[100px]  ' />
+              <img src={cardanoWord} alt="" className='bg-white rounded-[200px] w-[125px] mt-2  object-cover' />
+            </div>
+
+          </div>
+
+
+
+        </article>
+
+        <article className=' w-full h-full'>
+          <div className="hidden sm:block w-1/3 h-[50%]  ml-32">
+            <img src={atomico} alt="atomico" className="object-contain w-full h-full" />
+          </div>
+            
+            <div className='sm:hidden h-[200px]'>
+            <img src={atomico} alt="atomico" className="object-contain w-full h-full" />
+            </div>
+              <div className='sm:hidden mt-7 flex flex-col items-center justify-center'>
+              <p className='  w-full text-center text-shadow-bl  text-2xl bg-200'>
+                Partner tecnológico
+              </p>
+              <img src={cardano} alt="" className='bg-white rounded-[200px] w-[100px]  ' />
+              <img src={cardanoWord} alt="" className='bg-white rounded-[200px] w-[125px] mt-2  object-cover' />
+              </div>
+
+        </article>
+        {/* cardano y atomico */}
+
+        {/* <div className='absolute  top-6 right-0 mb-8  flex flex-col   w-[40%] flex items-end overflow-hidden pr-7 bg-'> */}
+        {/* <div className='flex flex-col items-center justify-center'>
+
+              <p className='  -red-200 w-full text-end  text-2xl bg-200'>
+                Partner tecnológico
+              </p>
+              <img src={cardano} alt="" className='bg-white rounded-[200px] w-[100px]  ' />
+              <img src={cardanoWord} alt="" className='bg-white rounded-[200px] w-[125px] mt-2  object-cover' />
+            </div> */}
+
+
+        {/* </div> */}
+        {/* <div className='absolute top-60 left-10 bg-ge-200  ml-auto w-1/2 bg- flex items-center justify-end bg-re-200 bg-re-200 '>
+
+            <img src={atomico} alt=" Atomico Logo" className='  max-w-[205px] lg:max-w-[410px] w-1/3 md:w-2/3  md:w-full bg--200   mr-32  ' />
+
+          </div> */}
+
+
+
+      </header >
     </>
   )
 }

@@ -5,7 +5,6 @@ import { useState } from 'react';
 import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';
-import e1 from '../assets/bg/e11.jpg'
 import 'animate.css';
 import { Form } from './Form';
 // import { SpringPopUp } from './SpringPopUp';

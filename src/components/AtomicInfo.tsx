@@ -10,7 +10,7 @@ export const AtomicInfo = () => {
 
   return (
     <>
-      <section className="relative text-white mt-20">
+      <section className="relative text-white bg-white pb-7">
         <div className="mx-auto px-4 py-8 sm:px-6 sm:py-12 lg:px-8 overflow-hidden bg-cover bg-no-repeat p-8 md:p-12 lg:px-16 lg:py-24"
           style={{
             background: `linear-gradient(to bottom, rgba(0, 0, 18, 0.7), rgba(0, 0, 0, 0.1)), url(${at3})`,
@@ -18,8 +18,8 @@ export const AtomicInfo = () => {
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'
           }}>
-          <div className="mx-auto w-full text-center max-w-screen-lg">
-            <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold bg-custom-gradient bg-clip-text text-transparent">
+          <div className="mx-auto w-full text-center max-w-screen-lg ">
+            <h2 className="text-3xl md:text-5xl lg:text-7xl font-bold text-celeste">
               {t("atomicInfo.que es atomico")}
             </h2>
 
@@ -42,36 +42,36 @@ export const AtomicInfo = () => {
           </div>
         </div>
 
-        <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4">
+        <div className="mt-20 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 px-4 bg-white">
           <a
-            className="bg-dark-light block rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+            className="bg-white block rounded-xl border border-celeste p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default "
             href="#"
           >
             <img src={energy} alt="Energy" className='w-12' />
-            <h2 className="mt-4 text-lg sm:text-xl font-bold text-white">{t("atomicInfo.criptoactivo responsable")}</h2>
-            <p className="mt-1 text-sm text-gray-300">
+            <h2 className="mt-4 text-lg sm:text-xl font-bold text-celeste">{t("atomicInfo.criptoactivo responsable")}</h2>
+            <p className="mt-1 text-sm text-black">
               {t("atomicInfo.criptoactivo responsable descripcion")}
             </p>
           </a>
 
           <a
-            className="bg-dark-light block rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+            className="bg-white block rounded-xl border border-celeste p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             href="#"
           >
             <img src={investors} alt="Investors" className='w-12' />
-            <h2 className="mt-4 text-lg sm:text-xl font-bold text-white">{t("atomicInfo.mercado objetivo")}</h2>
-            <p className="mt-1 text-sm text-gray-300">
+            <h2 className="mt-4 text-lg sm:text-xl font-bold text-celeste">{t("atomicInfo.mercado objetivo")}</h2>
+            <p className="mt-1 text-sm text-black">
               {t("atomicInfo.mercado objetivo descripcion")}
             </p>
           </a>
 
           <a
-            className="bg-dark-light block rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
+            className="bg-white block rounded-xl border border-celeste p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default"
             href="#"
           >
             <img src={platform} alt="Platform" className='w-12' />
-            <h2 className="mt-4 text-lg sm:text-xl font-bold text-white">{t("atomicInfo.plataformas utilizadas")}</h2>
-            <p className="mt-1 text-sm text-gray-300">
+            <h2 className="mt-4 text-lg sm:text-xl font-bold text-celeste">{t("atomicInfo.plataformas utilizadas")}</h2>
+            <p className="mt-1 text-sm text-black">
               {t("atomicInfo.plataformas utilizadas descripcion")}
             </p>
           </a>

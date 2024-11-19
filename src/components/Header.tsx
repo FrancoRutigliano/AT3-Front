@@ -73,7 +73,7 @@ export const Header = () => {
         {/* Sección de texto */}
 
 
-        <article className='flex  w-full    '>
+        <article className='flex  w-full '>
 
           {/* container1 */}
           <div className=" p-4 w-full sm:w-4/5 text-center  sm:text-left pl-5 text-left     ">

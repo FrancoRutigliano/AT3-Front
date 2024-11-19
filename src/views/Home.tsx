@@ -25,7 +25,7 @@ export const Home = () => {
   return (
 
 <>
-<div className="background">
+{/* <div className="background">
     <span></span>
     <span></span>
     <span></span>
@@ -44,7 +44,7 @@ export const Home = () => {
     <span></span>
     <span></span>
     <span></span>
- </div>
+ </div> */}
     {/* <MenuAppBar/> */}
     <Header/>
     {/* <HeaderPrueba/> */}

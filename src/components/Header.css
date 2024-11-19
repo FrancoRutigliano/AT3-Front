@@ -24,7 +24,10 @@
     background-repeat: no-repeat, no-repeat;
     animation: gradient 25s ease infinite;
   }
-  
+  .text-shadow-bl{
+    text-shadow: 2px 2px 2px black;
+  }
+
   @keyframes gradient {
     0% {
       background-position: 0% 50%;

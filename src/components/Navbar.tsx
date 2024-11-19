@@ -162,7 +162,7 @@ export const Navbar = () => {
                         >
                           <div className="p-2">
                             <Link
-                            to={'/proyectos'}
+                              to={'/proyectos'}
                               className=" block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500 "
                               role="menuitem"
                             >
@@ -170,7 +170,7 @@ export const Navbar = () => {
 
                             </Link>
                             <Link
-                            to={'/proyectos#litio'}
+                              to={'/proyectos#litio'}
                               className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500 "
                               role="menuitem"
                             >
@@ -702,7 +702,7 @@ export const Navbar = () => {
                           <div className="lg:ml-auto  sm:flex sm:justify-end p-2 ">
                             <button onClick={() => { handleChangeLanguage("por"); toggleMenu() }}>
                               <img src={bra} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="español" />
-                        
+
                             </button>
                             <button onClick={() => { handleChangeLanguage("en"); toggleMenu() }}>
                               <img src={eng} className='w-[1rem] lg:w-[2rem] ml-2 transition-shadow duration-300 hover:shadow-lg hover:shadow-blue-500  hover:scale-105  rounded-full' alt="english" />
@@ -723,21 +723,30 @@ export const Navbar = () => {
                     <div className="relative"
                       onMouseLeave={() => setIsOpenDropdownLogin(false)}>
                       <div
-                        className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                        className="inline-flex items-center overflow-hidden rounded-md  h-full text-white"
                       >
 
-                        <button
+                        {/* <button
                           className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
                           onMouseEnter={() => setIsOpenDropdownLogin(true)}
 
-                        >
-                          <a
+                        > */}
+                          {/* <a
                             className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                           >
                             <img src={login} alt="login" className="w-8 sm:w-10 md:w-12 lg:w-8 " />
 
-                          </a>
-                          <span className="sr-only">Menu</span>
+                          </a> */}
+                          <div className='flex flex-col justify-between    h-full'>
+
+                            <a className=' hover:cursor-pointer bg-white text- hidden md:block   border-2 border-[#6D6D6D] text-[#6D6D6D]   rounded-md p-2 w-full mb-1  text-center text-xs  hover:font-bold'>{t("navbar.iniciar sesion")}</a>
+                            <a className=' hover:cursor-pointer bg-white text- hidden md:block   border-2 border-[#6D6D6D] text-[#6D6D6D]   rounded-md p-2 w-full   text-center text-xs  hover:font-bold'>
+                              {t("navbar.registrarse")}
+                            </a>
+                          </div>
+
+
+                          {/* <span className="sr-only">Menu</span>
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             className="size-4 "
@@ -749,8 +758,8 @@ export const Navbar = () => {
                               d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
                               clipRule="evenodd"
                             />
-                          </svg>
-                        </button>
+                          </svg> */}
+                        {/* </button> */}
                       </div>
 
                       {
@@ -790,39 +799,39 @@ export const Navbar = () => {
 
               {/* Menú hamburguesa */}
               <div className="flex items-center gap-4">
-                    {/* DROPDOwN INICIAR SESIÓN*/}
-                    <div className="relative md:hidden"
-                      onClick={() => toggleDropdownLogin()}>
-                      <div
-                        className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                {/* DROPDOwN INICIAR SESIÓN*/}
+                <div className="relative md:hidden"
+                  onClick={() => toggleDropdownLogin()}>
+                  <div
+                    className="inline-flex items-center overflow-hidden rounded-md  text-white"
+                  >
+
+                    <button
+                      className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
+                      onClick={() => toggleDropdownLogin()}
+
+                    >
+                      <a
+                        className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
                       >
+                        <img src={login} alt="login" className="w-8 sm:w-10 md:w-12 lg:w-8 " />
 
-                        <button
-                          className="h-full flex items-center p-2 text-white   hover:text-blue-500 "
-                          onClick={() => toggleDropdownLogin()}
-
-                        >
-                          <a
-                            className=" mr-1  py-2 text-sm/none text-white hover:text-blue-500 "
-                          >
-                            <img src={login} alt="login" className="w-8 sm:w-10 md:w-12 lg:w-8 " />
-
-                          </a>
-                          <span className="sr-only">Menu</span>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="size-4 "
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                          >
-                            <path
-                              fillRule="evenodd"
-                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                              clipRule="evenodd"
-                            />
-                          </svg>
-                        </button>
-                      </div>
+                      </a>
+                      <span className="sr-only">Menu</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="size-4 "
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </button>
+                  </div>
 
                       {
                         isOpenDropdownLogin &&
@@ -847,13 +856,13 @@ export const Navbar = () => {
                             >
                               {t("navbar.registrarse")}
 
-                            </Link>
+                        </Link>
 
-                          </div>
-                        </div>
-                      }
+                      </div>
                     </div>
-                    {/* FIN DROPDWON LANGUAGES*/}
+                  }
+                </div>
+                {/* FIN DROPDWON LANGUAGES*/}
 
                 <div className="block md:hidden">
                   <button

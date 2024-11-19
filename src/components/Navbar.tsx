@@ -849,9 +849,9 @@ export const Navbar = () => {
                               {t("navbar.iniciar sesion")}
                             </Link>
                             <Link
+                            to={"https://app.atomico3.io/auth"}
                             target='_blank'
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
-                              to={"https://app.atomico3.io/auth"}
                               
                             >
                               {t("navbar.registrarse")}

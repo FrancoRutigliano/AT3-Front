@@ -761,7 +761,7 @@ export const Navbar = () => {
                         >
                           <div className="p-2 ">
                             <Link
-                              to={""}
+                              to={"https://app.atomico3.io/auth"}
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
                             >
@@ -769,7 +769,7 @@ export const Navbar = () => {
                             </Link>
                             <Link
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
-                              to={""}
+                              to={"https://app.atomico3.io/auth"}
                             >
                               {t("navbar.registrarse")}
 
@@ -830,7 +830,7 @@ export const Navbar = () => {
                         >
                           <div className="p-2 ">
                             <Link
-                              to={""}
+                              to={"https://app.atomico3.io/auth"}
                               
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
@@ -839,7 +839,7 @@ export const Navbar = () => {
                             </Link>
                             <Link
                               className="text-end block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500  "
-                              to={""}
+                              to={"https://app.atomico3.io/auth"}
                               
                             >
                               {t("navbar.registrarse")}

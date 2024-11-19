@@ -7,7 +7,6 @@ import { Invertir } from "../components/Invertir"
 import { VideoSection } from "../components/VideoSection"
 import { useLocation } from "react-router-dom"
 import './Home.css'
-import { HeaderPrueba } from "../components/HeaderPrueba"
 import { Header } from "../components/Header"
 export const Home = () => {
   const faqRef = useRef<HTMLDivElement>(null);

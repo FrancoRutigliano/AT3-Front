@@ -8,54 +8,54 @@ export const Invest = () => {
 
   return (
     <>
-    <section className="text-white ">
+    <section className=" bg-white ">
   <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto ">
     <div className="w-full">
-      <h2 className="text-3xl font-bold sm:text-7xl bg-custom-gradient bg-clip-text text-transparent w-full text-center ">{t("InvestSection.¿Por qué invertir en Atómico3?")}</h2>
+      <h2 className="text-3xl font-bold sm:text-7xl text-celeste w-full text-center ">{t("InvestSection.¿Por qué invertir en Atómico3?")}</h2>
 
      
     </div>
 
     <div className="mt-8 grid grid-cols-1 gap-8 md:mt-16 md:grid-cols-2 md:gap-12 lg:grid-cols-3">
-      <div className="flex flex-col items-start justify-start gap-4 bg-dark-light rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
+      <div className="flex flex-col items-start justify-start gap-4  rounded-xl border border-celeste p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
         <span className="shrink-0 rounded-lg pt-1 text-center flex justify-center">
          <img src={padlock} alt="padlock" className='w-12 text-center'  />
         </span>
 
         <div >
-          <h2 className="text-lg font-bold">{t("InvestSection.Seguridad")}
+          <h2 className="text-lg text-celeste font-bold">{t("InvestSection.Seguridad")}
           </h2>
 
-          <p className="mt-1 text-sm text-gray-300">
+          <p className="mt-1 text-sm text-black">
           {t("InvestSection.Seguridad descripcion")}
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col items-start justify-start gap-4 bg-dark-light rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
+      <div className="flex flex-col items-start justify-start gap-4  rounded-xl border border-celeste p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
         <span className="shrink-0 rounded-lg  pt-1">
          <img src={technology} alt="technology" className='w-12' />
         </span>
 
         <div>
-          <h2 className="text-lg font-bold">{t("InvestSection.tecnologia y beneficios")}</h2>
+          <h2 className="text-lg text-celeste font-bold">{t("InvestSection.tecnologia y beneficios")}</h2>
 
-          <p className="mt-1 text-sm text-gray-300">
+          <p className="mt-1 text-sm text-black">
           {t("InvestSection.tecnologia y beneficios descripcion")}            
           </p>
         </div>
       </div>
 
-      <div className="flex flex-col items-start justify-start gap-4 bg-dark-light rounded-xl border border-black p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
+      <div className="flex flex-col items-start justify-start gap-4  rounded-xl border border-celeste p-6 sm:p-8 shadow-xl transition hover:border-celeste hover:shadow-light-blue hover:cursor-default">
         <span className="shrink-0 rounded-lg  pt-1">
           <img src={support} alt="support" className='w-12' />
         </span>
 
 
         <div>
-          <h2 className="text-lg font-bold"> {t("InvestSection.soporte")}  </h2>
+          <h2 className="text-lg text-celeste font-bold"> {t("InvestSection.soporte")}  </h2>
 
-          <p className="mt-1 text-sm text-gray-300">
+          <p className="mt-1 text-sm text-black">
           {t("InvestSection.soporte descripcion")}
           </p>
         </div>

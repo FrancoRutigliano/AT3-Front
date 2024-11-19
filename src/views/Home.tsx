@@ -46,6 +46,7 @@ export const Home = () => {
     <span></span>
  </div> */}
     {/* <MenuAppBar/> */}
+
     <Header/>
     {/* <HeaderPrueba/> */}
     <AtomicInfo/>

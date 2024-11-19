@@ -6,16 +6,16 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
   const [t] = useTranslation("global")
   return (
     <>
-    <h1 id="faq" ref={ref} className="text-3xl  lg:text-6xl font-bold sm:text-4xl bg-custom-gradient bg-clip-text text-transparent  text-center mb-12 mt-20 lg:mt-20 lg:mb-20 lg:py-2">{t("faq.preguntas frecuentes")}</h1>
+    <h1 id="faq" ref={ref} className="text-3xl lg:text-6xl font-bold sm:text-4xl text-celeste text-center mb-12 pt-20 lg:mt-20 lg:mb-20 lg:py-2 ">{t("faq.preguntas frecuentes")}</h1>
     <div className="space-y-4 lg:w-2/3 lg:mx-auto px-4">
   <details
-    className="group rounded-lg  p-6 bg-dark-light [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg  p-6 bg-celeste [&_summary::-webkit-details-marker]:hidden"
     open
   >
     <summary
-      className="flex cursor-pointer items-center justify-between gap-1.5 lg:text-2xl     text-white"
+      className="flex cursor-pointer items-center justify-between gap-1.5 lg:text-2xl text-white"
     >
-      <h2 className="font-medium text-celeste">{t("faq.que es atomico")} </h2>
+      <h2 className="font-medium text-white">{t("faq.que es atomico")} </h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -56,7 +56,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
   </details>
 
   <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg   p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
@@ -101,7 +101,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-celeste  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
@@ -146,7 +146,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-celeste  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
@@ -193,7 +193,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-celeste  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
@@ -239,7 +239,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-celeste  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
@@ -287,7 +287,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     </p>
   </details>
   <details
-    className="group rounded-lg bg-dark-light  p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="group rounded-lg bg-celeste  p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "

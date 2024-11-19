@@ -24,7 +24,7 @@ export const Home = () => {
   
   return (
 
-<>
+<section className="bg-white pb-10">
 {/* <div className="background">
     <span></span>
     <span></span>
@@ -55,7 +55,7 @@ export const Home = () => {
     <Invertir/>
     <Faq ref={faqRef} />
 
-</>
+</section>
 
 )
 }

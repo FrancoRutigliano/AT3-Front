@@ -24,7 +24,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
   // const [message, setMessage] = useState('');
   // const [loading, setLoading] = useState(false);
 
-  // Manejar cambios en los campos del formulario
+  
 
   const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;

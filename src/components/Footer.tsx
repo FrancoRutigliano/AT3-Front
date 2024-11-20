@@ -21,8 +21,8 @@ export const Footer = () => {
   return (
     <>
       <footer className="" id='contact'>
-        <div className=" mx-auto w-full space-y-8 px-4 py-16 sm:px-6 lg:space-y-5 lg:px-8">
-          <div className=" sm:flex sm:items-center sm:justify-between border-b border-gray-100 pb-5">
+        <div className=" mx-auto w-full space-y-8 px-4  lg:pt-5 sm:px-6 lg:space-y-5 lg:px-8">
+          <div className=" sm:flex sm:items-center sm:justify-between  ">
             {/* <div className="text-teal-600 ">
               <img src={atomicLogo} alt="" className='w-72  mx-auto lg:mx-0' />
             </div> */}

@@ -7,7 +7,7 @@ export const LegalLayout = () => {
 
   return (
     <>
-  <div className="bg-white ">
+  <div className="bg-white pb-24">
 
       <nav className="pt-20 ">
         {/* <ul className="flex sm:justify-center md:w-2/3  md:mx-auto md:space-x-6"> */}

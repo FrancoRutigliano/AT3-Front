@@ -56,12 +56,12 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
   </details>
 
   <details
-    className="group rounded-lg   p-6  [&_summary::-webkit-details-marker]:hidden"
+    className="bg-celeste  group rounded-lg   p-6  [&_summary::-webkit-details-marker]:hidden"
   >
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?")}</h2>
+      <h2 className="font-medium text-white lg:text-2xl">{t("faq.¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -106,7 +106,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Dónde puedo ver la valuación de Atómico3?")}</h2>
+      <h2 className="font-medium text-white lg:text-2xl">{t("faq.¿Dónde puedo ver la valuación de Atómico3?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -151,7 +151,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Por qué el token Atómico3 no tiene liquidez?")}</h2>
+      <h2 className="font-medium text-white lg:text-2xl">{t("faq.¿Por qué el token Atómico3 no tiene liquidez?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -198,7 +198,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Cuál es el contrato de Atómico3?")}</h2>
+      <h2 className="font-medium text-white lg:text-2xl">{t("faq.¿Cuál es el contrato de Atómico3?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -244,7 +244,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Proyección del precio de Atómico3 en el futuro?")}</h2>
+      <h2 className="font-medium text-white lg:text-2xl">{t("faq.¿Proyección del precio de Atómico3 en el futuro?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg
@@ -292,7 +292,7 @@ export const Faq = React.forwardRef<HTMLDivElement>((_props, ref: any) => {
     <summary
       className="flex cursor-pointer items-center justify-between gap-1.5 text-white "
     >
-      <h2 className="font-medium text-celeste lg:text-2xl">{t("faq.¿Ya puedo hacer staking de los AT3 que adquirí?")}</h2>
+      <h2 className="font-medium text-white lg:text-2xl">{t("faq.¿Ya puedo hacer staking de los AT3 que adquirí?")}</h2>
 
       <span className="relative size-5 shrink-0">
         <svg

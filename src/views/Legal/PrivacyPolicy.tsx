@@ -27,8 +27,8 @@ export const PrivacyPolicy = () => {
     };
     return (
         <section >
-            <h1 className="text-2xl lg:text-5xl text-center mt-32 mb-5">{t("privacyPolicy.politica de privacidad")}</h1>
-            <h5 className="text-xs md:text-base w-2/3 mx-auto text-center mb-16 md:mb-20">{t("privacyPolicy.vigencia")}</h5>
+            <h1 className="text-celeste text-2xl lg:text-5xl text-center mt-32 mb-5">{t("privacyPolicy.politica de privacidad")}</h1>
+            <h5 className=" text-gray-600 text-xs md:text-base w-2/3 mx-auto text-center mb-16 md:mb-20">{t("privacyPolicy.vigencia")}</h5>
             <div className="flex relative md:flex-row flex-col">
                 {/* Columna de Títulos */}
                 <div className="md:block w-full md:w-1/4 bg-gray-100 p-4 md:rounded-lg  shadow-md mr-4 md:sticky lg:top-20 max-[768px]:max-h-[160px] rounded-t-lg  md:h-screen overflow-y-auto">
@@ -52,7 +52,7 @@ export const PrivacyPolicy = () => {
                     </p>
                     <section id="section1">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">1. {t("privacyPolicy.titles.title1")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-celeste">1. {t("privacyPolicy.titles.title1")}</h2>
                         <p className="mb-4">
                             {t("privacyPolicy.documento.informacion punto 1.intro")}
 
@@ -72,7 +72,7 @@ export const PrivacyPolicy = () => {
                                     {item.text}
                                     {item.link && (
                                         <>
-                                            <a href={item.link} className="inline text-blue-500 hover:underline"> {item.link}</a> <span>{item.tag}</span>
+                                            <a href={item.link} className="inline text-celeste hover:underline"> {item.link}</a> <span>{item.tag}</span>
                                         </>
                                     )}
                                 </li>
@@ -87,7 +87,7 @@ export const PrivacyPolicy = () => {
 
                     <section id="section2">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">2.  {t("privacyPolicy.titles.title2")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-celeste">2.  {t("privacyPolicy.titles.title2")}</h2>
                         {[
                             { text: t("privacyPolicy.documento.informacion punto 2.p1") },
                             { text: t("privacyPolicy.documento.informacion punto 2.p2") },
@@ -101,7 +101,7 @@ export const PrivacyPolicy = () => {
                     </section>
                     <section id="section3">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">3. {t("privacyPolicy.titles.title3")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-celeste">3. {t("privacyPolicy.titles.title3")}</h2>
                         {[
                             { title: t("privacyPolicy.documento.informacion punto 3.p1.title"), content: t("privacyPolicy.documento.informacion punto 3.p1.content") },
                             { title: t("privacyPolicy.documento.informacion punto 3.p2.title"), content: t("privacyPolicy.documento.informacion punto 3.p2.content") },
@@ -114,7 +114,7 @@ export const PrivacyPolicy = () => {
                             { title: t("privacyPolicy.documento.informacion punto 3.p9.title"), content: t("privacyPolicy.documento.informacion punto 3.p9.content") }
                         ].map((item, index) => (
                             <div key={index} className="mb-4">
-                                {item.title && <h3 className="text-blue-500 ">{item.title}:</h3>}
+                                {item.title && <h3 className="text-celeste ">{item.title}:</h3>}
                                 <p>{item.content}</p>
                             </div>
                         ))}
@@ -124,7 +124,7 @@ export const PrivacyPolicy = () => {
                     </section>
                     <section id="section4">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">4. {t("privacyPolicy.titles.title4")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-celeste">4. {t("privacyPolicy.titles.title4")}</h2>
                         {[
                             { title: t("privacyPolicy.documento.informacion punto 4.title1"), content: t("privacyPolicy.documento.informacion punto 4.p1") },
                             { title: "", content: t("privacyPolicy.documento.informacion punto 4.p2") },
@@ -136,7 +136,7 @@ export const PrivacyPolicy = () => {
                             { title: t("privacyPolicy.documento.informacion punto 4.title4"), content: t("privacyPolicy.documento.informacion punto 4.p8") }
                         ].map((item, index) => (
                             <div key={index} className="mb-4">
-                                {item.title && <h3 className="text-blue-500 font-medium">{item.title}:</h3>}
+                                {item.title && <h3 className="text-celeste font-medium">{item.title}:</h3>}
                                 <p>{item.content}</p>
                             </div>
                         ))}
@@ -144,7 +144,7 @@ export const PrivacyPolicy = () => {
                     </section>
                     <section id="section5">
 
-                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-blue-500">5. {t("privacyPolicy.titles.title5")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mt-6 mb-2 text-celeste">5. {t("privacyPolicy.titles.title5")}</h2>
                         {[
                             { title: "", content: t("privacyPolicy.documento.informacion punto 5.p1") },
                             { title: "a)", content: t("privacyPolicy.documento.informacion punto 5.finalidades.a") },
@@ -159,7 +159,7 @@ export const PrivacyPolicy = () => {
                         ].map((item, index) => (
                             <div key={index} className="mb-4">
                                 <p>
-                                    {item.title && <span className="text-blue-500 ">{item.title} </span>}
+                                    {item.title && <span className="text-celeste ">{item.title} </span>}
                                     {item.content}</p>
                             </div>
                         ))}
@@ -168,7 +168,7 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section6">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">6.  {t("privacyPolicy.titles.title6")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-celeste">6.  {t("privacyPolicy.titles.title6")}</h2>
                         <p className="mb-4">
                             {t("privacyPolicy.documento.informacion punto 6.intro")}
                         </p>
@@ -182,7 +182,7 @@ export const PrivacyPolicy = () => {
                             { item: "vi)", text: t("privacyPolicy.documento.informacion punto 6.item vi") },
                         ].map((elem, index) => (
                             <div key={index} className="mb-4">
-                                <p><span className="text-blue-500"> {elem.item} </span> {elem.text}</p>
+                                <p><span className="text-celeste"> {elem.item} </span> {elem.text}</p>
                             </div>
                         ))}
 
@@ -215,7 +215,7 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section7">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">7. {t("privacyPolicy.titles.title7")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-celeste">7. {t("privacyPolicy.titles.title7")}</h2>
                         <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.intro")}</p>
                         <p className="mb-4">{t("privacyPolicy.documento.informacion punto 7.p1")}</p>
                         {[
@@ -229,7 +229,7 @@ export const PrivacyPolicy = () => {
                         ].map((item, index) => (
                             <div key={index} className="mb-4">
                                 <p>
-                                    {item.title && <span className="text-blue-500 ">{item.title} </span>}
+                                    {item.title && <span className="text-celeste ">{item.title} </span>}
                                     {item.content}</p>
                             </div>
                         ))}
@@ -237,7 +237,7 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section8">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">8. {t("privacyPolicy.titles.title8")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-celeste">8. {t("privacyPolicy.titles.title8")}</h2>
                         {[
                             { content: t("privacyPolicy.documento.informacion punto 8.p1") },
                             { content: t("privacyPolicy.documento.informacion punto 8.p2") },
@@ -253,7 +253,7 @@ export const PrivacyPolicy = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section9">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">9. {t("privacyPolicy.titles.title9")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-celeste">9. {t("privacyPolicy.titles.title9")}</h2>
                         {[
                             { content: t("privacyPolicy.documento.informacion punto 9.p1") },
                             { content: t("privacyPolicy.documento.informacion punto 9.p2") },
@@ -266,7 +266,7 @@ export const PrivacyPolicy = () => {
                         ))}
                     </section>
                     <section className="mb-8" id="section10">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">10. {t("privacyPolicy.titles.title10")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-celeste">10. {t("privacyPolicy.titles.title10")}</h2>
 
                         <p className="mb-4">{t("privacyPolicy.documento.informacion punto 10.p1")}</p>
                         <p className="mb-3">{t("privacyPolicy.documento.informacion punto 10.p2")}</p>
@@ -276,12 +276,12 @@ export const PrivacyPolicy = () => {
                             { item: "iii)", text: t("privacyPolicy.documento.informacion punto 10.item iii") },
                         ].map((elem, index) => (
                             <div key={index} className="mb-4">
-                                <p><span className="text-blue-500"> {elem.item} </span> {elem.text}</p>
+                                <p><span className="text-celeste"> {elem.item} </span> {elem.text}</p>
                             </div>
                         ))}
                     </section>
                     <section className="mb-8" id="section11">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-blue-500">11. {t("privacyPolicy.titles.title11")}</h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-4 mt-10 text-celeste">11. {t("privacyPolicy.titles.title11")}</h2>
                         {[
                             { content: t("privacyPolicy.documento.informacion punto 11.p1") },
                             { content: t("privacyPolicy.documento.informacion punto 11.p2") },
@@ -301,7 +301,7 @@ export const PrivacyPolicy = () => {
                     </section>
 
                     <section className="mb-8" id="section12">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">12. {t("privacyPolicy.titles.title12")}    </h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-celeste">12. {t("privacyPolicy.titles.title12")}    </h2>
 
                         {[
                             { content: t("privacyPolicy.documento.informacion punto 12.p1") },
@@ -314,14 +314,14 @@ export const PrivacyPolicy = () => {
                             </div>
                         ))}
 
-                        <p className="mb-4 "><span className="text-blue-500 ">a)</span> {t("privacyPolicy.documento.informacion punto 12.a")}</p>
-                        <p className="mb-4"><span className="text-blue-500 ">b) </span>{t("privacyPolicy.documento.informacion punto 12.b")} <a target="_blank" href="http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general" className="break-words text-blue-500 hover:underline">{t("privacyPolicy.documento.informacion punto 12.b link")}</a> {t("privacyPolicy.documento.informacion punto 12.b.1")} </p>
-                        <p className="mb-4"><span className="text-blue-500 ">c) </span>{t("privacyPolicy.documento.informacion punto 12.c")}</p>
+                        <p className="mb-4 "><span className="text-celeste ">a)</span> {t("privacyPolicy.documento.informacion punto 12.a")}</p>
+                        <p className="mb-4"><span className="text-celeste ">b) </span>{t("privacyPolicy.documento.informacion punto 12.b")} <a target="_blank" href="http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general" className="break-words text-celeste hover:underline">{t("privacyPolicy.documento.informacion punto 12.b link")}</a> {t("privacyPolicy.documento.informacion punto 12.b.1")} </p>
+                        <p className="mb-4"><span className="text-celeste ">c) </span>{t("privacyPolicy.documento.informacion punto 12.c")}</p>
 
 
                     </section>
                     <section className="mb-8" id="section13">
-                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-blue-500">13. {t("privacyPolicy.titles.title13")}   </h2>
+                        <h2 className="text-lg md:text-3xl font-semibold mb-2 text-celeste">13. {t("privacyPolicy.titles.title13")}   </h2>
                         {[
                             { content: t("privacyPolicy.documento.informacion punto 13.p1") },
                             { content: t("privacyPolicy.documento.informacion punto 13.p2") },

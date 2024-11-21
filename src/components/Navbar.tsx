@@ -270,15 +270,14 @@ export const Navbar = () => {
                               {t("navbar.descargar brochure")}
 
                             </button>
-                            <a
-                              href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"
+                            <button
                               className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
                               onClick={() => { toggleDropdownAboutUs(); setSelectedDocument('whitepaper'); handleForm(); }}
                             >
                               {t("navbar.descargar whitepaper")}
 
-                            </a>
+                            </button>
 
                           </div>
                         </div>
@@ -1055,23 +1054,23 @@ export const Navbar = () => {
                           >
                             {t("navbar.trabaja")}
                           </a>
-                          <a
-                            href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf'
-                            download
+                          <button
+                            // href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf'
+                            // download
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"
-                            onClick={() => toggleDropdownAboutUs()}
+                            onClick={() => {toggleDropdownAboutUs(); closeMenu(); setSelectedDocument('brochure'); handleForm();}}
                           >{t("navbar.descargar brochure")}
-                          </a>
-                          <a
-                            href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"
-                            download
+                          </button>
+                          <button
+                            // href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"
+                            // download
                             className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                             role="menuitem"
-                            onClick={() => toggleDropdownAboutUs()}
+                            onClick={() => {toggleDropdownAboutUs(); closeMenu(); setSelectedDocument('whitepaper'); handleForm(); }}
                           >
                             {t("navbar.descargar whitepaper")}
-                          </a>
+                          </button>
                         </div>
                       </div>
                     }

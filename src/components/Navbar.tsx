@@ -7,6 +7,7 @@ import esp from '../assets/lang/esp.png'
 import bra from '../assets/lang/brazil.png'
 
 import login from '../assets/login.png'
+import { Form } from './Form';
 
 export const Navbar = () => {
   const [t, i18n] = useTranslation("global");
@@ -21,8 +22,8 @@ export const Navbar = () => {
   const [isOpenDropdownProyectos, setIsOpenDropdownProyectos] = useState(false);
   const [isOpenDropdownNoticias, setIsOpenDropdownNoticias] = useState(false);
   const [isOpenDropdownLogin, setIsOpenDropdownLogin] = useState(false);
-
-
+  const [showForm, setShowForm] = useState(false)
+  const [selectedDocument, setSelectedDocument] = useState('')
 
   // Función para abrir/cerrar el menú principal
   const toggleMenu = () => {
@@ -100,9 +101,13 @@ export const Navbar = () => {
   // };
 
 
+  const handleForm = () => {
+    setShowForm(prev => !prev)
+  }
 
   return (
     <>
+      {showForm && <Form handleForm={handleForm} documentType={selectedDocument} />}
 
       <nav className="fixed sticky absolute top-0 left-0 w-full bg-dark-light text-white z-50 lg:py-3  ">
         <div className="mx-auto max-w-screen-xl px-1 sm:px-1 lg:px-1 ">
@@ -248,7 +253,7 @@ export const Navbar = () => {
                             >
                               {t("navbar.trabaja")}
                             </a>
-                            <a
+                            {/* <a
                               href='https://drive.google.com/uc?export=download&id=1GDVfVh34bo7ZvaVWjvwvmqYshgMF3zWf' download
                               className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
@@ -256,12 +261,20 @@ export const Navbar = () => {
                             >
                               {t("navbar.descargar brochure")}
 
-                            </a>
+                            </a> */}
+                            <button
+                              className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
+                              role="menuitem"
+                              onClick={() => { toggleDropdownAboutUs();  setSelectedDocument('brochure'); handleForm(); }}
+                            >
+                              {t("navbar.descargar brochure")}
+
+                            </button>
                             <a
                               href="https://drive.google.com/uc?export=download&id=1nGFGAarX3gzUM2ydfFoRhAYQvV0SS_hV"
                               className="hover:cursor-pointer block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-blue-500"
                               role="menuitem"
-                              onClick={() => { toggleDropdownAboutUs() }}
+                              onClick={() => { toggleDropdownAboutUs(); setSelectedDocument('whitepaper'); handleForm(); }}
                             >
                               {t("navbar.descargar whitepaper")}
 

@@ -4,11 +4,12 @@ import atomicLogo from '../assets/Atomico.png'
 import { useTranslation } from "react-i18next";
 interface FormProps {
   documentType: string;
-  showForm: (isVisible: boolean) => void; // Tipar la función
+  handleForm: () => void; // Tipar la función
 }
 
-export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
+export const Form: React.FC<FormProps> = ({handleForm, documentType}: FormProps) => {
 
+  console.log('documentType (on render):', documentType);
   const [t] = useTranslation("global")
 
   const [showLoading, setShowLoading] = useState(false)
@@ -18,13 +19,11 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
     lastName: '',
     email: '',
     phone: '',
-    documentType: documentType
+    documentType
   });
 
   // const [message, setMessage] = useState('');
   // const [loading, setLoading] = useState(false);
-
-  
 
   const handleChange = (e: { target: { name: any; value: any; }; }) => {
     const { name, value } = e.target;
@@ -38,7 +37,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
   // Función para manejar el envío del formulario
   const handleSubmit = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
-    // setLoading(true);
+    setShowLoading(true)
     console.log(formData);
 
     // Parámetros para enviar por EmailJS
@@ -63,6 +62,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
         (response) => {
           console.log('Email enviado correctamente', response.status, response.text);
           // setMessage('Formulario enviado con éxito');
+          console.log('DOCUMENTTYPE:', documentType)
           if (response.status >= 200 && response.status <= 200) {
 
             if (documentType == "brochure") {
@@ -73,7 +73,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
             }
 
             setShowLoading(false)
-            showForm(false)
+            handleForm()
           }
         },
         (error) => {
@@ -82,7 +82,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
           // setMessage('Error al enviar el formulario');
         }
       )
-      .finally(() => setLoading(false));
+      .finally(() => setShowLoading(false));
   };
 
   if (showLoading) return (
@@ -208,7 +208,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
 
               <button
                 // type="text"
-                onClick={() => showForm(false)}
+                onClick={() => handleForm()}
                 className=" bg-red-400 block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
               >
                             {t("form.Cancelar")}
@@ -216,7 +216,7 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
               </button>
               <button
                 type="submit"
-                // onClick={handleSubmit}
+                onClick={handleSubmit}
                 className="ml-2 block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white"
               >
                            {t("form.Aceptar")}
@@ -231,8 +231,8 @@ export const Form: React.FC<FormProps> = ({ documentType, showForm }) => {
     </>
   );
 }
-function setLoading(arg0: boolean): void {
-  console.log(arg0)
-  throw new Error("Function not implemented.");
-}
+// function setLoading(arg0: boolean): void {
+//   console.log(arg0)
+//   throw new Error("Function not implemented.");
+// }
 

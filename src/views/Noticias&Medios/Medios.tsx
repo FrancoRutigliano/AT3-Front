@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next"
 import { Noticia } from "../../components/Noticia"
 import m1 from '../../assets/medios/m1.jpg'
 import m2 from '../../assets/medios/m2.jpeg'
+import m3 from '../../assets/medios/m3.jpg'
 
 export const Medios = () => {
     const [t] = useTranslation("global")
@@ -9,6 +10,8 @@ export const Medios = () => {
     const noticias = [
         {imagen: m1, title:  t("medios.m1"), subtitle: "data BA",link: "https://databa.ar/nota/6149/encuentro-entre-el-presidente-de-la-camara-latinoamericana-del-litio-y-el-secretario-de-mineria-de-argentina-un-dialogo-entre-mundos-divergentes/" },
         {imagen: m2, title:  t("medios.m2"), subtitle: "Pablo Rutigliano", link: "https://es.investing.com/analysis/el-precio-del-litio-200462539" },
+        {imagen: m3, title:  t("medios.m3"), subtitle: "Infobae", link: "https://www.infobae.com/movant/2024/05/22/el-litio-es-el-commodity-estrategico-para-desarrollar-la-transicion-energetica/" },
+        
       ]
 
   return (

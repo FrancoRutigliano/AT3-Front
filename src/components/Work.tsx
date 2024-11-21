@@ -118,6 +118,22 @@ export const Work = () => {
                   />
                 </div>
 
+                <div className="col-span-6 sm:col-span-6">
+                  <label
+                    htmlFor="linkedin"
+                    className="block text-sm font-medium  text-gray-200"
+                  >
+                    Dirección de perfil de Linkedin
+                  </label>
+
+                  <input
+                    type="text"
+                    id="linkedin"
+                    name="linkedin"
+                    className="mt-1 w-full rounded-md border-gray-200  text-sm  shadow-sm dark:border-gray-700 bg-gray-300 text-black p-2 focus:outline-none focus:ring focus:ring-celeste"
+                  />
+                </div>
+
                 <div className='col-span-6 h-[100px]'>
                   <label className="sr-only" htmlFor="message">Mensaje</label>
 

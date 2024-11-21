@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 
 
 import at3 from '../assets/pruebas/p13.avif'
+import { Work } from '../components/Work'
 // import { Work } from '../components/Work'
 
 
@@ -65,7 +66,7 @@ export const Nosotros = () => {
       </section>
 
       <Team />
-      {/* <Work /> */}
+      <Work />
     </>
   )
 }

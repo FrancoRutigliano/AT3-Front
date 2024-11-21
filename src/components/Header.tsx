@@ -6,7 +6,7 @@ import './Header.css'
 import { Modal } from './Modal';
 // import { SpringPopUp } from './SpringPopUp';
 import 'animate.css';
-import { Form } from './Form';
+// import { Form } from './Form';
 // import { SpringPopUp } from './SpringPopUp';
 import cardano from '../assets/caradno-circulo.png'
 import cardanoWord from '../assets/cardano-palabra.png'
@@ -20,12 +20,12 @@ export const Header = () => {
   const [t] = useTranslation("global")
   // const [animate, setAnimate] = useState(false);
   const [isSpringBtn, setIsSpringBtn] = useState<boolean | null>(null);
-  const [showingForm, setShowingForm] = useState(false)
+  // const [showingForm, setShowingForm] = useState(false)
   // const [showPopUp, setShowPopUp] = useState(false);
 
-  const showForm = (isVisible: boolean) => {
-    setShowingForm(isVisible)
-  }
+  // const showForm = (isVisible: boolean) => {
+  //   setShowingForm(isVisible)
+  // }
 
 
   const handleCloseModal = () => {
@@ -48,12 +48,12 @@ export const Header = () => {
   //  }, [])
 
 
-  if (showingForm) return (
+  // if (showingForm) return (
 
-    <>
-      <Form documentType='whitepaper' showForm={showForm} />
-    </>
-  )
+  //   <>
+  //     <Form documentType='whitepaper' showForm={showForm} />
+  //   </>
+  // )
 
   return (
     <>

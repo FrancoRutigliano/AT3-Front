@@ -66,7 +66,7 @@ export const Nosotros = () => {
       </section>
 
       <Team />
-      <Work />
+      {/* <Work /> */}
     </>
   )
 }

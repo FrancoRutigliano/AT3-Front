@@ -1,0 +1,53 @@
+{
+    "faqForLaw": {
+        "faqForLaw": "Preguntas frecuentes para las fuerzas del orden",
+        "titles": {
+            "indice": "Índice",
+            "title1": "¿Atomico3.io controla la red Atomico3 o cualquier otra red de activos digitales?",
+            "title2": "Tengo una dirección de Atomico3 o un ID de transacción. ¿Puede Atomico3.io correlacionar esta información con cualquier información de identificación personal del usuario?",
+            "title3": "Tengo el nombre, dirección, número de teléfono u otra información de identificación personal de una persona. ¿Puede Atomico3.io correlacionar esta información con otra información de identificación personal?",
+            "title4": "¿Puede Atomico3.io congelar o entregar moneda virtual desde la billetera de un usuario?",
+            "title5": "¿Qué pueden hacer las fuerzas del orden si necesitan investigar una billetera sin custodia?",
+            "title6": "¿Cómo pueden las fuerzas del orden solicitar información a Atomico3.io?",
+            "title7": "¿Qué pasa si mi solicitud implica un riesgo inminente de muerte o lesiones corporales graves?",
+            "title8": "Renuncia"
+        },
+        "documento": {
+            "informacion punto 1": {
+                "p1": "Atomico3 es una red descentralizada, que permite a sus participantes realizar transacciones de valor (en forma de AT3) peer-to-peer sin necesidad de un tercero. Para obtener más información sobre Atomico3, consulte nuestro Centro de aprendizaje.",
+                "p2": "Atomico3 es un sitio web informativo sobre Atomico3 y otros activos digitales. También proporcionamos software en forma de billetera digital, que permite a los usuarios recibir, almacenar y enviar varios activos digitales (la 'Billetera'). La Billetera es una billetera sin custodia. Una billetera sin custodia es un tipo de billetera de criptomonedas en la que el usuario tiene las claves privadas de sus fondos. Esto significa que el usuario tiene control total sobre sus fondos y puede acceder a ellos en cualquier momento. Por el contrario, una billetera de custodia es donde el proveedor de la billetera tiene las claves privadas de los fondos del usuario. Esto significa que el proveedor de la billetera tiene control sobre los fondos del usuario y puede acceder a ellos en cualquier momento.",
+                "p3": "La distinción entre billeteras con custodia y sin custodia es relevante para la aplicación de la ley porque el uso de billeteras sin custodia dificulta el seguimiento y la incautación de criptomonedas. Las fuerzas del orden no pueden simplemente solicitar las claves privadas del proveedor de la billetera. En su lugar, las fuerzas del orden tendrían que localizar al usuario y obtener las claves privadas del usuario."
+            },
+            "informacion punto 2": {
+                "p1": "En términos generales, Atomico3.io no conoce a los usuarios de su billetera:"
+                ,"p1.1": "Nombres Legales",
+                "p1.2": "Direcciones postales (a menos que se utilicen para la identificación de 2 factores)",
+                "p1.3": "Números de la seguridad social o de documento nacional de identidad",
+                "p2": "Sin embargo, Atomico3 puede entregar cierta información de registro estándar de la industria asociada con la billetera, incluida la fecha de creación, la hora de inicio de sesión, la identificación del dispositivo, el sistema operativo, la dirección de correo electrónico asociada o los números de teléfono (si se usa para la identificación de 2 factores), junto con cualquier archivo de billetera cifrado respaldado con servidores Atomico3.io."
+            },
+            "informacion punto 3": {
+                "p1": "No, Atomico3.io no recopila ni almacena ningún dato personal de los usuarios de Wallet."
+            },
+            "informacion punto 4": {
+                "p1": "No, Atomico3.io no puede acceder a la billetera de un usuario porque la billetera no tiene custodia. Una billetera sin custodia es un tipo de billetera que permite a los usuarios mantener y poseer su clave privada mientras tienen el control total de sus fondos. Las claves se guardan en un almacenamiento cifrado, al que Atomico3 no puede acceder ni descifrar."
+            },
+            "informacion punto 5": {
+                "p1": "Si las fuerzas del orden necesitan investigar una billetera sin custodia, deberán rastrear el movimiento de criptomonedas desde la billetera del usuario. Esto se puede hacer analizando la cadena de bloques, que es el libro mayor público de todas las transacciones de criptomonedas. Sin embargo, esto también puede ser una tarea difícil, ya que la cadena de bloques es un conjunto de datos muy grande y complejo."
+            },
+            "informacion punto 6": {
+                "p1": "Atomico3.io cumplirá con cualquier citación debidamente emitida que se nos notifique a través de los canales legales adecuados. Si está emitiendo su citación desde una jurisdicción extranjera, esto puede requerir que obtenga cartas rogatorias y la aprobación posterior de nuestra jurisdicción local antes de que se pueda realizar la notificación. No damos nuestro consentimiento para la entrega de una citación por ningún otro método.",
+                "p2": "Consideraremos si responder a todas las demás consultas de las fuerzas del orden público caso por caso, y cualquier respuesta de este tipo es voluntaria y se realiza a nuestra entera discreción. Usted consiente y acepta expresamente que todas y cada una de las comunicaciones realizadas a Atomico3 se convierten en propiedad exclusiva de Atomico3 y que Atomico3 tendrá el derecho, a su entera discreción, de publicar o difundir dichas comunicaciones, independientemente del contenido de las comunicaciones."
+            },
+            "informacion punto 7": {
+                "p1": "Si usted es un agente de la ley que solicita información de Atomico3 que probablemente evite la muerte o lesiones corporales graves, puede ponerse en contacto con nosotros de forma urgente. Junto con los documentos apropiados enumerados anteriormente, envíe un correo electrónico a",
+                "p1.1": " con 'RIESGO INMINENTE' en la línea de asunto.",
+                "p2": "En el cuerpo del correo electrónico, incluya una breve declaración jurada que describa el riesgo inminente y Atomico3.io esforzará por responder de manera expedita. Nos reservamos expresamente todos los derechos de considerar si responder o no, lo cual es de forma voluntaria y a nuestra entera discreción, excepto en los casos en que se nos haya entregado una citación debidamente emitida a través de los canales legales adecuados."
+            },
+            "informacion punto 8": {
+                "p1": "La información y los datos proporcionados en respuesta a las solicitudes se recopilarán y proporcionarán en la medida más completa y precisa posible. Sin embargo, no se puede garantizar que nada en dicha información y datos contenga errores, equivocaciones, tergiversaciones o fallos, etc. Tales errores, equivocaciones, tergiversaciones o fallas, etc., pueden ser el resultado de imperfecciones de la agencia humana, el programa o el proceso.",
+                "p2": "POR LO TANTO, NI ATOMICO3.IO NI NINGUNO DE NUESTROS RESPECTIVOS DIRECTORES, FUNCIONARIOS, EMPLEADOS, AGENTES O ASESORES SUBCONTRATADOS HACEN NINGUNA REPRESENTACIÓN, GARANTÍA O AVAL ALGUNO CON RESPECTO A LA INFORMACIÓN Y LOS DATOS Y, EN PARTICULAR, EN CUANTO A LA EXACTITUD O INTEGRIDAD DE LA INFORMACIÓN Y LOS DATOS.",
+                "p3": "Nada de lo dispuesto en esta sección se considerará o interpretará como una falta de voluntad para proporcionar la información y los datos solicitados."
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "faqForLaw": {
+      "faqForLaw": "Perguntas frequentes para as forças de ordem",
+      "titles": {
+        "indice": "Índice",
+        "title1": "A Atomico3.io controla a rede Atomico3 ou qualquer outra rede de ativos digitais?",
+        "title2": "Tenho um endereço da Atomico3 ou um ID de transação. A Atomico3.io pode correlacionar essa informação com qualquer informação de identificação pessoal do usuário?",
+        "title3": "Tenho o nome, endereço, número de telefone ou outra informação de identificação pessoal de uma pessoa. A Atomico3.io pode correlacionar essa informação com outra informação de identificação pessoal?",
+        "title4": "A Atomico3.io pode congelar ou entregar moeda virtual da carteira de um usuário?",
+        "title5": "O que as forças de ordem podem fazer se precisarem investigar uma carteira sem custódia?",
+        "title6": "Como as forças de ordem podem solicitar informações à Atomico3.io?",
+        "title7": "O que acontece se minha solicitação envolver risco iminente de morte ou lesões corporais graves?",
+        "title8": "Isenção"
+      },
+      "documento": {
+        "informacion punto 1": {
+          "p1": "A Atomico3 é uma rede descentralizada, que permite aos seus participantes realizar transações de valor (na forma de AT3) peer-to-peer, sem a necessidade de um terceiro. Para mais informações sobre a Atomico3, consulte nosso Centro de aprendizado.",
+          "p2": "A Atomico3 é um site informativo sobre a Atomico3 e outros ativos digitais. Também fornecemos software na forma de uma carteira digital, que permite aos usuários receber, armazenar e enviar vários ativos digitais (a 'Carteira'). A Carteira é uma carteira sem custódia. Uma carteira sem custódia é um tipo de carteira de criptomoedas onde o usuário possui as chaves privadas dos seus fundos. Isso significa que o usuário tem controle total sobre seus fundos e pode acessá-los a qualquer momento. Em contraste, uma carteira com custódia é onde o provedor da carteira possui as chaves privadas dos fundos do usuário. Isso significa que o provedor da carteira tem controle sobre os fundos do usuário e pode acessá-los a qualquer momento.",
+          "p3": "A distinção entre carteiras com custódia e sem custódia é relevante para a aplicação da lei, pois o uso de carteiras sem custódia dificulta o rastreamento e a apreensão de criptomoedas. As forças de ordem não podem simplesmente solicitar as chaves privadas do provedor da carteira. Em vez disso, as forças de ordem precisariam localizar o usuário e obter as chaves privadas do usuário."
+        },
+        "informacion punto 2": {
+          "p1": "Em termos gerais, a Atomico3.io não conhece os usuários de sua carteira:",
+          "p1.1": "Nomes Legais",
+          "p1.2": "Endereços postais (a menos que sejam usados para identificação de 2 fatores)",
+          "p1.3": "Números de segurança social ou de documento de identidade nacional",
+          "p2": "No entanto, a Atomico3 pode fornecer algumas informações de registro padrão da indústria associadas à carteira, incluindo a data de criação, a hora de login, a identificação do dispositivo, o sistema operacional, o endereço de e-mail associado ou números de telefone (se usados para identificação de 2 fatores), juntamente com qualquer arquivo de carteira criptografado respaldado com servidores Atomico3.io."
+        },
+        "informacion punto 3": {
+          "p1": "Não, a Atomico3.io não coleta nem armazena dados pessoais dos usuários da Carteira."
+        },
+        "informacion punto 4": {
+          "p1": "Não, a Atomico3.io não pode acessar a carteira de um usuário porque a carteira não tem custódia. Uma carteira sem custódia é um tipo de carteira que permite aos usuários manter e possuir sua chave privada enquanto têm controle total sobre seus fundos. As chaves são armazenadas em um armazenamento criptografado, ao qual a Atomico3 não tem acesso nem pode descriptografar."
+        },
+        "informacion punto 5": {
+          "p1": "Se as forças de ordem precisarem investigar uma carteira sem custódia, elas terão que rastrear o movimento de criptomoedas da carteira do usuário. Isso pode ser feito analisando a blockchain, que é o livro razão público de todas as transações de criptomoedas. No entanto, isso também pode ser uma tarefa difícil, pois a blockchain é um conjunto de dados muito grande e complexo."
+        },
+            "informacion punto 6": {
+              "p1": "Atomico3.io cumprirá qualquer citação devidamente emitida que nos for notificada através dos canais legais adequados. Se a citação for emitida a partir de uma jurisdição estrangeira, isso pode exigir que sejam obtidas cartas rogatórias e a aprovação posterior da nossa jurisdição local antes que a notificação possa ser realizada. Não damos nosso consentimento para a entrega de uma citação por qualquer outro método.",
+              "p2": "Analisaremos se responderemos a todas as demais consultas das forças de ordem pública caso a caso, e qualquer resposta desse tipo será voluntária e feita a nosso critério. Você consente e aceita expressamente que todas e cada uma das comunicações feitas à Atomico3 se tornam propriedade exclusiva da Atomico3 e que a Atomico3 terá o direito, a seu exclusivo critério, de publicar ou divulgar tais comunicações, independentemente do conteúdo das comunicações."
+            },
+            "informacion punto 7": {
+              "p1": "Se você é um agente da lei que solicita informações da Atomico3 que provavelmente evitem a morte ou lesões corporais graves, pode entrar em contato conosco urgentemente. Junto com os documentos apropriados listados acima, envie um e-mail para",
+              "p1.1": " com 'RISCO IMINENTE' no assunto.",
+              "p2": "No corpo do e-mail, inclua uma breve declaração juramentada descrevendo o risco iminente, e a Atomico3.io se esforçará para responder de maneira expedita. Reservamo-nos expressamente todos os direitos de considerar se responderemos ou não, o que é feito de forma voluntária e a nosso critério, exceto nos casos em que tenhamos recebido uma citação devidamente emitida através dos canais legais adequados."
+            },
+            "informacion punto 8": {
+              "p1": "As informações e dados fornecidos em resposta às solicitações serão coletados e fornecidos na medida mais completa e precisa possível. No entanto, não se pode garantir que nada nessas informações e dados contenha erros, equívocos, distorções ou falhas, etc. Tais erros, equívocos, distorções ou falhas, etc., podem ser o resultado de imperfeições da agência humana, do programa ou do processo.",
+              "p2": "PORTANTO, NEM ATOMICO3.IO NEM QUALQUER UM DOS NOSSOS RESPECTIVOS DIRETORES, FUNCIONÁRIOS, EMPREGADOS, AGENTES OU CONSULTORES SUBCONTRATADOS FAZEM QUALQUER DECLARAÇÃO, GARANTIA OU ENDOSSO COM RELAÇÃO ÀS INFORMAÇÕES E DADOS E, EM PARTICULAR, QUANTO À EXATIDÃO OU INTEGRIDADE DAS INFORMAÇÕES E DADOS.",
+              "p3": "Nada do disposto nesta seção será considerado ou interpretado como uma falta de vontade em fornecer as informações e dados solicitados."
+            }
+          
+        
+      }
+    }
+  }
+  

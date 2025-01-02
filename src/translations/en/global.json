@@ -1,0 +1,816 @@
+{
+  "navbar": {
+    "nosotros": "About Us",
+    "inicio": "Home",
+    "staking": "Staking",
+    "legal": "Legal",
+    "preguntas frecuentes": "Faq",
+    "ayuda": "Help",
+    "medios y noticias": "Press and Media",
+    "inverti en": "Invest in",
+    "inverti en At3": "Invest in Atómico3",
+    "como invertir": "How to invest",
+    "feliz primavera": "Happy Spring!",
+    "comprar at3": "Buy AT3",
+    "tutoriales": "Tutorials",
+    "soporte": "Support",
+    "contacto": "Contact",
+    "descargar whitepaper": "Download Whitepaper",
+    "descargar Brochure": "Download Brochure",
+    "nuestro equipo": "Our Team",
+    "descargar brochure": "Download Brochure",
+    "sobre atomico": "About Atómico3",
+    "idiomas": "Languages",
+    "terms": "Terms and conditions",
+    "privacy": "Privacy policy",
+    "trabaja": "Work with us",
+    "proyectos de": "Tokenization",
+    "tokenizacion": "projects",
+    "proyectos de tokenizacion": "Tokenization projects",
+    "nuestros proyectos": "Our Proyects",
+    "informacion sobre litio": "Information about Lithium",
+    "medios": "Media",
+    "noticias": "Press",
+    "politica cookies": "Cookies Policy",
+    "faq for law": "Faq for law enforcement",
+    "iniciar sesion": "Log in",
+    "registrarse": "Sign up"
+  },
+  "nosotros": {
+    "title": "We are a company legally incorporated in Paraguay, dedicated to the development and optimization of mining activity. We provide them with the tool of tokenization of certified lithium reserves, seeking to innovate and revolutionize the electromobility industry. ",
+    "title p1": "By converting lithium reserves into digital tokens, we make it easier for the mining industry to finance its operations, contributing to the development of its comprehensive activity, and the transition towards a more sustainable future.",
+    "nosotros": "About Us",
+    "p1": "We are a legally established company in the Republic of Paraguay, dedicated to the development and optimization of mining activity, particularly lithium mining.",
+    "p2": "We contribute to the mining activity by providing the tool of tokenization (of its certified lithium reserves), aiming to innovate and revolutionize the global electromobility industry. By converting these certified lithium reserves into digital tokens, we facilitate the industry's financing. This contributes to the overall development of its activity and the transition towards a more sustainable future.",
+    "p3": "The Atómico3 token, under the symbol 'AT3', is designed to represent the tokenization of lithium reserves. The current issuance of AT3 is 100,000,000,000 tokens, each backed by certified lithium reserves in accordance with international NI 43-101 standards.",
+    "p4": "The blockchain contract backing this issuance is number: 0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76, ensuring the integrity and transparency of the underlying assets.",
+    "p5": "The company uses an innovative model of tokenization of real-world assets (RWA) to facilitate the integration of natural resources into the digital economy.",
+    "p6": "The brand and patent associated with this model are registered under the ownership of Atómico 3 SA's CEO-Founder, Lic. Pablo Rutigliano, with international class code number 9. All rights related to the brand and model are formally registered and are for the exclusive use of Atómico 3 S.A.",
+    "p7": "Thus, AT3 is set to develop its prices based on mining reserves, establishing a direct relationship between AT3 (Atómico3) and the price of Li₂CO₃ (battery-grade lithium carbonate). In conclusion, 1 AT3 will be equivalent to the price of 1 kilogram of lithium carbonate.",
+    "p8": "The collaboration between governments, businesses, and communities, along with clear and effective legal regulation, will be crucial to ensure the success of this transition towards a cleaner and fairer economy. We aim to transform the global lithium market by seeking to declare it a commodity.",
+    "Nuestros Valores": "Our Core Values",
+    "Propósito": "Purpose",
+    "Propósito descripcion": "Contribute to the development of mining activity in Latin America through the tokenization of mining assets, collaborating in being the financial tool for the development of mining.",
+    "Visión": "Vision",
+    "Visión descripcion": "We want to revolutionize the way natural resources are managed and invested by applying advanced tokenization and blockchain technologies.",
+    "Misión": "Mission",
+    "Misión descripcion": "Improve the efficiency and transparency of the lithium market, open new opportunities for investors and contribute to global economic development."
+  },
+  "header": {
+    "bienvenido": "Welcome to Atómico3",
+    "criptoactivo": "A crypto asset backed by lithium, promoting sustainability by reducing carbon emissions through tokenized incentives.",
+    "whitepaper": "Download Whitepaper",
+    "feliz primavera": "Happy Spring!",
+    "comprar token": "Buy Token",
+    "staking": "Staking"
+  },
+  "modal": {
+    "feliz primavera descripcion": "The following form must be completed only by those who purchased AT3 between 0:00 on Monday, September 23 and 23:59 on October 7.",
+    "recordatorio descripcion": "Remember that those who purchase AT3 between 0:00 on Monday, September 23 and 23:59 on October 7, to obtain the additional 5% of Spring Week must complete the form which is accessed by clicking on the button from 'Happy Spring'",
+    "continuar": "Continue",
+    "cancelar": "Cancel",
+    "completar formulario": "Complete form"
+  },
+  "popup": {
+    "p1": "Ask two of your friends to join the project by purchasing ATOMICO3 (new) through PEER TO PEER (P2P) transactions, at a price of $0.85.",
+    "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet.",
+    "p3": "These purchases must be made between 12:00 AM on Monday, October 21, 2024, and 11:59 PM on October 31, 2024.",
+    "saber mas": "Learn more"
+  },
+  "halloween": {
+    "p1": "Ask two of your friends to join the Project by purchasing ATOMICO3 (new) in PEER TO PEER (P2P) transactions at a price of $0.85. The purchases must be made between 00:00 on Monday, October 21, 2024, and 23:59 on October 31, 2024, and they must reference you when doing so.",
+    "p2": "From ATOMICO3, we will gift you 5% of the total purchases made by your two friends of ATOMICOS (new AT3), directly to your wallet. It is important that your two friends have purchased the ATOMICOS (new AT3) within the established timeframe.",
+    "p3": "Scroll down to learn more!",
+    "p4": "How to access the benefit?",
+    "p5": "To access this benefit, new AT3 buyers (new) must ",
+    "click aqui": "click here",
+    "p5.1": " to start the purchase process, and then continue with the steps below:",
+    "p7": "Complete Form:",
+    "p8": "Fill out the form that will appear in the ATOMICO3 app with all your contact details.",
+    "p9": "Data Confirmation",
+    "p10": "After pressing the submit button on the form, you will receive an email from support@atomico3.io confirming that everything has been properly recorded.",
+    "p11": "Receiving the benefit",
+    "p12": "The 5% gift from ATOMICO3 will be sent to the declared wallet (the same one indicated when completing the purchase, as your friend's reference) on November 4, 2024."
+  },
+  "atomicInfo": {
+    "que es atomico": "What is Atómico3?",
+    "p1": "It is a token that represents the tokenization of mining assets, tied to an underlying asset, Lithium (backed by lithium reserves certified under NI 43-101 standards), that each Project holds.",
+    "p2": "This process of digitizing lithium reserves allows for their commercialization on blockchain platforms, democratizing access to investment in natural resources, offering transparency, security, and liquidity.",
+    "p3": "With its innovative approach, we have facilitated sustainable investment and economic development in lithium-rich regions, positioning it as a high-value digital asset in the global market.",
+    "p4": "Our official wallet is ",
+    "p5": "Our POLYGON contract is ",
+    "descripcion atomico p1": " Atómico3 is a token that represents the tokenization of mining assets, backed by lithium reserves certified under ni 43-101 standards. This process digitizes lithium reserves, allowing them to be traded on blockchain platforms.",
+    "descripcion atomico p2": "Atómico3 democratizes access to investment in natural resources, offering transparency, security and liquidity. With its innovative approach, Atómico3 facilitates sustainable investment and economic development in lithium-rich regions, positioning it as a high-value digital asset in the global market.",
+    "criptoactivo responsable": "Responsible Cryptoasset",
+    "criptoactivo responsable descripcion": "Our token is backed by real lithium, with a value that grows alongside the demand for clean energy.",
+    "mercado objetivo": "Target Market",
+    "mercado objetivo descripcion": "Global investors with vision. Citizens committed to sustainability.",
+    "plataformas utilizadas": "Platforms Used",
+    "plataformas utilizadas descripcion": "Blockchain, official social networks and passionate communities, holders and technology enthusiasts."
+  },
+  "videoSection": {
+    "video section title": "Watch the video to learn more!"
+  },
+  "InvestSection": {
+    "¿Por qué invertir en Atómico3?": "Why invest in Atómico3?",
+    "Seguridad": "Security",
+    "Seguridad descripcion": "By being backed by lithium, the currency can diversify the risks associated with traditional reserves, such as gold or fiat currencies. this may make it less susceptible to fluctuations in global financial markets and the monetary policies of fiat currency issuing countries.",
+    "tecnologia y beneficios": "Technology and Benefits",
+    "tecnologia y beneficios descripcion": "The tokenization of lithium can revolutionize the way mineral resources are traded and used, providing significant benefits in terms of accessibility, liquidity, and transparency.",
+    "soporte": "Support",
+    "soporte descripcion": "We offer support to answer any of your inquiries."
+  },
+  "staking": {
+    "que es": "What is It?",
+    "como funciona": "How does it work?",
+    "clickea el enlace": "Click the link below to find out!",
+    "saber mas": "Learn more",
+    "como hacer staking": " How to make Staking?",
+    "como hacer staking p1": "Do you want to learn how to perform Staking? In this video we explain how to do it so that you can learn quickly and easily.",
+    "como hacer staking p2": "Click on the video and start investing today!"
+  },
+  "faq": {
+    "preguntas frecuentes": "FAQ",
+    "que es atomico": "What is Atómico3?",
+    "que es atomico descripcion": "Atomic 3 is a digital token backed by lithium reserves certified under NI 43-101. This process digitizes lithium reserves, allowing them to be traded on blockchain platforms.",
+    "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?": "Why don't I see the price of Atomico3 reflected in my wallet?",
+    "El token se encuentra en lista de espera en CoinMarketCap": "The token is currently on a waiting list at CoinMarketCap for listing, which is why the price will be reflected soon.",
+    "¿Dónde puedo ver la valuación de Atómico3?": "Where can I see the valuation of Atómico3?",
+    "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap": "You can view the current valuation of Atómico3 on decentralized Dex such as Quickswap.",
+    "¿Por qué el token Atómico3 no tiene liquidez?": "Why does the Atómico3 token have no liquidity?",
+    "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)": "The token was launched on August 12 and formal liquidity will be injected when it is listed on CoinMarketCap (for which we are working on).",
+    "¿Cuál es el contrato de Atómico3?": "What is the contract of Atómico3?",
+    "El contrato de token es el siguiente en la red Polygon": "The token contract is as follows in the Polygon network: 0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76",
+    "¿Proyección del precio de Atómico3 en el futuro?": "What's the price projection fot Atómico3 in the future?",
+    "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Will behave in relation to the price of international lithium carbonate (li2co3).",
+    "Link para consultar el precio actual del carbonato de litio": "Link to consult the current price of lithium carbonate:",
+    "Click aquí": "Click here!",
+    "¿Ya puedo hacer staking de los AT3 que adquirí?": "Can I now do the staking of the AT3 that I purchased?",
+    "Si puedo": "Yes, I can. To do this I must click on the blue button that says 'staking' located at the top of the page. Then in the pop-up window, I will be asked to link my wallet (to be able to say from where my at3 will come from). There I will see a form that I must fill in with my personal data and a contact email, this will allow me to choose the AT3 I want to place and the possible terms (60 days, 180 and 240). Finally, a confirmation will appear to confirm that it has been completed correctly."
+  },
+  "footer": {
+    "redes sociales": "Social Links",
+    "contacto": "Contact",
+    "links utiles": "Helpful Links",
+    "Comprar Atómico3": "Buy Atómico3",
+    "Preguntas Frecuentes": "FAQ",
+    "Términos y Condiciones": "Terms and Conditions",
+    "Política de privacidad": "Privacy Policy",
+    "todos los derechos reservados": "All rights reserved.",
+    "soporte": "Support",
+    "proyectos de tokenizacion": "Tokenization projects",
+    "nosotros": "About Us",
+    "como invertir": "How to invest",
+    "noticias": "Press and Media",
+    "horarios": "Do you need help? Visit our help center or write to us at support from Monday to Friday from 8:00 a.m. to 8:00 p.m. Or from 9:00 a.m. to 5:00 p.m. saturdays and sundays."
+  },
+  "stakingView": {
+    "¿Qué es el Staking?": "What is Staking?",
+    "staking p1": "This consists of acquiring cryptocurrencies and keeping them locked in a virtual wallet, smart contract, or wallet with the purpose of receiving profits or rewards. It's very similar to having a savings account and earning interest on the deposited capital.",
+    "staking p1.1": "In this case, it means depositing your Atómico3 into a smart contract (staking contract 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the period you choose (60, 180, or 240 days), benefiting from the interest we can offer based on the selected term.",
+    "staking p1.2": "At the end of the chosen term, all your AT3 will be returned to your wallet along with the agreed interest (unless you choose to renew it for a new term).",
+    "staking p1.3": "Remember that for this, you need to connect your wallet. If you don't know how to do it, you can watch the tutorials below.",
+    "¿Qué es el Staking? Descripcion": "It consists of depositing your Atómico3 into a smart contract (staking contract 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), keeping them there for the chosen period, and benefiting from the interest according to the selected term. They will be returned to your wallet once the term is over (unless you choose to renew for a new term).",
+    "¿Qué es el Staking? Descripcion 2": "Remember that for this, you need to connect your wallet. If you don't know how to do it, you can watch the tutorials below.",
+    "¿Cómo lo puedo hacer?": "How can I do it?",
+    "¿Cómo lo puedo hacer? descripcion": "Click the button below!"
+  },
+  "comprarAt3": {
+    "comprarAt3": "Buy AT3",
+    "p1": "Buying Atómicos is a convenient and attractive option, as it represents a secure investment backed by a strategic resource like lithium. By acquiring Atómicos, you are protecting your capital in an asset with high growth potential, which can be beneficial both in the short and long term.",
+    "p2": "To acquire Atómicos, simply click the button below.",
+    "p3": "We are available on Uniswap, where you can make your purchase quickly and securely."
+  },
+  "terms": {
+    "Términos y condiciones de pago del token AT3": "AT3 Token Payment Terms and Conditions",
+    "General": "General",
+    "General descripcion": "These AT3 Token Payment Terms and Conditions ('AT3 Token Terms') apply to the use of the AT3 token as your selected payment method for eligible Atómico3.io products and services in certain jurisdictions. Please read these AT3 Token Terms carefully. By using AT3 Token as your payment method, you acknowledge and agree to be bound by these AT3 Token Terms. These AT3 Token Terms apply in addition to the terms and conditions contained in the Order Agreement and the Product Purchase Agreement. In the event of a conflict between these AT3 Token Terms and the Order Agreement or Product Purchase Agreement regarding transactions with the AT3 Token, these AT3 Token Terms will apply. If you do not agree with any of the terms and conditions in these AT3 Token Terms, please do not select AT3 Token as your payment method. We reserve the right to change, suspend, remove, disable or impose restrictions or limits on our acceptance of the AT3 token as a payment method for our products and services at any time and without liability to you, in our sole discretion.",
+    "El token AT3 como método de pago": "AT3 Token as a Payment Method",
+    "El token AT3 como método de pago p1": "When prompted during the purchase process, we may, at our discretion, allow you to select AT3 Token as a payment method for the purchase of eligible products and services in certain jurisdictions, as detailed in our AT3 Token Payments FAQ at www.atomic3.io/support/token-at3, which we may update from time to time. We may require you to provide us with additional information to verify your identity when selecting the AT3 token as your payment method. To make a payment in AT3 token, you need a digital wallet that supports AT3 token transfers to external digital wallets, compatible hardware, and internet access.",
+    "El token AT3 como método de pago p2": "If you decide to make an eligible purchase with AT3 token, you must select AT3 token as your payment method when prompted. We will provide you with a digital wallet address ('AT3 Token Address') in alphanumeric form and in QR code. This is the payment location where you will need to send the AT3 token from your digital wallet. You can copy and paste or manually enter the alphanumeric code we provide you into the recipient field in your digital wallet software, or if your digital wallet software supports QR codes, scan the QR code we provide using your device to auto-fill the recipient field with the alphanumeric code.",
+    "nota importante": "IMPORTANT NOTE",
+    "nota importante descripcion": "It is your responsibility to confirm and verify that the alphanumeric code provided is identical to the alphanumeric code displayed in your digital wallet software by scanning the QR code or copying and pasting the alphanumeric code. We will not be responsible for any loss of AT3 token or other digital assets as a result of sending AT3 token to an incorrect wallet address or sending a digital asset other than AT3 token.",
+    "Comisiones de la red del token AT3": "AT3 Token Network Commissions",
+    "Comisiones de la red del token AT3 descripcion": "You are responsible for paying directly all network fees associated with the transaction (“Transaction Fees”), in addition to the AT3 Token Price. If your digital wallet software does not automatically generate an amount for Transaction Fees, you will need to calculate the amount necessary for the transaction to be processed on the AT3 token network. For more details on Transaction Fees, please see the AT3 Token FAQ at www.atomic3.io/support/token-at3. The Transaction Fee covers the cost of verifying AT3 token transactions. We have no control over the Transaction Fee and do not receive any part of it.",
+    "Soporte de pago de tokens AT3": "AT3 Token Payment Support",
+    "Soporte de pago de tokens AT3 descripcion p1": "The AT3 token is the only digital asset we accept as payment for our products at this time. You cannot make purchases with us using any other digital assets, including other cryptocurrency tokens. Our digital wallet for AT3 token is not configured to detect or receive digital assets other than the AT3 token.",
+    "Soporte de pago de tokens AT3 descripcion p2": "MAKE SURE YOU DO NOT SEND DIGITAL ASSETS OTHER THAN THE AT3 TOKEN. IF YOU ATTEMPT TO SEND A DIGITAL ASSET TYPE OTHER THAN THE AT3 TOKEN, THAT DIGITAL ASSET MAY BE LOST OR IRRETRIEVABLY DESTROYED. WE WILL NOT BE RESPONSIBLE FOR ANY LOST OR DESTROYED DIGITAL ASSETS.",
+    "Transacciones completadas una vez confirmadas": "Transactions Completed once Confirmed",
+    "Transacciones completadas una vez confirmadas descripcion": "Once an AT3 token transaction is sent to the network, it will be unconfirmed for a period of time (generally less than an hour, but up to a day or more) until the network reflects such transfer in a specified number of consecutive blocks in the AT3 token network. Such number will be determined by us at our discretion. We will consider your transaction pending until the AT3 token network reflects the transaction in the required number of consecutive blocks. We will send you an email communication once we have received your payment.",
+    "Pagos insuficientes y excesivos": "Underpayments and overpayments",
+    "Pagos insuficientes y excesivos p1": "The price of the AT3 token can be volatile and subject to up and down movements. You are responsible for initiating an AT3 token payment for the exact amount indicated on the payment page within the AT3 Token Price Window. Each AT3 Token Price will expire after the AT3 Token Price Window. After the AT3 Token Price expires, you will need to request a new AT3 Token Price and AT3 Token Price Window on the payment page and you may need to restart the payment process.",
+    "Pagos insuficientes y excesivos p2": "Regarding order fees and/or deposits, if you transmit an amount other than the Price in AT3 Token, your order may fail, we may refund your order fee and/or deposit under these AT3 Token Terms, and you must resubmit payment in the correct amount in order for us to process your order.",
+    "En cuanto a los pagos finales": "Regarding final payments",
+    "i": "If you transfer less than the AT3 Token Price, we will retain your payment and apply it to the amount due, and you will be required to pay the outstanding balance.",
+    "ii": "If you transfer more than the AT3 Token Price, you will not be entitled to a refund of the excess amount.",
+    "Los pagos con el Token AT3 son definitivos": "Payments with AT3 Token are Final",
+    "Los pagos con el Token AT3 son definitivos p1": "Once you initiate an AT3 token transaction, the transaction cannot be reversed. This is inherent in the nature of the AT3 token network and is not a policy set by us.",
+    "Los pagos con el Token AT3 son definitivos p2": "YOU ARE RESPONSIBLE FOR VERIFYING THAT YOU HAVE ENTERED THE CORRECT AT3 TOKEN ADDRESS IN THE RECIPIENT FIELD AND THE CORRECT AT3 TOKEN PRICE IN THE AMOUNT FIELD IN YOUR DIGITAL WALLET SOFTWARE.",
+    "Protocolos de la red Token AT3": "AT3 Token Network Protocols",
+    "Protocolos de la red Token AT3 descripcion": "We do not own or control the underlying software protocols that govern the operation of the AT3 token network. The AT3 token network protocols are open source and may be used, copied, modified and distributed by anyone. We are not responsible for the operation of the AT3 token network protocols. The AT3 token network protocols are subject to sudden changes in operating rules (e.g., forks), and such changes may materially affect the value, function and/or even the name of the AT3 token."
+  },
+  "noticias": {
+    "noticias": "Press",
+    "n1": "Increase in the price of lithium boosts the Argentine Atómico3 cryptocurrency as a solid investment option",
+    "n2": "The valorization of lithium in Latin America: perspectives, projections and its impact on the global market",
+    "n3": "Atómico3, the Argentine cryptocurrency linked to lithium, reduces its emission to make it sustainable over time",
+    "n4": "What mineral could reach U$S 8.7 billion in exports by 2030?",
+    "n5": "The Latin American Lithium Chamber raised to the mining secretary the need for the mineral price to be set in the country and not in London.",
+    "n6": "Little progress in the formation of a regional capital market for lithium."
+  },
+  "medios": {
+    "medios": "Media",
+    "por": "By",
+    "m1": "Meeting between the President of the Latin American Lithium Chamber and the Secretary of Mining of Argentina",
+    "m2": "The Price of Lithium: A Market Perspective",
+    "m3": "Lithium as a strategic commodity to develop the energy transition"
+  },
+  "team": {
+    "nuestro equipo": "Our Team",
+    "nuestro equipo descripcion": "At Atómico3, we have a team of passionate and visionary professionals committed to revolutionizing the cryptocurrency industry and the tokenization of natural resources. Our team combines expertise in blockchain technology, digital economy, and mining, working together to democratize access to lithium reserves and foster a sustainable energy transition.",
+    "ceo y fundador": "CEO & Founder",
+    "presidente": "President",
+    "director de finanzas": "Finance Director",
+    "Director de Prensa": "Press Director",
+    "Desarrollador Web3": "Web3 Developer",
+    "Desarrollador Web2": "Web2 Developer"
+  },
+  "invertir": {
+    "inverti y ahorra": "Invest and save with Atómico3",
+    "p1": "We will explain why you should invest and save with our project.",
+    "p2": "Today, you can invest in our project in three different ways:",
+    "modalidad 1": "By staking",
+    "modalidad 2": "Buying Atomics (AT3) in Peer to Peer with the official wallet",
+    "modalidad 3": "Buy new AT3 and take advantage of the different promotions.",
+    "invertir": "Invest",
+    "como invertir en atomico3": "How to invest in Atómico3?",
+    "como invertir p1": "At Atómico3 you can invest in 4 different modalities: Staking, Peer to Peer or Buy AT3",
+    "como invertir p2": "Here we will teach you how to do each of them. Click on the button below!",
+    "ver tutoriales": "Watch Tutorials"
+  },
+  "como invertir": {
+    "inverti y ahorra": "Invest and save with Atómico3",
+    "como invertir": "How to invest in Atómico3?",
+    "como invertir p1": "In this section, we will explain the different ways you can invest in our project today.",
+    "como invertir p1.1": "Below you will find detailed information about each of them, tutorial videos, and step-by-step instructions on how to do it.",
+    "como invertir p2": "Remember, the first step is to connect your wallet. If you don't know how to do it yet, check out the tutorials.",
+    "como invertir p3": "Scroll down and start investing today!",
+    "conectar tu wallet": "Connect your Wallet",
+    "conectar tu wallet p1": "To perform the necessary operations to invest in Atómico3, it is essential that your wallet is connected.",
+    "conectar tu wallet p2": "Watch the video below and learn how to do it!",
+    "peer to peer": "What is Peer to Peer?",
+    "peer to peer p1": "P2P or peer-to-peer purchases (literally, person-to-person) are instant transfers between individuals that take place through a digital platform. In this case, they are sent between digital wallets, with AT3 tokens on one side and USDT or USDC on the other.",
+    "peer to peer p2": "This way, you can buy your Atomics directly from us using the official wallet 0xAfF655c15c943121Dea79B67c47ac9BD2253FD65, paying with your USDT or USDC.",
+    "peer to peer p2.1": "You can acquire Atomics by clicking the button below or via a bank transfer.",
+    "peer to peer p2.1.1": " To use this second option, you must send us an email to",
+    "peer to peer p2.1.2": " requesting the purchase via bank transfer and providing all your details so that we can contact you and complete the bank-to-bank transfer.",
+    "peer to peer p2.2": "Remember that for this, you need to connect your wallet. If you don't know how to do it, you can watch the tutorials below.",
+    "peer to peer p3": "How to do Peer to Peer?",
+    "peer to peer p4": "Learn quickly and easily how to do it by following the steps below!",
+    "peer to peer p5": "Click on the video and start investing today!"
+  },
+  "soporte": {
+    "soporte": "Support",
+    "soporte p1": "If you have any questions or concerns, don't hesitate to contact us, we're here to help you!",
+    "whatssap descripcion": "Contact us via WhatsApp for better service!",
+    "email descripcion": "You can also send us an email with your inquiries!",
+    "nuestra direccion": "Our address!"
+  },
+  "tutoriales": {
+    "tutoriales": "Tutorials",
+    "wallet": "How to connect your wallet?",
+    "p2p": "How to perform Peer to Peer?",
+    "staking": "How to do Staking?"
+  },
+  "form": {
+    "Ingrese sus datos": "Enter your details",
+    "Ingrese sus datos p1": "Once your details are entered, the document will download automatically. Thank you very much!",
+    "Nombre": "First Name",
+    "Apellido": "Last Name",
+    "Email": "Email",
+    "Teléfono": "Phone",
+    "Aceptar": "Accept",
+    "Cancelar": "Cancel"
+  },
+  "privacyPolicy": {
+    "politica de privacidad": "Privacy Policy",
+    "vigencia": "Effective from October 9, 2024",
+    "titles": {
+      "indice": "Index",
+      "title1": "What is the content and scope of this Privacy Policy?",
+      "title2": "Scope of your consent",
+      "title3": "To be clear when reading our Policy!",
+      "title4": "What information do we collect and process?",
+      "title5": "For what purposes do we process the information?",
+      "title6": "With whom do we share the information and how can we process your Personal Information?",
+      "title7": "What information security and confidentiality measures do we take?",
+      "title8": "How can we communicate with you and what type of information can we provide?",
+      "title9": "Can we modify this Policy? What happens in the event of a sale or change of control of the Companies?",
+      "title10": "What are the User's responsibilities?",
+      "title11": "What rights does the User have and how can they exercise them?",
+      "title12": "What are the conflict resolution mechanisms, and what jurisdiction and law apply to this Policy?",
+      "title13": "Who is responsible for your Personal Information?"
+    },
+    "documento": {
+      "intro": "The protection of your information is important to us. This Privacy Policy applies to all activities that involve the processing of your information and aims to ensure transparency and control in the way we handle your information.",
+      "informacion punto 1": {
+        "intro": "This document contains the Privacy Policy (the 'Policy') that governs the relationship between ATÓMICO3 S.A. ('Atómico'), hereinafter 'The Companies' and, as appropriate, individually and separately, and the users ('User' or, in plural, 'Users'), whenever Users access or use one or more of the following platforms:",
+        "punto i": "the website",
+        "punto i link": "https://www.Atómico3.io",
+        "punto i tag": "('Website').",
+        "punto ii": "the 'Atómico' mobile application, available for download on mobile devices where it is available ('App').",
+        "punto iii": "the digital asset exchange platform provided through the website https:// ('Exchange').",
+        "conclusion": "For simplicity, we will refer to the Website, the App, and the Exchange collectively as 'Platform'."
+      },
+      "informacion punto 2": {
+        "p1": "To protect your information, Atómico complies with the regulations in force in the Argentine Republic, in particular, the rules and principles established by Law No. 25.326 (hereinafter, the 'Personal Data Protection Law'), its Regulatory Decree No. 1558/01, and other provisions that add to, modify, regulate, extend, complement, or eliminate them.",
+        "p2": "Atómico is a registered Responsible Party for the database containing your Personal Information with the Public Information Access Agency of the Argentine Republic.",
+        "p3": "Atómico also complies with all regulations of the Republic of Paraguay. It is registered with the Secretariat for the Prevention of Money or Property Laundering (SEPRELAD) of the Republic of Paraguay, fully aligned with compliance with Decree No. 2463/2024, which issued the update and modification of the annex related to the Action Plan of Decree No. 9012 dated March 22, 2023, to comply with the recommendations of the Latin American Financial Action Task Force (GAFILAT) in the context of the country's Fourth Round of Mutual Evaluations. This update and modification of the Action Plan was incorporated as part of the Paraguayan State Strategic Plan (PEEP), approved by Decree No. 11.200/2013."
+      },
+      "informacion punto 3": {
+        "p1": {
+          "title": "",
+          "content": "Below, we highlight key concepts to understand and keep in mind while reading our Policy:"
+        },
+        "p2": {
+          "title": "AAIP",
+          "content": "It is the Public Information Access Agency of the Argentine Republic."
+        },
+        "p3": {
+          "title": "Affiliate",
+          "content": "With respect to any given person, it shall be understood as any other person who controls, is controlled by, or is under common control with such a person, whether directly or indirectly. For the purposes of this definition, the term 'control' means the power to direct the management and policies of such a person, whether through ownership of voting shares or the right to elect the majority of the board of directors, and the terms 'controlled' and 'controls' shall be construed accordingly."
+        },
+        "p4": {
+          "title": "Database",
+          "content": "It is the organized set of Personal Information subject to treatment or processing, whether electronic or not, regardless of the mode of its formation, storage, organization, or access."
+        },
+        "p5": {
+          "title": "Consent",
+          "content": "The prior, free, express, and informed manifestation by the Owner of the Personal Information to carry out the processing of their Personal Information, which must be in writing or in another way that can be equated depending on the circumstances."
+        },
+        "p6": {
+          "title": "Responsible",
+          "content": "A natural or legal person, public or private, who owns a Database."
+        },
+        "p7": {
+          "title": "Owner ",
+          "content": "Any natural or legal person whose Personal Information is subject to the processing referred to in this Policy."
+        },
+        "p8": {
+          "title": "Transfer",
+          "content": "The transfer of information occurs when the Responsible Party sends the information to a recipient located inside or outside the country from which it was sent."
+        },
+        "p9": {
+          "title": "Treatment",
+          "content": "Systematic operations and procedures, whether electronic or not, that allow the collection, preservation, organization, storage, modification, association, evaluation, blocking, destruction, and generally the processing of Personal Information, as well as its transfer to third parties through communications, consultations, interconnections, or transfers."
+        }
+      },
+      "informacion punto 4": {
+        "title1": "Information provided by the User",
+        "p1": "When the User uses an Atómico Service and/or the Platform, the User agrees that Atómico may collect and process certain information about the User, for example: The use of, or access to the Service may require the creation of a User account. To create a User account and communicate with Atómico, the Companies require the User to provide their first and last name, email address, gender, date of birth, and other identifying data, depending on their use of the Service, their phone number, address, nationality, tax ID (CUIT, CUIL), national ID or other documents that allow identification, banking information, images (photographs of themselves or copies of their identification documents) requested for the purpose of validating their identity, financial information such as income, assets, liabilities, credit history, the origin of funds for using the Service, and the purposes for which the obtained funds will be used through the Service (hereinafter collectively referred to as 'Personal Information'). Additionally, Atómico will require the creation of a password to access certain functions of the Service.",
+        "p2": "The forms that Atómico requests the User to complete indicate which data are mandatory and which are optional. If the User does not provide the mandatory information, it may result in Atómico being unable to provide or continue providing the Service or access to the Platform.",
+        "p3": "The User is responsible for informing any necessary modification, change, or update of their Personal Information and will be accountable for the consequences of not having timely and fully informed Atómico of any of these.",
+        "title2": "Information collected by our systems",
+        "p4": "Atómico collects and processes general, statistical, and/or non-personally identifiable information ('Non-Personally Identifiable Information' or 'NPII') which includes technical information about your device, the operating system you use, and the application software.",
+        "p5": "Additionally, Atómico collects and processes information regarding all operations and activities carried out through the Service, dates, duration and frequency of User sessions and access through any means to the Service, geographic location of the device through which the Service is accessed or used, configuration, IP address, browser information, transaction data, and any other information we are given access to through mobile devices, tablets, or computers with which the Service is accessed or used (hereinafter collectively referred to as 'Operational Information'). In the event of the transmission of Operational Information to third parties in accordance with the terms of this Policy, the holders of the Operational Information will not be identifiable, except in cases of transmission of Total Information, as defined in point 5 of this Policy.",
+        "p6": "Atómico or its service providers may also use various web tools, including Cookies, Web Beacons, and Tagging on the Platform and advertisements, for the purpose of evaluating and improving the Platform and other electronic offerings, customizing services, enhancing your user experience, and communicating with Users about products and services that may be of interest.",
+        "title3": "Information provided by third parties",
+        "p7": "The User may choose to grant Atómico access to certain information stored by third parties, such as social networks (including but not limited to Facebook, Instagram, and Twitter). The type of information and the extent of its use may vary depending on the site or service and is controlled by your privacy settings on that site or service, and by your authorization when linking a third-party managed account to your Atómico managed account. Once you have linked your third-party managed account to your Service user account, you agree that Atómico may collect, store, and use, in accordance with this Policy, the information contained in the third-party managed account.",
+        "title4": "Exclusion",
+        "p8": "Excluded from this Policy is information related to your health, race, ethnicity, sexual orientation, criminal background, religion, union membership, moral and political opinions, as we will never ask you to provide it."
+      },
+      "informacion punto 5": {
+        "p1": "The User agrees that Atómico may process all the User's information mentioned in point 4 of this Policy (collectively, the Personal Information, the Non-Personally Identifiable Information, and the Operational Information, hereinafter the 'Total Information') for the following purposes:",
+        "finalidades": {
+          "a": "Communicate with the User, provide the Service, and fulfill contractual commitments;",
+          "b": "Validate your information, verify your identity, detect or prevent fraud, scams, and other crimes, comply with regulations and policies on money laundering prevention and counter-terrorism financing, manage and resolve any claims related to actual or alleged fraud, scams, and other crimes, investigate, evaluate, and adjudicate claims, complaints, and risks, and associate, link, complete, consult, link, tie, use, relate, gather, and join information related to your identity and digital reputation available in the digital environment, including messaging services and applications in any digital format, social content networks, mobile devices, and wearables, and generally, information related to your interaction on websites, applications, and content;",
+          "c": "Improve, optimize, and modify the Service or third-party services. In particular, it is clarified that the use of images and photographs for information validation is central to Atómico providing its Services to Users securely and preventing fraud, scams, and other crimes. Atómico may outsource this function to a specialized provider, and the provider may incorporate Personal Information (including images and photographs) into a broader database to improve and customize its services for Atómico and all its clients;",
+          "d": "Collect and analyze data trends, evaluate Service performance, conduct satisfaction surveys, facilitate the design, development, generation, and provision of software updates, product support, and other products and services for Users;",
+          "e": "Prepare advertising and/or marketing campaigns associated with any product and/or service;",
+          "f": "Evaluate, develop, offer, and provide goods and/or services to Users (you will not receive these offers and/or services if, under the first paragraph of point 8, you have opted not to receive them);",
+          "g": "Comply with the law, regulation, or orders from competent authorities, or for reasons of public safety, public health, and/or national defense, and to comply with regulatory reports, respond to a court order or competent authority's order.",
+          "h": "Offer advertising or marketing information about products and/or services from those third parties, access to events or promotions, market research, or other marketing activities (you will not receive this information if, under the first paragraph of point 8, you have opted not to receive it);"
+        }
+      },
+      "informacion punto 6": {
+        "intro": "To fulfill the purposes detailed above, the Total Information may be shared with:",
+        "item i": "Affiliates of Atómico, partners, and/or business collaborators.",
+        "item ii": "Atómico's service providers, including providers of technology services, networks, data transmission, identity verification, and other providers necessary for Atómico to provide all its Services correctly through the Platform.",
+        "item iii": "National, provincial, or municipal public and regulatory authorities and bodies.",
+        "item iv": "Atómico's and/or its affiliates' marketing service providers for analyzing User activities and optimizing advertising campaigns for Atómico, its affiliates, or Service Providers, in which case the processed information may be: IP address; MAC addresses; device ID and advertising IDs; HTTP header that includes the SDK processor version, country, language, device configuration, operating system version, as well as the app version; User's device and web activity information; and applications and tokens.",
+        "item v": "Atómico's and/or its Affiliates' user experience (UX) service providers for analyzing the User's experience to improve the Platform, in which case the processed information may be: visited screens, interaction patterns (such as screen actions, gestures: taps, scrolls) and device details (type, version, model, operating system). We use the information collected by UXCam Inc. to improve our app.",
+        "item vi": "Atómico's and/or its Affiliates' digital asset sending and receiving network service providers, such as Lightspark Group, Inc., including end-users of those providers, to enable the service of sending and receiving digital assets through those networks, in which case the processed information may be: the User's name and the user's address on that network. You agree that other users on that network may access your username and address on that network.",
+        "p2": "You may revoke your consent for the transmission of your Personal Information to third parties at any time by contacting us in person or via email at the addresses specified at the bottom of this Policy. Depending on its scope, revoking your consent may result in us no longer being able to provide the Service.",
+        "p3": "Any of the entities mentioned in the previous sections may be located in Paraguay, Argentina, Chile, Bolivia, Mexico, or even in countries on another continent or international or supranational organizations that, under applicable law, do not provide adequate personal data protection levels, such as Brazil or the United States, among others.",
+        "p4": "As a result, by accepting this Policy, the User expressly consents to their Total Information, including their Personal Information, being transferred internationally by Atómico, even to countries or international or supranational organizations that do not provide adequate levels of personal data protection under applicable law.",
+        "actividades title": "In accordance with the mentioned purposes, Atómico may carry out the following activities:",
+        "actividad 1": "Know, store, and process all the information provided by you in one or more databases, in the format deemed most convenient.",
+        "actividad 2": "Know, store, record, process, and monitor all information provided by you, either verbally or in writing, through any channel established by Atómico, which may be used as evidence in any complaint, claim, conciliation, or lawsuit.",
+        "actividad 3": "Order, catalog, classify, divide, or separate the information provided by you.",
+        "actividad 4": "Verify, corroborate, check, validate, monitor, investigate, or compare the information provided by you with any information legitimately available to us, including that known by our Affiliates.",
+        "actividad 5": "Analyze, process, evaluate, treat, or compare the information provided by you or collected by Atómico through interaction on digital platforms related to Atómico. The resulting data from analysis, processing, evaluations, treatments, and comparisons will be subject to the same authorizations you granted."
+      },
+      "informacion punto 7": {
+        "intro": "In compliance with the Personal Data Protection Law of the Republic of Argentina, and the Secretariat for the Prevention of Money Laundering or Assets, Atómico has taken appropriate measures to protect the security and confidentiality of your Personal Information, ensure that the provisions of this Policy are respected, and protect your Personal Information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction.",
+        "p1": "To ensure an adequate level of security for your Personal Information, Atómico may take, among others, the following measures:",
+        "medida1": "Encryption of Personal Information, when applicable.",
+        "medida2": "Measures capable of ensuring confidentiality, integrity, availability, and treatment services.",
+        "medida3": "Measures capable of quickly restoring the availability and access to Personal Information in the event of a physical or technical incident.",
+        "medida4": "Regular verification, evaluation, and assessment processes of the effectiveness of technical and organizational measures.",
+        "medida5": "Periodic risk assessment of accidental or unlawful destruction, loss, or alteration of Personal Information transferred, stored, or otherwise processed, or unauthorized communication or access to such information.",
+        "medida6": "Measures to ensure that any person acting under Atómico's authority who has access to Personal Information can only process such information following Atómico's instructions.",
+        "confidencialidad": "Your Personal Information will be treated confidentially. Within the scope of this Policy, we commit to maintaining confidentiality regarding such information and adopting all necessary measures to prevent its alteration, loss, unauthorized access, or processing, in accordance with applicable legislation and this Policy."
+      },
+      "informacion punto 8": {
+        "p1": "You may select the types of information you do not wish to receive from us, including promotional or advertising information from Atómico, its Affiliates, or third parties. However, you may not prevent us from sending you non-promotional information, such as information about your User account or ongoing requests or claims, as long as you have a User account. The Service may transfer cookies to the storage unit of the device through which you access or use the Service. Cookies are alphanumeric identifiers that work with your web browser and allow our systems to recognize you and improve your use of the Service. You can delete cookies or prevent us from sending them.",
+        "p2": "Check your browser's help section to perform any of these operations. In any case, we recommend allowing cookies from our Service: some features of the Service may not function properly or be completely disabled if cookies are disabled.",
+        "p3": "You may also request the revocation of the geographic location monitoring of the devices through which you access the Service. However, this revocation could disable some features or directly prevent the provision of the Service.",
+        "p4": "The Service may provide links to third-party websites. These websites are not operated by us and are beyond our control. Please note that these sites may collect information about you and that, by visiting them, you will be subject to their own privacy policies. Therefore, we recommend reading these and other documents governing your relationship with the providers of these websites. Atómico is not responsible for the privacy practices of these sites and cannot guarantee the security of the information they collect.",
+        "p5": "This Policy applies only to the use of the Service, and not to other third-party applications or websites with which Atómico has connections or hyperlinks."
+      },
+      "informacion punto 9": {
+        "p1": "Atómico reserves the right to modify this Policy at any time and with immediate effect. The User will be notified of changes to this Policy through any means that Atómico deems appropriate (including, but not limited to, posting on the Platform), and agrees that the continued use of the Service after notification constitutes full acceptance of the new terms of the Policy.",
+        "p2": "Atómico also reserves the right to enable access to and/or transfer Total Information to a third party in the event of a total or partial disposal, merger, spin-off, or change of control of the company."
+      },
+      "informacion punto 10": {
+        "p1": "Atómico takes all measures within its reach to protect the security, integrity, and confidentiality of Personal Information. However, the User assumes the risk of any transmission of any type of information under this Policy.",
+        "p2": "The User will not initiate any claims against Atómico or its Affiliates, and will indemnify and hold Atómico, its Affiliates, and its officers, representatives, and employees harmless from and against any claim, demand, action, cost, expense (including court costs and reasonable attorney's fees), loss, damage, and/or harm, direct and/or indirect, judicial and/or extrajudicial, that may arise directly or indirectly from:",
+        "item i": "Any action or omission of the User in connection with this Policy",
+        "item ii": "Any action or omission of the User in connection with their Total Information",
+        "item iii": "Any action or claim by third parties against the User and/or Atómico, or its Affiliates, in any way related to this Policy or the information whose collection, processing, and transfer is provided for in this Policy."
+      },
+      "informacion punto 11": {
+        "p1": "The User may request, at any time, access, rectification, update, or deletion of their Personal Information. To do so, they must share the contact details listed below.",
+        "p2": "If you contact Atómico, you must prove your identity so that Atómico can comply with access rights and proceed, as appropriate, with correction, updating, or deletion. Requests to delete Personal Information will be subject to any current legal and ethical obligations to inform or comply with document retention requirements imposed on us.",
+        "p3": "Please note that email communications are not entirely secure, so you should not include sensitive data in the emails you send us.",
+        "p4": "The User's Personal Information will be retained by Atómico for the duration of their Service subscription or as long as their User account is active. Upon cancellation or termination of the Service subscription, or closure of their User account, Personal Information will be kept until it is no longer necessary or relevant for the purposes for which it was collected by Atómico.",
+        "p5": "Under no circumstances may the User revoke their consent and request the deletion of their Personal Information from Atómico when there is a legal or contractual obligation that requires Atómico to retain the Personal Information.",
+        "p6": "We will not transfer your Personal Information to third parties without obtaining your prior consent, except when necessary to maintain our relationship with you, to continue providing the Service, or to comply with current data protection regulations. In particular, it is clarified that in the context of the provision of the Service, Atómico may transfer your Personal Information to Affiliates to carry out operations or activities associated with the Service. Therefore, by accepting this Policy, the User expressly consents to the transfer of their Personal Information to Atómico's Affiliates for operations or activities associated with the Service.",
+        "p7": "As the holder of Personal Information, the User has the right to access such information free of charge at intervals of no less than six months, unless a legitimate interest is proven, in accordance with Article 14, paragraph 3 of the Personal Data Protection Law. The AAIP, the Regulatory Body for the Personal Data Protection Law, has the authority to address complaints and claims related to non-compliance with personal data protection regulations."
+      },
+      "informacion punto 12": {
+        "p1": "This Policy is aligned with the laws of the Republic of Argentina in all respects and will be interpreted accordingly. It also seeks to comply with the regulations of the Republic of Paraguay, under the strict supervision of the Secretariat for the Prevention of Money Laundering or Assets.",
+        "p2": "The AAIP, as the Regulatory Body for the Personal Data Protection Law, has the authority to address complaints and claims made by those whose rights have been affected by non-compliance with current personal data protection regulations.",
+        "p3": "Without limiting the foregoing, in the event of any dispute, disagreement, or conflict arising from the application, interpretation, validity, and/or scope of this Policy, the User must communicate with Atómico in a reliable manner, submitting their claim so that the parties can attempt to reach an agreement. If, after 20 (twenty) days from the initiation of the claim, no solution has been reached, the User may also choose to submit their claim to any of the following competent bodies:",
+        "a": "Ordinary courts in the City of Asunción, Republic of Paraguay, with jurisdiction in the matter",
+        "b": "General Directorate of Consumer Defense and Protection of the Government of the City of Buenos Aires (more information at",
+        "b link": "http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general",
+        "b.1": ") or the Province or municipality where the User is domiciled, and where there is an arbitration instance or procedure for dispute resolution.",
+        "c": "Ordinary courts with jurisdiction in the matter and located in the User's place of residence."
+      },
+      "informacion punto 13": {
+        "p1": "The contact information for the registered data controller is: Atómico S.A.",
+        "p2": "Address: Av. Aviadores del Chaco 2351, 8th floor, Asunción, Paraguay",
+        "p3": "Email: support@atomico3.io"
+      }
+    }
+  },
+  "termsAndConditions": {
+    "terminos y condiciones": "Terms and Conditions",
+    "vigencia": "Valid from October 9, 2024, for an indefinite period or for the time established at the sole discretion of ATOMICO3 SA",
+    "titles": {
+      "indice": "Index",
+      "title1": "Content of the Terms and Conditions.",
+      "title2": "Acceptance of T&Cs.",
+      "title3": "Services offered on the Platform.",
+      "title4": "Risks of using the Platform.",
+      "title5": "Requirements for using the Platform.",
+      "title6": "Registration for Platform use.",
+      "title7": "Use of the Platform.",
+      "title8": "User Account.",
+      "title9": "User Obligations.",
+      "title10": "User Prohibitions",
+      "title11": "Request for account termination. Termination.",
+      "title12": "Security. Password recovery.",
+      "title13": "Credits.",
+      "title14": "Modifications to the T&C",
+      "title15": "Content. Intellectual Property",
+      "title16": "Platform termination. Lack of Liability.",
+      "title17": "Atómico Employees",
+      "title18": "Use of cookies and similar technologies",
+      "title19": "TAG Transfers.",
+      "title20": "Swap",
+      "title21": "Prepaid Cards. Cashback",
+      "title22": "Miscellaneous",
+      "title23": "Assignment",
+      "title24": "Consent for electronic notifications",
+      "title25": "Dispute resolution. Jurisdiction and applicable law",
+      "title26": "Suggestions, opinions, complaints, and comments",
+      "title27": "User Service",
+      "title28": "Notifications"
+    },
+    "documento": {
+      "informacion punto 1": {
+        "p1": "This document contains the terms and conditions (“T&C”) that govern the relationship between ATOMICO3 S.A. (“Atómico”) and its users. That relationship will exist as long as users access or use one or more of the following platforms (the “User” or in plural, the “Users”):",
+        "punto i": "The website",
+        "punto i link": "https://www.atomico3.io",
+        "punto i tag": "('Website').",
+        "punto ii": "The mobile wallet app “Atómico,” available for download on mobile devices where it is available (“App”).",
+        "punto iii": "Other services offered in accordance with these terms and conditions, or accepted by the User on the Platform.",
+        "conclusion": "To make it more practical for you, we will refer to the Website and the App, interchangeably, as the “Platform” and refer to each one specifically as just defined."
+      },
+      "informacion punto 2": {
+        "p1": "Any User must accept these T&C and the Privacy Policy to use the Platform. This acceptance by the User will bind them to Atómico through a legally valid contract.",
+        "p2": "Although the user can access the Privacy Policy by clicking on the following link",
+        "p2 link": "https://www.atomico3.io",
+        "p3": ", we inform you in advance that this document contains clauses on the handling of the User’s information, their device, and/or their online behavior. If you do not accept these T&C or the Privacy Policy, you will not be able to use the Platform."
+      },
+      "informacion punto 3": {
+        "p1": "The Platform will allow you, among other activities, to acquire, store, send, receive, and sell digital assets (“Services”)."
+      },
+      "informacion punto 4": {
+        "p1": "The use of the Platform will pose risks due to (i) the fluctuation of the value of digital assets and (ii) the mere use of the internet or devices. Conversely, the fluctuation of digital assets presents an opportunity, and the use of the internet facilitates accessibility. Before using the Services, we recommend that you acquire knowledge and consult professionals or experts to advise you on the characteristics of digital assets and the technologies involved. We do not recommend using the Services if you have not adequately informed yourself.",
+        "p2": "On the fluctuation of digital assets. In any case, you acknowledge and accept that digital assets and any activity related to them are financially risky in the sense that you may lose all the capital committed. Digital assets are highly volatile to the point that they could: have no value, depreciate to an insignificant value, or even cease to exist. The volatility of digital assets depends on issues beyond Atómico’s control. Therefore, Atómico does not guarantee that the capital committed in each operation performed on the Platform will maintain, increase, or reduce its value.",
+        "p3": "We clarify that Atómico may provide you with information about digital assets and their prices, but you should never interpret that information as financial or investment advice, nor does it in any way represent any type of advice, recommendation, suggestion, offer, or proposal by Atómico or its Affiliates. Any purchase, sale, or other operation with digital assets is solely the User’s decision. Only you will be responsible for any loss of value of the digital assets you freely acquired.",
+        "p4": "For the purposes of these T&C, Affiliates are considered any other person who directly or indirectly controls or is controlled by Atómico, or who, along with Atómico, are directly or indirectly under the common control of a third party. For the purposes of this definition, the word “control,” when used concerning Atómico, means the power to direct, directly or indirectly, the management and policies of Atómico through the ownership of voting shares or the right to elect a majority of the board members of such person, and the terms “that controls” and “controlled” have meanings correlating to the preceding.",
+        "p5": "On the use of the internet or devices. Atómico does not guarantee continuous or uninterrupted access to and use of its Platform and Services as they may occasionally be unavailable due to technical difficulties or internet failures in the links or for any other reason beyond Atómico’s control. When such a failure occurs, Atómico will take reasonable preventive measures within its reach. These measures may include suspending Services or access to the Platform. Users must understand that these measures are taken in good faith and for the benefit of the Users.",
+        "p6": "Additionally, the User may freely choose the device on which they access the Platform and should direct any complaint to the device's manufacturer for any defect or technical issue the device presents.",
+        "p7": "Atómico cannot guarantee that the Platform and communication channels with the User will always be free of viruses, spyware, trojans, worms, or any other element that may take knowledge of your information without your consent, damage or destroy your electronic devices, take control of your Account, or alter its normal functioning (“Harmful Elements”). It is the User’s responsibility and obligation to have the appropriate antivirus software, programs, and tools to detect, prevent, and neutralize any Harmful Elements. Atómico will not be responsible for any damage the User may suffer as a result or in connection with Harmful Elements or phishing emails sent by third parties pretending to be Atómico."
+      },
+      "informacion punto 5": {
+        "p1": "To use the Platform, you must be 18 years old and not be declared legally incapacitated or have restricted capacity to contract or dispose of your assets. Although it is the User's responsibility to meet this requirement, Atómico may request documentation that proves these conditions.",
+        "p2": "Users who have been temporarily suspended or permanently disabled by Atómico may not reuse the Platform, except with Atómico’s express authorization.",
+        "p3": "If registration of legal entities is available, and a legal entity registers on the Platform as a User, the individual using the Platform on behalf of said legal entity must have the capacity and have been granted sufficient powers of representation to contract on behalf of that entity, dispose of its assets, and bind it under these T&C.",
+        "p4": "No one may use the Platform or the Services as a merchant, landlord, or service provider for the purposes of General Resolution 4636 of the Federal Administration of Public Revenue and its modifying and complementary regulations.",
+        "p5": "The User declares and accepts that they will use the Platform and the Services only for personal, non-commercial purposes."
+      },
+      "informacion punto 6": {
+        "p1": "To use the Platform, you must register by completing the corresponding form with valid data and accurate, precise, complete, up-to-date, and truthful personal information (“Personal Data”). You must keep your Personal Data up to date and are responsible for any inaccuracies it may present.",
+        "p2": "The registration process may also be carried out by entering the data that Users have provided in a personal profile on a social network. In such cases, the User agrees that Atómico extracts from the social network in question certain information necessary for the provision of the Service and also what is established by the Privacy Policy.",
+        "p3": "Nevertheless, Atómico may, in any case, request documentation to verify the provided information or verify the data supplied with public or private databases and may eventually suspend the Services if you fail to prove the required information. Through this policy, Atómico intends to protect the Users who use the Platform in good faith.",
+        "p4": "The User authorizes Atómico and its Affiliates to verify the data provided with public entity databases, specialized companies, and credit bureaus, including without limitation the National Registry of Persons (RENAPER).",
+        "p5": "Atómico will use the Information for the following purposes: a) identification and authentication, b) administrative and commercial management of the Platform, c) service improvement, d) statistical purposes, e) sending notifications, promotions, or advertisements, among others; and, f) as stipulated in the privacy policy.",
+        "p6": "The User expressly acknowledges and accepts that Atómico may share the User’s information and documentation files with other companies within the same economic group and/or with the Financial Information Unit, the Central Bank of Argentina, the Central Bank of Paraguay (BCP), the Secretariat for the Prevention of Money Laundering (SEPRELAD), or any other competent authority or body to comply with regulatory obligations regarding customer knowledge for the prevention of money laundering and terrorism financing.",
+        "p7": "By voluntarily providing your data, you expressly and irrevocably authorize, granting a mandate under article 917 subsection c) of the Paraguayan Civil Code and in accordance with Law 6534/2020 'On Credit Personal Data Protection' and other supplementary or amending regulations, particularly article 6, for us, on our own or through specialized companies in our field, to collect information from Public or Private Records, banks, financial institutions, or other commercial entities, concerning your financial situation and economic solvency for obtaining, verifying, confirming and/or certifying the data you have declared and/or present in third-party databases, whether through telephone, electronic, etc. procedures. This authorization extends under the same terms to the possibility of providing third parties with information regarding your financial situation, credit information, active and passive operations, economic solvency, and/or compliance with commercial obligations.",
+        "p8": "The User expressly authorizes Atómico to share the information provided at the time of registration or later during the User's relationship with Atómico with providers of security, information processing, storage, and hosting services, among others."
+      },
+      "informacion punto 7": {
+        "p1": "Atómico protects its Users in good faith by limiting the registration of certain individuals who may misuse the Services. Thus, in order to protect the majority of Users in good faith on the Platform, Atómico will not allow registration or will suspend an existing one in all cases where it identifies that a User, or if applicable, their shareholders, subsidiaries, controlled entities, directors, officers, employees, or agents are individuals located in, established in, or residing in a country or territory whose government is subject to Sanctions, including but not limited to: the Crimea Region, Cuba, Iran, Syria, and North Korea.",
+        "p2": "For the purposes of this clause, 'Sanctions' will mean restrictions or prohibitions on the ability to engage in business and other economic activities with certain countries, regions, persons, or entities, or any governmental measure issued to deprive an entity (including individuals, corporations, territories, countries, etc.) of financial and economic assets to counteract and attempt to reduce behavior that threatens national or international security or contravenes international law.",
+        "p3": "In particular, individuals included in the OFAC (Office of Foreign Assets Control of the United States) Sanctioned Lists and United Nations terrorist lists, as well as any national list of blocked persons, will be rejected as Users or suspended or disqualified, prohibiting registration of the User or the use of the Platform in the aforementioned sanctioned territories or jurisdictions.",
+        "p4": "Individuals or legal entities for which there is information suggesting they may be related to criminal activities, especially those allegedly linked to drug trafficking, terrorism, or organized crime in general, will also not be able to register as Users.",
+        "p5": "In accordance with the provisions of this clause, Atómico may reject a registration request or cancel, suspend, or prevent, temporarily or permanently, an Account, or access or use of the Platform or the Services by any User (i) in the event of inconsistencies or discrepancies in the information provided by a User, or unusual or suspicious activities of the User in relation to anti-money laundering and terrorism financing prevention or fraud; (ii) if the User fails to provide or update the required information or documentation in a timely manner; (iii) if the User is subject to Sanctions, or located in, established in, or is a resident of a country or territory subject to Sanctions, as provided in this clause; (iv) if the User is or may be related to criminal activities, as stipulated in this clause; (v) if Atómico identifies suspicious or illegal activities or those not permitted by the practices and good customs of the industry, or (vi) when Atómico believes that the User violates these T&C, in whole or in part. In no event shall Atómico's decision generate any right for the User to be compensated or indemnified in any way or for any concept. It is clarified that in these cases, no prior notice or cause expression may be granted as part of the reasonable measures taken to prevent further damage in accordance with the provisions of Art. 1710 of the Civil and Commercial Code of the Argentine Republic."
+      },
+      "informacion punto 8": {
+        "p1": "Once the registration process is completed, the person will have created a User account on the Platform ('Account'), which can be accessed with an email address or Username, a password, and, if activated, a two-factor authentication. Accessing the Account by entering the email address or Username and password will have the effect of an electronic signature concerning all operations the User performs through the Platform.",
+        "p2": "The sale, assignment, or transfer under any title is prohibited. The User agrees not to allow or authorize the use of their Account by third parties and not to create more than one Account. The User is obliged to maintain the confidentiality of their password and the security of the devices they use to access their Account and, consequently, will be solely and exclusively responsible for all operations carried out from any device that uses their Account. The User agrees to notify Atómico of any entry, attempted entry, or unauthorized use of their Account immediately and through a reliable means or any of the communication channels available from the Platform. With this, Atómico may take actions within its reach to protect its digital assets.",
+        "p3": "The availability of the Services will depend on the level of validation of the Account. The User accepts that the validation levels, information, and requirements associated with each of them and their associated Services are subject to the exclusive discretion of Atómico. That is, Atómico may require different levels of validation for different Services provided on the Platform.",
+        "p4": "The User declares to know and accept that the Services are subject to the outcome of the relevant analysis, compliance with the required requirements, and prior approval by Atómico. The Services are not limited to residents of the territory of the Argentine Republic and are subject to technical and geographical availability, unless specified otherwise.",
+        "p5": "The User agrees that the products and services of Atómico or any third party are made available through the Platform and are subject to their own terms and conditions and privacy policy of the third party, which will be duly informed to the interested party by the third party and must be accepted by the User in order to access these products and services.",
+        "p6": "The User accepts the receipt of electronic invoices from Atómico at their registered email address, in which the commissions duly informed on the Platform and accepted by the User in each operation will be invoiced. The User acknowledges and accepts that the sending of electronic invoices may take up to 48 business hours."
+      },
+      "informacion punto 9": {
+        "9.1": "Lawful use. Duty to cooperate",
+        "9.1 p1": "The User must use the Platform according to its purpose and in accordance with these T&C, the laws, morality, and generally accepted good customs and public order.",
+        "9.1 p2": "The User must respond promptly and adequately to any information request made by the Platform.",
+        "9.2": "Operations management",
+        "9.2.1": "Generalities. Limits. Subject to technical availability, the User may, through the Platform, carry out operations of buying, receiving, storing, sending, and selling digital assets, among others that Atómico may make available. Each of those instructions given by the User through the Platform for Atómico to manage each operation will be a “Management Order.” Atómico may, at any time, modify the limits on the number or amount of Management Orders to comply with policies for the prevention of money laundering and terrorist financing, Atómico's policies, or other applicable regulations.",
+        "9.2.2": "Irrevocable mandate. The User acknowledges and accepts that, by issuing a Management Order: (i) grants an irrevocable mandate to Atómico and/or the affiliated company to carry out the necessary operations for the purpose of buying or selling digital assets, to send or receive digital assets, to store digital assets, or the execution of any other available Service, and (ii) irrevocably authorizes Atómico and/or the affiliated company to carry out any operations (including, without limitation, commercial operations) that Atómico and/or the affiliated company, in its sole discretion, considers appropriate to comply with the Management Order within the timeframes communicated to the User, including the debit of any interest, cost, or charge applicable to the operation.",
+        "9.2.3": "User's responsibility. The User is solely responsible for each Management Order and its consequences and acknowledges that Atómico will not verify the underlying business of the Management Order, nor its cause, purpose, or circumstances, nor the capacity of the contracting parties. The User is responsible for any error (including, without limitation, typographical errors— including those related to the amount, the quantity of digital assets, or the recipient—, resending forms, or duplicating orders) that may have been made when completing or issuing a Management Order and when sending digital assets to or from the Platform (including, without limitation, sending to the Platform and from it to the outside, unsupported digital assets by the same and/or by the recipients or using networks not supported by the Platform and/or by the recipients for sending or receiving digital assets). The User is also responsible for the payment of applicable taxes on the operations performed with the Platform, and Atómico will not be responsible for making notifications, payments, or any other obligations of the User to the competent authorities.",
+        "9.2.4": "Absence of guarantees. The User acknowledges and accepts that Atómico is not responsible for, nor guarantees compliance with: (i) any obligation assumed by any User, nor (ii) any obligation assumed by any natural or legal person associated or linked to Atómico for which it has no duty to respond.",
+        "9.2.5": "Costs and fees. The User acknowledges and accepts that Management Orders may incur expenses, costs, and fees. All costs and fees established by Atómico are duly informed on the Platform. The User must inquire about the costs or fees imposed by third parties other than Atómico before issuing any Management Order. The issuance, by the user, of a Management Order constitutes a declaration of knowledge and acceptance of all expenses, costs, and fees involved.",
+        "9.2.5 p1": "Deposit fees:",
+        "9.2.5 p2": "In cash via Rapipago: 2.5% final.",
+        "9.2.5 p3": "Via MercadoPago: 3% final.",
+        "9.2.5 p4": "Via UENO BANK: 2.5% final.",
+        "9.2.5 p5": "Withdrawal fees:",
+        "9.2.5 p6": "In cash via Rapipago: 1.2% final.",
+        "9.2.5 p7": "Via MercadoPago: 0% final.",
+        "9.2.5 p8": "Via UENO BANK: 1.5% final.",
+        "9.2.5 p9": "Commission for buying or selling digital assets: 2% final.",
+        "9.2.6": "Acceptance and rejection of Management Orders. Atómico may preventively reject a Management Order in the cases provided in these T&C.",
+        "9.2.7": "Third-party terms and conditions. The User acknowledges and accepts that, in executing a Management Order, third parties may be involved. These third parties may subject their products and services to their own terms and conditions and privacy policy, which will be timely communicated by Atómico or its provider and must be accepted by the User in order to access these products and services. In case those terms and conditions contain any provision that contradicts these T&C, the User agrees that these T&C shall prevail.",
+        "9.2.8": "Use and expiration of Coupons. Some Management Orders may involve the issuance of tickets, coupons, payment receipts, or physical or digital barcodes (collectively, “Coupons”). The User agrees that Coupons are non-transferable to other people and must not be altered or used as a means of collection. Coupons will have a validity period of 24 hours. The User agrees that, once this term has expired, the Coupons will lose their value. In case the User pays, deposits, or sends digital assets after the term has expired, Atómico reserves the right to return the funds to the payment method used by the User or to credit the funds to the Platform Account.",
+        "9.2.9": "Limits. Atómico may determine or modify the limits of different operations, which will be communicated in the respective operations or in the corresponding section on the Platform.",
+        "9.2.10": "Powers of Atómico. Limits. Communication of Operations. Atómico reiterates that it strictly complies with all laws and regulations issued by local authorities that regulate the activity of digital asset companies. In this regard, it makes the necessary communications required by local agencies. Users, by adhering to these T&C, assume, personally and non-transferably, full responsibility for their statements and declare that they have the economic capacity to transact in the intended volumes, with Atómico having the authority to, at any time, request the user to provide conclusive proof of their financial capacity, under the penalty, at Atómico's discretion, of reducing the granted limit or taking other legally possible measures.",
+        "9.3": "Operations with guaraníes",
+        "9.3.1": "The user agrees that the balance in guaraníes that is active on the Platform and has been made available to Atómico S.A will be managed and credited to the payment account offered by them, starting from the acceptance of these T&C.",
+        "9.4": "Operations with digital assets",
+        "9.4.1": "Receipt or purchase of digital assets. The User agrees that the receipt of digital assets in their Account may occur through the issuance of purchase orders by the means available through the Platform or indicated on the Platform—which Atómico may modify without prior notice—or by receiving transfers of digital assets from third parties. By issuing a purchase order for digital assets, regardless of the payment method, the User acknowledges and agrees that they will be authorizing Atómico, with the User's available funds in their Account, to procure for the User the quantity and type of digital assets indicated, through any channels and in any lawful manner that Atómico deems appropriate. The User agrees that the quotation indicated by Atómico will only be maintained for the period established on the Platform.",
+        "9.4.2": "Storage of digital assets. The User acknowledges and agrees that, in order to provide a better User experience and especially to minimize the consequences of potential attacks on the User or the Platform, the digital assets that the User sees on the Platform as their own may be associated with one or more Public Keys controlled by Atómico and/or its Affiliates instead of the User's Public Key. “Public Key” means the alphanumeric code used in the blockchain to identify a specific digital asset account. The User grants an irrevocable mandate to Atómico to safeguard the digital assets of their Account in one or more Public Keys controlled by Atómico and/or its Affiliates and/or third parties, and to use services and/or tools of its own or third parties so that Atómico can adequately provide the Services related to digital assets.",
+        "9.4.2 p1": "Atómico and its Affiliates use a dual custody mechanism for digital assets, consisting of “cold and hot wallets” (the former are storage systems that do not need to be connected to the network, and the latter are storage systems connected to the network), so that the majority of the digital assets safeguarded from Users are stored by Atómico and/or its Affiliates in “cold wallets,” which are more secure “offline” systems. Therefore, the digital assets reflected in each User's balance on the Platform may be housed in Atómico and/or its Affiliates' “cold wallets.”",
+        "9.4.3": "Sending and selling digital assets. The sale and sending of digital assets may be carried out through the means available on the Platform and in the manner indicated on the Platform. The sending or sale of digital assets will require the specified quantity and type of digital asset to exist in the Account, and in all cases will be subject to the payment of any debt the User may have with Atómico, regardless of its cause. The User agrees that the quotation provided by Atómico to the User will only be maintained for the period established on the Platform.",
+        "9.4.4": "Delays. Cancellations. The User agrees that any type of operation with digital assets may be subject to delays or cancellations by third parties. The User acknowledges that Atómico will not be liable for direct or indirect damages that the delays and cancellations of third parties may cause. As far as Atómico is concerned, within its control, it will make reasonable efforts to ensure that all operations with digital assets are carried out within 72 business hours from when the Management Order is correctly submitted.",
+        "9.4.5": "Returns. The User agrees that the existence of digital assets in their Account for any period of time will not make them eligible for returns of any kind unless Atómico expressly states otherwise for a specific product or Service.",
+        "9.4.6": "Commissions. The User agrees that Atómico may charge them a commission for providing Services related to operations in digital assets, equivalent to a percentage of the amount of each operation, which will be charged upon the execution of each operation. The percentages are published on the Platform. It is expressly established that Atómico may modify the commission percentages and their payment method unilaterally at any time. Any change in the commission scheme will be published on the Platform and/or notified to Users through any of the available digital channels.",
+        "9.4.7": "Exclusion of warranties and liability regarding blockchain technologies. Forks. Atómico has no authority or control over the blockchains or software protocols governing operations with digital assets enabled on the Platform. In general, these blockchains and protocols are open-source, and anyone can use, copy, modify, and distribute them. Consequently, Atómico assumes no responsibility for the operation of such protocols nor guarantees their functionality, security, or availability. By using the Services, the User acknowledges and agrees that the blockchains and protocols are subject to sudden changes in their operational rules (as in the case of potential forks), which may materially and/or significantly affect the value, functionality, or denomination of the digital asset in question and create new digital assets.",
+        "9.4.7 p1": "In the event of a Fork, Atómico may immediately suspend its operations temporarily, and if it deems necessary, may (a) configure or reconfigure its systems and/or (b) decide not to support (or cease to support) a protocol and/or the original digital asset and/or the alternative one, as long as the User has the opportunity to withdraw the original digital assets from the Platform. The User agrees that Atómico has no obligation to transfer or in any way credit the User with alternative digital assets arising from a Fork. The User agrees that Atómico assumes no obligation or liability regarding a Fork, an unsupported branch of a blockchain, or an alternative protocol to an existing one. Furthermore, the User acknowledges and agrees that transactions made on the Blockchain are irreversible once confirmed through the protocol established in each case and that Atómico has no ability to reverse them.",
+        "9.4.8": "User Responsibility. The User is responsible for complying with all regulations, measures, regulations, and/or communications regarding access to the foreign exchange market and complementary measures issued by the Central Bank of the Argentine Republic or any competent body, without prejudice to those that are exclusively for compliance by the Company.",
+        "9.4.9": "Automatic Conversion. Upon accepting these T&Cs, the User will have the option to choose whether, when depositing guaraníes into their Account, to keep that balance in that currency or to carry out an automatic conversion of guaraníes (the “Automatic Conversion”) to the stable digital assets USDT or USDC (“USDT”) or any other digital asset that Atómico makes available for that purpose.",
+        "9.4.9.1": "Irrevocable Mandate. If opting for Automatic Conversion, the User grants a mandate to Atómico so that each time the User receives a deposit in Argentine pesos in their payment account managed by Atómico, on behalf of and for the User, it will immediately purchase USDT or another digital asset, according to what was previously chosen, corresponding to the purchase price that appears at that moment on the Platform. The USDT or the digital assets corresponding to what was chosen in the Automatic Conversion will be credited to the Account.",
+        "9.4.9.2": "Option. At any time, the User may modify their choice to carry out the Automatic Conversion to another of the available assets or to maintain the deposit in their payment account in Argentine pesos.",
+        "9.4.9.3": "Sale. The User may, at any time, sell the USDT or another digital asset resulting from the Automatic Conversion on the Platform and at the sale price, published there at the appropriate time, against Argentine pesos. The Argentine pesos will be credited to their payment account, and the User may use them to contract other Services or to withdraw them.",
+        "9.4.9.4": "The mentioned tokens are not a negotiable security, value title, or commodity, and you accept and acknowledge that you are receiving the token for use both on the Platform and on third-party exchanges where it may eventually be listed and not for investment or financial gain purposes. These Terms do not constitute any invitation to subscribe to negotiable securities, value titles, or any other instrument with similar effects.",
+        "9.4.10": "In the event of a purchase with the ATOMICO3 Prepaid Card having selected one of the digital assets as a means of payment, the User grants an irrevocable mandate to Atómico to sell the necessary amount of the selected digital asset to obtain the corresponding Argentine pesos to cover the payment of the amount indicated by the Merchant. For this sale, Atómico will use the sale price of that asset at the time of the transaction. Atómico will charge the user the corresponding commission for a digital asset sale.",
+        "9.4.11": "In the event of a transfer through the UENO BANK network in a currency different from AT3, the User agrees and grants an irrevocable mandate to Atómico to automatically convert the amount of the selected asset to its equivalent in AT3, according to the price on the Platform, at the time of the operation."
+      },
+      "informacion punto 10": {
+        "intro": "Without being an exhaustive list, the User agrees to refrain from engaging in the following actions, either directly or through a third party:",
+        "a": "Using the Platform, the Services, or any of its content in a manner or for purposes that Atómico considers distinct or contrary to these T&C, laws, morals, good customs, or public order;",
+        "b": "Using the Platform to send, reproduce, or publish files or any type of information whose content is obscene, abusive, defamatory, injurious, pornographic, political, or contrary to laws, morals, and good customs, or that contains malicious software such as viruses, worms, or any other feature capable of destroying or damaging the operation of an electronic device, the Platform, or the systems or servers of Atómico, its Affiliates, or a third party;",
+        "c": "Using the Platform to send, reproduce, or publish files in violation of third-party intellectual property rights;",
+        "d": "Exploiting or taking advantage of an attack on the Platform, or a vulnerability or error of the Platform, for personal benefit or that of a third party;",
+        "e": "Using the Platform on behalf of or for the account of third parties, or allowing any person (including, without limitation, through assignment, licensing, transfer, or rental) to use the Account or any of the Services associated with it, including charging for the Services;",
+        "f": "Placing Management Orders to carry out operations that constitute or could be understood as loans or cash advances to oneself or third parties, or as steps in a process culminating in, or involving, those operations;",
+        "g": "Using programs, software, or automatic or manual devices to monitor or copy information or any type of content or element of the Platform;",
+        "h": "Linking the Platform or the Services to unsolicited promotions, political campaigns, or commercial messages (SPAM) or to any chain message or content designed to deceive or obtain undue benefits from Users or third parties;",
+        "i": "Taking actions that restrict, deny, or impede any individual, group, entity, or organization from accessing or using the Platform and the content, products, and services offered through the Platform;",
+        "j": "Attempting to violate any authentication and security systems of the Platform;",
+        "k": "Attempting to obtain any kind of material or content accessible through the Platform using procedures or means other than those expressly indicated or made available to the User, as applicable;",
+        "l": "Including frames, links, deep links, or links to the Platform from other websites or any software or electronic device;",
+        "m": "Performing any action that imposes an undue or excessive burden on the technological infrastructure of the Platform;",
+        "n": "Using meta tags or any other type of hidden text with the name 'Atómico', 'Atómico', or any other name or trade designation and/or intellectual property rights that belong to or are owned by Atómico or its licensors or Affiliates;",
+        "o": "Issuing an invoice addressed to Atómico unless a commercial agreement has been established between the User and Atómico under which Atómico has agreed to pay for goods or services. Any invoice issued in the name of Atómico, outside of the previous case, will be null and void."
+      },
+      "informacion punto 11": {
+        "p1": "The User may request the cancellation of their Account through the Platform, or via email to support@atomico3.io only from the email address with which they registered, or by sending a registered letter to the address: Av. Aviadores del Chaco 2351 8th floor, Asunción, Paraguay.",
+        "p2": "Atómico may request receipts or additional information to verify the authenticity of the cancellation request and the information provided by the User. This verification is carried out to protect the rights and assets of the User and in no way will limit or restrict the User's right to request the cancellation of the service. Once the request is deemed valid, Atómico will proceed to delete the access credentials to the Services. The document number and email associated with the User will remain blocked so that no other person can create a new Account under those parameters.",
+        "p3": "Both the User and Atómico may terminate this contract at any time for just cause. The User may terminate the contract by requesting Atómico, through the notification means provided in these T&C or through the means available via the Platform, to close their Account. Atómico will only proceed to close the Account if it has a positive balance or an equivalent balance of zero. If the User receives periodic credits automatically, regardless of their cause, they understand and agree that it is not possible for Atómico to advance any of those credits, and that any credit following the request to close the Account must be rescheduled with the third party with whom the User agreed to those credits or, conversely, canceled without the right to compensation.",
+        "p4": "The positive balance in the Account must be withdrawn by the Client prior to closing the Account. However, if there is a positive balance at the time of closing, it will be settled and delivered to the User through the means selected by the User and duly communicated to Atómico or through any means the User has previously used to withdraw digital assets. The Account cannot be closed if there is a balance that cannot be returned to the User for any reason unrelated to Atómico.",
+        "p5": "The User authorizes Atómico to charge any interest, cost, and/or expense that may apply at the time of, or as a result of, the termination or closure of the Account."
+      },
+      "informacion punto 12": {
+        "p1": "The User acknowledges that any service through which digital assets are stored presents an attractive target for scammers and hackers. While Atómico takes common reasonable measures for its industry to ensure the security of the User's funds and digital assets, the security of a specific Account also depends on the security measures that the User takes regarding the devices and methods by which they access their Account.",
+        "p2": "Atómico emphasizes the importance of the strength of the chosen password to the User and also offers the User the option to access their Account through two-factor authentication (\"2FA\"), which significantly enhances account access security. In line with these T&C, Atómico assumes that any modification and movement in an Account, following prior login, has been made by the User, so the User acknowledges and agrees to be the exclusive responsible party for the use of their Account and for the direct and indirect consequences and damages arising therefrom.",
+        "p3": "If the User forgets or loses their password, they can recover it through the means available via the Platform; failing which, they must contact Atómico at the address support@atomico3.io.",
+        "p4": "The User accepts, understands, and acknowledges that Atómico, under no circumstances, has access to or knowledge of the password that the User chose at the time of Account creation or recovery, as it is encrypted under strict security protocols.",
+        "p5": "Atómico will make its best efforts to maintain the confidentiality and security of Users, but will not be liable for any damages that may arise from violations of such measures by third parties using public networks or the Internet to access such information or in cases where there is fault or negligence on the part of the User."
+      },
+      "informacion punto 13": {
+        "p1": "The User acknowledges that Atómico does not grant any type of credits by itself."
+      },
+      "informacion punto 14": {
+        "p1": "Atómico may modify these T&C at any time. The User will be notified of such modifications through the publication of the new T&C on the Platform. The User agrees that accessing or using the Platform after the modification constitutes full acceptance of the new T&C; if the User does not agree with the new T&C, they must cease accessing or using the Platform. In case of modifications to essential features of the Service, the User will be notified through the publication of the new T&C on the Platform and will be given the option to accept or decline them. If the User does not accept the new T&C and their consent is necessary for the provision of the Services, access to the Services will be partially or fully disabled and/or the Account will be closed."
+      },
+      "informacion punto 15": {
+        "p1": "All content on the Platform, including but not limited to the design of its screens, promotional materials, brands, trade names, distinctive signs, texts, graphics, logos, images, icons, buttons, videos, sounds, music, databases, source code, software, and color combinations ('Content'), is owned by Atómico or its licensors. The Content may not be reproduced, modified, transformed, edited, translated, assigned, distributed, publicly communicated, stored, used for purposes other than those intended in these T&C, nor be the subject of derivative works, without prior written authorization from the rights holder.",
+        "p2": "The fact that the User can access the Platform does not grant them any license, right, or title over the industrial or intellectual property rights over all or any portion of the Content. Users are granted a non-exclusive, revocable, and limited license to access and use the Platform in accordance with these T&C.",
+        "p3": "If the User believes that any third-party intellectual property rights have been violated on the Platform or in the Content, they must notify Atómico at the address indicated in these T&C, providing all necessary information and documentation to support this assertion."
+      },
+      "informacion punto 16": {
+        "p1": "The User agrees that Atómico may, at any time and without prior notice, interrupt, suspend, discontinue, delete, or modify the Platform and any product or Service offered, based on a founded decision.",
+        "p2": "Atómico shall not be liable for the insolvency of financial entities in which Atómico maintains funds in pesos from the accounts, nor for the insolvency of third parties whose services have been contracted by Atómico to provide its Services."
+      },
+      "informacion punto 17": {
+        "p1": "Employees of Atómico and/or its Affiliates may use the Platform strictly following these T&C and are subject to these T&C under the same conditions as any other User. It will be understood that they are using the Platform for personal purposes and under no circumstances on behalf of Atómico or any of its Affiliates. For this reason, neither Atómico nor any of its Affiliates are responsible for the operations they perform on the Platform. To use the Platform, employees of Atómico and/or its Affiliates must register by providing their personal email address and home address and under no circumstances should they register or use the Platform using Atómico's and/or its Affiliates' email and/or address."
+      },
+      "informacion punto 18": {
+        "intro": "Users of the Platform acknowledge and accept that Atómico may use tracking systems and similar technologies or that fulfill a similar function, such as those listed below non-exhaustively:",
+        "t1": "Cookies:",
+        "t1 p1": "These are small files that can be installed in the storage site of the computer or device used by the User of the Platform, with a limited duration in time that help to customize the services. Additionally, Atómico may offer certain functionalities that are only available through the use of cookies.",
+        "t1 p2": "Cookies are used to understand the interests, behavior, and demographics of those who visit or use the Platform and thus better understand their needs and interests and provide better service or related information. Atómico may also use the information obtained through cookies to analyze the pages navigated by the User or visitor, as well as their searches made, to improve and personalize business and promotional initiatives, conduct news, advertising, or promotions, interest banners, and enhance its content offerings; it may also use cookies to count and corroborate records and validation levels, as well as to promote and enforce the rules and security of the Platform.",
+        "t1 p3": "Atómico may also add cookies to its emails to measure the effectiveness of its promotions and advertising campaigns. It is established that the installation, permanence, and existence of cookies on the User's or visitor's computer or device depend solely on their will and can be removed from their computer or device whenever they wish. To learn how to remove cookies from the system, it is necessary to review the settings of their browser.",
+        "t2": "IP Address Logging:",
+        "t2 p1": "Atómico may use an IP address logging system that allows knowing the location of Users to provide better service and related information, as well as to improve and personalize business and promotional initiatives, conduct news, advertising, or promotions, interest banners, refine its content offerings and articles, and, on the other hand, to promote and enforce the rules and security of Atómico. By accessing the Platform, the User acknowledges and accepts that such a system may be used.",
+        "t3": "Single Pixel:",
+        "t3 p1": "This is an electronic image (also called a transparent pixel) placed in the code of a web page for purposes similar to cookies. Additionally, a single pixel is used to measure traffic patterns of Users to another to maximize traffic flow through the web. The User acknowledges and accepts that Atómico may use a tracking system through the use of single pixels."
+      },
+      "informacion punto 19": {
+        "p1": "Atómico provides the ability for fully registered and validated Users at the required level to send (\"Ordering User\"), outside of the blockchain (off-chain), digital assets to other fully registered and validated Users at the required level (\"Receiving User\" or plural \"Receiving Users\"), at no cost (the \"TAG Service\").",
+        "p2": "Users acknowledge and accept that transactions made through the TAG Service will not be recorded on the blockchain and can only be made between Users of the Platform in the Republic of Argentina.",
+        "p3": "To use the TAG Service, Atómico will assign each User a unique alias that is only visible to that User, so the User can share it with another User to carry out a digital asset transfer.",
+        "p4": "The Ordering User must first add the Receiving User to their list to whom they intend to make a transfer. The maximum limit of Receiving Users that can be added will be established in the corresponding section.",
+        "p5": "The Ordering User can create a send instruction, specifying the exact amount of the digital asset they wish to send, and must select from the preloaded list the Receiving User to whom they wish to send the digital asset (the \"TAG Instruction\"). To create this TAG Instruction, the Ordering User must have a sufficient amount of the selected digital asset. When the Ordering User confirms the TAG Instruction, the amount of the selected digital asset will be earmarked for the execution of the TAG Instruction and cannot be used for any other purpose.",
+        "p6": "The execution of the operation may take up to 48 (forty-eight) hours.",
+        "p7": "Once the TAG Instruction is executed, Atómico will debit the amount of the digital asset sent from the Ordering User's account according to the TAG Instruction and credit it to the Receiving User's account.",
+        "p8": "A TAG Instruction cannot be partially executed.",
+        "p9": "Cancellation. In the case of initiated TAG Instructions, the Ordering User may only cancel them before they have been executed. Once the TAG Instruction has been executed, the Ordering User cannot change, revoke, or cancel it. If the Ordering User's Account does not have a sufficient amount of digital assets to execute a TAG Instruction, Atómico will cancel the TAG instruction.",
+        "p10": "Fees. No fees will be charged for transactions made through the TAG Service. However, Atómico reserves the right to charge fees for the TAG Service, and in that case, these may, at Atómico's discretion, be updated at any time, with notification to the User through the communication channels established in these T&C. Updated fees will apply to any transaction that occurs after the effective date of those fees. You authorize Atómico to deduct any applicable fees from your account under these Terms.",
+        "p11": "Limits. The daily, monthly, and annual limits for the number of transactions of the TAG Service will be established in the corresponding section of the Platform. Likewise, the minimum and maximum limits for the amount of digital assets in the TAG Service will be established in the corresponding section of the Platform."
+      },
+      "informacion punto 20": {
+        "20.1 p1": "Atómico provides a digital asset exchange service within the Platform called Swap (\"Swap\").",
+        "20.1 p2": "The User can order Atómico to execute a swap instruction of a specific amount of a digital asset or legal tender for another digital asset (the 'Swap Instruction'). Atómico will provide the User with the corresponding quote to execute the Swap Instruction for 15 (fifteen) seconds. To execute the Swap Instruction, the User must have (i) a sufficient amount of the specified digital asset and (ii) the amount for commissions or costs in the selected digital asset, if applicable to the Swap Instruction.",
+        "20.1 p3": "For the Swap to be executed, the User must confirm the Swap Instruction, and once confirmed, the specified amount of the selected digital asset will be earmarked for the execution of the Swap Instruction and cannot be used for any other purpose.",
+        "20.1 p4": "The Swap Instruction will only be executed for the amount specified by the User in the Swap Instruction. The execution of the Swap Instruction will take place immediately after the User's confirmation, unless there is an error or issue that is the User's responsibility.",
+        "20.1 p5": "Once the Swap Instruction is executed, Atómico will debit the User's account the amount corresponding to the specified digital asset to be exchanged and will credit the amount of the chosen digital asset to be received. The transactions made will not be recorded on the blockchain.",
+        "20.2": "Cancellation. The User cannot change, revoke, or cancel a Swap Instruction once confirmed. If their Account does not have a sufficient amount of digital assets to execute a Swap Instruction or to cover the corresponding commissions or expenses for the Swap Instruction, Atómico will not allow or will cancel the Swap Instruction.",
+        "20.3": "Fees. The User agrees to pay Atómico the fees that are informed on the Platform. The fees may be updated at Atómico's discretion at any time, with notification to the User through the communication channels established in these T&C. Updated fees will apply to any transaction that occurs after the effective date of those fees. The User authorizes Atómico to deduct any applicable fees from the transaction under these Terms.",
+        "20.4": "Limits. The Swap instruction will only be confirmed and executed if the amount specified by the User corresponds to the minimum and maximum limits established by Atómico and indicated on the Platform for executing Swaps."
+      },
+      "informacion punto 21": {
+        "21.1": "Prepaid cards (the “Prepaid Card”, in plural “Prepaid Cards”) are offered on the Platform.",
+        "21.2": "In the event that the holder of a Prepaid Card (“Cardholder”) makes purchases with their Prepaid Card using the digital asset AT3, they will receive in their Account an amount of digital asset AT3 equivalent to 2% (two percent) of the amount of that purchase. If purchases are made with the Card without the balance in guaraníes (used to cover the payment of the purchase) coming from the sale of digital assets, Atómico may apply a 'Reduced Cashback' of 0.5% (50/100 percent). The remaining conditions of the Cashback and the Reduced Cashback are identical, differing only in the percentage recognized by Atómico to the Cardholder. To determine the amount of cashback the Cardholder will receive for their purchase, Atómico will use the Buy quote of that digital asset in Argentine pesos in effect on the Platform at the time the purchase is made (the “Cashback”). Atómico will credit the Cashback to the Account within 48 (forty-eight) business hours from its production.",
+        "21.3": "In the event that purchases abroad are enabled to be made with the Prepaid Card, if the consumption that originated the Cashback was made in a currency different from guaraní, VISA or MASTER will convert it to guaraní to determine the amount to be paid. This amount in Argentine pesos will be used to define the Cashback to be credited to the Cardholder, as stipulated in the previous paragraph.",
+        "21.4": "The following operations will not apply or give rise to receiving Cashback:",
+        "21.4 i": "loading balance into digital wallets, exchanges, or any other merchant.",
+        "21.4 ii": "taxes, fees, levies, additional charges, and/or any other costs related to the purchases made.",
+        "21.4 iii": "any use of the Prepaid Card that constitutes misuse, fraudulent use, or use contrary to these Terms, at Atómico's sole discretion.",
+        "21.5": "Cashback and promotions will be limited according to the following parameters:",
+        "21.5 p1": "They will be credited per calendar month up to the equivalent of $300,000 (three hundred thousand guaraníes) for each Cardholder. The amounts of operations will be considered per calendar month, and the amounts of operations from one month will not accumulate to the following months.",
+        "21.5 p2": "Promotions:",
+        "21.5 p3": "Promotion “more Cashback”",
+        "21.5 p4": "The promotion will be in effect from 04/23/2024 to 06/30/2024 (“Validity Period”). Through this promotion, more Cashback will be credited to all Cardholders who pay for their purchases with their Prepaid Cards at the following merchants and days:",
+        "21.5 p5": "In the mobile application PedidosYa®, a total of 4% Cashback every Friday during the Validity Period.",
+        "21.5 p6": "In the mobile application BOLT®, a total of 5% Cashback every Wednesday and Saturday during the Validity Period.",
+        "21.5 p7": "In McDonald's® locations, a total of 4% Cashback every Monday during the Validity Period.",
+        "21.5 p8": "In Burger King® locations, a total of 4% Cashback every Monday during the Validity Period.",
+        "21.5 p9": "In Farmacenter® locations, a total of 4% Cashback every Tuesday during the Validity Period.",
+        "21.5 p10": "At SHELL® service stations, a total of 4% Cashback every Thursday during the Validity Period.",
+        "21.5 p11": "In Starbucks® locations, a total of 4% Cashback every Saturday during the Validity Period.",
+        "21.5 p12": "In Café Martinez® locations, a total of 4% Cashback every Saturday during the Validity Period.",
+        "21.5 p13": "In BIGGIE® supermarkets, a total of 4% Cashback every Sunday during the Validity Period.",
+        "21.5 p14": "In SUPERSEIS® supermarkets, a total of 4% Cashback every Sunday during the Validity Period.",
+        "21.5 p15": "This Promotion only applies to purchases made in the Territory of the Republic of Argentina using physical or virtual Prepaid Cards.",
+        "21.5 p16": "The limits stipulated in these Terms and Conditions apply.",
+        "21.5 p17": "The Promotion is not cumulative with other promotions and is not transferable.",
+        "21.5 p18": "Atómico may modify the Cashback of the Promotion at any time, even eliminate it, without prior notice to the User. Atómico will inform Users of this modification or elimination on the Platform as it occurs. The modification or elimination will not grant the User the right to claim anything from Atómico.",
+        "21.5 p19": "Promotion “Discounts”",
+        "21.5 p20": "The promotion will be in effect from 04/23/2024 to 06/30/2024 (“Validity Period”). Through this promotion, the discounts listed below will be provided to all Cardholders who pay for their purchases with their Prepaid Cards at the following merchants and days:",
+        "21.5 p21": "At MAPFREAssistance®, a 25% discount every day during the Validity Period.",
+        "21.5 p22": "At Universidad Nacional de Asunción, a 15% discount on all courses, every day during the Validity Period.",
+        "21.5 p23": "At Universidad Católica de Asunción, a 25% discount on all “crypto courses” (related to digital assets as determined by the University), every day during the Validity Period.",
+        "21.5 p24": "At Samsung®, a 15% discount every day during the Validity Period.",
+        "21.5 p25": "This Promotion only applies to purchases made in the Territory of the Republic of Argentina using physical or virtual Prepaid Cards.",
+        "21.5 p26": "The limits stipulated in these Terms and Conditions apply.",
+        "21.5 p27": "The Promotion is not cumulative with other promotions and is not transferable.",
+        "21.5 p28": "Atómico may modify the Promotion at any time, even eliminate it, without prior notice to the User. Atómico will inform Users of this modification or elimination on the Platform as it occurs. The modification or elimination will not grant the User the right to claim anything from Atómico.",
+        "21.5 p29": "Promotion 5% cashback paying with “Go Cuotas”",
+        "21.5 p30": "The promotion will be in effect from February 1, 2024, to August 31, 2024.",
+        "21.5 p31": "Through this promotion, a total of 5% (five percent) Cashback will be credited to all Cardholders who pay for their purchases with their Prepaid Cards in “Go Cuotas” any day of the week during the indicated validity period.",
+        "21.5 p32": "Only the Cashback corresponding to each debit made by that merchant will be credited. In case of pending future debits, these will be credited after these debits have been effectively made, provided the Promotion remains in effect.",
+        "21.5 p33": "This promotion only applies to purchases made in the Territory of the Republic of Argentina using physical or virtual Prepaid Cards.",
+        "21.5 p34": "The limits stipulated in the Terms and Conditions of the Prepaid Card apply.",
+        "21.5 p35": "The promotion is not cumulative with other promotions and is not transferable.",
+        "21.5 p36": "Atómico may modify the Promotion at any time, even eliminate it, without prior notice to the User. Atómico will inform Users of this modification or elimination on the Platform as it occurs. The modification or elimination will not grant the User the right to claim anything from Atómico.",
+        "21.5 p37": "5% discount in “Shell Box” - This promotion only applies to purchases made in the Territory of the Republic of Argentina.",
+        "21.5 p38": "Atómico will apply a discount equivalent to 5% of the value of the purchase of “Shell V-POWER” fuel at the service stations participating in “Shell Box” throughout the country, as long as it is made through the Shell Box application with the Prepaid Card on Wednesdays, with a reimbursement limit of up to $30,000 (thirty thousand pesos) per month.",
+        "21.5 p39": "This limit is shared with other benefits granted by the prepaid card in effect.",
+        "21.5 p40": "The reimbursement does not apply to the purchase of other fuels, lubricants, or purchases at convenience stores (“Shell Shops” and “Shell Select”).",
+        "21.5 p41": "The promotion will be in effect from May 15, 2024, to March 31, 2024.",
+        "21.5 p42": "This promotion only applies to purchases made in the Territory of the Republic of Argentina using physical or virtual Prepaid Cards.",
+        "21.5 p43": "The limits stipulated in the Terms and Conditions of the Prepaid Card apply.",
+        "21.5 p44": "The promotion is not cumulative with other promotions and is not transferable.",
+        "21.5 p45": "Atómico may modify the Promotion at any time, even eliminate it, without prior notice to the User. Atómico will inform Users of this modification or elimination on the Platform as it occurs. The modification or elimination will not grant the User the right to claim anything from Atómico.",
+        "21.5 p46": "In the case of any of the previous Promotions or Discounts, if a promotion defined by VISA is applicable cumulatively, the terms stipulated in must be taken into account.",
+        "21.5 p46 link": "https://www.visa.com.ar/es_ar/promociones/",
+        "21.6": "As indicated in clause 9.4.10, if a purchase is made with the ATOMICO3 Prepaid Card having selected AT3 as the payment method, Atómico will proceed to sell the necessary amount of the selected digital asset to obtain the corresponding Argentine pesos to cover the payment of the amount indicated by the Merchant. For this sale, Atómico will use the sale value of the asset at the time of the transaction. Atómico will charge the user the commission corresponding to a digital asset sale. In the event that it is a purchase in foreign currency or abroad, having selected one of the digital assets as a payment method, Atómico will additionally charge a fixed cost stipulated by VISA, in addition to the commission for the indicated sale.",
+        "21.6 p1": "This cost will depend on the transaction amount to be considered in the equivalent in US dollars (“USDT”), and it will be applied once the transaction has been approved.",
+        "21.6 p2": "Tier 1 - from 0.01 to 5 USD - Fixed cost: 0.11 USD",
+        "21.6 p3": "Tier 2 - from 5.01 to 15 USD - Fixed cost: 0.18 USD",
+        "21.6 p4": "Tier 3 - from 15.01 to 50 USD - Fixed cost: 0.24 USD",
+        "21.6 p5": "Tier 4 - 50.01 USD or more - Fixed cost: 0.54 USD"
+      },
+      "informacion punto 22": {
+        "p1": "If one or more clauses of these T&C are declared null by any competent authority or judicial body, such nullity shall not affect the validity of the remaining clauses, which will remain in full force and effect.",
+        "p2": "The User understands and accepts that any lack of action by Atómico regarding the User's non-compliance or violation of one or more provisions of these T&C does not imply Atómico's consent to such behavior, nor does it prevent Atómico from pursuing it or from pursuing another identical or similar violation in the future. Likewise, the User understands and accepts that the fact that any functionality of the Platform is actually available, even if not mentioned in these T&C, does not entitle the User to the maintenance of the functionality or to any compensation in the event of its discontinuation with or without prior notice."
+      },
+      "informacion punto 23": {
+        "p1": "Atómico may assign its contractual position, this contract, and/or any of the rights and obligations arising from it to any of its Affiliates or to a third party. The User will be notified of this operation.",
+        "p2": "Unless there is express written consent from a duly authorized representative of Atómico, the User may not assign its contractual position, this contract, or any of the rights or obligations arising from it to any third party."
+      },
+      "informacion punto 24": {
+        "p1": "The User expressly consents to all information related to their status as a User, their Account, and the use of the Platform and/or Services being notified or informed to the last email provided by the User, through notifications within the Platform and/or by any other means that imply notification through electronic means."
+      },
+      "informacion punto 25": {
+        "p1": "The T&C are governed without exception and in all their points by the laws of the Republic of Paraguay and shall be interpreted in accordance with them.",
+        "p2": "In the event of any difference, disagreement, or conflict arising from the use of the Platform and/or Services, or from the interpretation, validity, and/or scope of these T&C, the User may initiate their claim through the means provided on the Platform, or alternatively, communicate with Atómico in a verifiable manner, submitting their claim, so that the parties attempt to reach an agreement before initiating any claim before the corresponding jurisdiction."
+      },
+      "informacion punto 26": {
+        "p1": "All suggestions, opinions, complaints, and comments made by the User by any means may be considered, implemented, disseminated, or adapted by Atómico, without generating any rights in favor of the User who made or proposed them."
+      },
+      "informacion punto 27": {
+        "p1": "Atómico has a User Support Center. To contact, you can do so by email at",
+        "p1.1": "and/or any other means provided by Atómico for this purpose."
+      },
+      "informacion punto 28": {
+        "p1": "All notifications that must be made to Atómico for accessing or using the Platform under these T&C must be made in writing to the email or postal address indicated below:",
+        "p2": "Atómico3 S.A",
+        "p3": "RUC: 80144052-1",
+        "p4": "Address:",
+        "p5": "Av. Aviadores del Chaco 2351 8th floor, Asunción, Republic of Paraguay",
+        "p6": "Email:",
+        "p7": "support@Atómico3.io"
+      }
+    }
+  },
+  "faqForLaw": {
+    "faqForLaw": "Faq for Law Enforcement"
+  },
+  "cookiesPolicy": {
+    "cookiesPolicy": "Cookies Policy"
+  },
+  "proyectosTokenizacion": {
+    "proyectos de tokenizacion": "Tokenization Projects",
+    "proyectos de": "Tokenization",
+    "tokenizacion": "Projects",
+    "p1": "In this section you will find information about lithium, and soon about Tokenization Projects",
+    "p2": "Learn more",
+    "p3": "Tokenize my project",
+    "que es el litio": "What is lithium?",
+    "p4": "Lithium is a key element in modern technology and the transition towards sustainable energy, driving the demand for batteries for electronic devices and electric vehicles. Understanding its potential is essential to grasp market trends and investment opportunities.",
+    "p4.1": "It is a soft, silver-colored metal, extracted from minerals and salt flats, with unique properties that make it an irreplaceable resource in a wide variety of industrial applications.",
+    "p4.2": "With the exponential growth in demand for batteries for electronic devices and electric vehicles, understanding the role of lithium is essential for those who want to stay informed about market trends and investment opportunities.",
+    "por que es tan importante el litio": "Why is lithium so important?",
+    "p5": "Lithium has earned the designation of the 'white gold' of the 21st century due to its growing demand and essential role in the transition towards a sustainable energy model. This mineral is the foundation of lithium-ion batteries, an essential technology for electronic devices, electric vehicles, and renewable energy storage systems.",
+    "p6": "In a world moving towards reducing its dependence on fossil fuels, lithium emerges as an essential resource for efficiently storing and managing energy, allowing its use when needed.",
+    "p7": "In this context, backing our cryptocurrency with the value and reserves of lithium represents a unique investment opportunity. It not only allows our users to participate in the digital financial ecosystem, but it also links their investment to a strategic resource whose value will continue to increase as global demand for sustainable energy solutions grows. By acquiring this cryptocurrency, our users become part of an innovative and responsible vision, aligned with a more sustainable and technologically advanced future.",
+      "noticias": "News about Lithium",
+      "p8": "Explore the latest trends and developments in the world of lithium, and stay up to date with the most relevant updates that are shaping the future of this industry.",
+      "p9": "Read more news",
+      "n1": "What is the mineral that could reach U$S 8.7 billion in exports by 2030",
+      "n2": "Rising lithium prices boost the Atómico3 cryptocurrency as a solid investment option",
+      "n3": "The completion of delayed projects is expected to restart following the regional increase in lithium prices"
+    
+  }
+}

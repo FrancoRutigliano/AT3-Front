@@ -1,0 +1,99 @@
+{
+    "cookiesPolicy": {
+        "cookiesPolicy": "Cookies Policy",
+        "titles": {
+            "indice": "Index",
+            "title1": "What do we mean by 'cookie'?",
+            "title2": "What data do we collect thanks to cookies?",
+            "title3": "Are cookies absolutely essential for our site / mobile application to function properly?",
+            "title4": "Why do we use non-essential cookies?",
+            "title5": "Do we use third-parties’ cookies?",
+            "title6": "How do we collect your consent?",
+            "title7": "What if I change my mind?"
+        },
+        "documento": {
+            "intro": "This Cookie Policy describes the different types of cookies that may be applied by Atomico3.io or by third-party organizations on this website or on our mobile application. If you have questions regarding this Cookie Policy, please contact ",
+            "informacion punto 1": {
+                "p1": "Cookies are small text files that are placed on your computer or mobile applications by websites that you visit. They are widely used in order to make websites work, and also to provide organizations some information on you and on your browsing activities.",
+                "p2": "Cookies have several functions, such as allowing you to navigate efficiently on a website or a mobile application, remembering your choices and the goods and services you purchased. Thanks to cookies, we:",
+                "p2.1": "improve the knowledge we have of you and your interests;",
+                "p2.2": "offer you content specifically personalized for you (for example to remember the choice of language you have made on our site, or to show you advertisements that are tailored to your needs and interest)",
+                "p3": "When we talk about 'cookies' we are also talking about technologies similar to cookies, such as scripts, web beacons, pixels, fingerprinting and redirects. Scripts (sometimes called tags) are programs that run in your browser or mobile application and perform various actions, such as sending information to our servers.",
+                "p4": "Cookies can be implemented by us and also by third-party organizations."
+            },
+            "informacion punto 2": {
+                "p1": "Cookies allow us to collect personal data relating to you, and to transmit us technical information about the devices you use, the clicks you make, and the content you view. We combine this information with personal data that you have already provided us or that we have obtained from external sources (see our ",
+                "p1.1": "Privacy Policy",
+                "p1.2": " here)."
+                ,"p2": "The cookies we place on your terminal give us access to the following personal data relating to you:",
+                "p2.1": "Identifiers of the equipment you use (IP address of your computer, Android identifier, Apple identifier, etc.);",
+                "p2.2": "Type of operating system used by your terminal (Microsoft Windows, Apple Os, Linux, Unix, etc.);",
+                "p2.3": "Type and version of the browser software used by your terminal (Microsoft Internet Explorer, Apple Safari, Mozilla Firefox, Google Chrome, etc.);",
+                "p2.4": "Dates and times of connection to our services;",
+                "p2.5": "Address of the originating Internet page ('referrer');",
+                "p2.6": "Browsing data on our services, content viewed;",
+                "p2.7": "Information relating to your use of our sites and applications;",
+                "p2.8": "Information relating to the presence of cookies on your terminal, the time and date of viewing; a page, and a description of the page where the web beacon is placed;",
+                "p2.9": "Information on whether or not you read emails that we send you, on the clicks you make on the links contained in these emails."
+            }, 
+            "informacion punto 3": {
+                "p1": "Yes and no. Some cookies are necessary for our site to function ('Essential Cookies'). However, for others, your consent is collected before the cookies are implemented on your terminal.",
+                "p2": "Essential Cookies allow our website/mobile applications to function. Without them, your user experience would be degraded. The Essential Cookies that we implement without your consent are the following:",
+                "p2.1": "Cookies recording the choice you have expressed on the implementation of cookies;",
+                "p2.2": "Cookies used for authentication purposes and for ensuring the security of our authentication mechanism;",
+                "p2.3": "Cookies used for personalization of our user interface (choice of language, or presentation of our service), when such personalization is essential to provide you with our service;",
+                "p2.4": "Cookies allowing you to automatically login into your account, using identifiers or data that you have previously entrusted to us;",
+                "p2.5": "Cookies allowing us to ensure that the display of our content is suitable for your device;",
+                "p2.6": "Cookies to remember your subscription to our newsletters."
+            },
+            "informacion punto 4": {
+                "p1": "These cookies, for which we collect your consent, are used to measure our audience, to present you with personalized advertising, to tailor the content displayed on our website/application to your preferences, and to allow you to share our website/mobile application content on social media platforms. We use non-essential cookies for the following:",
+                "p2": "Optimization of your navigation on our website and applications",
+                "p2.1": "Recording of information relating to a form that you have filled in on our site registration or access to your account) or to products, services or information that you chosen on our site (service subscribed, content viewed, purchase made, etc.);",
+                "p2.2": "A/B testing cookies, i.e. cookies allowing us to build traffic statistics and tests aimed at measuring the relative performance of different versions of our website, detecting navigation problems on our site or application, or even organize the content.",
+                "p2.3": "Management of our platforms and performance of internal technical operations as part of problem solving, data analysis, tests, research, analysis, studies and surveys;",
+                "p2.4": "Cookies allowing us to improve the security measures of our website.",
+                "p3": "Audience measurement and web analytics",
+                "p3.1": "Establishment of statistics and volumes of visits and use of the various elements making up our site (sections and contents visited, routes) in order to improve the interest and ergonomics of our services;",
+                "p3.2": "Calculation of the total number of advertisements displayed by us on our advertising spaces, ranking and statistics;",
+                "p3.3": "Analysis of audiences based on the results of advertising campaigns;",
+                "p3.4": "Determination of interests and behaviors;",
+                "p3.5": "Improved customer / user knowledge for personalization purposes.",
+                "p4": "Sharing of your personal data on social media platforms",
+                "p5": "The use of social networks to interact with our sites and applications (in particular the 'like' buttons on Facebook, Twitter) allows you to share content of our website on social media platforms.",
+                "p6": "For example, if you are connected to the social network Facebook and you visit a page of our site, Facebook is likely to collect this information. Likewise, if you consult an article on our website and click on the 'tweet' button, Twitter will collect this information. We therefore invite you to consult the privacy policies of any such social networks to learn about the collections and processing they carry out on your data."
+            },
+            "informacion punto 5": {
+             "p1": "Yes. Some cookies are set by our service providers who help us achieve our goals (for example Google Tag Manager sets a cookie to help us measure our audience). Below is the current list of third parties that implement cookies on your terminal through our website/mobile application.",
+            "t1": "Website user analytics performed by Amplitude.",
+            "t2": "Website user analytics performed by CrazyEgg.",
+            "t3": "Detecting bots on the web performed by CloudFlare.",
+            "t4": "Defining and keeping user preffered website language.",
+            "t5": "Identifying unique users performed by Google Analytics",
+            "t6": "These are performance cookies which we use to collect information about how our visitors use the website via Google Analytics",
+            "t7": "Is used by Google AdSense for experimenting with advertisement efficiency",
+            "t8": "Used to distinguish users by Google Analytics",
+            "t9": "The NID cookie contains a unique ID Google uses to remember your preferences and other information, such as your preferred language",
+            "t1.1": "24 hours.",
+            "t2.1": "5 years.",
+            "t3.1": "30 days.",
+            "t4.1": "1 year.",
+            "t5.1": "2 years",
+            "t6.1": "1 year", 
+            "t7.1": "90 days", 
+            "t8.1": "24 hours",
+            "t9.1": "6 months"
+        },
+        "informacion punto 6": {
+            "p1": "You will be prompted to take a clear, affirmative action so that we can ensure that you agree with the processing of your personal data. This action may, for example, take the form of a checkbox in your online tool. Before obtaining your consent, we will systematically inform you of the names of the organizations implementing the cookies, the consequences of your consent or refusal to consent, the purposes of the processing, and your right to withdraw your consent. You can choose to consent to certain uses that we or our partners will make of your data and to refuse others."
+        },
+        "informacion punto 7": {
+            "p1": "You can withdraw your consent at any time and easily. All you need to do is to send us an email at ",
+            "p1.1": " If you refuse to give us your consent for non-essential cookies, or decide to withdraw it, you will not suffer any negative consequences and will be able to continue to use the rest of our service normally." 
+            
+        }
+         
+    }
+
+    }
+}

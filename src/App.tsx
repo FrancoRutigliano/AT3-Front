@@ -1,12 +1,18 @@
 // import { Button } from '@mui/material'
 
-import MenuAppBar from "./components/Navbar"
+import { RoutesOutlet } from "./routes/RoutesOutlet";
+
+// import { MainLayout } from "./views/MainLayout"
+
+// import { Home } from "./views/Home"
+
 
 function App() {
 
   return (
     <>
-    <MenuAppBar/>
+  <RoutesOutlet/>
+
     </>
   )
 }

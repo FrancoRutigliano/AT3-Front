@@ -1,0 +1,801 @@
+{
+  "navbar": {
+    "nosotros": "Nós",
+    "inicio": "Início",
+    "staking": "Staking",
+    "legal": "Legal",
+    "preguntas frecuentes": "Perguntas Frequentes",
+    "ayuda": "Ajuda",
+    "medios y noticias": "Mídia e Notícias",
+    "inverti en": "Invista em",
+    "inverti en At3": "Invista na Atómico3",
+    "como invertir": "Como investir",
+    "feliz primavera": "Feliz Primavera!",
+    "comprar at3": "Comprar AT3",
+    "tutoriales": "Tutoriais",
+    "soporte": "Suporte",
+    "contacto": "Contato",
+    "nuestro equipo": "Nossa Equipe",
+    "descargar brochure": "Baixar Brochura",
+    "descargar whitepaper": "Baixar Whitepaper",
+    "sobre atomico": "Sobre a Atómico3",
+    "idiomas": "Idiomas",
+    "terms": "Termos e Condições",
+    "privacy": "Política de Privacidade",
+    "trabaja": "Trabalhe conosco",
+    "proyectos de": "Projetos de",
+    "tokenizacion": "tokenização",
+    "proyectos de tokenizacion": "Projetos de Tokenização",
+    "nuestros proyectos": "Nossos Projetos",
+    "informacion sobre litio": "Informações sobre o Lítio",
+    "medios": "Mídia",
+    "noticias": "Notícias",
+    "politica cookies": "Política de Cookies",
+    "faq for law": "Perguntas Frequentes para as Forças da Lei",
+    "iniciar sesion": "Iniciar Sessão",
+    "registrarse": "Registrar-se"
+  },
+  "nosotros": {
+    "title": "Somos uma empresa legalmente constituída no Paraguai, dedicada ao desenvolvimento e otimização da atividade mineradora. Oferecemos a ferramenta de tokenização de reservas de lítio certificadas, buscando com isso inovar e revolucionar a indústria da eletromobilidade.",
+    "nosotros": "Nós",
+    "title p1": "Ao converter as reservas de lítio em tokens digitais, facilitamos à indústria mineradora o financiamento de suas operações, contribuindo para o desenvolvimento de sua atividade integral e para a transição para um futuro mais sustentável.",
+    "p1": "Somos uma empresa legalmente constituída na República do Paraguai, dedicada ao desenvolvimento e otimização da atividade mineradora. Em particular, à mineração de lítio.",
+    "p2": "Oferecemos à atividade mineradora a ferramenta de tokenização (de suas reservas de lítio certificadas), buscando com isso inovar e revolucionar a indústria da eletromobilidade a nível mundial. Através da conversão dessas reservas certificadas de lítio em tokens digitais, facilitamos o financiamento das operações da indústria, contribuindo para o desenvolvimento de sua atividade integral e para a transição para um futuro mais sustentável.",
+    "p3": "O token Atómico3, sob a sigla “AT3”, foi projetado para representar a tokenização das reservas de lítio. A emissão atual do AT3 é de 100.000.000.000 tokens, cada um respaldado por reservas certificadas de lítio conforme as normas internacionais NI 43-101.",
+    "p4": "O contrato blockchain que sustenta essa emissão é o número: 0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76, garantindo a integridade e a transparência dos ativos subjacentes.",
+    "p5": "A empresa utiliza um modelo inovador de tokenização de ativos do mundo real (RWA, na sigla em inglês) para facilitar a integração de recursos naturais na economia digital. Buscamos transformar o mercado global do lítio ao pretender declará-lo como commodity.",
+    "p6": "A marca e a patente associadas a esse modelo estão registradas sob a titularidade do CEO-Fundador da Atómico 3 SA, Lic. Pablo Rutigliano, com o código internacional da classe número 9. Todos os direitos relacionados à marca e ao modelo estão formalmente registrados e são de uso exclusivo da Atómico 3 S.A.",
+    "p7": "Dessa forma, o AT3 se projeta para desenvolver seus preços com base nas reservas minerais, permitindo assim estabelecer uma relação direta entre AT3 (Atómico3) e o preço do Li₂CO₃ (carbonato de lítio grau bateria). Em conclusão, 1 AT3 equivalerá ao preço de 1 quilograma de carbonato de lítio.",
+    "p8": "        ",
+    "Nuestros Valores": "Nossos Valores",
+    "Propósito": "Propósito",
+    "Propósito descripcion": "Contribuir para o desenvolvimento da atividade mineradora da América Latina por meio da tokenização de ativos minerais, colaborando para ser a ferramenta financeira do desenvolvimento da mineração.",
+    "Visión": "Visão",
+    "Visión descripcion": "Queremos revolucionar a maneira como se gerenciam e investem em recursos naturais através da aplicação de tecnologias avançadas de tokenização e blockchain.",
+    "Misión": "Missão",
+    "Misión descripcion": "Melhorar a eficiência e a transparência do mercado de lítio, abrir novas oportunidades para investidores e contribuir para o desenvolvimento econômico global."
+  },
+  "header": {
+    "bienvenido": "Bem-vindo à Atómico3",
+    "criptoactivo": "Um criptoativo respaldado por lítio, que promove a sustentabilidade, através da redução de emissões de carbono, por meio de incentivos tokenizados.",
+    "feliz primavera": "Feliz Primavera!",
+    "comprar token": "Comprar Token",
+    "staking": "staking"
+  },
+  "modal": {
+    "feliz primavera descripcion": "O seguinte formulário deve ser preenchido apenas por aqueles que compraram AT3 entre 0:00 de segunda-feira, 23 de setembro, e 23:59 de 7 de outubro.",
+    "recordatorio descripcion": "Lembre-se de que aqueles que comprarem AT3 entre 0:00 de segunda-feira, 23 de setembro, e 23:59 de 7 de outubro, para obter o adicional de 5% da Spring Week devem preencher o formulário acessado ao clicar no botão 'Feliz Primavera'.",
+    "continuar": "Continuar",
+    "cancelar": "Cancelar",
+    "completar formulario": "Completar formulário"
+  },
+  "popup": {
+    "p1": "Peça a dois de seus amigos para se juntarem ao Projeto, comprando ATOMICO3 (novos) em compras PEER TO PEER (P2P), a um valor de U$S 0,85.",
+    "p2": "Desde ATOMICO3, vamos te oferecer 5% do total das compras de seus dois amigos de ATOMICOS (novos AT3), diretamente na sua carteira.",
+    "p3": "Essas compras devem ser realizadas entre 0:00 de segunda-feira, 21 de outubro de 2024, e 23:59 de 31 de outubro de 2024.",
+    "saber mas": "Saber Mais"
+  },
+  "atomicInfo": {
+    "que es atomico": "O que é Atómico3?",
+    "p1": "É um token que representa a tokenização dos ativos mineradores, ligados a um subjacente, o Lítio (respaldados por reservas de lítio certificadas sob as normas NI 43-101) que cada projeto possui.",
+    "p2": "Esse processo de digitalização das reservas de lítio permite sua comercialização em plataformas blockchain. Democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez.",
+    "p3": "Com sua abordagem inovadora, facilitamos o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
+    "p4": "Nossa carteira oficial é",
+    "p5": "Nosso contrato POLYGON é",
+    "descripcion atomico p1": "Atómico3 é um token que representa a tokenização de ativos mineradores, respaldados por reservas de lítio certificadas sob as normas NI 43-101. Esse processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
+    "descripcion atomico p2": "Atómico3 democratiza o acesso ao investimento em recursos naturais, oferecendo transparência, segurança e liquidez. Com sua abordagem inovadora, Atómico3 facilita o investimento sustentável e o desenvolvimento econômico em regiões ricas em lítio, posicionando-o como um ativo digital de alto valor no mercado global.",
+    "criptoactivo responsable": "Criptoativo Responsável",
+    "criptoactivo responsable descripcion": "Nosso token é respaldado por lítio real, com um valor que cresce junto com a demanda por energia limpa.",
+    "mercado objetivo": "Mercado-Alvo",
+    "mercado objetivo descripcion": "Investidores globais com visão. Cidadãos comprometidos com a sustentabilidade.",
+    "plataformas utilizadas": "Plataformas Utilizadas",
+    "plataformas utilizadas descripcion": "Blockchain, redes sociais oficiais e comunidades apaixonadas, holders e entusiastas de tecnologia."
+  },
+  "videoSection": {
+    "video section title": "Assista ao vídeo para saber mais!"
+  },
+  "InvestSection": {
+    "¿Por qué invertir en Atómico3?": "Por que investir em Atómico3?",
+    "Seguridad": "Segurança",
+    "Seguridad descripcion": "Por ser respaldada por lítio, a moeda pode diversificar os riscos associados às reservas tradicionais, como o ouro ou as moedas fiduciárias. Isso pode torná-la menos suscetível às flutuações nos mercados financeiros globais e às políticas monetárias dos países emissores de moedas fiat.",
+    "tecnologia y beneficios": "Tecnologia e Benefícios",
+    "tecnologia y beneficios descripcion": "A tokenização do lítio pode revolucionar a maneira como os recursos minerais são comercializados e utilizados, proporcionando benefícios significativos em termos de acessibilidade, liquidez e transparência.",
+    "soporte": "Suporte",
+    "soporte descripcion": "Oferecemos suporte para responder a todas as suas dúvidas."
+  },
+  "staking": {
+    "que es": "O que é?",
+    "como funciona": "Como funciona?",
+    "clickea el enlace": "Clique no link abaixo para saber mais!",
+    "saber mas": "Saber Mais",
+    "como hacer staking": "Como fazer Staking?",
+    "como hacer staking p1": "Quer aprender a realizar Staking? Neste vídeo explicamos como fazer isso de maneira rápida e simples.",
+    "como hacer staking p2": "Clique no vídeo e comece a investir hoje!"
+  },
+  "faq": {
+    "preguntas frecuentes": "Perguntas Frequentes",
+    "que es atomico": "O que é Atómico3?",
+    "que es atomico descripcion": "Atómico 3 é um token digital respaldado por reservas de lítio certificadas sob a norma NI 43-101. Este processo digitaliza as reservas de lítio, permitindo sua comercialização em plataformas blockchain.",
+    "¿Por qué no veo reflejado el precio de Atómico3 en mi billetera?": "Por que não vejo o preço de Atómico3 na minha carteira?",
+    "El token se encuentra en lista de espera en CoinMarketCap": "O token está em lista de espera no CoinMarketCap para ser listado, por isso o preço será refletido em breve.",
+    "¿Dónde puedo ver la valuación de Atómico3?": "Onde posso ver a avaliação de Atómico3?",
+    "Puedes ver la valuación actual de Atómico3 en Dex descentralizadas como Quickswap": "Você pode ver a avaliação atual de Atómico3 em Dex descentralizadas como Quickswap.",
+    "¿Por qué el token Atómico3 no tiene liquidez?": "Por que o token Atómico3 não tem liquidez?",
+    "El token fue lanzado el 12 de agosto y la liquidez formal será inyectada cuando éste sea listado en CoinMarketCap (para lo cual estamos trabajando)": "O token foi lançado em 12 de agosto e a liquidez formal será injetada quando for listado no CoinMarketCap (no qual estamos trabalhando).",
+    "¿Cuál es el contrato de Atómico3?": "Qual é o contrato de Atómico3?",
+    "El contrato de token es el siguiente en la red Polygon": "O contrato do token é o seguinte na rede Polygon: 0x22a79a08ddb74A9F1A4eBE5da75300Ad9f1AED76",
+    "¿Proyección del precio de Atómico3 en el futuro?": "Projeção do preço de Atómico3 no futuro?",
+    "Se comportará en relación al precio de carbonato de litio internacional (li2co3)": "Comportará-se em relação ao preço internacional de carbonato de lítio (Li₂CO₃).",
+    "Link para consultar el precio actual del carbonato de litio": "Link para consultar o preço atual do carbonato de lítio:",
+    "Click aquí": "Clique aqui",
+    "¿Ya puedo hacer staking de los AT3 que adquirí?": "Já posso fazer staking dos AT3 que adquiri?",
+    "Si puedo": "Sim, posso. Para isso, devo clicar no botão azul que diz 'staking' localizado na parte superior da página. Em seguida, na janela que aparece, será solicitado vincular minha wallet (para indicar de onde sairão meus AT3). Aparecerá um formulário que devo preencher com meus dados pessoais e um e-mail de contato, o que me permitirá escolher os AT3 que quero colocar e os prazos possíveis (60, 180 e 240 dias). Finalmente, aparecerá uma confirmação de que o processo foi concluído corretamente."
+  },
+  "footer": {
+    "redes sociales": "Redes Sociais",
+    "contacto": "Contato",
+    "links utiles": "Links Úteis",
+    "Comprar Atómico3": "Comprar Atómico3",
+    "Preguntas Frecuentes": "Perguntas Frequentes",
+    "Términos y Condiciones": "Termos e Condições",
+    "Política de privacidad": "Política de Privacidade",
+    "todos los derechos reservados": "Todos os direitos reservados.",
+    "soporte": "Suporte",
+    "proyectos de tokenizacion": "Projetos de Tokenização",
+    "nosotros": "Nós",
+    "como invertir": "Como Investir",
+    "noticias": "Mídia e Notícias",
+    "horarios": "Precisa de ajuda? Visite nosso help center ou entre em contato com o suporte de segunda a sexta das 8:00 às 20:00. Ou das 9:00 às 17:00 aos sábados e domingos."
+  },
+  "stakingView": {
+    "¿Qué es el Staking?": "O que é Staking?",
+    "staking p1": "Isso consiste em adquirir criptomoedas e mantê-las bloqueadas em uma carteira virtual, smart contract ou wallet com o objetivo de receber ganhos ou recompensas. É algo muito semelhante a ter uma conta poupança e receber juros sobre o capital depositado.",
+    "staking p1.1": "Neste caso, é depositar seus Atómico3 em um contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), mantendo-os lá pelo período que você escolher (60, 180 e 240 dias), beneficiando-se dos juros que podemos oferecer de acordo com o período escolhido.",
+    "staking p1.2": "Ao final do período escolhido, todos os Atómicos serão devolvidos para sua carteira com o juro acordado (a menos que você escolha renová-lo por um novo período).",
+    "staking p1.3": "Lembre-se de que, para isso, você precisa conectar sua carteira. Se você não sabe como fazer isso, pode ver os tutoriais abaixo.",
+    "¿Qué es el Staking? Descripcion": "Consiste em depositar seus Atómico3 em um contrato inteligente (contrato de staking 0xAAF3AC68Bf80d995d7793a401653713A05a67B08), mantendo-os lá pelo período que você escolher, beneficiando-se dos juros de acordo com o período escolhido. Eles serão devolvidos para sua carteira ao final do período (a menos que você escolha renová-lo por um novo período).",
+    "¿Qué es el Staking? Descripcion 2": "Lembre-se de que, para isso, você precisa conectar sua carteira. Se você não sabe como fazer isso, pode ver os tutoriais abaixo.",
+    "¿Cómo lo puedo hacer?": "Como posso fazer isso?",
+    "¿Cómo lo puedo hacer? descripcion": "Clique no botão abaixo!"
+  },
+  "comprarAt3": {
+    "comprarAt3": "Comprar AT3",
+    "p1": "Comprar Atómicos é uma opção conveniente e atraente, pois representa uma medida de investimento segura respaldada por um recurso estratégico como o lítio. Ao adquirir Atómicos, você está protegendo seu capital em um ativo com alto potencial de crescimento, o que pode ser benéfico tanto a curto como a longo prazo.",
+    "p2": "Para adquirir Atómicos, basta clicar no botão abaixo.",
+    "p3": "Estamos disponíveis na Uniswap, onde você poderá realizar sua compra de maneira rápida e segura."
+  },
+  "terms": {
+    "Términos y condiciones de pago del token AT3": "Termos e condições de pagamento do token AT3",
+    "General": "Geral",
+    "General descripcion": "Estes Termos e Condições de Pagamento do Token AT3 («Termos do Token AT3») aplicam-se ao uso do token AT3 como seu método de pagamento selecionado para produtos e serviços elegíveis da Atómico3.io em certas jurisdições. Por favor, leia estes Termos do Token AT3 cuidadosamente. Ao usar o Token AT3 como seu método de pagamento, você reconhece e concorda em estar vinculado por estes Termos do Token AT3. Estes Termos do Token AT3 aplicam-se além dos termos e condições contidos no Contrato de Pedido e no Contrato de Compra de Produto. Em caso de conflito entre estes Termos do Token AT3 e o Contrato de Pedido ou o Contrato de Compra de Produto em relação a transações com o token AT3, estes Termos do Token AT3 serão aplicados. Se você não concorda com qualquer um dos termos e condições destes Termos do Token AT3, por favor, não selecione o token AT3 como seu método de pagamento. Reservamo-nos o direito de alterar, suspender, remover, desativar ou impor restrições ou limites à nossa aceitação do Token AT3 como método de pagamento para nossos produtos e serviços a qualquer momento e sem responsabilidade para com você, a nosso exclusivo critério.",
+    "El token AT3 como método de pago": "O token AT3 como método de pagamento",
+    "El token AT3 como método de pago p1": "Quando solicitado durante o processo de compra, podemos, a nosso critério, permitir que você selecione o Token AT3 como método de pagamento para a compra de produtos e serviços elegíveis em certas jurisdições, conforme detalhado em nossa FAQ de Pagamentos com Token AT3 em www.atomic3.io/support/token-at3, que podemos atualizar periodicamente. Podemos exigir que você nos forneça informações adicionais para verificar sua identidade ao selecionar o token AT3 como seu método de pagamento. Para fazer um pagamento com token AT3, você precisa de uma carteira digital que suporte transferências de token AT3 para carteiras digitais externas, hardware compatível e acesso à Internet.",
+    "El token AT3 como método de pago p2": "Se decidir fazer uma compra elegível com o token AT3, você deve selecionar o token AT3 como método de pagamento quando solicitado. Nós forneceremos um endereço de carteira digital («Endereço do token AT3») em formato alfanumérico e em código QR. Este é o local de pagamento para o qual você deve enviar o token AT3 de sua carteira digital. Você pode copiar e colar ou inserir manualmente o código alfanumérico que fornecemos no campo do destinatário no software da sua carteira digital ou, se o software da sua carteira digital suportar códigos QR, escanear o código QR que fornecemos usando seu dispositivo para preencher automaticamente o campo do destinatário com o código alfanumérico.",
+    "nota importante": "NOTA IMPORTANTE",
+    "nota importante descripcion": "É sua responsabilidade confirmar e verificar que o código alfanumérico fornecido é idêntico ao código alfanumérico que aparece no software de sua carteira digital ao escanear o código QR ou copiar e colar o código alfanumérico. Não nos responsabilizamos por qualquer perda do token AT3 ou de outros ativos digitais como resultado do envio do token AT3 para um endereço de carteira incorreto ou do envio de um ativo digital que não seja o token AT3.",
+    "Comisiones de la red del token AT3": "Taxas da rede do token AT3",
+    "Comisiones de la red del token AT3 descripcion": "Você é responsável por pagar diretamente todas as taxas de rede associadas à transação («Taxas de Transação»), além do Preço do Token AT3. Se o software de sua carteira digital não gerar automaticamente um valor para as Taxas de Transação, você precisará calcular o valor necessário para que a transação seja processada na rede de tokens AT3. Para mais detalhes sobre as Taxas de Transação, consulte as Perguntas Frequentes sobre o Token AT3 em www.atomic3.io/support/token-at3. A Taxa de Transação cobre o custo de verificação das transações do token AT3. Não temos controle sobre a Taxa de Transação e não recebemos nenhuma parte dela.",
+    "Soporte de pago de tokens AT3": "Suporte de pagamento de tokens AT3",
+    "Soporte de pago de tokens AT3 descripcion p1": "O token AT3 é o único ativo digital que aceitamos como pagamento por nossos produtos neste momento. Não é possível fazer compras conosco usando outros ativos digitais, incluindo outros tokens de criptomoedas. Nossa carteira digital para o token AT3 não está configurada para detectar ou receber ativos digitais que não sejam o token AT3.",
+    "Soporte de pago de tokens AT3 descripcion p2": "CERTIFIQUE-SE DE NÃO ENVIAR ATIVOS DIGITAIS DIFERENTES DO TOKEN AT3. SE VOCÊ TENTAR ENVIAR UM TIPO DE ATIVO DIGITAL DIFERENTE DO TOKEN AT3, ESSE ATIVO DIGITAL PODERÁ SER PERDIDO OU DESTRUÍDO IRREVERSIVELMENTE. NÃO NOS RESPONSABILIZAMOS PELA PERDA OU DESTRUIÇÃO DE ATIVOS DIGITAIS.",
+    "Transacciones completadas una vez confirmadas": "Transações concluídas após a confirmação",
+    "Transacciones completadas una vez confirmadas descripcion": "Uma vez que uma transação de tokens AT3 seja enviada para a rede, ela ficará sem confirmação por um período de tempo (geralmente menos de uma hora, mas até um dia ou mais) até que a rede reflita essa transferência em um número determinado de blocos consecutivos na rede de tokens AT3. Esse número será determinado por nós a nosso critério. Consideraremos sua transação pendente até que a rede de tokens AT3 reflita a transação no número exigido de blocos consecutivos. Enviaremos uma comunicação por e-mail assim que recebermos seu pagamento.",
+    "Pagos insuficientes y excesivos": "Pagamentos insuficientes e excessivos",
+    "Pagos insuficientes y excesivos p1": "O preço do token AT3 pode ser volátil e estar sujeito a movimentos de alta e baixa. Você é responsável por iniciar um pagamento do token AT3 pelo valor exato indicado na página de pagamento dentro da Janela de Preço do Token AT3. Cada Preço do token AT3 expirará após a Janela de Preço do token AT3. Após a expiração do preço do token AT3, você deverá solicitar um novo preço do token AT3 e uma nova janela de preço do token AT3 na página de pagamento e poderá ser necessário reiniciar o processo de pagamento.",
+    "Pagos insuficientes y excesivos p2": "Em relação às taxas de pedido e/ou depósitos, se você transmitir uma quantia diferente do preço em Token AT3, seu pedido poderá falhar, e podemos devolver sua taxa de pedido e/ou depósito sob estes termos do Token AT3. Você precisará reenviar o pagamento no valor correto para que possamos processar seu pedido.",
+    "En cuanto a los pagos finales": "Em relação aos pagamentos finais",
+    "i": "Se você transferir um valor menor que o Preço do token AT3, retearemos seu pagamento e aplicaremos ao valor devido, e você deverá pagar o saldo pendente.",
+    "ii": "Se você transferir um valor superior ao Preço do token AT3, não terá direito ao reembolso do valor excedente.",
+    "Los pagos con el Token AT3 son definitivos": "Os pagamentos com o Token AT3 são definitivos",
+    "Los pagos con el Token AT3 son definitivos p1": "Uma vez que você inicia uma transação de tokens AT3, a transação não pode ser revertida. Isso é inerente à natureza da rede de tokens AT3 e não é uma política estabelecida por nós.",
+    "Los pagos con el Token AT3 son definitivos p2": "VOCÊ É RESPONSÁVEL POR VERIFICAR SE INSERIU O ENDEREÇO CORRETO DO TOKEN AT3 NO CAMPO DO DESTINATÁRIO E O PREÇO CORRETO DO TOKEN AT3 NO CAMPO DO VALOR NO SOFTWARE DE SUA CARTEIRA DIGITAL.",
+    "Protocolos de la red Token AT3": "Protocolos da rede Token AT3",
+    "Protocolos de la red Token AT3 descripcion": "Não possuímos nem controlamos os protocolos de software subjacentes que regem o funcionamento da rede de tokens AT3. Os protocolos da rede de tokens AT3 são de código aberto e qualquer pessoa pode usá-los, copiá-los, modificá-los e distribuí-los. Não somos responsáveis pelo funcionamento dos protocolos da rede de tokens AT3. Os protocolos da rede de tokens AT3 estão sujeitos a mudanças repentinas nas normas de operação (por exemplo, bifurcações), e tais mudanças podem afetar materialmente o valor, a função e/ou até mesmo o nome do token AT3."
+  },
+  "noticias": {
+    "noticias": "Notícias",
+    "n1": "Aumento do preço do lítio impulsiona a criptomoeda argentina Atómico3 como opção de investimento sólida",
+    "n2": "A valorização do lítio na América Latina: perspectivas, projeções e seu impacto no mercado global",
+    "n3": "Atómico3, a criptomoeda argentina ligada ao lítio reduz sua emissão para que seja sustentável ao longo do tempo",
+    "n4": "Qual é o mineral que pode atingir os U$S 8.700 milhões em exportações até 2030",
+    "n5": "A Câmara Latino-Americana de Lítio propôs ao secretário de mineração a necessidade de que o preço do mineral seja fixado no país e não em Londres.",
+    "n6": "Poucos avanços na formação de um mercado de capitais regional para o lítio."
+  },
+  "medios": {
+    "medios": "Mídia",
+    "por": "Por",
+    "m1": "Encontro entre o Presidente da Câmara Latino-Americana de Lítio e o Secretário de Mineração da Argentina",
+    "m2": "O preço do lítio: uma visão de mercado",
+    "m3": "O lítio como commodity estratégica para desenvolver a transição energética"
+  },
+  "team": {
+    "nuestro equipo": "Nossa Equipe",
+    "nuestro equipo descripcion": "Na Atómico3, contamos com uma equipe de profissionais apaixonados e visionários comprometidos em revolucionar a indústria de criptomoedas e a tokenização de recursos naturais. Nossa equipe combina experiência em tecnologia blockchain, economia digital e mineração, trabalhando juntos para democratizar o acesso às reservas de lítio e promover uma transição energética sustentável.",
+    "ceo y fundador": "CEO e Fundador",
+    "presidente": "Presidente",
+    "director de finanzas": "Diretor Financeiro",
+    "Director de Prensa": "Diretor de Imprensa",
+    "Desarrollador Web3": "Desenvolvedor Web3",
+    "Desarrollador Web2": "Desenvolvedor Web2"
+  },
+  "invertir": {
+    "inverti y ahorra": "Invista e economize no Atómico3",
+    "p1": "Vamos explicar por que você deve investir e economizar com nosso Projeto.",
+    "p2": "Hoje você pode investir em nosso Projeto em três modalidades diferentes:",
+    "modalidad 1": "Fazendo Staking",
+    "modalidad 2": "Comprando Atómicos (AT3) em Peer to Peer com a carteira oficial",
+    "modalidad 3": "Comprar novos AT3 e aproveitar as diferentes promoções.",
+    "invertir": "Investir",
+    "como invertir en atomico3": "Como Investir no Atómico3?",
+    "como invertir p1": "No Atómico3 você pode investir em 4 modalidades diferentes: Staking, Peer to Peer ou Comprar AT3",
+    "como invertir p2": "Aqui vamos te ensinar como realizar cada uma delas. Clique no botão abaixo!",
+    "ver tutoriales": "Ver Tutoriais"
+  },
+  "como invertir": {
+    "inverti y ahorra": "Invista e economize no Atómico3",
+    "como invertir": "Como Investir no Atómico3?",
+    "como invertir p1": "Nesta seção vamos explicar as diferentes maneiras de investir em nosso projeto hoje.",
+    "como invertir p1.1": "Abaixo você encontrará informações detalhadas sobre cada uma delas, os vídeos tutoriais e o passo a passo de como fazer.",
+    "como invertir p2": "Lembre-se que o primeiro passo é conectar sua carteira. Se você ainda não sabe como fazer isso, revise os tutoriais.",
+    "como invertir p3": "Deslize para baixo e comece a investir hoje!",
+    "conectar tu wallet": "Conectar sua Carteira",
+    "conectar tu wallet p1": "Para realizar as operações necessárias para investir no Atómico3, é imprescindível que sua carteira esteja conectada.",
+    "conectar tu wallet p2": "Veja o vídeo a seguir e aprenda como fazer isso!",
+    "peer to peer": "O que é Peer to Peer?",
+    "peer to peer p1": "As compras P2P ou peer-to-peer (literalmente, de pessoa para pessoa), são transferências instantâneas entre particulares realizadas por meio de uma plataforma digital, neste caso, enviadas entre carteiras digitais, de um lado, os tokens de AT3 contra os USDT ou USDC.",
+    "peer to peer p2": "Dessa forma, você pode comprar seus atômicos diretamente de nós pela carteira oficial 0xAfF655c15c943121Dea79B67c47ac9BD2253FD65, pagando com seus USDT ou USDC.",
+    "peer to peer p2.1": "Você pode adquirir Atómicos clicando no botão abaixo ou via transferência bancária.",
+    "peer to peer p2.1.1": "Para essa segunda opção, envie-nos um e-mail para",
+    "peer to peer p2.1.2": "solicitando a compra por transferência bancária e informando todos os seus dados para que possamos entrar em contato e realizar a transferência bancária de conta para conta.",
+    "peer to peer p2.2": "Lembre-se que para isso você precisa conectar sua carteira. Se não sabe como, veja os tutoriais abaixo.",
+    "peer to peer p3": "Como fazer Peer to Peer?",
+    "peer to peer p4": "Aprenda fácil e rapidamente como fazer isso seguindo os passos a seguir!",
+    "peer to peer p5": "Clique no vídeo e comece a investir hoje!"
+  },
+  "soporte": {
+    "soporte": "Suporte",
+    "soporte p1": "Se tiver qualquer dúvida ou preocupação, não hesite em nos contatar, estamos aqui para ajudar!",
+    "whatssap descripcion": "Comunique-se por WhatsApp para um melhor atendimento!",
+    "email descripcion": "Você também pode nos enviar um e-mail com suas perguntas!",
+    "nuestra direccion": "Nosso endereço!"
+  },
+  "tutoriales": {
+    "tutoriales": "Tutoriais",
+    "wallet": "Como conectar sua wallet?",
+    "p2p": "Como fazer Peer to Peer?",
+    "staking": "Como realizar o Staking?"
+  },
+  "form": {
+    "Ingrese sus datos": "Insira seus dados",
+    "Ingrese sus datos p1": "Após inserir seus dados, o documento será baixado automaticamente. Muito obrigado!",
+    "Nombre": "Nome",
+    "Apellido": "Sobrenome",
+    "Email": "E-mail",
+    "Teléfono": "Telefone",
+    "Aceptar": "Aceitar",
+    "Cancelar": "Cancelar"
+  },
+  "privacyPolicy": {
+    "politica de privacidad": "Política de Privacidade",
+    "vigencia": "Vigente desde 09 de Outubro de 2024",
+    "titles": {
+      "indice": "Índice",
+      "title1": "Qual é o conteúdo e o alcance desta Política de Privacidade?",
+      "title2": "Alcance do seu consentimento",
+      "title3": "Para que fique claro ao ler nossa Política!",
+      "title4": "Quais informações coletamos e tratamos?",
+      "title5": "Para que finalidades tratamos as informações?",
+      "title6": "Com quem compartilhamos as informações e como podemos tratar suas Informações Pessoais?",
+      "title7": "Quais medidas de segurança e confidencialidade das informações tomamos?",
+      "title8": "Como podemos nos comunicar com você e que tipo de informações podemos fornecer?",
+      "title9": "Podemos modificar esta Política? O que acontece em caso de alienação ou mudança de controle das Sociedades?",
+      "title10": "Quais são as responsabilidades do Usuário?",
+      "title11": "Quais direitos o Usuário possui e como pode exercê-los?",
+      "title12": "Quais são os mecanismos de resolução de conflitos e a jurisdição e lei aplicável a esta Política?",
+      "title13": "Quem é responsável por suas Informações Pessoais?"
+    },
+    "documento": {
+      "intro": "A proteção de suas informações é importante para nós. Esta Política de Privacidade se aplica a todas as atividades que envolvem o tratamento de suas informações e visa garantir transparência e controle sobre como tratamos suas informações.",
+      "informacion punto 1": {
+        "intro": "Este documento contém a Política de Privacidade ('Política') que rege a relação entre ATÓMICO3 S.A. ('Atómico'), doravante denominadas 'As Sociedades', e os usuários ('Usuário' ou, no plural, 'Usuários') sempre que os Usuários acessarem ou utilizarem uma ou mais das seguintes plataformas:",
+        "punto i": "o site",
+        "punto i link": "https://www.atomico3.io ",
+        "punto i tag": "('Site').",
+        "punto ii": "o aplicativo móvel “Atómico”, disponível para download em dispositivos móveis onde estiver disponível ('App').",
+        "punto iii": "a plataforma de intercâmbio de ativos digitais fornecida através do site https:// ('Exchange').",
+        "conclusion": "Para simplificar, chamaremos o Site, o App e o Exchange, indistintamente, de 'Plataforma'."
+      },
+      "informacion punto 2": {
+        "p1": "Para proteger suas informações, a Atómico cumpre as normas vigentes na República Argentina, em particular, as regras e princípios estabelecidos pela Lei N° 25.326 (doravante, 'Lei de Proteção de Dados Pessoais'), seu Decreto Regulamentar N° 1558/01 e demais disposições que a adicionem, modifiquem, regulamentem, ampliem, complementem ou suprimam.",
+        "p2": "A Atómico é Responsável registrado pela base de dados que contém suas Informações Pessoais perante a Agência de Acesso à Informação Pública da República Argentina.",
+        "p3": "A Atómico também cumpre com todas as normas da República do Paraguai. Registrada na Secretaria de Prevenção à Lavagem de Dinheiro ou Bens (SEPRELAD) da República do Paraguai. Alinhada ao cumprimento do Decreto N° 2463/2024, que emitiu a atualização e modificação do anexo correspondente ao Plano de Ação do Decreto N° 9012 de 22 de março de 2023 para atender às recomendações do Grupo de Ação Financeira da América Latina (GAFILAT), no contexto da Quarta Rodada de Avaliações Mútuas do país. Essa atualização e modificação do Plano de Ação foi incorporada como parte do Plano Estratégico do Estado Paraguaio (PEEP), aprovado pelo Decreto N° 11.200/2013."
+      },
+      "informacion punto 3": {
+        "p1": {
+          "title": "",
+          "content": "A seguir, destacamos conceitos-chave para entender e levar em consideração durante a leitura da nossa Política:"
+        },
+        "p2": {
+          "title": "AAIP",
+          "content": "É a Agência de Acesso à Informação Pública da República Argentina."
+        },
+        "p3": {
+          "title": "Afiliada",
+          "content": "Com relação a qualquer pessoa determinada, entende-se como qualquer outra pessoa que controle essa pessoa determinada, ou que seja controlada por essa pessoa determinada, seja de forma direta ou indireta, ou que, junto com essa outra pessoa, esteja sob controle comum de uma terceira pessoa. Para os fins desta definição, a palavra 'controle', quando usada com relação a uma pessoa determinada, significa o poder de dirigir direta ou indiretamente a administração e as políticas dessa pessoa através da titularidade de ações com direito a voto ou por meio do direito de escolher a maioria dos membros do conselho dessa pessoa, e os termos 'que controle' e 'controlada' têm significados correlatos ao precedente."
+        },
+        "p4": {
+          "title": "Base de dados",
+          "content": "É o conjunto organizado de Informações Pessoais que são objeto de tratamento ou processamento, eletrônico ou não, independentemente da modalidade de sua formação, armazenamento, organização ou acesso."
+        },
+        "p5": {
+          "title": "Consentimento",
+          "content": "Manifestação prévia, livre, expressa e informada por parte do Titular da Informação Pessoal para realizar o tratamento de sua Informação Pessoal, que deve estar por escrito ou por outro meio que permita sua equiparação, de acordo com as circunstâncias."
+        },
+        "p6": {
+          "title": "Responsável",
+          "content": "Pessoa física ou jurídica pública ou privada, que é titular de uma Base de dados."
+        },
+        "p7": {
+          "title": "Titular",
+          "content": "Toda pessoa física ou jurídica cuja Informação Pessoal seja objeto de tratamento ao qual se refere esta Política."
+        },
+        "p8": {
+          "title": "Transferência",
+          "content": "A transferência de informação ocorre quando o Responsável envia a informação a um destinatário que está dentro ou fora do país de onde foi enviada."
+        },
+        "p9": {
+          "title": "Tratamento",
+          "content": "Operações e procedimentos sistemáticos, eletrônicos ou não, que permitem a coleta, conservação, organização, armazenamento, modificação, relacionamento, avaliação, bloqueio, destruição e, em geral, o processamento de Informação Pessoal, bem como sua cessão a terceiros por meio de comunicações, consultas, interconexões ou transferências."
+        }
+      },
+      "informacion punto 4": {
+        "title1": "Informação fornecida pelo Usuário",
+        "p1": "Quando o Usuário utiliza um Serviço da Atómico e/ou utiliza a Plataforma, o Usuário aceita que a Atómico pode coletar e processar certas informações sobre o Usuário, por exemplo: O uso de ou acesso ao Serviço pode exigir a criação de uma conta de Usuário. Para gerar uma conta de Usuário e comunicar-se com a Atómico, as Sociedades requerem que o Usuário forneça seu nome e sobrenome, endereço de e-mail, sexo, data de nascimento e outros dados identificadores, dependendo do uso do Serviço, seu número de telefone, endereço, nacionalidade, CUIT, CUIL, documento de identidade ou outro documento que permita identificá-lo, dados sobre sua conta bancária, imagens (fotografias suas ou cópias de seus documentos de identificação) solicitadas para validar sua identidade, informações financeiras como rendimentos, ativos, patrimônio, passivos e histórico de crédito, a origem dos recursos para o uso do Serviço e os fins para os quais usará os recursos obtidos pelo uso do Serviço (coletivamente, doravante, 'Informação Pessoal'). Além disso, a Atómico solicitará a criação de uma senha para acessar certas funções do Serviço.",
+        "p2": "Os formulários que a Atómico solicita que o Usuário preencha indicam quais dados são obrigatórios e quais são opcionais. Caso o usuário não forneça as informações obrigatórias, a Atómico pode não conseguir prestar ou continuar prestando o Serviço ou o acesso à Plataforma.",
+        "p3": "O Usuário tem o dever de informar qualquer modificação, alteração ou atualização necessária de sua Informação Pessoal e será responsável pelas consequências de não ter notificado a Atómico de forma oportuna e completa sobre qualquer uma dessas alterações.",
+        "title2": "Informações coletadas pelos nossos sistemas",
+        "p4": "A Atómico coleta e processa informações gerais, estatísticas e/ou não identificáveis pessoalmente ('Informações Não Identificáveis Pessoalmente', ou 'INIP') que incluem informações técnicas sobre seu dispositivo, o sistema operacional utilizado e o software de aplicação.",
+        "p5": "Além disso, a Atómico coleta e processa informações relativas a todas as operações e atividades realizadas por meio do Serviço, datas, duração e frequência das sessões de Usuário e de acessos por qualquer meio ao Serviço, localização geográfica do dispositivo através do qual o Serviço é acessado ou utilizado, configuração, endereço IP, informações do navegador, dados de transação e qualquer outra informação que nos tenha sido fornecida através de dispositivos móveis, tablets ou computadores utilizados para acessar ou usar o Serviço (coletivamente, 'Informações Operacionais'). No caso de transmissão a terceiros das Informações Operacionais conforme os termos desta Política, os titulares das Informações Operacionais não serão identificáveis, exceto em casos de transmissão da Informação Completa, conforme definida no ponto 5 desta Política.",
+        "p6": "A Atómico ou seus fornecedores de serviços também podem utilizar várias ferramentas da web, incluindo Cookies, Web Beacons e Tagging na Plataforma e em anúncios, com o objetivo de avaliar e melhorar a Plataforma e outras ofertas eletrônicas, adaptar os serviços, melhorar a experiência do usuário e comunicar com os Usuários sobre produtos e serviços que possam ser de interesse.",
+        "title3": "Informação fornecida por terceiros",
+        "p7": "O Usuário pode optar por dar acesso à Atómico a certas informações armazenadas por terceiros, como redes sociais (incluindo, sem limitação, Facebook, Instagram e Twitter). O tipo de informação e o escopo do uso que podemos dar a ela varia de acordo com o site ou serviço e é controlado pela configuração de privacidade nesse site ou serviço, e pela autorização no momento de associar uma conta gerida por terceiros com a conta gerida pela Atómico. Depois de associar sua conta gerida por terceiros com sua conta de usuário do Serviço, o Usuário aceita que a Atómico pode coletar, armazenar e usar, de acordo com esta Política, as informações contidas na conta gerida por terceiros.",
+        "title4": "Exclusão",
+        "p8": "Está excluída desta Política a informação relativa à sua saúde, raça, grupo étnico, orientação sexual, antecedentes criminais, religião, afiliação sindical, opiniões morais e políticas, pois em nenhum caso solicitaremos que a forneça."
+      },
+      "informacion punto 5": {
+        "p1": "O Usuário aceita que Atómico poderá tratar todas as informações do Usuário mencionadas no ponto 4 desta Política (conjuntamente a Informação Pessoal, a Informação Não Identificável Pessoalmente e a Informação Operacional, doravante a 'Informação Total') com as seguintes finalidades:",
+        "finalidades": {
+          "a": "Comunicar-se com o Usuário, prestar o Serviço e cumprir com compromissos contratuais;",
+          "b": "Validar suas informações, verificar sua identidade, detectar ou prevenir fraudes, estelionato e outros crimes, cumprir normas e políticas de prevenção à lavagem de dinheiro e financiamento do terrorismo, gerenciar e resolver qualquer reclamação relacionada a uma fraude real ou presumida, estelionato e outros crimes, investigar, avaliar e adjudicar reclamações, queixas e riscos, além de associar, vincular, completar, consultar, relacionar, unir, usar, relacionar e reunir informações relacionadas à sua identidade e reputação digital disponíveis no ambiente digital, incluindo serviços e aplicativos de mensagens instantâneas em qualquer formato digital, redes sociais de conteúdo, dispositivos móveis e vestíveis e, em geral, informações relacionadas à sua interação em sites, aplicativos e conteúdo;",
+          "c": "Melhorar, otimizar e modificar o Serviço ou serviços de terceiros. Em particular, esclarece-se que o uso de imagens e fotografias para validação de informações é um elemento central para que Atómico possa prestar seus Serviços aos Usuários de forma segura e prevenir fraudes, estelionato e outros crimes. Atómico poderá terceirizar essa função para um fornecedor especializado e este, para uma melhor prestação de seus serviços, poderá incorporar a Informação Pessoal (incluindo imagens e fotografias) em uma base de dados mais ampla, visando melhorar e customizar seus serviços em favor de Atómico e de todos os seus clientes;",
+          "d": "Coletar e analisar tendências de dados, avaliar o desempenho do Serviço, realizar pesquisas de satisfação, facilitar o design, desenvolvimento, geração e fornecimento de atualizações de software, suporte de produtos e outros produtos e serviços para os Usuários;",
+          "e": "Preparar campanhas de publicidade e/ou marketing associadas a qualquer produto e/ou serviço;",
+          "f": "Avaliar, desenvolver, oferecer e prestar bens e/ou serviços aos Usuários (você não receberá essas ofertas e/ou prestações caso, de acordo com o primeiro parágrafo do ponto 8, tenha optado por não recebê-las);",
+          "g": "Cumprir com a lei, regulamento ou ordem emitida por autoridade competente, ou por razões de segurança pública, saúde pública e/ou defesa nacional, e para cumprir relatórios regulatórios, responder a uma ordem judicial ou de autoridade competente.",
+          "h": "Oferecer informações publicitárias ou de marketing sobre produtos e/ou serviços desses terceiros, acesso a eventos ou promoções, pesquisa de mercado ou outras atividades de marketing (você não receberá essas informações caso, de acordo com o primeiro parágrafo do ponto 8, tenha optado por não recebê-las);"
+        }
+      },
+      "informacion punto 6": {
+        "intro": "Para cumprir as finalidades detalhadas acima, a Informação Total poderá ser compartilhada com:",
+        "item i": "Afiliadas da Atómico, sócios e/ou colaboradores comerciais.",
+        "item ii": "Fornecedores de serviços da Atómico, incluindo fornecedores de serviços de tecnologia, redes, transmissão de dados, identificação de pessoas, verificação de identidade e outros prestadores que são necessários para que Atómico possa prestar corretamente todos os seus Serviços através da Plataforma.",
+        "item iii": "Autoridades e órgãos públicos e regulatórios nacionais, regionais ou municipais.",
+        "item iv": "Fornecedores de serviços de marketing da Atómico e/ou suas afiliadas para a análise das atividades do Usuário e otimização de campanhas publicitárias de Atómico, suas afiliadas ou dos Fornecedores de Serviços, caso em que as informações processadas podem incluir: Endereço IP; Endereços MAC; ID do dispositivo e IDs dos anúncios; Cabeçalho HTTP que inclui a versão do SDK do processador, país, idioma, configuração do dispositivo, versão do sistema operacional, bem como a versão do aplicativo; o Dispositivo do Usuário e informações de sua atividade na web; aplicativos e tokens.",
+        "item v": "Fornecedores de serviços de experiência do usuário (UX) da Atómico e/ou suas Afiliadas para análise da experiência do Usuário para melhorar a Plataforma, caso em que as informações processadas podem incluir: telas visitadas, padrões de interação (como ações na tela, gestos: toques, rolagens) e detalhes do dispositivo (tipo, versão, modelo, sistema operacional). Utilizamos as informações coletadas pela UXCam Inc. para melhorar nosso aplicativo.",
+        "item vi": "Fornecedores de serviços de redes de envio e recepção de ativos digitais da Atómico e/ou suas Afiliadas, como Lightspark Group, Inc., incluindo usuários finais desses fornecedores, para permitir o serviço de envio e recepção de ativos digitais através dessas redes, caso em que as informações processadas podem incluir: nome do Usuário e endereço do usuário nessa rede. Você aceita que outros usuários dessa rede possam acessar seu nome de usuário e endereço nessa rede.",
+        "p2": "Você pode, a qualquer momento, revogar seu consentimento para a transmissão a terceiros de suas Informações Pessoais, entrando em contato conosco pessoalmente ou por e-mail nos endereços especificados no final desta Política. A revogação, dependendo de seu escopo, pode fazer com que não possamos continuar prestando o Serviço.",
+        "p3": "Qualquer uma das entidades mencionadas nos parágrafos anteriores pode estar no Paraguai, Argentina, Chile, Bolívia, México ou até mesmo em países de outro continente ou em organismos internacionais ou supranacionais que, conforme a legislação vigente aplicável, não fornecem níveis de proteção de dados pessoais adequados, como, entre outros, Brasil ou Estados Unidos.",
+        "p4": "Consequentemente, ao aceitar esta Política, o Usuário dá seu consentimento expresso para que sua Informação Total, incluindo suas Informações Pessoais, possa ser transferida internacionalmente pela Atómico, inclusive para países ou organismos internacionais ou supranacionais que não forneçam níveis adequados de proteção de dados pessoais, conforme a legislação vigente aplicável.",
+        "actividades title": "De acordo com as finalidades mencionadas, Atómico poderá realizar as seguintes atividades:",
+        "actividad 1": "Conhecer, armazenar e processar todas as informações fornecidas por você em uma ou várias bases de dados, no formato que for considerado mais conveniente.",
+        "actividad 2": "Conhecer, armazenar, gravar, processar e monitorar todas as informações fornecidas por você verbalmente ou por escrito, por qualquer canal estabelecido pela Atómico, que pode ser utilizada, inclusive, como prova em qualquer reclamação, queixa, conciliação ou demanda.",
+        "actividad 3": "Ordenar, catalogar, classificar, dividir ou separar as informações fornecidas por você.",
+        "actividad 4": "Verificar, corroborar, comprovar, validar, monitorar, investigar ou comparar as informações fornecidas por você com qualquer informação legitimamente disponível, incluindo aquelas conhecidas por nossas Afiliadas.",
+        "actividad 5": "Analisar, processar, avaliar, tratar ou comparar as informações fornecidas por você ou coletadas pela Atómico através da interação em plataformas digitais relacionadas à Atómico. Os dados resultantes de análises, processamentos, avaliações, tratamentos e comparações estarão sujeitos às mesmas autorizações que você concedeu."
+      },
+      "informacion punto 7": {
+        "intro": "Em cumprimento à Lei de Proteção de Dados Pessoais da República Argentina e da Secretaria de Prevenção de Lavagem de Dinheiro ou Bens. A Atómico tomou medidas adequadas para proteger a segurança e confidencialidade de sua Informação Pessoal, garantir que o previsto nesta Política seja respeitado, proteger sua Informação Pessoal contra perda, uso indevido e acesso, divulgação, alteração ou destruição não autorizados.",
+        "p1": "Para garantir um nível adequado de segurança de sua Informação Pessoal, a Atómico pode tomar, entre outras, as seguintes medidas:",
+        "medida1": "A criptografia de Informação Pessoal, quando aplicável.",
+        "medida2": "Medidas capazes de garantir a confidencialidade, integridade, disponibilidade e serviços de tratamento.",
+        "medida3": "Medidas capazes de restaurar rapidamente a disponibilidade e o acesso à Informação Pessoal em caso de incidente físico ou técnico.",
+        "medida4": "Processos de verificação, avaliação e valorização regulares da eficácia das medidas técnicas e organizacionais.",
+        "medida5": "Avaliação periódica do risco de destruição, perda ou alteração acidental ou ilícita de Informação Pessoal transferida, armazenada ou tratada de outra forma, ou a comunicação ou acesso não autorizados a essa informação.",
+        "medida6": "Medidas para garantir que qualquer pessoa que atue sob a autoridade da Atómico e tenha acesso à Informação Pessoal possa tratá-la apenas seguindo as instruções da Atómico.",
+        "confidencialidad": "Sua Informação Pessoal será tratada com confidencialidade, comprometendo-nos, dentro do escopo desta Política, a manter sigilo sobre a mesma e a adotar todas as medidas necessárias para evitar sua alteração, perda e tratamento ou acesso não autorizado, de acordo com o estabelecido na legislação aplicável e nesta Política."
+      },
+      "informacion punto 8": {
+        "p1": "Você poderá selecionar os tipos de informação que não deseja receber de nós, incluindo informações promocionais ou publicitárias da Atómico e/ou de suas Afiliadas ou de terceiros. No entanto, enquanto possuir uma conta de Usuário, você não poderá impedir que enviemos informações não promocionais, como informações sobre sua conta de Usuário ou sobre solicitações ou reclamações em andamento. O Serviço pode transferir cookies para a unidade de armazenamento do dispositivo através do qual você acessa ou utiliza o Serviço. Os cookies são identificadores alfanuméricos que funcionam com seu navegador da web e permitem que nossos sistemas o reconheçam e melhorem o uso do Serviço. Você pode excluir os cookies ou evitar que os enviemos.",
+        "p2": "Consulte a seção de ajuda do seu navegador para realizar qualquer uma dessas operações. De qualquer forma, recomendamos que permita os cookies do nosso Serviço: algumas funções do Serviço podem não operar adequadamente ou ser completamente desativadas se os cookies estiverem desabilitados.",
+        "p3": "Além disso, você poderá solicitar a revogação do monitoramento da localização geográfica dos dispositivos pelos quais acessa o Serviço. No entanto, essa revogação pode desativar algumas funções ou impedir diretamente a prestação do Serviço.",
+        "p4": "O Serviço pode fornecer links para sites de terceiros. Esses sites não são operados por nós e estão fora do nosso controle. Lembre-se de que esses sites podem coletar informações sobre você e que, ao visitá-los, você estará sujeito às suas próprias políticas de privacidade; portanto, recomendamos que leia esses e outros documentos que regem sua relação com os fornecedores desses sites. A Atómico não é responsável pelas práticas de privacidade desses sites e não pode garantir a segurança das informações que coletam.",
+        "p5": "Esta Política se aplica apenas ao uso do Serviço, e não a outras aplicações ou sites de terceiros com os quais a Atómico tenha conexões ou hiperlinks."
+      },
+      "informacion punto 9": {
+        "p1": "A Atómico reserva-se o direito de modificar esta Política a qualquer momento e com efeito imediato. O Usuário será notificado de modificações nesta Política através dos meios que a Atómico considerar adequados (incluindo, sem limitação, sua publicação na Plataforma), e aceita que o uso do Serviço após a notificação constitui aceitação integral dos novos termos da Política.",
+        "p2": "Além disso, a Atómico reserva-se o direito de habilitar o acesso e/ou transferir a Informação Total a um terceiro nos casos de alienação total ou parcial, fusão, cisão ou mudança de controle da empresa."
+      },
+      "informacion punto 10": {
+        "p1": "Atómico toma todas as medidas ao seu alcance para proteger a segurança, integridade e confidencialidade das Informações Pessoais. No entanto, o Usuário assume o risco de qualquer transmissão de qualquer tipo de informação sob esta Política.",
+        "p2": "O Usuário não iniciará qualquer reclamação contra Atómico, nem suas Afiliadas, e indenizará e manterá permanentemente indene a Atómico, suas Afiliadas e seus funcionários, representantes e empregados, contra qualquer reclamação, demanda, ação, custo, despesa (incluindo custos e taxas judiciais e honorários advocatícios razoáveis), perda, dano e/ou prejuízo, direto e/ou indireto, judicial e/ou extrajudicial, que possam surgir direta ou indiretamente de:",
+        "item i": "Qualquer ação ou omissão do Usuário em relação a esta Política",
+        "item ii": "Qualquer ação ou omissão do Usuário em relação às suas Informações Pessoais",
+        "item iii": "Qualquer ação ou reclamação de terceiros contra o Usuário e/ou contra Atómico, ou suas Afiliadas, de qualquer forma vinculada a esta Política ou às informações cuja coleta, tratamento e transferência são previstas nesta Política."
+      },
+      "informacion punto 11": {
+        "p1": "O Usuário poderá solicitar, a qualquer momento, o acesso, retificação, atualização ou eliminação de suas Informações Pessoais. Para isso, deve compartilhar os dados de contato que constam abaixo.",
+        "p2": "Se entrar em contato com Atómico, deverá comprovar sua identidade para que Atómico possa cumprir com as normas de direito de acesso e proceder, conforme aplicável, à sua correção, atualização ou eliminação. As solicitações para excluir Informações Pessoais estarão sujeitas a qualquer obrigação legal e ética vigente de informar ou cumprir documentos ou obrigações de retenção documental que nos sejam impostas.",
+        "p3": "Observe que as comunicações por e-mail não são completamente seguras, por isso não inclua dados sensíveis nos e-mails que nos enviar.",
+        "p4": "As Informações Pessoais do Usuário serão mantidas por Atómico durante o prazo de subscrição ao Serviço ou enquanto sua conta de Usuário estiver ativa. Ao cancelar ou encerrar sua subscrição ao Serviço ou ao fechar sua conta de Usuário, as informações serão mantidas até que deixem de ser necessárias ou pertinentes para os fins para os quais foram coletadas por Atómico.",
+        "p5": "Em nenhum caso o Usuário poderá revogar o consentimento e solicitar a exclusão de suas Informações Pessoais de Atómico quando houver uma obrigação legal ou contratual que imponha a Atómico a conservação das Informações Pessoais.",
+        "p6": "Em nenhuma hipótese transferiremos suas Informações Pessoais a terceiros sem obter seu consentimento prévio, exceto quando necessário para a manutenção de nosso relacionamento com você, para continuar prestando o Serviço ou para cumprir a legislação vigente de proteção de dados. Em particular, esclarecemos que, no âmbito da prestação do Serviço, Atómico poderá transferir suas Informações Pessoais para Afiliadas para a realização de operações ou atividades associadas ao Serviço por parte de suas Afiliadas. Consequentemente, ao aceitar esta Política, o Usuário consente expressamente com a transferência de suas Informações Pessoais para as Afiliadas de Atómico para a realização de operações ou atividades associadas ao Serviço.",
+        "p7": "O Usuário, como titular das Informações Pessoais, tem o direito de exercer o direito de acesso às mesmas gratuitamente, em intervalos não inferiores a seis meses, salvo se comprovar um interesse legítimo para tanto, conforme o estabelecido no artigo 14, inciso 3 da Lei de Proteção de Dados Pessoais. A AAIP, órgão de controle da Lei de Proteção de Dados Pessoais, possui a atribuição de atender às denúncias e reclamações relacionadas ao descumprimento das normas de proteção de dados pessoais."
+      },
+      "informacion punto 12": {
+        "p1": "Esta Política está alinhada em todos os seus pontos com as leis da República Argentina e será interpretada de acordo com elas, além de buscar cumprir com as normas da República do Paraguai, sob o rigoroso controle da Secretaria de Prevenção à Lavagem de Dinheiro ou Bens.",
+        "p2": "A AAIP, na qualidade de órgão de controle da Lei de Proteção de Dados Pessoais, possui a atribuição de atender às denúncias e reclamações daqueles cujos direitos foram afetados pelo descumprimento das normas vigentes em matéria de proteção de dados pessoais.",
+        "p3": "Sem limitar o anterior, em caso de qualquer divergência, desacordo ou conflito derivado da aplicação, interpretação, validade e/ou alcance desta Política, o Usuário deve entrar em contato com Atómico de maneira formal, enviando sua reclamação para que as partes tentem chegar a um acordo. Caso, após decorridos 20 (vinte) dias do início da reclamação, não seja possível chegar a uma solução, o Usuário também poderá optar por submeter sua reclamação a uma das seguintes instâncias, caso sejam competentes:",
+        "a": "Tribunais ordinários da Cidade de Assunção, República do Paraguai, com competência na matéria",
+        "b": "Direção Geral de Defesa e Proteção ao Consumidor do Governo da Cidade de Buenos Aires (mais informações em",
+        "b link": "http://www.buenosaires.gob.ar/defensaconsumidor/direccion-general",
+        "b.1": ") ou da província ou município onde o Usuário reside, desde que exista uma instância de arbitragem ou procedimento para a solução de controvérsias.",
+        "c": "Tribunais ordinários com competência na matéria e sede no local onde o Usuário reside."
+      },
+      "informacion punto 13": {
+        "p1": "A informação de contato do responsável registrado pela base de dados é: Atómico S.A.",
+        "p2": "Endereço: Av. Aviadores del Chaco 2351, 8º andar, Assunção, Paraguai",
+        "p3": "Email: support@atomico3.io"
+      }
+    }
+  },
+  "termsAndConditions": {
+    "terminos y condiciones": "Termos e condições",
+    "vigencia": "Válido desde 09 de outubro de 2024 por tempo indefinido ou pelo tempo estabelecido a exclusivo critério da ATOMICO3 SA",
+    "titles": {
+      "indice": "Índice",
+      "title1": "Conteúdo dos Termos e Condições.",
+      "title2": "Aceitação dos T&C.",
+      "title3": "Serviços oferecidos na Plataforma.",
+      "title4": "Riscos de uso da Plataforma.",
+      "title5": "Requisitos para usar a Plataforma.",
+      "title6": "Registro para uso da Plataforma.",
+      "title7": "Utilização da Plataforma.",
+      "title8": "Conta de Usuário.",
+      "title9": "Obrigações do Usuário.",
+      "title10": "Proibições ao Usuário",
+      "title11": "Solicitação de cancelamento ou fechamento da Conta. Término.",
+      "title12": "Segurança. Recuperação de senhas.",
+      "title13": "Créditos.",
+      "title14": "Modificações aos T&C",
+      "title15": "Conteúdo. Propriedade Intelectual",
+      "title16": "Cancelamento da Plataforma. Falta de Responsabilidade.",
+      "title17": "Funcionários da Atómico",
+      "title18": "Uso de cookies e tecnologias similares",
+      "title19": "Transferências TAG.",
+      "title20": "Swap",
+      "title21": "Cartões Pré-pagos. Cashback",
+      "title22": "Diversos",
+      "title23": "Cessão",
+      "title24": "Consentimento para notificações eletrônicas",
+      "title25": "Resolução de conflitos. Jurisdição e lei aplicável",
+      "title26": "Sugestões, opiniões, queixas e comentários",
+      "title27": "Atendimento ao Usuário",
+      "title28": "Notificações"
+    },
+    "documento": {
+      "informacion punto 1": {
+        "p1": "Este documento contém os termos e condições (“T&C”) que regem a relação entre ATOMICO3 S.A. (“Atômico”) e seus usuários. Essa relação existirá sempre que os usuários acessarem ou utilizarem uma ou várias das seguintes plataformas (o “Usuário” ou, no plural, os “Usuários”):",
+        "punto i": "O site",
+        "punto i link": "https://www.atomico3.io",
+        "punto i tag": "('Site').",
+        "punto ii": "O aplicativo móvel de carteira digital “Atômico”, disponível para download em dispositivos móveis onde estiver disponível (“App”).",
+        "punto iii": "Outros serviços oferecidos de acordo com os presentes termos e condições, ou aceitos pelo Usuário na Plataforma.",
+        "conclusion": "Para facilitar, chamaremos o Site e o App, indistintamente, de “Plataforma” e nos referiremos às definições recém-indicadas para cada uma em particular."
+      },
+      "informacion punto 2": {
+        "p1": "Qualquer Usuário deve aceitar estes T&C e a Política de Privacidade para utilizar a Plataforma. Essa aceitação pelo Usuário o vinculará com a Atômico mediante um contrato legalmente válido.",
+        "p2": "Embora o usuário possa acessar a Política de Privacidade clicando no seguinte link",
+        "p2 link": "https://www.atomico3.io",
+        "p3": ", informamos que este documento contém cláusulas sobre o tratamento das informações do Usuário, de seu dispositivo e/ou seu comportamento online. Se você não aceitar estes T&C ou a Política de Privacidade, não poderá utilizar a Plataforma."
+      },
+      "informacion punto 3": {
+        "p1": "A Plataforma permitirá, entre outras atividades, adquirir, armazenar, enviar, receber e vender ativos digitais (“Serviços”)."
+      },
+      "informacion punto 4": {
+        "p1": "O uso da Plataforma representa riscos devido (i) à flutuação do valor dos ativos digitais e (ii) ao próprio uso da internet ou dos dispositivos. Por outro lado, a flutuação dos ativos digitais apresenta uma oportunidade e o uso da internet facilita a acessibilidade. Antes de utilizar os Serviços, recomendamos que você adquira conhecimentos e consulte profissionais ou especialistas que possam orientá-lo sobre as características dos ativos digitais e as tecnologias envolvidas. Não recomendamos que utilize os Serviços se não estiver adequadamente informado.",
+        "p2": "Sobre a flutuação dos ativos digitais. Em qualquer caso, você reconhece e aceita que os ativos digitais e qualquer atividade vinculada a eles são patrimonialmente arriscados no sentido de que você pode perder a totalidade do capital comprometido. Os ativos digitais são altamente voláteis ao ponto de que podem: não ter valor algum, depreciar-se até um valor insignificante ou, até mesmo, deixar de existir. A volatilidade dos ativos digitais depende de fatores fora do controle da Atômico. Portanto, a Atômico não garante que o capital comprometido em cada operação realizada na Plataforma mantenha, aumente ou reduza seu valor.",
+        "p3": "Informamos que a Atômico poderá fornecer informações sobre os ativos digitais e sua cotação, mas essa informação nunca deve ser interpretada como aconselhamento financeiro ou de investimento, nem representa de forma alguma qualquer tipo de aconselhamento, recomendação, sugestão, oferta ou proposta por parte da Atômico ou de suas Afiliadas. Qualquer compra, venda ou outra operação com ativos digitais é uma decisão exclusiva do Usuário. Somente você será responsável por qualquer perda de valor dos ativos digitais que adquiriu livremente.",
+        "p4": "Para fins destes T&C, são consideradas Afiliadas qualquer outra pessoa que controle ou seja controlada pela Atômico de forma direta ou indireta, ou que junto com a Atômico estejam direta ou indiretamente sob o controle comum de uma terceira pessoa. Para fins desta definição, a palavra “controle”, quando usada com relação à Atômico, significa o poder de dirigir direta ou indiretamente a administração e as políticas da Atômico, através da titularidade de ações com direito a voto ou pelo direito de eleger a maioria dos membros do conselho dessa pessoa, e os termos “que controle” e “controlada” têm significados correlatos ao anterior.",
+        "p5": "Sobre o uso da internet ou dos dispositivos A Atômico não garante o acesso e uso contínuo ou ininterrupto de sua Plataforma e Serviços, pois estes podem eventualmente não estar disponíveis devido a dificuldades técnicas ou falhas de internet nos links ou por qualquer outra circunstância fora do controle da Atômico. Quando ocorrer uma falha desse tipo, a Atômico tomará as medidas de prevenção razoáveis ao seu alcance. Essas medidas podem implicar na suspensão dos Serviços ou do acesso à Plataforma. Os Usuários devem entender que essas medidas são tomadas de boa fé e para o benefício dos Usuários.",
+        "p6": "Além disso, o Usuário poderá escolher livremente o dispositivo no qual acessará a Plataforma e deverá dirigir qualquer reclamação ao responsável por esse dispositivo em caso de defeito ou inconveniente técnico que o dispositivo possa apresentar.",
+        "p7": "A Atômico não pode garantir que a Plataforma e os canais de comunicação com o Usuário estejam em todo momento livres de vírus, spyware, trojans, worms ou qualquer outro elemento que possa acessar suas informações sem seu consentimento, danificar ou destruir seus dispositivos eletrônicos, assumir o controle de sua Conta, ou alterar seu funcionamento normal (“Elementos Danosos”). É responsabilidade e obrigação do Usuário ter antivírus, softwares e ferramentas adequadas para detectar, prevenir e neutralizar qualquer tipo de Elemento Danoso. A Atômico não será responsável por nenhum dano que o Usuário possa sofrer como consequência ou em relação a Elementos Danosos ou emails falsos ou que aparentem ser da Atômico enviados por terceiros (“phishing”) sem relação com a Atômico."
+      },
+      "informacion punto 5": {
+        "p1": "Para poder utilizar a Plataforma, você deve ter completado 18 anos e não ter sido declarado judicialmente incapaz ou ter sua capacidade de contratar ou dispor de seu patrimônio restrita. Embora seja responsabilidade do Usuário cumprir esse requisito, a Atómico poderá solicitar certos documentos que comprovem esses pontos.",
+        "p2": "Usuários que tenham sido temporariamente suspensos ou permanentemente inabilitados pela Atómico não poderão voltar a utilizar a Plataforma, salvo autorização expressa da Atómico.",
+        "p3": "Caso esteja disponível o registro de pessoas jurídicas e uma pessoa jurídica se registre na Plataforma como Usuário, a pessoa física que utilize a Plataforma em nome dessa pessoa jurídica deverá ter capacidade e poderes de representação suficientes para contratar em nome de tal entidade, dispor de seus bens e vinculá-la sob estes T&C.",
+        "p4": "Nenhuma pessoa poderá utilizar a Plataforma ou os Serviços como comerciante, locador ou prestador de serviços, para os fins da Resolução Geral 4636 da Administração Federal de Ingressos Públicos e suas normas modificadoras e complementares.",
+        "p5": "O Usuário declara e aceita que usará a Plataforma e os Serviços apenas para fins pessoais, não comerciais."
+      },
+      "informacion punto 6": {
+        "p1": "Para utilizar a Plataforma, você deve se registrar preenchendo o formulário correspondente com dados válidos e informações pessoais exatas, precisas, completas, atualizadas e verdadeiras ('Dados Pessoais'). Você deve manter seus Dados Pessoais atualizados e é responsável por qualquer inexatidão que possam apresentar.",
+        "p2": "O processo de registro também pode ser feito inserindo os dados que os Usuários tenham declarado em algum perfil próprio de uma rede social. Nesses casos, o Usuário aceita que a Atómico extraia da rede social em questão certas informações necessárias para a prestação do Serviço, conforme estabelecido pela Política de Privacidade.",
+        "p3": "Sem prejuízo disso, a Atómico, a qualquer momento, poderá solicitar documentos que comprovem as informações fornecidas ou verificar os dados fornecidos com bases de dados de entidades públicas ou privadas e, eventualmente, suspender os Serviços se você não conseguir comprovar as informações requeridas. Com essa política, a Atómico pretende proteger os Usuários que utilizam a Plataforma de boa fé.",
+        "p4": "O Usuário autoriza a Atómico e suas Afiliadas a verificar os dados fornecidos com bases de dados de entidades públicas, empresas especializadas e centrais de risco, incluindo, sem limitação, o Registro Nacional de Pessoas (RENAPER).",
+        "p5": "A Atómico utilizará as Informações para os seguintes fins: a) identificação e autenticação, b) administração e gestão comercial ou transacional da Plataforma, c) melhoria do serviço, d) fins estatísticos, e) envio de notificações, promoções ou publicidade, entre outros; e, f) o estipulado na política de privacidade.",
+        "p6": "O Usuário reconhece e aceita expressamente que a Atómico poderá compartilhar os registros de informações e documentação do Usuário com outras empresas do mesmo grupo econômico e/ou com a Unidade de Informação Financeira, o Banco Central da República Argentina, o Banco Central da República do Paraguai (BCP), a Secretaria de Prevenção de Lavagem de Dinheiro e Bens (SEPRELAD), ou qualquer outra autoridade ou organismo competente para o cumprimento de obrigações regulatórias de conhecimento do cliente para a prevenção de lavagem de dinheiro e financiamento do terrorismo.",
+        "p7": "Ao preencher voluntariamente seus dados, você autoriza expressa e irrevogavelmente, dando mandato nos termos do artigo 917, inciso c) do Código Civil Paraguaio e conforme disposto na Lei 6534/2020 'De Proteção de Dados Pessoais Creditícios' e demais normas suplementares ou modificatórias, especialmente seu artigo 6, para que por conta própria ou através de empresas especializadas possamos coletar informações dos Registros Públicos ou Privados, bancos, financeiras ou outra entidade comercial que possa ser relevante, sobre sua situação patrimonial e solvência econômica para a obtenção, verificação, confirmação e/ou certificação de dados declarados por você e/ou constantes em bases de dados de terceiros, seja por procedimentos telefônicos, eletrônicos, etc. Esta autorização se estende aos mesmos termos para fornecer a terceiros informações sobre sua situação patrimonial, informações creditícias, operações ativas e passivas, solvência econômica e/ou sobre o cumprimento de suas obrigações comerciais.",
+        "p8": "O Usuário autoriza expressamente a Atómico a compartilhar as informações fornecidas no momento do registro e verificação de sua conta (incluindo endereço de e-mail) com instituições financeiras caso isso seja exigido por procedimentos de prevenção à lavagem de dinheiro e financiamento do terrorismo e/ou prevenção de fraudes, bem como com os fornecedores de serviços ou empresas Afiliadas que contribuam para oferecer serviços e/ou facilitar operações através da Plataforma em todas as jurisdições onde o Serviço esteja disponível, incluindo, mas não se limitando a, meios de pagamento, meios de cobrança de pagamento, entidades financeiras, seguradoras ou intermediários na gestão de pagamentos, call centers, entidades que intervenham na resolução de disputas, que podem incluir, entre outros, Seguradoras, Mediadores ou Tribunais de Arbitragem ou tribunais competentes. A Atómico assegurará o cumprimento de certos padrões na transmissão das informações, mediante a assinatura de acordos ou convênios cujo objetivo seja a privacidade e confidencialidade dos dados pessoais dos Usuários."
+      },
+      "informacion punto 7": {
+        "p1": "Atómico protege seus Usuários de boa fé limitando o registro de certas pessoas que poderiam utilizar os Serviços de má fé. Assim, com o objetivo de proteger a massa de Usuários de boa fé da Plataforma, Atómico não permitirá o registro ou suspenderá um vigente em todos os casos em que identifique que um Usuário, ou, se aplicável, seus acionistas, subsidiárias, controladas, diretores, funcionários, empregados ou agentes são pessoas situadas em, constituídas em, ou residentes de um país ou território cujo governo esteja sujeito a Sanções, incluindo, sem limitações: a Região da Crimeia, Cuba, Irã, Síria e Coreia do Norte.",
+        "p2": "Para os efeitos desta cláusula, entende-se por 'Sanções' as restrições ou proibições na capacidade de participar em negócios e outras atividades econômicas com certos países, regiões, pessoas ou entidades, ou qualquer medida governamental emitida com o objetivo de privar uma entidade (incluindo indivíduos, corporações, territórios, países, etc.) de ativos financeiros e econômicos com o propósito de combater e tentar reduzir o comportamento que ameace a segurança nacional ou internacional ou contrarie o direito internacional.",
+        "p3": "Em particular, serão rejeitados como Usuários ou suspensos ou desabilitados aqueles que estejam incluídos nas Listas de Sancionados do OFAC (Office of Foreign Assets Control dos Estados Unidos) e listas de terroristas das Nações Unidas, bem como em qualquer lista nacional de pessoas bloqueadas, ficando proibido o registro do Usuário ou a utilização da Plataforma nos mencionados territórios ou jurisdições sancionadas.",
+        "p4": "Também não poderão se registrar como Usuários pessoas físicas ou jurídicas sobre as quais se disponha de informações que indiquem possível relação com atividades de natureza delitiva, especialmente aquelas supostamente vinculadas ao narcotráfico, ao terrorismo ou ao crime organizado em geral.",
+        "p5": "Em virtude do previsto nesta cláusula, Atómico poderá rejeitar uma solicitação de registro ou cancelar, suspender ou impedir, temporária ou definitivamente, uma Conta, ou o acesso ou uso da Plataforma ou dos Serviços por qualquer Usuário (i) diante de incongruências ou inconsistências nas informações fornecidas por um Usuário, ou atividades incomuns ou suspeitas do Usuário em matéria de prevenção de lavagem de dinheiro e financiamento ao terrorismo ou de fraude; (ii) caso o Usuário não forneça ou não atualize em tempo hábil as informações ou documentos requeridos; (iii) caso o Usuário esteja sujeito a Sanções, ou situado em, constituído em, ou seja residente em um país ou território sujeito a Sanções, conforme o previsto nesta cláusula; (iv) caso o Usuário esteja ou possa estar relacionado com atividades de natureza delitiva, conforme previsto nesta cláusula; (v) caso Atómico identifique atividades suspeitas ou ilícitas ou não permitidas pelas práticas e bons costumes da indústria, ou (vi) quando Atómico considere que o Usuário viola total ou parcialmente estes T&C. Em nenhum caso a decisão da Atómico gerará para o Usuário o direito a ser ressarcido ou indenizado de qualquer forma ou por qualquer motivo. Informamos que nestes casos pode não haver pré-aviso ou justificativa como parte da adoção de medidas razoáveis para evitar danos maiores, conforme previsto pelo art. 1710 do Código Civil e Comercial da República Argentina."
+      },
+      "informacion punto 8": {
+        "p1": "Uma vez finalizado o processo de registro, a pessoa terá criado uma conta de Usuário na Plataforma ('Conta'), à qual poderá acessar com um endereço de e-mail ou nome de Usuário, uma senha e, se ativado, um segundo fator de autenticação. O acesso à Conta mediante o ingresso do e-mail ou nome de Usuário e senha surtirá o efeito de assinatura eletrônica, com relação a todas as operações que o Usuário realizar através da Plataforma.",
+        "p2": "É proibida a venda, cessão ou transferência sob qualquer título. O Usuário compromete-se a não permitir nem autorizar o uso de sua Conta por terceiros, e a não criar mais de uma Conta. O Usuário obriga-se a manter a confidencialidade de sua senha e a segurança dos dispositivos com os quais acessa sua Conta, sendo, consequentemente, o único e exclusivo responsável por todas as operações realizadas a partir de qualquer dispositivo que utilize sua Conta. O Usuário compromete-se a notificar a Atómico sobre qualquer acesso, tentativa de acesso ou uso não autorizado de sua Conta, imediatamente e de forma verificável ou através de qualquer dos canais de comunicação disponíveis na Plataforma. Com isso, Atómico poderá realizar as ações ao seu alcance para proteger seus ativos digitais.",
+        "p3": "A disponibilidade dos Serviços dependerá do nível de validação da Conta. O Usuário aceita que os níveis de validação, as informações e os requisitos associados a cada um deles e seus Serviços associados estão sujeitos à exclusiva discricionariedade de Atómico. Ou seja, Atómico poderá exigir diferentes níveis de validação para distintos Serviços oferecidos na Plataforma.",
+        "p4": "O Usuário declara conhecer e aceitar que os Serviços estão sujeitos ao resultado da análise pertinente, ao cumprimento dos requisitos exigidos, e à prévia aprovação da Atómico. Os Serviços não estão limitados a residentes do território da República Argentina e estão sujeitos à disponibilidade técnica e geográfica, salvo especificação em contrário.",
+        "p5": "O Usuário aceita que os produtos e serviços da Atómico ou de terceiros sejam disponibilizados através da Plataforma e estejam sujeitos a seus próprios termos e condições e políticas de privacidade, que serão oportunamente informados ao interessado pelo terceiro e deverão ser aceitos pelo Usuário para poder acessar esses produtos e serviços.",
+        "p6": "O Usuário aceita o recebimento de faturas eletrônicas da Atómico em seu e-mail registrado, nas quais serão cobradas as comissões devidamente informadas na Plataforma e aceitas pelo Usuário em cada operação. O Usuário reconhece e aceita que o envio da fatura eletrônica pode demorar até 48 horas úteis."
+      },
+      "informacion punto 9": {
+        "9.1": "Uso legal. Dever de colaboração",
+        "9.1 p1": "O Usuário deve utilizar a Plataforma de acordo com sua finalidade e em conformidade com estes T&C, as leis, a moral, os bons costumes geralmente aceitos e a ordem pública.",
+        "9.1 p2": "O Usuário deve responder de forma pontual e adequada a qualquer solicitação de informação feita pela Plataforma.",
+        "9.2": "Gestão de operações",
+        "9.2.1": "Generalidades. Limites. Sujeito à disponibilidade técnica, o Usuário poderá, através da Plataforma, realizar operações de compra, recebimento, armazenamento, envio e venda de ativos digitais, entre outras que a Atómico poderá disponibilizar. Cada uma dessas instruções que o Usuário emite através da Plataforma para que a Atómico gerencie cada operação será uma 'Ordem de Gestão'. A Atómico poderá, a qualquer momento, modificar os limites ao número ou valor das Ordens de Gestão para cumprir com as políticas de prevenção à lavagem de dinheiro e financiamento ao terrorismo, políticas da Atómico ou outras que sejam aplicáveis.",
+        "9.2.2": "Mandato irrevogável. O Usuário reconhece e aceita que, ao emitir uma Ordem de Gestão: (i) concede um mandato irrevogável à Atómico e/ou à sociedade Afiliada para realizar as operações necessárias, com a finalidade de comprar ou vender ativos digitais, enviar ou receber ativos digitais, armazenar ativos digitais ou executar qualquer outro Serviço disponível, e (ii) autoriza irrevogavelmente a Atómico e/ou à sociedade Afiliada a realizar quaisquer operações (incluindo, sem limitação, operações comerciais) que a Atómico e/ou à sociedade Afiliada, a seu exclusivo critério, considerar oportunas para cumprir com a Ordem de Gestão dentro dos prazos informados ao Usuário, incluindo o débito de quaisquer juros, custos ou encargos aplicáveis à operação.",
+        "9.2.3": "Responsabilidade do Usuário. O Usuário é exclusivamente responsável por cada Ordem de Gestão e suas consequências e reconhece que a Atómico não verificará o negócio subjacente à Ordem de Gestão, nem sua causa, finalidade ou circunstâncias, nem a capacidade das partes contratantes. O Usuário é responsável por qualquer erro (incluindo, sem limitação, erros de digitação — inclusive referentes ao valor, à quantidade de ativos digitais ou ao destinatário —, reenvio de formulários ou duplicação de ordens) que possa ter cometido ao completar ou emitir uma Ordem de Gestão e ao enviar ativos digitais para a Plataforma ou a partir dela (incluindo, sem limitação, o envio para a Plataforma e dela para fora, de ativos digitais não suportados pela mesma e/ou pelos receptores ou mediante a utilização de redes não suportadas pela Plataforma e/ou pelos receptores para o envio ou recebimento de ativos digitais). Também é responsabilidade do Usuário o pagamento dos impostos aplicáveis às operações que realiza com a Plataforma; a Atómico não será responsável por realizar notificações, pagamentos ou quaisquer outras obrigações do Usuário perante as autoridades competentes.",
+        "9.2.4": "Ausência de garantias. O Usuário reconhece e aceita que a Atómico não se responsabiliza por, nem garante o cumprimento de: (i) nenhuma obrigação assumida por qualquer Usuário, nem (ii) nenhuma obrigação assumida por qualquer pessoa física ou jurídica associada ou vinculada à Atómico pelas quais não tenha dever de responder.",
+        "9.2.5": "Custos e comissões. O Usuário reconhece e aceita que as Ordens de Gestão podem implicar despesas, custos e comissões. Todos os custos e comissões estabelecidos pela Atómico estão devidamente informados na Plataforma. O Usuário deve se informar sobre os custos ou comissões que terceiros diferentes da Atómico possam impor antes de emitir qualquer Ordem de Gestão. A emissão, por parte do usuário, de uma Ordem de Gestão constitui uma declaração de conhecimento e aceitação de todas as despesas, custos e comissões vinculados.",
+        "9.2.5 p1": "Comissões por depósitos:",
+        "9.2.5 p2": "Em dinheiro através de Rapipago: 2,5% final.",
+        "9.2.5 p3": "Através de MercadoPago: 3% final.",
+        "9.2.5 p4": "Através de UENO BANK: 2,5% final.",
+        "9.2.5 p5": "Comissões por retiradas:",
+        "9.2.5 p6": "Em dinheiro através de Rapipago: 1,2% final.",
+        "9.2.5 p7": "Através de MercadoPago: 0% final.",
+        "9.2.5 p8": "Através de UENO BANK: 1,5% final.",
+        "9.2.5 p9": "Comissão por compra ou venda de ativos digitais: 2% final.",
+        "9.2.6": "Aceitação e rejeição de Ordens de Gestão. A Atómico poderá preventivamente rejeitar uma Ordem de Gestão nos casos previstos nestes T&C.",
+        "9.2.7": "Termos e condições de terceiros. O Usuário reconhece e aceita que, na execução de uma Ordem de Gestão, podem intervir terceiros. Esses terceiros podem sujeitar seus produtos e serviços aos seus próprios termos e condições e política de privacidade que serão oportunamente informados pela Atómico ou pelo seu fornecedor e deverão ser aceitos pelo Usuário para poder acessar esses produtos e serviços. Caso esses termos e condições contenham alguma disposição que contradiga estes T&C, o Usuário aceita que prevalecerão estes T&C.",
+        "9.2.8": "Uso e validade de Cupons. Algumas Ordens de Gestão podem implicar a emissão de boletos, cupons, comprovantes de pagamento ou códigos de barras físicos ou digitais (conjuntamente, “Cupons”). O Usuário aceita que os Cupons são intransferíveis para outras pessoas e que não devem ser alterados nem utilizados como meio de cobrança. Os Cupons terão um período de validade de 24 horas. O Usuário aceita que, após esse prazo, os Cupons perderão seu valor. Caso o Usuário pague, deposite ou envie ativos digitais após o vencimento do prazo, a Atómico se reserva o direito de devolver os fundos ao meio de pagamento utilizado pelo Usuário ou fazer a acreditação dos fundos na Conta da Plataforma.",
+        "9.2.9": "Limites. A Atómico pode determinar ou modificar os limites das diferentes operações que estarão informados nas respectivas operações ou na seção correspondente na Plataforma.",
+        "9.2.10": "Faculdades da Atómico. Limites. Comunicação de Operações. A Atómico reitera que cumpre rigorosamente com toda lei e norma emanada das autoridades locais que regulam a atividade das empresas de ativos digitais. Nesse sentido, realiza as comunicações necessárias requeridas pelos órgãos locais. Os Usuários ao aderirem a estes T&C, assumem, de forma pessoal e intransferível, a responsabilidade integral por suas declarações e declaram que possuem capacidade econômica para transacionar nos volumes pretendidos, tendo a Atómico a faculdade de, a qualquer momento, solicitar ao usuário a comprovação fidedigna acerca de sua capacidade financeira, sob pena, a critério da Atómico, de reduzir o limite concedido ou adotar outras medidas legalmente possíveis de serem adotadas.",
+        "9.3": "Operações com guaranis",
+        "9.3.1": "O usuário aceita que o saldo em guaranis que esteja vigente na Plataforma e disponibilizado à Atómico S.A será administrado e creditado na conta de pagamento oferecida por esta, a partir da aceitação destes T&C.",
+        "9.4": "Operações com ativos digitais",
+        "9.4.1": "Recepção ou compra de ativos digitais. O Usuário aceita que a recepção de ativos digitais em sua Conta poderá ser efetuada através da emissão de ordens de compra pelos meios disponíveis na Plataforma ou indicados na Plataforma —que a Atómico pode modificar sem aviso prévio— ou ao receber transferências de ativos digitais de terceiros. Ao emitir uma ordem de compra de ativos digitais, seja qual for o meio de pagamento, o Usuário reconhece e aceita que estará autorizando a Atómico, com os fundos do Usuário disponíveis em sua Conta, a adquirir para o Usuário a quantidade e o tipo de ativos digitais indicados, por qualquer dos canais e de qualquer modo lícito que a Atómico determine a seu critério exclusivo. O Usuário aceita que a cotação indicada pela Atómico só será mantida pelo prazo estabelecido na Plataforma.",
+        "9.4.2": "Armazenamento de ativos digitais. O Usuário reconhece e aceita que, para proporcionar uma melhor experiência ao Usuário e, especialmente, para minimizar as consequências de possíveis ataques ao Usuário ou à Plataforma, os ativos digitais que o Usuário visualiza na Plataforma como próprios podem estar associados a uma ou mais Chaves Públicas controladas pela Atómico e/ou suas Afiliadas em vez da Chave Pública do Usuário. “Chave Pública” significa o código alfanumérico usado nas blockchains para identificar uma conta de ativos digitais específica. O Usuário concede uma autorização irrevogável à Atómico para que esta custodie os ativos digitais de sua Conta em uma ou mais Chaves Públicas controladas pela Atómico e/ou suas Afiliadas e/ou terceiros, e para que utilize serviços e/ou ferramentas próprias ou de terceiros para que a Atómico possa prestar adequadamente os Serviços relacionados aos ativos digitais.",
+        "9.4.2 p1": "A Atómico e suas Afiliadas utilizam um mecanismo de custódia de ativos digitais duplo, de “cold e hot wallets” (os primeiros são sistemas de armazenamento que não precisam permanecer conectados à rede e os segundos são sistemas de armazenamento conectados à rede), de modo que a maioria dos ativos digitais custodiados dos Usuários são armazenados pela Atómico e/ou suas Afiliadas em “cold wallets” que constituem sistemas “offline” mais seguros. Assim, os ativos digitais refletidos no saldo de cada Usuário na Plataforma podem estar alocados em “cold wallets” da Atómico e/ou suas Afiliadas.",
+        "9.4.3": "Envio e venda de ativos digitais. A venda e o envio de ativos digitais podem ser realizados pelos meios disponíveis na Plataforma e da forma indicada na Plataforma. O envio ou venda de ativos digitais exigirá que exista na Conta a quantidade e o tipo de ativo digital especificados, e em todos os casos estará condicionado ao pagamento de qualquer dívida que o Usuário tenha com a Atómico, qualquer que seja sua origem. O Usuário aceita que a cotação fornecida pela Atómico ao Usuário só será mantida pelo prazo estabelecido na Plataforma.",
+        "9.4.4": "Atrasos. Cancelamentos. O Usuário aceita que qualquer tipo de operação com ativos digitais pode sofrer atrasos ou cancelamentos de terceiros. O Usuário reconhece que a Atómico não será responsável por danos diretos ou indiretos que atrasos e cancelamentos de terceiros possam causar. No que diz respeito à Atómico, dentro do seu âmbito de controle, ela fará esforços razoáveis para que toda operação com ativos digitais seja realizada dentro de 72 horas úteis desde que a Ordem de Gestão seja corretamente enviada.",
+        "9.4.5": "Rendimentos. O Usuário aceita que a existência de ativos digitais em sua Conta por qualquer período de tempo não lhe concederá rendimentos de qualquer tipo, a menos que a Atómico estabeleça expressamente o contrário para um produto ou Serviço específico.",
+        "9.4.6": "Comissões. O Usuário aceita que a Atómico poderá cobrar uma comissão pela prestação de Serviços relacionados a operações em ativos digitais, equivalente a um percentual do valor de cada operação, que será cobrado ao realizar cada operação. Os percentuais estão publicados na Plataforma. Fica expressamente estabelecido que a Atómico poderá modificar a qualquer momento e de forma unilateral os percentuais das comissões e sua forma de pagamento. Qualquer alteração no esquema de comissões será publicada na Plataforma e/ou notificada aos Usuários por algum dos canais digitais disponíveis.",
+        "9.4.7": "Exclusão de garantias e responsabilidade com relação a tecnologias blockchain. Forks. A Atómico não tem autoridade nem controle sobre as blockchains nem os protocolos de software que governam as operações com ativos digitais habilitados na Plataforma. Em geral, essas blockchains e protocolos são de código aberto e qualquer pessoa pode usá-los, copiá-los, modificá-los e distribuí-los. Consequentemente, a Atómico não assume qualquer responsabilidade pelo funcionamento desses protocolos nem garante sua funcionalidade, segurança ou disponibilidade. Ao usar os Serviços, o Usuário reconhece e aceita que as blockchains e os protocolos estão sujeitos a mudanças repentinas em suas regras operacionais (como em casos de bifurcações ou “Forks”), que podem afetar material e/ou significativamente o valor, funcionalidade ou denominação do ativo digital em questão, e criar novos ativos digitais.",
+        "9.4.7 p1": "No caso de ocorrer um Fork, a Atómico pode suspender imediatamente suas operações de forma temporária e, se assim considerar necessário, podendo (a) configurar ou reconfigurar seus sistemas e/ou (b) decidir não suportar (ou deixar de suportar) um protocolo e/ou o ativo digital original e/ou alternativo, sempre que o Usuário tenha a oportunidade de retirar os ativos digitais originais da Plataforma. O Usuário aceita que a Atómico não tem e não terá obrigação de ceder nem de qualquer forma creditar ao Usuário os ativos digitais alternativos provenientes de um Fork. O Usuário aceita que a Atómico não assume qualquer obrigação ou responsabilidade com relação a um Fork, a um ramo não suportado de uma blockchain, ou a um protocolo alternativo a um já existente. O Usuário também reconhece e aceita que as transações realizadas em Blockchain são irreversíveis uma vez confirmadas através do protocolo estabelecido em cada caso e que a Atómico não tem capacidade de revertê-las.",
+        "9.4.8": "Responsabilidade do Usuário. O Usuário é responsável por cumprir com todas as normas, medidas, regulamentos e/ou comunicações sobre acesso ao mercado cambial e complementares emitidas pelo Banco Central da República Argentina ou qualquer órgão competente, sem prejuízo daquelas que são de cumprimento exclusivo da Empresa.",
+        "9.4.9": "Conversão Automática. Ao aceitar estes T&C, o Usuário terá a opção de escolher que, ao depositar guaranis em sua Conta, esse saldo seja mantido nessa moeda ou seja realizada uma conversão automática de guaranis (a “Conversão Automática”) para ativos digitais stable coin USDT ou USDC (“USDT”) ou qualquer outro ativo digital que a Atómico disponibilize para esse fim.",
+        "9.4.9.1": "Mandato Irrevogável. Caso opte pela Conversão Automática, o Usuário concede uma autorização à Atómico para que, sempre que o Usuário receba um depósito em pesos argentinos em sua conta de pagamento administrada pela Atómico, por conta e ordem do Usuário, realize imediatamente uma compra de USDT ou outro ativo digital, conforme o que tiver sido escolhido oportunamente, pelo preço de compra que constar na Plataforma naquele momento. Os USDT ou os ativos digitais correspondentes conforme escolhido na Conversão Automática serão creditados na Conta.",
+        "9.4.9.2": "Opção. A qualquer momento, o Usuário poderá modificar sua escolha para realizar a Conversão Automática em outro dos ativos disponíveis ou manter o depósito em sua conta de pagamento em pesos argentinos.",
+        "9.4.9.3": "Venda. O Usuário poderá, a qualquer momento, vender os USDT ou outro ativo digital proveniente da Conversão Automática na Plataforma e ao preço de venda publicado oportunamente, contra pesos argentinos. Os pesos argentinos serão creditados em sua conta de pagamento e o Usuário poderá utilizá-los para contratar outros Serviços ou para retirá-los.",
+        "9.4.9.4": "Os tokens mencionados não são um valor mobiliário, título de valor, ou um commodity, e você aceita e reconhece que está recebendo o token para seu uso tanto na Plataforma como em exchanges de terceiros onde eventualmente esteja listado e não para fins de investimento ou ganho financeiro. Estes Termos não constituem nenhuma oferta para subscrever valores mobiliários, títulos de valor ou qualquer outro instrumento com efeitos semelhantes a esses.",
+        "9.4.10": "Em caso de uma compra com o Cartão Pré-pago de ATOMICO3, tendo selecionado um dos ativos digitais como meio de pagamento, o Usuário concede uma procuração irrevogável à Atómico para que venda a quantidade necessária do ativo digital selecionado para obter os pesos argentinos correspondentes para realizar o pagamento do valor indicado pelo Comércio. Para essa venda, a Atómico utilizará o valor de venda do ativo no momento da operação. A Atómico cobrará do usuário a comissão correspondente a uma venda de ativo digital.",
+        "9.4.11": "Caso seja realizada uma remessa através da rede do UENO BANK em uma moeda diferente de AT3, o Usuário aceita e concede uma procuração irrevogável à Atómico para que realize uma conversão automática da quantidade do ativo selecionado para seu equivalente em AT3, conforme o preço da Plataforma, no momento da operação."
+      },
+      "informacion punto 10": {
+        "intro": "Sem que a lista seja exaustiva, o Usuário compromete-se a abster-se de realizar as seguintes ações, seja diretamente ou através de terceiros:",
+        "a": "Utilizar a Plataforma, os Serviços ou qualquer um dos seus conteúdos de uma maneira ou com fins que a Atómico considere diferentes ou contrários a estes T&C, as leis, a moral, os bons costumes ou a ordem pública;",
+        "b": "Utilizar a Plataforma para enviar, reproduzir ou publicar arquivos ou qualquer tipo de informação cujo conteúdo seja obsceno, abusivo, difamatório, injurioso, pornográfico, político ou contrário às leis, à moral e aos bons costumes, ou que contenha software malicioso como vírus, worms ou qualquer outra característica capaz de destruir ou danificar o funcionamento de um dispositivo eletrônico, da Plataforma ou dos sistemas ou servidores da Atómico, das suas Afiliadas ou de terceiros;",
+        "c": "Utilizar a Plataforma para enviar, reproduzir ou publicar arquivos em violação aos direitos de propriedade intelectual de terceiros;",
+        "d": "Explorar ou aproveitar-se de má fé de um ataque à Plataforma, ou de uma vulnerabilidade ou erro da Plataforma, em benefício próprio ou de terceiros;",
+        "e": "Utilizar a Plataforma em nome ou por conta de terceiros, ou permitir que qualquer pessoa (incluindo, sem limitação, através de cessão, licença, transferência ou locação) utilize a Conta ou qualquer um dos Serviços associados a ela, inclusive cobrando pelos Serviços;",
+        "f": "Efetuar Ordens de Gestão para realizar operações que constituam ou possam ser interpretadas como empréstimos ou adiantamentos de dinheiro para si mesmo ou terceiros, ou como etapas de um processo que culminem ou impliquem essas operações;",
+        "g": "Usar programas, software ou dispositivos automáticos ou manuais para monitorar ou copiar a informação ou qualquer tipo de conteúdo ou elemento da Plataforma;",
+        "h": "Vincular de qualquer forma a Plataforma ou os Serviços a promoções não solicitadas, campanhas políticas ou mensagens comerciais (SPAM) ou a qualquer mensagem em cadeia ou conteúdo projetado para enganar ou obter benefícios indevidos de Usuários ou terceiros;",
+        "i": "Efetuar ações que restrinjam, neguem ou impeçam qualquer indivíduo, grupo, entidade ou organização de acessar ou usar a Plataforma e os conteúdos, produtos e serviços oferecidos através dela;",
+        "j": "Tentar violar qualquer sistema de autenticação e segurança da Plataforma;",
+        "k": "Tentar obter qualquer tipo de material ou conteúdo acessível através da Plataforma utilizando procedimentos ou meios diferentes dos que, conforme o caso, tenham sido expressamente indicados ou disponibilizados ao Usuário;",
+        "l": "Incluir frames, links, deep links ou hiperlinks para a Plataforma, seja de outros sites ou de qualquer software ou dispositivo eletrônico;",
+        "m": "Realizar qualquer ação que imponha uma carga desproporcional ou excessiva sobre a infraestrutura tecnológica da Plataforma;",
+        "n": "Utilizar meta tags ou qualquer outro tipo de texto oculto com o nome 'Atómico', ou qualquer outro nome ou denominação comercial e/ou direitos de propriedade intelectual que pertençam ou sejam de titularidade da Atómico, de seus licenciantes ou Afiliadas;",
+        "o": "Emitir uma fatura endereçada à Atómico, a menos que exista um acordo comercial entre o Usuário e a Atómico no qual a Atómico tenha concordado em pagar por bens ou serviços. Qualquer fatura emitida em nome da Atómico fora do caso anterior será nula."
+      },
+      "informacion punto 11": {
+        "p1": "O Usuário pode solicitar o cancelamento da Conta através da Plataforma ou por e-mail para support@atomico3.io, exclusivamente a partir do endereço de e-mail com o qual se registrou, ou através de carta registrada endereçada a: Av. Aviadores do Chaco 2351, 8º andar, Assunção, Paraguai.",
+        "p2": "A Atómico poderá solicitar comprovantes ou informações adicionais para verificar a veracidade do pedido de cancelamento e das informações fornecidas pelo Usuário. A verificação é realizada para proteger os direitos e ativos do Usuário e, de forma alguma, limitará ou restringirá o direito do Usuário de solicitar o cancelamento do serviço. Uma vez que essa solicitação seja considerada válida, a Atómico procederá com a exclusão das credenciais de acesso aos Serviços. O número do documento e o e-mail associados ao Usuário permanecerão bloqueados, de modo que nenhuma outra pessoa poderá criar uma nova Conta com esses parâmetros.",
+        "p3": "Tanto o Usuário quanto a Atómico poderão, a qualquer momento, encerrar este contrato por justa causa. O Usuário poderá encerrar o contrato solicitando à Atómico, pelos meios de notificação previstos nestes T&C ou pelos meios disponíveis através da Plataforma, o encerramento de sua Conta. A Atómico somente procederá ao fechamento da Conta caso ela tenha saldo positivo ou equivalente a zero. Se o Usuário receber créditos periódicos de maneira automática, por qualquer motivo, entende e concorda que não é possível para a Atómico antecipar nenhum desses créditos e que qualquer crédito posterior ao pedido de fechamento da Conta deverá ser reprogramado com o terceiro com quem o Usuário tenha acordado esses créditos ou, alternativamente, cancelado sem direito a indenização.",
+        "p4": "O saldo positivo na Conta deverá ser retirado pelo Cliente antes do fechamento da Conta. Caso haja saldo positivo no momento do fechamento, ele será liquidado e entregue ao Usuário através do meio selecionado pelo Usuário e informado à Atómico ou por um dos meios que o Usuário tenha utilizado anteriormente para sacar ativos digitais. Não será possível proceder ao fechamento da Conta caso haja saldo que não possa ser devolvido ao Usuário por qualquer motivo alheio à Atómico.",
+        "p5": "O Usuário autoriza a Atómico a cobrar qualquer juro, custo e/ou despesa aplicável no momento da rescisão ou do fechamento da Conta."
+      },
+      "informacion punto 12": {
+        "p1": "O Usuário reconhece que todo serviço através do qual se armazenem ativos digitais apresenta um objetivo atraente para golpistas e hackers. Enquanto a Atômico toma medidas razoáveis comuns para sua indústria, para garantir a segurança dos fundos e dos ativos digitais do Usuário, sua segurança em uma Conta específica também depende das medidas de segurança que o próprio Usuário adote em relação aos dispositivos e ao modo como acessa sua Conta.",
+        "p2": "A Atômico promove ao Usuário a importância da força da senha escolhida e também oferece ao Usuário a possibilidade de acessar sua Conta por meio de um duplo fator de autenticação (“2FA”) que aumenta significativamente a segurança de acesso à Conta. Em linha com o estabelecido nestes T&C, a Atômico assume que qualquer modificação e movimento em uma Conta, mediante login prévio, foi efetuado pelo Usuário, pelo que o Usuário reconhece e aceita ser o exclusivo responsável pelo uso de sua Conta e pelas consequências e danos diretos e indiretos que dele derivem.",
+        "p3": "Caso o Usuário esqueça ou perca sua senha, poderá recuperá-la pelos meios disponíveis através da Plataforma, em caso contrário deverá contatar a Atômico no endereço support@atomico3.io.",
+        "p4": "O Usuário aceita, entende e reconhece que a Atômico, em nenhum caso, tem acesso ou conhecimento da senha que o Usuário escolheu no momento da criação ou recuperação da Conta, pois a mesma está criptografada sob rígidos protocolos de segurança.",
+        "p5": "A Atômico fará o possível para manter a confidencialidade e segurança dos Usuários, mas não será responsável por prejuízos que possam derivar da violação dessas medidas por terceiros que utilizem redes públicas ou a Internet para acessar essas informações ou nos casos em que haja culpa ou negligência do Usuário."
+      },
+      "informacion punto 13": {
+        "p1": "O Usuário reconhece que a Atômico não concede, por si mesma, créditos de nenhum tipo."
+      },
+      "informacion punto 14": {
+        "p1": "A Atômico poderá modificar a qualquer momento estes T&C. O Usuário será notificado dessas modificações através da publicação dos novos T&C na Plataforma. O Usuário aceita que o acesso ou uso da Plataforma após a modificação constitui aceitação integral dos novos T&C; caso discorde dos novos T&C, o Usuário deverá deixar de acessar ou usar a Plataforma. Em caso de modificações a características essenciais do Serviço, o Usuário será notificado através da publicação dos novos T&C na Plataforma e terá a possibilidade de aceitar ou não os mesmos. Caso não aceite os novos T&C e seja necessário o consentimento do Usuário para a prestação dos Serviços, será procedido à desativação parcial ou total do acesso aos Serviços e/ou ao encerramento da Conta."
+      },
+      "informacion punto 15": {
+        "p1": "Todo o conteúdo da Plataforma, incluindo, mas não limitado a, design das telas, materiais promocionais, marcas, nomes comerciais, sinais distintivos, textos, gráficos, logotipos, imagens, ícones, botões, vídeos, sons, música, bancos de dados, código-fonte, software e combinações de cores ('Conteúdo'), é de titularidade da Atômico ou de seus licenciadores. O Conteúdo não poderá ser reproduzido, modificado, transformado, editado, traduzido, cedido, distribuído, representado, comercializado, comunicado publicamente, armazenado, utilizado para fins distintos dos previstos nestes T&C, nem ser objeto de obras derivadas, sem autorização prévia e por escrito do titular dos direitos.",
+        "p2": "O fato de que o Usuário possa acessar a Plataforma não lhe confere licença, direito nem titularidade alguma sobre os direitos de propriedade industrial ou intelectual sobre a totalidade nem sobre parte alguma do Conteúdo. Somente se concede aos Usuários, sobre a Plataforma e sobre o Conteúdo, uma licença não exclusiva, revogável e limitada para acessar e usar a Plataforma conforme estes T&C.",
+        "p3": "Caso o Usuário considere que na Plataforma ou no Conteúdo haja violação de algum direito de propriedade intelectual de terceiros, deverá notificar a Atômico no endereço indicado nestes T&C, acompanhando todas as informações e documentação necessárias que fundamentem a mencionada consideração."
+      },
+      "informacion punto 16": {
+        "p1": "O Usuário aceita que a Atômico poderá, a qualquer momento e sem necessidade de pré-aviso, interromper, suspender, descontinuar, eliminar ou modificar a Plataforma e qualquer produto ou Serviço oferecido, mediante decisão fundamentada.",
+        "p2": "A Atômico não será responsável pela insolvência das entidades financeiras nas quais a Atômico mantenha os fundos em moeda local das contas, nem pela insolvência de terceiros cujos serviços tenham sido contratados pela Atômico para prestar seus Serviços."
+      },
+      "informacion punto 17": {
+        "p1": "Os funcionários da Atômico e/ou de suas Afiliadas poderão utilizar a Plataforma seguindo estritamente estes T&C e estão sujeitos a estes T&C nas mesmas condições que qualquer outro Usuário. Entender-se-á que esses fazem uso da Plataforma para fins pessoais e sob nenhuma hipótese em nome da Atômico nem de nenhuma de suas Afiliadas. Por este motivo, nem a Atômico nem nenhuma de suas Afiliadas se responsabilizam pelas operações que esses realizem na Plataforma. Para utilizar a Plataforma, os funcionários da Atômico e/ou de suas Afiliadas devem se registrar informando seu e-mail e endereço pessoais e, em nenhum caso, deverão se registrar ou usar a Plataforma utilizando o e-mail e/ou endereço da Atômico e/ou de suas Afiliadas."
+      },
+      "informacion punto 18": {
+        "intro": "Os Usuários da Plataforma sabem e aceitam que Atômico pode utilizar sistemas e serviços de rastreamento e tecnologias similares ou que cumpram uma função semelhante, como as que são listadas a seguir de forma não exaustiva:",
+        "t1": "Cookies:",
+        "t1 p1": "são pequenos arquivos que podem ser instalados no dispositivo de armazenamento do computador ou dispositivo utilizado pelo Usuário da Plataforma, com duração limitada que ajudam a personalizar os serviços. Além disso, Atômico pode oferecer certas funcionalidades que só estarão disponíveis por meio do uso de cookies.",
+        "t1 p2": "Os cookies são usados para conhecer os interesses, o comportamento e a demografia de quem visita ou utiliza a Plataforma e, dessa forma, compreender melhor suas necessidades e interesses e oferecer um serviço melhor ou fornecer informações relacionadas. Atômico também pode usar as informações obtidas através dos cookies para analisar as páginas visitadas pelo Usuário ou visitante, bem como suas buscas realizadas, para melhorar e personalizar iniciativas comerciais e promocionais, realizar notícias, publicidade ou promoções, banners de interesse e aprimorar sua oferta de conteúdos; também poderá utilizar cookies para contabilizar e verificar os registros e níveis de validação, além de promover e garantir as regras e segurança da Plataforma.",
+        "t1 p3": "Atômico também pode adicionar cookies em seus e-mails para medir a eficácia de suas promoções e campanhas publicitárias. Estabelece-se que a instalação, permanência e existência dos cookies no computador ou dispositivo do Usuário ou visitante depende de sua exclusiva vontade e pode ser eliminada de seu computador ou dispositivo quando desejar. Para saber como remover os cookies do sistema, é necessário revisar as configurações do seu navegador.",
+        "t2": "Registro de endereços de protocolo de internet:",
+        "t2 p1": "Atômico pode utilizar um sistema de registro de endereços de protocolo de internet que permite conhecer a localização dos Usuários para oferecer um melhor serviço e fornecer informações relacionadas a ela, além de melhorar e personalizar iniciativas comerciais e promocionais, realizar notícias, publicidade ou promoções, banners de interesse, aprimorar sua oferta de conteúdos e artigos e, por outro lado, promover e garantir as regras e segurança da Atômico. Ao acessar a Plataforma, o Usuário sabe e aceita que tal sistema possa ser utilizado.",
+        "t3": "Single pixel:",
+        "t3 p1": "é uma imagem eletrônica (também chamada de pixel transparente) colocada no código de uma página web com finalidades semelhantes aos cookies. Adicionalmente, um single pixel é usado para medir padrões de tráfego dos Usuários para outro, com o objetivo de maximizar o fluxo de tráfego através da web. O Usuário sabe e aceita que Atômico pode usar um sistema de rastreamento por meio da utilização de single pixel."
+      },
+      "informacion punto 19": {
+        "p1": "Atômico oferece dentro da Plataforma a possibilidade de que Usuários registrados e completamente validados com o nível requerido possam enviar (“Usuário Ordenante”), fora da blockchain (off-chain), ativos digitais a outros Usuários registrados e completamente validados com o nível requerido (“Usuário Receptor” ou, no plural, “Usuários Receptores”), sem custo (o “Serviço TAG”).",
+        "p2": "Os Usuários reconhecem e aceitam que as operações realizadas através do Serviço TAG não serão registradas na blockchain e só poderão ser efetuadas entre Usuários da Plataforma na República Argentina.",
+        "p3": "Para poder utilizar o Serviço TAG, Atômico atribuirá a cada Usuário um alias único visível apenas por cada Usuário, para que o Usuário possa compartilhá-lo com outro Usuário para realizar uma transferência de ativos digitais.",
+        "p4": "O Usuário Ordenante deverá carregar, previamente, em sua lista o Usuário Receptor ao qual pretende realizar a transferência. O limite máximo de Usuários Receptores que podem ser carregados estará estabelecido na seção correspondente.",
+        "p5": "O Usuário Ordenante pode realizar uma instrução de envio, detalhando a quantidade específica do ativo digital que deseja remeter e deverá escolher, na lista dos pré-carregados, o Usuário Receptor ao qual deseja enviar o ativo digital (a “Instrução TAG”). Para realizar tal Instrução TAG, o Usuário Ordenante deverá ter quantidade suficiente do ativo digital selecionado. Quando o Usuário Ordenante confirmar a Instrução TAG, a quantidade do ativo digital selecionado ficará afetada à execução da Instrução TAG sem que possa ser usada para outro fim.",
+        "p6": "A execução da operação pode durar até 48 (quarenta e oito) horas.",
+        "p7": "Executada a Instrução TAG, Atômico procederá a debitar da conta do Usuário Ordenante a quantidade do ativo digital que foi remetido conforme à Instrução TAG e a creditar na conta do Usuário Receptor.",
+        "p8": "Não será possível executar parcialmente uma Instrução TAG.",
+        "p9": "Cancelamento. No caso de Instruções TAG iniciadas, o Usuário Ordenante só poderá cancelá-las antes de sua execução. Uma vez que sua Instrução TAG tenha sido executada, o Usuário Ordenante não poderá alterá-la, revogá-la ou cancelá-la. Se a Conta do Usuário Ordenante não tiver quantidade suficiente de ativos digitais para executar uma Instrução TAG, Atômico cancelará a instrução TAG.",
+        "p10": "Comissões. Não serão cobradas comissões pelas operações realizadas através do Serviço TAG. No entanto, Atômico se reserva o direito de cobrar comissões pelo Serviço TAG e, neste caso, estas poderão, a critério de Atômico, ser atualizadas a qualquer momento, com notificação ao Usuário pelos canais de comunicação estabelecidos nestes T&C. As comissões atualizadas serão aplicadas a qualquer operação que ocorrer após a data de entrada em vigor dessas. Você autoriza Atômico a deduzir de sua conta qualquer comissão aplicável de acordo com estes Termos.",
+        "p11": "Limites. Os limites diários, mensais e anuais de quantidade de operações do Serviço TAG estarão estabelecidos na seção correspondente da Plataforma. Da mesma forma, os limites mínimos e máximos de quantidade de ativos digitais do Serviço TAG estarão estabelecidos na seção correspondente da Plataforma."
+      },
+      "informacion punto 20": {
+        "20.1 p1": "Atômico oferece dentro da Plataforma um serviço de troca entre ativos digitais denominado Swap (“Swap”).",
+        "20.1 p2": "O Usuário pode ordenar à Atômico uma instrução de troca de uma quantidade específica de um ativo digital ou moeda de curso legal por outro ativo digital (a 'Instrução Swap'). Atômico colocará à disposição do Usuário a cotação correspondente para realizar a Instrução Swap durante 15 (quinze) segundos. Para executar a Instrução Swap, o Usuário deverá ter (i) a quantidade suficiente do montante especificado do ativo digital selecionado e (ii) o valor referente às comissões ou custos no ativo digital selecionado, que se apliquem à Instrução Swap, se houver.",
+        "20.1 p3": "Para que a execução do Swap aconteça, o Usuário deverá confirmar a Instrução Swap e, uma vez que o Usuário confirme, a quantidade especificada do ativo digital selecionado ficará afetada à execução da Instrução Swap sem que possa ser usada para outro fim.",
+        "20.1 p4": "A Instrução Swap será executada apenas sobre a quantidade especificada pelo Usuário na Instrução Swap. A execução da Instrução Swap será feita imediatamente após a confirmação pelo Usuário, salvo erro ou problema que seja responsabilidade do Usuário.",
+        "20.1 p5": "Uma vez executada a Instrução Swap, Atômico procederá a debitar da conta do Usuário o saldo correspondente à quantidade do ativo digital indicado para trocar e creditará na mesma o saldo do ativo digital escolhido para receber. As operações realizadas não serão registradas na blockchain.",
+        "20.2": "Cancelamento. O Usuário não poderá alterar, revogar ou cancelar uma Instrução Swap após confirmação. Se sua Conta não tiver quantidade suficiente de ativos digitais para executar uma Instrução Swap ou para pagar as comissões ou custos correspondentes à Instrução Swap, Atômico não permitirá ou cancelará a Instrução Swap.",
+        "20.3": "Comissões. O Usuário se compromete a pagar à Atômico as comissões informadas na Plataforma. As Comissões poderão, a critério de Atômico, ser atualizadas a qualquer momento, com notificação ao Usuário pelos canais de comunicação estabelecidos nestes T&C. As comissões atualizadas serão aplicadas a qualquer operação que ocorrer após a data de entrada em vigor dessas. O Usuário autoriza Atômico a deduzir de qualquer operação a comissão aplicável conforme estes T&C.",
+        "20.4": "Limites. A instrução Swap só será confirmada e executada se a quantidade especificada pelo Usuário corresponder aos limites mínimos e máximos estabelecidos pela Atômico e indicados na Plataforma para a realização de Swaps."
+      },
+      "informacion punto 21": {
+        "21.1": "Os cartões pré-pagos (o “Cartão Pré-pago”, no plural “Cartões Pré-pagos”) são oferecidos na Plataforma.",
+        "21.2": "Caso o titular de um Cartão Pré-pago (“Titular do Cartão”) realize compras com seu Cartão Pré-pago utilizando o ativo digital AT3, receberá em sua Conta uma quantidade de ativo digital AT3, equivalente a 2% (dois por cento) do valor da referida compra. No caso de compras realizadas com o Cartão sem que o saldo em guaranis (utilizado para cobrir o pagamento da compra) venha da venda de ativos digitais, a Atómico poderá aplicar um 'Cashback Reduzido' de 0,5% (0,5 por cento). As demais condições do Cashback e do Cashback Reduzido são idênticas, diferindo apenas na porcentagem reconhecida pela Atómico ao Titular do Cartão. Para determinar a quantidade de cashback que o Titular do Cartão receberá por sua compra, a Atómico utilizará a cotação de Compra desse ativo digital em pesos argentinos vigente na Plataforma no momento da compra (o “Cashback”). A Atómico creditará o Cashback na Conta até 48 (quarenta e oito) horas úteis após sua realização.",
+        "21.3": "Caso as compras no exterior sejam habilitadas para serem realizadas com o Cartão Pré-pago, se o consumo que originou o Cashback for realizado em uma moeda diferente do guarani, a VISA ou MASTER fará a conversão para guaranis para determinar o valor a ser pago. Será utilizado esse valor em pesos argentinos para definir o Cashback a ser creditado ao Titular do Cartão, conforme estipulado no parágrafo anterior.",
+        "21.4": "As seguintes operações não aplicam nem geram Cashback:",
+        "21.4 i": "carregamento de saldo em carteiras digitais, exchanges ou qualquer outro comércio.",
+        "21.4 ii": "impostos, taxas, alíquotas, adicionais e/ou qualquer outro custo relacionado às compras realizadas.",
+        "21.4 iii": "qualquer uso do Cartão Pré-pago que constitua mau uso, uso fraudulento ou uso contrário a estes Termos, a critério exclusivo da Atómico.",
+        "21.5": "O Cashback e as promoções estarão limitados conforme os seguintes parâmetros:",
+        "21.5 p1": "Serão pagos por mês calendário até o equivalente a R$ 300.000 (trezentos mil guaranis) para cada Titular do Cartão. Os valores das operações serão considerados por mês calendário e os valores das operações de um mês não serão acumulados para os meses seguintes.",
+        "21.5 p2": "Promoções:",
+        "21.5 p3": "Promoção “mais Cashback”",
+        "21.5 p4": "A promoção estará vigente de 23/04/2024 até 30/06/2024 (“Período de Vigência”). Com esta promoção, será creditado mais Cashback para todos os Titulares do Cartão que pagarem seus consumos com seus Cartões Pré-pagos nos seguintes estabelecimentos e dias:",
+        "21.5 p5": "No aplicativo móvel PedidosYa®, um Cashback total de 4% todas as sextas-feiras durante o Período de Vigência.",
+        "21.5 p6": "No aplicativo móvel BOLT®, um Cashback total de 5% todas as quartas-feiras e sábados durante o Período de Vigência.",
+        "21.5 p7": "Nos estabelecimentos Mc Donald’s®, um Cashback total de 4% todas as segundas-feiras durante o Período de Vigência.",
+        "21.5 p8": "Nos estabelecimentos Burger King®, um Cashback total de 4% todas as segundas-feiras durante o Período de Vigência.",
+        "21.5 p9": "Nos estabelecimentos Farmacenter®, um Cashback total de 4% todas as terças-feiras durante o Período de Vigência.",
+        "21.5 p10": "Nos postos de combustível SHELL®, um Cashback total de 4% todas as quintas-feiras durante o Período de Vigência.",
+        "21.5 p11": "Nos estabelecimentos Starbucks®, um Cashback total de 4% todos os sábados durante o Período de Vigência.",
+        "21.5 p12": "Nos estabelecimentos Café Martinez®, um Cashback total de 4% todos os sábados durante o Período de Vigência.",
+        "21.5 p13": "Nos supermercados BIGGIE®, um Cashback total de 4% todos os domingos durante o Período de Vigência.",
+        "21.5 p14": "Nos supermercados SUPERSEIS®, um Cashback total de 4% todos os domingos durante o Período de Vigência.",
+        "21.5 p15": "Esta Promoção é aplicável apenas para compras realizadas no território da República Argentina, utilizando os Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p16": "Aplicam-se os limites estipulados nestes Termos e Condições.",
+        "21.5 p17": "A Promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p18": "A Atómico poderá modificar a qualquer momento o Cashback da Promoção, inclusive eliminá-lo, sem necessidade de aviso prévio ao Usuário. A Atómico informará sobre essa modificação ou eliminação aos Usuários na Plataforma, assim que ocorrer. A modificação ou eliminação não concederá ao Usuário o direito de reclamar à Atómico por qualquer motivo.",
+        "21.5 p19": "Promoção “Descontos”",
+        "21.5 p20": "A promoção estará vigente de 23/04/2024 até 30/06/2024 (“Período de Vigência”). Com esta promoção, serão realizados os descontos informados abaixo, para todos os Titulares do Cartão que pagarem seus consumos com seus Cartões Pré-pagos nos seguintes estabelecimentos e dias:",
+        "21.5 p21": "Na MAPFREAssistance®, 25% de desconto todos os dias durante o Período de Vigência.",
+        "21.5 p22": "Na Universidade Nacional de Assunção, 15% em todos os cursos, todos os dias durante o Período de Vigência.",
+        "21.5 p23": "Na Universidade Católica de Assunção, 25% em todos os “cursos cripto” (relacionados com ativos digitais conforme determinado pela Universidade), todos os dias durante o Período de Vigência.",
+        "21.5 p24": "Na Samsung®, 15% de desconto, todos os dias durante o Período de Vigência.",
+        "21.5 p25": "Esta Promoção é aplicável apenas em compras realizadas no Território da República Argentina por meio dos Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p26": "Aplicam-se os limites estipulados nestes Termos e Condições.",
+        "21.5 p27": "A Promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p28": "Atômico pode modificar a Promoção a qualquer momento, incluindo cancelá-la, sem necessidade de aviso prévio ao Usuário. Atômico informará essa modificação ou eliminação aos Usuários na Plataforma, assim que ocorrer. A modificação ou eliminação não concederá ao Usuário o direito de reclamar a Atômico por qualquer motivo.",
+        "21.5 p29": "Promoção de 5% de cashback pagando com “Go Cuotas”",
+        "21.5 p30": "A promoção estará vigente de 1 de fevereiro de 2024 até 31 de agosto de 2024.",
+        "21.5 p31": "Por meio desta promoção, será creditado o total de 5% (cinco por cento) de Cashback, a todos os Titulares de Cartão que pagarem suas compras com seus Cartões Pré-pagos em “Go Cuotas” qualquer dia da semana, durante o período de vigência indicado.",
+        "21.5 p32": "O Cashback será creditado apenas para cada débito realizado por este comércio. Caso existam débitos futuros pendentes, esses serão creditados posteriormente quando esses débitos forem efetivados, caso a Promoção continue vigente.",
+        "21.5 p33": "Esta promoção é aplicável apenas em compras realizadas no Território da República Argentina por meio dos Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p34": "Aplicam-se os limites estipulados nos Termos e Condições do Cartão Pré-pago.",
+        "21.5 p35": "A promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p36": "Atômico pode modificar a Promoção a qualquer momento, incluindo cancelá-la, sem necessidade de aviso prévio ao Usuário. A modificação ou eliminação não concederá ao Usuário o direito de reclamar a Atômico por qualquer motivo.",
+        "21.5 p37": "Desconto de 5% no “Shell Box” - Esta promoção é aplicável apenas em compras realizadas no Território da República Argentina.",
+        "21.5 p38": "Atômico realizará o desconto equivalente a 5% do valor da compra de combustível “Shell V-POWER” nas Estações de Serviço aderidas ao “Shell Box” de todo o país, desde que seja realizado por meio do aplicativo Shell Box com o Cartão Pré-pago, às quartas-feiras, com um limite de reembolso de até R$ 30.000 (trinta mil reais) por mês.",
+        "21.5 p39": "Este limite é compartilhado com outros benefícios concedidos pelo cartão pré-pago vigentes.",
+        "21.5 p40": "O reembolso não se aplica para a compra de outros combustíveis, lubrificantes ou compras nas lojas de conveniência (“Shell Shops” e “Shell Select”).",
+        "21.5 p41": "A promoção estará vigente de 15 de maio de 2024 até 31 de março de 2024.",
+        "21.5 p42": "Esta promoção é aplicável apenas em compras realizadas no Território da República Argentina por meio dos Cartões Pré-pagos físicos ou virtuais.",
+        "21.5 p43": "Aplicam-se os limites estipulados nos Termos e Condições do Cartão Pré-pago.",
+        "21.5 p44": "A promoção não é acumulável com outras promoções e não é transferível.",
+        "21.5 p45": "Atômico pode modificar a Promoção a qualquer momento, incluindo cancelá-la, sem necessidade de aviso prévio ao Usuário. A modificação ou eliminação não concederá ao Usuário o direito de reclamar a Atômico por qualquer motivo.",
+        "21.5 p46": "Caso alguma das Promoções ou Descontos anteriores seja aplicável de forma acumulativa com uma promoção definida pela VISA, devem ser observados os próprios termos estipulados em",
+        "21.5 p46 link": "https://www.visa.com.ar/es_ar/promociones/",
+        "21.6": "Conforme indicado na cláusula 9.4.10., se uma compra for realizada com o Cartão Pré-pago ATOMICO3 tendo selecionado AT3 como meio de pagamento, Atômico procederá à venda da quantidade necessária do ativo digital selecionado para obter os pesos argentinos correspondentes para realizar o pagamento do valor indicado pelo Comércio. Para essa venda, Atômico usará o valor de venda do ativo no momento da operação. Atômico cobrará do usuário a comissão correspondente a uma venda de ativo digital. Em caso de compra em moeda estrangeira ou no exterior, tendo selecionado algum dos ativos digitais como meio de pagamento, Atômico procederá, além da comissão pela venda indicada, à cobrança de um custo fixo estipulado pela VISA.",
+        "21.6 p1": "Esse custo dependerá do valor da transação a ser considerado no equivalente em dólares americanos (“USDT”), e será aplicado assim que a transação for aprovada.",
+        "21.6 p2": "Nível 1 - de 0,01 a 5 USD - Custo fixo: 0,11 USD",
+        "21.6 p3": "Nível 2 - de 5,01 a 15 USD - Custo fixo: 0,18 USD",
+        "21.6 p4": "Nível 3 - de 15,01 a 50 USD - Custo fixo: 0,24 USD",
+        "21.6 p5": "Nível 4 - 50,01 USD ou mais - Custo fixo: 0,54 USD"
+      },
+      "informacion punto 22": {
+        "p1": "Caso uma ou mais cláusulas destes T&C sejam declaradas nulas por qualquer autoridade ou órgão judicial competente, tal nulidade não afetará a validade das cláusulas restantes, que manterão sua plena vigência e efeito.",
+        "p2": "O Usuário entende e aceita que qualquer falta de ação por parte da Atómico em relação ao descumprimento ou violação por parte do Usuário de uma ou mais disposições destes T&C não implica na concordância da Atómico com tal atitude, nem impede que a persiga ou que, no futuro, persiga outra violação idêntica ou similar. Além disso, o Usuário entende e aceita que o fato de qualquer funcionalidade da Plataforma estar efetivamente disponível, embora não mencionada nestes T&C, não dará ao Usuário o direito ao manter a funcionalidade nem a qualquer indenização em caso de descontinuação com ou sem aviso prévio."
+      },
+      "informacion punto 23": {
+        "p1": "A Atómico poderá ceder a qualquer uma de suas Afiliadas ou a um terceiro sua posição contratual, este contrato, e/ou qualquer um dos direitos e obrigações decorrentes do mesmo. O Usuário será notificado sobre essa operação.",
+        "p2": "A menos que haja consentimento expresso e por escrito de um representante devidamente autorizado da Atómico, o Usuário não poderá ceder a nenhum terceiro sua posição contratual, este contrato, nem qualquer um dos direitos ou obrigações decorrentes do mesmo."
+      },
+      "informacion punto 24": {
+        "p1": "O Usuário concede seu consentimento expresso para que todas as informações relacionadas com sua qualidade de Usuário, sua Conta e o uso da Plataforma e/ou dos Serviços, sejam notificadas ou informadas para o último e-mail fornecido pelo Usuário, por meio de notificações dentro da Plataforma e/ou por qualquer outro meio que implique uma notificação por meios eletrônicos."
+      },
+      "informacion punto 25": {
+        "p1": "Os T&C estão regidos sem exceção e em todos os seus pontos pelas leis da República do Paraguai e serão interpretados de acordo com elas.",
+        "p2": "Em caso de qualquer divergência, desacordo ou conflito derivado do uso da Plataforma e/ou dos Serviços, ou da interpretação, validade e/ou alcance destes T&C, o Usuário poderá iniciar sua reclamação por meio dos meios previstos na Plataforma, ou, na falta deles, entrar em contato com a Atómico de maneira formal, enviando sua reclamação, para que as partes tentem chegar a um acordo antes de iniciar qualquer reclamação perante a jurisdição que lhe corresponda."
+      },
+      "informacion punto 26": {
+        "p1": "Todas as sugestões, opiniões, queixas e comentários feitos pelo Usuário por qualquer meio poderão ser considerados, implementados, divulgados ou adaptados pela Atómico, sem que isso gere qualquer direito em favor do Usuário que os tenha feito ou proposto."
+      },
+      "informacion punto 27": {
+        "p1": "A Atómico possui um centro de atendimento ao Usuário. Para entrar em contato, o Usuário pode fazê-lo por e-mail para",
+        "p1.1": "e/ou qualquer outro meio disponibilizado pela Atómico para esse fim."
+      },
+      "informacion punto 28": {
+        "p1": "Todas as notificações que devem ser feitas à Atómico pelo acesso ou uso da Plataforma sob estes T&C devem ser feitas por escrito para o seu e-mail ou endereço postal indicados abaixo:",
+        "p2": "Atómico3 S.A",
+        "p3": "RUC: 80144052-1",
+        "p4": "Endereço:",
+        "p5": "Av. Aviadores del Chaco 2351 8º andar, Assunção, República do Paraguai",
+        "p6": "E-mail:",
+        "p7": "support@Atómico3.io"
+      }
+    }
+  },
+  "faqForLaw": {
+    "faqForLaw": "Perguntas frequentes para as forças de segurança"
+  },
+  "cookiesPolicy": {
+    "cookiesPolicy": "Política de Cookies"
+  },
+  "proyectosTokenizacion": {
+    "proyectos de tokenizacion": "Projetos de tokenização",
+    "proyectos de": "Projetos de",
+    "tokenizacion": "Tokenização",
+    "p1": "Nesta seção você encontrará informações sobre lítio, e em breve sobre Projetos de Tokenização",
+    "p2": "Saiba mais",
+    "p3": "Tokenizar meu projeto",
+    "que es el litio": "O que é o lítio?",
+    "p4": "O lítio é um elemento chave na tecnologia moderna e na transição para energias sustentáveis, impulsionando a demanda por baterias para dispositivos eletrônicos e veículos elétricos. Conhecer seu potencial é essencial para entender as tendências de mercado e as oportunidades de investimento.",
+    "p4.1": "Trata-se de um metal macio e prateado, extraído de minerais e salares, com propriedades únicas que o tornam um recurso insubstituível em uma ampla variedade de aplicações industriais.",
+    "p4.2": "Com o crescimento exponencial da demanda por baterias para dispositivos eletrônicos e veículos elétricos, entender o papel do lítio é essencial para quem deseja se manter informado sobre as tendências de mercado e as oportunidades de investimento.",
+    "por que es tan importante el litio": "Por que o lítio é tão importante?",
+    "p5": "O lítio ganhou a denominação de 'ouro branco' do século XXI devido à sua crescente demanda e seu papel essencial na transição para um modelo energético sustentável. Este mineral é a base das baterias de íon-lítio, uma tecnologia essencial para dispositivos eletrônicos, veículos elétricos e sistemas de armazenamento de energia renovável.",
+    "p6": "Em um mundo que avança na redução da dependência de combustíveis fósseis, o lítio se destaca como um recurso essencial para armazenar e gerenciar energia de maneira eficiente, permitindo seu uso quando necessário.",
+    "p7": "Nesse contexto, respaldar nossa criptomoeda no valor e nas reservas de lítio representa uma oportunidade única de investimento. Não apenas permite que nossos usuários participem do ecossistema financeiro digital, mas também vincula seu investimento a um recurso estratégico cujo valor continuará a aumentar à medida que a demanda global por soluções energéticas sustentáveis continue crescendo. Ao adquirir essa criptomoeda, nossos usuários se tornam parte de uma visão inovadora e responsável, alinhada com um futuro mais sustentável e tecnologicamente avançado."
+    ,
+      "noticias": "Notícias sobre o Lítio",
+      "p8": "Explore as últimas tendências e novidades no mundo do lítio, e mantenha-se atualizado com as novidades mais relevantes que estão moldando o futuro dessa indústria",
+      "p9": "Ler mais notícias",
+      "n1": "Qual é o mineral que poderia alcançar US$ 8.700 milhões em exportações até 2030",
+      "n2": "Aumento do preço do lítio impulsiona a criptomoeda Atómico3 como opção de investimento sólido",
+      "n3": "A concretização de projetos que estavam demorando começaria a se reativar após o aumento regional no preço do lítio"
+      
+  }
+ 
+}

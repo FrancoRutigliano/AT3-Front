@@ -1,0 +1,97 @@
+{
+    "cookiesPolicy": {
+        "cookiesPolicy": "Política de Cookies",
+        "titles": {
+            "indice": "Índice",
+            "title1": "¿Controla Atomico3.io la red Atomico3 u otra red de activos digitales?",
+            "title2": "Tengo una dirección o ID de transacción de Atomico. ¿Puede Atomico3.io correlacionar esta información con datos personales identificables del usuario?",
+            "title3": "Tengo el nombre, dirección, número de teléfono u otra información de identificación personal de un individuo. ¿Puede Atomico3.io correlacionar esta información con otros datos personales identificables?",
+            "title4": "¿Puede Atomico3.io congelar o entregar criptomonedas de la billetera de un usuario?",
+            "title5": "¿Qué puede hacer la policía si necesita investigar una billetera sin custodia?",
+            "title6": "¿Cómo puede la policía solicitar información a Atomico3.io?",
+            "title7": "¿Qué ocurre si mi solicitud implica un riesgo inminente de muerte o daño grave?",
+            "title8": "Descargo de responsabilidad"
+        },
+        "documento": {
+            "intro": "Esta Política de Cookies describe los diferentes tipos de cookies que pueden ser aplicadas por Atomico3.io o por organizaciones de terceros en este sitio web o en nuestra aplicación móvil. Si tienes preguntas sobre esta Política de Cookies, por favor contacta ",
+            "informacion punto 1": {
+                "p1": "Las cookies son pequeños archivos de texto que los sitios web que visitas colocan en tu computadora o aplicaciones móviles. Se usan ampliamente para que los sitios web funcionen y también para proporcionar a las organizaciones información sobre ti y tus actividades de navegación.",
+                "p2": "Las cookies tienen varias funciones, como permitirte navegar de manera eficiente en un sitio web o aplicación móvil, recordar tus elecciones y los bienes y servicios que compraste. Gracias a las cookies, nosotros:",
+                "p2.1": "mejoramos el conocimiento que tenemos de ti y tus intereses;",
+                "p2.2": "te ofrecemos contenido específicamente personalizado (por ejemplo, para recordar la elección de idioma que hiciste en nuestro sitio o mostrarte anuncios adaptados a tus necesidades e intereses).",
+                "p3": "Cuando hablamos de 'cookies' también nos referimos a tecnologías similares, como scripts, balizas web, píxeles, huellas digitales y redireccionamientos. Los scripts (a veces llamados etiquetas) son programas que se ejecutan en tu navegador o aplicación móvil y realizan diversas acciones, como enviar información a nuestros servidores.",
+                "p4": "Las cookies pueden ser implementadas por nosotros y también por organizaciones de terceros."
+            },
+            "informacion punto 2": {
+                "p1": "Las cookies nos permiten recopilar datos personales relacionados contigo y transmitirnos información técnica sobre los dispositivos que usas, los clics que haces y el contenido que ves. Combinamos esta información con datos personales que ya nos proporcionaste o que hemos obtenido de fuentes externas (ver nuestra ",
+                "p1.1": "Política de Privacidad",
+                "p1.2": " aquí).",
+                "p2": "Las cookies que colocamos en tu terminal nos dan acceso a los siguientes datos personales relacionados contigo:",
+                "p2.1": "Identificadores de los equipos que usas (dirección IP de tu computadora, identificador de Android, identificador de Apple, etc.);",
+                "p2.2": "Tipo de sistema operativo utilizado por tu terminal (Microsoft Windows, Apple OS, Linux, Unix, etc.);",
+                "p2.3": "Tipo y versión del software de navegador utilizado por tu terminal (Microsoft Internet Explorer, Apple Safari, Mozilla Firefox, Google Chrome, etc.);",
+                "p2.4": "Fechas y horas de conexión a nuestros servicios;",
+                "p2.5": "Dirección de la página de Internet de origen ('referrer');",
+                "p2.6": "Datos de navegación en nuestros servicios, contenido visto;",
+                "p2.7": "Información relacionada con tu uso de nuestros sitios y aplicaciones;",
+                "p2.8": "Información sobre la presencia de cookies en tu terminal, la hora y fecha de visualización de una página, y una descripción de la página donde se coloca la baliza web;",
+                "p2.9": "Información sobre si lees o no los correos electrónicos que te enviamos, sobre los clics que haces en los enlaces contenidos en estos correos electrónicos."
+            },
+            "informacion punto 3": {
+                "p1": "Sí y no. Algunas cookies son necesarias para que nuestro sitio funcione ('Cookies Esenciales'). Sin embargo, para otras, se recopila tu consentimiento antes de que las cookies se implementen en tu terminal.",
+                "p2": "Las Cookies Esenciales permiten que nuestro sitio web/aplicaciones móviles funcionen. Sin ellas, tu experiencia de usuario se vería degradada. Las Cookies Esenciales que implementamos sin tu consentimiento son las siguientes:",
+                "p2.1": "Cookies que registran la elección que expresaste sobre la implementación de cookies;",
+                "p2.2": "Cookies utilizadas para fines de autenticación y para garantizar la seguridad de nuestro mecanismo de autenticación;",
+                "p2.3": "Cookies utilizadas para la personalización de nuestra interfaz de usuario (elección de idioma o presentación de nuestro servicio), cuando dicha personalización es esencial para proporcionarte nuestro servicio;",
+                "p2.4": "Cookies que te permiten iniciar sesión automáticamente en tu cuenta, utilizando identificadores o datos que nos has confiado previamente;",
+                "p2.5": "Cookies que nos permiten asegurar que la visualización de nuestro contenido sea adecuada para tu dispositivo;",
+                "p2.6": "Cookies para recordar tu suscripción a nuestros boletines."
+            },
+            "informacion punto 4": {
+                "p1": "Estas cookies, para las cuales recopilamos tu consentimiento, se utilizan para medir nuestra audiencia, presentarte publicidad personalizada, adaptar el contenido mostrado en nuestro sitio web/aplicación a tus preferencias y permitirte compartir el contenido de nuestro sitio/aplicación en plataformas de redes sociales. Usamos cookies no esenciales para lo siguiente:",
+                "p2": "Optimización de tu navegación en nuestro sitio web y aplicaciones",
+                "p2.1": "Registro de información relacionada con un formulario que has completado en nuestro sitio (registro o acceso a tu cuenta) o a productos, servicios o información que has elegido en nuestro sitio (servicio suscrito, contenido visualizado, compra realizada, etc.);",
+                "p2.2": "Cookies de pruebas A/B, es decir, cookies que nos permiten construir estadísticas de tráfico y pruebas destinadas a medir el rendimiento relativo de diferentes versiones de nuestro sitio web, detectar problemas de navegación en nuestro sitio o aplicación, o incluso organizar el contenido.",
+                "p2.3": "Gestión de nuestras plataformas y realización de operaciones técnicas internas como parte de la resolución de problemas, análisis de datos, pruebas, investigaciones, análisis, estudios y encuestas;",
+                "p2.4": "Cookies que nos permiten mejorar las medidas de seguridad de nuestro sitio web.",
+                "p3": "Medición de audiencia y análisis web",
+                "p3.1": "Establecimiento de estadísticas y volúmenes de visitas y uso de los diversos elementos que componen nuestro sitio (secciones y contenidos visitados, rutas) para mejorar el interés y la ergonomía de nuestros servicios;",
+                "p3.2": "Cálculo del número total de anuncios mostrados por nosotros en nuestros espacios publicitarios, clasificación y estadísticas;",
+                "p3.3": "Análisis de audiencias basado en los resultados de campañas publicitarias;",
+                "p3.4": "Determinación de intereses y comportamientos;",
+                "p3.5": "Mejora del conocimiento del cliente/usuario para fines de personalización.",
+                "p4": "Compartir tus datos personales en plataformas de redes sociales",
+                "p5": "El uso de redes sociales para interactuar con nuestros sitios y aplicaciones (en particular los botones 'me gusta' en Facebook, Twitter) te permite compartir contenido de nuestro sitio en plataformas de redes sociales.",
+                "p6": "Por ejemplo, si estás conectado a la red social Facebook y visitas una página de nuestro sitio, es probable que Facebook recopile esta información. Asimismo, si consultas un artículo en nuestro sitio y haces clic en el botón 'tweet', Twitter recopilará esta información. Por lo tanto, te invitamos a consultar las políticas de privacidad de dichas redes sociales para conocer las recopilaciones y el procesamiento que realizan sobre tus datos."
+            },
+            "informacion punto 5": {
+                "p1": "Sí. Algunas cookies son establecidas por nuestros proveedores de servicios que nos ayudan a alcanzar nuestros objetivos (por ejemplo, Google Tag Manager establece una cookie para ayudarnos a medir nuestra audiencia). A continuación, se muestra la lista actual de terceros que implementan cookies en tu terminal a través de nuestro sitio web/aplicación móvil.",
+                "t1": "Análisis de usuarios del sitio web realizado por Amplitude.",
+                "t2": "Análisis de usuarios del sitio web realizado por CrazyEgg.",
+                "t3": "Detección de bots en la web realizada por CloudFlare.",
+                "t4": "Definición y mantenimiento del idioma preferido del sitio web por el usuario.",
+                "t5": "Identificación de usuarios únicos realizada por Google Analytics.",
+                "t6": "Estas son cookies de rendimiento que utilizamos para recopilar información sobre cómo nuestros visitantes usan el sitio web a través de Google Analytics.",
+                "t7": "Es utilizada por Google AdSense para experimentar con la eficacia de la publicidad.",
+                "t8": "Utilizada para distinguir usuarios por Google Analytics.",
+                "t9": "La cookie NID contiene un ID único que Google utiliza para recordar tus preferencias y otra información, como tu idioma preferido.",
+                "t1.1": "24 horas.",
+                "t2.1": "5 años.",
+                "t3.1": "30 días.",
+                "t4.1": "1 año.",
+                "t5.1": "2 años.",
+                "t6.1": "1 año.",
+                "t7.1": "90 días.",
+                "t8.1": "24 horas.",
+                "t9.1": "6 meses."
+            },
+            "informacion punto 6": {
+                "p1": "Se le pedirá que tome una acción clara y afirmativa para que podamos asegurarnos de que está de acuerdo con el procesamiento de sus datos personales. Esta acción puede, por ejemplo, tomar la forma de una casilla de verificación en su herramienta en línea. Antes de obtener su consentimiento, le informaremos sistemáticamente sobre los nombres de las organizaciones que implementan las cookies, las consecuencias de su consentimiento o rechazo, los propósitos del procesamiento y su derecho a retirar su consentimiento. Puede elegir consentir ciertos usos que nosotros o nuestros socios haremos de sus datos y rechazar otros."
+            },
+            "informacion punto 7": {
+                "p1": "Puede retirar su consentimiento en cualquier momento y de manera fácil. Todo lo que necesita hacer es enviarnos un correo electrónico a ",
+                "p1.1": " Si se niega a darnos su consentimiento para cookies no esenciales, o decide retirarlo, no sufrirá ninguna consecuencia negativa y podrá continuar utilizando el resto de nuestro servicio normalmente."
+            }
+        }
+    }
+}

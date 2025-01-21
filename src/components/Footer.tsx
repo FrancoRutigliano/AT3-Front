@@ -205,7 +205,7 @@ export const Footer = () => {
           <p className='pt-5 text-center text-sm'>
           {t("footer.horarios")}
           </p>
-          <p className="text-xs text-white text-center mt-5">&copy; 2024. Atómico3. {t("footer.todos los derechos reservados")}</p>
+          <p className="text-xs text-white text-center mt-5">&copy; 2024. Atómico3 S.A. {t("footer.todos los derechos reservados")}</p>
         </div>
       </footer>
     </>

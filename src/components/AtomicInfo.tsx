@@ -73,7 +73,7 @@ export const AtomicInfo = () => {
           >
             <img src={energy} alt="Energy" className='w-12' />
             <h2 className="mt-4 text-lg sm:text-xl font-bold text-celeste">{t("atomicInfo.criptoactivo responsable")}</h2>
-            <p class Name="mt-1 text-sm text-black">
+            <p className="mt-1 text-sm text-black">
               {t("atomicInfo.criptoactivo responsable descripcion")}
             </p>
           </a>

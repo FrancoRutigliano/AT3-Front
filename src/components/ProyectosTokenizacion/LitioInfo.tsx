@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useLocation } from "react-router-dom";
-import litio from '../../assets/litio/montañas-litio.webp'
+import litio from '../../assets/litio/montanas-litio.webp'
 import salar from '../../assets/litio/salar-litio.jpg'
 export const LitioInfo = () => {
 

@@ -55,13 +55,13 @@
     "Misión": "Misión",
     "Misión descripcion": "Mejorar la eficiencia y la transparencia del mercado de litio, abrir nuevas oportunidades para inversores y contribuir al desarrollo económico global."
   },
-  "header": {
-    "bienvenido": "Bienvenido a Atómico3",
-    "criptoactivo": "Un criptoactivo respaldado por litio, que fomenta la sostenibilidad, mediante la reducción de emisiones de carbono, a través de incentivos tokenizados.",
-    "feliz primavera": "¡Feliz Primavera!",
-    "comprar token": "Comprar Token",
-    "staking": "staking"
-  },
+    "header": {
+        "bienvenido": "Bienvenido a Atómico3",
+        "criptoactivo": "Nos complace anunciar un paso fundamental para el ecosistema de Atomico3. En colaboración con nuestro socio tecnológico, ZenGate Global, hemos decidido migrar el contrato actual de Atomico3 desde la red Polygon a la red Cardano ZenGate Global está a la vanguardia de la innovación en Cardano, y este movimiento nos permite aprovechar sus capacidades avanzadas para introducir un mecanismo de financiamiento para activos mineros utilizando tecnología de tokens algorítmicos, respaldada por reservas de litio Los actuales poseedores de Atomico3 conservarán su participación en el nuevo contrato basado en Cardano. Este contrato está diseñado para tokenizar activos mineros de manera efectiva, asegurando que la emisión de tokens esté respaldada por dichos activos, mientras opera en una red altamente segura y transparente que protege los intereses de la industria.",
+        "feliz primavera": "¡Feliz Primavera!",
+        "comprar token": "Comprar Token",
+        "staking": "staking"
+    },
   "modal": {
     "feliz primavera descripcion": "El siguiente formulario debe ser completado únicamente por aquellos que hayan comprado AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 7 de Octubre. ",
     "recordatorio descripcion": "Recuerde que aquellos que compren AT3 entre las 0:00 del lunes 23 de septiembre y las 23:59 del 7 de Octubre, para obtener el 5% adicional de la Spring Week deben completar el formulario al cual se accede haciendo click en el botón de 'Feliz Primavera'",

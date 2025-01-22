@@ -3,6 +3,10 @@ import energy from '../assets/energy.png';
 import investors from '../assets/Investors.png';
 import platform from '../assets/platform.png';
 import at3 from '../assets/pruebas/p1.jpeg';
+import partner1 from '../assets/partners/partner1.png'; // Asegúrate de tener estas imágenes
+import partner2 from '../assets/partners/partner2.png';
+import migration1 from '../assets/migration/migration1.png';
+import migration2 from '../assets/migration/migration2.png';
 
 export const AtomicInfo = () => {
   const [t] = useTranslation("global");
@@ -42,26 +46,65 @@ export const AtomicInfo = () => {
             {/* Iframe al lado del texto */}
             <div className="md:w-1/3 mt-8 md:mt-0">
               <h2 className="text-2xl font-bold text-celeste mb-4 text-center">COMPRA ATOMICO 3</h2>
-              <div style={{ 
-                width: '200%', 
-                height: '700px', 
-                border: 'none', 
-                borderRadius: '15px', 
-                backgroundColor: 'transparent', // Hacer el fondo del contenedor transparente
-                overflow: 'hidden' // Asegurarse de que no haya desbordamiento
+              <div className="relative" style={{ 
+                width: '150%', 
+                height: '20', 
+                paddingBottom: '200%', // Ajusta la relación de aspecto según sea necesario
+                borderRadius: '35px', 
+                overflow: 'hidden' 
               }}>
                 <iframe
-                  src="https://atomico3swap.vercel.app/"
+                  src="https://atomico5desc.vercel.app/"
                   title="Atomico3 Swap"
                   style={{
+                    position: 'absolute',
+                    top: '0',
+                    left: '0',
                     width: '100%',
                     height: '100%',
                     border: 'none',
-                    borderRadius: '15px',
-                    backgroundColor: 'transparent', // Hacer el fondo del iframe transparente
+                    borderRadius: '35px',
+                    backgroundColor: 'transparent',
                   }}
+                  allow="ethereum" // Permitir interacciones con MetaMask
                 />
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Sección de MIGRACIÓN A */}
+        <div className="mt-20 px-4">
+          <h2 className="text-3xl font-bold text-celeste text-center mb-8">MIGRACIÓN A</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="flex flex-col items-center">
+              <img src={migration1} alt="Migración 1" className="w-48 mb-4" />
+              <p className="text-center text-black text-lg">{t("ZENGATE")}</p>
+              <p className="text-center text-black text-sm">{t("Una empresa líder en tecnología")}</p>
+              <p className="text-center text-black text-sm">{t("que crea soluciones empresariales para empresas y gobiernos en todo el mundo")}</p>
+              <p className="text-center text-black text-sm">{t("Su producto principal es la Plataforma Palmyra")}</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={migration2} alt="Migración 2" className="w-48 mb-4" />
+              <p className="text-center text-black text-lg">{t("CARDANO")}</p>
+              <p className="text-center text-black text-sm">{t("Una plataforma blockchain para innovadores y visionarios")}</p>
+              <p className="text-center text-black text-sm">{t("que proporciona las herramientas y tecnologías")}</p>
+              <p className="text-center text-black text-sm">{t("necesarias para crear posibilidades para muchos")}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Sección de PARTNERS */}
+        <div className="mt-20 px-4">
+          <h2 className="text-3xl font-bold text-celeste text-center mb-8">PARTNERS</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div className="flex flex-col items-center">
+              <img src={partner1} alt="Partner 1" className="w-48 mb-4" />
+              <p className="text-center text-black text-lg">{t("CAMARA LATINOAMERICANA DE LITIO")}</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={partner2} alt="Partner 2" className="w-48 mb-4" />
+              <p className="text-center text-black text-lg">{t("MERCADO DE METALES")}</p>
             </div>
           </div>
         </div>

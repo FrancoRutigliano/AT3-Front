@@ -54,8 +54,8 @@ export const AtomicInfo = () => {
                 overflow: 'hidden' 
               }}>
                 <iframe
-                  src="https://atomico5desc.vercel.app/"
-                  title="Atomico3 Swap"
+                  src="https://at3staking.vercel.app/"
+                  title="Atomico3 Stake"
                   style={{
                     position: 'absolute',
                     top: '0',

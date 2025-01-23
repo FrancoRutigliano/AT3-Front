@@ -1,30 +1,48 @@
-# Etapa 1: Construcción
-FROM node:20.12.1 AS builder
+# Etapa de construcción
+FROM node:18.19-alpine AS builder
 
-# Establece el directorio de trabajo
+# Establecer variables de entorno
+ENV NODE_ENV=production
+ENV CI=true
+
+# Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copia los archivos de configuración y las dependencias
+# Instalar dependencias de compilación
+RUN apk add --no-cache python3 make g++
+
+# Copiar archivos de configuración
 COPY package*.json ./
 COPY tsconfig.json ./
+COPY vite.config.ts ./
+COPY postcss.config.js ./
+COPY tailwind.config.js ./
 
-# Instala las dependencias
-RUN npm install
+# Instalar dependencias
+RUN npm ci --quiet
 
-# Copia el resto de los archivos del proyecto
-COPY . .
+# Copiar el código fuente
+COPY src/ ./src/
+COPY public/ ./public/
 
-# Construye la aplicación para producción
-RUN npm run build
+# Construir la aplicación
+RUN npm run build || (cat /root/.npm/_logs/*-debug.log && exit 1)
 
-# Etapa 2: Producción
-FROM nginx:alpine AS production
+# Etapa de producción
+FROM nginx:alpine
 
-# Copia los archivos estáticos de la etapa de construcción al contenedor final
+# Copiar la configuración de nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copiar los archivos construidos
 COPY --from=builder /app/dist /usr/share/nginx/html
 
-# Exponer el puerto 3000
+# Establecer permisos correctos
+RUN chown -R nginx:nginx /usr/share/nginx/html && \
+    chmod -R 755 /usr/share/nginx/html
+
+# Exponer puerto
 EXPOSE 3000
 
-# Comando por defecto para iniciar Nginx
+# Iniciar nginx
 CMD ["nginx", "-g", "daemon off;"]
